@@ -1,0 +1,8 @@
+# Local Python installation residue. The required package/version is recorded
+# in requirements-cad.txt; no dependency binaries belong in the repository.
+.python_deps/
+
+# Python bytecode and Blender automatic backup.
+__pycache__/
+*.pyc
+*.blend1

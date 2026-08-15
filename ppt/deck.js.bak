@@ -1,0 +1,865 @@
+'use strict';
+/**
+ * deck.js — locked-geometry deck engine for pptxgenjs.
+ *
+ * The engine owns every coordinate. Callers supply content and pick rects out of
+ * split()/zones(); they never type x/y/w/h. That is what keeps slides from drifting.
+ *
+ * Requires: npm i pptxgenjs
+ */
+
+const PptxGenJS = require('pptxgenjs');
+
+// ─── Tokens ────────────────────────────────────────────────────────────────────
+const PALETTE = {
+
+  primary: '0F62FE',
+  ink: '161616',
+  inkMuted: '525252',
+  inkSubtle: '8C8C8C',
+  canvas: 'FFFFFF',
+  surface1: 'F4F4F4',
+  surface2: 'E8E8E8',
+  hairline: 'E0E0E0',
+  invInk: 'FFFFFF',
+  invInkMuted: 'C6C6C6',
+  invCanvas: '161616',
+  invSurface: '262626',
+  invHairline: '393939',
+};
+
+/**
+ * Themes change palette, corner radius, and shadow — never geometry.
+ * The five zones, GAP, and HDR_H are identical across every theme, so a deck
+ * can be re-themed without re-laying-out a single slide.
+ *
+ * radius values are INCHES. pptxgenjs documents `rectRadius` as "0 to 1", but
+ * the generator computes adj = rectRadius × EMU × 100000 / min(w,h), which makes
+ * the rendered radius exactly `rectRadius` inches. Verified against the source.
+ * 'pill' resolves to min(w,h)/2, the OOXML maximum.
+ *
+ * Hierarchy rule: an outer container's radius must be >= its inner elements'.
+ */
+const THEMES = {
+  flat: {
+    palette: PALETTE,
+    radius: { card: 0, chip: 0, row: 0, tile: 0, bar: 0 },
+    shadow: null,
+    rowGap: 0,
+    accent: 'bar',   // card accent style: left rule
+  },
+  soft: {
+    palette: {
+      primary: '4A93E8',      // sky blue, softened from Carbon's 0F62FE
+      primarySoft: 'BEDCF7',  // tint for tracks, muted bars
+      ink: '20344A',          // deep sky-navy — never pure black
+      inkMuted: '5B7186',
+      inkSubtle: '93A7B8',
+      canvas: 'F1F7FD',       // pale sky page
+      surface1: 'FFFFFF',     // cards sit above the page, not below
+      surface2: 'E2EFFB',
+      hairline: 'D6E6F5',
+      // The soft theme has no dark slides. Openers invert to a deeper sky tint
+      // instead of to ink, so remapping the inv* tokens re-skins covers, section
+      // dividers, the closing slide, and dark table rows in one place.
+      invCanvas: 'D7E9FA',    // opener background — deeper sky than the page
+      invSurface: 'FFFFFF',
+      invInk: '20344A',
+      invInkMuted: '5B7186',
+      invHairline: 'B7D5F0',
+    },
+    radius: { card: 0.16, chip: 0.1, row: 0.11, tile: 0.14, bar: 'pill' },
+    shadow: { type: 'outer', color: '8FB4D8', blur: 10, offset: 2, angle: 90, opacity: 0.3 },
+    rowGap: 0.05,    // stacked rows breathe apart instead of butting together
+    accent: 'dot',   // card accent style: filled dot beside the title
+  },
+};
+
+// Five locked zones. Never edit per-project.
+const L = {
+  W: 13.33,
+  H: 7.5,
+  marginX: 0.6,
+  contentW: 12.13,
+  eyebrowY: 0.35,
+  logoX: 11.83,
+  logoY: 0.33,
+  logoW: 1.0,
+  logoH: 0.28,
+  titleY: 0.62,
+  subtitleY: 1.22,
+  ruleY: 1.62,
+  bodyY: 1.75,
+  bodyBottom: 6.9,
+  footerY: 7.1,
+  sourceX: 9.0,
+};
+
+const GAP = 0.08;   // the single universal gap between blocks
+const HDR_H = 0.28; // column header height, both sides
+
+const TYPE = {
+  title: 30,
+  titleBig: 40,
+  colHeader: 13,
+  cardTitle: 10.5,
+  body: 9.5,
+  tableLabel: 9,
+  tableValue: 9,
+  eyebrow: 9,
+  statValue: 15,
+  statLabel: 7.5,
+  formula: 12,
+  formulaSub: 8.5,
+  insight: 9,
+  footer: 8,
+};
+
+// ─── Text metrics ──────────────────────────────────────────────────────────────
+// Rough advance widths for a neo-grotesque at 1pt, used only to predict overflow.
+// Hangul/CJK are full-width; Latin averages ~0.52em including spaces.
+const CJK = /[ᄀ-ᇿ㄰-㆏가-힯぀-ヿ一-鿿]/;
+
+function textWidthEm(s) {
+  let w = 0;
+  for (const ch of s) w += CJK.test(ch) ? 1.0 : ' iltj.,:;\'|!'.includes(ch) ? 0.30 : 0.55;
+  return w;
+}
+
+/** Predicted rendered line count for `text` in a box `wIn` inches wide at `pt`. */
+function estLines(text, pt, wIn, bold) {
+  const usable = (wIn - 0.1) * 72;            // inches → pt, minus text-box inset
+  const em = pt * (bold ? 1.045 : 1.0);
+  let lines = 0;
+  for (const para of String(text).split('\n')) {
+    const wpt = textWidthEm(para) * em;
+    lines += Math.max(1, Math.ceil(wpt / usable));
+  }
+  return lines;
+}
+
+/** Height in inches that `text` needs at `pt`, including leading. */
+function estHeight(text, pt, wIn, bold) {
+  return (estLines(text, pt, wIn, bold) * pt * 1.28) / 72;
+}
+
+// ─── Geometry helpers ──────────────────────────────────────────────────────────
+/** Split a rect into n rows (or by weights), separated by GAP. */
+function rows(r, n, weights) {
+  const w = weights || Array(n).fill(1);
+  const total = w.reduce((a, b) => a + b, 0);
+  const avail = r.h - GAP * (w.length - 1);
+  const out = [];
+  let y = r.y;
+  for (const k of w) {
+    const h = (avail * k) / total;
+    out.push({ x: r.x, y, w: r.w, h });
+    y += h + GAP;
+  }
+  return out;
+}
+
+/** Split a rect into n columns (or by weights), separated by GAP. */
+function cols(r, n, weights) {
+  const w = weights || Array(n).fill(1);
+  const total = w.reduce((a, b) => a + b, 0);
+  const avail = r.w - GAP * (w.length - 1);
+  const out = [];
+  let x = r.x;
+  for (const k of w) {
+    const cw = (avail * k) / total;
+    out.push({ x, y: r.y, w: cw, h: r.h });
+    x += cw + GAP;
+  }
+  return out;
+}
+
+const inset = (r, p, py) => ({ x: r.x + p, y: r.y + (py ?? p), w: r.w - 2 * p, h: r.h - 2 * (py ?? p) });
+
+// ─── Deck ──────────────────────────────────────────────────────────────────────
+class Deck {
+  /**
+   * @param {object} o
+   * @param {string} [o.font]      Latin family. Default 'Helvetica'.
+   * @param {string} [o.fontCJK]   Family used for runs containing Hangul/CJK.
+   * @param {string} [o.wordmark]  Text drawn top-right when no logo image.
+   * @param {string} [o.logo]      Path to a logo PNG (overrides wordmark).
+   * @param {string} [o.footer]    Left footer text; page number is appended.
+   * @param {object} [o.palette]   Token overrides.
+   */
+  constructor(o = {}) {
+    this.font = o.font || 'Helvetica';
+    this.fontCJK = o.fontCJK || this.font;
+    this.wordmark = o.wordmark || '';
+    this.logo = o.logo || null;
+    this.footerText = o.footer || '';
+    this.theme = THEMES[o.theme || 'flat'] || THEMES.flat;
+    this.themeName = o.theme || 'flat';
+    this.C = { ...PALETTE, ...this.theme.palette, ...(o.palette || {}) };
+    this.R = { ...this.theme.radius, ...(o.radius || {}) };
+    this.SH = o.shadow === null ? null : (o.shadow || this.theme.shadow);
+    this.pres = new PptxGenJS();
+    this.pres.layout = 'LAYOUT_WIDE';
+    this.pres.author = o.author || '';
+    this.pres.title = o.title || '';
+    this.page = 0;
+    this.warnings = [];
+    this.slides = [];
+    this.ops = [];   // draw log, replayed by writePreview()
+  }
+
+  _face(text) {
+    return CJK.test(String(text)) ? this.fontCJK : this.font;
+  }
+
+  _warn(kind, msg) {
+    this.warnings.push({ page: this.page, kind, msg });
+  }
+
+  // ── low-level draw ───────────────────────────────────────────────────────────
+  /** Resolve a radius token ('card' | 'pill' | number) to inches for this rect. */
+  _rad(key, r) {
+    let v = typeof key === 'number' ? key : this.R[key];
+    if (v === 'pill') v = Math.min(r.w, r.h) / 2;
+    if (!v) return 0;
+    // OOXML caps the corner at half the short side; asking for more just clips
+    return Math.min(v, Math.min(r.w, r.h) / 2);
+  }
+
+  /**
+   * @param {object} [o] { radius: token|number, shadow: bool } — radius/shadow are
+   * no-ops in the flat theme, so callers can always pass them.
+   */
+  _rect(s, r, fill, line, o = {}) {
+    const rad = this._rad(o.radius, r);
+    const sh = o.shadow && this.SH ? this.SH : null;
+    const opt = {
+      x: r.x, y: r.y, w: r.w, h: r.h,
+      fill: { color: fill },
+      line: line ? { color: line.color, width: line.width } : { color: fill, width: 0 },
+    };
+    if (sh) opt.shadow = sh;
+    if (rad > 0) {
+      opt.rectRadius = rad;
+      s.addShape(this.pres.shapes.ROUNDED_RECTANGLE, opt);
+    } else {
+      s.addShape(this.pres.shapes.RECTANGLE, opt);
+    }
+    this.ops.push({ t: 'rect', p: this.page, r, fill, line, rad, sh: !!sh });
+  }
+
+  /** Filled circle — the soft theme's accent mark. */
+  _dot(s, cx, cy, d, color) {
+    s.addShape(this.pres.shapes.OVAL, {
+      x: cx - d / 2, y: cy - d / 2, w: d, h: d,
+      fill: { color }, line: { color, width: 0 },
+    });
+    this.ops.push({ t: 'rect', p: this.page, r: { x: cx - d / 2, y: cy - d / 2, w: d, h: d }, fill: color, rad: d / 2 });
+  }
+
+  /**
+   * Text with overflow prediction. Shrinks down to `min` pt before warning.
+   * Returns the pt actually used.
+   */
+  _text(s, str, r, opt = {}) {
+    const pt0 = opt.fontSize ?? TYPE.body;
+    const min = opt.min ?? Math.max(7, pt0 - 2);
+    let pt = pt0;
+    if (opt.fit !== false) {
+      while (pt > min && estHeight(str, pt, r.w, opt.bold) > r.h) pt -= 0.5;
+      if (estHeight(str, pt, r.w, opt.bold) > r.h + 0.02) {
+        this._warn('OVERFLOW',
+          `"${String(str).slice(0, 46)}…" needs ~${estHeight(str, pt, r.w, opt.bold).toFixed(2)}" ` +
+          `in a ${r.h.toFixed(2)}" box at ${pt}pt — cut text or split the slide`);
+      }
+    }
+    if (r.y < L.bodyY - 0.01 && opt.zone === 'body') this._warn('BOUNDS', `block above bodyY at y=${r.y.toFixed(2)}`);
+    if (r.y + r.h > L.bodyBottom + 0.01 && opt.zone === 'body') this._warn('BOUNDS', `block below bodyBottom at y=${(r.y + r.h).toFixed(2)}`);
+
+    s.addText(String(str), {
+      x: r.x, y: r.y, w: r.w, h: r.h,
+      fontFace: opt.face || this._face(str),
+      fontSize: pt,
+      bold: !!opt.bold,
+      color: opt.color || this.C.ink,
+      align: opt.align || 'left',
+      valign: opt.valign || 'top',
+      lineSpacingMultiple: opt.lineSpacing ?? 1.12,
+      charSpacing: opt.charSpacing ?? 0,
+      margin: opt.margin ?? 0,
+      breakLine: true,
+    });
+    this.ops.push({
+      t: 'text', p: this.page, r, s: String(str), pt,
+      bold: !!opt.bold, color: opt.color || this.C.ink,
+      align: opt.align || 'left', valign: opt.valign || 'top',
+      face: opt.face || this._face(str),
+    });
+    return pt;
+  }
+
+  _chrome(s, { dark, eyebrow, title, subtitle, source, rule = true }) {
+    const C = this.C;
+    this.page += 1;
+    this._rect(s, { x: 0, y: 0, w: L.W, h: L.H }, dark ? C.invCanvas : C.canvas);
+
+    this._mark(s, dark);
+
+    if (eyebrow) {
+      this._text(s, eyebrow, { x: L.marginX, y: L.eyebrowY, w: 8, h: 0.22 },
+        { fontSize: TYPE.eyebrow, color: C.primary, fit: false });
+    }
+    if (title) {
+      this._text(s, title, { x: L.marginX, y: L.titleY, w: L.contentW - 1.4, h: 0.52 },
+        { fontSize: TYPE.title, color: dark ? C.invInk : C.ink, min: 20 });
+    }
+    if (subtitle) {
+      this._text(s, subtitle, { x: L.marginX, y: L.subtitleY, w: L.contentW - 1.4, h: 0.34 },
+        { fontSize: TYPE.body, color: dark ? C.invInkMuted : C.inkMuted, min: 8.5 });
+    }
+    if (rule) {
+      this._rect(s, { x: L.marginX, y: L.ruleY, w: L.contentW, h: 0.01 },
+        dark ? C.invHairline : C.hairline);
+    }
+    this._foot(s, dark, source);
+  }
+
+  /** Logo or wordmark, top-right, zero decoration. */
+  _mark(s, dark) {
+    if (this.logo) {
+      s.addImage({ path: this.logo, x: L.logoX, y: L.logoY, w: L.logoW, h: L.logoH });
+      this.ops.push({ t: 'img', p: this.page, r: { x: L.logoX, y: L.logoY, w: L.logoW, h: L.logoH } });
+    } else if (this.wordmark) {
+      this._text(s, this.wordmark, { x: L.logoX - 1.0, y: L.logoY, w: 2.0, h: L.logoH },
+        { fontSize: 10, bold: true, color: dark ? this.C.invInk : this.C.ink, align: 'right', valign: 'middle', fit: false });
+    }
+  }
+
+  _foot(s, dark, source) {
+    const C = this.C;
+    const col = dark ? C.invInkMuted : C.inkSubtle;
+    const foot = this.footerText ? `${this.footerText}   ·   ${this.page}` : `${this.page}`;
+    this._text(s, foot, { x: L.marginX, y: L.footerY, w: 7.0, h: 0.2 },
+      { fontSize: TYPE.footer, color: col, fit: false });
+    if (source) {
+      this._text(s, source, { x: L.sourceX, y: L.footerY, w: L.W - L.sourceX - L.marginX, h: 0.2 },
+        { fontSize: TYPE.footer, color: col, align: 'right', fit: false });
+    }
+  }
+
+  // ── slide kinds ──────────────────────────────────────────────────────────────
+  /** Dark opener: title slide, section divider, or closing statement. */
+  cover({ eyebrow, title, subtitle, meta, note }) {
+    const s = this.pres.addSlide();
+    const C = this.C;
+    this.page += 1;
+    this._rect(s, { x: 0, y: 0, w: L.W, h: L.H }, C.invCanvas);
+    this._mark(s, true);
+    if (eyebrow) this._text(s, eyebrow, { x: L.marginX, y: 2.5, w: 10, h: 0.24 },
+      { fontSize: TYPE.eyebrow, color: C.primary, fit: false });
+    this._text(s, title, { x: L.marginX, y: 2.86, w: 11.0, h: 0.9 },
+      { fontSize: TYPE.titleBig, color: C.invInk, min: 26 });
+    if (subtitle) this._text(s, subtitle, { x: L.marginX, y: 3.86, w: 10.5, h: 0.4 },
+      { fontSize: 14, color: C.invInkMuted, min: 11 });
+    this._rect(s, { x: L.marginX, y: 4.52, w: 4.0, h: 0.02 }, C.primary);
+    if (meta) this._text(s, meta, { x: L.marginX, y: 4.78, w: 10.5, h: 0.3 },
+      { fontSize: 10.5, color: C.invInkMuted });
+    if (note) this._text(s, note, { x: L.marginX, y: L.footerY, w: 8, h: 0.2 },
+      { fontSize: TYPE.footer, color: C.invInkMuted, fit: false });
+    this.slides.push({ page: this.page, kind: 'cover', title });
+    return s;
+  }
+
+  /** Dark chapter divider with a big number. */
+  section({ num, title, subtitle }) {
+    const s = this.pres.addSlide();
+    const C = this.C;
+    this.page += 1;
+    this._rect(s, { x: 0, y: 0, w: L.W, h: L.H }, C.invCanvas);
+    this._mark(s, true);
+    if (num != null) this._text(s, String(num), { x: L.marginX, y: 2.5, w: 3, h: 1.1 },
+      { fontSize: 64, color: C.primary, fit: false });
+    this._text(s, title, { x: L.marginX, y: 3.7, w: 10.5, h: 0.7 },
+      { fontSize: 32, color: C.invInk, min: 22 });
+    if (subtitle) this._text(s, subtitle, { x: L.marginX, y: 4.5, w: 9.5, h: 0.5 },
+      { fontSize: 11, color: C.invInkMuted });
+    this._foot(s, true);
+    this.slides.push({ page: this.page, kind: 'section', title });
+    return s;
+  }
+
+  /**
+   * Light content slide. Returns a Slide facade carrying the body rect and
+   * every block builder. All rects come from split()/zones() on the facade.
+   */
+  content({ eyebrow, title, subtitle, source, dark = false }) {
+    const s = this.pres.addSlide();
+    this._chrome(s, { dark, eyebrow, title, subtitle, source });
+    this.slides.push({ page: this.page, kind: 'content', title });
+    return new Slide(this, s, dark);
+  }
+
+  async save(file) {
+    await this.pres.writeFile({ fileName: file });
+    try {
+      this.writePreview(file.replace(/\.pptx$/i, '') + '.preview.html');
+    } catch (e) {
+      this._warn('PREVIEW', `preview not written: ${e.message}`);
+    }
+    return file;
+  }
+
+  /**
+   * HTML proof sheet at the same coordinates as the .pptx. Not a pixel-exact
+   * renderer — it exists so overflow, empty space, and misalignment are visible
+   * without opening PowerPoint.
+   */
+  writePreview(file) {
+    const fs = require('fs');
+    const S = 96; // px per inch
+    const esc = t => String(t).replace(/[&<>]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]));
+    const pages = new Map();
+    for (const op of this.ops) {
+      if (!pages.has(op.p)) pages.set(op.p, []);
+      pages.get(op.p).push(op);
+    }
+    const warnBy = {};
+    for (const w of this.warnings) (warnBy[w.page] ||= []).push(w);
+
+    let html = `<!doctype html><meta charset="utf-8"><title>deck preview</title><style>
+body{background:#8d8d8d;margin:0;padding:28px;font-family:${this.font},sans-serif}
+.wrap{max-width:${L.W * S}px;margin:0 auto}
+.pg{position:relative;width:${L.W * S}px;height:${L.H * S}px;background:#${this.C.canvas};margin:0 0 26px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,.35)}
+.pg>*{position:absolute;box-sizing:border-box}
+.t{white-space:pre-wrap;overflow-wrap:break-word;line-height:1.12}
+.n{color:#fff;font:12px/1 ${this.font},sans-serif;margin:0 0 6px;opacity:.85}
+.w{background:#da1e28;color:#fff;font:11px/1.5 ${this.font},sans-serif;padding:6px 10px;margin:-20px 0 20px}
+.guide{position:absolute;left:0;right:0;height:0;border-top:1px dashed rgba(15,98,254,.5);pointer-events:none}
+</style><div class="wrap">`;
+
+    for (const p of [...pages.keys()].sort((a, b) => a - b)) {
+      html += `<p class="n">slide ${p}</p><div class="pg">`;
+      for (const op of pages.get(p)) {
+        if (op.t === 'rect') {
+          const b = op.line ? `border:${Math.max(1, op.line.width)}px solid #${op.line.color};` : '';
+          const rd = op.rad ? `border-radius:${op.rad * S}px;` : '';
+          const sd = op.sh ? `box-shadow:0 ${this.SH.offset}px ${this.SH.blur}px rgba(0,0,0,${this.SH.opacity * 0.55});` : '';
+          html += `<div style="left:${op.r.x * S}px;top:${op.r.y * S}px;width:${op.r.w * S}px;height:${op.r.h * S}px;background:#${op.fill};${b}${rd}${sd}"></div>`;
+        } else if (op.t === 'img') {
+          html += `<div style="left:${op.r.x * S}px;top:${op.r.y * S}px;width:${op.r.w * S}px;height:${op.r.h * S}px;border:1px dashed #8c8c8c"></div>`;
+        } else {
+          const jc = op.valign === 'middle' ? 'center' : 'flex-start';
+          html += `<div class="t" style="left:${op.r.x * S}px;top:${op.r.y * S}px;width:${op.r.w * S}px;height:${op.r.h * S}px;` +
+            `font-size:${op.pt * (S / 72)}px;font-weight:${op.bold ? 700 : 400};color:#${op.color};` +
+            `text-align:${op.align};display:flex;flex-direction:column;justify-content:${jc};font-family:'${op.face}',sans-serif">${esc(op.s)}</div>`;
+        }
+      }
+      for (const y of [L.bodyY, L.bodyBottom]) html += `<div class="guide" style="top:${y * S}px"></div>`;
+      html += `</div>`;
+      if (warnBy[p]) for (const w of warnBy[p]) html += `<div class="w">${esc(w.kind)}: ${esc(w.msg)}</div>`;
+    }
+    html += `</div>`;
+    fs.writeFileSync(file, html);
+    return file;
+  }
+
+  /** Prints the QA report. Returns true when clean. */
+  report() {
+    const byKind = {};
+    for (const w of this.warnings) (byKind[w.kind] ||= []).push(w);
+    console.log(`\n── QA ─────────────────────────────────────────────`);
+    console.log(`slides: ${this.page}`);
+    if (!this.warnings.length) {
+      console.log('no overflow or bounds warnings');
+      console.log('───────────────────────────────────────────────────\n');
+      return true;
+    }
+    for (const k of Object.keys(byKind)) {
+      console.log(`\n${k} (${byKind[k].length})`);
+      for (const w of byKind[k]) console.log(`  p${w.page}  ${w.msg}`);
+    }
+    console.log('───────────────────────────────────────────────────\n');
+    return false;
+  }
+}
+
+// ─── Slide facade ──────────────────────────────────────────────────────────────
+class Slide {
+  constructor(deck, s, dark) {
+    this.d = deck;
+    this.s = s;
+    this.dark = dark;
+    this.C = deck.C;
+    /** Full body box — the hard wall. Every rect must descend from this. */
+    this.body = { x: L.marginX, y: L.bodyY, w: L.contentW, h: L.bodyBottom - L.bodyY };
+  }
+
+  _fg(onDark) { return onDark ?? this.dark ? this.C.invInk : this.C.ink; }
+  _fgMuted(onDark) { return onDark ?? this.dark ? this.C.invInkMuted : this.C.inkMuted; }
+
+  // ── geometry ────────────────────────────────────────────────────────────────
+  /** Two (or n) columns of the body, with the hairline divider drawn between. */
+  columns(n = 2, weights) {
+    const cs = cols(this.body, n, weights);
+    for (let i = 0; i < cs.length - 1; i++) {
+      const x = cs[i].x + cs[i].w + GAP / 2;
+      this.d._rect(this.s, { x, y: this.body.y, w: 0.01, h: this.body.h },
+        this.dark ? this.C.invHairline : this.C.hairline);
+    }
+    return cs;
+  }
+
+  /** Reserve a column header; returns the rect left below it. */
+  header(r, text) {
+    this.d._text(this.s, text, { x: r.x, y: r.y, w: r.w, h: HDR_H },
+      { fontSize: TYPE.colHeader, bold: true, color: this._fg() });
+    return { x: r.x, y: r.y + HDR_H + GAP, w: r.w, h: r.h - HDR_H - GAP };
+  }
+
+  rows(r, n, weights) { return rows(r, n, weights); }
+  cols(r, n, weights) { return cols(r, n, weights); }
+
+  /**
+   * Peel a fixed-height band off a rect. Use inches — not weights — for anything
+   * whose height should be set by its content: insight bars, footnotes, labels.
+   * Weights stretch a one-line callout into a slab.
+   *   const [main, ins] = sl.bottom(sl.body, 0.6);
+   *   const [lbl, rest] = sl.top(z, 0.24);
+   */
+  bottom(r, h) {
+    return [{ x: r.x, y: r.y, w: r.w, h: r.h - h - GAP }, { x: r.x, y: r.y + r.h - h, w: r.w, h }];
+  }
+  top(r, h) {
+    return [{ x: r.x, y: r.y, w: r.w, h }, { x: r.x, y: r.y + h + GAP, w: r.w, h: r.h - h - GAP }];
+  }
+
+  /** Full-height hairline between two side-by-side rects produced by cols(). */
+  divider(a, r) {
+    this.d._rect(this.s, { x: a.x + a.w + GAP / 2 - 0.005, y: r.y, w: 0.01, h: r.h },
+      this.dark ? this.C.invHairline : this.C.hairline);
+  }
+
+  /**
+   * Shared zone boundaries — the alignment contract. Compute once from the
+   * densest column and pass the same rects to every column.
+   */
+  zones(r, n = 3, weights) { return rows(r, n, weights); }
+
+  // ── blocks ──────────────────────────────────────────────────────────────────
+  /** Accent card. Flat theme: 4px left rule. Soft theme: rounded tile + accent dot. */
+  card(r, { title, body, accent, fill, titleColor, bodyColor }) {
+    const C = this.C;
+    const acc = accent || C.primary;
+    const bg = fill || (this.dark ? C.invSurface : C.surface1);
+    const soft = this.d.theme.accent === 'dot';
+    let tx, tw;
+
+    if (soft) {
+      this.d._rect(this.s, r, bg, null, { radius: 'card', shadow: !this.dark });
+      const pad = 0.22;
+      tx = r.x + pad + (title ? 0.24 : 0);
+      tw = r.w - pad - (title ? 0.24 : 0) - pad;
+      if (title) this.d._dot(this.s, r.x + pad + 0.06, r.y + 0.24, 0.12, acc);
+    } else {
+      this.d._rect(this.s, { x: r.x, y: r.y, w: 0.04, h: r.h }, acc);
+      this.d._rect(this.s, { x: r.x + 0.04, y: r.y, w: r.w - 0.04, h: r.h }, bg);
+      const pad = 0.16;
+      tx = r.x + 0.04 + pad;
+      tw = r.w - 0.04 - 2 * pad;
+    }
+
+    let y = r.y + (soft ? 0.13 : 0.1);
+    if (title) {
+      this.d._text(this.s, title, { x: tx, y, w: tw, h: 0.24 },
+        { fontSize: TYPE.cardTitle, bold: true, color: titleColor || this._fg(), zone: 'body' });
+      y += 0.3;
+    }
+    if (body) {
+      const bx = soft && title ? tx - 0.24 : tx;
+      const bw = soft && title ? tw + 0.24 : tw;
+      this.d._text(this.s, body, { x: bx, y, w: bw, h: r.y + r.h - y - 0.12 },
+        { fontSize: TYPE.body, color: bodyColor || this._fgMuted(), zone: 'body' });
+    }
+    return r;
+  }
+
+  /** Numbered card — the "1 / 2 / 3" step tile. */
+  step(r, { num, title, body }) {
+    const C = this.C;
+    const bg = this.dark ? C.invSurface : C.surface1;
+    const soft = this.d.theme.accent === 'dot';
+    this.d._rect(this.s, r, bg, null, { radius: 'card', shadow: soft && !this.dark });
+    const pad = soft ? 0.22 : 0.16;
+
+    if (soft) {
+      // number sits in a filled disc — the friendliest shape available
+      const d = 0.3;
+      this.d._dot(this.s, r.x + pad + d / 2, r.y + 0.13 + d / 2, d, C.primary);
+      this.d._text(this.s, String(num), { x: r.x + pad, y: r.y + 0.19, w: d, h: 0.22 },
+        { fontSize: 10.5, bold: true, color: C.invInk, align: 'center', fit: false });
+    } else {
+      this.d._text(this.s, String(num), { x: r.x + pad, y: r.y + 0.1, w: 0.5, h: 0.26 },
+        { fontSize: 12, bold: true, color: C.primary, fit: false });
+    }
+
+    const tx = r.x + pad + (soft ? 0.42 : 0.34);
+    const tw = r.w - pad * 2 - (soft ? 0.42 : 0.34);
+    this.d._text(this.s, title, { x: tx, y: r.y + (soft ? 0.16 : 0.1), w: tw, h: 0.26 },
+      { fontSize: TYPE.cardTitle, bold: true, color: this._fg(), zone: 'body' });
+    if (body) {
+      const by = r.y + (soft ? 0.5 : 0.4);
+      this.d._text(this.s, body,
+        { x: soft ? r.x + pad : tx, y: by, w: soft ? r.w - pad * 2 : tw, h: r.y + r.h - by - 0.12 },
+        { fontSize: TYPE.body, color: this._fgMuted(), zone: 'body' });
+    }
+  }
+
+  /** Solid tinted panel — used for before/after state cards. */
+  panel(r, { label, title, body, tone = 'neutral' }) {
+    const C = this.C;
+    const map = {
+      neutral: { bg: this.dark ? C.invSurface : C.surface1, fg: this._fg(), muted: this._fgMuted(), tag: C.inkSubtle },
+      accent: { bg: C.primary, fg: C.invInk, muted: C.invInkMuted, tag: C.invInkMuted },
+      dark: { bg: C.invCanvas, fg: C.invInk, muted: C.invInkMuted, tag: C.invInkMuted },
+      outline: { bg: this.dark ? C.invCanvas : C.canvas, fg: this._fg(), muted: this._fgMuted(), tag: C.inkSubtle, line: true },
+    };
+    const t = map[tone] || map.neutral;
+    this.d._rect(this.s, r, t.bg, t.line ? { color: C.primary, width: 1.25 } : null,
+      { radius: 'card', shadow: !this.dark && tone !== 'outline' });
+    const pad = this.d.theme.accent === 'dot' ? 0.22 : 0.18;
+    let y = r.y + 0.12;
+    if (label) {
+      this.d._text(this.s, label, { x: r.x + pad, y, w: r.w - 2 * pad, h: 0.2 },
+        { fontSize: TYPE.statLabel, color: t.tag, fit: false });
+      y += 0.24;
+    }
+    if (title) {
+      const h = Math.min(0.6, Math.max(0.26, estHeight(title, TYPE.cardTitle, r.w - 2 * pad, true) + 0.04));
+      this.d._text(this.s, title, { x: r.x + pad, y, w: r.w - 2 * pad, h },
+        { fontSize: TYPE.cardTitle, bold: true, color: t.fg, zone: 'body' });
+      y += h + 0.06;
+    }
+    if (body) {
+      this.d._text(this.s, body, { x: r.x + pad, y, w: r.w - 2 * pad, h: r.y + r.h - y - 0.12 },
+        { fontSize: TYPE.body, color: t.muted, zone: 'body' });
+    }
+  }
+
+  /** Label/value rows. Flat theme alternates ink/surface; soft theme uses tinted pills. */
+  tableRows(r, pairs, { labelW = 1.55 } = {}) {
+    const C = this.C;
+    const soft = this.d.theme.accent === 'dot';
+    const g = this.d.theme.rowGap;
+    const h = (r.h - g * (pairs.length - 1)) / pairs.length;
+    const pad = soft ? 0.2 : 0.16;
+    pairs.forEach(([label, value], i) => {
+      const y = r.y + i * (h + g);
+      const alt = i % 2 === 0;
+      let bg, fg, fgv;
+      if (soft) {
+        bg = alt ? C.surface2 : C.surface1;
+        fg = this._fg();
+        fgv = this._fgMuted();
+      } else {
+        bg = alt ? (this.dark ? C.invSurface : C.invCanvas) : (this.dark ? C.invCanvas : C.surface1);
+        fg = alt ? C.invInk : this._fg();
+        fgv = alt ? C.invInkMuted : this._fgMuted();
+      }
+      this.d._rect(this.s, { x: r.x, y, w: r.w, h }, bg, null, { radius: 'row' });
+      this.d._text(this.s, label, { x: r.x + pad, y: y + 0.06, w: labelW, h: h - 0.12 },
+        { fontSize: TYPE.tableLabel, bold: true, color: fg, valign: 'middle', zone: 'body' });
+      this.d._text(this.s, value,
+        { x: r.x + pad + labelW + 0.14, y: y + 0.06, w: r.w - labelW - pad * 2 - 0.14, h: h - 0.12 },
+        { fontSize: TYPE.tableValue, color: fgv, valign: 'middle', zone: 'body' });
+    });
+  }
+
+  /** Full grid table: dark header row, alternating body rows, hairline rules. */
+  table(r, { head, rows: data, weights }) {
+    const C = this.C;
+    const soft = this.d.theme.accent === 'dot';
+    const g = this.d.theme.rowGap;
+    const headH = 0.36;
+    const rowH = (r.h - headH - g * data.length) / data.length;
+    const pad = soft ? 0.18 : 0.12;
+    const cw = cols({ ...r, w: r.w, h: headH }, head.length, weights).map(c => c.w);
+    const xs = [];
+    let x = r.x;
+    for (const w of cw) { xs.push(x); x += w + GAP; }
+
+    // on a dark slide an ink header row would vanish into the body rows
+    const headBg = this.dark ? C.primary : (soft ? C.primary : C.invCanvas);
+    this.d._rect(this.s, { x: r.x, y: r.y, w: r.w, h: headH }, headBg, null, { radius: 'row' });
+    head.forEach((t, i) => {
+      this.d._text(this.s, t, { x: xs[i] + pad, y: r.y + 0.05, w: cw[i] - pad * 2, h: headH - 0.1 },
+        { fontSize: 9.5, bold: true, color: C.invInk, valign: 'middle', zone: 'body' });
+    });
+    data.forEach((row, ri) => {
+      const y = r.y + headH + g + ri * (rowH + g);
+      const alt = ri % 2 === 0;
+      const bg = soft
+        ? (alt ? C.surface1 : C.surface2)
+        : (alt ? (this.dark ? C.invCanvas : C.canvas) : (this.dark ? C.invSurface : C.surface1));
+      this.d._rect(this.s, { x: r.x, y, w: r.w, h: rowH }, bg, null, { radius: 'row' });
+      if (!soft) this.d._rect(this.s, { x: r.x, y, w: r.w, h: 0.008 }, this.dark ? C.invHairline : C.hairline);
+      row.forEach((t, i) => {
+        const first = i === 0;
+        this.d._text(this.s, t, { x: xs[i] + pad, y: y + 0.05, w: cw[i] - pad * 2, h: rowH - 0.1 },
+          { fontSize: 9, bold: first, color: first ? this._fg() : this._fgMuted(), valign: 'middle', zone: 'body' });
+      });
+    });
+  }
+
+  /** Blue callout bar. */
+  insight(r, text) {
+    this.d._rect(this.s, r, this.C.primary, null, { radius: 'card', shadow: true });
+    this.d._text(this.s, text, inset(r, this.d.theme.accent === 'dot' ? 0.24 : 0.16, 0.08),
+      { fontSize: TYPE.insight, color: this.C.invInk, valign: 'middle', zone: 'body' });
+  }
+
+  /** KPI row: n tiles of value + label. */
+  stats(r, items, { border = false } = {}) {
+    const C = this.C;
+    const cs = cols(r, items.length);
+    cs.forEach((c, i) => {
+      const soft = this.d.theme.accent === 'dot';
+      if (border) {
+        this.d._rect(this.s, c, this.dark ? C.invCanvas : C.surface1,
+          soft ? null : { color: this.dark ? C.invHairline : C.hairline, width: 0.75 },
+          { radius: 'tile', shadow: soft && !this.dark });
+      }
+      const pad = border ? Math.min(soft ? 0.18 : 0.14, c.h * 0.14) : 0;
+      // the label needs ~0.18"; the value gives up height before it gets squeezed out
+      const vh = Math.max(0.22, Math.min(0.42, c.h * 0.5, c.h - 2 * pad - 0.18));
+      this.d._text(this.s, items[i].value, { x: c.x + pad, y: c.y + pad, w: c.w - 2 * pad, h: vh },
+        { fontSize: TYPE.statValue, color: C.primary, fit: false });
+      this.d._text(this.s, items[i].label,
+        { x: c.x + pad, y: c.y + pad + vh, w: c.w - 2 * pad, h: c.h - vh - 2 * pad },
+        { fontSize: TYPE.statLabel, color: this._fgMuted(), zone: 'body' });
+    });
+  }
+
+  /** Formula box: outlined, primary formula + muted explanation. */
+  formula(r, { text, sub }) {
+    const C = this.C;
+    const soft = this.d.theme.accent === 'dot';
+    this.d._rect(this.s, r, this.dark ? C.invCanvas : (soft ? C.surface1 : C.canvas),
+      { color: C.primary, width: 1.5 }, { radius: 'card' });
+    const pad = soft ? 0.22 : 0.16;
+    const th = Math.min(0.4, r.h * 0.5);
+    this.d._text(this.s, text, { x: r.x + pad, y: r.y + 0.1, w: r.w - 2 * pad, h: th },
+      { fontSize: TYPE.formula, bold: true, color: C.primary, zone: 'body' });
+    if (sub) this.d._text(this.s, sub,
+      { x: r.x + pad, y: r.y + 0.1 + th, w: r.w - 2 * pad, h: r.h - th - 0.2 },
+      { fontSize: TYPE.formulaSub, color: this._fgMuted(), zone: 'body' });
+  }
+
+  /** Horizontal bar chart drawn as flat rectangles — no chart chrome, no gradients. */
+  bars(r, items, { max, unit = '' } = {}) {
+    const C = this.C;
+    const m = max || Math.max(...items.map(i => i.value));
+    const rowH = r.h / items.length;
+    const labelW = Math.max(...items.map(i => textWidthEm(i.label))) * 9 / 72 + 0.16;
+    const lw = Math.min(Math.max(labelW, 1.0), r.w * 0.35);
+    const trackX = r.x + lw + 0.1;
+    const trackW = r.w - lw - 0.1 - 0.9;
+    items.forEach((it, i) => {
+      const y = r.y + i * rowH;
+      const bh = Math.min(0.26, rowH * 0.5);
+      const by = y + (rowH - bh) / 2;
+      this.d._text(this.s, it.label, { x: r.x, y, w: lw, h: rowH },
+        { fontSize: 9, color: this._fg(), valign: 'middle', zone: 'body' });
+      const track = this.d.theme.accent === 'dot'
+        ? (this.dark ? C.invSurface : C.surface2)
+        : (this.dark ? C.invSurface : C.surface1);
+      this.d._rect(this.s, { x: trackX, y: by, w: trackW, h: bh }, track, null, { radius: 'bar' });
+      this.d._rect(this.s, { x: trackX, y: by, w: Math.max(bh, trackW * (it.value / m)), h: bh },
+        it.tone === 'muted' ? (this.dark ? C.invHairline : (C.primarySoft || C.surface2)) : C.primary,
+        null, { radius: 'bar' });
+      this.d._text(this.s, `${it.display ?? it.value}${unit}`,
+        { x: trackX + trackW + 0.12, y, w: 0.78, h: rowH },
+        { fontSize: 9, bold: true, color: this._fg(), valign: 'middle', fit: false });
+    });
+  }
+
+  /** Left-to-right flow: boxes joined by chevrons. */
+  flow(r, steps, { note } = {}) {
+    const C = this.C;
+    const noteH = note ? 0.3 : 0;
+    const band = { x: r.x, y: r.y, w: r.w, h: r.h - noteH };
+    const arrowW = 0.22;
+    const boxW = (band.w - arrowW * (steps.length - 1)) / steps.length;
+    steps.forEach((st, i) => {
+      const x = band.x + i * (boxW + arrowW);
+      const active = st.tone === 'accent';
+      this.d._rect(this.s, { x, y: band.y, w: boxW, h: band.h },
+        active ? C.primary : (this.dark ? C.invSurface : C.surface1),
+        null, { radius: 'card', shadow: !this.dark });
+      this.d._text(this.s, st.title, { x: x + 0.12, y: band.y + 0.12, w: boxW - 0.24, h: 0.44 },
+        { fontSize: 10, bold: true, color: active ? C.invInk : this._fg(), align: 'center', zone: 'body' });
+      if (st.body) this.d._text(this.s, st.body,
+        { x: x + 0.12, y: band.y + 0.58, w: boxW - 0.24, h: band.h - 0.7 },
+        { fontSize: 8.5, color: active ? C.invInkMuted : this._fgMuted(), align: 'center', zone: 'body' });
+      if (i < steps.length - 1) {
+        this.d._text(this.s, '›', { x: x + boxW, y: band.y, w: arrowW, h: band.h },
+          { fontSize: 16, color: C.inkSubtle, align: 'center', valign: 'middle', fit: false });
+      }
+    });
+    if (note) this.d._text(this.s, note, { x: r.x, y: r.y + r.h - noteH + 0.04, w: r.w, h: noteH - 0.04 },
+      { fontSize: 8.5, color: this.C.inkSubtle, zone: 'body' });
+  }
+
+  /** Bulleted list with hairline separators — for text that resists visualization. */
+  list(r, items, { rule = true } = {}) {
+    const h = r.h / items.length;
+    items.forEach((t, i) => {
+      const y = r.y + i * h;
+      if (rule && i > 0) this.d._rect(this.s, { x: r.x, y, w: r.w, h: 0.008 },
+        this.dark ? this.C.invHairline : this.C.hairline);
+      if (this.d.theme.accent === 'dot') this.d._dot(this.s, r.x + 0.04, y + h / 2, 0.08, this.C.primary);
+      else this.d._rect(this.s, { x: r.x, y: y + h / 2 - 0.03, w: 0.06, h: 0.06 }, this.C.primary);
+      this.d._text(this.s, t, { x: r.x + 0.2, y: y + 0.06, w: r.w - 0.2, h: h - 0.12 },
+        { fontSize: TYPE.body, color: this._fgMuted(), valign: 'middle', zone: 'body' });
+    });
+  }
+
+  /**
+   * Photo/render inside a rect. Letterboxed on the surface tone so the plate
+   * keeps the zone's edges even when the image aspect doesn't fill it.
+   * `caption` steals a band off the bottom before the image is placed.
+   */
+  image(r, path, { caption, plate = true, pad = 0.12 } = {}) {
+    const C = this.C;
+    const sizeOf = require('image-size').imageSize;
+    const fs = require('fs');
+    const capH = caption ? 0.26 : 0;
+    if (plate) this.d._rect(this.s, r, this.dark ? C.invSurface : C.surface1, null, { radius: 'card' });
+
+    const box = { x: r.x + pad, y: r.y + pad, w: r.w - 2 * pad, h: r.h - 2 * pad - capH };
+    let iw = box.w, ih = box.h;
+    try {
+      const dim = sizeOf(fs.readFileSync(path));
+      const s = Math.min(box.w / dim.width, box.h / dim.height);
+      iw = dim.width * s; ih = dim.height * s;
+    } catch (e) {
+      this.d._warn('IMAGE', `${path}: ${e.message}`);
+    }
+    const x = box.x + (box.w - iw) / 2;
+    const y = box.y + (box.h - ih) / 2;
+    this.s.addImage({ path, x, y, w: iw, h: ih });
+    this.d.ops.push({ t: 'img', p: this.d.page, r: { x, y, w: iw, h: ih }, src: path });
+
+    if (caption) {
+      this.d._text(this.s, caption, { x: r.x + pad, y: r.y + r.h - capH, w: r.w - 2 * pad, h: capH - 0.04 },
+        { fontSize: 8.5, color: this.C.inkSubtle, align: 'center', zone: 'body' });
+    }
+    return r;
+  }
+
+  /** Escape hatch: raw text inside a rect you got from the engine. */
+  text(r, str, opt) { return this.d._text(this.s, str, r, { zone: 'body', ...opt }); }
+  /** Escape hatch: raw filled rect. */
+  fill(r, color, line) { return this.d._rect(this.s, r, color, line); }
+}
+
+module.exports = { Deck, Slide, L, GAP, HDR_H, TYPE, PALETTE, rows, cols, inset, estLines, estHeight };

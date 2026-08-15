@@ -1,0 +1,2 @@
+# Parametric source and neutral CAD exports were generated and validated with:
+cadquery==2.8.0

@@ -1,0 +1,8 @@
+사용자 사례 사진 — Pexels License (무료, 상업적 이용 가능, 출처 표기 불필요)
+  user_workfromhome.jpg  https://www.pexels.com/photo/7446620/
+  user_lapdesk.jpg       https://www.pexels.com/photo/6980173/
+  user_fatigue.jpg       https://www.pexels.com/photo/8127985/
+  user_bed.jpg           https://www.pexels.com/photo/6129152/
+  user_goal.jpg          https://www.pexels.com/photo/6281464/
+
+주의: 모델은 실제 환자가 아닌 스톡 모델입니다. 슬라이드에 "연출 사진"으로 표기했습니다.

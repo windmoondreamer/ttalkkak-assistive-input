@@ -1,5 +1,22 @@
-# 개인정보(팀원 연락처·주소) 포함 — 절대 커밋 금지
-1차 수정본.docx
-제 7회 국립재활원 보조기기 해커톤 참가신청서 (1).docx
+# ── 개인정보(팀원 연락처·주소) 포함 — 절대 커밋 금지 ──
+# 신청서 계열 전부. 파일명이 바뀌어도 걸리도록 패턴으로 잡는다.
+*신청서*.docx
+*수정본*.docx
+# 단, 8/4 마스킹본은 제출 이력이라 추적 유지 (개인정보 0건 확인됨)
+!archive/submissions/제 7회 국립재활원 보조기기 해커톤 참가신청서.docx
 
 .DS_Store
+
+# ppt 빌드
+ppt/node_modules/
+ppt/package-lock.json
+ppt/*.preview.html
+
+# CAD 대용량 산출물 — 소스(.py)와 검증 리포트만 추적한다
+cad/finger-input-v1/printable/
+cad/finger-input-v1/variants/
+cad/finger-input-v1/integration/
+cad/finger-input-v1/test_fixture/*.stl
+cad/finger-input-v1/test_fixture/*.step
+cad/finger-input-v1/test_fixture/*.3mf
+cad/finger-input-v1/renders/

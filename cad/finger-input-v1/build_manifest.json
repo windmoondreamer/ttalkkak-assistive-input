@@ -1,0 +1,536 @@
+{
+  "schema": "onegrip-finger-input-v1",
+  "units": "mm",
+  "switch": {
+    "name": "Panasonic EVQ-P0E07K",
+    "width": 6.2,
+    "depth": 6.2,
+    "body_height": 6.7,
+    "total_height": 7.45,
+    "force_n": 0.74,
+    "pretravel_max": 0.5,
+    "overtravel_min": 0.2,
+    "pocket_clearance_xy": 0.2,
+    "hard_stop_after_click": 0.12,
+    "terminal_pitch": 5.0,
+    "terminal_diameter": 1.0,
+    "terminal_length": 3.5
+  },
+  "presets": {
+    "index": {
+      "preset": {
+        "name": "index",
+        "effective_width": 21.0,
+        "center_width": 9.5,
+        "depth_offset": -3.0,
+        "vertical_center": 116.0,
+        "side_lever_ratio": 1.35,
+        "target_force_n": [
+          0.45,
+          0.7
+        ],
+        "fingertip_length": 25.0,
+        "fingertip_thickness": 12.0,
+        "distal_length": 31.0
+      },
+      "layout": {
+        "gap": 0.7,
+        "side_width": 5.05,
+        "contact_abs_x": 7.975,
+        "pivot_abs_x": 14.184999999999999,
+        "contact_lever": 6.21,
+        "switch_lever": 4.6,
+        "switch_abs_x": 9.584999999999999,
+        "side_press_angle_deg": 7.746049395059446,
+        "side_contact_travel": 0.8370000000000001,
+        "side_finger_force": 0.548148148148148,
+        "left_switch": [
+          -9.584999999999999,
+          -0.5
+        ],
+        "center_switch": [
+          0.0,
+          0.0
+        ],
+        "right_switch": [
+          9.584999999999999,
+          -0.5
+        ],
+        "center_contact_y": 0.0,
+        "center_guide_y": 5.4
+      },
+      "files": {
+        "cartridge": {
+          "stl": "printable\\index_cartridge.stl",
+          "step": "printable\\index_cartridge.step",
+          "3mf": "printable\\index_cartridge.3mf"
+        },
+        "bottom_cover": {
+          "stl": "printable\\index_bottom_cover.stl",
+          "step": "printable\\index_bottom_cover.step",
+          "3mf": "printable\\index_bottom_cover.3mf"
+        },
+        "left_key": {
+          "stl": "printable\\index_left_key.stl",
+          "step": "printable\\index_left_key.step",
+          "3mf": "printable\\index_left_key.3mf"
+        },
+        "left_follower": {
+          "stl": "printable\\index_left_follower.stl",
+          "step": "printable\\index_left_follower.step",
+          "3mf": "printable\\index_left_follower.3mf"
+        },
+        "center_key": {
+          "stl": "printable\\index_center_key.stl",
+          "step": "printable\\index_center_key.step",
+          "3mf": "printable\\index_center_key.3mf"
+        },
+        "right_key": {
+          "stl": "printable\\index_right_key.stl",
+          "step": "printable\\index_right_key.step",
+          "3mf": "printable\\index_right_key.3mf"
+        },
+        "right_follower": {
+          "stl": "printable\\index_right_follower.stl",
+          "step": "printable\\index_right_follower.step",
+          "3mf": "printable\\index_right_follower.3mf"
+        },
+        "left_tpu_pad": {
+          "stl": "printable\\index_left_tpu_pad.stl",
+          "step": "printable\\index_left_tpu_pad.step",
+          "3mf": "printable\\index_left_tpu_pad.3mf"
+        },
+        "center_tpu_pad": {
+          "stl": "printable\\index_center_tpu_pad.stl",
+          "step": "printable\\index_center_tpu_pad.step",
+          "3mf": "printable\\index_center_tpu_pad.3mf"
+        },
+        "right_tpu_pad": {
+          "stl": "printable\\index_right_tpu_pad.stl",
+          "step": "printable\\index_right_tpu_pad.step",
+          "3mf": "printable\\index_right_tpu_pad.3mf"
+        },
+        "assembly": {
+          "step": "printable\\index_assembly.step",
+          "3mf": "printable\\index_assembly.3mf"
+        },
+        "states": {
+          "neutral": {
+            "step": "printable\\index_state_neutral_assembly.step",
+            "3mf": "printable\\index_state_neutral_assembly.3mf"
+          },
+          "left": {
+            "step": "printable\\index_state_left_assembly.step",
+            "3mf": "printable\\index_state_left_assembly.3mf"
+          },
+          "center": {
+            "step": "printable\\index_state_center_assembly.step",
+            "3mf": "printable\\index_state_center_assembly.3mf"
+          },
+          "right": {
+            "step": "printable\\index_state_right_assembly.step",
+            "3mf": "printable\\index_state_right_assembly.3mf"
+          }
+        },
+        "mount_plate": {
+          "stl": "printable\\index_adjustable_mount.stl",
+          "step": "printable\\index_adjustable_mount.step",
+          "3mf": "printable\\index_adjustable_mount.3mf"
+        }
+      }
+    },
+    "middle": {
+      "preset": {
+        "name": "middle",
+        "effective_width": 22.0,
+        "center_width": 9.5,
+        "depth_offset": 0.0,
+        "vertical_center": 86.0,
+        "side_lever_ratio": 1.4,
+        "target_force_n": [
+          0.45,
+          0.7
+        ],
+        "fingertip_length": 27.0,
+        "fingertip_thickness": 12.5,
+        "distal_length": 33.0
+      },
+      "layout": {
+        "gap": 0.7,
+        "side_width": 5.55,
+        "contact_abs_x": 8.225,
+        "pivot_abs_x": 14.665,
+        "contact_lever": 6.4399999999999995,
+        "switch_lever": 4.6,
+        "switch_abs_x": 10.065,
+        "side_press_angle_deg": 7.746049395059446,
+        "side_contact_travel": 0.868,
+        "side_finger_force": 0.5285714285714286,
+        "left_switch": [
+          -10.065,
+          -0.5
+        ],
+        "center_switch": [
+          0.0,
+          0.0
+        ],
+        "right_switch": [
+          10.065,
+          -0.5
+        ],
+        "center_contact_y": 0.0,
+        "center_guide_y": 5.4
+      },
+      "files": {
+        "cartridge": {
+          "stl": "printable\\middle_cartridge.stl",
+          "step": "printable\\middle_cartridge.step",
+          "3mf": "printable\\middle_cartridge.3mf"
+        },
+        "bottom_cover": {
+          "stl": "printable\\middle_bottom_cover.stl",
+          "step": "printable\\middle_bottom_cover.step",
+          "3mf": "printable\\middle_bottom_cover.3mf"
+        },
+        "left_key": {
+          "stl": "printable\\middle_left_key.stl",
+          "step": "printable\\middle_left_key.step",
+          "3mf": "printable\\middle_left_key.3mf"
+        },
+        "left_follower": {
+          "stl": "printable\\middle_left_follower.stl",
+          "step": "printable\\middle_left_follower.step",
+          "3mf": "printable\\middle_left_follower.3mf"
+        },
+        "center_key": {
+          "stl": "printable\\middle_center_key.stl",
+          "step": "printable\\middle_center_key.step",
+          "3mf": "printable\\middle_center_key.3mf"
+        },
+        "right_key": {
+          "stl": "printable\\middle_right_key.stl",
+          "step": "printable\\middle_right_key.step",
+          "3mf": "printable\\middle_right_key.3mf"
+        },
+        "right_follower": {
+          "stl": "printable\\middle_right_follower.stl",
+          "step": "printable\\middle_right_follower.step",
+          "3mf": "printable\\middle_right_follower.3mf"
+        },
+        "left_tpu_pad": {
+          "stl": "printable\\middle_left_tpu_pad.stl",
+          "step": "printable\\middle_left_tpu_pad.step",
+          "3mf": "printable\\middle_left_tpu_pad.3mf"
+        },
+        "center_tpu_pad": {
+          "stl": "printable\\middle_center_tpu_pad.stl",
+          "step": "printable\\middle_center_tpu_pad.step",
+          "3mf": "printable\\middle_center_tpu_pad.3mf"
+        },
+        "right_tpu_pad": {
+          "stl": "printable\\middle_right_tpu_pad.stl",
+          "step": "printable\\middle_right_tpu_pad.step",
+          "3mf": "printable\\middle_right_tpu_pad.3mf"
+        },
+        "assembly": {
+          "step": "printable\\middle_assembly.step",
+          "3mf": "printable\\middle_assembly.3mf"
+        },
+        "states": {
+          "neutral": {
+            "step": "printable\\middle_state_neutral_assembly.step",
+            "3mf": "printable\\middle_state_neutral_assembly.3mf"
+          },
+          "left": {
+            "step": "printable\\middle_state_left_assembly.step",
+            "3mf": "printable\\middle_state_left_assembly.3mf"
+          },
+          "center": {
+            "step": "printable\\middle_state_center_assembly.step",
+            "3mf": "printable\\middle_state_center_assembly.3mf"
+          },
+          "right": {
+            "step": "printable\\middle_state_right_assembly.step",
+            "3mf": "printable\\middle_state_right_assembly.3mf"
+          }
+        },
+        "mount_plate": {
+          "stl": "printable\\middle_adjustable_mount.stl",
+          "step": "printable\\middle_adjustable_mount.step",
+          "3mf": "printable\\middle_adjustable_mount.3mf"
+        }
+      }
+    },
+    "ring": {
+      "preset": {
+        "name": "ring",
+        "effective_width": 20.5,
+        "center_width": 8.5,
+        "depth_offset": -3.0,
+        "vertical_center": 57.0,
+        "side_lever_ratio": 1.5,
+        "target_force_n": [
+          0.4,
+          0.6
+        ],
+        "fingertip_length": 24.0,
+        "fingertip_thickness": 11.5,
+        "distal_length": 29.0
+      },
+      "layout": {
+        "gap": 0.7,
+        "side_width": 5.3,
+        "contact_abs_x": 7.6,
+        "pivot_abs_x": 14.5,
+        "contact_lever": 6.8999999999999995,
+        "switch_lever": 4.6,
+        "switch_abs_x": 9.9,
+        "side_press_angle_deg": 7.746049395059446,
+        "side_contact_travel": 0.9299999999999999,
+        "side_finger_force": 0.49333333333333335,
+        "left_switch": [
+          -9.9,
+          -0.5
+        ],
+        "center_switch": [
+          0.0,
+          0.0
+        ],
+        "right_switch": [
+          9.9,
+          -0.5
+        ],
+        "center_contact_y": 0.0,
+        "center_guide_y": 5.4
+      },
+      "files": {
+        "cartridge": {
+          "stl": "printable\\ring_cartridge.stl",
+          "step": "printable\\ring_cartridge.step",
+          "3mf": "printable\\ring_cartridge.3mf"
+        },
+        "bottom_cover": {
+          "stl": "printable\\ring_bottom_cover.stl",
+          "step": "printable\\ring_bottom_cover.step",
+          "3mf": "printable\\ring_bottom_cover.3mf"
+        },
+        "left_key": {
+          "stl": "printable\\ring_left_key.stl",
+          "step": "printable\\ring_left_key.step",
+          "3mf": "printable\\ring_left_key.3mf"
+        },
+        "left_follower": {
+          "stl": "printable\\ring_left_follower.stl",
+          "step": "printable\\ring_left_follower.step",
+          "3mf": "printable\\ring_left_follower.3mf"
+        },
+        "center_key": {
+          "stl": "printable\\ring_center_key.stl",
+          "step": "printable\\ring_center_key.step",
+          "3mf": "printable\\ring_center_key.3mf"
+        },
+        "right_key": {
+          "stl": "printable\\ring_right_key.stl",
+          "step": "printable\\ring_right_key.step",
+          "3mf": "printable\\ring_right_key.3mf"
+        },
+        "right_follower": {
+          "stl": "printable\\ring_right_follower.stl",
+          "step": "printable\\ring_right_follower.step",
+          "3mf": "printable\\ring_right_follower.3mf"
+        },
+        "left_tpu_pad": {
+          "stl": "printable\\ring_left_tpu_pad.stl",
+          "step": "printable\\ring_left_tpu_pad.step",
+          "3mf": "printable\\ring_left_tpu_pad.3mf"
+        },
+        "center_tpu_pad": {
+          "stl": "printable\\ring_center_tpu_pad.stl",
+          "step": "printable\\ring_center_tpu_pad.step",
+          "3mf": "printable\\ring_center_tpu_pad.3mf"
+        },
+        "right_tpu_pad": {
+          "stl": "printable\\ring_right_tpu_pad.stl",
+          "step": "printable\\ring_right_tpu_pad.step",
+          "3mf": "printable\\ring_right_tpu_pad.3mf"
+        },
+        "assembly": {
+          "step": "printable\\ring_assembly.step",
+          "3mf": "printable\\ring_assembly.3mf"
+        },
+        "states": {
+          "neutral": {
+            "step": "printable\\ring_state_neutral_assembly.step",
+            "3mf": "printable\\ring_state_neutral_assembly.3mf"
+          },
+          "left": {
+            "step": "printable\\ring_state_left_assembly.step",
+            "3mf": "printable\\ring_state_left_assembly.3mf"
+          },
+          "center": {
+            "step": "printable\\ring_state_center_assembly.step",
+            "3mf": "printable\\ring_state_center_assembly.3mf"
+          },
+          "right": {
+            "step": "printable\\ring_state_right_assembly.step",
+            "3mf": "printable\\ring_state_right_assembly.3mf"
+          }
+        },
+        "mount_plate": {
+          "stl": "printable\\ring_adjustable_mount.stl",
+          "step": "printable\\ring_adjustable_mount.step",
+          "3mf": "printable\\ring_adjustable_mount.3mf"
+        }
+      }
+    },
+    "pinky": {
+      "preset": {
+        "name": "pinky",
+        "effective_width": 18.5,
+        "center_width": 7.5,
+        "depth_offset": -8.0,
+        "vertical_center": 30.0,
+        "side_lever_ratio": 1.65,
+        "target_force_n": [
+          0.35,
+          0.55
+        ],
+        "fingertip_length": 21.0,
+        "fingertip_thickness": 10.5,
+        "distal_length": 25.0
+      },
+      "layout": {
+        "gap": 0.7,
+        "side_width": 4.8,
+        "contact_abs_x": 6.85,
+        "pivot_abs_x": 14.439999999999998,
+        "contact_lever": 7.589999999999999,
+        "switch_lever": 4.6,
+        "switch_abs_x": 9.839999999999998,
+        "side_press_angle_deg": 7.746049395059446,
+        "side_contact_travel": 1.023,
+        "side_finger_force": 0.4484848484848485,
+        "left_switch": [
+          -9.839999999999998,
+          -0.5
+        ],
+        "center_switch": [
+          0.0,
+          0.0
+        ],
+        "right_switch": [
+          9.839999999999998,
+          -0.5
+        ],
+        "center_contact_y": 0.0,
+        "center_guide_y": 5.4
+      },
+      "files": {
+        "cartridge": {
+          "stl": "printable\\pinky_cartridge.stl",
+          "step": "printable\\pinky_cartridge.step",
+          "3mf": "printable\\pinky_cartridge.3mf"
+        },
+        "bottom_cover": {
+          "stl": "printable\\pinky_bottom_cover.stl",
+          "step": "printable\\pinky_bottom_cover.step",
+          "3mf": "printable\\pinky_bottom_cover.3mf"
+        },
+        "left_key": {
+          "stl": "printable\\pinky_left_key.stl",
+          "step": "printable\\pinky_left_key.step",
+          "3mf": "printable\\pinky_left_key.3mf"
+        },
+        "left_follower": {
+          "stl": "printable\\pinky_left_follower.stl",
+          "step": "printable\\pinky_left_follower.step",
+          "3mf": "printable\\pinky_left_follower.3mf"
+        },
+        "center_key": {
+          "stl": "printable\\pinky_center_key.stl",
+          "step": "printable\\pinky_center_key.step",
+          "3mf": "printable\\pinky_center_key.3mf"
+        },
+        "right_key": {
+          "stl": "printable\\pinky_right_key.stl",
+          "step": "printable\\pinky_right_key.step",
+          "3mf": "printable\\pinky_right_key.3mf"
+        },
+        "right_follower": {
+          "stl": "printable\\pinky_right_follower.stl",
+          "step": "printable\\pinky_right_follower.step",
+          "3mf": "printable\\pinky_right_follower.3mf"
+        },
+        "left_tpu_pad": {
+          "stl": "printable\\pinky_left_tpu_pad.stl",
+          "step": "printable\\pinky_left_tpu_pad.step",
+          "3mf": "printable\\pinky_left_tpu_pad.3mf"
+        },
+        "center_tpu_pad": {
+          "stl": "printable\\pinky_center_tpu_pad.stl",
+          "step": "printable\\pinky_center_tpu_pad.step",
+          "3mf": "printable\\pinky_center_tpu_pad.3mf"
+        },
+        "right_tpu_pad": {
+          "stl": "printable\\pinky_right_tpu_pad.stl",
+          "step": "printable\\pinky_right_tpu_pad.step",
+          "3mf": "printable\\pinky_right_tpu_pad.3mf"
+        },
+        "assembly": {
+          "step": "printable\\pinky_assembly.step",
+          "3mf": "printable\\pinky_assembly.3mf"
+        },
+        "states": {
+          "neutral": {
+            "step": "printable\\pinky_state_neutral_assembly.step",
+            "3mf": "printable\\pinky_state_neutral_assembly.3mf"
+          },
+          "left": {
+            "step": "printable\\pinky_state_left_assembly.step",
+            "3mf": "printable\\pinky_state_left_assembly.3mf"
+          },
+          "center": {
+            "step": "printable\\pinky_state_center_assembly.step",
+            "3mf": "printable\\pinky_state_center_assembly.3mf"
+          },
+          "right": {
+            "step": "printable\\pinky_state_right_assembly.step",
+            "3mf": "printable\\pinky_state_right_assembly.3mf"
+          }
+        },
+        "mount_plate": {
+          "stl": "printable\\pinky_adjustable_mount.stl",
+          "step": "printable\\pinky_adjustable_mount.step",
+          "3mf": "printable\\pinky_adjustable_mount.3mf"
+        }
+      }
+    }
+  },
+  "variants": {
+    "variant_a_direct_switch": {
+      "step": "variants\\variant_a_direct_switch.step",
+      "3mf": "variants\\variant_a_direct_switch.3mf"
+    },
+    "variant_b_lalboard_paddle": {
+      "step": "variants\\variant_b_lalboard_paddle.step",
+      "3mf": "variants\\variant_b_lalboard_paddle.3mf"
+    },
+    "variant_c_rocker": {
+      "step": "variants\\variant_c_rocker.step",
+      "3mf": "variants\\variant_c_rocker.3mf"
+    }
+  },
+  "four_finger_array": {
+    "step": "integration\\four_finger_array.step",
+    "3mf": "integration\\four_finger_array.3mf"
+  },
+  "vertical_array_rail": {
+    "stl": "integration\\vertical_array_rail.stl",
+    "step": "integration\\vertical_array_rail.step",
+    "3mf": "integration\\vertical_array_rail.3mf"
+  },
+  "array_rail_hardware_assembly": {
+    "step": "integration\\four_finger_array_with_attached_rail.step",
+    "3mf": "integration\\four_finger_array_with_attached_rail.3mf"
+  }
+}
