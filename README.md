@@ -169,8 +169,14 @@ A안 본문은 `archive/onegrip-a/완전구현_설계및부품안.md`로 옮겼�
 
 **커밋 전에 항상 `git status`로 직접 확인할 것.** 깃 히스토리는 나중에 파일을 지워도 남는다.
 
-### 커밋 대기 상태
+### 커밋 상태
 
-이번 정리로 파일이 대량 이동했고 **아직 커밋하지 않았다.** `git status`를 보고 팀에서 판단할 것.
-`archive/submissions/`가 gitignore에 걸려 있어, 그대로 커밋하면 마스킹본 신청서가 저장소에서 빠진다.
-기록으로 남기고 싶으면 해당 줄을 빼거나 파일을 추적 대상 경로로 옮길 것.
+이번 정리는 `restructure/game-device-b` 브랜치에 커밋했다 (`abca9cc`, 63 파일).
+**아직 푸시하지 않았고 `main`에 병합하지도 않았다.** 팀에서 확인한 뒤 병합할 것.
+
+```
+git checkout main && git merge restructure/game-device-b && git push
+```
+
+CAD 대용량 산출물(`printable/`·`variants/`·`renders/` 등 162MB)은 추적하지 않는다.
+소스 `.py`와 검증 리포트만 커밋되므로, **STL이 필요하면 `generate_all.py`로 재생성**한다.
