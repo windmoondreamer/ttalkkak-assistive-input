@@ -7,10 +7,13 @@
 
 .DS_Store
 
-# ppt 빌드
+# ppt 빌드 — 소스(build.js·deck.js·assets/)만 추적하고 산출물은 추적하지 않는다.
+# 덱이 필요하면 `cd ppt && npm install && node build.js` 로 다시 뽑는다.
 ppt/node_modules/
 ppt/package-lock.json
 ppt/*.preview.html
+ppt/*.pptx
+ppt/*.PPT
 
 # CAD 대용량 산출물 — 소스(.py)와 검증 리포트만 추적한다
 cad/finger-input-v1/printable/
