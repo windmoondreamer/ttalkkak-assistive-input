@@ -1,0 +1,964 @@
+{
+  "method": {
+    "mode": "READ-ONLY / Onshape CAD WRITE 0",
+    "frozenVersion": "03ede76e83b5c865d9a69c35",
+    "configuration": "default",
+    "footprintMm": [
+      6.0,
+      6.0
+    ],
+    "pocketFootprintMm": [
+      6.4,
+      6.4
+    ],
+    "holderWidthMm": 12.4,
+    "holderTrimDatumMm": 2.8,
+    "rearRetentionMm": 1.2,
+    "holderRearFormula": "3.0 + frontLip + H + 1.2",
+    "clearance": "exact triangle-soup to OBB Euclidean distance after expanded broad-phase",
+    "bestQualifier": "best certified candidate in the recorded center/free-axis search; not a global continuous proof"
+  },
+  "optionCReference": {
+    "translationMm": [
+      1.0,
+      5.5,
+      -8.0
+    ],
+    "translationNormMm": 9.759610647971568,
+    "M2DisplacementMm": 13.382986925101951,
+    "indexClearanceMm": 0.783400308336217
+  },
+  "heightResults": {
+    "H6": {
+      "heightMm": 6.0,
+      "sourceCandidate": "h6_y1.json",
+      "selectionMethod": "height-specific free-axis search",
+      "translationMm": [
+        1.25,
+        3.75,
+        -5.5
+      ],
+      "translationNormMm": 6.773108592072033,
+      "tangentialCorrectionMm": [
+        -0.9,
+        -0.3,
+        0.3,
+        0.9
+      ],
+      "longitudinalCorrectionMm": [
+        0.0,
+        -2.7,
+        0.0,
+        0.0
+      ],
+      "perButtonDisplacementMm": [
+        7.079704260859124,
+        9.99172223373364,
+        7.108019754525877,
+        7.62969682917529
+      ],
+      "maximumIndividualDisplacementMm": 9.99172223373364,
+      "centers": {
+        "M1": [
+          -19.879659086216318,
+          0.1381330961931564,
+          -11.5
+        ],
+        "M2": [
+          -13.306340100722954,
+          -8.412238423494635,
+          -14.2
+        ],
+        "M3": [
+          -3.830369837123496,
+          -14.089823232225754,
+          -11.5
+        ],
+        "M4": [
+          7.3068773119230555,
+          -13.321624794533555,
+          -11.5
+        ]
+      },
+      "surfaceNormals": {
+        "M1": [
+          -0.9459023687192653,
+          -0.21972945346724787,
+          -0.23872091682604557
+        ],
+        "M2": [
+          -0.5093760908169578,
+          -0.6963111812148076,
+          -0.5056547607006916
+        ],
+        "M3": [
+          -0.10355153835548048,
+          -0.7912645017764941,
+          -0.602642155124092
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "axes": {
+        "M1": [
+          -0.7873878401497779,
+          -0.5662033074741256,
+          -0.24379131196502632
+        ],
+        "M2": [
+          -0.5791368164194562,
+          -0.8129516068955724,
+          -0.06091167961436995
+        ],
+        "M3": [
+          0.2511510388433635,
+          -0.7912714553534047,
+          -0.5575057305811343
+        ],
+        "M4": [
+          0.19338406141919973,
+          -0.7837183304947979,
+          -0.5902441725552755
+        ]
+      },
+      "deviationsDeg": {
+        "M1": 21.966664065792187,
+        "M2": 26.8913249066933,
+        "M3": 20.59758052093874,
+        "M4": 1.9180688865751667
+      },
+      "maximumNormalDeviationDeg": 26.8913249066933,
+      "pitchMm": [
+        11.117885392903437,
+        11.371850407781292,
+        11.16370919088357
+      ],
+      "minimumSwitchSatMm": 1.3435115207047286,
+      "minimumPocketDividerMm": 0.8862774456796867,
+      "minimumSplitWallMm": 1.5318533303242514,
+      "minimumScrewClearanceMm": 6.182665490265652,
+      "minimumIndexClearance": {
+        "clearanceMm": 0.5799631049994055,
+        "button": "M4",
+        "envelope": "holder",
+        "component": "frozenShellIndexSurface"
+      },
+      "indexIntersectionCount": 0,
+      "minimumCapPairClearanceMm": 2.2944251900523582,
+      "frontLipCertifiedRangeMm": [
+        2.2576108007361624,
+        2.4
+      ],
+      "frontLipFirstTestedFailureMm": 2.45,
+      "seatDepthCertifiedRangeMm": [
+        5.257610800736162,
+        5.4
+      ],
+      "effectiveStemReachCorridorMm": [
+        5.257610800736162,
+        5.4
+      ],
+      "actualMovingStemTravel": "not derivable without a switch/stem SKU",
+      "minimumHolderRearDatumMm": 12.457610800736163,
+      "minimumHolderDepthBehindTrimMm": 9.657610800736162,
+      "indexSpacing": {
+        "M1": {
+          "indexButton": "I1",
+          "centerDistance3dMm": 27.141076836446825,
+          "vectorMm": [
+            2.3443409137836824,
+            17.632133096193158,
+            -20.5
+          ]
+        },
+        "M2": {
+          "indexButton": "I2",
+          "centerDistance3dMm": 29.360248877467665,
+          "vectorMm": [
+            2.6636598992770466,
+            17.795761576505363,
+            -23.2
+          ]
+        },
+        "M3": {
+          "indexButton": "I3",
+          "centerDistance3dMm": 25.59560382145364,
+          "vectorMm": [
+            1.6656301628765044,
+            15.235176767774245,
+            -20.5
+          ]
+        },
+        "M4": {
+          "indexButton": "I4",
+          "centerDistance3dMm": 26.069854134723805,
+          "vectorMm": [
+            1.810877311923055,
+            16.003375205466444,
+            -20.5
+          ]
+        }
+      },
+      "optionCImprovement": {
+        "rowTranslationReductionMm": 2.9865020558995354,
+        "rowTranslationReductionPercent": 30.600627049812157,
+        "M2DisplacementReductionMm": 3.3912646913683115
+      },
+      "robust050Pass": true
+    },
+    "H5": {
+      "heightMm": 5.0,
+      "sourceCandidate": "h6_y1.json",
+      "selectionMethod": "H=5 rerun plus nested-envelope transfer from H=6 winner",
+      "translationMm": [
+        1.25,
+        3.75,
+        -5.5
+      ],
+      "translationNormMm": 6.773108592072033,
+      "tangentialCorrectionMm": [
+        -0.9,
+        -0.3,
+        0.3,
+        0.9
+      ],
+      "longitudinalCorrectionMm": [
+        0.0,
+        -2.7,
+        0.0,
+        0.0
+      ],
+      "perButtonDisplacementMm": [
+        7.079704260859124,
+        9.99172223373364,
+        7.108019754525877,
+        7.62969682917529
+      ],
+      "maximumIndividualDisplacementMm": 9.99172223373364,
+      "centers": {
+        "M1": [
+          -19.879659086216318,
+          0.1381330961931564,
+          -11.5
+        ],
+        "M2": [
+          -13.306340100722954,
+          -8.412238423494635,
+          -14.2
+        ],
+        "M3": [
+          -3.830369837123496,
+          -14.089823232225754,
+          -11.5
+        ],
+        "M4": [
+          7.3068773119230555,
+          -13.321624794533555,
+          -11.5
+        ]
+      },
+      "surfaceNormals": {
+        "M1": [
+          -0.9459023687192653,
+          -0.21972945346724787,
+          -0.23872091682604557
+        ],
+        "M2": [
+          -0.5093760908169578,
+          -0.6963111812148076,
+          -0.5056547607006916
+        ],
+        "M3": [
+          -0.10355153835548048,
+          -0.7912645017764941,
+          -0.602642155124092
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "axes": {
+        "M1": [
+          -0.7873878401497779,
+          -0.5662033074741256,
+          -0.24379131196502632
+        ],
+        "M2": [
+          -0.5791368164194562,
+          -0.8129516068955724,
+          -0.06091167961436995
+        ],
+        "M3": [
+          0.2511510388433635,
+          -0.7912714553534047,
+          -0.5575057305811343
+        ],
+        "M4": [
+          0.19338406141919973,
+          -0.7837183304947979,
+          -0.5902441725552755
+        ]
+      },
+      "deviationsDeg": {
+        "M1": 21.966664065792187,
+        "M2": 26.8913249066933,
+        "M3": 20.59758052093874,
+        "M4": 1.9180688865751667
+      },
+      "maximumNormalDeviationDeg": 26.8913249066933,
+      "pitchMm": [
+        11.117885392903437,
+        11.371850407781292,
+        11.16370919088357
+      ],
+      "minimumSwitchSatMm": 1.4643151453397802,
+      "minimumPocketDividerMm": 1.005371879468485,
+      "minimumSplitWallMm": 1.561058756009813,
+      "minimumScrewClearanceMm": 6.728834333066999,
+      "minimumIndexClearance": {
+        "clearanceMm": 0.5799631049994053,
+        "button": "M4",
+        "envelope": "holder",
+        "component": "frozenShellIndexSurface"
+      },
+      "indexIntersectionCount": 0,
+      "minimumCapPairClearanceMm": 2.2944251900523582,
+      "frontLipCertifiedRangeMm": [
+        2.2576108007361624,
+        3.375
+      ],
+      "frontLipFirstTestedFailureMm": 3.4375,
+      "seatDepthCertifiedRangeMm": [
+        5.257610800736162,
+        6.375
+      ],
+      "effectiveStemReachCorridorMm": [
+        5.257610800736162,
+        6.375
+      ],
+      "actualMovingStemTravel": "not derivable without a switch/stem SKU",
+      "minimumHolderRearDatumMm": 11.457610800736163,
+      "minimumHolderDepthBehindTrimMm": 8.657610800736162,
+      "indexSpacing": {
+        "M1": {
+          "indexButton": "I1",
+          "centerDistance3dMm": 27.141076836446825,
+          "vectorMm": [
+            2.3443409137836824,
+            17.632133096193158,
+            -20.5
+          ]
+        },
+        "M2": {
+          "indexButton": "I2",
+          "centerDistance3dMm": 29.360248877467665,
+          "vectorMm": [
+            2.6636598992770466,
+            17.795761576505363,
+            -23.2
+          ]
+        },
+        "M3": {
+          "indexButton": "I3",
+          "centerDistance3dMm": 25.59560382145364,
+          "vectorMm": [
+            1.6656301628765044,
+            15.235176767774245,
+            -20.5
+          ]
+        },
+        "M4": {
+          "indexButton": "I4",
+          "centerDistance3dMm": 26.069854134723805,
+          "vectorMm": [
+            1.810877311923055,
+            16.003375205466444,
+            -20.5
+          ]
+        }
+      },
+      "optionCImprovement": {
+        "rowTranslationReductionMm": 2.9865020558995354,
+        "rowTranslationReductionPercent": 30.600627049812157,
+        "M2DisplacementReductionMm": 3.3912646913683115
+      },
+      "robust050Pass": true
+    },
+    "H4.3": {
+      "heightMm": 4.3,
+      "sourceCandidate": "h6_y1.json",
+      "selectionMethod": "H=4.3 rerun plus nested-envelope transfer from H=6 winner",
+      "translationMm": [
+        1.25,
+        3.75,
+        -5.5
+      ],
+      "translationNormMm": 6.773108592072033,
+      "tangentialCorrectionMm": [
+        -0.9,
+        -0.3,
+        0.3,
+        0.9
+      ],
+      "longitudinalCorrectionMm": [
+        0.0,
+        -2.7,
+        0.0,
+        0.0
+      ],
+      "perButtonDisplacementMm": [
+        7.079704260859124,
+        9.99172223373364,
+        7.108019754525877,
+        7.62969682917529
+      ],
+      "maximumIndividualDisplacementMm": 9.99172223373364,
+      "centers": {
+        "M1": [
+          -19.879659086216318,
+          0.1381330961931564,
+          -11.5
+        ],
+        "M2": [
+          -13.306340100722954,
+          -8.412238423494635,
+          -14.2
+        ],
+        "M3": [
+          -3.830369837123496,
+          -14.089823232225754,
+          -11.5
+        ],
+        "M4": [
+          7.3068773119230555,
+          -13.321624794533555,
+          -11.5
+        ]
+      },
+      "surfaceNormals": {
+        "M1": [
+          -0.9459023687192653,
+          -0.21972945346724787,
+          -0.23872091682604557
+        ],
+        "M2": [
+          -0.5093760908169578,
+          -0.6963111812148076,
+          -0.5056547607006916
+        ],
+        "M3": [
+          -0.10355153835548048,
+          -0.7912645017764941,
+          -0.602642155124092
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "axes": {
+        "M1": [
+          -0.7873878401497779,
+          -0.5662033074741256,
+          -0.24379131196502632
+        ],
+        "M2": [
+          -0.5791368164194562,
+          -0.8129516068955724,
+          -0.06091167961436995
+        ],
+        "M3": [
+          0.2511510388433635,
+          -0.7912714553534047,
+          -0.5575057305811343
+        ],
+        "M4": [
+          0.19338406141919973,
+          -0.7837183304947979,
+          -0.5902441725552755
+        ]
+      },
+      "deviationsDeg": {
+        "M1": 21.966664065792187,
+        "M2": 26.8913249066933,
+        "M3": 20.59758052093874,
+        "M4": 1.9180688865751667
+      },
+      "maximumNormalDeviationDeg": 26.8913249066933,
+      "pitchMm": [
+        11.117885392903437,
+        11.371850407781292,
+        11.16370919088357
+      ],
+      "minimumSwitchSatMm": 1.4643151453397794,
+      "minimumPocketDividerMm": 1.005371879468485,
+      "minimumSplitWallMm": 1.561058756009813,
+      "minimumScrewClearanceMm": 7.150426300632027,
+      "minimumIndexClearance": {
+        "clearanceMm": 0.5799631049994063,
+        "button": "M4",
+        "envelope": "holder",
+        "component": "frozenShellIndexSurface"
+      },
+      "indexIntersectionCount": 0,
+      "minimumCapPairClearanceMm": 2.2944251900523582,
+      "frontLipCertifiedRangeMm": [
+        2.2576108007361624,
+        4.0
+      ],
+      "frontLipFirstTestedFailureMm": 4.125,
+      "seatDepthCertifiedRangeMm": [
+        5.257610800736162,
+        7.0
+      ],
+      "effectiveStemReachCorridorMm": [
+        5.257610800736162,
+        7.0
+      ],
+      "actualMovingStemTravel": "not derivable without a switch/stem SKU",
+      "minimumHolderRearDatumMm": 10.757610800736161,
+      "minimumHolderDepthBehindTrimMm": 7.957610800736162,
+      "indexSpacing": {
+        "M1": {
+          "indexButton": "I1",
+          "centerDistance3dMm": 27.141076836446825,
+          "vectorMm": [
+            2.3443409137836824,
+            17.632133096193158,
+            -20.5
+          ]
+        },
+        "M2": {
+          "indexButton": "I2",
+          "centerDistance3dMm": 29.360248877467665,
+          "vectorMm": [
+            2.6636598992770466,
+            17.795761576505363,
+            -23.2
+          ]
+        },
+        "M3": {
+          "indexButton": "I3",
+          "centerDistance3dMm": 25.59560382145364,
+          "vectorMm": [
+            1.6656301628765044,
+            15.235176767774245,
+            -20.5
+          ]
+        },
+        "M4": {
+          "indexButton": "I4",
+          "centerDistance3dMm": 26.069854134723805,
+          "vectorMm": [
+            1.810877311923055,
+            16.003375205466444,
+            -20.5
+          ]
+        }
+      },
+      "optionCImprovement": {
+        "rowTranslationReductionMm": 2.9865020558995354,
+        "rowTranslationReductionPercent": 30.600627049812157,
+        "M2DisplacementReductionMm": 3.3912646913683115
+      },
+      "robust050Pass": true
+    },
+    "H3.5": {
+      "heightMm": 3.5,
+      "sourceCandidate": "h3p1_w1.json",
+      "selectionMethod": "H=3.5 rerun plus nested-envelope transfer from H=3.1 winner",
+      "translationMm": [
+        1.5,
+        3.125,
+        -5.125
+      ],
+      "translationNormMm": 6.187184335382291,
+      "tangentialCorrectionMm": [
+        -0.9,
+        -0.3,
+        0.3,
+        0.9
+      ],
+      "longitudinalCorrectionMm": [
+        0.0,
+        -3.0,
+        0.0,
+        0.0
+      ],
+      "perButtonDisplacementMm": [
+        6.333290607783841,
+        9.849244051351539,
+        6.705879940106024,
+        7.235646670985776
+      ],
+      "maximumIndividualDisplacementMm": 9.849244051351539,
+      "centers": {
+        "M1": [
+          -19.835372271614354,
+          -0.6149917093137987,
+          -11.125
+        ],
+        "M2": [
+          -12.899418190051604,
+          -8.744828191932015,
+          -14.125
+        ],
+        "M3": [
+          -3.537874174513658,
+          -14.413708839910296,
+          -11.125
+        ],
+        "M4": [
+          7.444327589561878,
+          -13.569623472203201,
+          -11.125
+        ]
+      },
+      "surfaceNormals": {
+        "M1": [
+          -0.9616588109597713,
+          -0.15835627815258954,
+          -0.2239098489863688
+        ],
+        "M2": [
+          -0.4861448190571768,
+          -0.7081602123816756,
+          -0.5120276638067567
+        ],
+        "M3": [
+          -0.10355153835548048,
+          -0.7912645017764941,
+          -0.602642155124092
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "axes": {
+        "M1": [
+          -0.8375189984529349,
+          -0.4999500619610949,
+          -0.22048098053004586
+        ],
+        "M2": [
+          -0.6015211525700593,
+          -0.7828463367463624,
+          -0.15913489891783186
+        ],
+        "M3": [
+          0.32042889037242506,
+          -0.7334726083286247,
+          -0.5994524660440561
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "deviationsDeg": {
+        "M1": 20.941535502382763,
+        "M2": 21.83042547341375,
+        "M3": 24.708625584590003,
+        "M4": 0.0
+      },
+      "maximumNormalDeviationDeg": 24.708625584590003,
+      "pitchMm": [
+        11.099626131345916,
+        11.34789470147996,
+        11.014591944091304
+      ],
+      "minimumSwitchSatMm": 1.5063146076279295,
+      "minimumPocketDividerMm": 1.0340657874218668,
+      "minimumSplitWallMm": 1.5139153322095087,
+      "minimumScrewClearanceMm": 7.7495229541850055,
+      "minimumIndexClearance": {
+        "clearanceMm": 0.5318969319075624,
+        "button": "M3",
+        "envelope": "holder",
+        "component": "RWID"
+      },
+      "indexIntersectionCount": 0,
+      "minimumCapPairClearanceMm": 2.134042754218238,
+      "frontLipCertifiedRangeMm": [
+        2.2316165187419816,
+        2.4
+      ],
+      "frontLipFirstTestedFailureMm": 2.45,
+      "seatDepthCertifiedRangeMm": [
+        5.231616518741982,
+        5.4
+      ],
+      "effectiveStemReachCorridorMm": [
+        5.231616518741982,
+        5.4
+      ],
+      "actualMovingStemTravel": "not derivable without a switch/stem SKU",
+      "minimumHolderRearDatumMm": 9.931616518741981,
+      "minimumHolderDepthBehindTrimMm": 7.131616518741981,
+      "indexSpacing": {
+        "M1": {
+          "indexButton": "I1",
+          "centerDistance3dMm": 26.3746485910593,
+          "vectorMm": [
+            2.3886277283856465,
+            16.8790082906862,
+            -20.125
+          ]
+        },
+        "M2": {
+          "indexButton": "I2",
+          "centerDistance3dMm": 29.14028941602479,
+          "vectorMm": [
+            3.070581809948397,
+            17.463171808067983,
+            -23.125
+          ]
+        },
+        "M3": {
+          "indexButton": "I3",
+          "centerDistance3dMm": 25.123624058033624,
+          "vectorMm": [
+            1.9581258254863423,
+            14.911291160089704,
+            -20.125
+          ]
+        },
+        "M4": {
+          "indexButton": "I4",
+          "centerDistance3dMm": 25.63285967130664,
+          "vectorMm": [
+            1.9483275895618775,
+            15.755376527796798,
+            -20.125
+          ]
+        }
+      },
+      "optionCImprovement": {
+        "rowTranslationReductionMm": 3.5724263125892772,
+        "rowTranslationReductionPercent": 36.60418884980589,
+        "M2DisplacementReductionMm": 3.5337428737504126
+      },
+      "robust050Pass": true
+    },
+    "H3.1": {
+      "heightMm": 3.1,
+      "sourceCandidate": "h3p1_w1.json",
+      "selectionMethod": "height-specific free-axis search",
+      "translationMm": [
+        1.5,
+        3.125,
+        -5.125
+      ],
+      "translationNormMm": 6.187184335382291,
+      "tangentialCorrectionMm": [
+        -0.9,
+        -0.3,
+        0.3,
+        0.9
+      ],
+      "longitudinalCorrectionMm": [
+        0.0,
+        -3.0,
+        0.0,
+        0.0
+      ],
+      "perButtonDisplacementMm": [
+        6.333290607783841,
+        9.849244051351539,
+        6.705879940106024,
+        7.235646670985776
+      ],
+      "maximumIndividualDisplacementMm": 9.849244051351539,
+      "centers": {
+        "M1": [
+          -19.835372271614354,
+          -0.6149917093137987,
+          -11.125
+        ],
+        "M2": [
+          -12.899418190051604,
+          -8.744828191932015,
+          -14.125
+        ],
+        "M3": [
+          -3.537874174513658,
+          -14.413708839910296,
+          -11.125
+        ],
+        "M4": [
+          7.444327589561878,
+          -13.569623472203201,
+          -11.125
+        ]
+      },
+      "surfaceNormals": {
+        "M1": [
+          -0.9616588109597713,
+          -0.15835627815258954,
+          -0.2239098489863688
+        ],
+        "M2": [
+          -0.4861448190571768,
+          -0.7081602123816756,
+          -0.5120276638067567
+        ],
+        "M3": [
+          -0.10355153835548048,
+          -0.7912645017764941,
+          -0.602642155124092
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "axes": {
+        "M1": [
+          -0.8375189984529349,
+          -0.4999500619610949,
+          -0.22048098053004586
+        ],
+        "M2": [
+          -0.6015211525700593,
+          -0.7828463367463624,
+          -0.15913489891783186
+        ],
+        "M3": [
+          0.32042889037242506,
+          -0.7334726083286247,
+          -0.5994524660440561
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "deviationsDeg": {
+        "M1": 20.941535502382763,
+        "M2": 21.83042547341375,
+        "M3": 24.708625584590003,
+        "M4": 0.0
+      },
+      "maximumNormalDeviationDeg": 24.708625584590003,
+      "pitchMm": [
+        11.099626131345916,
+        11.34789470147996,
+        11.014591944091304
+      ],
+      "minimumSwitchSatMm": 1.5063146076279286,
+      "minimumPocketDividerMm": 1.0340657874218695,
+      "minimumSplitWallMm": 1.5139153322095096,
+      "minimumScrewClearanceMm": 8.02380968522357,
+      "minimumIndexClearance": {
+        "clearanceMm": 0.6072058630642149,
+        "button": "M3",
+        "envelope": "holder",
+        "component": "RWID"
+      },
+      "indexIntersectionCount": 0,
+      "minimumCapPairClearanceMm": 2.134042754218238,
+      "frontLipCertifiedRangeMm": [
+        2.2316165187419816,
+        2.8
+      ],
+      "frontLipFirstTestedFailureMm": 2.85,
+      "seatDepthCertifiedRangeMm": [
+        5.231616518741982,
+        5.8
+      ],
+      "effectiveStemReachCorridorMm": [
+        5.231616518741982,
+        5.8
+      ],
+      "actualMovingStemTravel": "not derivable without a switch/stem SKU",
+      "minimumHolderRearDatumMm": 9.53161651874198,
+      "minimumHolderDepthBehindTrimMm": 6.731616518741981,
+      "indexSpacing": {
+        "M1": {
+          "indexButton": "I1",
+          "centerDistance3dMm": 26.3746485910593,
+          "vectorMm": [
+            2.3886277283856465,
+            16.8790082906862,
+            -20.125
+          ]
+        },
+        "M2": {
+          "indexButton": "I2",
+          "centerDistance3dMm": 29.14028941602479,
+          "vectorMm": [
+            3.070581809948397,
+            17.463171808067983,
+            -23.125
+          ]
+        },
+        "M3": {
+          "indexButton": "I3",
+          "centerDistance3dMm": 25.123624058033624,
+          "vectorMm": [
+            1.9581258254863423,
+            14.911291160089704,
+            -20.125
+          ]
+        },
+        "M4": {
+          "indexButton": "I4",
+          "centerDistance3dMm": 25.63285967130664,
+          "vectorMm": [
+            1.9483275895618775,
+            15.755376527796798,
+            -20.125
+          ]
+        }
+      },
+      "optionCImprovement": {
+        "rowTranslationReductionMm": 3.5724263125892772,
+        "rowTranslationReductionPercent": 36.60418884980589,
+        "M2DisplacementReductionMm": 3.5337428737504126
+      },
+      "robust050Pass": true
+    }
+  },
+  "maximumHeightReverseCalculation": {
+    "clearance0.50": {
+      "sweepConfirmedAtLeastMm": 6.0,
+      "fixedBranchCertifiedMaximumMm": 6.1,
+      "nextTestedFailureMm": 6.2,
+      "sourceCandidate": "h6_y1.json",
+      "rowTranslationNormMm": 6.773108592907527
+    },
+    "clearance0.80": {
+      "sweepConfirmedAtLeastMm": 6.0,
+      "fixedBranchCertifiedMaximumMm": 6.2,
+      "nextTestedFailureMm": 6.3,
+      "sourceCandidate": "h6_c08_1.json",
+      "rowTranslationNormMm": 8.04673846971554
+    },
+    "clearance1.00": {
+      "sweepConfirmedAtLeastMm": 6.0,
+      "fixedBranchCertifiedMaximumMm": 6.3,
+      "nextTestedFailureMm": 6.4,
+      "sourceCandidate": "h6_c10_m2p6.json",
+      "rowTranslationNormMm": 8.73212459828649,
+      "evaluatedFrontLipMm": 2.3
+    }
+  },
+  "decision": {
+    "hardwareFallback": "A-family: retain 6x6x6; new robust reoptimized row supersedes literal Option C",
+    "lowProfileClearlyAdvantageous": false,
+    "lowProfileSpecificSkuSearchNeeded": false,
+    "actualSkuGeometryValidationNeededBeforeWrite": true,
+    "cadWrite": "HOLD"
+  }
+}

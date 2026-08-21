@@ -1,0 +1,146 @@
+{
+  "document": {
+    "did": "a21e64f36bc61df760d4587c",
+    "workspaceId": "ef6a7b3ccc45186203e4d2ca",
+    "partStudioElementId": "425d9199b59cfb1efd9ddc35",
+    "assemblyElementId": "250f706cb675e635b8d344c4",
+    "finalVersion": "ITS1105_SAME_SKU_8BTN_FINAL",
+    "finalVersionId": "e05a9ff0fa5a7bd51eb848a7",
+    "configuration": "default"
+  },
+  "hardware": {
+    "sku": "ITS-1105-6mm",
+    "designEnvelopeMm": [6.18, 6.12, 3.56],
+    "physicalNominalMm": [6.12, 6.05, 3.56],
+    "actuatorDiameterMm": 3.35,
+    "actuatorProjectionMm": 2.44,
+    "travelMm": {"nominal": 0.25, "tolerance": 0.10},
+    "pocketMm": [6.4, 6.4],
+    "pocketSideClearanceMm": [0.11, 0.14]
+  },
+  "index": {
+    "rollsDeg": {"I1": 0, "I2": 0, "I3": 90, "I4": 90},
+    "minimumBodySatDesignMm": 1.2139654590078264,
+    "robustnessProbe": {
+      "bodyEnvelopeMm": [6.20, 6.15, 3.56],
+      "minimumBodySatMm": 1.1789567271606787,
+      "classification": "MARGINAL"
+    },
+    "minimumTerminalWebBeforeChannelClearanceMm": 1.712585131801794,
+    "channelClearancePerSideMm": 0.08,
+    "minimumStructuralTerminalWebMm": 1.552585131801794,
+    "minimumDividerMm": 0.807375430577876,
+    "minimumSplitWallMm": 1.5142223667811932,
+    "minimumScrewClearanceMm": 2.9893362096277443,
+    "sharedRetainerServiceTravelMm": 2.09,
+    "sharedRetainerRequirementMm": 2.07,
+    "i4ServiceMm": 1.85,
+    "spacerThicknessMm": {"I1": 2.4403, "I2": 2.4403, "I3": 2.4403, "I4": 2.44},
+    "capUsableTravelMm": {
+      "I1": 0.3836165,
+      "I2": 0.3842563,
+      "I3": 0.3836227,
+      "I4": 0.3996237,
+      "minimum": 0.3836165
+    },
+    "verdict": "PASS"
+  },
+  "middle": {
+    "centersMm": {
+      "M1": [-19.835372271614354, -0.6149917093137987, -11.125],
+      "M2": [-12.899418190051604, -8.744828191932015, -14.125],
+      "M3": [-3.537874174513658, -14.413708839910296, -11.125],
+      "M4": [7.444327589561878, -13.569623472203201, -11.125]
+    },
+    "axes": {
+      "M1": [-0.8375189984529349, -0.4999500619610949, -0.22048098053004586],
+      "M2": [-0.6015211525700593, -0.7828463367463624, -0.15913489891783186],
+      "M3": [0.32042889037242506, -0.7334726083286247, -0.5994524660440561],
+      "M4": [0.22485912746543743, -0.7727927739559164, -0.5934894281425763]
+    },
+    "rollsDeg": {"M1": 90, "M2": 90, "M3": 0, "M4": 0},
+    "minimumBodySatExactMm": 1.3471463861704551,
+    "minimumBodySatConservativeSquareMm": 1.3013968403875515,
+    "minimumIndexClearanceMm": 0.5473251020624432,
+    "indexCollisionCount": 0,
+    "minimumDividerMm": 1.0416599892742178,
+    "minimumTerminalWebMm": 1.957425497865646,
+    "minimumSplitWallMm": 1.5292866579848168,
+    "splitSupportOwnershipMm": {"JfD_M3": 0.5, "JaD_M4": 0.5},
+    "minimumScrewClearanceMm": 9.234316080691267,
+    "pocketSideClearanceMm": [0.11, 0.14],
+    "spacerThicknessMm": 2.44,
+    "capNominalMm": 8.0,
+    "capOpeningMm": 8.4,
+    "minimumCapPairGapMm": 2.134042754218238,
+    "minimumUsableActuatorTravelMm": 0.3633781037981969,
+    "features": {
+      "M1": "MmpBMYK4r3YQubx6n",
+      "M2": "Mg4CS9ouVxzcPvhDU",
+      "M3": "M5mAoLzCamzWWTulC",
+      "M4": "MPFPMgIUS7WLdMWzv"
+    },
+    "m4AddedBodies": [
+      {"partId": "RLVD", "partName": "Part 29", "role": "M4 independent spacer"},
+      {"partId": "RPVD", "partName": "Part 30", "role": "M4 independent cap"}
+    ],
+    "verdict": "PASS"
+  },
+  "liveUiAudit": {
+    "method": "authenticated Onshape UI + DOM, after access-key daily quota exhaustion",
+    "featureCount": 200,
+    "solidPartCount": 30,
+    "errorFilterMatches": 0,
+    "visibleWarningOrErrorFlags": 0,
+    "assemblyComponentCount": 25,
+    "assemblyVisibleWarningOrErrorFlags": 0,
+    "danglingReferences": 0,
+    "danglingBasis": "pre-M4 API audit 0; M4 is Part Studio-only; JaD identity remained present; assembly remained 25 and displayed no warning/error/dangling class",
+    "identity": {"JaD": true, "JfD": true, "RWID": true, "RZKD": true},
+    "m4FeatureCommitted": true,
+    "m4FeatureCount": 1,
+    "partCountDelta": {"before": 28, "after": 30, "added": 2, "removed": 0}
+  },
+  "bodyInventory": [
+    {"partId": "JaD", "name": "Joystick_1", "role": "JaD shell"},
+    {"partId": "JfD", "name": "Joystick_2", "role": "JfD shell"},
+    {"partId": "RYDD", "name": "Backplate", "role": "original"},
+    {"partId": "RAED", "name": "Button_wide_1", "role": "original thumb"},
+    {"partId": "RAEH", "name": "Button_side_1", "role": "original thumb"},
+    {"partId": "RAEL", "name": "Button_corner_1", "role": "original thumb"},
+    {"partId": "RBED", "name": "Button_corner_2", "role": "original thumb"},
+    {"partId": "RBEH", "name": "Button_side_2", "role": "original thumb"},
+    {"partId": "RBEL", "name": "Button_wide_2", "role": "original thumb"},
+    {"partId": "RDED", "name": "Button_middle_1", "role": "original thumb"},
+    {"partId": "RDEH", "name": "Button_middle_2", "role": "original thumb"},
+    {"partId": "RHED", "name": "Small_joystick_attachment", "role": "original"},
+    {"partId": "R4ED", "name": "Part 13", "role": "INDEX cap I1"},
+    {"partId": "R9ED", "name": "Part 14", "role": "INDEX cap I2"},
+    {"partId": "RCFD", "name": "Part 15", "role": "INDEX cap I3"},
+    {"partId": "RHFD", "name": "Part 16", "role": "INDEX cap I4"},
+    {"partId": "RWID", "name": "Part 17", "role": "shared retainer"},
+    {"partId": "RZKD", "name": "Part 18", "role": "I4 retainer"},
+    {"partId": "RmND", "name": "Part 19", "role": "I1 spacer"},
+    {"partId": "RqND", "name": "Part 20", "role": "I2 spacer"},
+    {"partId": "RuND", "name": "Part 21", "role": "I3 spacer"},
+    {"partId": "RyND", "name": "Part 22", "role": "I4 spacer"},
+    {"partId": "R4PD", "name": "Part 23", "role": "M1 spacer"},
+    {"partId": "R8PD", "name": "Part 24", "role": "M1 cap"},
+    {"partId": "RkRD", "name": "Part 25", "role": "M2 spacer"},
+    {"partId": "RoRD", "name": "Part 26", "role": "M2 cap"},
+    {"partId": "RaTD", "name": "Part 27", "role": "M3 spacer"},
+    {"partId": "ReTD", "name": "Part 28", "role": "M3 cap"},
+    {"partId": "RLVD", "name": "Part 29", "role": "M4 spacer"},
+    {"partId": "RPVD", "name": "Part 30", "role": "M4 cap"}
+  ],
+  "render": {
+    "path": "renders/its1105_same_sku_8button_final.png",
+    "sizePx": [1500, 1125],
+    "sha256": "A5705A88DD5A6C522688E2112B975703D18A543BAE467657204D655765CD2388"
+  },
+  "finalVerdict": {
+    "INDEX": "PASS",
+    "MIDDLE": "PASS",
+    "ITS_SAME_SKU_8_BUTTON_IMPLEMENTATION": "PASS"
+  }
+}

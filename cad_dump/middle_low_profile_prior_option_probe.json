@@ -1,0 +1,3548 @@
+{
+  "A": {
+    "minimumNominalFrontLipMm": 2.292585684246707,
+    "holderRearByHeightMm": {
+      "6.0": 12.492585684246706,
+      "5.0": 11.492585684246706,
+      "4.3": 10.792585684246706,
+      "3.5": 9.992585684246706,
+      "3.1": 9.592585684246707
+    },
+    "heights": {
+      "6.0": {
+        "switchSatMm": [
+          1.4267862494523706,
+          1.4589869523065033,
+          6.769651679041198,
+          5.714317584608931
+        ],
+        "dividerMm": [
+          0.9709578333172191,
+          0.990110969883931,
+          5.286722153982595
+        ],
+        "splitWallMm": [
+          2.7704981833934044,
+          1.6568340207151366
+        ],
+        "screwMm": [
+          7.891441691963259,
+          8.709804106719966,
+          16.803674272801103,
+          16.047959550979787
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000022,
+          0.6831801030711899,
+          0.5524756378507156,
+          1.9681362237129765
+        ],
+        "pitchMm": [
+          10.853946880035515,
+          10.948478322258845,
+          11.026460655293366
+        ],
+        "capPairClearanceMm": [
+          2.245963132874847,
+          2.0575644338431074,
+          2.1456640609028304
+        ],
+        "deviationsDeg": [
+          27.21291391043163,
+          23.11584571227316,
+          25.825843431481022,
+          6.776132835877466
+        ],
+        "maxDeviationDeg": 27.21291391043163,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.269904373932711
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.385202108434722
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.507810449852084
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.005492488782085
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.117075551960864
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.21769248365166
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 7.784195613557739
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.252770673053052
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.127177566074707
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.08187186529192
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.557691852500243
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.19304709498905
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.934397308173455
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.280106681636735
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.91130019430659
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.043759637408962
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.987316933182055
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.68929418813236
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6525838186703288
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.4738224966553313
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 14.123724478722584
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.401593845138533
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.238314684283795
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.863495726080279
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.26206185967764295
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.15512400097326928
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.106944280529392
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6121211433030678
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.967465701625234
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.250739307269908
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.4704670160722646
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.687349212134037
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.049795558313988
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.006362099718328906
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.5334713533737818
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.049795558313985
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.006362099718328906,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": true
+      },
+      "5.0": {
+        "switchSatMm": [
+          1.6963962441412925,
+          1.4589869523065042,
+          7.597421670921869,
+          5.714317584608931
+        ],
+        "dividerMm": [
+          1.2405678280061445,
+          0.9901109698839301,
+          5.286722153982593
+        ],
+        "splitWallMm": [
+          2.7704981833934044,
+          1.7486515754125547
+        ],
+        "screwMm": [
+          8.336114663307411,
+          9.589667307735017,
+          16.935294683334696,
+          16.390691130078046
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000022,
+          0.6831801030711899,
+          0.5524756378507156,
+          1.9681362237129765
+        ],
+        "pitchMm": [
+          10.853946880035515,
+          10.948478322258845,
+          11.026460655293366
+        ],
+        "capPairClearanceMm": [
+          2.245963132874847,
+          2.0575644338431074,
+          2.1456640609028304
+        ],
+        "deviationsDeg": [
+          27.21291391043163,
+          23.11584571227316,
+          25.825843431481022,
+          6.776132835877466
+        ],
+        "maxDeviationDeg": 27.21291391043163,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.26990437393271
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.385202108434724
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.636576426884908
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.005492488782087
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.117075551960864
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.340040867093112
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 7.784195613557739
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.252770673053052
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.226005014000588
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.08187186529192
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.557691852500245
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.193047094989048
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.934397308173455
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.280106681636735
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.91130019430659
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.043759637408961
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.987316933182055
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.68929418813236
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6525838186703297
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.499484787855796
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 14.124186901224945
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.401593845138532
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.2588791974582905
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.863495726080279
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.26206185967764384
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.15512400097327017
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.106944280529394
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6121211433030678
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.967465701625234
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.303850385225932
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.4704670160722646
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.687349212134036
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.087348424415978
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.006362099718328906
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.5334713533737817
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.049795558313988
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.006362099718328906,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": true
+      },
+      "4.3": {
+        "switchSatMm": [
+          1.8851232404235398,
+          1.4589869523065024,
+          8.176860665238339,
+          5.714317584608931
+        ],
+        "dividerMm": [
+          1.42929482428839,
+          0.9901109698839319,
+          5.286722153982595
+        ],
+        "splitWallMm": [
+          2.7704981833934044,
+          1.8129238637007474
+        ],
+        "screwMm": [
+          8.686618762973346,
+          10.215372468842565,
+          17.053351981686973,
+          16.65667143528322
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000022,
+          0.6831801030711899,
+          0.5524756378507156,
+          1.9681362237129765
+        ],
+        "pitchMm": [
+          10.853946880035515,
+          10.948478322258845,
+          11.026460655293366
+        ],
+        "capPairClearanceMm": [
+          2.245963132874847,
+          2.0575644338431074,
+          2.1456640609028304
+        ],
+        "deviationsDeg": [
+          27.21291391043163,
+          23.11584571227316,
+          25.825843431481022,
+          6.776132835877466
+        ],
+        "maxDeviationDeg": 27.21291391043163,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.26990437393271
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.390052769981427
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.749446804808453
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.005492488782087
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.11785294007926
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.44872552816935
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 7.784195613557738
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.252770673053052
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.32283397479161
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.081871865291921
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.557691852500243
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.19304709498905
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.934397308173455
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.280106681636736
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.911300194306595
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.043759637408962
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.987316933182055
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.68929418813236
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6525838186703297
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.5666893837389058
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 14.147178632097882
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.4015938451385317
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.3242207070180885
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.877098665772804
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.26206185967764295
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.1551240009732684
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.106944280529392
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6121211433030673
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 5.00050404193288
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.389012019170847
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.470467016072264
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.704015537800917
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.162519329578345
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.00636209971832935
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.5334713533737828
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.07325643664647
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.00636209971832935,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": true
+      },
+      "3.5": {
+        "switchSatMm": [
+          2.100811236174679,
+          1.4589869523065033,
+          8.839076658742876,
+          5.714317584608931
+        ],
+        "dividerMm": [
+          1.6449828200395293,
+          0.9901109698839337,
+          5.286722153982595
+        ],
+        "splitWallMm": [
+          2.7704981833934044,
+          1.8863779074586828
+        ],
+        "screwMm": [
+          9.122860613795254,
+          10.938819241241767,
+          17.213890239766393,
+          16.985724301823
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000022,
+          0.6831801030711899,
+          0.5524756378507156,
+          1.9681362237129765
+        ],
+        "pitchMm": [
+          10.853946880035515,
+          10.948478322258845,
+          11.026460655293366
+        ],
+        "capPairClearanceMm": [
+          2.245963132874847,
+          2.0575644338431074,
+          2.1456640609028304
+        ],
+        "deviationsDeg": [
+          27.21291391043163,
+          23.11584571227316,
+          25.825843431481022,
+          6.776132835877466
+        ],
+        "maxDeviationDeg": 27.21291391043163,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.26990437393271
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.411182787566297
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.90101419462957
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.005492488782089
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.138874210050936
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.59582302964374
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 7.784195613557739
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.252770673053053
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.460936006457633
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.081871865291921
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.557691852500245
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.197156888621976
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.934397308173455
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.280106681636735
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.912477298082052
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.043759637408962
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.987316933182055
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.68929418813236
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6525838186703283
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.693016131127377
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 14.215678988665136
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.4015938451385317
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.449688772286635
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.935448799370688
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.26206185967764384
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.2807006530677749
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.115431768204502
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6121211433030678
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 5.151789272081479
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.533591480219417
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.4704670160722646
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.831549492092372
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.296754572822696
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.006362099718328906
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.6632332626344118
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.165548480424704
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.006362099718328906,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": true
+      },
+      "3.1": {
+        "switchSatMm": [
+          2.2086552340502466,
+          1.4589869523065024,
+          9.170184655495143,
+          5.714317584608931
+        ],
+        "dividerMm": [
+          1.7528268179150985,
+          0.9901109698839328,
+          5.286722153982595
+        ],
+        "splitWallMm": [
+          2.7704981833934044,
+          1.9231049293376499
+        ],
+        "screwMm": [
+          9.354107385420752,
+          11.303497243635979,
+          17.304220835683516,
+          17.159904370070805
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000022,
+          0.6831801030711899,
+          0.5524756378507156,
+          1.9681362237129765
+        ],
+        "pitchMm": [
+          10.853946880035515,
+          10.948478322258845,
+          11.026460655293366
+        ],
+        "capPairClearanceMm": [
+          2.245963132874847,
+          2.0575644338431074,
+          2.1456640609028304
+        ],
+        "deviationsDeg": [
+          27.21291391043163,
+          23.11584571227316,
+          25.825843431481022,
+          6.776132835877466
+        ],
+        "maxDeviationDeg": 27.21291391043163,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.269904373932711
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.422833657937225
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.98570374434323
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 12.005492488782087
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.150959136467854
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 25.67840375380082
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 7.784195613557739
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.261233091664539
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.540799359625463
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.08187186529192
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.557691852500243
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.208454985108894
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.934397308173455
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.280106681636735
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.920272813687134
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.043759637408963
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.987316933182058
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.68929418813236
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.6525838186703288
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.7768865395253983
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 14.266638077659353
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.401593845138532
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.5341595542252393
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.981708270809625
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.26206185967764295
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.3775782831992307
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.139693919805723
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.612121143303067
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 5.27069273991466
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.624284680090323
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.4704670160722646
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.942844419760822
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.382722693946207
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.006362099718330239
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.8307582391916989
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.237365817047097
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.006362099718330239,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": true
+      }
+    }
+  },
+  "B": {
+    "minimumNominalFrontLipMm": 1.8373692222057967,
+    "holderRearByHeightMm": {
+      "6.0": 12.037369222205797,
+      "5.0": 11.037369222205797,
+      "4.3": 10.337369222205796,
+      "3.5": 9.537369222205797,
+      "3.1": 9.137369222205797
+    },
+    "heights": {
+      "6.0": {
+        "switchSatMm": [
+          2.015734008148863,
+          1.211350623717017,
+          7.190358715255652,
+          5.135873153660997
+        ],
+        "dividerMm": [
+          1.5634457412500327,
+          0.741339717775408,
+          4.731425656996294
+        ],
+        "splitWallMm": [
+          1.5689998508793335,
+          2.0558876382021634
+        ],
+        "screwMm": [
+          5.431584429447632,
+          7.098370761695193,
+          16.757250277511787,
+          15.012339463539622
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000027,
+          0.9003967728858946,
+          0.8323070871816505,
+          1.5109838536043148
+        ],
+        "pitchMm": [
+          10.863281313525171,
+          11.306353569707273,
+          11.12278506146146
+        ],
+        "capPairClearanceMm": [
+          2.308733124928742,
+          2.3451115044667636,
+          2.1760522263907625
+        ],
+        "deviationsDeg": [
+          20.785464236264044,
+          15.326408685414268,
+          16.015175920523465,
+          7.296938535163348
+        ],
+        "maxDeviationDeg": 20.785464236264044,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.474972753617243
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.603853744166848
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.37437581771868
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.229437130797718
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.346511648526146
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.0676806322102
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 8.706315808697935
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.678978057918922
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.821860678338663
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.952918966608292
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.00299437690244
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.01329767124678
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.768991708360609
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.730243885774955
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.713025640575083
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.984170963083481
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.6944679387931725
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.441175624375482
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.0273422492572357
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.3807850189766593
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.420177659042965
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 2.844230610398436
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.1482298032754694
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.130871852722462
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.11045696208700607
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.07733779773048255
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.273497148216153
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.9701719612596365
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.1295850433003904
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.326191136458434
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.7559089011247577
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 5.8497770927143025
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.11579453696775
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.014563551011241006
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 1.7035662432633
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.1017643770255
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.014563551011241006,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "5.0": {
+        "switchSatMm": [
+          2.2447206302821074,
+          1.2113506237170162,
+          7.85420676213691,
+          5.135873153660997
+        ],
+        "dividerMm": [
+          1.792432363383277,
+          0.7413397177754089,
+          4.731425656996294
+        ],
+        "splitWallMm": [
+          1.568999850879333,
+          2.1595593143745266
+        ],
+        "screwMm": [
+          6.101897883019502,
+          7.869483768895485,
+          16.90011130003287,
+          15.361563181252553
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000027,
+          0.9003967728858946,
+          0.8323070871816505,
+          1.5109838536043148
+        ],
+        "pitchMm": [
+          10.863281313525171,
+          11.306353569707273,
+          11.12278506146146
+        ],
+        "capPairClearanceMm": [
+          2.308733124928742,
+          2.3451115044667636,
+          2.1760522263907625
+        ],
+        "deviationsDeg": [
+          20.785464236264044,
+          15.326408685414268,
+          16.015175920523465,
+          7.296938535163348
+        ],
+        "maxDeviationDeg": 20.785464236264044,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.474972753617239
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.603853744166848
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.562576333450778
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.229437130797722
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.346511648526146
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.250461619541902
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 8.706315808697935
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.678978057918922
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.99446214757157
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.952918966608292
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.013635079259965
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.145615275236697
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.76899170836061
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.73469544806379
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.838005495560925
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.98417096308348
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.6944679387931725
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.53960115613202
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.027342249257235
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.689522582514145
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.619854668107836
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 2.844230610398435
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.425257467443238
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.319874939079646
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.11045696208700619
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.26931692971003207
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.433823304370087
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.9701719612596365
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.151554859190058
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.423872794343797
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.7559089011247573
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 5.858763264538965
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.19988851957672
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.014563551011238813
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 1.7035662432633003
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.119954548998729
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.014563551011238813,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "4.3": {
+        "switchSatMm": [
+          2.405011265775378,
+          1.2113506237170162,
+          8.31890039495379,
+          5.135873153660995
+        ],
+        "dividerMm": [
+          1.9527229988765482,
+          0.7413397177754106,
+          4.731425656996294
+        ],
+        "splitWallMm": [
+          1.5689998508793335,
+          2.232129487695181
+        ],
+        "screwMm": [
+          6.603598998913334,
+          8.429499152493936,
+          17.0281346534877,
+          15.633344268562162
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000027,
+          0.9003967728858946,
+          0.8323070871816505,
+          1.5109838536043148
+        ],
+        "pitchMm": [
+          10.863281313525171,
+          11.306353569707273,
+          11.12278506146146
+        ],
+        "capPairClearanceMm": [
+          2.308733124928742,
+          2.3451115044667636,
+          2.1760522263907625
+        ],
+        "deviationsDeg": [
+          20.785464236264044,
+          15.326408685414268,
+          16.015175920523465,
+          7.296938535163348
+        ],
+        "maxDeviationDeg": 20.785464236264044,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.474972753617243
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.605079148904434
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.71580795442456
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.229437130797718
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.346511648526146
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.400202052755912
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 8.706315808697935
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.678978057918922
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.141370742306215
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.952918966608292
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.061351632013327
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.26450935924508
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.76899170836061
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.773637581524092
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 21.952188617840903
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.984170963083481
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.695316317842038
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.641930444407222
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.0273422492572353
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.9513040925635132
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.801084454724961
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 2.8442306103984336
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.690300673801078
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.49476044021509
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.11045696208700431
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.5353532959729815
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.606586963336575
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.9701719612596356
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.241536046672794
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.535858089313502
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.7559089011247564
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 5.934295879529562
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.303238340515572
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.014563551011239708
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 1.71398798726485
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.185900720560271
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.014563551011239708,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "3.5": {
+        "switchSatMm": [
+          2.5882005634819745,
+          1.211350623717017,
+          8.849978832458792,
+          5.135873153660995
+        ],
+        "dividerMm": [
+          2.135912296583143,
+          0.741339717775408,
+          4.731425656996292
+        ],
+        "splitWallMm": [
+          1.568999850879333,
+          2.315066828633072
+        ],
+        "screwMm": [
+          7.204265820658085,
+          9.086687758279037,
+          17.202087142233555,
+          15.970139842357703
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000027,
+          0.9003967728858946,
+          0.8323070871816505,
+          1.5109838536043148
+        ],
+        "pitchMm": [
+          10.863281313525171,
+          11.306353569707273,
+          11.12278506146146
+        ],
+        "capPairClearanceMm": [
+          2.308733124928742,
+          2.3451115044667636,
+          2.1760522263907625
+        ],
+        "deviationsDeg": [
+          20.785464236264044,
+          15.326408685414268,
+          16.015175920523465,
+          7.296938535163348
+        ],
+        "maxDeviationDeg": 20.785464236264044,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.474972753617243
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.613054490217502
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.912164610350516
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.229437130797722
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.35416256176628
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.592872687681673
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 8.706315808697935
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.678978057918922
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.334961555936516
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.952918966608292
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.12864535931607
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.42638575991714
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.76899170836061
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.83950474615848
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.109115458515436
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.98417096308348
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.735833209708265
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.791911393945423
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.027342249257236
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.255345654006886
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 14.048108426066955
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 2.844230610398435
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.9943422352444506
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.735646237541086
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.11045696208700798
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.8393948574163542
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 9.86133516863871
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.9701719612596356
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.431494773913656
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.706562176150296
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.7559089011247577
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.108201071966784
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.465011801673391
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.014563551011240483
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 1.949074596109569
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.319058385519025
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.014563551011240483,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "3.1": {
+        "switchSatMm": [
+          2.6797952123352706,
+          1.2113506237170153,
+          9.115518051211295,
+          5.135873153660995
+        ],
+        "dividerMm": [
+          2.2275069454364393,
+          0.7413397177754097,
+          4.731425656996294
+        ],
+        "splitWallMm": [
+          1.5689998508793335,
+          2.3565354991020167
+        ],
+        "screwMm": [
+          7.514109304593907,
+          9.421323000062355,
+          17.29990331098466,
+          16.148589943601213
+        ],
+        "actualFrontLipMm": [
+          0.5000000000000027,
+          0.9003967728858946,
+          0.8323070871816505,
+          1.5109838536043148
+        ],
+        "pitchMm": [
+          10.863281313525171,
+          11.306353569707273,
+          11.12278506146146
+        ],
+        "capPairClearanceMm": [
+          2.308733124928742,
+          2.3451115044667636,
+          2.1760522263907625
+        ],
+        "deviationsDeg": [
+          20.785464236264044,
+          15.326408685414268,
+          16.015175920523465,
+          7.296938535163348
+        ],
+        "maxDeviationDeg": 20.785464236264044,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.474972753617239
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.617144207572027
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.018691839040933
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.22943713079772
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.358496199635532
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.697677473175457
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 8.706315808697937
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.680990171798319
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.4418272960028
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.952918966608292
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 12.163052819300328
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.517548242980748
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.768991708360609
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 11.873223492525595
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.1979770920757
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 6.984170963083479
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.760615116979136
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 17.87985770839232
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.0273422492572353
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.407366434728573
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 14.18693270099547
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 2.8442306103984345
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.146363015966136
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.871830689383353
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.11045696208700506
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 0.9914156381380399
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.010276740443887
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.970171961259636
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.561082336730739
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.80851342201593
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 3.7559089011247573
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.231676880106797
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 13.562880927609879
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.014563551011239927
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 2.124825745003904
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 10.408081581207488
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.014563551011239927,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      }
+    }
+  },
+  "C": {
+    "minimumNominalFrontLipMm": 1.9568548020118666,
+    "holderRearByHeightMm": {
+      "6.0": 12.156854802011866,
+      "5.0": 11.156854802011866,
+      "4.3": 10.456854802011865,
+      "3.5": 9.656854802011866,
+      "3.1": 9.256854802011866
+    },
+    "heights": {
+      "6.0": {
+        "switchSatMm": [
+          1.4878516565190978,
+          1.3860211751721856,
+          6.351773389555069,
+          5.121308636816079
+        ],
+        "dividerMm": [
+          1.0296923264698714,
+          0.9136290605439736,
+          4.714381216096333
+        ],
+        "splitWallMm": [
+          1.4521946831086563,
+          1.572413404521373
+        ],
+        "screwMm": [
+          3.4549582363953526,
+          5.478961648999956,
+          13.549682971541365,
+          12.067827264298264
+        ],
+        "actualFrontLipMm": [
+          0.5534015290553178,
+          0.49999999999999867,
+          0.6014901412655931,
+          1.944041142364684
+        ],
+        "pitchMm": [
+          11.015232622524385,
+          11.396324293538603,
+          11.133058045110754
+        ],
+        "capPairClearanceMm": [
+          2.7574352513523666,
+          2.473173533416026,
+          2.229831843734956
+        ],
+        "deviationsDeg": [
+          21.467824057269684,
+          20.143351257373258,
+          21.683028976780086,
+          3.440256344988861
+        ],
+        "maxDeviationDeg": 21.683028976780086,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.884571389314559
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 13.962479571357113
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.17862963821346
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.619305564331746
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 13.70520636901023
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 26.8565037845299
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.05058809566592
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.013009995304479
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.585818420953046
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.49303412212031
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.93603897919039
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.812870485540145
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.222784059978776
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.66550476936378
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.535377414052697
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.2597378709506
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.611932407075233
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 20.390629995595415
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.98952799049481
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.458940460205477
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.360601445013426
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.807108735774206
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.24726587828368
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.107829056005137
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 1.0915849436381024
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.2313020640480756
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.638249129527102
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.508587486543298
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.262690642732098
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.842113273160923
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.244499978768917
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.987457253915599
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.629199535980417
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.7834003083362169
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.92748699365171
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.617493748042236
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.7834003083362169,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "5.0": {
+        "switchSatMm": [
+          1.7741614331831914,
+          1.3860211751721856,
+          7.102406387171051,
+          5.121308636816079
+        ],
+        "dividerMm": [
+          1.3160021031339628,
+          0.9136290605439736,
+          4.714381216096332
+        ],
+        "splitWallMm": [
+          1.4521946831086563,
+          1.7498278187910628
+        ],
+        "screwMm": [
+          4.054113259798455,
+          6.372660348440453,
+          13.782861693362268,
+          12.4547614747156
+        ],
+        "actualFrontLipMm": [
+          0.5534015290553178,
+          0.49999999999999867,
+          0.6014901412655931,
+          1.944041142364684
+        ],
+        "pitchMm": [
+          11.015232622524385,
+          11.396324293538603,
+          11.133058045110754
+        ],
+        "capPairClearanceMm": [
+          2.7574352513523666,
+          2.473173533416026,
+          2.229831843734956
+        ],
+        "deviationsDeg": [
+          21.467824057269684,
+          20.143351257373258,
+          21.683028976780086,
+          3.440256344988861
+        ],
+        "maxDeviationDeg": 21.683028976780086,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.884571389314559
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 13.98373187057372
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.470847443050815
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.619305564331746
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 13.717081968105301
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.14482171163894
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.05058809566592
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.01300999530448
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 22.88424663327282
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.49303412212031
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.93603897919039
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.829582143311402
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.22278405997878
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.66550476936378
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.54567215054157
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.259737870950604
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.611932407075233
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 20.390629995595415
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.989527990494812
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.601531011228442
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.444111968648674
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.807108735774206
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.368637917272281
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.180287256175724
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 1.091584943638101
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.2531897236369205
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.655984043358274
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.508587486543298
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.301175778281115
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.906536980429362
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.244499978768917
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.010744297656395
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.681748750875837
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.7834003083362167
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.927486993651711
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.621619259022872
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.7834003083362167,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "4.3": {
+        "switchSatMm": [
+          1.9745782768480566,
+          1.3860211751721865,
+          7.627849485502239,
+          5.121308636816077
+        ],
+        "dividerMm": [
+          1.5164189467988294,
+          0.9136290605439736,
+          4.714381216096333
+        ],
+        "splitWallMm": [
+          1.4521946831086563,
+          1.8740179087798459
+        ],
+        "screwMm": [
+          4.521212831745853,
+          7.009652296755009,
+          13.976855965072037,
+          12.756765708587228
+        ],
+        "actualFrontLipMm": [
+          0.5534015290553178,
+          0.49999999999999867,
+          0.6014901412655931,
+          1.944041142364684
+        ],
+        "pitchMm": [
+          11.015232622524385,
+          11.396324293538603,
+          11.133058045110754
+        ],
+        "capPairClearanceMm": [
+          2.7574352513523666,
+          2.473173533416026,
+          2.229831843734956
+        ],
+        "deviationsDeg": [
+          21.467824057269684,
+          20.143351257373258,
+          21.683028976780086,
+          3.440256344988861
+        ],
+        "maxDeviationDeg": 21.683028976780086,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.884571389314559
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.03971812521556
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.695056316951387
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.619305564331746
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 13.763984369619386
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.366586029616528
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.05058809566592
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.016667487301763
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 23.116605052044207
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.49303412212031
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.93603897919039
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.865102224550157
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.22278405997878
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.66550476936378
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.575906505106836
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.259737870950604
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.611932407075233
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 20.394768233006438
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.98952799049481
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.7713333529482655
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.538334123903475
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.807108735774206
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.523115664236363
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.26743289055707
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 1.091584943638102
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.367508864358191
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.712262161478368
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.5085874865432976
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.397200194073724
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.988735870444563
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.244499978768917
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.092935556328563
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.756236857532627
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.7834003083362165
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.9744609619906086
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.658871543104102
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.7834003083362165,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "3.5": {
+        "switchSatMm": [
+          2.2036260981793308,
+          1.3860211751721847,
+          8.228355883595027,
+          5.121308636816077
+        ],
+        "dividerMm": [
+          1.745466768130104,
+          0.9136290605439745,
+          4.714381216096333
+        ],
+        "splitWallMm": [
+          1.4521946831086563,
+          2.0159494401955986
+        ],
+        "screwMm": [
+          5.093858373841853,
+          7.746818547831776,
+          14.228390205712952,
+          13.13130078169264
+        ],
+        "actualFrontLipMm": [
+          0.5534015290553178,
+          0.49999999999999867,
+          0.6014901412655931,
+          1.944041142364684
+        ],
+        "pitchMm": [
+          11.015232622524385,
+          11.396324293538603,
+          11.133058045110754
+        ],
+        "capPairClearanceMm": [
+          2.7574352513523666,
+          2.473173533416026,
+          2.229831843734956
+        ],
+        "deviationsDeg": [
+          21.467824057269684,
+          20.143351257373258,
+          21.683028976780086,
+          3.440256344988861
+        ],
+        "maxDeviationDeg": 21.683028976780086,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.884571389314559
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.126742112751716
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.970552096475785
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.619305564331746
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 13.849259288479102
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.63956712937016
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.05058809566592
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.070088784666305
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 23.404979583728608
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.49303412212031
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.93603897919039
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.929713866526967
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.222784059978778
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.665504769363782
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.63478243007903
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.259737870950604
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.611932407075233
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 20.42654880560166
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.98952799049481
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.006061665572689
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.681370646016276
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.807108735774206
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.7561791349148015
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.403079097678013
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 1.0915849436381022
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.594807209749546
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.823152510130186
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.508587486543298
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.567015328654673
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.119428257073046
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.244499978768917
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.25450908945826
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.878768608136905
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.7834003083362167
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.146140666206572
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.748463489569838
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.7834003083362167,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      },
+      "3.1": {
+        "switchSatMm": [
+          2.318150008844969,
+          1.3860211751721865,
+          8.528609082641422,
+          5.121308636816079
+        ],
+        "dividerMm": [
+          1.8599906787957403,
+          0.9136290605439745,
+          4.714381216096334
+        ],
+        "splitWallMm": [
+          1.4521946831086563,
+          2.086915205903474
+        ],
+        "screwMm": [
+          5.39335004249779,
+          8.118519504327363,
+          14.36569372558677,
+          13.329706856768077
+        ],
+        "actualFrontLipMm": [
+          0.5534015290553178,
+          0.49999999999999867,
+          0.6014901412655931,
+          1.944041142364684
+        ],
+        "pitchMm": [
+          11.015232622524385,
+          11.396324293538603,
+          11.133058045110754
+        ],
+        "capPairClearanceMm": [
+          2.7574352513523666,
+          2.473173533416026,
+          2.229831843734956
+        ],
+        "deviationsDeg": [
+          21.467824057269684,
+          20.143351257373258,
+          21.683028976780086,
+          3.440256344988861
+        ],
+        "maxDeviationDeg": 21.683028976780086,
+        "indexClearance": {
+          "perButton": {
+            "M1": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.884571389314559
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.170317978326764
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 28.11582480868994
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 14.619305564331748
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 13.892867341173327
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 27.783691100900146
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 10.05058809566592
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.113633516102439
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 23.558032375519637
+                }
+              }
+            },
+            "M2": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.49303412212031
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.936038979190391
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.971569752053956
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 13.22278405997878
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 14.66550476936378
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 24.673896485802956
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 9.259737870950604
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 10.611932407075233
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 20.454157487474653
+                }
+              }
+            },
+            "M3": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.98952799049481
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 7.123434872513301
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.766751091005233
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 4.807108735774206
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 6.873552341855413
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.48504835912328
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 1.0915849436381024
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 3.712180416690157
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.8968622469192
+                }
+              }
+            },
+            "M4": {
+              "switch": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.5085874865432976
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.675732917777951
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 16.199201018413444
+                }
+              },
+              "pocket": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 5.244499978768917
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 8.357853408105514
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 15.954730922544453
+                }
+              },
+              "holder": {
+                "frozenShellIndexSurface": {
+                  "collision": false,
+                  "clearanceMm": 0.7834003083362168
+                },
+                "RWID": {
+                  "collision": false,
+                  "clearanceMm": 4.282085098398028
+                },
+                "RZKD": {
+                  "collision": false,
+                  "clearanceMm": 12.811770667824856
+                }
+              }
+            }
+          },
+          "collisionCount": 0,
+          "globalMinimum": {
+            "clearanceMm": 0.7834003083362168,
+            "button": "M4",
+            "envelope": "holder",
+            "component": "frozenShellIndexSurface"
+          }
+        },
+        "hardGatesWithoutRobustTarget": false
+      }
+    }
+  }
+}
