@@ -1,0 +1,920 @@
+{
+  "method": "local analytic OBB/SAT + exact triangle-to-OBB distance; no network; no CAD write",
+  "sourceCandidate": "h3p1_w1",
+  "designEnvelopeMm": [
+    6.18,
+    6.12,
+    3.56
+  ],
+  "centers": {
+    "M1": [
+      -19.835372271614354,
+      -0.6149917093137987,
+      -11.125
+    ],
+    "M2": [
+      -12.899418190051604,
+      -8.744828191932015,
+      -14.125
+    ],
+    "M3": [
+      -3.537874174513658,
+      -14.413708839910296,
+      -11.125
+    ],
+    "M4": [
+      7.444327589561878,
+      -13.569623472203201,
+      -11.125
+    ]
+  },
+  "surfaceNormals": {
+    "M1": [
+      -0.9616588109597713,
+      -0.15835627815258954,
+      -0.2239098489863688
+    ],
+    "M2": [
+      -0.4861448190571768,
+      -0.7081602123816756,
+      -0.5120276638067567
+    ],
+    "M3": [
+      -0.10355153835548048,
+      -0.7912645017764941,
+      -0.602642155124092
+    ],
+    "M4": [
+      0.22485912746543743,
+      -0.7727927739559164,
+      -0.5934894281425763
+    ]
+  },
+  "axes": {
+    "M1": [
+      -0.8375189984529349,
+      -0.4999500619610949,
+      -0.22048098053004586
+    ],
+    "M2": [
+      -0.6015211525700593,
+      -0.7828463367463624,
+      -0.15913489891783186
+    ],
+    "M3": [
+      0.32042889037242506,
+      -0.7334726083286247,
+      -0.5994524660440561
+    ],
+    "M4": [
+      0.22485912746543743,
+      -0.7727927739559164,
+      -0.5934894281425763
+    ]
+  },
+  "rollsDeg": {
+    "M1": 90,
+    "M2": 90,
+    "M3": 0,
+    "M4": 0
+  },
+  "cardinalRollSelection": {
+    "rollsDeg": [
+      90,
+      90,
+      0,
+      0
+    ],
+    "betweenButtonTerminalWebMm": {
+      "M1-M2": 3.0722882667446116,
+      "M2-M3": 1.957425497865646,
+      "M1-M3": 6.035024317407846,
+      "M3-M4": 3.3651784116134396
+    },
+    "minimumBetweenButtonTerminalWebMm": 1.957425497865646,
+    "bodySatMm": {
+      "M1-M2": 1.435718952088104,
+      "M2-M3": 1.3471463861704551,
+      "M1-M3": 7.913897088528915,
+      "M3-M4": 4.933277721858767
+    },
+    "minimumBodySatMm": 1.3471463861704551,
+    "minimumRootToOtherBodyMm": 1.7343096902071573,
+    "feasibleBodyAndRoot": true
+  },
+  "cardinalRollCandidates": [
+    {
+      "rollsDeg": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 0.09021407031346951,
+        "M2-M3": 2.3776459137952566,
+        "M1-M3": 4.928988914921318,
+        "M3-M4": 3.3651784116134396
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.09021407031346951,
+      "bodySatMm": {
+        "M1-M2": 1.3795520900051477,
+        "M2-M3": 1.356484617635557,
+        "M1-M3": 7.883897088528916,
+        "M3-M4": 4.933277721858767
+      },
+      "minimumBodySatMm": 1.356484617635557,
+      "minimumRootToOtherBodyMm": 0.44444578729273854,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        0,
+        0,
+        0,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 0.09021407031346951,
+        "M2-M3": 2.3776459137952566,
+        "M1-M3": 4.928988914921318,
+        "M3-M4": 4.970484591742337
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.09021407031346951,
+      "bodySatMm": {
+        "M1-M2": 1.3795520900051477,
+        "M2-M3": 1.356484617635557,
+        "M1-M3": 7.883897088528916,
+        "M3-M4": 4.963277721858766
+      },
+      "minimumBodySatMm": 1.356484617635557,
+      "minimumRootToOtherBodyMm": 0.44444578729273854,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        0,
+        0,
+        90,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 0.09021407031346951,
+        "M2-M3": 1.5843457337955549,
+        "M1-M3": 4.150808117251352,
+        "M3-M4": 4.60839528798128
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.09021407031346951,
+      "bodySatMm": {
+        "M1-M2": 1.3795520900051477,
+        "M2-M3": 1.3264846176355563,
+        "M1-M3": 7.869835372117004,
+        "M3-M4": 4.960720937350185
+      },
+      "minimumBodySatMm": 1.3264846176355563,
+      "minimumRootToOtherBodyMm": 0.44444578729273854,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        0,
+        0,
+        90,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 0.09021407031346951,
+        "M2-M3": 1.5843457337955549,
+        "M1-M3": 4.150808117251352,
+        "M3-M4": 6.0678892533983015
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.09021407031346951,
+      "bodySatMm": {
+        "M1-M2": 1.3795520900051477,
+        "M2-M3": 1.3264846176355563,
+        "M1-M3": 7.869835372117004,
+        "M3-M4": 4.990720937350185
+      },
+      "minimumBodySatMm": 1.3264846176355563,
+      "minimumRootToOtherBodyMm": 0.44444578729273854,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        0,
+        90,
+        0,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.3709943156917173,
+        "M2-M3": 1.957425497865646,
+        "M1-M3": 4.928988914921318,
+        "M3-M4": 3.3651784116134396
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.3709943156917173,
+      "bodySatMm": {
+        "M1-M2": 1.407535201411294,
+        "M2-M3": 1.3471463861704551,
+        "M1-M3": 7.883897088528916,
+        "M3-M4": 4.933277721858767
+      },
+      "minimumBodySatMm": 1.3471463861704551,
+      "minimumRootToOtherBodyMm": 1.133320122025899,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        0,
+        90,
+        0,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.3709943156917173,
+        "M2-M3": 1.957425497865646,
+        "M1-M3": 4.928988914921318,
+        "M3-M4": 4.970484591742337
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.3709943156917173,
+      "bodySatMm": {
+        "M1-M2": 1.407535201411294,
+        "M2-M3": 1.3471463861704551,
+        "M1-M3": 7.883897088528916,
+        "M3-M4": 4.963277721858766
+      },
+      "minimumBodySatMm": 1.3471463861704551,
+      "minimumRootToOtherBodyMm": 1.133320122025899,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        0,
+        90,
+        90,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.3709943156917173,
+        "M2-M3": 0.7939013182227344,
+        "M1-M3": 4.150808117251352,
+        "M3-M4": 4.60839528798128
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.7939013182227344,
+      "bodySatMm": {
+        "M1-M2": 1.407535201411294,
+        "M2-M3": 1.3171463861704544,
+        "M1-M3": 7.869835372117004,
+        "M3-M4": 4.960720937350185
+      },
+      "minimumBodySatMm": 1.3171463861704544,
+      "minimumRootToOtherBodyMm": 1.133320122025899,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        0,
+        90,
+        90,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.3709943156917173,
+        "M2-M3": 0.7939013182227344,
+        "M1-M3": 4.150808117251352,
+        "M3-M4": 6.0678892533983015
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.7939013182227344,
+      "bodySatMm": {
+        "M1-M2": 1.407535201411294,
+        "M2-M3": 1.3171463861704544,
+        "M1-M3": 7.869835372117004,
+        "M3-M4": 4.990720937350185
+      },
+      "minimumBodySatMm": 1.3171463861704544,
+      "minimumRootToOtherBodyMm": 1.133320122025899,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        0,
+        0,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.2968857754551348,
+        "M2-M3": 2.3776459137952566,
+        "M1-M3": 6.035024317407846,
+        "M3-M4": 3.3651784116134396
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.2968857754551348,
+      "bodySatMm": {
+        "M1-M2": 1.4077358406819576,
+        "M2-M3": 1.356484617635557,
+        "M1-M3": 7.913897088528915,
+        "M3-M4": 4.933277721858767
+      },
+      "minimumBodySatMm": 1.356484617635557,
+      "minimumRootToOtherBodyMm": 0.46817176358389645,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        0,
+        0,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.2968857754551348,
+        "M2-M3": 2.3776459137952566,
+        "M1-M3": 6.035024317407846,
+        "M3-M4": 4.970484591742337
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.2968857754551348,
+      "bodySatMm": {
+        "M1-M2": 1.4077358406819576,
+        "M2-M3": 1.356484617635557,
+        "M1-M3": 7.913897088528915,
+        "M3-M4": 4.963277721858766
+      },
+      "minimumBodySatMm": 1.356484617635557,
+      "minimumRootToOtherBodyMm": 0.46817176358389645,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        0,
+        90,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.2968857754551348,
+        "M2-M3": 1.5843457337955549,
+        "M1-M3": 5.303505501628134,
+        "M3-M4": 4.60839528798128
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.2968857754551348,
+      "bodySatMm": {
+        "M1-M2": 1.4077358406819576,
+        "M2-M3": 1.3264846176355563,
+        "M1-M3": 7.899835372117003,
+        "M3-M4": 4.960720937350185
+      },
+      "minimumBodySatMm": 1.3264846176355563,
+      "minimumRootToOtherBodyMm": 0.46817176358389645,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        0,
+        90,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 1.2968857754551348,
+        "M2-M3": 1.5843457337955549,
+        "M1-M3": 5.303505501628134,
+        "M3-M4": 6.0678892533983015
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.2968857754551348,
+      "bodySatMm": {
+        "M1-M2": 1.4077358406819576,
+        "M2-M3": 1.3264846176355563,
+        "M1-M3": 7.899835372117003,
+        "M3-M4": 4.990720937350185
+      },
+      "minimumBodySatMm": 1.3264846176355563,
+      "minimumRootToOtherBodyMm": 0.46817176358389645,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        90,
+        0,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 3.0722882667446116,
+        "M2-M3": 1.957425497865646,
+        "M1-M3": 6.035024317407846,
+        "M3-M4": 3.3651784116134396
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.957425497865646,
+      "bodySatMm": {
+        "M1-M2": 1.435718952088104,
+        "M2-M3": 1.3471463861704551,
+        "M1-M3": 7.913897088528915,
+        "M3-M4": 4.933277721858767
+      },
+      "minimumBodySatMm": 1.3471463861704551,
+      "minimumRootToOtherBodyMm": 1.7343096902071573,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        90,
+        0,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 3.0722882667446116,
+        "M2-M3": 1.957425497865646,
+        "M1-M3": 6.035024317407846,
+        "M3-M4": 4.970484591742337
+      },
+      "minimumBetweenButtonTerminalWebMm": 1.957425497865646,
+      "bodySatMm": {
+        "M1-M2": 1.435718952088104,
+        "M2-M3": 1.3471463861704551,
+        "M1-M3": 7.913897088528915,
+        "M3-M4": 4.963277721858766
+      },
+      "minimumBodySatMm": 1.3471463861704551,
+      "minimumRootToOtherBodyMm": 1.7343096902071573,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        90,
+        90,
+        0
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 3.0722882667446116,
+        "M2-M3": 0.7939013182227344,
+        "M1-M3": 5.303505501628134,
+        "M3-M4": 4.60839528798128
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.7939013182227344,
+      "bodySatMm": {
+        "M1-M2": 1.435718952088104,
+        "M2-M3": 1.3171463861704544,
+        "M1-M3": 7.899835372117003,
+        "M3-M4": 4.960720937350185
+      },
+      "minimumBodySatMm": 1.3171463861704544,
+      "minimumRootToOtherBodyMm": 1.3259308710970261,
+      "feasibleBodyAndRoot": true
+    },
+    {
+      "rollsDeg": [
+        90,
+        90,
+        90,
+        90
+      ],
+      "betweenButtonTerminalWebMm": {
+        "M1-M2": 3.0722882667446116,
+        "M2-M3": 0.7939013182227344,
+        "M1-M3": 5.303505501628134,
+        "M3-M4": 6.0678892533983015
+      },
+      "minimumBetweenButtonTerminalWebMm": 0.7939013182227344,
+      "bodySatMm": {
+        "M1-M2": 1.435718952088104,
+        "M2-M3": 1.3171463861704544,
+        "M1-M3": 7.899835372117003,
+        "M3-M4": 4.990720937350185
+      },
+      "minimumBodySatMm": 1.3171463861704544,
+      "minimumRootToOtherBodyMm": 1.3259308710970261,
+      "feasibleBodyAndRoot": true
+    }
+  ],
+  "frontLipMm": 2.2795876169704936,
+  "bodyFrontDepthMm": 5.279587616970494,
+  "bodyRearDepthMm": 8.839587616970494,
+  "spacerThicknessMm": 2.44,
+  "spacerRearDepthMm": 11.279587616970494,
+  "channelRearDepthMm": 12.279587616970494,
+  "pocketSideClearanceMm": [
+    0.11000000000000032,
+    0.14000000000000012
+  ],
+  "bodySatConservative6p18SquareMm": {
+    "M1-M2": 1.3777877662578053,
+    "M2-M3": 1.3013968403875515,
+    "M1-M3": 7.866056735503417,
+    "M3-M4": 4.930969151170851
+  },
+  "bodySatExact6p18x6p12Mm": {
+    "M1-M2": 1.435718952088104,
+    "M2-M3": 1.3471463861704551,
+    "M1-M3": 7.913897088528915,
+    "M3-M4": 4.933277721858767
+  },
+  "minimumBodySatConservativeMm": 1.3013968403875515,
+  "dividerMm": {
+    "M1-M2": 1.0868100100641893,
+    "M2-M3": 1.0416599892742178,
+    "M3-M4": 4.70341450932427
+  },
+  "minimumDividerMm": 1.0416599892742178,
+  "splitWallMm": {
+    "JfD_M3": 1.5292866579848168,
+    "JaD_M4": 1.808523866794931
+  },
+  "minimumSplitWallMm": 1.5292866579848168,
+  "supportSplitOwnershipMm": {
+    "JfD_M3_mm": 0.5,
+    "JaD_M4_mm": 0.5
+  },
+  "terminalChannelWebMm": {
+    "betweenButtons": {
+      "M1-M2": 3.0722882667446116,
+      "M2-M3": 1.957425497865646,
+      "M1-M3": 6.035024317407846,
+      "M3-M4": 3.3651784116134396
+    },
+    "withinButton": 3.639999999999999,
+    "minimum": 1.957425497865646
+  },
+  "screwClearanceMm": {
+    "M1": 9.234316080691267,
+    "M2": 11.250540204168749,
+    "M3": 18.581553910757346,
+    "M4": 17.945704327934795
+  },
+  "minimumScrewClearanceMm": 9.234316080691267,
+  "indexClearance": {
+    "perButton": {
+      "M1": {
+        "perProxy": {
+          "0": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 8.161544694510315
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 8.561510108267273
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 22.316717967663585
+            }
+          },
+          "1": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 17.58784492313777
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 15.566512836493054
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 30.95549148478159
+            }
+          },
+          "2": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 16.631842498479767
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 13.830281930658085
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 28.322522608483595
+            }
+          },
+          "3": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 9.954521979287982
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 11.884132465567507
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 23.39350824618244
+            }
+          },
+          "4": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 14.65921860143683
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 11.978990568305932
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 23.856173209950796
+            }
+          }
+        },
+        "collisionCount": 0,
+        "minimum": {
+          "clearanceMm": 8.161544694510315,
+          "proxyIndex": 0,
+          "component": "INDEX_shell_keepout"
+        }
+      },
+      "M2": {
+        "perProxy": {
+          "0": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 7.576876493706127
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 8.840739871654426
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 19.13796447217683
+            }
+          },
+          "1": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 11.5957970314693
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 15.465065971280822
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 27.694335332787563
+            }
+          },
+          "2": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 16.49002307954604
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 15.480648105406475
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 25.650158378040043
+            }
+          },
+          "3": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 9.787485623591753
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 11.947503441238393
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 22.018217339409183
+            }
+          },
+          "4": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 12.250073340264164
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 12.870683702119717
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 22.40288951028829
+            }
+          }
+        },
+        "collisionCount": 0,
+        "minimum": {
+          "clearanceMm": 7.576876493706127,
+          "proxyIndex": 0,
+          "component": "INDEX_shell_keepout"
+        }
+      },
+      "M3": {
+        "perProxy": {
+          "0": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 0.5473251020624432
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 1.8407270585668796
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 11.546741334697401
+            }
+          },
+          "1": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 3.64678281541589
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 5.330232499818083
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 18.533956778117332
+            }
+          },
+          "2": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 5.095536987236986
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 5.526548897771023
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 16.918861234439923
+            }
+          },
+          "3": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 2.464828785563625
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 4.978849058059012
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 15.12541112171735
+            }
+          },
+          "4": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 8.57062635662688
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 4.989243215374035
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 15.023277422826382
+            }
+          },
+          "5": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 5.818749047441022
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 7.8503691601519945
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 19.521221855197858
+            }
+          }
+        },
+        "collisionCount": 0,
+        "minimum": {
+          "clearanceMm": 0.5473251020624432,
+          "proxyIndex": 0,
+          "component": "INDEX_shell_keepout"
+        }
+      },
+      "M4": {
+        "perProxy": {
+          "0": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 1.834526263740437
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 2.6033681587837676
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 10.087522882817362
+            }
+          },
+          "1": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 2.7385389195566887
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 4.847766838348623
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 12.947082240814925
+            }
+          },
+          "2": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 8.076814402914566
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 4.936334743627775
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 12.929463548578571
+            }
+          },
+          "3": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 6.269790822894687
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 11.01326314544401
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 13.962703873912707
+            }
+          },
+          "4": {
+            "INDEX_shell_keepout": {
+              "collision": false,
+              "clearanceMm": 10.289069584367885
+            },
+            "RWID_live": {
+              "collision": false,
+              "clearanceMm": 8.800181758111673
+            },
+            "RZKD_live": {
+              "collision": false,
+              "clearanceMm": 13.498223697235138
+            }
+          }
+        },
+        "collisionCount": 0,
+        "minimum": {
+          "clearanceMm": 1.834526263740437,
+          "proxyIndex": 0,
+          "component": "INDEX_shell_keepout"
+        }
+      }
+    },
+    "minimum": {
+      "clearanceMm": 0.5473251020624432,
+      "button": "M3",
+      "proxyIndex": 0,
+      "component": "INDEX_shell_keepout"
+    },
+    "collisionCount": 0
+  },
+  "cap": {
+    "nominalMm": 8.0,
+    "openingMm": 8.4,
+    "pairGapMm": {
+      "M1-M2": 2.833272908017788,
+      "M2-M3": 2.3380627150583146,
+      "M3-M4": 2.134042754218238
+    },
+    "minimumPairGapMm": 2.134042754218238,
+    "axisNormalCosine": {
+      "M1": 0.9339456183376326,
+      "M2": 0.9282884904907784,
+      "M3": 0.9084452594954922,
+      "M4": 1.0000000000000002
+    },
+    "freeNormalMm": 0.05,
+    "stopTravelNormalMm": 0.45,
+    "usableActuatorTravelMm": {
+      "M1": 0.37357824733505307,
+      "M2": 0.3713153961963114,
+      "M3": 0.3633781037981969,
+      "M4": 0.40000000000000013
+    },
+    "minimumUsableActuatorTravelMm": 0.3633781037981969,
+    "actuatorTopDepthMm": 2.8395876169704937,
+    "actuatorDiameterMm": 3.35
+  },
+  "rearSupport": "two integrated side snap beams/hooks plus independent 3.6 mm diameter spacer; rigid roots exit outside the central hook corridor",
+  "hardGatePass": true
+}

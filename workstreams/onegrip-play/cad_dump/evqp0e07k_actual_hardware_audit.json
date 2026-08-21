@@ -1,0 +1,660 @@
+{
+  "method": {
+    "mode": "LOCAL READ-ONLY; Onshape CAD WRITE 0",
+    "frozenVersion": "INDEX_FINAL_VALIDATED / 03ede76e83b5c865d9a69c35",
+    "configuration": "default (frozen cache source)",
+    "drawing": "Panasonic ANCTB36E 202507 page 3",
+    "middleBestQualifier": "best nominal candidate in recorded bounded search; not a global continuous proof"
+  },
+  "official": {
+    "bodyNominalMm": [
+      6.2,
+      6.2
+    ],
+    "bodyToleranceMm": [
+      0.1,
+      0.1
+    ],
+    "bodyHeightNominalMm": 6.7,
+    "unqualifiedDrawingToleranceMm": 0.2,
+    "overallFreePositionMaximumMm": 7.45,
+    "operatingPositionMm": [
+      7.0,
+      0.2
+    ],
+    "actuatorDiameterNominalMm": 3.0,
+    "terminalPitchMm": [
+      5.08,
+      0.2
+    ],
+    "terminalProjectionMm": [
+      3.5,
+      0.2
+    ],
+    "terminalSectionMm": [
+      [
+        0.8,
+        0.1
+      ],
+      [
+        0.3,
+        0.1
+      ]
+    ],
+    "recommendedPwbHoleDiameterMm": [
+      1.0,
+      0.05
+    ],
+    "recommendedPwbHolePitchMm": [
+      5.0,
+      0.1
+    ],
+    "operatingForceMaximumN": 0.74,
+    "preTravelMaximumMm": 0.5,
+    "movementDifferentialMaximumMm": 0.12,
+    "overTravelMinimumMm": 0.2,
+    "returningForceMinimumN": 0.1
+  },
+  "pocketCandidates": {
+    "6.4": {
+      "nominalPerSideMm": 0.10000000000000009,
+      "worstBody6p3PerSideMm": 0.050000000000000266,
+      "dividerMm": {
+        "I1-I2": 0.7999989217694488,
+        "I2-I3": 0.8000017734020242,
+        "I3-I4": 3.41853599198833
+      },
+      "minimumDividerMm": 0.7999989217694488,
+      "splitWallMm": {
+        "I3": 1.43014848232839,
+        "I4": 1.9750450529620225
+      },
+      "minimumSplitWallMm": 1.43014848232839
+    },
+    "6.5": {
+      "nominalPerSideMm": 0.1499999999999999,
+      "worstBody6p3PerSideMm": 0.10000000000000009,
+      "dividerMm": {
+        "I1-I2": 0.663100967359906,
+        "I2-I3": 0.6627556738269931,
+        "I3-I4": 3.318756645156209
+      },
+      "minimumDividerMm": 0.6627556738269931,
+      "splitWallMm": {
+        "I3": 1.3802621243467543,
+        "I4": 1.9247490778269882
+      },
+      "minimumSplitWallMm": 1.3802621243467543
+    },
+    "6.6": {
+      "nominalPerSideMm": 0.19999999999999973,
+      "worstBody6p3PerSideMm": 0.1499999999999999,
+      "dividerMm": {
+        "I1-I2": 0.5262030129503632,
+        "I2-I3": 0.525509574251962,
+        "I3-I4": 3.2189772983240874
+      },
+      "minimumDividerMm": 0.525509574251962,
+      "splitWallMm": {
+        "I3": 1.330375766365119,
+        "I4": 1.8744531026919535
+      },
+      "minimumSplitWallMm": 1.330375766365119
+    },
+    "6.7": {
+      "nominalPerSideMm": 0.25,
+      "worstBody6p3PerSideMm": 0.20000000000000018,
+      "dividerMm": {
+        "I1-I2": 0.38930505854081954,
+        "I2-I3": 0.3882634746769291,
+        "I3-I4": 3.119197951491966
+      },
+      "minimumDividerMm": 0.3882634746769291,
+      "splitWallMm": {
+        "I3": 1.2804894083834828,
+        "I4": 1.8241571275569188
+      },
+      "minimumSplitWallMm": 1.2804894083834828
+    }
+  },
+  "indexSat": {
+    "legacyProxy6x6x6": {
+      "pairsMm": {
+        "I1-I2": 1.3475907394076208,
+        "I2-I3": 1.348986171702152,
+        "I1-I3": 4.669694951300657,
+        "I3-I4": 3.9313559162916136
+      },
+      "minimumMm": 1.3475907394076208
+    },
+    "nominal6p2x6p2x6p7": {
+      "pairsMm": {
+        "I1-I2": 1.073794830588536,
+        "I2-I3": 1.074493972552089,
+        "I1-I3": 3.931067816620139,
+        "I3-I4": 3.6654707427254043
+      },
+      "minimumMm": 1.073794830588536
+    },
+    "worst6p3x6p3x6p9": {
+      "pairsMm": {
+        "I1-I2": 0.9368968761789906,
+        "I2-I3": 0.937247872977057,
+        "I1-I3": 3.686269694775892,
+        "I3-I4": 3.5467409730641513
+      },
+      "minimumMm": 0.9368968761789906
+    }
+  },
+  "indexFrontCap": {
+    "I1": {
+      "axisToCapNormalDeviationDeg": 17.20590571227574,
+      "minimumFrontLipAt6p3BodyMm": 1.0141509815319285,
+      "minimumFreeActuatorToFlatCapGapMm": 1.7463778412583753,
+      "capTravelBeforeHolderFrontStopMm": 0.2,
+      "minimumShortfallToFirstContactMm": 1.5463778412583753,
+      "travelToOperateAtPtMaxMm": 2.2698021920831843,
+      "travelThroughMinimumOtMm": 2.4791719324131076,
+      "actuatorCenterOffsetAtCapUndersidePlaneMm": 0.8051281264640547
+    },
+    "I2": {
+      "axisToCapNormalDeviationDeg": 17.20592859903708,
+      "minimumFrontLipAt6p3BodyMm": 1.2429696199394886,
+      "minimumFreeActuatorToFlatCapGapMm": 1.7463773036313186,
+      "capTravelBeforeHolderFrontStopMm": 0.2,
+      "minimumShortfallToFirstContactMm": 1.5463773036313186,
+      "travelToOperateAtPtMaxMm": 2.2698017192013333,
+      "travelThroughMinimumOtMm": 2.4791714854293394,
+      "actuatorCenterOffsetAtCapUndersidePlaneMm": 0.8051292646230829
+    },
+    "I3": {
+      "axisToCapNormalDeviationDeg": 17.20594741763049,
+      "minimumFrontLipAt6p3BodyMm": 1.2454575925700926,
+      "minimumFreeActuatorToFlatCapGapMm": 1.746376861568034,
+      "capTravelBeforeHolderFrontStopMm": 0.2,
+      "minimumShortfallToFirstContactMm": 1.546376861568034,
+      "travelToOperateAtPtMaxMm": 2.2698013303747384,
+      "travelThroughMinimumOtMm": 2.4791711178974203,
+      "actuatorCenterOffsetAtCapUndersidePlaneMm": 0.8051302004722619
+    },
+    "I4": {
+      "axisToCapNormalDeviationDeg": 2.6571622893875566,
+      "minimumFrontLipAt6p3BodyMm": 2.310037433592269,
+      "minimumFreeActuatorToFlatCapGapMm": 1.945107909788749,
+      "capTravelBeforeHolderFrontStopMm": 0.2,
+      "minimumShortfallToFirstContactMm": 1.745107909788749,
+      "travelToOperateAtPtMaxMm": 2.4456460807528217,
+      "travelThroughMinimumOtMm": 2.6458613491384506,
+      "actuatorCenterOffsetAtCapUndersidePlaneMm": 0.12066471899144092
+    }
+  },
+  "indexRear": {
+    "switchRearNominalMm": 12.0,
+    "switchRearWorstMm": 12.2,
+    "holderRearMm": 12.5,
+    "rearLandNominalMm": 0.5,
+    "rearLandWorstMm": 0.3,
+    "currentPadFrontMm": 11.15,
+    "bodyPadOverlapNominalMm": 0.85,
+    "bodyPadOverlapWorstMm": 1.05,
+    "correctedNominalPadFrontFor0p15MmPreload": 11.85,
+    "correctedWorstPadFrontFor0p15MmPreload": 12.05,
+    "bodyRetainerHitsNominal": {
+      "I1": {
+        "RWID": true,
+        "RZKD": false
+      },
+      "I2": {
+        "RWID": true,
+        "RZKD": false
+      },
+      "I3": {
+        "RWID": true,
+        "RZKD": false
+      },
+      "I4": {
+        "RWID": false,
+        "RZKD": true
+      }
+    },
+    "bodyRetainerHitsWorst": {
+      "I1": {
+        "RWID": true,
+        "RZKD": false
+      },
+      "I2": {
+        "RWID": true,
+        "RZKD": false
+      },
+      "I3": {
+        "RWID": true,
+        "RZKD": false
+      },
+      "I4": {
+        "RWID": false,
+        "RZKD": true
+      }
+    },
+    "screwClearanceWorstMm": {
+      "I1": {
+        "A": 38.63482035901151,
+        "B": 6.649403274892041,
+        "C": 35.076505845770484
+      },
+      "I2": {
+        "A": 28.924015930583288,
+        "B": 5.075324205644751,
+        "C": 45.02356061369104
+      },
+      "I3": {
+        "A": 34.654849939915586,
+        "B": 7.753137773304937,
+        "C": 39.08507738170261
+      },
+      "I4": {
+        "A": 33.18465630892837,
+        "B": 5.320869127724595,
+        "C": 40.92880346833866
+      }
+    }
+  },
+  "indexTerminal": {
+    "terminalTipRearNominalMm": 15.5,
+    "terminalTipRearWorstMm": 15.9,
+    "projectionBeyondHolderRearNominalMm": 3.0,
+    "projectionBeyondHolderRearWorstMm": 3.4,
+    "rotationSweep": {
+      "I1": {
+        "testedRotations": 180,
+        "collisionFreeRotationCount": 0,
+        "minimumCollidingTerminalBoxes": 2,
+        "firstBestRotationDeg": 0,
+        "components": [
+          "JfD",
+          "RWID"
+        ]
+      },
+      "I2": {
+        "testedRotations": 180,
+        "collisionFreeRotationCount": 0,
+        "minimumCollidingTerminalBoxes": 2,
+        "firstBestRotationDeg": 39,
+        "components": [
+          "JfD",
+          "RWID"
+        ]
+      },
+      "I3": {
+        "testedRotations": 180,
+        "collisionFreeRotationCount": 0,
+        "minimumCollidingTerminalBoxes": 2,
+        "firstBestRotationDeg": 0,
+        "components": [
+          "JfD",
+          "RWID"
+        ]
+      },
+      "I4": {
+        "testedRotations": 180,
+        "collisionFreeRotationCount": 0,
+        "minimumCollidingTerminalBoxes": 1,
+        "firstBestRotationDeg": 74,
+        "components": [
+          "JaD",
+          "RWID",
+          "RZKD"
+        ]
+      }
+    }
+  },
+  "middle": {
+    "translationMm": [
+      1.25,
+      5.25,
+      -7.45
+    ],
+    "translationNormMm": 9.199320627089806,
+    "maximumIndividualDisplacementMm": 12.486442882827031,
+    "centers": {
+      "M1": [
+        -19.76116250876274,
+        1.7722714031814117,
+        -13.45
+      ],
+      "M2": [
+        -13.352299132411728,
+        -6.89745778199315,
+        -16.25
+      ],
+      "M3": [
+        -3.8248344011027333,
+        -12.691743207612983,
+        -13.45
+      ],
+      "M4": [
+        7.371679686458834,
+        -11.851407527945067,
+        -13.45
+      ]
+    },
+    "axes": {
+      "M1": [
+        -0.8109996593761792,
+        -0.5515103682829561,
+        -0.19523285114990127
+      ],
+      "M2": [
+        -0.6425497169735713,
+        -0.7520048436813596,
+        -0.14703256883070978
+      ],
+      "M3": [
+        0.32764764973974503,
+        -0.7021312150995384,
+        -0.6321857119572278
+      ],
+      "M4": [
+        0.17853779715628357,
+        -0.8116888025771647,
+        -0.5561344646373128
+      ]
+    },
+    "nominal": {
+      "footprintMm": 6.2,
+      "heightMm": 6.7,
+      "pocketMm": 6.7,
+      "holderWidthMm": 12.7,
+      "holderRearMm": 13.2,
+      "switchSatMm": [
+        1.5579927102222015,
+        1.4260997439280754,
+        6.224400872588923,
+        5.459114449795658
+      ],
+      "minimumSwitchSatMm": 1.4260997439280754,
+      "dividerMm": [
+        1.005257545949556,
+        0.8310261894497941,
+        4.930639647082094
+      ],
+      "minimumDividerMm": 0.8310261894497941,
+      "splitWallMm": [
+        1.6300652099123365,
+        1.5215048615413531
+      ],
+      "minimumSplitWallMm": 1.5215048615413531,
+      "minimumScrewClearanceMm": 3.124256975268003,
+      "minimumActualFrontLipMm": 0.5131772983310796,
+      "maximumAxisDeviationDeg": 26.52924049734397,
+      "indexClearance": {
+        "clearanceMm": 0.8535777789001444,
+        "button": "M4",
+        "envelope": "holder",
+        "component": "frozenShellIndexSurface"
+      },
+      "indexCollisionCount": 0,
+      "hardGatePass": true
+    },
+    "sameAxesWorstEnvelope": {
+      "footprintMm": 6.3,
+      "heightMm": 6.9,
+      "pocketMm": 6.7,
+      "holderWidthMm": 12.7,
+      "holderRearMm": 13.399999999999999,
+      "switchSatMm": [
+        1.4060556488866878,
+        1.307085033032421,
+        5.9858009774877665,
+        5.3534194892529445
+      ],
+      "minimumSwitchSatMm": 1.307085033032421,
+      "dividerMm": [
+        0.9535200103483232,
+        0.8310261894497923,
+        4.930639647082092
+      ],
+      "minimumDividerMm": 0.8310261894497923,
+      "splitWallMm": [
+        1.6300652099123365,
+        1.4857973021100968
+      ],
+      "minimumSplitWallMm": 1.4857973021100968,
+      "minimumScrewClearanceMm": 3.0006939579777043,
+      "minimumActualFrontLipMm": 0.49013266418892654,
+      "maximumAxisDeviationDeg": 26.52924049734397,
+      "indexClearance": {
+        "clearanceMm": 0.8535777789001437,
+        "button": "M4",
+        "envelope": "holder",
+        "component": "frozenShellIndexSurface"
+      },
+      "indexCollisionCount": 0,
+      "hardGatePass": false
+    },
+    "pocketSensitivitySameAxes": {
+      "6.4": {
+        "footprintMm": 6.2,
+        "heightMm": 6.7,
+        "pocketMm": 6.4,
+        "holderWidthMm": 12.4,
+        "holderRearMm": 13.2,
+        "switchSatMm": [
+          1.5579927102222015,
+          1.4260997439280754,
+          6.224400872588923,
+          5.459114449795658
+        ],
+        "minimumSwitchSatMm": 1.4260997439280754,
+        "dividerMm": [
+          1.305856123152405,
+          1.1880703221367628,
+          5.247724528710232
+        ],
+        "minimumDividerMm": 1.1880703221367628,
+        "splitWallMm": [
+          1.8060936457993986,
+          1.6859233854045241
+        ],
+        "minimumSplitWallMm": 1.6859233854045241,
+        "minimumScrewClearanceMm": 3.241748228436327,
+        "minimumActualFrontLipMm": 0.5131772983310796,
+        "maximumAxisDeviationDeg": 26.52924049734397,
+        "indexClearance": {
+          "clearanceMm": 1.0079678578557707,
+          "button": "M4",
+          "envelope": "holder",
+          "component": "frozenShellIndexSurface"
+        },
+        "indexCollisionCount": 0,
+        "hardGatePass": true
+      },
+      "6.5": {
+        "footprintMm": 6.2,
+        "heightMm": 6.7,
+        "pocketMm": 6.5,
+        "holderWidthMm": 12.5,
+        "holderRearMm": 13.2,
+        "switchSatMm": [
+          1.5579927102222015,
+          1.4260997439280754,
+          6.224400872588923,
+          5.459114449795658
+        ],
+        "minimumSwitchSatMm": 1.4260997439280754,
+        "dividerMm": [
+          1.2056565974181224,
+          1.0690556112411085,
+          5.142029568167519
+        ],
+        "minimumDividerMm": 1.0690556112411085,
+        "splitWallMm": [
+          1.747417500503711,
+          1.6311172107834677
+        ],
+        "minimumSplitWallMm": 1.6311172107834677,
+        "minimumScrewClearanceMm": 3.20244032239093,
+        "minimumActualFrontLipMm": 0.5131772983310796,
+        "maximumAxisDeviationDeg": 26.52924049734397,
+        "indexClearance": {
+          "clearanceMm": 0.956504498203895,
+          "button": "M4",
+          "envelope": "holder",
+          "component": "frozenShellIndexSurface"
+        },
+        "indexCollisionCount": 0,
+        "hardGatePass": true
+      },
+      "6.6": {
+        "footprintMm": 6.2,
+        "heightMm": 6.7,
+        "pocketMm": 6.6,
+        "holderWidthMm": 12.6,
+        "holderRearMm": 13.2,
+        "switchSatMm": [
+          1.5579927102222015,
+          1.4260997439280754,
+          6.224400872588923,
+          5.459114449795658
+        ],
+        "minimumSwitchSatMm": 1.4260997439280754,
+        "dividerMm": [
+          1.1054570716838397,
+          0.9500409003454524,
+          5.036334607624807
+        ],
+        "minimumDividerMm": 0.9500409003454524,
+        "splitWallMm": [
+          1.6887413552080242,
+          1.5763110361624104
+        ],
+        "minimumSplitWallMm": 1.5763110361624104,
+        "minimumScrewClearanceMm": 3.1632757240563976,
+        "minimumActualFrontLipMm": 0.5131772983310796,
+        "maximumAxisDeviationDeg": 26.52924049734397,
+        "indexClearance": {
+          "clearanceMm": 0.9050411385520197,
+          "button": "M4",
+          "envelope": "holder",
+          "component": "frozenShellIndexSurface"
+        },
+        "indexCollisionCount": 0,
+        "hardGatePass": true
+      },
+      "6.7": {
+        "footprintMm": 6.2,
+        "heightMm": 6.7,
+        "pocketMm": 6.7,
+        "holderWidthMm": 12.7,
+        "holderRearMm": 13.2,
+        "switchSatMm": [
+          1.5579927102222015,
+          1.4260997439280754,
+          6.224400872588923,
+          5.459114449795658
+        ],
+        "minimumSwitchSatMm": 1.4260997439280754,
+        "dividerMm": [
+          1.005257545949556,
+          0.8310261894497941,
+          4.930639647082094
+        ],
+        "minimumDividerMm": 0.8310261894497941,
+        "splitWallMm": [
+          1.6300652099123365,
+          1.5215048615413531
+        ],
+        "minimumSplitWallMm": 1.5215048615413531,
+        "minimumScrewClearanceMm": 3.124256975268003,
+        "minimumActualFrontLipMm": 0.5131772983310796,
+        "maximumAxisDeviationDeg": 26.52924049734397,
+        "indexClearance": {
+          "clearanceMm": 0.8535777789001444,
+          "button": "M4",
+          "envelope": "holder",
+          "component": "frozenShellIndexSurface"
+        },
+        "indexCollisionCount": 0,
+        "hardGatePass": true
+      }
+    },
+    "nearestSmallerTestedFailureNormMm": 9.094360890134062,
+    "terminalZones": {
+      "method": "conservative 6.3 mm square all-rotation terminal bundle, depth 12.2..15.9",
+      "toFrozenIndex": {
+        "M1": {
+          "frozenShellIndexSurface": {
+            "collision": false,
+            "clearanceMm": 17.690697337673235
+          },
+          "RWID": {
+            "collision": false,
+            "clearanceMm": 14.517150237026641
+          },
+          "RZKD": {
+            "collision": false,
+            "clearanceMm": 27.308320186102762
+          }
+        },
+        "M2": {
+          "frozenShellIndexSurface": {
+            "collision": false,
+            "clearanceMm": 14.973158717907268
+          },
+          "RWID": {
+            "collision": false,
+            "clearanceMm": 14.82777289517821
+          },
+          "RZKD": {
+            "collision": false,
+            "clearanceMm": 24.35200389029951
+          }
+        },
+        "M3": {
+          "frozenShellIndexSurface": {
+            "collision": false,
+            "clearanceMm": 6.4795860953568845
+          },
+          "RWID": {
+            "collision": false,
+            "clearanceMm": 4.915405673799713
+          },
+          "RZKD": {
+            "collision": false,
+            "clearanceMm": 16.132650770487423
+          }
+        },
+        "M4": {
+          "frozenShellIndexSurface": {
+            "collision": false,
+            "clearanceMm": 10.25332209477647
+          },
+          "RWID": {
+            "collision": false,
+            "clearanceMm": 7.69013851034767
+          },
+          "RZKD": {
+            "collision": false,
+            "clearanceMm": 14.967139921569245
+          }
+        }
+      },
+      "neighborSatMm": {
+        "M1-M2": 0.4489112402638842,
+        "M2-M3": 3.4533866720557436,
+        "M1-M3": 4.64618224662887,
+        "M3-M4": 6.520651633011147
+      },
+      "minimumNeighborSatMm": 0.4489112402638842
+    }
+  },
+  "decision": {
+    "recommendedPocketMm": 6.7,
+    "recommendationBasis": "6.3 mm maximum body + 0.20 mm per side established service clearance",
+    "indexModificationRequired": true,
+    "indexAsIsUsable": false,
+    "middleNominalGeometryCandidate": true,
+    "middleToleranceRobustCandidateCertified": false,
+    "differentMiddleSwitchRequired": false,
+    "cadWrite": "HOLD"
+  }
+}

@@ -1,0 +1,1267 @@
+{
+  "method": {
+    "mode": "LOCAL READ-ONLY; Onshape CAD WRITE 0",
+    "frozenVersion": "INDEX_FINAL_VALIDATED / 03ede76e83b5c865d9a69c35",
+    "configuration": "default (frozen cache source)",
+    "primarySwitch": "ITS-1105-6mm",
+    "purchasedQuantity": 20,
+    "drawing": "user-supplied ITS-1105 family drawing, L=6.0"
+  },
+  "drawingAudit": {
+    "method": {
+      "mode": "LOCAL READ-ONLY; Onshape CAD WRITE 0",
+      "frozenVersion": "INDEX_FINAL_VALIDATED / 03ede76e83b5c865d9a69c35",
+      "configuration": "default (frozen cache source)",
+      "drawingSource": "user-supplied image; L=6.0 variant",
+      "rootModel": "factory-formed 1.8 mm zone as four sloped OBB segments; distal 1.7 mm excluded from rigid hard gate",
+      "rotationResolutionDeg": 1
+    },
+    "drawing": {
+      "selectedOverallHeightLmm": 6.0,
+      "bodyFootprintMm": [
+        6.0,
+        6.0
+      ],
+      "bodyHeightMm": 3.6,
+      "actuatorProjectionAboveBodyMm": 2.4,
+      "actuatorDiameterMm": 3.5,
+      "travelMm": {
+        "nominal": 0.25,
+        "lower": 0.15,
+        "upper": 0.35
+      },
+      "terminalCount": 4,
+      "terminalCenterPatternMm": [
+        6.5,
+        4.5
+      ],
+      "terminalCenterPatternToleranceMm": [
+        0.2,
+        0.2
+      ],
+      "terminalSectionMm": [
+        0.3,
+        0.7
+      ],
+      "terminalMaximumOuterWidthMm": 7.9,
+      "terminalMaximumOuterWidthToleranceMm": [
+        0.3,
+        0.3
+      ],
+      "terminalProjectionBehindBodyMm": 3.5,
+      "factoryFormedRootDepthMm": 1.8,
+      "pcbHoleCountAndDiameterMm": [
+        4,
+        1.0
+      ],
+      "generalToleranceMm": 0.3,
+      "circuit": "pins 1-2 internally common; pins 3-4 internally common; press bridges the two groups"
+    },
+    "proxyDifference": {
+      "legacy": "one 6x6x6 cuboid from depth 5.3 to 11.3",
+      "actual": "6x6x3.6 body from 5.3 to 8.9; actuator top at 2.9; four formed roots 8.9..10.7; bendable distal terminals to 12.4"
+    },
+    "pocket": {
+      "widthMm": 6.4,
+      "nominalBodyMm": 6.0,
+      "nominalPerSideClearanceMm": 0.2,
+      "drawingWorstBodyMm": 6.3,
+      "drawingWorstPerSideClearanceMm": 0.05,
+      "couponWidthsMm": [
+        6.4,
+        6.5,
+        6.6,
+        6.7
+      ]
+    },
+    "index": {
+      "bodySat": {
+        "legacyProxy6x6x6": {
+          "pairsMm": {
+            "I1-I2": 1.3475907394076208,
+            "I2-I3": 1.348986171702152,
+            "I1-I3": 4.669694951300657,
+            "I3-I4": 3.9313559162916136
+          },
+          "minimumMm": 1.3475907394076208
+        },
+        "actualNominal6x6x3p6": {
+          "pairsMm": {
+            "I1-I2": 1.4431208025303652,
+            "I2-I3": 1.3489861717021503,
+            "I1-I3": 6.661942079236786,
+            "I3-I4": 4.158760990241209
+          },
+          "minimumMm": 1.3489861717021503
+        },
+        "drawingWorst6p3x6p3x3p9": {
+          "pairsMm": {
+            "I1-I2": 1.023676521316454,
+            "I2-I3": 0.9372478729770553,
+            "I1-I3": 6.176578604696053,
+            "I3-I4": 3.8309973155011456
+          },
+          "minimumMm": 0.9372478729770553
+        }
+      },
+      "actuatorBore": {
+        "actuatorDiameterNominalMm": 3.5,
+        "boreDiameterMm": 4.5,
+        "nominalRadialClearanceMm": 0.5,
+        "drawingWorstActuatorDiameterMm": 3.8,
+        "drawingWorstRadialClearanceMm": 0.35
+      },
+      "cap": {
+        "I1": {
+          "axisToCapNormalDeviationDeg": 17.20590571227574,
+          "axisNormalCosine": 0.955247877199643,
+          "actuatorTopAxisDepthNominalMm": 2.9,
+          "freeGapAlongCapNormalNominalMm": 0.1702188438789647,
+          "freeGapDrawingStackRangeMm": [
+            -0.4029298824408212,
+            0.7433675701987501
+          ],
+          "capTravelAvailableBeforeHolderTrimMm": 0.19999999999999973,
+          "capDisplacementToActuatorTravelMm": {
+            "lower": 0.31350602545891115,
+            "nominal": 0.40903081317887546,
+            "upper": 0.5045556008988397
+          },
+          "minimumTravelShortfallMm": 0.11350602545891114,
+          "nominalTravelShortfallMm": 0.20903081317887545,
+          "maximumTravelShortfallMm": 0.30455560089883965,
+          "actuatorAxisOffsetAtCapUndersideMm": 0.8051281264640547
+        },
+        "I2": {
+          "axisToCapNormalDeviationDeg": 17.20592859903708,
+          "axisNormalCosine": 0.9552477590398503,
+          "actuatorTopAxisDepthNominalMm": 2.9,
+          "freeGapAlongCapNormalNominalMm": 0.1702185012155657,
+          "freeGapDrawingStackRangeMm": [
+            -0.4029301542083443,
+            0.7433671566394753
+          ],
+          "capTravelAvailableBeforeHolderTrimMm": 0.19999999999999973,
+          "capDisplacementToActuatorTravelMm": {
+            "lower": 0.3135056650715432,
+            "nominal": 0.40903044097552826,
+            "upper": 0.5045552168795133
+          },
+          "minimumTravelShortfallMm": 0.1135056650715432,
+          "nominalTravelShortfallMm": 0.20903044097552825,
+          "maximumTravelShortfallMm": 0.3045552168795133,
+          "actuatorAxisOffsetAtCapUndersideMm": 0.8051292646230829
+        },
+        "I3": {
+          "axisToCapNormalDeviationDeg": 17.20594741763049,
+          "axisNormalCosine": 0.9552476618830845,
+          "actuatorTopAxisDepthNominalMm": 2.9,
+          "freeGapAlongCapNormalNominalMm": 0.17021821946094473,
+          "freeGapDrawingStackRangeMm": [
+            -0.4029303776689055,
+            0.7433668165907954
+          ],
+          "capTravelAvailableBeforeHolderTrimMm": 0.19999999999999973,
+          "capDisplacementToActuatorTravelMm": {
+            "lower": 0.3135053687434074,
+            "nominal": 0.40903013493171586,
+            "upper": 0.5045549011200243
+          },
+          "minimumTravelShortfallMm": 0.11350536874340739,
+          "nominalTravelShortfallMm": 0.20903013493171585,
+          "maximumTravelShortfallMm": 0.3045549011200243,
+          "actuatorAxisOffsetAtCapUndersideMm": 0.8051302004722619
+        },
+        "I4": {
+          "axisToCapNormalDeviationDeg": 2.6571622893875566,
+          "axisNormalCosine": 0.9989248153381866,
+          "actuatorTopAxisDepthNominalMm": 2.9,
+          "freeGapAlongCapNormalNominalMm": 0.296881964480741,
+          "freeGapDrawingStackRangeMm": [
+            -0.3024729247221707,
+            0.8962368536836522
+          ],
+          "capTravelAvailableBeforeHolderTrimMm": 0.19999999999999973,
+          "capDisplacementToActuatorTravelMm": {
+            "lower": 0.446720686781469,
+            "nominal": 0.5466131683152876,
+            "upper": 0.6465056498491063
+          },
+          "minimumTravelShortfallMm": 0.24672068678146897,
+          "nominalTravelShortfallMm": 0.3466131683152876,
+          "maximumTravelShortfallMm": 0.4465056498491063,
+          "actuatorAxisOffsetAtCapUndersideMm": 0.12066471899144092
+        }
+      },
+      "rear": {
+        "bodyRearNominalMm": 8.9,
+        "bodyRearDrawingStackRangeMm": [
+          8.6,
+          9.2
+        ],
+        "currentPadFrontMm": 11.15,
+        "nominalPadGapMm": 2.25,
+        "minimumPadGapAtBodyHeightMaxMm": 1.950000000000001,
+        "padFrontForNominal0p15PreloadMm": 8.75,
+        "sharedCurrentBoreDisengagementMm": [
+          1.57,
+          1.57,
+          1.57
+        ],
+        "sharedCorrectedBoreDisengagementMm": [
+          4.34,
+          4.34,
+          4.34
+        ],
+        "sharedCorrectedServiceWith0p50MarginMm": 4.84,
+        "sharedFinalVerifiedServiceTravelMm": 2.09,
+        "i4CurrentRequiredMm": 1.3499999999999996,
+        "i4CurrentServiceMm": 1.8499999999999996,
+        "i4CorrectedRequiredMm": 3.75,
+        "i4CorrectedServiceMm": 4.25
+      },
+      "terminalRootNominal": {
+        "perButton": {
+          "I1": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 11,
+            "bestCurrent": {
+              "rotationDeg": 138,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 4,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.25685517452260564
+            },
+            "conditionalSeed": {
+              "rotationDeg": 138,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 4,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.25685517452260564
+            }
+          },
+          "I2": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 0,
+            "bestCurrent": {
+              "rotationDeg": 148,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 2,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 6,
+              "conditionalAfterOwnReliefScore": 2,
+              "wireExitAlignmentPenalty": 0.1519519038435737
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 4,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 4,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 2,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 10,
+              "conditionalAfterOwnReliefScore": 2,
+              "wireExitAlignmentPenalty": -2.220446049250313e-16
+            }
+          },
+          "I3": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 0,
+            "bestCurrent": {
+              "rotationDeg": 35,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 1,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 5,
+              "conditionalAfterOwnReliefScore": 1,
+              "wireExitAlignmentPenalty": 0.18084795571100798
+            },
+            "conditionalSeed": {
+              "rotationDeg": 35,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 1,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 5,
+              "conditionalAfterOwnReliefScore": 1,
+              "wireExitAlignmentPenalty": 0.18084795571100798
+            }
+          },
+          "I4": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 40,
+            "bestCurrent": {
+              "rotationDeg": 32,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 1,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 5,
+              "conditionalAfterOwnReliefScore": 1,
+              "wireExitAlignmentPenalty": 0.15195190384357393
+            },
+            "conditionalSeed": {
+              "rotationDeg": 111,
+              "componentRootSegmentHits": {
+                "JaD": 2,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 2,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 6,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.6416320504546997
+            }
+          }
+        },
+        "conditionalSeedRotationsDeg": {
+          "I1": 138,
+          "I2": 0,
+          "I3": 35,
+          "I4": 111
+        },
+        "conditionalSeedRootPairSatMm": {
+          "I1-I2": 3.262838165297267,
+          "I2-I3": 3.9346794286292606,
+          "I1-I3": 2.584564970169951,
+          "I3-I4": 3.9285518449067025
+        },
+        "conditionalSeedMinimumRootPairSatMm": 2.584564970169951
+      },
+      "terminalRootDrawingWorst": {
+        "perButton": {
+          "I1": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 8,
+            "bestCurrent": {
+              "rotationDeg": 138,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 4,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.25685517452260564
+            },
+            "conditionalSeed": {
+              "rotationDeg": 138,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 4,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.25685517452260564
+            }
+          },
+          "I2": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 0,
+            "bestCurrent": {
+              "rotationDeg": 149,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 2,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 6,
+              "conditionalAfterOwnReliefScore": 2,
+              "wireExitAlignmentPenalty": 0.14283269929788756
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 4,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 4,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 2,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 10,
+              "conditionalAfterOwnReliefScore": 2,
+              "wireExitAlignmentPenalty": -2.220446049250313e-16
+            }
+          },
+          "I3": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 0,
+            "bestCurrent": {
+              "rotationDeg": 54,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 2,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 6,
+              "conditionalAfterOwnReliefScore": 2,
+              "wireExitAlignmentPenalty": 0.41221474770752675
+            },
+            "conditionalSeed": {
+              "rotationDeg": 77,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 2,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 2,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 1,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 7,
+              "conditionalAfterOwnReliefScore": 1,
+              "wireExitAlignmentPenalty": 0.775048945656135
+            }
+          },
+          "I4": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 0,
+            "conditionalRotationCountAfterOwnRootRelief": 28,
+            "bestCurrent": {
+              "rotationDeg": 31,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 1,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 5,
+              "conditionalAfterOwnReliefScore": 1,
+              "wireExitAlignmentPenalty": 0.14283269929788756
+            },
+            "conditionalSeed": {
+              "rotationDeg": 105,
+              "componentRootSegmentHits": {
+                "JaD": 2,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 2,
+              "ownHolderSolidRootSegmentHits": 4,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 6,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.7411809548974791
+            }
+          }
+        },
+        "conditionalSeedRotationsDeg": {
+          "I1": 138,
+          "I2": 0,
+          "I3": 77,
+          "I4": 105
+        },
+        "conditionalSeedRootPairSatMm": {
+          "I1-I2": 2.974829303117522,
+          "I2-I3": 1.594119172670732,
+          "I1-I3": 4.389943143239203,
+          "I3-I4": 3.388228747762084
+        },
+        "conditionalSeedMinimumRootPairSatMm": 1.594119172670732
+      }
+    },
+    "middle": {
+      "sourceCandidate": "h3p1_w1.json (docs/29 H3.5 branch reevaluated at actual 3.6/3.9 body height)",
+      "translationMm": [
+        1.5,
+        3.125,
+        -5.125
+      ],
+      "translationNormMm": 6.187184335382291,
+      "perButtonDisplacementMm": [
+        6.333290607783841,
+        9.849244051351539,
+        6.705879940106024,
+        7.235646670985776
+      ],
+      "maximumIndividualDisplacementMm": 9.849244051351539,
+      "centers": {
+        "M1": [
+          -19.835372271614354,
+          -0.6149917093137987,
+          -11.125
+        ],
+        "M2": [
+          -12.899418190051604,
+          -8.744828191932015,
+          -14.125
+        ],
+        "M3": [
+          -3.537874174513658,
+          -14.413708839910296,
+          -11.125
+        ],
+        "M4": [
+          7.444327589561878,
+          -13.569623472203201,
+          -11.125
+        ]
+      },
+      "axes": {
+        "M1": [
+          -0.8375189984529349,
+          -0.4999500619610949,
+          -0.22048098053004586
+        ],
+        "M2": [
+          -0.6015211525700593,
+          -0.7828463367463624,
+          -0.15913489891783186
+        ],
+        "M3": [
+          0.32042889037242506,
+          -0.7334726083286247,
+          -0.5994524660440561
+        ],
+        "M4": [
+          0.22485912746543743,
+          -0.7727927739559164,
+          -0.5934894281425763
+        ]
+      },
+      "nominal": {
+        "footprintMm": 6.0,
+        "bodyHeightMm": 3.6,
+        "frontLipMm": 2.2316165187419816,
+        "bodyFrontDepthMm": 5.231616518741982,
+        "bodyRearDepthMm": 8.831616518741981,
+        "holderRearDatumMm": 10.03161651874198,
+        "minimumBodySatMm": 1.5063146076279286,
+        "minimumPocketDividerMm": 1.0340657874218677,
+        "minimumSplitWallMm": 1.5139153322095087,
+        "minimumScrewClearanceMm": 7.682135795795274,
+        "minimumActualFrontLipMm": 0.5000000000000022,
+        "minimumFrozenIndexClearance": {
+          "clearanceMm": 0.5130696991184,
+          "button": "M3",
+          "envelope": "holder",
+          "component": "RWID"
+        },
+        "frozenIndexCollisionCount": 0,
+        "hardGatePass": true,
+        "robust0p50Pass": true
+      },
+      "drawingWorst": {
+        "footprintMm": 6.3,
+        "bodyHeightMm": 3.9,
+        "frontLipMm": 2.2316165187419816,
+        "bodyFrontDepthMm": 5.231616518741982,
+        "bodyRearDepthMm": 9.131616518741982,
+        "holderRearDatumMm": 10.331616518741981,
+        "minimumBodySatMm": 1.1521279924733845,
+        "minimumPocketDividerMm": 0.9815420290402965,
+        "minimumSplitWallMm": 1.5139153322095087,
+        "minimumScrewClearanceMm": 7.482956966692443,
+        "minimumActualFrontLipMm": 0.42736813870252766,
+        "minimumFrozenIndexClearance": {
+          "clearanceMm": 0.45658800075091016,
+          "button": "M3",
+          "envelope": "holder",
+          "component": "RWID"
+        },
+        "frozenIndexCollisionCount": 0,
+        "hardGatePass": false,
+        "robust0p50Pass": false
+      },
+      "terminalRootNominal": {
+        "perButton": {
+          "M1": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 180,
+            "conditionalRotationCountAfterOwnRootRelief": 180,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          },
+          "M2": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 150,
+            "conditionalRotationCountAfterOwnRootRelief": 150,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          },
+          "M3": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 180,
+            "conditionalRotationCountAfterOwnRootRelief": 180,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          },
+          "M4": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 180,
+            "conditionalRotationCountAfterOwnRootRelief": 180,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          }
+        },
+        "conditionalSeedRotationsDeg": {
+          "M1": 0,
+          "M2": 0,
+          "M3": 0,
+          "M4": 0
+        },
+        "conditionalSeedRootPairSatMm": {
+          "M1-M2": 0.26497430858076765,
+          "M2-M3": 2.624657888565196,
+          "M1-M3": 5.647940935279865,
+          "M3-M4": 4.224996605273397
+        },
+        "conditionalSeedMinimumRootPairSatMm": 0.26497430858076765
+      },
+      "terminalRootDrawingWorst": {
+        "perButton": {
+          "M1": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 180,
+            "conditionalRotationCountAfterOwnRootRelief": 180,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          },
+          "M2": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 110,
+            "conditionalRotationCountAfterOwnRootRelief": 110,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          },
+          "M3": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 180,
+            "conditionalRotationCountAfterOwnRootRelief": 180,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          },
+          "M4": {
+            "testedRotations": 180,
+            "currentCollisionFreeRotationCount": 180,
+            "conditionalRotationCountAfterOwnRootRelief": 180,
+            "bestCurrent": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            },
+            "conditionalSeed": {
+              "rotationDeg": 0,
+              "componentRootSegmentHits": {
+                "JaD": 0,
+                "JfD": 0,
+                "RWID": 0,
+                "RZKD": 0
+              },
+              "meshRootSegmentHits": 0,
+              "ownHolderSolidRootSegmentHits": 0,
+              "neighborBodyHits": 0,
+              "neighborHolderObbHits": 0,
+              "screwHits": 0,
+              "splitOwnershipClear": true,
+              "hardCurrentScore": 0,
+              "conditionalAfterOwnReliefScore": 0,
+              "wireExitAlignmentPenalty": 0.0
+            }
+          }
+        },
+        "conditionalSeedRotationsDeg": {
+          "M1": 0,
+          "M2": 0,
+          "M3": 0,
+          "M4": 0
+        },
+        "conditionalSeedRootPairSatMm": {
+          "M1-M2": 0.1284957357327554,
+          "M2-M3": 2.0673059642962395,
+          "M1-M3": 5.606505129852477,
+          "M3-M4": 3.6795590854533495
+        },
+        "conditionalSeedMinimumRootPairSatMm": 0.1284957357327554
+      }
+    },
+    "electrical": {
+      "sameGroupInvalidPairs": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          4
+        ]
+      ],
+      "validTwoTerminalExamples": [
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          4
+        ]
+      ],
+      "defaultMechanicalPolicy": "retain all four terminals; one-time form distal zone only; do not approve cutting"
+    },
+    "decision": {
+      "indexAsIs": false,
+      "indexModificationGrade": 2,
+      "indexCadModificationRequired": true,
+      "middleSameSwitchGeometryFeasible": true,
+      "middleDifferentHardwareRequired": false,
+      "unifyIndexAndMiddleSkuAfterRedesignAndPrototype": true,
+      "evqp0e07kMechanicalSource": "EXCLUDED; do not redesign INDEX for EVQP0E07K",
+      "nextCadWrite": "HOLD"
+    }
+  },
+  "fixedRootFullRoll": {
+    "periodicityExplanation": "four-pin rectangular layout repeats at 180 degrees; 0..179 exact results mirror into 180..359",
+    "currentClearRanges0to360Deg": {
+      "I1": [],
+      "I2": [],
+      "I3": [],
+      "I4": []
+    },
+    "currentClearCountsPer360": {
+      "I1": 0,
+      "I2": 0,
+      "I3": 0,
+      "I4": 0
+    }
+  },
+  "coordinatedTerminalChannel": {
+    "nominal": {
+      "feasible": true,
+      "resolutionDeg": 2,
+      "periodicityDeg": 180,
+      "rollsDeg": {
+        "I1": 174,
+        "I2": 178,
+        "I3": 92,
+        "I4": 84
+      },
+      "equivalentRolls0to360Deg": {
+        "I1": [
+          174,
+          354
+        ],
+        "I2": [
+          178,
+          358
+        ],
+        "I3": [
+          92,
+          272
+        ],
+        "I4": [
+          84,
+          264
+        ]
+      },
+      "individualMarginsMm": {
+        "I1": 2.008732576052049,
+        "I2": 2.1705790249505927,
+        "I3": 2.023541453364628,
+        "I4": 2.008732576052048
+      },
+      "adjacentChannelWebLowerBoundMm": {
+        "I1-I2": 1.9944519476610352,
+        "I2-I3": 2.0007864099755723,
+        "I3-I4": 5.059774512433962
+      },
+      "governingZeroClearanceWebMm": 1.9944519476610352,
+      "webGateMm": 1.5,
+      "conservativeSymmetricClearanceAllowancePerChannelMm": 0.2472259738305176,
+      "qualifier": "bounded 2-degree roll search; root OBB SAT lower bounds; final B-rep channel required before write"
+    },
+    "drawingWorst": {
+      "feasible": true,
+      "resolutionDeg": 2,
+      "periodicityDeg": 180,
+      "rollsDeg": {
+        "I1": 170,
+        "I2": 0,
+        "I3": 92,
+        "I4": 80
+      },
+      "equivalentRolls0to360Deg": {
+        "I1": [
+          170,
+          350
+        ],
+        "I2": [
+          0,
+          180
+        ],
+        "I3": [
+          92,
+          272
+        ],
+        "I4": [
+          80,
+          260
+        ]
+      },
+      "individualMarginsMm": {
+        "I1": 1.6714107170886496,
+        "I2": 2.104081822850352,
+        "I3": 1.7269146816899568,
+        "I4": 1.671410717088647
+      },
+      "adjacentChannelWebLowerBoundMm": {
+        "I1-I2": 1.7452601655487214,
+        "I2-I3": 1.6590481122192302,
+        "I3-I4": 4.325725297525259
+      },
+      "governingZeroClearanceWebMm": 1.6590481122192302,
+      "webGateMm": 1.5,
+      "conservativeSymmetricClearanceAllowancePerChannelMm": 0.0795240561096151,
+      "qualifier": "bounded 2-degree roll search; root OBB SAT lower bounds; final B-rep channel required before write"
+    },
+    "channelDepthNominalMm": [
+      8.9,
+      12.5
+    ],
+    "channelDepthDrawingWorstMm": [
+      9.2,
+      12.5
+    ],
+    "rootEnvelopeExtraBeyond6p4PerSideNominalMm": 0.75,
+    "rootEnvelopeExtraBeyond6p4PerSideWorstMm": 0.9,
+    "manufacturingClearance": "parameter c_channel; do not freeze until physical-lot root measurement and coupon"
+  },
+  "rearMinorSolution": {
+    "preferred": "separate non-moving central rear spacer/shim; preserve RWID/RZKD pad and service paths",
+    "nominalSpacerLengthMm": 2.4,
+    "drawingStackSpacerLengthRangeMm": [
+      2.1,
+      2.7
+    ],
+    "contactDiameterCandidateMm": 3.6,
+    "reason": "actual body rear 8.9 + spacer 2.4 reproduces legacy contact rear 11.3; current pad front 11.15 retains 0.15 nominal preload",
+    "padExtensionRejectedAsMinimumPlan": "moving pad extension raises shared service demand to 4.84 mm and I4 to 4.25 mm"
+  },
+  "capMinorSolution": {
+    "currentAvailableStrokeMm": 0.2,
+    "minimumAdditionalStopRecessAtZeroFreeGapMm": {
+      "I1": 0.134336757019875,
+      "I2": 0.1343367156639476,
+      "I3": 0.1343366816590796,
+      "I4": 0.1496236853683653
+    },
+    "bossLengthFormula": "measured free gap - chosen prototype free clearance",
+    "stopRecessFormula": "chosen free clearance + 0.35*cos(axis-to-cap-normal) - 0.20",
+    "status": "parameterized Grade-1 cap underside boss + local stop relief; actual lot measurement required"
+  },
+  "registryUpdatePlanOnly": {
+    "part": "ITS-1105-6mm",
+    "role": "INDEX + MIDDLE PRIMARY FINGER SWITCH",
+    "status": "SELECTED / PHYSICAL LOT MEASUREMENT PENDING",
+    "quantityPurchased": 20,
+    "measure02Add": [
+      "body X",
+      "body Y",
+      "housing height",
+      "overall L",
+      "actuator diameter",
+      "actuator projection",
+      "fixed-root position/profile",
+      "pin spacing",
+      "pin width",
+      "pin thickness"
+    ],
+    "filesModified": false
+  },
+  "decision": {
+    "indexGrade": 1,
+    "case": "B",
+    "minimumPlan": [
+      "coordinated local fixed-root channels",
+      "separate non-moving rear spacer/shim",
+      "parameterized cap underside contact boss and local stroke relief",
+      "open rear wire/solder path using existing retainer slot directions"
+    ],
+    "centersAxesLayoutChange": false,
+    "middleSameSwitch": true,
+    "sameSkuIndexMiddle": true,
+    "evqp0e07kFingerPrimary": false,
+    "nextCadWrite": "HOLD pending physical-lot measurement and explicit approval"
+  }
+}

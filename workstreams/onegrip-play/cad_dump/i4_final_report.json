@@ -1,0 +1,67 @@
+{
+  "sourceOfTruth": {
+    "centerMm": [5.496, -29.325, 9.0],
+    "axis": [0.024161, -0.968017, -0.249718],
+    "switchMm": [6.0, 6.0, 6.0],
+    "seatMm": [6.4, 6.4],
+    "openingMm": [8.0, 8.0],
+    "frontLipMm": 2.3
+  },
+  "rearUsableDepthMm": 33.079,
+  "retainer": {
+    "partId": "RZKD",
+    "volumeMm3": 284.8453,
+    "plateMm": [6.5, 10.0, 2.8],
+    "plateURangeMm": [-1.5, 5.0],
+    "padMm": [3.6, 3.6],
+    "preloadMm": 0.15,
+    "preloadOptionsMm": [0.1, 0.15, 0.2],
+    "wiringNotchWidthMm": 2.5,
+    "notchPadGapMm": 0.4,
+    "earOdMm": 7.0,
+    "bossOdMm": 6.0,
+    "screwClearanceHoleMm": 2.4,
+    "pilotMm": 1.7,
+    "screwProvisional": true
+  },
+  "service": {
+    "dRequiredMm": 1.35,
+    "safetyMm": 0.5,
+    "dServiceMm": 1.85,
+    "blockedSamples": 0,
+    "samples": 942
+  },
+  "structural": {
+    "retainerMinimumMm": 2.3,
+    "plateMm": 2.8,
+    "padMm": 3.6,
+    "earWallMm": 2.3,
+    "bossWallMm": 2.15
+  },
+  "driverClearMm": 28.0989,
+  "freeze": {
+    "JfDExact": true,
+    "RWIDExact": true,
+    "sharedServiceTravelMm": 2.09,
+    "sharedMinimumWebMm": 1.96,
+    "sharedVsI4Blocked": 0
+  },
+  "regeneration": {
+    "features": 180,
+    "ok": 180,
+    "error": 0,
+    "warning": 0,
+    "infoOriginal": 4,
+    "isComplete": true
+  },
+  "assembly": {
+    "activeInstances": 25,
+    "instances": 25,
+    "occurrences": 25
+  },
+  "indexFinalSuccess": true,
+  "checkpoint": {
+    "name": "INDEX_FINAL_VALIDATED",
+    "id": "03ede76e83b5c865d9a69c35"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "document": {
+    "did": "a21e64f36bc61df760d4587c",
+    "sourceWorkspaceId": "ef6a7b3ccc45186203e4d2ca",
+    "rightHandWorkspaceId": "db3d780eca8b1efe55a0dadd",
+    "partStudioElementId": "425d9199b59cfb1efd9ddc35",
+    "assemblyElementId": "250f706cb675e635b8d344c4",
+    "sourceVersion": "ITS1105_SAME_SKU_8BTN_FINAL",
+    "sourceVersionId": "e05a9ff0fa5a7bd51eb848a7",
+    "rightHandVersion": "ITS1105_RIGHT_HAND_8BTN_FINAL",
+    "rightHandVersionId": "f24e655bc9b1b5dc97189a55",
+    "configuration": "default"
+  },
+  "mirror": {
+    "plane": "YZ_PLANE",
+    "worldEquation": "X = 0",
+    "operation": "opTransform(mirrorAcross(YZ_PLANE))",
+    "scope": "all solid bodies in Joystick Part Studio",
+    "featureStudio": "RIGHT_HAND_MIRROR_FS",
+    "feature": "RIGHT_HAND_MIRROR_X0"
+  },
+  "partStudioAudit": {
+    "featureCountBefore": 200,
+    "featureCountAfter": 201,
+    "solidCountBefore": 30,
+    "solidCountAfter": 30,
+    "wireCountBefore": 2,
+    "wireCountAfter": 2,
+    "addedSolids": 0,
+    "removedSolids": 0,
+    "sameBodyIdSet": true,
+    "sameNameAndBodyType": true,
+    "partIdentityMismatchCount": 0,
+    "visibleErrorCount": 0,
+    "visibleWarningCount": 0,
+    "keyBodies": {
+      "JaD": "Joystick_1",
+      "JfD": "Joystick_2",
+      "RWID": "Part 17 / shared retainer",
+      "RZKD": "Part 18 / I4 retainer"
+    }
+  },
+  "massPropertiesMm": {
+    "sourceVolumeMm3": {
+      "nominal": 110240.38207032718,
+      "lower": 106428.54736900466,
+      "upper": 114052.21677164963
+    },
+    "rightHandVolumeMm3": {
+      "nominal": 110241.49123117379,
+      "lower": 106290.22001222773,
+      "upper": 114192.76245011976
+    },
+    "absoluteNominalDifferenceMm3": 1.1091608466085745,
+    "relativeNominalDifferencePercent": 0.001006129356392281,
+    "intervalOverlapMm3": [
+      106428.54736900466,
+      114052.21677164963
+    ],
+    "intervalOverlapWidthMm3": 7623.6694026449695,
+    "sourceCentroidNominalMm": [
+      35.860166826271474,
+      0.4901622306868678,
+      2.2072551069080293
+    ],
+    "rightHandCentroidNominalMm": [
+      -35.860166826271474,
+      0.4901622306868678,
+      2.2072551069080293
+    ],
+    "centroidMirrorDeviationMm": 0.0,
+    "verdict": "MIRROR CONFIRMED; volume intervals overlap"
+  },
+  "assemblyAudit": {
+    "componentCount": 25,
+    "mateFeatureCount": 24,
+    "visibleErrorCount": 0,
+    "visibleWarningCount": 0,
+    "danglingReferences": 0,
+    "danglingBasis": "source assembly dangling 0; all referenced part IDs and partIdentity values are unchanged; right-hand live assembly regenerated with 25 components and no missing/error/warning markers"
+  },
+  "render": {
+    "path": "renders/its1105_right_hand_8button_final.png",
+    "sizePx": [
+      1500,
+      1125
+    ],
+    "sha256": "F28A4BD2A8EB236B0D73B7056FBA6C5172EA16490C4F97AAC241687A4FF1122B"
+  },
+  "verdict": "RIGHT HAND MIRROR = PASS"
+}

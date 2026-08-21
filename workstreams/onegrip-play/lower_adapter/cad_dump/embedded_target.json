@@ -1,0 +1,27 @@
+{
+ "ps_eid": "2e024442c796323fd37e49c3",
+ "fs_eid": "2332e4bac0c5b886229173c1",
+ "varIds": {
+  "gimbal_travel": "FFfEoZ2mlKCztxu_0",
+  "seat_recess": "F0b6gjSxQVf9VVC_0",
+  "axis1_radius": "FqkfdLqPWQnAyAa_0",
+  "axis2_radius": "FI7RoWmZaR5ZJ6n_0",
+  "yoke_wall": "FPWG4h9u2Ibtu79_0",
+  "pivot_depth": "F4CWx5AI3nKctp6_0"
+ },
+ "namespace": "e2332e4bac0c5b886229173c1::me83d6ac6b8ff1e17993c0619",
+ "featureType": "oneGripEmbeddedGimbal",
+ "stageIds": {
+  "HUB": "F6mF3HdmkWIXcEH_4",
+  "RING": "FiyoXUS0OBhpOET_5",
+  "HOUSING": "F1AJc3hyOePRW2y_2",
+  "CARRIER": "FYjWEDhEAIP7HoT_3"
+ },
+ "partIds": {
+  "HOUSING": "JHD",
+  "CAR_P": "J3D",
+  "CAR_M": "RPBD",
+  "HUB": "RnBD",
+  "RING": "RdCD"
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "tessellation": {
+    "angleTolerance": 0.09,
+    "chordTolerance": 0.1
+  },
+  "JaD": {
+    "triangles": 17250,
+    "volumeMm3": 47382.2077,
+    "fingerprint": "ab6850df226267c683ed63fa6097fdf58fe5c304643d525d4b1ab1be70856658"
+  },
+  "JfD": {
+    "triangles": 16910,
+    "volumeMm3": 49670.4285,
+    "fingerprint": "265b307be10ea1edd75ba4f17edfed760cae3f13520322fbd6f11c63b9f79ee2"
+  },
+  "RWID": {
+    "triangles": 2112,
+    "volumeMm3": 2136.4634,
+    "fingerprint": "253c87b456acfe9cbaed676560ceb0def700836549a6beb5800e8632e09d5d2f"
+  }
+}

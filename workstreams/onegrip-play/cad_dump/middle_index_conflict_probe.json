@@ -1,0 +1,263 @@
+{
+  "method": "local exact triangle/OBB SAT; no network; no CAD write",
+  "individualAxisProbe": {
+    "M1": {
+      "samples": 5000,
+      "safePocketSamples": 1644,
+      "minimumIndividualPocketDeviationDeg": 0.0027748425486529005,
+      "minimumIndividualPocketAxis": [
+        -0.940566930147836,
+        -0.20094648144165142,
+        -0.273777941968479
+      ],
+      "safeHolderSamples": 1091,
+      "minimumIndividualHolderDeviationDeg": 0.0027748425486529005,
+      "minimumIndividualHolderAxis": [
+        -0.940566930147836,
+        -0.20094648144165142,
+        -0.273777941968479
+      ]
+    },
+    "M2": {
+      "samples": 5000,
+      "safePocketSamples": 906,
+      "minimumIndividualPocketDeviationDeg": 0.0012338775275511082,
+      "minimumIndividualPocketAxis": [
+        -0.5127344433165747,
+        -0.6405759685747203,
+        -0.5716343403972518
+      ],
+      "safeHolderSamples": 0,
+      "minimumIndividualHolderDeviationDeg": null,
+      "minimumIndividualHolderAxis": null
+    },
+    "M3": {
+      "samples": 5000,
+      "safePocketSamples": 4,
+      "minimumIndividualPocketDeviationDeg": 23.492812174979473,
+      "minimumIndividualPocketAxis": [
+        -0.053340455468918975,
+        -0.9543980601562386,
+        -0.2937331077362185
+      ],
+      "safeHolderSamples": 0,
+      "minimumIndividualHolderDeviationDeg": null,
+      "minimumIndividualHolderAxis": null
+    },
+    "M4": {
+      "samples": 5000,
+      "safePocketSamples": 208,
+      "minimumIndividualPocketDeviationDeg": 9.983080181589635,
+      "minimumIndividualPocketAxis": [
+        0.002376150817539876,
+        -0.8335401320012932,
+        -0.5524538010101471
+      ],
+      "safeHolderSamples": 0,
+      "minimumIndividualHolderDeviationDeg": null,
+      "minimumIndividualHolderAxis": null
+    }
+  },
+  "selectedCandidateClearance": {
+    "M1": {
+      "switchToRWIDmm": 6.206106266859088,
+      "pocketToRWIDmm": 6.004663833877084,
+      "holderToRWIDmm": 2.983027339147037,
+      "switchToRZKDmm": 19.527042178496938,
+      "pocketToRZKDmm": 19.19284032967333,
+      "holderToRZKDmm": 15.03524531994181,
+      "switchToIndexHolderMm": 7.420729529993302,
+      "pocketToIndexHolderMm": 7.200724678689967,
+      "holderToIndexHolderMm": 3.902304071312945
+    },
+    "M2": {
+      "switchToRWIDmm": 0.0,
+      "pocketToRWIDmm": 0.0,
+      "holderToRWIDmm": 0.0,
+      "switchToRZKDmm": 14.30162056670554,
+      "pocketToRZKDmm": 14.036316783007447,
+      "holderToRZKDmm": 10.896995682907503,
+      "switchToIndexHolderMm": 0.0,
+      "pocketToIndexHolderMm": 0.0,
+      "holderToIndexHolderMm": 0.0
+    },
+    "M3": {
+      "switchToRWIDmm": 0.0,
+      "pocketToRWIDmm": 0.0,
+      "holderToRWIDmm": 0.0,
+      "switchToRZKDmm": 6.299753170167962,
+      "pocketToRZKDmm": 6.01139934339213,
+      "holderToRZKDmm": 2.7048095459506087,
+      "switchToIndexHolderMm": 0.37615529959761407,
+      "pocketToIndexHolderMm": 0.09418142382272007,
+      "holderToIndexHolderMm": 0.0
+    },
+    "M4": {
+      "switchToRWIDmm": 0.0,
+      "pocketToRWIDmm": 0.0,
+      "holderToRWIDmm": 0.0,
+      "switchToRZKDmm": 4.019415692354568,
+      "pocketToRZKDmm": 3.7462041366115764,
+      "holderToRZKDmm": 0.6481840216637815,
+      "switchToIndexHolderMm": 2.564585684641833,
+      "pocketToIndexHolderMm": 2.3130626523210966,
+      "holderToIndexHolderMm": 0.0
+    }
+  },
+  "uniformNegativeZShiftProbe": {
+    "0": {
+      "holderToRWIDmm": [
+        2.983027339147037,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holderToIndexHolderMm": [
+        3.902304071312945,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "-1": {
+      "holderToRWIDmm": [
+        3.980860585971969,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holderToIndexHolderMm": [
+        4.889372732239305,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "-2": {
+      "holderToRWIDmm": [
+        4.978693832796901,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holderToIndexHolderMm": [
+        5.8764413931656625,
+        0.0,
+        0.0,
+        0.4370598323082723
+      ]
+    },
+    "-3": {
+      "holderToRWIDmm": [
+        5.801718683051722,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holderToIndexHolderMm": [
+        6.863510054092022,
+        0.0,
+        0.0,
+        1.1478375849140692
+      ]
+    },
+    "-4": {
+      "holderToRWIDmm": [
+        6.517530472737618,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holderToIndexHolderMm": [
+        7.850578715018382,
+        0.37261530101748075,
+        0.0,
+        1.8586153375198664
+      ]
+    },
+    "-5": {
+      "holderToRWIDmm": [
+        7.225112010249412,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holderToIndexHolderMm": [
+        8.83764737594474,
+        1.3558472719833228,
+        0.1676748473360762,
+        2.569393090125662
+      ]
+    },
+    "-6": {
+      "holderToRWIDmm": [
+        7.951348815553667,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "holderToIndexHolderMm": [
+        9.824716036871102,
+        2.3390792429491647,
+        0.9666779585148706,
+        3.2801708427314584
+      ]
+    },
+    "-7": {
+      "holderToRWIDmm": [
+        8.714059116907423,
+        0.8532656413753107,
+        0.0,
+        0.0064532017089001595
+      ],
+      "holderToIndexHolderMm": [
+        10.811784697797464,
+        3.194715295371613,
+        1.9504960404796527,
+        3.9909485953372545
+      ]
+    },
+    "-8": {
+      "holderToRWIDmm": [
+        9.496887674135731,
+        1.8532619468380276,
+        0.3479166466676169,
+        0.7533674263667715
+      ],
+      "holderToIndexHolderMm": [
+        11.798853358723822,
+        3.9411581306501113,
+        2.9452340029911253,
+        4.71476032584711
+      ]
+    },
+    "-9": {
+      "holderToRWIDmm": [
+        10.307365022426554,
+        2.6656834238437526,
+        1.1783877985952156,
+        1.5684261532266275
+      ],
+      "holderToIndexHolderMm": [
+        12.78592201965018,
+        4.781134698280067,
+        3.942635141732424,
+        5.514126601839986
+      ]
+    },
+    "-10": {
+      "holderToRWIDmm": [
+        11.132549496314963,
+        3.3408757506178817,
+        2.0088589505228134,
+        2.429967156602621
+      ],
+      "holderToIndexHolderMm": [
+        13.772990680576541,
+        5.673250443564588,
+        4.941086964350231,
+        6.3704175241546634
+      ]
+    }
+  }
+}
