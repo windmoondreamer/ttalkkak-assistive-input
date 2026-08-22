@@ -1,0 +1,67 @@
+{
+  "scope": "two external housing shells only",
+  "unit": "millimeter",
+  "results": [
+    {
+      "file": "OneGrip_lower15_housing_Joystick_1_JaD.stl",
+      "triangles": 18838,
+      "uniqueEdges": 28257,
+      "nonTwoManifoldEdges": 0,
+      "inconsistentSharedEdgeOrientation": 0,
+      "degenerateTriangles": 0,
+      "connectedComponents": 1,
+      "watertight": true,
+      "windingConsistent": true,
+      "volumeMm3": 47667.80151436884,
+      "boundsMm": [
+        [
+          -6.30104421330685e-13,
+          -61.42745590209961,
+          -73.87850952148438
+        ],
+        [
+          38.73471450805664,
+          62.427490234375,
+          78.24842834472656
+        ]
+      ],
+      "extentsMm": [
+        38.73471450805727,
+        123.85494613647461,
+        152.12693786621094
+      ],
+      "printMeshGate": "PASS"
+    },
+    {
+      "file": "OneGrip_lower15_housing_Joystick_2_JfD.stl",
+      "triangles": 19740,
+      "uniqueEdges": 29610,
+      "nonTwoManifoldEdges": 0,
+      "inconsistentSharedEdgeOrientation": 0,
+      "degenerateTriangles": 0,
+      "connectedComponents": 1,
+      "watertight": true,
+      "windingConsistent": true,
+      "volumeMm3": 50128.5581803798,
+      "boundsMm": [
+        [
+          -38.73471450805664,
+          -61.42745590209961,
+          -73.87850952148438
+        ],
+        [
+          4.638045589949735e-13,
+          62.427490234375,
+          78.24842834472656
+        ]
+      ],
+      "extentsMm": [
+        38.7347145080571,
+        123.85494613647461,
+        152.12693786621094
+      ],
+      "printMeshGate": "PASS"
+    }
+  ],
+  "overall": "PASS"
+}

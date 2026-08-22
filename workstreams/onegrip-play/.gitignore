@@ -3,6 +3,12 @@
 !.env.example
 __pycache__/
 *.pyc
+.venv-build123d/
+.venv-cadquery/
+.claude/
+.agents/
+.codex/
+build123d_workbench/out/
 tmp/
 .DS_Store
 Thumbs.db

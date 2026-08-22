@@ -1,0 +1,16 @@
+{
+ "ps_eid": "8945f7ac4100dfd52a8c8dba",
+ "fs_eid": "c7e1406e3a3a24817beb0e7b",
+ "varIds": {
+  "pocket_clearance2": "FTojr5xLatuBqqs_0",
+  "knee_angle": "FVbCv9EoMhagIe1_0",
+  "knee_y": "F2LTdsKns144kzr_0",
+  "trace_steps": "FHx9clGLszM26Xz_0"
+ },
+ "namespace": "ec7e1406e3a3a24817beb0e7b::m75d9d6e7c79d4b7461873e80",
+ "featureType": "oneGripConformal",
+ "stageIds": {
+  "HOUSING": "F96na0QCHziy9Tz_0",
+  "CARRIER": "F9Ajhg4rNjX6yvw_1"
+ }
+}

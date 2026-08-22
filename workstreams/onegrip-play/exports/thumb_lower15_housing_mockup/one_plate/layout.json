@@ -1,0 +1,34 @@
+{
+  "unit": "millimeter",
+  "components": 2,
+  "orientation": "both shell mating planes on Z=0",
+  "jfdInPlaneRotationDeg": 50,
+  "minimumProjectedGapMm": 8.0,
+  "bedMarginMm": 5.0,
+  "targetBedMm": [
+    220.0,
+    220.0
+  ],
+  "boundsMm": [
+    [
+      5.0,
+      5.0,
+      0.0
+    ],
+    [
+      172.557158783834,
+      182.65751683969236,
+      38.73471450805727
+    ]
+  ],
+  "footprintMm": [
+    177.557158783834,
+    187.65751683969236
+  ],
+  "modelFootprintMm": [
+    167.557158783834,
+    177.65751683969236
+  ],
+  "heightMm": 38.73471450805727,
+  "fitsTargetBed": true
+}
