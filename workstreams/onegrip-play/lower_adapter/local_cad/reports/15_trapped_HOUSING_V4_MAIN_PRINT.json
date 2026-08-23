@@ -1,0 +1,284 @@
+{
+ "part": "HOUSING_V4_MAIN_PRINT",
+ "rot_x": -90.0,
+ "voxel": 2.0,
+ "chunks": [
+  {
+   "label": 4,
+   "volume_mm3": 999688.0,
+   "grip_bbox": [
+    [
+     -57.80000305175781,
+     58.19999694824219
+    ],
+    [
+     -71.19999694824219,
+     84.80000305175781
+    ],
+    [
+     -169.4618377685547,
+     -63.46183776855469
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 2,
+   "volume_mm3": 160064.0,
+   "grip_bbox": [
+    [
+     -61.80000305175781,
+     60.19999694824219
+    ],
+    [
+     -105.19999694824217,
+     -21.199996948242177
+    ],
+    [
+     -149.4618377685547,
+     -69.46183776855469
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 8,
+   "volume_mm3": 10168.0,
+   "grip_bbox": [
+    [
+     -49.80000305175781,
+     -21.800003051757812
+    ],
+    [
+     -71.19999694824219,
+     -43.19999694824218
+    ],
+    [
+     -151.4618377685547,
+     -141.4618377685547
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 10,
+   "volume_mm3": 10168.0,
+   "grip_bbox": [
+    [
+     22.199996948242188,
+     50.19999694824219
+    ],
+    [
+     -71.19999694824219,
+     -43.19999694824218
+    ],
+    [
+     -151.4618377685547,
+     -141.4618377685547
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 3,
+   "volume_mm3": 1984.0,
+   "grip_bbox": [
+    [
+     -61.80000305175781,
+     62.19999694824219
+    ],
+    [
+     -133.1999969482422,
+     -109.19999694824217
+    ],
+    [
+     -81.46183776855469,
+     -71.46183776855467
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 7,
+   "volume_mm3": 968.0,
+   "grip_bbox": [
+    [
+     -53.80000305175781,
+     52.19999694824219
+    ],
+    [
+     70.80000305175781,
+     80.80000305175781
+    ],
+    [
+     -131.4618377685547,
+     -129.4618377685547
+    ]
+   ],
+   "class": "NARROW (<2mm neck) via DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 0.0
+  },
+  {
+   "label": 12,
+   "volume_mm3": 744.0,
+   "grip_bbox": [
+    [
+     50.19999694824219,
+     56.19999694824219
+    ],
+    [
+     -71.19999694824217,
+     -21.199996948242177
+    ],
+    [
+     -71.46183776855469,
+     -63.46183776855468
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 6,
+   "volume_mm3": 664.0,
+   "grip_bbox": [
+    [
+     -55.80000305175781,
+     -49.80000305175781
+    ],
+    [
+     -69.19999694824217,
+     -21.199996948242177
+    ],
+    [
+     -69.46183776855469,
+     -63.46183776855468
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 14,
+   "volume_mm3": 232.0,
+   "grip_bbox": [
+    [
+     66.19999694824219,
+     66.19999694824219
+    ],
+    [
+     -77.19999694824219,
+     -71.19999694824219
+    ],
+    [
+     -153.4618377685547,
+     -137.4618377685547
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 9,
+   "volume_mm3": 216.0,
+   "grip_bbox": [
+    [
+     -41.80000305175781,
+     -37.80000305175781
+    ],
+    [
+     -135.1999969482422,
+     -131.1999969482422
+    ],
+    [
+     -77.46183776855467,
+     -71.46183776855467
+    ]
+   ],
+   "class": "NARROW (<2mm neck) via DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 0.0
+  },
+  {
+   "label": 11,
+   "volume_mm3": 216.0,
+   "grip_bbox": [
+    [
+     38.19999694824219,
+     42.19999694824219
+    ],
+    [
+     -135.1999969482422,
+     -131.1999969482422
+    ],
+    [
+     -77.46183776855467,
+     -71.46183776855467
+    ]
+   ],
+   "class": "NARROW (<2mm neck) via DECK OPENING + CARRIER / LOWER OPENING + SPLIT FACE",
+   "routes": [
+    "DECK OPENING",
+    "CARRIER / LOWER OPENING",
+    "SPLIT FACE (print z=max, 위를 향함)"
+   ],
+   "neck_radius_mm": 0.0
+  }
+ ],
+ "true_trapped": 0,
+ "true_trapped_mm3": 0
+}

@@ -421,6 +421,58 @@ def stock_keepout(bd, body, clr=0.4):
     return u
 
 
+def motion15_protect(bd):
+    """±15도 모션 포락선 keep-out (원본 `#joystick_angle = 15 deg`).
+
+    - 도달집합은 반각 15도 **원뿔이 아니라 정사각형** |roll|<=15 & |pitch|<=15 다.
+      코너 (15,15) 의 합성 편향은 acos(cos^2 15) = 21.06도 로 원뿔 밖이라,
+      원뿔로 만들면 코너 4자세에서 간섭이 남는다 (실측 48~129점).
+    - 밴드는 볼록껍질 반경 32각형이다. 축정렬 사각형(bbox)으로 자르면 둥근
+      포락선의 대각선을 최대 40% 과다 절삭해 살이 0.55mm 까지 얇아졌다.
+    - 밴드를 프리즘으로 **쌓지 않고 로프트**한다. 쌓으면 1mm 밴드 계단이 남아
+      0.8mm(=1.0-2*PROT_EPS) 짜리 턱이 사방에 생긴다 (실측).
+
+    데이터는 `envelope15.py` 가 만든다 — 합성 회전이 캐시된 ±10도 자세를
+    0.0012mm 오차로 재현함을 확인한 뒤 15도로 확장한 것이다. 형상 재구성이 아니다.
+    """
+    path = os.path.join(P.CACHE_DIR, "motion_envelope15.json")
+    if not os.path.exists(path):
+        print("  motion_envelope15.json 없음 - 건너뜀")
+        return None
+    J = json.load(open(path, encoding="utf-8"))
+    zs = J["zs"]; pg = J.get("polys15")
+    if not pg:
+        print("  polys15 없음 - 건너뜀")
+        return None
+    e = P.PROT_EPS
+    runs = []
+    cur = []
+    for i, z in enumerate(zs):
+        if pg[i] and len(pg[i]) >= 3:
+            cur.append(i)
+        else:
+            if len(cur) >= 2: runs.append(cur)
+            cur = []
+    if len(cur) >= 2: runs.append(cur)
+    parts = []
+    for run in runs:
+        for k in range(len(run) - 1):
+            i0, i1 = run[k], run[k + 1]
+            z0 = zs[i0] - (e if k == 0 else 0.0)
+            z1 = zs[i1] + (e if k == len(run) - 2 else 0.0)
+            s0 = bd.Plane(origin=(0, 0, z0)) * bd.Polygon(*[tuple(v) for v in pg[i0]],
+                                                          align=None)
+            s1 = bd.Plane(origin=(0, 0, z1)) * bd.Polygon(*[tuple(v) for v in pg[i1]],
+                                                          align=None)
+            parts.append(bd.loft([s0, s1], ruled=True))
+    if not parts:
+        return None
+    out = parts[0]
+    for q in parts[1:]:
+        out = out + q
+    return out
+
+
 def cavity_protect(bd):
     """검증된 내부 포락선 + 캐리어 인출 스윕으로 공동 보호 solid 를 만든다.
 
@@ -469,7 +521,9 @@ def cavity_protect(bd):
 # ------------------------------------------------------------------ 메인
 
 def build(variant=None, lower_kind=None, skip_fillets=(), ramp_deg=None,
-          slope_deg=None, rear_support=False):
+          slope_deg=None, rear_support=False, pad_width=None,
+          skirt_top=None, slope_rear=False, slope_blend=False,
+          motion15=False):
     bd = G.b3d()
     from build123d import Location, loft
 
@@ -489,6 +543,7 @@ def build(variant=None, lower_kind=None, skip_fillets=(), ramp_deg=None,
           f"CARRIER {float(carrier.volume):,.2f} mm3")
 
     anchor, front, slope = pad_plane()
+    PADW = pad_width or P.WRIST_PAD_WIDTH   # 팔받침 폭 (기본 86, flush 는 133.6)
     print(f"  손목 패드 평면  앵커 (Y {anchor[0]:.1f}, Z {anchor[1]:.4f})  "
           f"앞끝 (Y {front[0]:.3f}, Z {front[1]:.3f})  기울기 {slope:.5f}")
 
@@ -564,11 +619,33 @@ def build(variant=None, lower_kind=None, skip_fillets=(), ramp_deg=None,
         # Y >= -30 에서만 있다.** -35 에서 끊으면 코어 몸통과 안 겹쳐
         # 중간 높이가 빈다(실측: Y -33, Z -70~-116 에 재료 없음).
         # 그립 착좌 발자국이 Y -10.2 부터라 그 앞까지만 물린다.
-        y_rear = anchor[0] + 5.0
+        # 기본 -15 에서 끊으면 램프(133.6 폭)와 하우징 블록(113 폭) 사이에
+        # 단차가 남고, 그 접합부에 초승달 관통 슬릿이 생긴다 (좌우 대칭, 실측).
+        # slope_rear=True 면 하우징 뒤끝까지 연장해 바깥 면을 연속으로 만든다.
+        y_rear = (float(hb.max.Y) + MARG) if slope_rear else (anchor[0] + 5.0)
         n_s = max(6, int(round((y_rear - y_tip) / 6.0)))
         ys = [y_tip + (y_rear - y_tip) * k / n_s for k in range(n_s + 1)]
         labels = [f"slope {k:02d}" for k in range(n_s + 1)]
-        wfrac = [0.68 + (1.00 - 0.68) * k / n_s for k in range(n_s + 1)]
+        # 폭은 **하우징 앞끝(y_front_body)에서 1.00 에 도달**해야 한다.
+        # 뒤끝(Y=-15) 기준으로 잡으면 접합부에서 아직 0.91 이라
+        # TOP 실루엣이 122.3 -> 133.6 으로 튄다 (실측 편측 5.9mm 단차).
+        # 그 뒤 구간은 1.00 으로 유지해 하우징 옆선과 이어진다.
+        # slope_blend: 하우징 앞끝에서 1.00 을 찍은 뒤, 겹치는 구간에서
+        # **하우징 자체 폭(113.0)까지 부드럽게 좁힌다.** 그래야 램프가 끝나는
+        # Y=-15 에서 단차가 0 이 되어 접합부 초승달 슬릿이 안 생긴다.
+        # (뒤끝까지 연장하는 방식은 코어에서 8.3mm 떠 이중벽 + 관통이 됐다.)
+        W_BLOCK = 113.0
+        f_end = W_BLOCK / (pad_width or P.WRIST_PAD_WIDTH)
+        wfrac = []
+        for k in range(n_s + 1):
+            yk = ys[k]
+            f = (yk - y_tip) / (y_front_body - y_tip)
+            f = min(1.0, max(0.0, f))
+            w = 0.68 + (1.00 - 0.68) * f
+            if slope_blend and yk > y_front_body:
+                g = (yk - y_front_body) / (y_rear - y_front_body)
+                w = 1.00 + (f_end - 1.00) * min(1.0, max(0.0, g))
+            wfrac.append(w)
         tops = [("RAMP", slope_deg, u_a, h_a)] * (n_s + 1)
         print(f"  단일경사 {slope_deg:.0f}deg  기준(하우징 앞끝) u {u_a:.2f} "
               f"h {h_a:.2f}  수평런 {run:.1f}  팁 Y {y_tip:.2f}  섹션 {n_s+1}"
@@ -650,7 +727,7 @@ def build(variant=None, lower_kind=None, skip_fillets=(), ramp_deg=None,
         # 그러면 바깥 코너 R16 이 안쪽 단면(그 높이에서 더 넓다)에 통째로 먹혀서
         # 손목이 지면에서 4.88mm 떠 버렸다 (실측 4.41~4.66).
         zbot = zo
-        w = P.WRIST_PAD_WIDTH * wf
+        w = PADW * wf
         h = ztop - zbot
         cz = 0.5 * (ztop + zbot)
         r = min(P.WRIST_PAD_RADIUS, 0.45 * w, 0.45 * h)
@@ -675,7 +752,7 @@ def build(variant=None, lower_kind=None, skip_fillets=(), ramp_deg=None,
             base = top_z_at(y, ht)
         ztop = base - P.WRIST_WALL
         zbot = zi
-        w = max(2.0, P.WRIST_PAD_WIDTH * wf - 2 * P.NECK_WALL)
+        w = max(2.0, PADW * wf - 2 * P.NECK_WALL)
         h = max(1.0, ztop - zbot)
         cz = 0.5 * (ztop + zbot)
         r = max(1.0, min(P.WRIST_PAD_RADIUS - P.NECK_WALL, 0.45 * w, 0.45 * h))
@@ -772,7 +849,11 @@ def build(variant=None, lower_kind=None, skip_fillets=(), ramp_deg=None,
         # **하우징 안쪽에서 시작해야 붙는다.** 바닥 스테이션(-187.87)에서
         # 내리면 무릎 절단부(Y 64~72, 하우징 최저 -146.96)와 41mm 떠서
         # 조각들이 공중에 남는다 (실측: union 후에도 solid 9개).
-        sk_top = -140.0
+        # 기본 -140 은 **블록 구간 옆면에 노치를 남긴다** (실측: Y>-13 에서
+        # X 58~66.8 의 재료 최상단이 Z -129~-137, 램프 구간은 -63.6).
+        # 그 10.3mm 단차가 3/4 방향에서 뚫린 틈처럼 보인다.
+        # skirt_top 을 덱까지 올리면 바깥 면이 램프에서 덱까지 연속이 된다.
+        sk_top = -140.0 if skirt_top is None else float(skirt_top)
         # 지면이 가장 낮은 곳은 **뒤쪽 Y** 다 (20도 경사라 뒤로 갈수록 멀어진다).
         # 앞쪽 Y 로 잡으면 뒤에서 44mm 못 미쳐 스커트가 공중에 뜬다 (실측).
         sk_bot = (GROUND_H - UP[1] * (cy0s + 0.5 * d0s)) / UP[2] - 20.0
@@ -824,6 +905,15 @@ def build(variant=None, lower_kind=None, skip_fillets=(), ramp_deg=None,
         new = new + housing
         new = G.heal(new, label="REAR_SUPPORT")
 
+    if motion15:
+        m15 = motion15_protect(bd)
+        if m15 is not None:
+            before = float(new.volume)
+            new = new - m15
+            new = G.heal(new, label="MOTION15")
+            print(f"  MOTION15 절삭  {before - float(new.volume):,.1f} mm3 제거"
+                  f"  -> vol {float(new.volume):,.1f}")
+
     print(f"  NEW_HOUSING vol {float(new.volume):,.0f}  "
           f"(HOUSING 대비 +{float(new.volume) - float(housing.volume):,.0f})")
     return {"new": new, "housing": housing, "carrier": carrier,
@@ -837,7 +927,30 @@ def main():
     skip = ()
     ramp = slope = None
     rear = False
-    if arg and arg.startswith("S") and arg.endswith("A") and arg[1:-1].isdigit():
+    padw = None
+    skirt_top = None; slope_rear = False; slope_blend = False; motion15 = False
+    if arg and arg.startswith("S") and arg.endswith("AWB15") and arg[1:-5].isdigit():
+        # 15 = ±15도 모션 포락선까지 확보 (동결 코어 공동벽 국소 절삭)
+        slope = float(arg[1:-5]); rear = True; padw = 133.6
+        slope_blend = True; motion15 = True
+        name = f"ERGO_HOUSING_{int(slope)}_WRAP_W134_M15"
+    elif arg and arg.startswith("S") and arg.endswith("AWB") and arg[1:-3].isdigit():
+        # B = 접합 구간에서 램프 폭을 하우징 폭까지 블렌드 (단차/슬릿 제거)
+        slope = float(arg[1:-3]); rear = True; padw = 133.6; slope_blend = True
+        name = f"ERGO_HOUSING_{int(slope)}_WRAP_W134_BLEND"
+    elif arg and arg.startswith("S") and arg.endswith("AWR") and arg[1:-3].isdigit():
+        # R = 램프 단면을 하우징 뒤끝까지 연장 (옆면 단차/슬릿 제거)
+        slope = float(arg[1:-3]); rear = True; padw = 133.6; slope_rear = True
+        name = f"ERGO_HOUSING_{int(slope)}_WRAP_W134_CONT"
+    elif arg and arg.startswith("S") and arg.endswith("AWT") and arg[1:-3].isdigit():
+        # T = skirt Top -> 스커트를 덱까지 올려 옆면 노치를 없앤다
+        slope = float(arg[1:-3]); rear = True; padw = 133.6
+        skirt_top = DECK
+        name = f"ERGO_HOUSING_{int(slope)}_WRAP_W134_FULLSIDE"
+    elif arg and arg.startswith("S") and arg.endswith("AW") and arg[1:-2].isdigit():
+        slope = float(arg[1:-2]); rear = True; padw = 133.6
+        name = f"ERGO_HOUSING_{int(slope)}_WRAP_W134"
+    elif arg and arg.startswith("S") and arg.endswith("A") and arg[1:-1].isdigit():
         slope = float(arg[1:-1]); rear = True
         name = f"ERGO_HOUSING_W2_SLOPE{int(slope)}_A"
     elif arg and arg.startswith("S") and arg[1:].isdigit():
@@ -862,7 +975,8 @@ def main():
         name = f"ERGO_HOUSING_W2_GROUND_{arg}"
     else:
         name = "ERGO_HOUSING_W2"
-    r = build(variant, lower, skip, ramp, slope, rear)
+    r = build(variant, lower, skip, ramp, slope, rear, padw, skirt_top, slope_rear,
+              slope_blend, motion15)
     if r is None:
         return 2
     G.export_all(r["new"], name, tolerance=0.015, angular_tolerance=0.08)

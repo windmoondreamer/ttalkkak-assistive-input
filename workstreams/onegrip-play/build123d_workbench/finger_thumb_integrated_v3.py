@@ -135,6 +135,13 @@ THUMB_PAD_SIZE = 5.0
 THUMB_PAD_REACH = 4.8
 THUMB_OPENING_CLEARANCE = 0.80
 
+# Exterior-first reset: the previous collision-seeded AABB relief for the
+# lowered HW504 mechanism opened a large through-window behind N1/N2.  That
+# cutter is intentionally disabled.  Any remaining mechanism/shell overlap is
+# reported as an internal-design HOLD and must not be solved by punching the
+# user-facing shell again.
+ENABLE_THUMB_MECHANISM_THROUGH_RELIEF = False
+
 # New fastening architecture.  Every axis is +X; tuples are (Y, Z).
 SCREW_X_MIN = -9.0
 SCREW_X_MAX = 10.0
@@ -845,18 +852,19 @@ def build_integrated_v3() -> IntegratedV3:
     # outside the main backplate cavity.  Use exact, collision-seeded local
     # reliefs instead of enlarging the opening across the complete exterior.
     mechanism_reliefs: list[dict[str, object]] = []
-    for mechanism_index, mechanism in enumerate(thumb_groups["mechanism"], 1):
-        jad, jad_relief = apply_localized_interference_relief(
-            jad, mechanism, THUMB_OPENING_CLEARANCE,
-            f"THUMB_V3_HW504_{mechanism_index}_JaD_local_relief",
-        )
-        jfd, jfd_relief = apply_localized_interference_relief(
-            jfd, mechanism, THUMB_OPENING_CLEARANCE,
-            f"THUMB_V3_HW504_{mechanism_index}_JfD_local_relief",
-        )
-        mechanism_reliefs.extend(
-            row for row in (jad_relief, jfd_relief) if row is not None
-        )
+    if ENABLE_THUMB_MECHANISM_THROUGH_RELIEF:
+        for mechanism_index, mechanism in enumerate(thumb_groups["mechanism"], 1):
+            jad, jad_relief = apply_localized_interference_relief(
+                jad, mechanism, THUMB_OPENING_CLEARANCE,
+                f"THUMB_V3_HW504_{mechanism_index}_JaD_local_relief",
+            )
+            jfd, jfd_relief = apply_localized_interference_relief(
+                jfd, mechanism, THUMB_OPENING_CLEARANCE,
+                f"THUMB_V3_HW504_{mechanism_index}_JfD_local_relief",
+            )
+            mechanism_reliefs.extend(
+                row for row in (jad_relief, jfd_relief) if row is not None
+            )
 
     jad = jad.clean()
     jfd = jfd.clean()
@@ -888,6 +896,11 @@ def build_integrated_v3() -> IntegratedV3:
             "seatToShellPositiveOverlapMm3": seat_shell_overlap,
             "bossToShellPositiveOverlapMm3": boss_shell_overlap,
             "thumbMechanismLocalReliefs": mechanism_reliefs,
+            "thumbMechanismThroughReliefPolicy": {
+                "enabled": ENABLE_THUMB_MECHANISM_THROUGH_RELIEF,
+                "status": "DISCARDED" if not ENABLE_THUMB_MECHANISM_THROUGH_RELIEF else "ENABLED",
+                "reason": "prevent exterior through-window behind N1/N2",
+            },
             "fastenerOptions": option_rows,
         },
     )

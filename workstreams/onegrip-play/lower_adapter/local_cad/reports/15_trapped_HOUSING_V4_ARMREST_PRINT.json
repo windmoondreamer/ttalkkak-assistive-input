@@ -1,0 +1,59 @@
+{
+ "part": "HOUSING_V4_ARMREST_PRINT",
+ "rot_x": -90.0,
+ "voxel": 2.0,
+ "chunks": [
+  {
+   "label": 3,
+   "volume_mm3": 68016.0,
+   "grip_bbox": [
+    [
+     -54.37428283691406,
+     53.62571716308594
+    ],
+    [
+     -265.2750015258789,
+     -147.2750015258789
+    ],
+    [
+     -86.45668029785155,
+     -74.45668029785155
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT / BED FACE",
+   "routes": [
+    "DECK OPENING (print -Y)",
+    "CARRIER / LOWER OPENING (print +Y)",
+    "SPLIT / BED FACE (print z=0)"
+   ],
+   "neck_radius_mm": 2.0
+  },
+  {
+   "label": 2,
+   "volume_mm3": 5040.0,
+   "grip_bbox": [
+    [
+     -62.37428283691406,
+     61.62571716308594
+    ],
+    [
+     -139.2750015258789,
+     -115.27500152587889
+    ],
+    [
+     -84.45668029785155,
+     -78.45668029785155
+    ]
+   ],
+   "class": "REMOVABLE THROUGH DECK OPENING + CARRIER / LOWER OPENING + SPLIT / BED FACE",
+   "routes": [
+    "DECK OPENING (print -Y)",
+    "CARRIER / LOWER OPENING (print +Y)",
+    "SPLIT / BED FACE (print z=0)"
+   ],
+   "neck_radius_mm": 2.0
+  }
+ ],
+ "true_trapped": 0,
+ "true_trapped_mm3": 0
+}

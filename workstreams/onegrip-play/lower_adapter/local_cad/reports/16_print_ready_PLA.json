@@ -1,0 +1,50 @@
+{
+ "MAIN": {
+  "orientation": "CUT FACE UP",
+  "rot_x": -90.0,
+  "product_volume": 852170.5688964308,
+  "rigid_delta_mm3": 9.313225746154785e-10,
+  "print_bbox": [
+   133.60000020000098,
+   154.58334521673083,
+   233.8000002000001
+  ],
+  "bed_z": 2.9517578011313163e-06,
+  "support_volume": 81493.80453752464,
+  "support_solids": 43,
+  "stl": {
+   "tri": 23108,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "degenerate": 0,
+   "watertight": true
+  },
+  "print_ready_step": "MAIN_PRINT_READY_PLA.step",
+  "print_ready_stl": "HOUSING_V4_MAIN_PRINT_READY_PLA.stl",
+  "stl_sha": "053a87c6518651d6"
+ },
+ "ARMREST": {
+  "orientation": "CUT FACE DOWN",
+  "rot_x": -90.0,
+  "product_volume": 153747.07556516715,
+  "rigid_delta_mm3": 5.820766091346741e-11,
+  "print_bbox": [
+   126.742941682313,
+   74.9486791400312,
+   159.65967240280213
+  ],
+  "bed_z": -3.151759954963984e-06,
+  "support_volume": 2553.5199999998053,
+  "support_solids": 1,
+  "stl": {
+   "tri": 5582,
+   "boundary": 0,
+   "nonmanifold": 0,
+   "degenerate": 0,
+   "watertight": true
+  },
+  "print_ready_step": "ARMREST_PRINT_READY_PLA.step",
+  "print_ready_stl": "HOUSING_V4_ARMREST_PRINT_READY_PLA.stl",
+  "stl_sha": "653d0f735456d218"
+ }
+}

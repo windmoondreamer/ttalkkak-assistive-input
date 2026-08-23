@@ -33,6 +33,17 @@ def chk(ok, label, detail=""):
     return ok
 
 
+def _motion15_solid():
+    """±15도 포락선 keep-out solid (게이트용). ergo_shell 과 같은 데이터를 쓴다."""
+    try:
+        import ergo_shell as ES
+        import build123d as _bd
+        return ES.motion15_protect(_bd)
+    except Exception as e:
+        print("  (±15도 포락선 로드 실패: %s)" % e)
+        return None
+
+
 def main():
     bd = G.b3d()
     req, _ = P.missing_references()
@@ -88,8 +99,36 @@ def main():
     rest = ns - housing
     rv = float(rest.volume) if rest is not None else 0.0
     hv = float(housing.volume)
-    chk(abs(iv - hv) < 1e-3, "CONFORMAL_HOUSING 이 새 하우징에 완전히 포함",
-        f"NEW & HOUSING = {iv:,.4f} / HOUSING {hv:,.4f}  차 {iv - hv:+.6f} mm3")
+    # 승인된 예외: ±15도 모션 확보를 위한 코어 공동벽 절삭 (원본 #joystick_angle).
+    #
+    # 주의 — `housing - ns` 는 쓰면 안 된다. 작고 단순한 solid 에서 크고 복잡한
+    # solid 를 빼면 OCC 가 원본을 그대로 돌려준다 (실측: 7,556 이어야 할 값이
+    # 495,649 = 코어 전체로 나왔다). **교집합만으로** 판정한다.
+    #
+    #   removed = housing \ (ns & housing)          부피 = hv - iv
+    #   removed ⊆ m15  ⟺  vol(housing&m15) - vol(ns&housing&m15) == hv - iv
+    #
+    # 좌변은 "포락선 안에서 없어진 양", 우변은 "코어에서 없어진 총량".
+    # 두 값이 같으면 포락선 밖에서는 아무것도 안 없어졌다는 뜻이다.
+    lost = hv - iv
+    if lost > 1e-3:
+        m15 = _motion15_solid()
+        if m15 is None:
+            chk(False, "코어 절삭이 ±15도 모션 포락선 안에만 있음",
+                f"코어에서 {lost:,.2f} mm3 없어졌는데 ±15도 포락선 데이터가 없다")
+        else:
+            hm = housing & m15
+            a = float(hm.volume) if hm is not None else 0.0
+            rm = (ns & housing) & m15
+            b = float(rm.volume) if rm is not None else 0.0
+            inside = a - b
+            chk(abs(inside - lost) < 1.0,
+                "코어 절삭이 ±15도 모션 포락선 안에만 있음 (승인된 예외)",
+                f"코어 손실 {lost:,.2f} mm3 / 포락선 안 손실 {inside:,.2f} mm3 "
+                f"-> 포락선 밖 {lost - inside:+.4f} mm3")
+    else:
+        chk(abs(iv - hv) < 1e-3, "CONFORMAL_HOUSING 이 새 하우징에 완전히 포함",
+            f"NEW & HOUSING = {iv:,.4f} / HOUSING {hv:,.4f}  차 {iv - hv:+.6f} mm3")
     NOTE.append(
         f"분해 자기정합 잔차 {iv + rv - float(ns.volume):+.4f} mm3 "
         f"(상대 {abs(iv + rv - float(ns.volume)) / float(ns.volume):.2e}). "

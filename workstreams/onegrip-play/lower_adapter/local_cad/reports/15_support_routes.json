@@ -1,0 +1,78 @@
+{
+ "MAIN": [
+  {
+   "label": 5,
+   "volume_mm3": 992671.875,
+   "print_centroid": [
+    -0.11856800430066983,
+    -121.42180613045674,
+    69.99623412192473
+   ],
+   "route": "CARRIER/LOWER (+Y)",
+   "geodesic_steps": 2,
+   "geodesic_mm": 5.0
+  },
+  {
+   "label": 2,
+   "volume_mm3": 167218.75,
+   "print_centroid": [
+    2.518021616528486,
+    -79.03154436545248,
+    160.75233601196038
+   ],
+   "route": "CARRIER/LOWER (+Y)",
+   "geodesic_steps": 16,
+   "geodesic_mm": 40.0
+  },
+  {
+   "label": 8,
+   "volume_mm3": 11203.125,
+   "print_centroid": [
+    -36.30104907686242,
+    -145.85828128319903,
+    151.5449790794979
+   ],
+   "route": "CARRIER/LOWER (+Y)",
+   "geodesic_steps": 33,
+   "geodesic_mm": 82.5
+  },
+  {
+   "label": 10,
+   "volume_mm3": 10468.75,
+   "print_centroid": [
+    35.655220828839205,
+    -145.77153926109202,
+    151.52611940298507
+   ],
+   "route": "CARRIER/LOWER (+Y)",
+   "geodesic_steps": 33,
+   "geodesic_mm": 82.5
+  },
+  {
+   "label": 4,
+   "volume_mm3": 4203.125,
+   "print_centroid": [
+    -0.9384788881890387,
+    -77.95161472022755,
+    213.1384758364312
+   ],
+   "route": "CARRIER/LOWER (+Y)",
+   "geodesic_steps": 10,
+   "geodesic_mm": 25.0
+  }
+ ],
+ "ARMREST": [
+  {
+   "label": 1,
+   "volume_mm3": 80718.75,
+   "print_centroid": [
+    -0.3096293332361739,
+    -80.81411351504087,
+    69.72841656987998
+   ],
+   "route": "SPLIT/BED (z=0)",
+   "geodesic_steps": 4,
+   "geodesic_mm": 10.0
+  }
+ ]
+}

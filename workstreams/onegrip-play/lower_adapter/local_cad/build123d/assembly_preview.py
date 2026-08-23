@@ -105,7 +105,8 @@ def main():
             add("ELECTRONICS", ch)
 
     prev = bd.Compound(children=comps)
-    pname = ("ONEGRIP_FINAL_LOCAL_PREVIEW" if base.endswith("FINAL")
+    pname = ("ONEGRIP_" + base[len("ERGO_HOUSING_"):] + "_PREVIEW"
+             if base.startswith("ERGO_HOUSING_") and "FINAL" in base
              else "ONEGRIP_LOCAL_PREVIEW")
     prev.label = pname
     out = os.path.join(P.EXPORT_STEP, pname + ".step")

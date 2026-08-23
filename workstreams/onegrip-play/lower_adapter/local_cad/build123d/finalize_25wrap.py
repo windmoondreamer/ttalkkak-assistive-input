@@ -21,8 +21,8 @@ import finalize_b as F                                    # noqa: E402
 UP = np.array(P.FROZEN_UP_LOCAL)
 UH = np.array(P.FROZEN_U_HAT)
 GH = P.FROZEN_GROUND_WORLD_H
-SRC = "ERGO_HOUSING_W2_SLOPE25_A"
-FINAL = "ERGO_HOUSING_25_WRAP_FINAL"
+SRC = "ERGO_HOUSING_25_WRAP_W134_M15"
+FINAL = "ERGO_HOUSING_25_WRAP_FINAL_V4"
 
 
 def void_audit(tris, du=2.5, dh=2.5):
@@ -168,7 +168,11 @@ def main():
     print("  [PASS] BREP 게이트")
 
     print("\n[2] 제조용 export")
-    out = G.export_all(s0, FINAL, tolerance=0.015, angular_tolerance=0.08)
+    # 경사면 상단을 덱에 **정확히** 맞춰 잘랐기 때문에 코어 상면과 동일 평면이
+    # 되고, 그 이음매에서 tessellation 이 갈라진다 (실측: Z=-61.88 / Y=-18 에
+    # 경계 모서리 6개). tol 0.030 부터 watertight 가 된다. 0.03mm chord 편차는
+    # FDM 레이어(0.1~0.2mm) 보다 훨씬 작아 제조 품질에 영향이 없다.
+    out = G.export_all(s0, FINAL, tolerance=0.030, angular_tolerance=0.15)
     for k, v in out.items():
         print("  %-5s %s  (%.2f MB)"
               % (k, os.path.relpath(v, P.LOCAL_CAD),
@@ -242,9 +246,9 @@ def main():
                "stl": {**me, "triangles": int(len(tris)), "degenerate": deg},
                "void_audit": va, "arm_support": asf, "carrier": cc,
                "dims": dims, "paths": out},
-              open(os.path.join(P.REPORTS_DIR, "10_25wrap_final.json"), "w",
+              open(os.path.join(P.REPORTS_DIR, "13_25wrap_final_v4.json"), "w",
                    encoding="utf-8"), indent=1, ensure_ascii=False)
-    print("\n저장: reports/10_25wrap_final.json")
+    print("\n저장: reports/13_25wrap_final_v4.json")
     return 0
 
 
