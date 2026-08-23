@@ -1,0 +1,712 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-21T22:47:59.688467+00:00",
+  "mode": "LOCAL build123d/OCCT feasibility branch; Onshape 0; production write 0",
+  "hardFreeze": {
+    "fingerButtons": [
+      "I2",
+      "I3",
+      "I4",
+      "M3",
+      "M4",
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "fingerCenterMovementMm": {
+      "I2": 0.0,
+      "I3": 0.0,
+      "I4": 0.0,
+      "M3": 0.0,
+      "M4": 0.0,
+      "N1": 0.0,
+      "N2": 0.0,
+      "N3": 0.0
+    },
+    "thumbTranslationMm": [
+      0.0,
+      12.25,
+      -21.0
+    ],
+    "thumbRigidShapeChanged": false
+  },
+  "sources": {
+    "assemblyStep": {
+      "path": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "sha256": "deb2f78838b41ab125247bd4068d7c0d08b5bddf780b449534b716fe35dc0ed4"
+    },
+    "productionFingerV2": "immutable imported build_finger_controls_v2() result",
+    "currentCollisionAudit": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\current_collision_audit.json"
+  },
+  "currentInternals": {
+    "targetMm": [
+      0.0,
+      12.25,
+      -21.0
+    ],
+    "sourceCounts": {
+      "backplate": 1,
+      "thumbCaps": 8,
+      "pushButtons": 8,
+      "joystickMechanism": 2,
+      "smallAttachment": 1,
+      "screws": 3,
+      "assemblyShells": 2
+    },
+    "matrix": {
+      "I2": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 3.499534493276188,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "switchBody": {
+          "minimumClearanceMm": 6.178378120734517,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 10.615312979248039,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 4.373267232460925,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wire": {
+          "minimumClearanceMm": 3.499534493276188,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 3.5583747950689997,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "cap": {
+          "minimumClearanceMm": 11.229845991314996,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      },
+      "I3": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 6.490709362201781,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "switchBody": {
+          "minimumClearanceMm": 7.600301124601137,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 11.131257869670094,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 7.078274183241169,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wire": {
+          "minimumClearanceMm": 6.490709362201781,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 3.5583747950689997,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "cap": {
+          "minimumClearanceMm": 11.574229022108865,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      },
+      "I4": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 6.543420513086013,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "switchBody": {
+          "minimumClearanceMm": 7.718946541553686,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 11.15932921922452,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 7.066553144300757,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wire": {
+          "minimumClearanceMm": 6.543420513086013,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 5.376785202303469,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "cap": {
+          "minimumClearanceMm": 11.61544184563685,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      },
+      "M3": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 11.608111006546235,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "switchBody": {
+          "minimumClearanceMm": 19.204905711502928,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 23.47838448720458,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 17.252792453744068,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wire": {
+          "minimumClearanceMm": 11.608111006546235,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 16.99323714206664,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "cap": {
+          "minimumClearanceMm": 24.288080751787056,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      },
+      "M4": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 12.018305399549545,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "switchBody": {
+          "minimumClearanceMm": 19.465515990474053,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 23.739873685822865,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 17.473188054326933,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wire": {
+          "minimumClearanceMm": 12.018305399549545,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 12.503620825965571,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "cap": {
+          "minimumClearanceMm": 24.54498609212321,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      },
+      "N1": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 30.630485922847626,
+          "intersectingPairCount": 4
+        },
+        "switchBody": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0037284931273895263,
+          "intersectingPairCount": 1
+        },
+        "actuator": {
+          "minimumClearanceMm": 3.9267242815508014,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.692490150206512,
+          "intersectingPairCount": 2
+        },
+        "wire": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 29.934267279513726,
+          "intersectingPairCount": 1
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 71.6422031572527,
+          "intersectingPairCount": 2
+        },
+        "cap": {
+          "minimumClearanceMm": 4.677532130272794,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      },
+      "N2": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 20.567520808786302,
+          "intersectingPairCount": 7
+        },
+        "switchBody": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0010530474544145536,
+          "intersectingPairCount": 1
+        },
+        "actuator": {
+          "minimumClearanceMm": 3.890443779154742,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.5626174694924324,
+          "intersectingPairCount": 4
+        },
+        "wire": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 20.003850291839456,
+          "intersectingPairCount": 2
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 71.6422031572527,
+          "intersectingPairCount": 2
+        },
+        "cap": {
+          "minimumClearanceMm": 4.664046750460514,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      },
+      "N3": {
+        "jointEnvelope": {
+          "minimumClearanceMm": 10.851022157081507,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "switchBody": {
+          "minimumClearanceMm": 15.208975702455486,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 19.42676539743421,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 13.400755362738916,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wire": {
+          "minimumClearanceMm": 10.851022157081507,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "currentCarrier": {
+          "minimumClearanceMm": 12.503620825965571,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "cap": {
+          "minimumClearanceMm": 19.81795727719612,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      }
+    },
+    "thumbVsCurrentCarriers": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 71.6422031572527,
+      "intersectingPairCount": 2
+    },
+    "thumbVsExactAssemblyScrews": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 12.09407806366859,
+      "intersectingPairCount": 2
+    },
+    "thumbVsAnalyticalScrewKeepouts": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 195.19531680002393,
+      "intersectingPairCount": 2
+    },
+    "thumbVsCleanShell": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": null,
+      "classification": "INCOMPATIBLE_OLD_OPENINGS",
+      "note": "clean historical shell has original thumb openings; target transform is not represented"
+    },
+    "thumbVsFingerV2CutShell": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": null,
+      "classification": "INCOMPATIBLE_OLD_THUMB_INTERFACE",
+      "note": "Finger V2 shell freezes the original thumb interface"
+    },
+    "thumbVsLower15MeshShell": {
+      "minimumClearanceMm": 0.2524557555295586,
+      "penetrationVolumeMm3": 0.0,
+      "classification": "SEATED_BUT_NOT_ROBUST",
+      "note": "documented sampled moved-Backplate-to-shell gap from exact lower-15 housing study"
+    }
+  },
+  "redesign": {
+    "architecture": "replace N1/N2 shared rear-plate carrier with two shell-captured low-profile C-collars; retain other four carriers",
+    "newCarrierCount": 6,
+    "minimumWallMm": 1.6,
+    "axisAdjustmentMaximumDeg": 0.0,
+    "N1Selected": {
+      "name": "N1",
+      "frontDepthMm": 3.2,
+      "axisAdjustmentDeg": 0.0,
+      "wireDirection": [
+        0.9970721597863257,
+        -0.06690971778686815,
+        -0.03701618355143479
+      ],
+      "minimumThumbClearanceMm": 0.0,
+      "penetrationVolumeMm3": 0.0748842103937129,
+      "carrierValid": true,
+      "carrierSolidCount": 1,
+      "metrics": {
+        "switch": {
+          "minimumClearanceMm": 1.4699589090781118,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 2.4790117955851034,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0748842103937129,
+          "intersectingPairCount": 1
+        },
+        "carrier": {
+          "minimumClearanceMm": 0.2191101912202522,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wiring": {
+          "minimumClearanceMm": 0.628240301226209,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      }
+    },
+    "N2Selected": {
+      "name": "N2",
+      "frontDepthMm": 3.2,
+      "axisAdjustmentDeg": 0.0,
+      "wireDirection": [
+        0.9990678327020283,
+        -0.03713306578533386,
+        -0.022013656794234157
+      ],
+      "minimumThumbClearanceMm": 0.13974832439022014,
+      "penetrationVolumeMm3": 0.0,
+      "carrierValid": true,
+      "carrierSolidCount": 1,
+      "metrics": {
+        "switch": {
+          "minimumClearanceMm": 1.422264749305451,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "actuator": {
+          "minimumClearanceMm": 5.356460852366194,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "terminalRoots": {
+          "minimumClearanceMm": 0.6402323240651955,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "carrier": {
+          "minimumClearanceMm": 0.36264409208859244,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        },
+        "wiring": {
+          "minimumClearanceMm": 0.13974832439022014,
+          "penetrationVolumeMm3": 0.0,
+          "intersectingPairCount": 0
+        }
+      }
+    },
+    "N1DepthSweep": [
+      {
+        "name": "N1",
+        "frontDepthMm": 3.2,
+        "axisAdjustmentDeg": 0.0,
+        "wireDirection": [
+          0.042141631575519894,
+          0.4808238540368583,
+          -0.8758039188524422
+        ],
+        "minimumThumbClearanceMm": 0.0,
+        "penetrationVolumeMm3": null,
+        "carrierValid": true,
+        "carrierSolidCount": 1,
+        "metrics": {
+          "switch": {
+            "minimumClearanceMm": 1.3707059492483396,
+            "aabbOverlapPairCount": 3,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "actuator": {
+            "minimumClearanceMm": 5.38088915022561,
+            "aabbOverlapPairCount": 2,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "terminalRoots": {
+            "minimumClearanceMm": 0.0,
+            "aabbOverlapPairCount": 9,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "carrier": {
+            "minimumClearanceMm": 0.2191101912202522,
+            "aabbOverlapPairCount": 3,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "wiring": {
+            "minimumClearanceMm": 0.7404654173185713,
+            "aabbOverlapPairCount": 25,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          }
+        }
+      }
+    ],
+    "N2DepthSweep": [
+      {
+        "name": "N2",
+        "frontDepthMm": 3.2,
+        "axisAdjustmentDeg": 0.0,
+        "wireDirection": [
+          0.9990678327020283,
+          -0.03713306578533386,
+          -0.022013656794234157
+        ],
+        "minimumThumbClearanceMm": 0.0,
+        "penetrationVolumeMm3": null,
+        "carrierValid": true,
+        "carrierSolidCount": 1,
+        "metrics": {
+          "switch": {
+            "minimumClearanceMm": 2.4314046217994587,
+            "aabbOverlapPairCount": 3,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "actuator": {
+            "minimumClearanceMm": 5.356460852366194,
+            "aabbOverlapPairCount": 2,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "terminalRoots": {
+            "minimumClearanceMm": 0.0,
+            "aabbOverlapPairCount": 10,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "carrier": {
+            "minimumClearanceMm": 0.0,
+            "aabbOverlapPairCount": 3,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          },
+          "wiring": {
+            "minimumClearanceMm": 0.13974832439022014,
+            "aabbOverlapPairCount": 28,
+            "penetrationVolumeMm3": null,
+            "note": "depth sweep uses exact OCC distance; selected depth receives exact boolean audit"
+          }
+        }
+      }
+    ],
+    "carrierPair": {
+      "minimumClearanceMm": 1.1383540698189358,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "switchPair": {
+      "minimumClearanceMm": 4.57130955062843,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "minimumThumbToProposedCarrierMm": 0.2191101912202522,
+    "minimumThumbToProposedWiringMm": 0.13974832439022014,
+    "N2OppositeShellSeam": {
+      "minimumClearanceMm": 0.2045999601432,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "thumbInterfaceProposal": {
+      "type": "relieved lower-15 opening with three seating pads and continuous 1.60 mm local flange",
+      "nonSeatingServiceClearanceMm": 0.8,
+      "existingSampledGapMm": 0.2524557555295586,
+      "productionImplementation": "NOT WRITTEN"
+    }
+  },
+  "fixedScrews": {
+    "requiredClearanceMm": 2.5,
+    "targetByThumbGroup": {
+      "backplate": {
+        "minimumClearanceMm": 0.0,
+        "penetrationVolumeMm3": 9.230933325807934,
+        "intersectingPairCount": 1
+      },
+      "thumbCaps": {
+        "minimumClearanceMm": 9.1990286250542,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      },
+      "pushButtons": {
+        "minimumClearanceMm": 1.668683657605901,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      },
+      "joystickMechanism": {
+        "minimumClearanceMm": 0.0,
+        "penetrationVolumeMm3": 2.863144737860656,
+        "intersectingPairCount": 1
+      },
+      "smallAttachment": {
+        "minimumClearanceMm": 16.80815027892799,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      }
+    },
+    "targetByScrew": {
+      "screw_1": {
+        "minimumClearanceMm": 0.0,
+        "penetrationVolumeMm3": 2.863144737860656,
+        "intersectingPairCount": 1
+      },
+      "screw_2": {
+        "minimumClearanceMm": 0.0,
+        "penetrationVolumeMm3": 9.230933325807934,
+        "intersectingPairCount": 1
+      },
+      "screw_3": {
+        "minimumClearanceMm": 26.352484683385544,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      }
+    },
+    "loweringSweep": {
+      "samples": [
+        {
+          "t": 0.0,
+          "clearanceMm": 2.5365212216199873
+        },
+        {
+          "t": 0.25,
+          "clearanceMm": 0.17304695466060543
+        },
+        {
+          "t": 0.5,
+          "clearanceMm": 0.0
+        },
+        {
+          "t": 0.75,
+          "clearanceMm": 0.0
+        },
+        {
+          "t": 1.0,
+          "clearanceMm": 0.0
+        }
+      ],
+      "robustFraction": 0.0029296875,
+      "maxRobustTranslationMm": [
+        0.0,
+        0.035888671875,
+        -0.0615234375
+      ],
+      "clearanceAtRobustMm": 2.5087122087205276,
+      "targetClearanceMm": 0.0
+    }
+  },
+  "assemblySequence": [
+    "preload I2/I3, I4, M3 and M4/N3 modules and route their wires downward",
+    "load N1 and N2 from the seam into separate low-profile collars",
+    "form each N1/N2 distal lead once into the selected tangent route and pre-solder",
+    "install the rigid thumb module at the relocated flange",
+    "close JaD/JfD and capture the N2 collar from the opposite shell",
+    "install unchanged screws only if the 2.50 mm keep-out is met"
+  ],
+  "exports": {
+    "N1_LOW_PROFILE_CARRIER_PROPOSAL.step": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\N1_LOW_PROFILE_CARRIER_PROPOSAL.step",
+    "N1_LOW_PROFILE_CARRIER_PROPOSAL.stl": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\N1_LOW_PROFILE_CARRIER_PROPOSAL.stl",
+    "N1_FORMED_WIRING_ENVELOPE.step": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\N1_FORMED_WIRING_ENVELOPE.step",
+    "N2_LOW_PROFILE_CARRIER_PROPOSAL.step": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\N2_LOW_PROFILE_CARRIER_PROPOSAL.step",
+    "N2_LOW_PROFILE_CARRIER_PROPOSAL.stl": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\N2_LOW_PROFILE_CARRIER_PROPOSAL.stl",
+    "N2_FORMED_WIRING_ENVELOPE.step": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\N2_FORMED_WIRING_ENVELOPE.step",
+    "THUMB_TARGET_EXACT_MODULE.step": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step",
+    "FINGER_THUMB_JOINT_FEASIBILITY_REFERENCE.step": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\FINGER_THUMB_JOINT_FEASIBILITY_REFERENCE.step"
+  },
+  "gates": {
+    "fingerExteriorLayout": "PRESERVED",
+    "thumbTarget": "HOLD",
+    "currentFingerInternals": "REDESIGN REQUIRED",
+    "redesignedInternals": "HOLD",
+    "wiring": "HOLD",
+    "assembly": "HOLD",
+    "fdm": "HOLD",
+    "maxRobustThumbLoweringMm": [
+      0.0,
+      0.035888671875,
+      -0.0615234375
+    ],
+    "answerYesNo": "NO"
+  },
+  "limitations": [
+    "The exact clean/Finger V2 shells still contain the original thumb interface; no production shell boolean was written.",
+    "The lower-15 housing is a watertight STL plus its prior exact sampled seating audit, not a local analytic STEP body.",
+    "Prototype geometry proves packaging directions but cannot override an unchanged screw collision."
+  ]
+}

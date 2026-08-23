@@ -1,0 +1,1298 @@
+{
+  "schema": "onegrip.m4_n3.current_audit.v1",
+  "generatedUtc": "2026-08-23T08:34:53.047100+00:00",
+  "mode": "READ ONLY / LOCAL SHELL CROP / SERIAL EXACT",
+  "shellCropBboxMm": {
+    "min": [
+      -7.800000000002678,
+      -25.82659905427,
+      -22.963806890441965
+    ],
+    "max": [
+      31.913873218529,
+      14.968551878165,
+      9.591948042588417
+    ]
+  },
+  "controls": {
+    "M4": {
+      "centerMm": [
+        7.379332315763718,
+        -13.575227245499876,
+        -11.115547003937289
+      ],
+      "axis": [
+        0.2878365212266233,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "shellNormal": [
+        0.22485912746543743,
+        -0.7727927739559164,
+        -0.5934894281425763
+      ],
+      "frontDepthMm": 4.8,
+      "capPlaneNormal": [
+        0.28783652122699205,
+        -0.7441712373019794,
+        -0.6027929218399835
+      ],
+      "switchPlaneNormal": [
+        0.28783652122662334,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "actuatorTopCenterMm": [
+        6.700038125668887,
+        -11.818983125466806,
+        -9.692955708395006
+      ],
+      "capActuatorLateralOffsetMm": 4.965068306494546e-16,
+      "actuatorAxisAngleDeg": 0.0,
+      "capSwitchPlaneAngleDeg": 0.0,
+      "capShellLocalPlaneAngleDeg": 3.9999999999998583,
+      "mappedCapSwitchPlaneAngleDeg": 0.0,
+      "mappedCapShellAngleDeg": 4.000000000023204,
+      "capShell": {
+        "pair": "M4 cap<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.1999999999944968,
+        "closestPointLeftMm": [
+          10.039567899703,
+          -9.919192426562,
+          -14.02699956935
+        ],
+        "closestPointRightMm": [
+          9.99607715547695,
+          -9.806751653570341,
+          -14.186579103546245
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyShell": {
+        "pair": "M4 body<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.3277845754801927,
+        "closestPointLeftMm": [
+          3.0384871776601763,
+          -12.620388964637808,
+          -6.4041727517256035
+        ],
+        "closestPointRightMm": [
+          3.1241369516421567,
+          -13.662070585577181,
+          -7.223059432345743
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyCarrier": {
+        "pair": "M4 body<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.10999999999893613,
+        "closestPointLeftMm": [
+          8.956946850091676,
+          -11.238137576136763,
+          -5.284522714977981
+        ],
+        "closestPointRightMm": [
+          9.062291601541705,
+          -11.213534396082803,
+          -5.264593669016626
+        ],
+        "passZeroPenetration": true
+      },
+      "actuatorCarrier": {
+        "pair": "M4 actuator<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.5249999999953907,
+        "closestPointLeftMm": [
+          5.997717013875971,
+          -8.948908871941157,
+          -9.523710811339994
+        ],
+        "closestPointRightMm": [
+          5.99771701387597,
+          -7.989027043510928,
+          -10.708722151131889
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyNeighborCarriers": {
+        "I4": {
+          "pair": "M4 body<->I4 carrier",
+          "aabbGapMm": 10.247227047681266,
+          "penetrationMm3": 0.0,
+          "distanceMm": 13.887053387895977,
+          "closestPointLeftMm": [
+            7.952849830150502,
+            -8.64214969205338,
+            -3.181722924729738
+          ],
+          "closestPointRightMm": [
+            8.15021039558464,
+            -17.336031603665916,
+            7.645452049030544
+          ],
+          "passZeroPenetration": true
+        },
+        "M3": {
+          "pair": "M4 body<->M3 carrier",
+          "aabbGapMm": 2.2137891620926924,
+          "penetrationMm3": 0.0,
+          "distanceMm": 2.244501359810615,
+          "closestPointLeftMm": [
+            2.0137891620933974,
+            -6.1190234319667125,
+            -9.013816441482845
+          ],
+          "closestPointRightMm": [
+            -0.2,
+            -5.825970435703967,
+            -8.787887600094809
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "terminals": {
+        "T1": {
+          "carrier": {
+            "pair": "M4 T1<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 2.6806256186160775e-13,
+            "closestPointLeftMm": [
+              8.431870653796233,
+              -8.553440187850327,
+              -3.5474150867819145
+            ],
+            "closestPointRightMm": [
+              8.431870653796,
+              -8.55344018785,
+              -3.547415086782
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "M4 T1<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.00614103288859,
+            "closestPointLeftMm": [
+              8.431870653796233,
+              -7.961775323111288,
+              -4.277848306065741
+            ],
+            "closestPointRightMm": [
+              10.77585574545823,
+              -11.268377378250221,
+              -7.2161411403809534
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "M4 T1<->N3 body",
+            "aabbGapMm": 0.48465595630859504,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.119144198794255,
+            "closestPointLeftMm": [
+              8.371374688794537,
+              -7.0779163532158,
+              -3.561905651671765
+            ],
+            "closestPointRightMm": [
+              8.91652661010483,
+              -5.122405591054959,
+              -5.9299950871949845
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "M4 T1<->I4 carrier",
+              "aabbGapMm": 11.85163298552354,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.220188149219519,
+              "closestPointLeftMm": [
+                8.41982162719686,
+                -8.377401335704294,
+                -3.404820252792955
+              ],
+              "closestPointRightMm": [
+                8.623691218869055,
+                -17.318676310680786,
+                7.650757073183911
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "M4 T1<->M3 carrier",
+              "aabbGapMm": 7.966909349603055,
+              "penetrationMm3": 0.0,
+              "distanceMm": 8.059516834141952,
+              "closestPointLeftMm": [
+                7.848135278302183,
+                -7.925607802752898,
+                -3.038858858230763
+              ],
+              "closestPointRightMm": [
+                -0.2,
+                -8.264704432331365,
+                -3.3002849812060067
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T2": {
+          "carrier": {
+            "pair": "M4 T2<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.780792194218199e-14,
+            "closestPointLeftMm": [
+              8.30614720781669,
+              -3.8841556067906966,
+              -5.5562891784585995
+            ],
+            "closestPointRightMm": [
+              8.306147207817,
+              -3.884155606791,
+              -5.556289178459
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "M4 T2<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.968219857455904,
+            "closestPointLeftMm": [
+              8.431870653796233,
+              -5.7210020055889705,
+              -7.044169859949171
+            ],
+            "closestPointRightMm": [
+              10.368489429577224,
+              -9.312779332112921,
+              -9.878222065886838
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "M4 T2<->N3 body",
+            "aabbGapMm": 0.48465595630859504,
+            "penetrationMm3": 0.0,
+            "distanceMm": 0.5459583767150497,
+            "closestPointLeftMm": [
+              8.371338786146746,
+              -4.836618490340859,
+              -6.327802313796556
+            ],
+            "closestPointRightMm": [
+              8.91652661010483,
+              -4.814112009249832,
+              -6.30951997198594
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "M4 T2<->I4 carrier",
+              "aabbGapMm": 16.31824577593592,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.71972435440415,
+              "closestPointLeftMm": [
+                8.419882071305103,
+                -5.545846254774508,
+                -6.902290354913085
+              ],
+              "closestPointRightMm": [
+                8.688259853673468,
+                -17.316309567362847,
+                7.651480519943194
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "M4 T2<->M3 carrier",
+              "aabbGapMm": 7.966909349603055,
+              "penetrationMm3": 0.0,
+              "distanceMm": 8.06526497000459,
+              "closestPointLeftMm": [
+                7.853875296714279,
+                -5.177032515492131,
+                -6.603544178800831
+              ],
+              "closestPointRightMm": [
+                -0.2,
+                -5.51637099250854,
+                -6.865156753756244
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T3": {
+          "carrier": {
+            "pair": "M4 T3<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.5614361130317226e-14,
+            "closestPointLeftMm": [
+              1.232695375201419,
+              -8.641324378737716,
+              -3.61860296069196
+            ],
+            "closestPointRightMm": [
+              1.232695375201,
+              -8.641324378738,
+              -3.618602960692
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "M4 T3<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.353551391179987,
+            "closestPointLeftMm": [
+              1.7236392971148096,
+              -10.120142103612427,
+              -4.816473575091962
+            ],
+            "closestPointRightMm": [
+              1.8913098428659911,
+              -13.543066629857913,
+              -7.501410071800926
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "M4 T3<->N3 body",
+            "aabbGapMm": 6.755058862240231,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.946698509409148,
+            "closestPointLeftMm": [
+              2.1893370722141974,
+              -9.316061194805169,
+              -5.3748457398344165
+            ],
+            "closestPointRightMm": [
+              8.91652661010483,
+              -5.122405591054959,
+              -5.9299950871949845
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "M4 T3<->I4 carrier",
+              "aabbGapMm": 11.773002186711246,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.323714703991188,
+              "closestPointLeftMm": [
+                1.246085914243214,
+                -8.659050765954985,
+                -3.6329616730537837
+              ],
+              "closestPointRightMm": [
+                1.447617956277437,
+                -17.581713054367942,
+                7.5703541505896865
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "M4 T3<->M3 carrier",
+              "aabbGapMm": 0.7253147454511812,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.7253147454518853,
+              "closestPointLeftMm": [
+                0.5253147454518854,
+                -8.533800810820814,
+                -3.531506816118759
+              ],
+              "closestPointRightMm": [
+                -0.19999999999999996,
+                -8.533800810820814,
+                -3.531506816118759
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T4": {
+          "carrier": {
+            "pair": "M4 T4<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.1743539812425994e-14,
+            "closestPointLeftMm": [
+              1.232695375201131,
+              -5.808886196475978,
+              -7.115357733858906
+            ],
+            "closestPointRightMm": [
+              1.232695375201,
+              -5.808886196476,
+              -7.115357733859
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "M4 T4<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.525814774042148,
+            "closestPointLeftMm": [
+              1.7236392971148105,
+              -7.28770392135107,
+              -8.313228348259218
+            ],
+            "closestPointRightMm": [
+              1.9709121393742834,
+              -10.968533930067853,
+              -10.934935036153405
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "M4 T4<->N3 body",
+            "aabbGapMm": 6.72718953789063,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.3295914884294335,
+            "closestPointLeftMm": [
+              2.1893370722141983,
+              -7.075287877282851,
+              -8.141167293717846
+            ],
+            "closestPointRightMm": [
+              8.91652661010483,
+              -4.8166268372673855,
+              -6.306424092376502
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "M4 T4<->I4 carrier",
+              "aabbGapMm": 16.271740461934456,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.823115785806365,
+              "closestPointLeftMm": [
+                1.2661591674169312,
+                -5.853185543703451,
+                -7.151241051585158
+              ],
+              "closestPointRightMm": [
+                1.5309969584616798,
+                -17.578656822857493,
+                7.571288354465998
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "M4 T4<->M3 carrier",
+              "aabbGapMm": 0.725314745451182,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.7253147454518862,
+              "closestPointLeftMm": [
+                0.5253147454518863,
+                -5.701362628559458,
+                -7.028261589286014
+              ],
+              "closestPointRightMm": [
+                -0.19999999999999996,
+                -5.701362628559458,
+                -7.028261589286014
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        }
+      },
+      "rearReactionGapMm": 0.10999999999893613,
+      "availableEnvelopes": {
+        "guideEnvelopeMm": [
+          9.3,
+          9.3,
+          1.5
+        ],
+        "guideEnvelopeShell": {
+          "pair": "M4 guide envelope<->local shell",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 1.970305337244911,
+          "distanceMm": 0.0,
+          "closestPointLeftMm": [
+            3.1037393141212335,
+            -15.411168124868627,
+            -5.416106191737507
+          ],
+          "closestPointRightMm": [
+            3.1037393141212335,
+            -15.411168124868627,
+            -5.416106191737507
+          ],
+          "passZeroPenetration": false
+        },
+        "guideEnvelopeCurrentCarrier": {
+          "pair": "M4 guide envelope<->current carrier",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 5.977716939392178,
+          "distanceMm": 0.0,
+          "closestPointLeftMm": [
+            2.4968422203022147,
+            -13.842099129392581,
+            -5.15456225138149
+          ],
+          "closestPointRightMm": [
+            2.4968422203022147,
+            -13.84209912939258,
+            -5.15456225138149
+          ],
+          "passZeroPenetration": false
+        },
+        "rearEnvelopeMm": [
+          6.4,
+          6.4,
+          0.2
+        ],
+        "rearEnvelopeShell": {
+          "pair": "M4 rear envelope<->local shell",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 4.774367783971425,
+          "closestPointLeftMm": [
+            1.9084444106423506,
+            -10.083862838900073,
+            -4.169371069660594
+          ],
+          "closestPointRightMm": [
+            2.1370879920402834,
+            -13.820614524389164,
+            -7.132308242518666
+          ],
+          "passZeroPenetration": true
+        },
+        "rearEnvelopeCurrentCarrier": {
+          "pair": "M4 rear envelope<->current carrier",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.098457231678326e-14,
+          "closestPointLeftMm": [
+            7.980026281730618,
+            -4.475214316947327,
+            -7.862466700682022
+          ],
+          "closestPointRightMm": [
+            7.980026281731,
+            -4.475214316947,
+            -7.862466700682
+          ],
+          "passZeroPenetration": true
+        }
+      }
+    },
+    "N3": {
+      "centerMm": [
+        17.48689737236422,
+        -6.664472046607768,
+        -11.125
+      ],
+      "axis": [
+        0.6921593412330116,
+        -0.560207029374328,
+        -0.4550643147770151
+      ],
+      "shellNormal": [
+        0.7372725897449889,
+        -0.5077902287869772,
+        -0.4456211529530288
+      ],
+      "frontDepthMm": 5.6,
+      "capPlaneNormal": [
+        0.6921593412331376,
+        -0.5602070293741113,
+        -0.45506431477709036
+      ],
+      "switchPlaneNormal": [
+        0.6921593412330117,
+        -0.560207029374328,
+        -0.45506431477701503
+      ],
+      "actuatorTopCenterMm": [
+        15.299673854067901,
+        -4.894217833784892,
+        -9.686996765304633
+      ],
+      "capActuatorLateralOffsetMm": 9.155133597044475e-16,
+      "actuatorAxisAngleDeg": 0.0,
+      "capSwitchPlaneAngleDeg": 0.0,
+      "capShellLocalPlaneAngleDeg": 3.99999999999995,
+      "mappedCapSwitchPlaneAngleDeg": 0.0,
+      "mappedCapShellAngleDeg": 3.9999999999865445,
+      "capShell": {
+        "pair": "N3 cap<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.19999999999378965,
+        "closestPointLeftMm": [
+          16.301955224713,
+          -10.59410138644,
+          -7.650244561379
+        ],
+        "closestPointRightMm": [
+          16.372700125384128,
+          -10.651359575829856,
+          -7.472152846871893
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyShell": {
+        "pair": "N3 body<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.28670854838209,
+        "closestPointLeftMm": [
+          15.840996258024354,
+          0.06211725140450586,
+          -9.603255626696273
+        ],
+        "closestPointRightMm": [
+          17.070326717145722,
+          -0.16584548717310654,
+          -9.907226843386583
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyCarrier": {
+        "pair": "N3 body<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.10999999999764083,
+        "closestPointLeftMm": [
+          8.91652661010483,
+          -5.122405591054959,
+          -5.9299950871949845
+        ],
+        "closestPointRightMm": [
+          8.83713469048583,
+          -5.181502355766621,
+          -5.9780002483745935
+        ],
+        "passZeroPenetration": true
+      },
+      "actuatorCarrier": {
+        "pair": "N3 actuator<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.524999999999388,
+        "closestPointLeftMm": [
+          12.401882649081884,
+          -4.427195235673577,
+          -9.307627518845399
+        ],
+        "closestPointRightMm": [
+          11.301221945275774,
+          -5.246491291901375,
+          -9.973153617015587
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyNeighborCarriers": {
+        "I4": {
+          "pair": "N3 body<->I4 carrier",
+          "aabbGapMm": 13.720055153402399,
+          "penetrationMm3": 0.0,
+          "distanceMm": 18.212985417920112,
+          "closestPointLeftMm": [
+            9.872718862488,
+            -5.789498621527557,
+            -6.471884454673264
+          ],
+          "closestPointRightMm": [
+            9.872718862488,
+            -17.27289358911,
+            7.664751561433
+          ],
+          "passZeroPenetration": true
+        },
+        "M3": {
+          "pair": "N3 body<->M3 carrier",
+          "aabbGapMm": 9.116526610104124,
+          "penetrationMm3": 0.0,
+          "distanceMm": 9.159187672935346,
+          "closestPointLeftMm": [
+            8.91652661010483,
+            -5.122405591054959,
+            -5.9299950871949845
+          ],
+          "closestPointRightMm": [
+            -0.2,
+            -5.8216991872493935,
+            -6.469114611626079
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "terminals": {
+        "T1": {
+          "carrier": {
+            "pair": "N3 T1<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.8892968941711335e-13,
+            "closestPointLeftMm": [
+              12.91216520960871,
+              -0.21312535050225279,
+              -2.3801555843919555
+            ],
+            "closestPointRightMm": [
+              12.912165209609,
+              -0.213125350502,
+              -2.380155584392
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "N3 T1<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.165658219900088,
+            "closestPointLeftMm": [
+              13.926368587631814,
+              -0.9775138154507067,
+              -4.212131799596602
+            ],
+            "closestPointRightMm": [
+              17.99998431586628,
+              -1.3256585376306742,
+              -5.010353921640454
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "N3 T1<->M4 body",
+            "aabbGapMm": 4.441357688840166,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.430606527929007,
+            "closestPointLeftMm": [
+              13.4592684407199,
+              -1.7805016330698467,
+              -3.653358126710952
+            ],
+            "closestPointRightMm": [
+              7.932248834524897,
+              -5.639741223034574,
+              -6.77941593693873
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "N3 T1<->I4 carrier",
+              "aabbGapMm": 17.65752048698242,
+              "penetrationMm3": 0.0,
+              "distanceMm": 19.518636051465048,
+              "closestPointLeftMm": [
+                13.4592684407199,
+                -1.7805016330698467,
+                -3.653358126710952
+              ],
+              "closestPointRightMm": [
+                9.872718862488,
+                -17.27289358911,
+                7.664751561433
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "N3 T1<->M3 carrier",
+              "aabbGapMm": 12.472469377251661,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.285379099829617,
+              "closestPointLeftMm": [
+                12.271479001216143,
+                -0.19116920879561006,
+                -2.362320291264628
+              ],
+              "closestPointRightMm": [
+                -0.2,
+                -5.708522269106046,
+                -6.615916740853695
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T2": {
+          "carrier": {
+            "pair": "N3 T2<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.9433673132288326e-13,
+            "closestPointLeftMm": [
+              12.912165209608789,
+              2.624151250140864,
+              -5.872985596208027
+            ],
+            "closestPointRightMm": [
+              12.912165209609,
+              2.624151250141,
+              -5.872985596208
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "N3 T2<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.755844736218755,
+            "closestPointLeftMm": [
+              13.92636858763181,
+              1.8597627851925203,
+              -7.704961811412584
+            ],
+            "closestPointRightMm": [
+              17.61413462866463,
+              1.5698738816925328,
+              -8.355127738553364
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "N3 T2<->M4 body",
+            "aabbGapMm": 6.674676797415531,
+            "penetrationMm3": 0.0,
+            "distanceMm": 8.041927889698052,
+            "closestPointLeftMm": [
+              13.459268440719896,
+              1.0567749675733802,
+              -7.146188138526934
+            ],
+            "closestPointRightMm": [
+              7.932248834524897,
+              -4.736772043465667,
+              -7.8941664047352225
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "N3 T2<->I4 carrier",
+              "aabbGapMm": 21.842951442069193,
+              "penetrationMm3": 0.0,
+              "distanceMm": 23.837030479294857,
+              "closestPointLeftMm": [
+                13.459268440719896,
+                1.0567749675733802,
+                -7.146188138526934
+              ],
+              "closestPointRightMm": [
+                9.872718862488,
+                -17.27289358911,
+                7.664751561433
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "N3 T2<->M3 carrier",
+              "aabbGapMm": 12.825931822501545,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.37793405639128,
+              "closestPointLeftMm": [
+                12.27147900121614,
+                2.6461073918476172,
+                -5.85515030308061
+              ],
+              "closestPointRightMm": [
+                -0.2,
+                -3.586169400364,
+                -9.36882718598
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T3": {
+          "carrier": {
+            "pair": "N3 T3<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.723363694078121e-13,
+            "closestPointLeftMm": [
+              8.870783403574665,
+              -5.333402675547381,
+              -6.539431298929652
+            ],
+            "closestPointRightMm": [
+              8.870783403575,
+              -5.333402675547,
+              -6.53943129893
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "N3 T3<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.353496244829212,
+            "closestPointLeftMm": [
+              8.870783403574665,
+              -5.333402675547381,
+              -6.539431298929652
+            ],
+            "closestPointRightMm": [
+              11.148171612815737,
+              -9.111762614815204,
+              -9.572156337100154
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "N3 T3<->M4 body",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 0.8325837080733295,
+            "closestPointLeftMm": [
+              8.379775533316312,
+              -5.090469669117115,
+              -6.342093285818003
+            ],
+            "closestPointRightMm": [
+              7.932248834524897,
+              -5.636025112532139,
+              -6.7840036194584705
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "N3 T3<->I4 carrier",
+              "aabbGapMm": 16.536710885151432,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.568562776169937,
+              "closestPointLeftMm": [
+                8.870783403574665,
+                -5.333402675547381,
+                -6.539431298929652
+              ],
+              "closestPointRightMm": [
+                9.150334987682829,
+                -17.299372346386825,
+                7.656657751260792
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "N3 T3<->M3 carrier",
+              "aabbGapMm": 7.074639873405866,
+              "penetrationMm3": 0.0,
+              "distanceMm": 7.2568073839819345,
+              "closestPointLeftMm": [
+                6.87463987340657,
+                -4.34578276469971,
+                -5.737173286401706
+              ],
+              "closestPointRightMm": [
+                -0.2,
+                -5.625420452462155,
+                -6.723708363263439
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T4": {
+          "carrier": {
+            "pair": "N3 T4<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.824040276299101e-14,
+            "closestPointLeftMm": [
+              7.164898474064478,
+              -1.1550651877113156,
+              -8.94289805447545
+            ],
+            "closestPointRightMm": [
+              7.164898474064,
+              -1.155065187711,
+              -8.942898054475
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "N3 T4<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.46648928553967,
+            "closestPointLeftMm": [
+              8.870783403574665,
+              -2.496126074904154,
+              -10.032261310745634
+            ],
+            "closestPointRightMm": [
+              11.34056775356623,
+              -6.316312927864763,
+              -13.063571717471358
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "N3 T4<->M4 body",
+            "aabbGapMm": 2.240645968561513,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.1835484695749128,
+            "closestPointLeftMm": [
+              8.380672064440999,
+              -2.2536366397782817,
+              -9.8352836170536
+            ],
+            "closestPointRightMm": [
+              7.932248834524897,
+              -4.736772043465667,
+              -7.8941664047352225
+            ],
+            "passZeroPenetration": true
+          },
+          "neighborCarriers": {
+            "I4": {
+              "pair": "N3 T4<->I4 carrier",
+              "aabbGapMm": 21.009320860303042,
+              "penetrationMm3": 0.0,
+              "distanceMm": 23.067464220841284,
+              "closestPointLeftMm": [
+                8.870783403574665,
+                -2.496126074904154,
+                -10.032261310745634
+              ],
+              "closestPointRightMm": [
+                9.215104592659687,
+                -17.296998236569436,
+                7.657383449751436
+              ],
+              "passZeroPenetration": true
+            },
+            "M3": {
+              "pair": "N3 T4<->M3 carrier",
+              "aabbGapMm": 7.074639873405866,
+              "penetrationMm3": 0.0,
+              "distanceMm": 7.374719379997548,
+              "closestPointLeftMm": [
+                6.87463987340657,
+                -1.5085061640564805,
+                -9.230003298217687
+              ],
+              "closestPointRightMm": [
+                -0.2,
+                -3.586169400364,
+                -9.36882718598
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        }
+      },
+      "rearReactionGapMm": 0.10999999999764083,
+      "availableEnvelopes": {
+        "guideEnvelopeMm": [
+          9.3,
+          9.3,
+          1.5
+        ],
+        "guideEnvelopeShell": {
+          "pair": "N3 guide envelope<->local shell",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 3.2692388833553294,
+          "distanceMm": 0.0,
+          "closestPointLeftMm": [
+            18.18104104775776,
+            -1.2440898130984746,
+            -4.4360074749206095
+          ],
+          "closestPointRightMm": [
+            18.18104104775776,
+            -1.2440898130984746,
+            -4.4360074749206095
+          ],
+          "passZeroPenetration": false
+        },
+        "guideEnvelopeCurrentCarrier": {
+          "pair": "N3 guide envelope<->current carrier",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 5.462665819725079,
+          "distanceMm": 0.0,
+          "closestPointLeftMm": [
+            14.29705294318652,
+            -6.042920436161836,
+            -4.4360074749206095
+          ],
+          "closestPointRightMm": [
+            14.297052943186522,
+            -6.042920436161837,
+            -4.4360074749206095
+          ],
+          "passZeroPenetration": false
+        },
+        "rearEnvelopeMm": [
+          6.4,
+          6.4,
+          0.2
+        ],
+        "rearEnvelopeShell": {
+          "pair": "N3 rear envelope<->local shell",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 4.1856699123710195,
+          "closestPointLeftMm": [
+            13.456300922853652,
+            2.2038218682642183,
+            -8.043887327500446
+          ],
+          "closestPointRightMm": [
+            17.56747326194445,
+            1.8807549194804758,
+            -8.760631605626386
+          ],
+          "passZeroPenetration": true
+        },
+        "rearEnvelopeCurrentCarrier": {
+          "pair": "N3 rear envelope<->current carrier",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 1.5587468005037626e-14,
+          "closestPointLeftMm": [
+            13.31786905460705,
+            2.3158632741390837,
+            -7.952874464545044
+          ],
+          "closestPointRightMm": [
+            13.317869054607,
+            2.315863274139,
+            -7.952874464545
+          ],
+          "passZeroPenetration": true
+        }
+      }
+    }
+  },
+  "pairSeparation": {
+    "caps": {
+      "pair": "M4 cap<->N3 cap",
+      "aabbGapMm": 0.7037131090395228,
+      "penetrationMm3": 0.0,
+      "distanceMm": 3.8932917456018985,
+      "closestPointLeftMm": [
+        10.081981232914929,
+        -10.028847665997592,
+        -14.115822408580913
+      ],
+      "closestPointRightMm": [
+        13.613648999186,
+        -8.418290189604,
+        -14.41772971271
+      ],
+      "passZeroPenetration": true
+    },
+    "bodies": {
+      "pair": "M4 body<->N3 body",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 1.3587189423407178,
+      "closestPointLeftMm": [
+        7.932248834524897,
+        -5.850236169385331,
+        -6.519551763030458
+      ],
+      "closestPointRightMm": [
+        8.91652661010483,
+        -5.122405591054959,
+        -5.9299950871949845
+      ],
+      "passZeroPenetration": true
+    },
+    "actuators": {
+      "pair": "M4 actuator<->N3 actuator",
+      "aabbGapMm": 4.85438033687271,
+      "penetrationMm3": 0.0,
+      "distanceMm": 6.729105633116827,
+      "closestPointLeftMm": [
+        7.435728150628804,
+        -9.200157963930877,
+        -8.526876825779938
+      ],
+      "closestPointRightMm": [
+        12.522278728411681,
+        -4.797022474199852,
+        -8.669227450549954
+      ],
+      "passZeroPenetration": true
+    }
+  },
+  "sharedCarrierLocalShell": {
+    "pair": "current M4/N3 shared carrier<->local shell",
+    "aabbGapMm": 0.0,
+    "penetrationMm3": 0.0,
+    "distanceMm": 0.08012932549954634,
+    "closestPointLeftMm": [
+      17.213611603982,
+      1.965842200718,
+      -10.29856737649
+    ],
+    "closestPointRightMm": [
+      17.29186586584446,
+      1.957156222197607,
+      -10.313451363943528
+    ],
+    "passZeroPenetration": true
+  },
+  "neighborCarrierSeparation": {
+    "I4": {
+      "pair": "M4/N3 carrier<->I4 carrier",
+      "aabbGapMm": 7.078979788846794,
+      "penetrationMm3": 0.0,
+      "distanceMm": 12.121880150954198,
+      "closestPointLeftMm": [
+        9.716318746910972,
+        -9.68022958245407,
+        -1.7833683933504045
+      ],
+      "closestPointRightMm": [
+        9.872718862488,
+        -17.27289358911,
+        7.664751561433
+      ],
+      "passZeroPenetration": true
+    },
+    "M3": {
+      "pair": "M4/N3 carrier<->M3 carrier",
+      "aabbGapMm": 0.39999999999661795,
+      "penetrationMm3": 0.0,
+      "distanceMm": 0.4,
+      "closestPointLeftMm": [
+        0.2,
+        -4.149190616301,
+        -9.657433299464
+      ],
+      "closestPointRightMm": [
+        -0.2,
+        -4.149190616301,
+        -9.657433299464
+      ],
+      "passZeroPenetration": true
+    }
+  },
+  "sharedCarrierSolidCount": 1,
+  "sharedCarrierVolumeMm3": 530.3776948576643,
+  "conclusion": {
+    "exteriorFeasibilityReopened": false,
+    "capOrientationsFrozen": true,
+    "intentionalShellAngleDeg": 4.0,
+    "directActuationCandidate": true,
+    "allTerminalsInitiallyRetained": true
+  }
+}

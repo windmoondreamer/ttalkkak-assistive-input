@@ -1,0 +1,541 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-22T07:28:45.736373+00:00",
+  "mode": "LOCAL build123d + OCCT review only; STL 0 / print plate 0 / Onshape 0 / production overwrite 0",
+  "hardFreeze": {
+    "fingerCentersMovementMm": {
+      "I2": 0.0,
+      "I3": 0.0,
+      "I4": 0.0,
+      "M3": 0.0,
+      "M4": 0.0,
+      "N1": 0.0,
+      "N2": 0.0,
+      "N3": 0.0
+    },
+    "thumbTranslationMm": [
+      0.0,
+      12.25,
+      -21.0
+    ],
+    "externalGeometryChanged": false
+  },
+  "carrierMap": {
+    "I2_I3_shared_carrier": {
+      "role": "I2/I3 switch pocket, rear plate and terminal exits",
+      "shell": "JfD",
+      "removable": true,
+      "location": "two frozen switch axes + JfD wall capture",
+      "fixing": "shell closure; broad C-channel",
+      "assembly": "pre-wire/load from opposite open ends, insert from seam",
+      "classification": "KEEP AS-IS"
+    },
+    "I4_carrier": {
+      "role": "independent I4 switch cradle",
+      "shell": "JaD",
+      "removable": true,
+      "location": "I4 axis + JaD local wall",
+      "fixing": "shell closure; broad C-channel",
+      "assembly": "pre-wire, insert from seam",
+      "classification": "KEEP AS-IS"
+    },
+    "M3_carrier": {
+      "role": "independent M3 switch cradle",
+      "shell": "JfD",
+      "removable": true,
+      "location": "M3 axis + JfD local wall",
+      "fixing": "shell closure; broad C-channel",
+      "assembly": "pre-wire, insert from seam",
+      "classification": "KEEP AS-IS"
+    },
+    "M4_N3_shared_carrier": {
+      "role": "two-switch JaD cradle with opposite-end loading",
+      "shell": "JaD",
+      "removable": true,
+      "location": "M4/N3 axes + split-trim datum",
+      "fixing": "shell closure; broad shared carrier",
+      "assembly": "pre-wire/load from opposite ends, insert from seam",
+      "classification": "KEEP AS-IS"
+    },
+    "N1_N2_V3_shared_front_carrier": {
+      "role": "front locating rings for N1/N2",
+      "shell": "JfD locating / JaD clearance",
+      "removable": true,
+      "location": "N1/N2 axes and JfD locating relief",
+      "fixing": "shell closure",
+      "assembly": "insert wired switches axially before shell close",
+      "classification": "REDESIGN RECOMMENDED with broad rear-restraint key"
+    },
+    "N1_N2_V3_rear_restraint": {
+      "role": "rear axial stop while clearing four terminal roots",
+      "shell": "floating between halves",
+      "removable": true,
+      "location": "switch rear faces only",
+      "fixing": "claimed shell capture, but 0.925 mm shell gap and no positive key",
+      "assembly": "loose piece placed after soldering",
+      "classification": "REDESIGN RECOMMENDED"
+    }
+  },
+  "carrierCountReview": {
+    "currentCount": 6,
+    "keepIndependentOrShared": [
+      "I2_I3_shared_carrier",
+      "I4_carrier",
+      "M3_carrier",
+      "M4_N3_shared_carrier"
+    ],
+    "doNotMerge": "different owner shells, axes, insertion directions and service paths make a larger monolithic carrier worse",
+    "NPairRecommendation": "keep a two-stage front/rear concept, but add a broad non-snap keyed guide and reduce rear float; do not use hooks/rails/tiny snaps"
+  },
+  "N1N2": {
+    "actualV3SwitchFrontDepthMm": {
+      "N1": 1.2,
+      "N2": 1.2
+    },
+    "currentFrontRingRearExtensionPastSwitchMm": 0.71,
+    "currentRearBridgeSectionMm": 2.4,
+    "currentFrontToRear": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 10.657042158333226,
+      "intersectingPairCount": 1
+    },
+    "currentFrontToSwitchBodies": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 0.29337938266595476,
+      "intersectingPairCount": 2
+    },
+    "currentRearToSwitchBodies": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 6.795207414175806,
+      "intersectingPairCount": 2
+    },
+    "rearToCompleteShellClearanceMm": 0.9246960915587177,
+    "frontToOppositeJaDClearanceMm": 1.0541709029625572,
+    "rearToSwitch": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 6.795207414175806,
+      "intersectingPairCount": 2
+    },
+    "rearToTerminalRoots": {
+      "minimumClearanceMm": 0.5060706480827172,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "positiveRearKeyCount": 0,
+    "loosePartDuringOpenShellAssembly": true,
+    "finding": "the current front ring extends behind the switch while the outer-width rear straps enter the same zone; the 2.40 mm rear bridge also extends toward the switch. The current front/rear and rear/switch solids positively overlap, and the rear part is not keyed",
+    "noninterferingReviewCandidate": {
+      "frontValid": true,
+      "rearValid": true,
+      "frontSolidCount": 1,
+      "rearSolidCount": 1,
+      "frontVolumeMm3": 291.22162377708463,
+      "rearVolumeMm3": 96.36708286688427,
+      "frontToRear": {
+        "minimumClearanceMm": 0.391592853890449,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      },
+      "frontToSwitchBodies": {
+        "minimumClearanceMm": 0.10999999999351881,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      },
+      "rearToSwitchBodies": {
+        "minimumClearanceMm": 0.1399999999947086,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      },
+      "frontToShell": {
+        "minimumClearanceMm": 0.40814802137466444,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      },
+      "rearToShell": {
+        "minimumClearanceMm": 0.9246960915579963,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      },
+      "pairToThumb": {
+        "minimumClearanceMm": 1.5436189698196727,
+        "penetrationVolumeMm3": 0.0,
+        "intersectingPairCount": 0
+      }
+    },
+    "recommendedChange": "shorten the front support so it does not pass the switch rear, move the rear bridge fully behind the switch, recut terminal roots, then add two broad keyed cheeks/T-guide >=1.60 mm wall and >=3.0 mm engagement with 0.25-0.40 mm closed-shell float"
+  },
+  "N2Seam": {
+    "JfD": "locating shell",
+    "JaD": "clearance/capture only",
+    "frontCarrierToOppositeJaDMm": 1.0541709029625572,
+    "rearRestraintToCompleteShellMm": 0.9246960915587177,
+    "jamMarginAboveGateMm": 0.2541709029625572,
+    "classification": "KEEP AS-IS for cap/front locator; rear restraint handled separately"
+  },
+  "thumbSeat": {
+    "frameMm": {
+      "outer": [
+        42.0,
+        64.0
+      ],
+      "inner": [
+        34.0,
+        56.0
+      ],
+      "wall": 1.6
+    },
+    "padCount": 3,
+    "padSizeMm": 5.0,
+    "padReachMm": 4.8,
+    "seatVolumeMm3": 1755.3267886365643,
+    "threePointPlaneDefinition": true,
+    "modeledContactClearanceMm": 0.0,
+    "definedOpposingPreloadFeature": false,
+    "finding": "non-collinear three-point support is good, but exact conformal contact plus undefined opposite preload is tolerance-sensitive",
+    "recommendedChange": "retain frame/pads; parameterize 0.15-0.25 mm assembly clearance and one broad compliant preload/shim zone"
+  },
+  "fastening": {
+    "option": "C_REDISTRIBUTED_POSTERIOR_3POINT",
+    "positionsYZMm": [
+      [
+        10.0,
+        35.0
+      ],
+      [
+        25.0,
+        8.0
+      ],
+      [
+        15.8,
+        -21.35
+      ]
+    ],
+    "triangleAreaMm2": 344.325,
+    "allFingerCentersInsideClampTriangle": false,
+    "thumbBackplateCenterInsideClampTriangle": false,
+    "maximumFingerCenterToNearestScrewMm": 47.14335494392877,
+    "beforeFinalBoreScrewShellIntersections": {
+      "screw_1": {
+        "JaDIntersectionMm3": 7.993389807977454,
+        "JfDIntersectionMm3": 0.09765341744219436,
+        "totalIntersectionMm3": 8.091043225419648
+      },
+      "screw_2": {
+        "JaDIntersectionMm3": 56.886060340344685,
+        "JfDIntersectionMm3": 80.1289916154056,
+        "totalIntersectionMm3": 137.01505195575027
+      },
+      "screw_3": {
+        "JaDIntersectionMm3": 7.993389807977458,
+        "JfDIntersectionMm3": 66.12424217275793,
+        "totalIntersectionMm3": 74.11763198073538
+      }
+    },
+    "candidateFinalBore": {
+      "clearanceDiameterMm": 3.4,
+      "headCounterboreDiameterMm": 5.8,
+      "headRadialClearanceMm": 0.1499999999999999,
+      "headBearingShoulderRadialMm": 1.6999999999999997,
+      "insertPocketDiameterMm": 4.6,
+      "insertPocketRadialWallMm": 2.3,
+      "materialRemoved": {
+        "screw_1": {
+          "JfDMaterialRemovedMm3": -9.111354431348445,
+          "JaDMaterialRemovedMm3": 18.303720908108517
+        },
+        "screw_2": {
+          "JfDMaterialRemovedMm3": 120.01196351561521,
+          "JaDMaterialRemovedMm3": 94.98162179168867
+        },
+        "screw_3": {
+          "JfDMaterialRemovedMm3": 146.72758175122726,
+          "JaDMaterialRemovedMm3": 25.343525362710352
+        }
+      }
+    },
+    "afterFinalBoreScrewShellIntersections": {
+      "screw_1": {
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "totalIntersectionMm3": 0.0
+      },
+      "screw_2": {
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "totalIntersectionMm3": 0.0
+      },
+      "screw_3": {
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "totalIntersectionMm3": 0.0
+      }
+    },
+    "candidateShellValidity": {
+      "JaD": true,
+      "JfD": true
+    },
+    "candidateShellSolidCount": {
+      "JaD": 1,
+      "JfD": 1
+    },
+    "hardwareComparison": {
+      "A_heatSetInsert": {
+        "repeatDisassembly": "BEST",
+        "FDMStrength": "BEST if installed across layers with 2.3 mm radial wall",
+        "space": "moderate",
+        "assembly": "controlled iron installation",
+        "availability": "high",
+        "rank": 1
+      },
+      "B_capturedNut": {
+        "repeatDisassembly": "GOOD",
+        "FDMStrength": "GOOD",
+        "space": "largest trap and access",
+        "assembly": "nut handling can be blind",
+        "availability": "high",
+        "rank": 2
+      },
+      "C_selfTapping": {
+        "repeatDisassembly": "POOR",
+        "FDMStrength": "material/layer dependent",
+        "space": "small",
+        "assembly": "easy first build",
+        "availability": "high",
+        "rank": 3
+      }
+    },
+    "recommendedHardware": "M3 heat-set insert + M3 machine screw; keep insert OD/length and screw length parameterized until actual SKU measurement",
+    "finding": "boss spacing avoids controls, but current final shells refill parts of the pre-bored axes and the clamp triangle does not surround the control load region"
+  },
+  "wiring": {
+    "currentFingerToShell": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 48.0366471451275,
+      "intersectingPairCount": 4
+    },
+    "currentThumbToShell": {
+      "minimumClearanceMm": 0.8448159595135577,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerModelEndsAtLocalCarrierServiceEnvelopes": true,
+    "fingerSharedTrunkToElectronicsModeled": false,
+    "currentN1ShellPenetratingSegments": {
+      "N1_V3_solder_-1_-1": 2.991088,
+      "N1_V3_wire_-1_-1": 22.972703,
+      "N1_V3_solder_-1_+1": 2.556758,
+      "N1_V3_wire_-1_+1": 19.516099
+    },
+    "thumbLowerCorridorBBoxXmm": [
+      22.4,
+      25.6
+    ],
+    "shellOuterXAtZMinus35ApproxMm": [
+      -19.17,
+      19.17
+    ],
+    "thumbCorridorOutsideShellByAtLeastMm": 3.229999999999997,
+    "candidateFingerTrunk": {
+      "minimumClearanceMm": 4.410468751445309,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "candidateThumbInboardTrunk": {
+      "minimumClearanceMm": 0.92920472246067,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "candidateThumbTrunkStart": "3.2 mm harness envelope from an internal service-loop handoff; exact thumb PCB/terminal branch remains hardware-dependent",
+    "recommendation": "replace the present envelopes with open shell channels: >=6 x 4 mm finger channel around the 4 mm trunk envelope and >=4 x 4 mm thumb channel around the 3.2 mm harness envelope, bend radius >=4 mm, no tiny clips; validate actual conductor count and OD"
+  },
+  "electronicsSpace": {
+    "cavitySections": [
+      {
+        "zMm": -65.0,
+        "valid": true,
+        "innerAreaMm2": 540.9603949112092,
+        "innerBoundingBoxMm": {
+          "x": [
+            -10.536000116710001,
+            10.536000116713002
+          ],
+          "y": [
+            14.433160673681,
+            40.105160907108
+          ]
+        },
+        "innerBoundingSizeMm": [
+          21.072000233423005,
+          25.672000233427
+        ]
+      },
+      {
+        "zMm": -55.0,
+        "valid": true,
+        "innerAreaMm2": 540.9603949112092,
+        "innerBoundingBoxMm": {
+          "x": [
+            -10.536000116710001,
+            10.536000116713002
+          ],
+          "y": [
+            14.433160673681,
+            40.105160907108
+          ]
+        },
+        "innerBoundingSizeMm": [
+          21.072000233423005,
+          25.672000233427
+        ]
+      },
+      {
+        "zMm": -45.0,
+        "valid": true,
+        "innerAreaMm2": 942.0440126294451,
+        "innerBoundingBoxMm": {
+          "x": [
+            -16.530083630969774,
+            16.53008363098897
+          ],
+          "y": [
+            2.4886112495181125,
+            38.0814365193547
+          ]
+        },
+        "innerBoundingSizeMm": [
+          33.06016726195874,
+          35.59282526983659
+        ]
+      },
+      {
+        "zMm": -35.0,
+        "valid": true,
+        "innerAreaMm2": 941.3553336474005,
+        "innerBoundingBoxMm": {
+          "x": [
+            -16.16747020325951,
+            16.167470203263616
+          ],
+          "y": [
+            0.4792384933315755,
+            36.23475322200816
+          ]
+        },
+        "innerBoundingSizeMm": [
+          32.334940406523124,
+          35.75551472867658
+        ]
+      }
+    ],
+    "estimatedCavityVolumeZMinus65ToMinus35Mm3": 22241.622718199593,
+    "reserves": [
+      {
+        "label": "MCU_IO_CONNECTOR_RESERVE",
+        "volumeMm3": 2754.0,
+        "shellIntersectionMm3": 0.0,
+        "mechanicalIntersectionMm3": 0.0,
+        "bboxMm": {
+          "min": [
+            -13.5,
+            11.5,
+            -43.0
+          ],
+          "max": [
+            13.5,
+            28.5,
+            -37.0
+          ]
+        }
+      },
+      {
+        "label": "COMPACT_BATTERY_RESERVE",
+        "volumeMm3": 2016.0,
+        "shellIntersectionMm3": 0.0,
+        "mechanicalIntersectionMm3": 0.0,
+        "bboxMm": {
+          "min": [
+            -8.0,
+            18.0,
+            -54.5
+          ],
+          "max": [
+            8.0,
+            36.0,
+            -47.5
+          ]
+        }
+      }
+    ],
+    "finding": "a lower-handle bay remains and accepts collision-free 27x17x6 mm board plus 16x18x7 mm compact-battery reserves; battery capacity, mounting datum and connector access remain undefined"
+  },
+  "loadPaths": {
+    "finger": "cap -> ITS actuator/body -> carrier rear plate/walls -> owner shell",
+    "thumb": "thumb module/backplate -> three datum pads/flange -> both shell halves -> shell screws",
+    "shellClamp": "screw head shoulder -> JfD boss/web -> seam -> JaD boss -> heat-set insert",
+    "risks": [
+      "unkeyed N rear restraint",
+      "pre-bore boolean order",
+      "one-sided clamp triangle",
+      "undefined thumb preload",
+      "unmodeled complete wire trunks"
+    ]
+  },
+  "assembly": {
+    "recommendedOrder": [
+      "install heat-set inserts into open JaD with a depth stop and inspect all bores",
+      "pre-wire and load I2/I3, I4, M3 and M4/N3 carrier modules",
+      "pre-wire N1/N2, insert into front carrier, then install the revised broad-key rear restraint",
+      "route all Finger branches into the broad open shared trunk and apply temporary removable tape at two broad zones",
+      "pre-wire and seat the thumb module against three datum pads; install the broad preload shim if used",
+      "route the thumb cable into the inboard posterior channel",
+      "place electronics/battery into reserved lower bay and connect before final close",
+      "close JfD onto JaD while visually monitoring both broad channels",
+      "install three M3 screws only after all seams are fully seated"
+    ],
+    "currentBlindOperations": [
+      "holding the loose N rear restraint",
+      "keeping uncontained wire bundles out of the seam",
+      "confirming thumb preload during closure"
+    ]
+  },
+  "service": {
+    "fingerSwitch": "possible after shell opening; four established carriers are practical",
+    "N1N2Switch": "CAD-removable but loose rear part makes actual handling awkward",
+    "thumbModule": "removable after shell opening; exact-contact seat may stick",
+    "wiringRepair": "local solder joints visible, but complete trunk and service loop are not defined"
+  },
+  "classification": {
+    "I2_I3_carrier": "KEEP AS-IS",
+    "I4_carrier": "KEEP AS-IS",
+    "M3_carrier": "KEEP AS-IS",
+    "M4_N3_carrier": "KEEP AS-IS",
+    "N1_N2_carrier": "REDESIGN RECOMMENDED",
+    "N2_seam": "KEEP AS-IS",
+    "thumb_seat": "MINOR IMPROVEMENT",
+    "screw_fastening": "REDESIGN RECOMMENDED",
+    "Finger_wiring": "REDESIGN RECOMMENDED",
+    "Thumb_wiring": "REDESIGN RECOMMENDED",
+    "shell_integration": "MINOR IMPROVEMENT"
+  },
+  "changesActuallyMade": {
+    "productionV3Changed": false,
+    "reviewOnlyCandidate": "final screw clearance/counterbore/insert cutters applied after boss-shell union",
+    "STLGenerated": false,
+    "printPlateGenerated": false,
+    "reasonOtherChangesNotApplied": "N rear key, clamp redistribution, thumb preload and full wiring channels interact with assembly and hardware choices; changing all at once would violate the staged-review policy"
+  },
+  "finalVerdict": {
+    "INTERNAL ARCHITECTURE": "REVISE",
+    "N1/N2": "REVISE",
+    "N2 SEAM": "ACCEPT",
+    "THUMB SEATING": "REVISE",
+    "FASTENING": "REVISE",
+    "WIRING": "REVISE",
+    "ASSEMBLY": "REVISE",
+    "SERVICEABILITY": "REVISE",
+    "STRUCTURE": "REVISE",
+    "FDM REALISM": "REVISE",
+    "ELECTRONICS SPACE": "ACCEPT",
+    "BASELINE": "NO"
+  }
+}

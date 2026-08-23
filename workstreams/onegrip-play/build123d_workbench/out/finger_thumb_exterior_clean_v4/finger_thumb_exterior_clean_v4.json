@@ -1,0 +1,200 @@
+{
+  "schema": 2,
+  "mode": "LOCAL build123d/OCCT clean exterior derivative; Onshape 0; production CAD write 0",
+  "scope": "clean exterior V4 / legacy finger-hole source removal",
+  "thumbTotalTranslationFromOriginalMm": [
+    0.0,
+    12.25,
+    -21.0
+  ],
+  "latestFingerButtons": [
+    "I2",
+    "I3",
+    "I4",
+    "M3",
+    "M4",
+    "N1",
+    "N2",
+    "N3"
+  ],
+  "sources": {
+    "integratedV3JaD": {
+      "path": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JAD_FINGER_THUMB_INTEGRATED_V3.step",
+      "sha256": "1d31abc19045a28c702d850991393423f45b0d28dc2026159300c2fa03c5cf4b"
+    },
+    "integratedV3JfD": {
+      "path": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JFD_FINGER_THUMB_INTEGRATED_V3.step",
+      "sha256": "acbb572c88d568ed5784f262afdeb3577bbbd329eb65ea0299a4fc4f28e55be9"
+    },
+    "originalThumb": {
+      "path": "local_cad\\reference\\THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+      "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d"
+    },
+    "cleanPreFingerBaselineManifest": {
+      "path": "local_cad\\reference\\clean_pre_finger_baseline_manifest.json",
+      "sha256": "1c432d0171b75596755a19a7e08420d1641a990b1527f8616c17a4c38cd30aa4"
+    },
+    "fingerV2Manifest": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\finger_controls_v2_source_manifest.json",
+      "sha256": "2de88051c9c981a04f284b5dde48e4a15861606e5bae3f1376e2a7ef6539c5b2"
+    }
+  },
+  "visualMesh": {
+    "path": "build123d_workbench\\out\\finger_thumb_exterior_clean_v4\\FINGER_THUMB_CLEAN_EXTERIOR_V4_VISUAL_MOCKUP.stl",
+    "triangleCount": 60990,
+    "declaredComponentCount": 19,
+    "finite": true,
+    "purpose": "viewer/reference only; do not slice as one validated assembly"
+  },
+  "cleanShellExports": {
+    "JaDSourceStep": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JAD_FINGER_THUMB_INTEGRATED_V3.step",
+    "JfDSourceStep": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JFD_FINGER_THUMB_INTEGRATED_V3.step",
+    "JaDStl": "build123d_workbench\\out\\finger_thumb_exterior_clean_v4\\JAD_FINGER_THUMB_CLEAN_EXTERIOR_V4.stl",
+    "JfDStl": "build123d_workbench\\out\\finger_thumb_exterior_clean_v4\\JFD_FINGER_THUMB_CLEAN_EXTERIOR_V4.stl",
+    "solidCount": [
+      1,
+      1
+    ],
+    "valid": [
+      true,
+      true
+    ],
+    "meshValidation": [
+      {
+        "file": "JAD_FINGER_THUMB_CLEAN_EXTERIOR_V4.stl",
+        "triangles": 26610,
+        "uniqueEdges": 39915,
+        "nonTwoManifoldEdges": 0,
+        "inconsistentSharedEdgeOrientation": 0,
+        "degenerateTriangles": 0,
+        "connectedComponents": 1,
+        "watertight": true,
+        "windingConsistent": true,
+        "volumeMm3": 47040.417311080615,
+        "boundsMm": [
+          [
+            -2.3397889528653515e-11,
+            -61.43193435668945,
+            -73.87850952148438
+          ],
+          [
+            38.77974319458008,
+            62.427490234375,
+            78.24687194824219
+          ]
+        ],
+        "extentsMm": [
+          38.779743194603476,
+          123.85942459106445,
+          152.12538146972656
+        ],
+        "printMeshGate": "PASS"
+      },
+      {
+        "file": "JFD_FINGER_THUMB_CLEAN_EXTERIOR_V4.stl",
+        "triangles": 22690,
+        "uniqueEdges": 34035,
+        "nonTwoManifoldEdges": 0,
+        "inconsistentSharedEdgeOrientation": 0,
+        "degenerateTriangles": 0,
+        "connectedComponents": 1,
+        "watertight": true,
+        "windingConsistent": true,
+        "volumeMm3": 47692.82576505837,
+        "boundsMm": [
+          [
+            -38.770103454589844,
+            -61.431640625,
+            -73.87850952148438
+          ],
+          [
+            1.3721933745519665e-13,
+            62.427490234375,
+            78.25481414794922
+          ]
+        ],
+        "extentsMm": [
+          38.77010345458998,
+          123.859130859375,
+          152.1333236694336
+        ],
+        "printMeshGate": "PASS"
+      }
+    ]
+  },
+  "fingerOpeningProvenance": {
+    "cleanBaselineHasFingerOpenings": false,
+    "approvedCurrentOpenings": [
+      "I2",
+      "I3",
+      "I4",
+      "M3",
+      "M4",
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "approvedCurrentOpeningCount": 8,
+    "legacyLower15ShellGeometryUsed": false,
+    "legacyFingerHoleSourceCount": 0
+  },
+  "thumbToLatestFingerCapIntersection": {
+    "I2": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "I3": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "I4": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "M3": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "M4": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "N1": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "N2": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "N3": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    }
+  },
+  "latestFingerCapsWithAnyExactThumbIntersection": 0,
+  "renders": [
+    "renders\\finger_thumb_exterior_clean_v4\\00_contact_sheet.png",
+    "renders\\finger_thumb_exterior_clean_v4\\01_thumb_control_side.png",
+    "renders\\finger_thumb_exterior_clean_v4\\02_finger_control_side.png",
+    "renders\\finger_thumb_exterior_clean_v4\\03_finger_layout_wireframe.png",
+    "renders\\finger_thumb_exterior_clean_v4\\04_side_oblique.png"
+  ],
+  "verdict": {
+    "CLEAN_EXTERIOR_V4": "GENERATED",
+    "LATEST_FINGER_V2_LAYOUT": "PRESERVED",
+    "MAX_LOWER_THUMB_POSITION": "APPLIED",
+    "LEGACY_LOWER15_FINGER_HOLE_SOURCE": "REMOVED",
+    "LEGACY_FINGER_OPENING_SCARS": "ABSENT_BY_SOURCE_CHAIN",
+    "INTEGRATED_V3_INTERNAL_ARCHITECTURE": "REVISE / NOT PRINT APPROVED"
+  },
+  "warning": "This derivative fixes the exterior source mismatch only. The clean shell STL files retain the Integrated V3 internal geometry, whose internal-design review is REVISE. Do not treat these files as production-print approval."
+}

@@ -1,0 +1,275 @@
+{
+  "mode": "local STL orientation and packing; CAD WRITE 0",
+  "nozzleMm": 0.4,
+  "plateGapMm": 5.0,
+  "printablePartCount": 6,
+  "plateMeshConnectedComponents": 6,
+  "plateDimensionsMm": [
+    70.09456373084188,
+    30.797989490121182,
+    15.320376517087269
+  ],
+  "platePath": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\MIDDLE_6_parts_one_plate_print_ready.stl",
+  "placements": {
+    "M1_M2_M3_shared_carrier": {
+      "xyOriginMm": [
+        6.0,
+        6.0
+      ],
+      "xyMaximumMm": [
+        33.81763651772724,
+        22.147749757545586
+      ]
+    },
+    "M4_single_carrier": {
+      "xyOriginMm": [
+        38.81763651772724,
+        6.0
+      ],
+      "xyMaximumMm": [
+        50.4919432559077,
+        16.209919689926515
+      ]
+    },
+    "M1_cap": {
+      "xyOriginMm": [
+        55.4919432559077,
+        6.0
+      ],
+      "xyMaximumMm": [
+        63.38772213367917,
+        15.719491359663099
+      ]
+    },
+    "M2_cap": {
+      "xyOriginMm": [
+        68.38772213367918,
+        6.0
+      ],
+      "xyMaximumMm": [
+        76.09456373084188,
+        15.64434506622138
+      ]
+    },
+    "M3_cap": {
+      "xyOriginMm": [
+        6.0,
+        27.147749757545586
+      ],
+      "xyMaximumMm": [
+        13.600576581280084,
+        36.74799264325978
+      ]
+    },
+    "M4_cap": {
+      "xyOriginMm": [
+        18.600576581280084,
+        27.147749757545586
+      ],
+      "xyMaximumMm": [
+        26.321863096389016,
+        36.79798949012118
+      ]
+    }
+  },
+  "parts": {
+    "M1_M2_M3_shared_carrier": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_M2_M3_shared_carrier_print_ready.stl",
+      "dimensionsMm": [
+        27.817636517727234,
+        16.147749757545586,
+        15.320376517087269
+      ],
+      "contactAreaMm2": 35.227204677132846,
+      "contactRatio": 0.07842345005749621,
+      "orientationScore": 0.33871834403509604,
+      "basisRows": [
+        [
+          -0.49815451692408513,
+          -0.8585180576026323,
+          -0.12160930078877512
+        ],
+        [
+          0.8651473272815627,
+          -0.5015055964531308,
+          -0.0034984030296975554
+        ],
+        [
+          -0.05798430275255575,
+          -0.10695270682125319,
+          0.9925718810937104
+        ]
+      ],
+      "solidMeshComponents": 1,
+      "surfaceAreaMm2": 1449.4845275842931,
+      "downwardOverhangAreaMm2": 213.20417749487603,
+      "downwardOverhangPercent": 14.708965389937726,
+      "downwardTriangleCount": 122
+    },
+    "M4_single_carrier": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_single_carrier_print_ready.stl",
+      "dimensionsMm": [
+        11.674306738180462,
+        10.209919689926515,
+        7.550003123540456
+      ],
+      "contactAreaMm2": 51.20000114894489,
+      "contactRatio": 0.42955279049417905,
+      "orientationScore": 0.3202618722201479,
+      "basisRows": [
+        [
+          0.9486965911336238,
+          -0.2222903957934553,
+          -0.22485941810258003
+        ],
+        [
+          0.3125866673622789,
+          0.5523414175163033,
+          0.7727926849313629
+        ],
+        [
+          -0.0475852220630095,
+          -0.8034338419770914,
+          0.5934894339473485
+        ]
+      ],
+      "solidMeshComponents": 1,
+      "surfaceAreaMm2": 450.6688040157976,
+      "downwardOverhangAreaMm2": 28.41599843594695,
+      "downwardOverhangPercent": 6.305295192997398,
+      "downwardTriangleCount": 20
+    },
+    "M1_cap": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_cap_print_ready.stl",
+      "dimensionsMm": [
+        7.8957788777714715,
+        9.719491359663099,
+        5.250000816166487
+      ],
+      "contactAreaMm2": 57.75999523553857,
+      "contactRatio": 0.7526423181308938,
+      "orientationScore": 0.24762034806585936,
+      "basisRows": [
+        [
+          -0.02390439792061944,
+          -0.12265493847888145,
+          0.9921614514920415
+        ],
+        [
+          0.9989370748122053,
+          0.03619480540227811,
+          0.02854219030708754
+        ],
+        [
+          -0.03941193126056458,
+          0.9917891419695182,
+          0.12165935042436939
+        ]
+      ],
+      "solidMeshComponents": 1,
+      "surfaceAreaMm2": 366.33329079618534,
+      "downwardOverhangAreaMm2": 7.679998486317228,
+      "downwardOverhangPercent": 2.096451149614492,
+      "downwardTriangleCount": 4
+    },
+    "M2_cap": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M2_cap_print_ready.stl",
+      "dimensionsMm": [
+        7.706841597162711,
+        9.64434506622138,
+        5.250000632638951
+      ],
+      "contactAreaMm2": 57.75999611006817,
+      "contactRatio": 0.7771019197886373,
+      "orientationScore": 0.2504722873620921,
+      "basisRows": [
+        [
+          -0.5987056740518357,
+          -0.35830059523659347,
+          0.7163603836835479
+        ],
+        [
+          0.8008699563567733,
+          -0.2818604481702713,
+          0.5283578340124749
+        ],
+        [
+          0.01260273237188528,
+          0.8900423423693711,
+          0.45570363168007116
+        ]
+      ],
+      "solidMeshComponents": 1,
+      "surfaceAreaMm2": 366.3333199694958,
+      "downwardOverhangAreaMm2": 7.679998714536509,
+      "downwardOverhangPercent": 2.096451044959824,
+      "downwardTriangleCount": 4
+    },
+    "M3_cap": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M3_cap_print_ready.stl",
+      "dimensionsMm": [
+        7.600576581280083,
+        9.600242885714195,
+        5.250000820220546
+      ],
+      "contactAreaMm2": 57.760003449011464,
+      "contactRatio": 0.7915866303289902,
+      "orientationScore": 0.2521671677810196,
+      "basisRows": [
+        [
+          -0.16595304971737307,
+          0.9602953661201855,
+          0.2242596599872609
+        ],
+        [
+          -0.5714026626732256,
+          -0.2789853151870784,
+          0.7717941377076626
+        ],
+        [
+          0.8037154859646859,
+          -6.097594033632748e-05,
+          0.5950137930354922
+        ]
+      ],
+      "solidMeshComponents": 1,
+      "surfaceAreaMm2": 366.3333088563119,
+      "downwardOverhangAreaMm2": 7.680001637508978,
+      "downwardOverhangPercent": 2.096451906458042,
+      "downwardTriangleCount": 4
+    },
+    "M4_cap": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_cap_print_ready.stl",
+      "dimensionsMm": [
+        7.721286515108931,
+        9.6502397325756,
+        5.250000326663648
+      ],
+      "contactAreaMm2": 57.75999774585519,
+      "contactRatio": 0.7751743560177617,
+      "orientationScore": 0.25024692116851954,
+      "basisRows": [
+        [
+          0.15034193936380802,
+          0.9627230508684776,
+          -0.22485913055693296
+        ],
+        [
+          -0.5742775285008023,
+          0.27017895310445594,
+          0.772792762361547
+        ],
+        [
+          0.8047376103596373,
+          0.012948383137325313,
+          0.5934894420685086
+        ]
+      ],
+      "solidMeshComponents": 1,
+      "surfaceAreaMm2": 366.33331129057024,
+      "downwardOverhangAreaMm2": 7.680001320098221,
+      "downwardOverhangPercent": 2.096451805881927,
+      "downwardTriangleCount": 4
+    }
+  }
+}

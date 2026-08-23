@@ -1,0 +1,2149 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-21T21:11:00.552785+00:00",
+  "mode": "LOCAL build123d + OCCT only / Onshape API 0 / browser 0 / CAD write 0",
+  "productionBaseline": {
+    "source": "Finger Controls V2 PASS",
+    "externalCentersChanged": false,
+    "axesChanged": false,
+    "carrierArchitectureChanged": false,
+    "productionParametersChanged": false,
+    "productionParameterModificationCount": 0
+  },
+  "fitCoupon": {
+    "pocketCandidatesMm": [
+      6.3,
+      6.35,
+      6.4,
+      6.45,
+      6.5
+    ],
+    "productionSeedMm": 6.4,
+    "label": "raised seven-segment numerical emboss; 6.40 framed",
+    "purpose": [
+      "too tight",
+      "snug",
+      "acceptable",
+      "loose"
+    ]
+  },
+  "oneButtonCoupon": {
+    "button": "I4",
+    "usesProductionShellWall": true,
+    "usesProductionOpening": true,
+    "usesProductionCap": true,
+    "usesProductionCarrier": true,
+    "usesProductionAxis": true,
+    "cropMm": [
+      25.0,
+      25.0
+    ]
+  },
+  "N2SeamCoupon": {
+    "centerMm": [
+      5.3077624785043596e-15,
+      -35.76511909258096,
+      25.0
+    ],
+    "usesBothProductionShellInterfaces": true,
+    "openingMm": 8.4,
+    "capMm": 7.6,
+    "oppositeShellClearanceMm": 1.5325420200611044,
+    "cropMm": [
+      31.0,
+      29.0
+    ]
+  },
+  "fullFunctionalSection": {
+    "buttons": [
+      "I2",
+      "I3",
+      "I4",
+      "M3",
+      "M4",
+      "N1",
+      "N2",
+      "N3"
+    ],
+    "switchCount": 8,
+    "carrierCount": 5,
+    "capCount": 8,
+    "cropMinimumMm": [
+      -28.0,
+      -45.0,
+      -22.0
+    ],
+    "cropSizeMm": [
+      56.0,
+      48.0,
+      58.0
+    ],
+    "fullJoystickShellExported": false
+  },
+  "cropRegionFilter": {
+    "policy": "retain the largest connected production-shell region intersected by each local crop",
+    "discardedCropOnlyFragmentVolumesMm3": {
+      "ONE_BUTTON_I4_JaD": [],
+      "ONE_BUTTON_I4_JfD": [],
+      "N2_SEAM_JaD": [
+        0.32110961307346364
+      ],
+      "N2_SEAM_JfD": [
+        17.22102393793483
+      ],
+      "FINGER_V2_FUNCTIONAL_SECTION_JaD": [],
+      "FINGER_V2_FUNCTIONAL_SECTION_JfD": []
+    }
+  },
+  "motion": {
+    "I2": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.049999999998011246
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    },
+    "I3": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.04999999999783335
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    },
+    "I4": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.04999999999663363
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    },
+    "M3": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.049999999995504765
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    },
+    "M4": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.049999999997943315
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    },
+    "N1": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.04999999999138808
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    },
+    "N2": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.04999999999735542
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    },
+    "N3": {
+      "states": {
+        "REST": {
+          "travelMm": 0.0,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.04999999999968461
+        },
+        "PARTIAL_PRESS": {
+          "travelMm": 0.175,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        },
+        "FULL_ACTUATION": {
+          "travelMm": 0.35,
+          "shellIntersectionMm3": {
+            "JaD": 0.0,
+            "JfD": 0.0
+          },
+          "carrierIntersectionMm3": 0.0,
+          "housingIntersectionMm3": 0.0,
+          "maximumAdjacentCapIntersectionMm3": 0.0,
+          "actuatorContactDistanceMm": 0.0
+        }
+      },
+      "usableTravelMm": 0.35,
+      "returnClearancePass": true
+    }
+  },
+  "toleranceProbe": {
+    "interpretation": "worst correlated local dimensional error: cavity shrink + mating component growth",
+    "switchPocket": {
+      "-0.20": {
+        "assumedPocketMm": 6.2,
+        "assumedBodyXmm": 6.38,
+        "assumedBodyYmm": 6.32,
+        "diametralClearanceXmm": -0.17999999999999972,
+        "diametralClearanceYmm": -0.1200000000000001,
+        "perSideClearanceXmm": -0.08999999999999986,
+        "perSideClearanceYmm": -0.06000000000000005,
+        "classification": "INTERFERENCE"
+      },
+      "-0.10": {
+        "assumedPocketMm": 6.300000000000001,
+        "assumedBodyXmm": 6.279999999999999,
+        "assumedBodyYmm": 6.22,
+        "diametralClearanceXmm": 0.02000000000000135,
+        "diametralClearanceYmm": 0.08000000000000096,
+        "perSideClearanceXmm": 0.010000000000000675,
+        "perSideClearanceYmm": 0.04000000000000048,
+        "classification": "MARGINAL"
+      },
+      "+0.00": {
+        "assumedPocketMm": 6.4,
+        "assumedBodyXmm": 6.18,
+        "assumedBodyYmm": 6.12,
+        "diametralClearanceXmm": 0.22000000000000064,
+        "diametralClearanceYmm": 0.28000000000000025,
+        "perSideClearanceXmm": 0.11000000000000032,
+        "perSideClearanceYmm": 0.14000000000000012,
+        "classification": "PASS"
+      },
+      "+0.10": {
+        "assumedPocketMm": 6.300000000000001,
+        "assumedBodyXmm": 6.279999999999999,
+        "assumedBodyYmm": 6.22,
+        "diametralClearanceXmm": 0.02000000000000135,
+        "diametralClearanceYmm": 0.08000000000000096,
+        "perSideClearanceXmm": 0.010000000000000675,
+        "perSideClearanceYmm": 0.04000000000000048,
+        "classification": "MARGINAL"
+      },
+      "+0.20": {
+        "assumedPocketMm": 6.2,
+        "assumedBodyXmm": 6.38,
+        "assumedBodyYmm": 6.32,
+        "diametralClearanceXmm": -0.17999999999999972,
+        "diametralClearanceYmm": -0.1200000000000001,
+        "perSideClearanceXmm": -0.08999999999999986,
+        "perSideClearanceYmm": -0.06000000000000005,
+        "classification": "INTERFERENCE"
+      }
+    },
+    "capOpening": {
+      "-0.20": {
+        "standard": {
+          "openingMm": 7.8,
+          "capMm": 7.8,
+          "diametralClearanceMm": 0.0,
+          "perSideClearanceMm": 0.0,
+          "classification": "MARGINAL"
+        },
+        "N2": {
+          "openingMm": 8.200000000000001,
+          "capMm": 7.8,
+          "diametralClearanceMm": 0.40000000000000124,
+          "perSideClearanceMm": 0.20000000000000062,
+          "classification": "PASS"
+        }
+      },
+      "-0.10": {
+        "standard": {
+          "openingMm": 7.9,
+          "capMm": 7.699999999999999,
+          "diametralClearanceMm": 0.20000000000000107,
+          "perSideClearanceMm": 0.10000000000000053,
+          "classification": "PASS"
+        },
+        "N2": {
+          "openingMm": 8.3,
+          "capMm": 7.699999999999999,
+          "diametralClearanceMm": 0.6000000000000014,
+          "perSideClearanceMm": 0.3000000000000007,
+          "classification": "PASS"
+        }
+      },
+      "+0.00": {
+        "standard": {
+          "openingMm": 8.0,
+          "capMm": 7.6,
+          "diametralClearanceMm": 0.40000000000000036,
+          "perSideClearanceMm": 0.20000000000000018,
+          "classification": "PASS"
+        },
+        "N2": {
+          "openingMm": 8.4,
+          "capMm": 7.6,
+          "diametralClearanceMm": 0.8000000000000007,
+          "perSideClearanceMm": 0.40000000000000036,
+          "classification": "PASS"
+        }
+      },
+      "+0.10": {
+        "standard": {
+          "openingMm": 7.9,
+          "capMm": 7.699999999999999,
+          "diametralClearanceMm": 0.20000000000000107,
+          "perSideClearanceMm": 0.10000000000000053,
+          "classification": "PASS"
+        },
+        "N2": {
+          "openingMm": 8.3,
+          "capMm": 7.699999999999999,
+          "diametralClearanceMm": 0.6000000000000014,
+          "perSideClearanceMm": 0.3000000000000007,
+          "classification": "PASS"
+        }
+      },
+      "+0.20": {
+        "standard": {
+          "openingMm": 7.8,
+          "capMm": 7.8,
+          "diametralClearanceMm": 0.0,
+          "perSideClearanceMm": 0.0,
+          "classification": "MARGINAL"
+        },
+        "N2": {
+          "openingMm": 8.200000000000001,
+          "capMm": 7.8,
+          "diametralClearanceMm": 0.40000000000000124,
+          "perSideClearanceMm": 0.20000000000000062,
+          "classification": "PASS"
+        }
+      }
+    },
+    "mostSensitive": "6.40 mm switch pocket versus 6.18 mm BODY_X",
+    "conclusion": "nominal CAD moves; +/-0.10 mm correlated error is marginal for the switch pocket, +/-0.20 mm can interfere. Standard 8.0/7.6 cap-opening is marginal at +/-0.20 mm; N2 remains positive. Physical coupons are required before production adjustment."
+  },
+  "printability": {
+    "nozzleMm": 0.4,
+    "minimumFunctionalWallMm": 1.2,
+    "carrierWallMm": 1.6,
+    "elephantFootSensitiveFeatures": [
+      "switch pocket lower edge",
+      "cap guide/opening edge",
+      "cap actuator socket"
+    ],
+    "pocketDimensionalSensitivity": "HIGH; use fit coupon before production adjustment",
+    "supportPolicy": "block support inside switch pockets and cap guides",
+    "recommendedOrientation": {
+      "fitCoupon": "flat base on bed; vertical pockets; support NO",
+      "caps": "external pad face on bed; socket upward; support NO",
+      "carriers": "broad rear plate on bed; C-channel upward; support NO or local bridge only",
+      "shellCrops": "opening axes upward where practical; support only under exterior crop perimeter, never inside guides"
+    },
+    "plate": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\VALIDATION_PRINT_PLATE.stl",
+      "gapMm": 6.0,
+      "marginMm": 7.0,
+      "dimensionsMm": [
+        189.20700607335678,
+        106.65735260177505,
+        25.03771972656289
+      ],
+      "triangleCount": 35138,
+      "connectedComponents": 20,
+      "finite": true,
+      "placements": {
+        "FIT_COUPON": {
+          "xyMinimumMm": [
+            7.0,
+            7.0
+          ],
+          "xyMaximumMm": [
+            77.0,
+            29.0
+          ]
+        },
+        "ONE_I4_JAD": {
+          "xyMinimumMm": [
+            83.0,
+            7.0
+          ],
+          "xyMaximumMm": [
+            110.12175650426414,
+            27.46240235698116
+          ]
+        },
+        "ONE_I4_JFD": {
+          "xyMinimumMm": [
+            116.12175650426414,
+            7.0
+          ],
+          "xyMaximumMm": [
+            141.9954970434568,
+            13.320760821528395
+          ]
+        },
+        "N2_JAD": {
+          "xyMinimumMm": [
+            147.9954970434568,
+            7.0
+          ],
+          "xyMaximumMm": [
+            153.73575506358858,
+            36.1348553697411
+          ]
+        },
+        "N2_JFD": {
+          "xyMinimumMm": [
+            159.73575506358858,
+            7.0
+          ],
+          "xyMaximumMm": [
+            164.5661928817506,
+            36.160661628370676
+          ]
+        },
+        "FULL_JAD": {
+          "xyMinimumMm": [
+            7.0,
+            42.160661628370676
+          ],
+          "xyMaximumMm": [
+            77.0541753487366,
+            85.48404254432577
+          ]
+        },
+        "FULL_JFD": {
+          "xyMinimumMm": [
+            83.0541753487366,
+            42.160661628370676
+          ],
+          "xyMaximumMm": [
+            153.84211246181923,
+            84.96481215290903
+          ]
+        },
+        "CARRIER_N1_N2_shared_carrier": {
+          "xyMinimumMm": [
+            159.84211246181923,
+            42.160661628370676
+          ],
+          "xyMaximumMm": [
+            180.62989645182145,
+            52.52449786972351
+          ]
+        },
+        "CARRIER_I2_I3_shared_carrier": {
+          "xyMinimumMm": [
+            186.62989645182145,
+            42.160661628370676
+          ],
+          "xyMaximumMm": [
+            196.20700607335678,
+            60.74160637217541
+          ]
+        },
+        "CARRIER_M4_N3_shared_carrier": {
+          "xyMinimumMm": [
+            7.0,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            20.72455133159393,
+            113.65735260177505
+          ]
+        },
+        "CARRIER_I4_carrier": {
+          "xyMinimumMm": [
+            26.72455133159393,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            36.47549018833972,
+            101.23498394089775
+          ]
+        },
+        "CARRIER_M3_carrier": {
+          "xyMinimumMm": [
+            42.47549018833972,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            52.10461450818057,
+            101.11316684513845
+          ]
+        },
+        "CAP_I2": {
+          "xyMinimumMm": [
+            58.10461450818057,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            68.85180705011413,
+            102.23123484005595
+          ]
+        },
+        "CAP_I3": {
+          "xyMinimumMm": [
+            74.85180705011413,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            85.10970874622964,
+            101.74194476387325
+          ]
+        },
+        "CAP_I4": {
+          "xyMinimumMm": [
+            91.10970874622964,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            101.81522199302896,
+            102.18955569110736
+          ]
+        },
+        "CAP_M3": {
+          "xyMinimumMm": [
+            107.81522199302896,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            118.47200804677516,
+            102.14082797470876
+          ]
+        },
+        "CAP_M4": {
+          "xyMinimumMm": [
+            124.47200804677516,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            135.20973120517436,
+            102.22176601614771
+          ]
+        },
+        "CAP_N1": {
+          "xyMinimumMm": [
+            141.20973120517436,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            150.55037440588112,
+            100.82468642939602
+          ]
+        },
+        "CAP_N2": {
+          "xyMinimumMm": [
+            156.55037440588112,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            167.0891576843901,
+            102.02282414640568
+          ]
+        },
+        "CAP_N3": {
+          "xyMinimumMm": [
+            173.0891576843901,
+            91.48404254432577
+          ],
+          "xyMaximumMm": [
+            183.64249211854784,
+            102.03737667967616
+          ]
+        }
+      },
+      "parts": {
+        "FIT_COUPON": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\ITS_POCKET_FIT_COUPON.stl",
+          "dimensionsMm": [
+            70.0,
+            22.0,
+            7.400000095367432
+          ],
+          "contactAreaMm2": 1335.1750212669376,
+          "contactRatio": 0.866996767056453,
+          "orientationScore": -0.04085629628752932,
+          "basisRows": [
+            [
+              -1.0,
+              -0.0,
+              0.0
+            ],
+            [
+              -0.0,
+              -1.0,
+              0.0
+            ],
+            [
+              -0.0,
+              -0.0,
+              1.0
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 5143.097517504688,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "ONE_I4_JAD": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\ONE_BUTTON_I4_JAD_SHELL.stl",
+          "dimensionsMm": [
+            27.12175650426414,
+            20.46240235698116,
+            7.8604867803292215
+          ],
+          "contactAreaMm2": 34.98937850158596,
+          "contactRatio": 0.06304661814585795,
+          "orientationScore": 0.16943230224715614,
+          "basisRows": [
+            [
+              0.01724124697357314,
+              0.9443575937617736,
+              -0.3284683767233449
+            ],
+            [
+              -0.45750649518679604,
+              0.29955935797091904,
+              0.8372287608019358
+            ],
+            [
+              0.8890391140240628,
+              0.13584154797602893,
+              0.4372145097990068
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 1235.303055825414,
+          "downwardOverhangAreaMm2": 341.52380852694967,
+          "downwardOverhangPercent": 27.646965407913424,
+          "downwardTriangleCount": 296
+        },
+        "ONE_I4_JFD": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\ONE_BUTTON_I4_JFD_CLOSURE.stl",
+          "dimensionsMm": [
+            25.873740539192667,
+            6.3207608215283955,
+            7.449172973633139
+          ],
+          "contactAreaMm2": 78.0851840326256,
+          "contactRatio": 0.47746337389299803,
+          "orientationScore": 0.07654600333105827,
+          "basisRows": [
+            [
+              -1.0736771715499665e-14,
+              -4.422796480057826e-15,
+              -1.0
+            ],
+            [
+              -0.41582102177834596,
+              0.9094464678293123,
+              4.422787486234089e-16
+            ],
+            [
+              0.9094464678293123,
+              0.41582102177834596,
+              -1.1603610864006152e-14
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 513.5828317111502,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "N2_JAD": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\N2_SEAM_JAD_SHELL.stl",
+          "dimensionsMm": [
+            5.740258020131781,
+            29.134855369741103,
+            15.949180070783768
+          ],
+          "contactAreaMm2": 92.69341312526498,
+          "contactRatio": 0.5542485853926034,
+          "orientationScore": 0.25303795001731105,
+          "basisRows": [
+            [
+              -0.043839933901739396,
+              -0.02438830470570428,
+              -0.9987408426559279
+            ],
+            [
+              -0.8727801689289123,
+              -0.4855286268733282,
+              0.05016701317519109
+            ],
+            [
+              -0.48614075834053505,
+              0.8738805199110931,
+              -8.579140537028587e-08
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 1136.4662424109235,
+          "downwardOverhangAreaMm2": 2.7917284663767767,
+          "downwardOverhangPercent": 0.2456499244935199,
+          "downwardTriangleCount": 4
+        },
+        "N2_JFD": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\N2_SEAM_JFD_SHELL.stl",
+          "dimensionsMm": [
+            4.83043781816202,
+            29.160661628370676,
+            15.901446319823672
+          ],
+          "contactAreaMm2": 88.96005697417031,
+          "contactRatio": 0.6315550076443074,
+          "orientationScore": 0.251471071631913,
+          "basisRows": [
+            [
+              -0.044064442372781905,
+              0.023980542007892628,
+              0.9987408365153512
+            ],
+            [
+              -0.8772460863741282,
+              0.4774123610304458,
+              -0.05016713542361387
+            ],
+            [
+              -0.4780142559167579,
+              -0.8783520769829961,
+              -7.284512564527471e-08
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 1085.0482204229302,
+          "downwardOverhangAreaMm2": 30.90915477970323,
+          "downwardOverhangPercent": 2.8486434241286953,
+          "downwardTriangleCount": 14
+        },
+        "FULL_JAD": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\FINGER_V2_SECTION_JAD_SHELL.stl",
+          "dimensionsMm": [
+            70.0541753487366,
+            43.3233809159551,
+            25.037719726562734
+          ],
+          "contactAreaMm2": 211.55136248220117,
+          "contactRatio": 0.06970428238282367,
+          "orientationScore": 0.22388123041933694,
+          "basisRows": [
+            [
+              1.1700399640920305e-14,
+              6.542217527434491e-15,
+              1.0
+            ],
+            [
+              -0.33506916407161486,
+              -0.9421935338816274,
+              1.0084478178582813e-14
+            ],
+            [
+              0.9421935338816274,
+              -0.33506916407161486,
+              -8.831945527413882e-15
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 6861.508808993327,
+          "downwardOverhangAreaMm2": 1228.8911869201136,
+          "downwardOverhangPercent": 17.90992653553713,
+          "downwardTriangleCount": 1413
+        },
+        "FULL_JFD": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\FINGER_V2_SECTION_JFD_SHELL.stl",
+          "dimensionsMm": [
+            70.7879371130826,
+            42.80415052453836,
+            25.03771972656289
+          ],
+          "contactAreaMm2": 215.65877015327763,
+          "contactRatio": 0.07117410016588069,
+          "orientationScore": 0.22063309580512724,
+          "basisRows": [
+            [
+              3.990689828208883e-15,
+              1.0594216442308302e-14,
+              -1.0
+            ],
+            [
+              -0.36527068554625947,
+              0.9309013515300993,
+              8.404488395194855e-15
+            ],
+            [
+              0.9309013515300993,
+              0.36527068554625947,
+              7.584695257324477e-15
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 6528.145605913861,
+          "downwardOverhangAreaMm2": 1322.2605995723186,
+          "downwardOverhangPercent": 20.254765738902638,
+          "downwardTriangleCount": 1706
+        },
+        "CARRIER_N1_N2_shared_carrier": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N1_N2_shared_carrier.stl",
+          "dimensionsMm": [
+            20.787783990002225,
+            10.363836241352836,
+            6.6033978796523325
+          ],
+          "contactAreaMm2": 41.7354367176923,
+          "contactRatio": 0.1937207870667498,
+          "orientationScore": 0.12403657020288125,
+          "basisRows": [
+            [
+              -0.9998304630086225,
+              0.017377743806814776,
+              -0.006087631735606245
+            ],
+            [
+              0.013904353168081694,
+              0.4958046845838854,
+              -0.868322741673654
+            ],
+            [
+              -0.012071213813900663,
+              -0.868260173430095,
+              -0.49596225363650454
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 972.0006326660811,
+          "downwardOverhangAreaMm2": 126.02783418727785,
+          "downwardOverhangPercent": 12.965818123142432,
+          "downwardTriangleCount": 72
+        },
+        "CARRIER_I2_I3_shared_carrier": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I2_I3_shared_carrier.stl",
+          "dimensionsMm": [
+            9.577109621535337,
+            18.580944743804736,
+            11.944988832648939
+          ],
+          "contactAreaMm2": 51.47130556608718,
+          "contactRatio": 0.28924305101782377,
+          "orientationScore": 0.3179850454130855,
+          "basisRows": [
+            [
+              0.22060098215647286,
+              -0.9753641405503892,
+              -1.6222253581013925e-08
+            ],
+            [
+              0.9316828961651877,
+              0.2107214713028053,
+              -0.295911207163955
+            ],
+            [
+              0.2886211836730763,
+              0.0652782878174798,
+              0.9552154508145115
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 830.0377681738653,
+          "downwardOverhangAreaMm2": 135.7281922419365,
+          "downwardOverhangPercent": 16.35205016520477,
+          "downwardTriangleCount": 63
+        },
+        "CARRIER_M4_N3_shared_carrier": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M4_N3_shared_carrier.stl",
+          "dimensionsMm": [
+            13.72455133159393,
+            22.173310057449278,
+            9.399717227802789
+          ],
+          "contactAreaMm2": 39.52000133597061,
+          "contactRatio": 0.12986384724505037,
+          "orientationScore": 0.2273654352213359,
+          "basisRows": [
+            [
+              0.4240425942143806,
+              0.858683888504795,
+              -0.2878365124757854
+            ],
+            [
+              -0.46533152555621504,
+              0.4792450719472382,
+              0.7441711713966164
+            ],
+            [
+              0.7769520252985147,
+              -0.18162087059743787,
+              0.6027930073814435
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 874.3244698897638,
+          "downwardOverhangAreaMm2": 121.46256162158589,
+          "downwardOverhangPercent": 13.89216084011695,
+          "downwardTriangleCount": 94
+        },
+        "CARRIER_I4_carrier": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I4_carrier.stl",
+          "dimensionsMm": [
+            9.750938856745792,
+            9.750941396571971,
+            5.360004263578291
+          ],
+          "contactAreaMm2": 77.27028135897514,
+          "contactRatio": 0.8126798917668578,
+          "orientationScore": 0.25423796168965357,
+          "basisRows": [
+            [
+              -0.9991407541022296,
+              -0.01583672319417818,
+              0.03830080535052724
+            ],
+            [
+              -0.04125603682818333,
+              0.29170258203725297,
+              -0.9556189319273825
+            ],
+            [
+              0.003961428689195128,
+              -0.9563779597163825,
+              -0.2921052982256052
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 463.8366157740189,
+          "downwardOverhangAreaMm2": 0.5849964062021678,
+          "downwardOverhangPercent": 0.12612122163446834,
+          "downwardTriangleCount": 4
+        },
+        "CARRIER_M3_carrier": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M3_carrier.stl",
+          "dimensionsMm": [
+            9.629124319840848,
+            9.629124300812679,
+            5.360000711454308
+          ],
+          "contactAreaMm2": 74.21501424046647,
+          "contactRatio": 0.8004204728081975,
+          "orientationScore": 0.2589553619605645,
+          "basisRows": [
+            [
+              0.002960977503960918,
+              -0.974524937185375,
+              -0.2242596250243498
+            ],
+            [
+              -0.6111019814756686,
+              0.175750062069164,
+              -0.7717941979045947
+            ],
+            [
+              0.791546335250649,
+              0.13933076647505366,
+              -0.5950137281313277
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 460.68821232140556,
+          "downwardOverhangAreaMm2": 0.5849972853964741,
+          "downwardOverhangPercent": 0.12698334139019443,
+          "downwardTriangleCount": 4
+        },
+        "CAP_I2": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I2_cap.stl",
+          "dimensionsMm": [
+            10.747192541933565,
+            10.747192295730171,
+            5.310002181838309
+          ],
+          "contactAreaMm2": 57.760000749588976,
+          "contactRatio": 0.5000772999142059,
+          "orientationScore": 0.2165206125386595,
+          "basisRows": [
+            [
+              -0.4513191263979175,
+              -0.7797229711723985,
+              0.43398517759654814
+            ],
+            [
+              0.6520272883907801,
+              0.043889266593841375,
+              0.7569241358759947
+            ],
+            [
+              -0.6092384273346415,
+              0.6245845183031209,
+              0.4885925891321636
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 225.27491038156106,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "CAP_I3": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I3_cap.stl",
+          "dimensionsMm": [
+            10.257901696115514,
+            10.257902219547478,
+            5.710002251340537
+          ],
+          "contactAreaMm2": 57.760002137308646,
+          "contactRatio": 0.5489213374922682,
+          "orientationScore": 0.2590140087621096,
+          "basisRows": [
+            [
+              0.4844068871428659,
+              -0.871020408027869,
+              0.08169098167805061
+            ],
+            [
+              0.22068299708881858,
+              0.21201803897033392,
+              0.9520227759602553
+            ],
+            [
+              -0.8465512285056678,
+              -0.4431385787201773,
+              0.29492239244487
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 230.9295729472738,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "CAP_I4": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I4_cap.stl",
+          "dimensionsMm": [
+            10.705513246799313,
+            10.705513146781579,
+            5.710001235536562
+          ],
+          "contactAreaMm2": 57.75999171820416,
+          "contactRatio": 0.5039786512627719,
+          "orientationScore": 0.2432318490789523,
+          "basisRows": [
+            [
+              -0.759018104707434,
+              0.6499419781917443,
+              -0.038300675066336186
+            ],
+            [
+              -0.2179521441204012,
+              -0.1982158119404149,
+              0.9556188334111682
+            ],
+            [
+              0.6135049955784017,
+              0.7336797100104407,
+              0.29210563760280456
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 230.92955080526028,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "CAP_M3": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M3_cap.stl",
+          "dimensionsMm": [
+            10.656786053746199,
+            10.656785430382985,
+            5.110000422452865
+          ],
+          "contactAreaMm2": 57.759997305882166,
+          "contactRatio": 0.5085980559641198,
+          "orientationScore": 0.20659980230509933,
+          "basisRows": [
+            [
+              -0.8626829016097103,
+              0.4533054744647861,
+              0.22425957747776587
+            ],
+            [
+              -0.12678415073846866,
+              -0.6231046876381584,
+              0.7717942260504922
+            ],
+            [
+              0.48959574180314946,
+              0.6373811222993729,
+              0.5950137095434151
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 222.44757318746232,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "CAP_M4": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M4_cap.stl",
+          "dimensionsMm": [
+            10.737723158399216,
+            10.73772347182194,
+            4.710000583718083
+          ],
+          "contactAreaMm2": 57.75999779520491,
+          "contactRatio": 0.5009596534684152,
+          "orientationScore": 0.17881895253097285,
+          "basisRows": [
+            [
+              0.7903424016631067,
+              0.540841053747215,
+              -0.2878364860732477
+            ],
+            [
+              -0.17088166631373378,
+              0.6457620917843839,
+              0.7441712013590009
+            ],
+            [
+              0.5883522280498601,
+              -0.5389640761645057,
+              0.6027929829990611
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 216.7929263692352,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "CAP_N1": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N1_cap.stl",
+          "dimensionsMm": [
+            9.34064320070675,
+            9.34064388507025,
+            4.710001750691999
+          ],
+          "contactAreaMm2": 57.75999794833588,
+          "contactRatio": 0.6620237521642612,
+          "orientationScore": 0.22329989107054965,
+          "basisRows": [
+            [
+              0.2230523709489214,
+              0.9718027253357282,
+              0.07646635105794006
+            ],
+            [
+              -0.4867838109625635,
+              0.043079199308742745,
+              0.8724595715399545
+            ],
+            [
+              0.8445644801901322,
+              -0.23182675776745226,
+              0.4826667516871273
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 216.79293293775314,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "CAP_N2": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N2_cap.stl",
+          "dimensionsMm": [
+            10.538783278508998,
+            10.538781602079908,
+            4.710004432298005
+          ],
+          "contactAreaMm2": 57.76000263726467,
+          "contactRatio": 0.5200514673454272,
+          "orientationScore": 0.1844297876610153,
+          "basisRows": [
+            [
+              0.5325259298341838,
+              0.8453121614259319,
+              0.04316808774612842
+            ],
+            [
+              -0.4512660197635664,
+              0.2403990365928557,
+              0.8593993731740648
+            ],
+            [
+              0.7160831749601346,
+              -0.47713274143643325,
+              0.5094793750372699
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 216.79290214049345,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        },
+        "CAP_N3": {
+          "source": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N3_cap.stl",
+          "dimensionsMm": [
+            10.55333443415773,
+            10.553334135350376,
+            5.510001161507806
+          ],
+          "contactAreaMm2": 57.76000259291273,
+          "contactRatio": 0.5186182724028829,
+          "orientationScore": 0.23555967999654204,
+          "basisRows": [
+            [
+              0.719285545484705,
+              0.05952893269372159,
+              -0.6921593821000456
+            ],
+            [
+              0.48340919370397994,
+              0.6726690789172801,
+              0.5602069811338002
+            ],
+            [
+              0.4989427376956584,
+              -0.7375449928247932,
+              0.45506431200417946
+            ]
+          ],
+          "meshComponents": 1,
+          "surfaceAreaMm2": 228.10224497962278,
+          "downwardOverhangAreaMm2": 0.0,
+          "downwardOverhangPercent": 0.0,
+          "downwardTriangleCount": 0
+        }
+      }
+    }
+  },
+  "geometry": {
+    "fitCoupon": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 4691.511800000008,
+      "bboxMm": {
+        "min": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max": [
+          70.0,
+          22.0,
+          7.4
+        ]
+      },
+      "topology": {
+        "vertices": 808,
+        "edges": 1212,
+        "faces": 441
+      }
+    },
+    "oneButton": {
+      "assembly": {
+        "valid": true,
+        "solidCount": 4,
+        "volumeMm3": 2067.8628360962293,
+        "bboxMm": {
+          "min": [
+            -7.449172989270585,
+            -33.70984114360334,
+            -1.8778928908874981
+          ],
+          "max": [
+            18.104370455426906,
+            -12.459984580997778,
+            22.164892330013064
+          ]
+        },
+        "topology": {
+          "vertices": 116,
+          "edges": 174,
+          "faces": 66
+        }
+      },
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 1259.2012022220576,
+        "bboxMm": {
+          "min": [
+            -5.5843365926147484e-05,
+            -33.637505566133626,
+            -1.8778928908874981
+          ],
+          "max": [
+            18.104370455426906,
+            -12.459984580997778,
+            22.164892330013064
+          ]
+        },
+        "topology": {
+          "vertices": 16,
+          "edges": 24,
+          "faces": 10
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 414.03364925319164,
+        "bboxMm": {
+          "min": [
+            -7.449172989270585,
+            -33.70984114360334,
+            -1.8577472695708015
+          ],
+          "max": [
+            5.5843366317972945e-05,
+            -18.46815835468159,
+            21.789644315290623
+          ]
+        },
+        "topology": {
+          "vertices": 16,
+          "edges": 24,
+          "faces": 10
+        }
+      }
+    },
+    "N2Seam": {
+      "assembly": {
+        "valid": true,
+        "solidCount": 4,
+        "volumeMm3": 2970.095804434104,
+        "bboxMm": {
+          "min": [
+            -15.865317954371513,
+            -43.84033457949217,
+            11.403108715686235
+          ],
+          "max": [
+            16.02974480175938,
+            -24.46556100027,
+            39.468259215979636
+          ]
+        },
+        "topology": {
+          "vertices": 264,
+          "edges": 396,
+          "faces": 132
+        }
+      },
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 1245.3346466412197,
+        "bboxMm": {
+          "min": [
+            -9.067929457967351e-05,
+            -43.84033457949217,
+            11.762056596164236
+          ],
+          "max": [
+            16.02974480175938,
+            -25.60783682605983,
+            39.468259215979636
+          ]
+        },
+        "topology": {
+          "vertices": 24,
+          "edges": 36,
+          "faces": 14
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 1025.5295305346472,
+        "bboxMm": {
+          "min": [
+            -15.865317954371513,
+            -43.76733390420124,
+            11.403108715686235
+          ],
+          "max": [
+            9.772476612096283e-05,
+            -25.86480995032087,
+            38.88695702823826
+          ]
+        },
+        "topology": {
+          "vertices": 36,
+          "edges": 54,
+          "faces": 20
+        }
+      }
+    },
+    "fullSection": {
+      "reference": {
+        "valid": true,
+        "solidCount": 71,
+        "volumeMm3": 20680.853023842094,
+        "bboxMm": {
+          "min": [
+            -25.038234210570415,
+            -42.98145356442991,
+            -22.00000010000031
+          ],
+          "max": [
+            25.038234210574224,
+            5.36810088420564,
+            36.00000010000053
+          ]
+        },
+        "topology": {
+          "vertices": 1386,
+          "edges": 2079,
+          "faces": 824
+        }
+      },
+      "printableAssembly": {
+        "valid": true,
+        "solidCount": 15,
+        "volumeMm3": 18666.151240817377,
+        "bboxMm": {
+          "min": [
+            -25.038234210570415,
+            -42.98145356442991,
+            -22.00000010000031
+          ],
+          "max": [
+            25.038234210574224,
+            4.968551878165,
+            36.00000010000053
+          ]
+        },
+        "topology": {
+          "vertices": 986,
+          "edges": 1479,
+          "faces": 512
+        }
+      },
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 7620.262842426879,
+        "bboxMm": {
+          "min": [
+            -5.2179221070533424e-05,
+            -42.98145356442991,
+            -22.00000010000031
+          ],
+          "max": [
+            25.038234210574224,
+            3.0000001000000003,
+            36.00000010000053
+          ]
+        },
+        "topology": {
+          "vertices": 66,
+          "edges": 99,
+          "faces": 37
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 7940.1907299118875,
+        "bboxMm": {
+          "min": [
+            -25.038234210570415,
+            -42.98145356442991,
+            -22.000000100000065
+          ],
+          "max": [
+            5.217922107031138e-05,
+            3.0000001000000003,
+            36.00000010000053
+          ]
+        },
+        "topology": {
+          "vertices": 72,
+          "edges": 108,
+          "faces": 40
+        }
+      }
+    },
+    "carriers": {
+      "N1_N2_shared_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 587.1829715950815,
+        "bboxMm": {
+          "min": [
+            -15.42464445582,
+            -34.43790217572,
+            22.842488493398484
+          ],
+          "max": [
+            5.2254776582796785,
+            -24.46556100027,
+            35.13590470853439
+          ]
+        },
+        "topology": {
+          "vertices": 192,
+          "edges": 288,
+          "faces": 88
+        }
+      },
+      "I2_I3_shared_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 500.0740494240817,
+        "bboxMm": {
+          "min": [
+            -18.03885842464154,
+            -26.6271549692,
+            5.950368696203715
+          ],
+          "max": [
+            0.18327080368000004,
+            -13.863353651108547,
+            19.320885925667
+          ]
+        },
+        "topology": {
+          "vertices": 210,
+          "edges": 315,
+          "faces": 100
+        }
+      },
+      "M4_N3_shared_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 530.3776948576643,
+        "bboxMm": {
+          "min": [
+            0.1999999999973221,
+            -14.24690025977574,
+            -14.488108715791709
+          ],
+          "max": [
+            17.213611603982265,
+            4.968551878165,
+            -0.40805195741158284
+          ]
+        },
+        "topology": {
+          "vertices": 204,
+          "edges": 306,
+          "faces": 94
+        }
+      },
+      "I4_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 266.67501614920803,
+        "bboxMm": {
+          "min": [
+            0.2797627957127631,
+            -25.55291142039382,
+            5.9915823463378075
+          ],
+          "max": [
+            10.078010900622,
+            -17.27289358911,
+            16.845428272296708
+          ]
+        },
+        "topology": {
+          "vertices": 72,
+          "edges": 108,
+          "faces": 36
+        }
+      },
+      "M3_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 264.56230247481744,
+        "bboxMm": {
+          "min": [
+            -10.44736343045,
+            -13.64093641254,
+            -12.60167828966
+          ],
+          "max": [
+            -0.19999999999929585,
+            -1.937676340713372,
+            -0.495049946129
+          ]
+        },
+        "topology": {
+          "vertices": 74,
+          "edges": 111,
+          "faces": 37
+        }
+      }
+    },
+    "caps": {
+      "I2": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 121.5912433483992,
+        "bboxMm": {
+          "min": [
+            -20.62523056413,
+            -30.46753859465,
+            5.194668657341
+          ],
+          "max": [
+            -11.664287607645708,
+            -21.477092655592422,
+            13.067793100204693
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "I3": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 127.95296847200572,
+        "bboxMm": {
+          "min": [
+            -9.459607896428,
+            -31.71892522634,
+            5.0739667169201725
+          ],
+          "max": [
+            -1.5977788902046397,
+            -24.15283787407623,
+            12.689834965267059
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "I4": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 127.95296847177215,
+        "bboxMm": {
+          "min": [
+            1.6469527003187951,
+            -31.54233635219,
+            5.073497084631622
+          ],
+          "max": [
+            9.375722074749124,
+            -24.16159803750156,
+            12.692557787321727
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "M3": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 118.4103807864141,
+        "bboxMm": {
+          "min": [
+            -11.39515254312,
+            -17.720038090396724,
+            -14.76720250211515
+          ],
+          "max": [
+            -2.5660953434383513,
+            -9.113898645191288,
+            -6.864203336577781
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "M4": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 112.04865566286557,
+        "bboxMm": {
+          "min": [
+            2.951313842711393,
+            -17.82659905427,
+            -14.750351075554605
+          ],
+          "max": [
+            12.037620005797,
+            -9.311376931701245,
+            -7.083915504171728
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "N1": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 112.04865566307765,
+        "bboxMm": {
+          "min": [
+            -15.01253659385,
+            -38.83139608282287,
+            21.189278043271
+          ],
+          "max": [
+            -7.02952344326659,
+            -31.463659046728452,
+            28.7612536289021
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "N2": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 112.04865566315566,
+        "bboxMm": {
+          "min": [
+            -3.935507506921,
+            -38.74873655611,
+            21.22068552499484
+          ],
+          "max": [
+            3.90097320480879,
+            -31.426311364119176,
+            28.826254552535207
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "N3": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 124.77210591006789,
+        "bboxMm": {
+          "min": [
+            12.741333114836523,
+            -11.26634982169,
+            -14.963806890441964
+          ],
+          "max": [
+            21.913873218529,
+            -2.274144920366476,
+            -7.06912815213281
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      }
+    }
+  },
+  "gates": {
+    "productionSourcePass": true,
+    "productionParametersUnmodified": true,
+    "fitCouponValid": true,
+    "oneButtonCropValid": true,
+    "N2SeamCropValid": true,
+    "fullSectionCropValid": true,
+    "motionSweep": true,
+    "minimumWall": true,
+    "printablePartValidity": true,
+    "unexpectedFragmentGate": true,
+    "validationPlate": true,
+    "switchPocketSupportFree": true,
+    "capGuideSupportFree": true
+  },
+  "verdict": {
+    "DIGITAL_PRINTABILITY": "PASS",
+    "PHYSICAL_VALIDATION_KIT": "READY",
+    "PHYSICAL_FINGER_V2": "NOT YET VALIDATED",
+    "PRODUCTION_FINGER_V2_FREEZE": "PENDING USER FDM RESULTS"
+  },
+  "exports": {
+    "ITS_POCKET_FIT_COUPON.step": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\ITS_POCKET_FIT_COUPON.step",
+      "sizeBytes": 1561042,
+      "sha256": "445c2a60aa564861962b7ccecc4e11673f132a58b2c15e9374a687340ed409cb"
+    },
+    "ITS_POCKET_FIT_COUPON.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\ITS_POCKET_FIT_COUPON.stl",
+      "sizeBytes": 81684,
+      "sha256": "1fffc9f22376a64c57ff3469f38a113aa24dafa5f3057673622eb5646cb2b147"
+    },
+    "ONE_BUTTON_FUNCTION_COUPON.step": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\ONE_BUTTON_FUNCTION_COUPON.step",
+      "sizeBytes": 1099504,
+      "sha256": "37fb5b4b23dc63ea11a5a516089882fe5033b635e7a3dcbef188f601e6f1c087"
+    },
+    "ONE_BUTTON_FUNCTION_COUPON.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\ONE_BUTTON_FUNCTION_COUPON.stl",
+      "sizeBytes": 187184,
+      "sha256": "f04fefb5ece02d874330f4ab1d2a44176e8e09ff3dbb86becd7c4475f18dec62"
+    },
+    "ONE_BUTTON_I4_JAD_SHELL.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\ONE_BUTTON_I4_JAD_SHELL.stl",
+      "sizeBytes": 65584,
+      "sha256": "7c1de5e6db8409a4339890bec1f6a95a2de61379f76346cecb6a1de21216b743"
+    },
+    "ONE_BUTTON_I4_JFD_CLOSURE.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\ONE_BUTTON_I4_JFD_CLOSURE.stl",
+      "sizeBytes": 29284,
+      "sha256": "e242b70fdbb5bbb00fb4dcbff7af9ebcf732e80555a420b75094925cf6819248"
+    },
+    "N2_SEAM_FUNCTION_COUPON.step": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\N2_SEAM_FUNCTION_COUPON.step",
+      "sizeBytes": 1282092,
+      "sha256": "ddeecefdfbf69361b6f24f737bbe0124c2f41cdc1f842a8c354cd48d2cc1ce9c"
+    },
+    "N2_SEAM_FUNCTION_COUPON.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\N2_SEAM_FUNCTION_COUPON.stl",
+      "sizeBytes": 159184,
+      "sha256": "cbc656adc78c84ec5eddab05016ac320ad6c2cbac2a315e5b27b953441c8715a"
+    },
+    "N2_SEAM_JAD_SHELL.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\N2_SEAM_JAD_SHELL.stl",
+      "sizeBytes": 24684,
+      "sha256": "c80ae5f19ece77cdfd030ff50127ad0e4ad3a35a087305f5f70c2c99e08624a1"
+    },
+    "N2_SEAM_JFD_SHELL.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\N2_SEAM_JFD_SHELL.stl",
+      "sizeBytes": 28984,
+      "sha256": "ad90e374fff711a316c21c5c6eea73da57350d18f254fa0763c89b088b3da9bf"
+    },
+    "FINGER_V2_FUNCTIONAL_SECTION.step": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\FINGER_V2_FUNCTIONAL_SECTION.step",
+      "sizeBytes": 870866,
+      "sha256": "90ebdb9d6c604239f6f9e3cfc30cd00f51a9500fe27812b31fc43adda3035f0a"
+    },
+    "FINGER_V2_FUNCTIONAL_SECTION.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\FINGER_V2_FUNCTIONAL_SECTION.stl",
+      "sizeBytes": 1527184,
+      "sha256": "1fa09a67fcc0cb3dcf25c6ca7a9a34778d741cb6ab8f7d68d99175ae31e1d547"
+    },
+    "FINGER_V2_SECTION_JAD_SHELL.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\FINGER_V2_SECTION_JAD_SHELL.stl",
+      "sizeBytes": 401284,
+      "sha256": "cd40a7d95ac4049b5721d3fef7e925baabf4c3a867388e43d95f0b44bcad6f6a"
+    },
+    "FINGER_V2_SECTION_JFD_SHELL.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\FINGER_V2_SECTION_JFD_SHELL.stl",
+      "sizeBytes": 366984,
+      "sha256": "751927463dd58642a0dea6f1d6158c1506dfcb2244efa171374ea64d7d24bc31"
+    },
+    "KIT_N1_N2_shared_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N1_N2_shared_carrier.stl",
+      "sizeBytes": 21084,
+      "sha256": "0dc8e3ec7eb4736b9c420d013453cc51b7b86b1a4a8529e0cff9e28b9e628440"
+    },
+    "KIT_I2_I3_shared_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I2_I3_shared_carrier.stl",
+      "sizeBytes": 22884,
+      "sha256": "8289520fee86e59d600d4ae682d23bc306311a50b2b453647a341e0f0c904528"
+    },
+    "KIT_M4_N3_shared_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M4_N3_shared_carrier.stl",
+      "sizeBytes": 22284,
+      "sha256": "375c1d411e750566d5f40088efc611560308dbf2ab1e43e682821a74ca561ecc"
+    },
+    "KIT_I4_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I4_carrier.stl",
+      "sizeBytes": 8084,
+      "sha256": "e09d47504cfdd1267aa00bdbc2dfbaf3998c3fafd3b47dc38276f8e0b2e641aa"
+    },
+    "KIT_M3_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M3_carrier.stl",
+      "sizeBytes": 8284,
+      "sha256": "3020424c3d1f949b76396725abe0515081603219efebc594bcd439448a297f13"
+    },
+    "KIT_I2_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I2_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "1cd235358c739ac96dcf78042142ccad7b06d5a0e48e84238b86fea9e4262da8"
+    },
+    "KIT_I3_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I3_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "c2ca2971cbbc6bcf10bc139d1f8272174d2ddb36b7bc2e884cac4fd963739065"
+    },
+    "KIT_I4_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_I4_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "6d083d1223266f74f0acf4fc9bdcc843451aaddc0279f17e6a9a6757ffc7a284"
+    },
+    "KIT_M3_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M3_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "0497ed87f57786c16b2db734881f290758e3397cd0735260ae8d5a17556ba0ac"
+    },
+    "KIT_M4_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_M4_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "c65ea473c1bf38b8a9bc5adce63b503534e9ffe5c7e290b4a0948b12e7d3655c"
+    },
+    "KIT_N1_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N1_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "d70e10d6d56dc606e63305e4d9a82619f7cbadfbef1d4d5eb7ea0a3a1d53954f"
+    },
+    "KIT_N2_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N2_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "43b0973ff967ec004b4ba65c0ebf6da07d90a497df83da49316ba9107df1a780"
+    },
+    "KIT_N3_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\KIT_N3_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "290d56ae1e334e211b85a8c54c8b407bc48c743ab7a3f1bce965f3a11cbb5279"
+    },
+    "VALIDATION_PRINT_PLATE.stl": {
+      "path": "build123d_workbench\\out\\finger_v2_physical_validation\\VALIDATION_PRINT_PLATE.stl",
+      "sizeBytes": 1756984,
+      "sha256": "c75b7637c288628c26bb773dfdfb65028b5059088a30174fc85d8b5e9fa5b7a8"
+    }
+  }
+}

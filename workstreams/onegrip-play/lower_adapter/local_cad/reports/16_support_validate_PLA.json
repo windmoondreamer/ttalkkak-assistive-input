@@ -1,16 +1,39 @@
 {
  "MAIN": {
-  "brep_chunks": 43,
-  "support_volume_mm3": 81493.80453752464,
-  "intrusion_pts": 52,
-  "intrusion_real": 0,
-  "intrusion_max_depth": 0.09833037382850307,
-  "support_for_support_mm2": 0.44060825844387264,
+  "brep_chunks": 71,
+  "support_volume_mm3": 134100.95501132158,
+  "intrusion_pts": 134,
+  "intrusion_real": 10,
+  "intrusion_max_depth": 0.16585489327432512,
+  "support_for_support_mm2": 0.0,
+  "micro_ledge_mm2": 2501.3227262151204,
   "trapped": 0,
-  "voxel_chunks": 28,
+  "voxel_chunks": 67,
   "chunk_rows": [
    {
-    "vol": 17118.0,
+    "vol": 20742.75,
+    "bbox": [
+     112.5,
+     1.5,
+     123.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 20742.75,
+    "bbox": [
+     112.5,
+     1.5,
+     123.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 17131.5,
     "bbox": [
      94.5,
      1.5,
@@ -21,18 +44,51 @@
     "clear": 20.0
    },
    {
-    "vol": 12939.75,
+    "vol": 13466.25,
     "bbox": [
-     106.5,
+     94.5,
      1.5,
-     85.5
+     97.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 12565.125,
+    "bbox": [
+     103.5,
+     1.5,
+     84.0
     ],
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
     "clear": 14.8
    },
    {
-    "vol": 11677.5,
+    "vol": 12565.125,
+    "bbox": [
+     103.5,
+     1.5,
+     84.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 8.8
+   },
+   {
+    "vol": 11826.0,
+    "bbox": [
+     88.5,
+     1.5,
+     90.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 11707.875,
     "bbox": [
      82.5,
      1.5,
@@ -43,7 +99,29 @@
     "clear": 20.0
    },
    {
-    "vol": 7661.25,
+    "vol": 8309.25,
+    "bbox": [
+     67.5,
+     1.5,
+     82.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 7765.875,
+    "bbox": [
+     63.0,
+     1.5,
+     82.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 7668.0,
     "bbox": [
      60.0,
      1.5,
@@ -54,7 +132,18 @@
     "clear": 20.0
    },
    {
-    "vol": 7580.25,
+    "vol": 7668.0,
+    "bbox": [
+     60.0,
+     1.5,
+     85.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 7587.0,
     "bbox": [
      61.5,
      1.5,
@@ -65,7 +154,7 @@
     "clear": 20.0
    },
    {
-    "vol": 7452.0,
+    "vol": 7465.5,
     "bbox": [
      40.5,
      1.5,
@@ -76,7 +165,7 @@
     "clear": 20.0
    },
    {
-    "vol": 7448.625,
+    "vol": 7465.5,
     "bbox": [
      40.5,
      1.5,
@@ -87,18 +176,95 @@
     "clear": 20.0
    },
    {
-    "vol": 6733.125,
+    "vol": 6598.125,
+    "bbox": [
+     52.5,
+     1.5,
+     84.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 6280.875,
     "bbox": [
      28.5,
      1.5,
-     157.5
+     147.0
     ],
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
     "clear": 20.0
    },
    {
-    "vol": 2055.375,
+    "vol": 6024.375,
+    "bbox": [
+     28.5,
+     1.5,
+     141.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 4282.875,
+    "bbox": [
+     28.5,
+     1.5,
+     100.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 16.8
+   },
+   {
+    "vol": 4060.125,
+    "bbox": [
+     27.0,
+     1.5,
+     100.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 18.4
+   },
+   {
+    "vol": 3746.25,
+    "bbox": [
+     27.0,
+     1.5,
+     93.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 3739.5,
+    "bbox": [
+     27.0,
+     1.5,
+     93.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 2119.5,
+    "bbox": [
+     15.0,
+     1.5,
+     94.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 17.6
+   },
+   {
+    "vol": 2116.125,
     "bbox": [
      106.5,
      1.5,
@@ -109,7 +275,40 @@
     "clear": 15.6
    },
    {
-    "vol": 2025.0,
+    "vol": 2116.125,
+    "bbox": [
+     106.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.6
+   },
+   {
+    "vol": 2116.125,
+    "bbox": [
+     106.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.6
+   },
+   {
+    "vol": 2102.625,
+    "bbox": [
+     106.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.6
+   },
+   {
+    "vol": 2085.75,
     "bbox": [
      105.0,
      1.5,
@@ -120,7 +319,18 @@
     "clear": 15.6
    },
    {
-    "vol": 1994.625,
+    "vol": 2085.75,
+    "bbox": [
+     105.0,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.6
+   },
+   {
+    "vol": 2052.0,
     "bbox": [
      103.5,
      1.5,
@@ -128,10 +338,10 @@
     ],
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
-    "clear": 14.0
+    "clear": 12.8
    },
    {
-    "vol": 1994.625,
+    "vol": 2052.0,
     "bbox": [
      103.5,
      1.5,
@@ -142,15 +352,70 @@
     "clear": 15.6
    },
    {
-    "vol": 1154.25,
+    "vol": 2052.0,
     "bbox": [
-     27.0,
+     103.5,
      1.5,
-     28.5
+     15.0
     ],
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
-    "clear": 4.4
+    "clear": 15.6
+   },
+   {
+    "vol": 2052.0,
+    "bbox": [
+     103.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.2
+   },
+   {
+    "vol": 2052.0,
+    "bbox": [
+     103.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.2
+   },
+   {
+    "vol": 1903.5,
+    "bbox": [
+     13.5,
+     1.5,
+     94.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 16.4
+   },
+   {
+    "vol": 1809.0,
+    "bbox": [
+     13.5,
+     1.5,
+     93.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.2
+   },
+   {
+    "vol": 1262.25,
+    "bbox": [
+     9.0,
+     1.5,
+     94.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
    },
    {
     "vol": 1154.25,
@@ -161,10 +426,21 @@
     ],
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
-    "clear": 4.4
+    "clear": 8.8
    },
    {
-    "vol": 1046.25,
+    "vol": 1154.25,
+    "bbox": [
+     27.0,
+     1.5,
+     28.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 8.8
+   },
+   {
+    "vol": 1059.75,
     "bbox": [
      28.5,
      1.5,
@@ -175,7 +451,7 @@
     "clear": 13.2
    },
    {
-    "vol": 1042.875,
+    "vol": 1056.375,
     "bbox": [
      28.5,
      1.5,
@@ -184,6 +460,17 @@
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
     "clear": 13.2
+   },
+   {
+    "vol": 975.375,
+    "bbox": [
+     7.5,
+     1.5,
+     88.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 10.4
    },
    {
     "vol": 239.625,
@@ -197,18 +484,40 @@
     "clear": 3.2
    },
    {
-    "vol": 239.625,
+    "vol": 236.25,
     "bbox": [
      1.5,
      1.5,
-     106.5
+     105.0
     ],
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
     "clear": 3.2
    },
    {
-    "vol": 10.125,
+    "vol": 168.75,
+    "bbox": [
+     1.5,
+     1.5,
+     75.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 6.0
+   },
+   {
+    "vol": 168.75,
+    "bbox": [
+     1.5,
+     1.5,
+     75.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 6.0
+   },
+   {
+    "vol": 13.5,
     "bbox": [
      3.0,
      1.5,
@@ -219,7 +528,7 @@
     "clear": 1.2
    },
    {
-    "vol": 10.125,
+    "vol": 13.5,
     "bbox": [
      3.0,
      1.5,
@@ -227,65 +536,165 @@
     ],
     "opening": "DECK_OPENING",
     "dir": "+Y 방향으로 빼낸다",
-    "clear": 4.0
-   },
-   {
-    "vol": 10.125,
-    "bbox": [
-     3.0,
-     1.5,
-     3.0
-    ],
-    "opening": "DECK_OPENING",
-    "dir": "+Y 방향으로 빼낸다",
-    "clear": 4.0
-   },
-   {
-    "vol": 10.125,
-    "bbox": [
-     3.0,
-     1.5,
-     3.0
-    ],
-    "opening": "DECK_OPENING",
-    "dir": "+Y 방향으로 빼낸다",
-    "clear": 4.0
-   },
-   {
-    "vol": 10.125,
-    "bbox": [
-     3.0,
-     1.5,
-     3.0
-    ],
-    "opening": "DECK_OPENING",
-    "dir": "+Y 방향으로 빼낸다",
-    "clear": 4.0
+    "clear": 1.2
    }
   ],
   "product_step_sha": "6139af751d39b2ec",
   "product_stl_sha": "577688df782cc23b"
  },
  "ARMREST": {
-  "brep_chunks": 1,
-  "support_volume_mm3": 2553.5199999998053,
+  "brep_chunks": 5,
+  "support_volume_mm3": 7634.475477997437,
   "intrusion_pts": 0,
   "intrusion_real": 0,
   "intrusion_max_depth": 0.0,
   "support_for_support_mm2": 0.0,
+  "micro_ledge_mm2": 243.59938049316406,
   "trapped": 0,
-  "voxel_chunks": 1,
+  "voxel_chunks": 13,
   "chunk_rows": [
    {
-    "vol": 4914.0,
+    "vol": 4876.875,
     "bbox": [
-     117.0,
+     115.5,
      1.5,
      28.5
     ],
     "opening": "UNDERSIDE_OPEN",
     "dir": "+Y 방향으로 빼낸다",
-    "clear": 5.6
+    "clear": 6.8
+   },
+   {
+    "vol": 175.5,
+    "bbox": [
+     4.5,
+     1.5,
+     27.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 3.6
+   },
+   {
+    "vol": 175.5,
+    "bbox": [
+     4.5,
+     1.5,
+     27.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 3.6
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 47.25,
+    "bbox": [
+     10.5,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 27.0,
+    "bbox": [
+     6.0,
+     3.0,
+     3.0
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 13.5,
+    "bbox": [
+     3.0,
+     3.0,
+     1.5
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 3.6
    }
   ],
   "product_step_sha": "6f7ff952d8b3e305",

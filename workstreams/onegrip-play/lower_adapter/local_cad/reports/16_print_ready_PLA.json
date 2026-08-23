@@ -10,10 +10,10 @@
    233.8000002000001
   ],
   "bed_z": 2.9517578011313163e-06,
-  "support_volume": 81493.80453752464,
-  "support_solids": 43,
+  "support_volume": 134100.95501132158,
+  "support_solids": 71,
   "stl": {
-   "tri": 23108,
+   "tri": 72388,
    "boundary": 0,
    "nonmanifold": 0,
    "degenerate": 0,
@@ -21,7 +21,7 @@
   },
   "print_ready_step": "MAIN_PRINT_READY_PLA.step",
   "print_ready_stl": "HOUSING_V4_MAIN_PRINT_READY_PLA.stl",
-  "stl_sha": "053a87c6518651d6"
+  "stl_sha": "dfb96e4c3820869e"
  },
  "ARMREST": {
   "orientation": "CUT FACE DOWN",
@@ -34,10 +34,10 @@
    159.65967240280213
   ],
   "bed_z": -3.151759954963984e-06,
-  "support_volume": 2553.5199999998053,
-  "support_solids": 1,
+  "support_volume": 7634.475477997437,
+  "support_solids": 5,
   "stl": {
-   "tri": 5582,
+   "tri": 8334,
    "boundary": 0,
    "nonmanifold": 0,
    "degenerate": 0,
@@ -45,6 +45,6 @@
   },
   "print_ready_step": "ARMREST_PRINT_READY_PLA.step",
   "print_ready_stl": "HOUSING_V4_ARMREST_PRINT_READY_PLA.stl",
-  "stl_sha": "653d0f735456d218"
+  "stl_sha": "112f362abb07e7cf"
  }
 }

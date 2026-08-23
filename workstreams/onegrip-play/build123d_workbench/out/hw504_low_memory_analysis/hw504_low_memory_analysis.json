@@ -1,0 +1,163 @@
+{
+  "schema": 1,
+  "analysisId": "ONEGRIP_HW504_LOW_MEMORY_LOCAL_2026-08-23",
+  "mode": "LOW-MEMORY / LOCAL ANALYSIS ONLY / READ-ONLY SOURCE RESULTS",
+  "safety": {
+    "fullShellBooleanCount": 0,
+    "fullShellStepExportCount": 0,
+    "completeAssemblyExportCount": 0,
+    "newOcctBooleanCount": 0,
+    "multiprocessingProcessCount": 0,
+    "highResolutionRenderCount": 0,
+    "productionGeometryModificationCount": 0
+  },
+  "readOnlyInputs": [
+    "build123d_workbench/out/original_thumb_module_reuse_audit/original_thumb_module_reuse_audit.json",
+    "build123d_workbench/out/hw504_minimal_change_candidates/hw504_minimal_change_candidates.json",
+    "build123d_workbench/out/original_thumb_module_reuse_audit/ORIGINAL_THUMB_COLLISION_DEBUG.step",
+    "build123d_workbench/out/original_thumb_module_reuse_audit/LOWERED_ORIGINAL_THUMB_CARTRIDGE.step",
+    "build123d_workbench/out/finger_controls_v2/finger_controls_v2_validation.json",
+    "docs/05_final_prewrite_validation.md"
+  ],
+  "hardwareIdentity": {
+    "comparison": "HW504_B source CAD vs Arduino PS2 Joystick Module SZH-EK056",
+    "verdict": "LIKELY COMPATIBLE",
+    "confidence": "MODERATE",
+    "notSameReason": "SZH-EK056 listings use representative photographs, provide no controlled mechanical drawing, and warn that hardware revisions can change; no physical sample measurements are registered locally.",
+    "localRegistryFinding": "No SZH-EK056 string or dedicated nominal/measurement registry entry exists in the workspace.",
+    "sourceCad": {
+      "architecture": "one module represented by fixed JFH solid plus moving JFD solid",
+      "JFH": {
+        "inferredRole": "fixed PCB/body/potentiometer/support body",
+        "volumeMm3": 1461.11427622721,
+        "sourceLocalBboxSizeMm": [27.0, 14.25, 38.9],
+        "observedFeatures": [
+          "rectangular breakout-board/support plate",
+          "four approximately 3.2 mm mounting holes",
+          "two orthogonal potentiometer housings",
+          "central push-switch structure",
+          "coaxial X/Y pivot collars"
+        ]
+      },
+      "JFD": {
+        "inferredRole": "moving gimbal/stick body",
+        "volumeMm3": 767.1208621693855,
+        "sourceLocalBboxSizeMm": [17.0, 19.0, 13.0],
+        "observedFeatures": [
+          "central shaft",
+          "orthogonal pivot journals",
+          "axial push travel counterpart",
+          "Small_joystick_attachment contact"
+        ]
+      },
+      "loweredAssemblyAxisAlignedBboxSizeMm": [27.034637954821554, 34.746604984235514, 27.331548313624504],
+      "functionalAxes": {
+        "centerPointMm": [-0.21604013507035, -23.14907664213591, 40.49617911468703],
+        "neutralStickAxis": [-0.000181853768751, -0.598493368976127, -0.801127739015953],
+        "pivotAxisU": [0.99999946034044, 0.000710605462944, -0.000757864568375],
+        "pivotAxisV": [0.001022862666615, -0.801127444500238, 0.598492916767178]
+      }
+    },
+    "szhEk056Nominal": {
+      "listingEnvelopeMm": [34.5, 26.0, 38.0],
+      "comparableModuleDocumentation": {
+        "pcbMm": [34.0, 26.3, 1.6],
+        "enclosingMm": [39.4, 27.5, 32.9],
+        "mounting": "4 x 3 mm diameter holes",
+        "travel": "66 degrees total, plus/minus 33 degrees per axis",
+        "electromechanics": "two orthogonal 10 kOhm potentiometers plus axial push switch"
+      },
+      "photographicMatch": [
+        "same four-hole breakout board topology",
+        "same five-pin edge header",
+        "same orthogonal potentiometer housings",
+        "same central shaft and push-switch layout"
+      ]
+    },
+    "sources": [
+      "https://www.icbanq.com/P008113513",
+      "https://www.devicemart.co.kr/goods/view?no=1287087",
+      "https://www.auselectronicsdirect.com.au/assets/brochures/TA0051.pdf"
+    ],
+    "physicalMeasurementGate": [
+      "PCB length, width and thickness",
+      "mounting-hole diameter and center coordinates",
+      "neutral shaft center relative to holes",
+      "shaft height and cap interface",
+      "potentiometer and push-switch maximum envelope",
+      "full X/Y travel and axial push travel"
+    ]
+  },
+  "knownConstraint": {
+    "candidateA": "FAIL",
+    "currentHwVsFingerTotalPenetrationMm3": 72.9020923174639,
+    "nonProtectedConflictMm3": 39.8839461159014,
+    "protectedConflictMm3": 33.0181462015625,
+    "hw504BConflict": {
+      "N2SwitchMm3": 0.32036972303176653,
+      "N1N2CarrierMm3": 26.369308781071286,
+      "protectedFractionPercent": 100.0,
+      "meaning": "HW504_B-only trimming would remove protected moving gimbal/pivot/contact material."
+    }
+  },
+  "functionalBreakdown": {
+    "HW504_A": {
+      "fingerConflictMm3": 46.21241381336081,
+      "protectedMm3": 6.328467697459433,
+      "nonProtectedMm3": 39.88394611590138,
+      "disposition": "non-protected conflict may be locally trimmed; protected portion must be resolved on the Finger side"
+    },
+    "HW504_B": {
+      "fingerConflictMm3": 26.689678504103053,
+      "protectedMm3": 26.689678504103053,
+      "nonProtectedMm3": 0.0,
+      "disposition": "KEEP exact; do not trim under the frozen-kinematics policy"
+    }
+  },
+  "options": {
+    "A_FINGER_SIDE": {
+      "changedParts": ["N1 switch internal envelope", "N2 switch internal envelope", "N1/N2 shared carrier"],
+      "minimumTheoreticalChangedRegionMm3": 72.9020923174639,
+      "originalThumbExactPartsRetained": "20/20 in this local comparison",
+      "fingerImpact": "large local internal repackaging; external cap centers and actuation axes remain frozen",
+      "thumbKinematicsImpact": "0 intended",
+      "recommendation": "FALLBACK",
+      "reason": "preserves all Thumb parts but moves the complete conflict burden to frozen Finger internals"
+    },
+    "B_HW504_SIDE": {
+      "changedParts": ["HW504_A", "HW504_B"],
+      "minimumTheoreticalChangedRegionMm3": 72.9020923174639,
+      "protectedMaterialAtRiskMm3": 33.0181462015625,
+      "originalThumbExactPartsRetained": "18/20",
+      "fingerImpact": "0",
+      "thumbKinematicsImpact": "nonzero/high risk because HW504_B conflict is entirely protected",
+      "recommendation": "NO",
+      "reason": "cannot clear HW504_B without changing protected gimbal/pivot/contact geometry"
+    },
+    "C_MIXED": {
+      "changedParts": ["HW504_A nonfunctional/support bulk", "N2 internal switch envelope", "N1/N2 shared carrier"],
+      "hw504ANonProtectedTrimRegionMm3": 39.8839461159014,
+      "fingerProtectedRelocationRegionMm3": 33.0181462015625,
+      "originalThumbExactPartsRetained": "19/20",
+      "originalThumbExactReusePercent": 95.0,
+      "protectedThumbDatumReusePercent": 100.0,
+      "fingerImpact": "localized N2 packaging and shared-carrier reroute; N1/N2 external centers and axes stay fixed",
+      "thumbKinematicsImpact": "0 intended; HW504_B and all protected N/U/V datums remain exact",
+      "recommendation": "YES - preferred next local exact test",
+      "reason": "assigns each collision voxel to the side where it is nonfunctional or least functionally constrained"
+    }
+  },
+  "answer": {
+    "smallestChange": "C_MIXED",
+    "productionApproval": false,
+    "nextExactBooleanAllowed": "one local-crop test for C only, after user approval",
+    "localStepGenerated": false
+  },
+  "outputs": {
+    "collisionSectionRender": "renders/hw504_low_memory_analysis/01_collision_section.png",
+    "hw504BCloseup": "renders/hw504_low_memory_analysis/02_hw504_b_n1_n2_closeup.png",
+    "optionComparison": "renders/hw504_low_memory_analysis/03_option_abc_comparison.png",
+    "report": "docs/55_hw504_szh_ek056_low_memory_analysis.md"
+  },
+  "stop": "STOP BEFORE LOCAL CANDIDATE C BOOLEAN OR PRODUCTION GEOMETRY"
+}

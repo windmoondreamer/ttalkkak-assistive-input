@@ -1,0 +1,274 @@
+{
+  "schema": 1,
+  "mode": "EXTERIOR FIRST / LOCAL build123d + OCCT / Onshape 0",
+  "scope": "clean shell + latest Finger 8 + maximum-lowered Thumb exterior only",
+  "thumbTargetTranslationMm": [
+    0.0,
+    12.25,
+    -21.0
+  ],
+  "sources": {
+    "cleanExteriorBuilder": "build123d_workbench/integrated_exterior_clean_v1.py",
+    "targetThumbExactModule": {
+      "path": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step",
+      "sha256": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9"
+    },
+    "lower15HousingVisualReference": {
+      "JaD": {
+        "path": "exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_1_JaD.stl",
+        "sha256": "43cb0a9972e0153afe49341a3e29df130b9e966bbff40a1114cee3919c1b50cb"
+      },
+      "JfD": {
+        "path": "exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_2_JfD.stl",
+        "sha256": "29050592a316c16b64211276ed0ce2bbfafd7bb0b833d954db7b305cee677677"
+      },
+      "booleanSource": false,
+      "reason": "historical exterior position/silhouette reference only; STL is not exact B-rep"
+    }
+  },
+  "constructionPolicy": {
+    "shellStartingPoint": "FINAL EXTERIOR CLEAN V1 exact shell pair",
+    "thumbOpeningMethod": "9 localized user-side opening envelopes, 0.80 mm clearance",
+    "originalThumbControlRelativeGeometryChanged": false,
+    "shellAdditiveGeometryCount": 0,
+    "throughReliefCount": 0,
+    "backplateExported": false,
+    "pushButtonBodiesExported": false,
+    "HW504MechanismExported": false,
+    "internalCarrierSeatWireFasteningExported": false,
+    "externalThumbControlCount": 9,
+    "fingerCapCount": 8
+  },
+  "shells": {
+    "JaD": {
+      "valid": true,
+      "solidCount": 1,
+      "shellCount": 1,
+      "faceCount": 93,
+      "edgeCount": 277,
+      "vertexCount": 192,
+      "volumeMm3": 46254.47726455253,
+      "smallSolidCount": 0,
+      "bboxMm": {
+        "min": [
+          -6.427849568673973e-05,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          38.77976975434524,
+          62.428314495976565,
+          78.25674381952929
+        ]
+      }
+    },
+    "JfD": {
+      "valid": true,
+      "solidCount": 1,
+      "shellCount": 1,
+      "faceCount": 95,
+      "edgeCount": 286,
+      "vertexCount": 198,
+      "volumeMm3": 47287.23994060223,
+      "smallSolidCount": 0,
+      "bboxMm": {
+        "min": [
+          -38.77976975434524,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          6.427849819584376e-05,
+          62.42831449419311,
+          78.25674381952929
+        ]
+      }
+    }
+  },
+  "thumbOpenings": {
+    "Button_wide_1": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 9.20187939664913,
+        "JfD": 0.0
+      },
+      "totalSourceShellIntersectionMm3": 9.20187939664913,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Button_side_1": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 104.39680769421926,
+        "JfD": 0.0
+      },
+      "totalSourceShellIntersectionMm3": 104.39680769421926,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Button_corner_1": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 233.00928748518356,
+        "JfD": 0.0
+      },
+      "totalSourceShellIntersectionMm3": 233.00928748518356,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Button_corner_2": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 0.0,
+        "JfD": 241.99296159542618
+      },
+      "totalSourceShellIntersectionMm3": 241.99296159542618,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Button_side_2": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 0.0,
+        "JfD": 110.54063353654318
+      },
+      "totalSourceShellIntersectionMm3": 110.54063353654318,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Button_wide_2": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 0.0,
+        "JfD": 10.14769641060969
+      },
+      "totalSourceShellIntersectionMm3": 10.14769641060969,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Button_middle_1": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 25.332024836433842,
+        "JfD": 28.252864966957212
+      },
+      "totalSourceShellIntersectionMm3": 53.58488980339105,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Button_middle_2": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 76.23209369861651,
+        "JfD": 85.48945955905292
+      },
+      "totalSourceShellIntersectionMm3": 161.72155325766943,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    },
+    "Small_joystick_attachment": {
+      "sourceShellIntersectionMm3": {
+        "JaD": 353.6247186549905,
+        "JfD": 373.33546506508634
+      },
+      "totalSourceShellIntersectionMm3": 726.9601837200769,
+      "residualAfterCutMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "totalResidualAfterCutMm3": 0.0,
+      "clearanceMm": 0.8
+    }
+  },
+  "fingerOpenings": {
+    "I2": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    },
+    "I3": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    },
+    "I4": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    },
+    "M3": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    },
+    "M4": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    },
+    "N1": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    },
+    "N2": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    },
+    "N3": {
+      "residualAfterThumbExteriorCutMm3": 0.0
+    }
+  },
+  "originalThumbOpeningFill": {
+    "JaD": {
+      "recoveredOriginalVoidVolumeMm3": 1014.5997684837818,
+      "overlapAuthorizedByNewLoweredOpeningsMm3": 144.23704912850485,
+      "oldPositionOutsideNewOpeningMm3": 870.3627193552769,
+      "finalShellFillOutsideNewOpeningMm3": 870.3626117660474,
+      "fillRatioOutsideNewOpening": 0.999999876385756
+    },
+    "JfD": {
+      "recoveredOriginalVoidVolumeMm3": 1014.5828095668107,
+      "overlapAuthorizedByNewLoweredOpeningsMm3": 157.5357957507522,
+      "oldPositionOutsideNewOpeningMm3": 857.0470138160586,
+      "finalShellFillOutsideNewOpeningMm3": 857.0469063041733,
+      "fillRatioOutsideNewOpening": 0.9999998745554403
+    }
+  },
+  "deferredInternalReview": [
+    "Thumb Backplate seating",
+    "HW504 mechanism clearance",
+    "PushBtn actuation and travel",
+    "Finger/Thumb internal interference",
+    "carrier and assembly path",
+    "wiring path",
+    "internal fastening"
+  ],
+  "gates": {
+    "LATEST FINGER 8 EXTERIOR": "PRESERVED",
+    "MAXIMUM-LOWERED THUMB EXTERIOR": "APPLIED",
+    "OLD THUMB OPENINGS": "REMOVED",
+    "THUMB MECHANISM THROUGH CUTTER": 0,
+    "EXTERNAL FASTENING GEOMETRY": 0,
+    "VALID SINGLE WATERTIGHT SHELLS": "PASS",
+    "INTERNAL DESIGN": "DEFERRED / NOT A BLOCKER FOR THIS EXTERIOR REVIEW",
+    "EXTERIOR REVIEW MOCKUP": "READY",
+    "PRODUCTION / PRINT APPROVAL": "NOT EVALUATED"
+  },
+  "outputs": {
+    "JaD": "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JAD_EXTERIOR_LOWERED_THUMB_V1.step",
+    "JfD": "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JFD_EXTERIOR_LOWERED_THUMB_V1.step",
+    "combinedReference": "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\EXTERIOR_LOWERED_THUMB_V1_COMBINED_REFERENCE.step"
+  }
+}

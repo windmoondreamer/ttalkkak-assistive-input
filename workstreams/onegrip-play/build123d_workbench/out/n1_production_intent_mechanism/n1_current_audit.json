@@ -1,0 +1,718 @@
+{
+  "schema": "onegrip.n1.current_audit.v1",
+  "generatedUtc": "2026-08-23T07:33:14.187496+00:00",
+  "mode": "READ ONLY / N1 LOCAL / SERIAL EXACT",
+  "A_capCenterMm": [
+    -10.990443464183823,
+    -35.80002827761031,
+    25.0
+  ],
+  "B_capPlane": {
+    "normal": [
+      -0.07646638594200623,
+      -0.8724593951000031,
+      -0.48266706509011453
+    ],
+    "pointMm": [
+      -10.990443464183823,
+      -35.80002827761031,
+      25.0
+    ]
+  },
+  "C_ITSActuatorCenterMm": [
+    -10.809982793360689,
+    -33.741024105174304,
+    26.13909427361267
+  ],
+  "D_capActuatorCenterOffset": {
+    "lateralMm": 1.3847223016301615e-15,
+    "axialMm": 2.359999999999998,
+    "axesCoincident": true
+  },
+  "E_capPlaneSwitchTopPlaneAngleDeg": 0.0,
+  "F_switchAxisCapTravelAxisAngleDeg": 0.0,
+  "switchTopPlane": {
+    "normal": [
+      -0.07646638594200623,
+      -0.8724593951000031,
+      -0.48266706509011453
+    ],
+    "pointMm": [
+      -10.623404811662192,
+      -31.612223181130293,
+      27.31680191243255
+    ]
+  },
+  "G_switchBodyClearance": {
+    "HW504A": {
+      "pair": "N1 ITS body<->HW504 A",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 2.3613602621767926e-12,
+      "closestPointLeftMm": [
+        -13.432137451442966,
+        -29.78081493029368,
+        31.827041903494802
+      ],
+      "closestPointRightMm": [
+        -13.43213745144,
+        -29.78081493029,
+        31.827041903495
+      ],
+      "passZeroPenetration": true
+    },
+    "HW504B": {
+      "pair": "N1 ITS body<->HW504 B",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 3.80539006697904,
+      "closestPointLeftMm": [
+        -7.270231503963478,
+        -30.1943169862166,
+        31.598281889146964
+      ],
+      "closestPointRightMm": [
+        -3.7142876727029703,
+        -29.260258270374514,
+        32.58001064300035
+      ],
+      "passZeroPenetration": true
+    }
+  },
+  "H_terminalMap": {
+    "T1": {
+      "HW504A": {
+        "pair": "N1 T1<->HW504 A",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.00027038948418199154,
+        "closestPointLeftMm": [
+          -13.720673756086095,
+          -25.607247925681886,
+          28.604673123832693
+        ],
+        "closestPointRightMm": [
+          -13.720673706914749,
+          -25.607086099368562,
+          28.60488974034881
+        ],
+        "passZeroPenetration": true
+      },
+      "HW504B": {
+        "pair": "N1 T1<->HW504 B",
+        "aabbGapMm": 2.1075311498956024,
+        "penetrationMm3": 0.0,
+        "distanceMm": 8.780297716769057,
+        "closestPointLeftMm": [
+          -13.720673756086095,
+          -25.607247925681886,
+          28.604673123832693
+        ],
+        "closestPointRightMm": [
+          -12.21741935704256,
+          -24.72208848678139,
+          37.209924251753456
+        ],
+        "passZeroPenetration": true
+      },
+      "shell": {
+        "pairCount": 2,
+        "penetrationMm3": 0.0,
+        "minimumDistanceMm": 4.611143040101312,
+        "zeroPenetration": true,
+        "pairs": [
+          {
+            "pair": "N1 T1<->N2_SEAM_JaD",
+            "aabbGapMm": 13.338095354979215,
+            "penetrationMm3": 0.0,
+            "distanceMm": 14.387137876493968,
+            "closestPointLeftMm": [
+              -13.338186034273784,
+              -27.196334652756136,
+              26.651289772696714
+            ],
+            "closestPointRightMm": [
+              7.268190935787e-14,
+              -31.06760100838,
+              22.896848882742
+            ],
+            "passZeroPenetration": true
+          },
+          {
+            "pair": "N1 T1<->N2_SEAM_JfD",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.611143040101312,
+            "closestPointLeftMm": [
+              -13.87109034811386,
+              -27.72772174147358,
+              27.431572256310844
+            ],
+            "closestPointRightMm": [
+              -15.114205160344502,
+              -31.620266291190713,
+              25.29489197410787
+            ],
+            "passZeroPenetration": true
+          }
+        ]
+      },
+      "carrier": {
+        "pair": "N1 T1<->frozen shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.4800000000003831,
+        "closestPointLeftMm": [
+          -13.338186034273784,
+          -27.196334652756136,
+          26.651289772696714
+        ],
+        "closestPointRightMm": [
+          -13.33818603427352,
+          -26.96397414708121,
+          26.23127954019891
+        ],
+        "passZeroPenetration": true
+      }
+    },
+    "T2": {
+      "HW504A": {
+        "pair": "N1 T2<->HW504 A",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 4.2248921257964537e-13,
+        "closestPointLeftMm": [
+          -13.72067375608614,
+          -27.330588342776423,
+          31.719749014851157
+        ],
+        "closestPointRightMm": [
+          -13.72067375608,
+          -27.33058834277,
+          31.719749014851
+        ],
+        "passZeroPenetration": true
+      },
+      "HW504B": {
+        "pair": "N1 T2<->HW504 B",
+        "aabbGapMm": 1.1196747470840922,
+        "penetrationMm3": 0.0,
+        "distanceMm": 5.659790255051002,
+        "closestPointLeftMm": [
+          -13.720673756086095,
+          -27.785627666391886,
+          32.54226905349069
+        ],
+        "closestPointRightMm": [
+          -12.216938409494047,
+          -25.233514062736063,
+          37.36499876731614
+        ],
+        "passZeroPenetration": true
+      },
+      "shell": {
+        "pairCount": 2,
+        "penetrationMm3": 0.0,
+        "minimumDistanceMm": 4.651589965878213,
+        "zeroPenetration": true,
+        "pairs": [
+          {
+            "pair": "N1 T2<->N2_SEAM_JaD",
+            "aabbGapMm": 13.338095354979215,
+            "penetrationMm3": 0.0,
+            "distanceMm": 14.513618523216552,
+            "closestPointLeftMm": [
+              -13.338186034273741,
+              -29.829753717081598,
+              31.411405740994248
+            ],
+            "closestPointRightMm": [
+              1.491831083207e-13,
+              -35.39860703084,
+              30.097712960167
+            ],
+            "passZeroPenetration": true
+          },
+          {
+            "pair": "N1 T2<->N2_SEAM_JfD",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.651589965878213,
+            "closestPointLeftMm": [
+              -13.871090348113905,
+              -29.451062158568117,
+              30.546648147329307
+            ],
+            "closestPointRightMm": [
+              -15.080454136060942,
+              -33.322378662452145,
+              28.269009684838736
+            ],
+            "passZeroPenetration": true
+          }
+        ]
+      },
+      "carrier": {
+        "pair": "N1 T2<->frozen shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 3.115267967093488,
+        "closestPointLeftMm": [
+          -13.379240791995594,
+          -29.155305782475274,
+          30.710268211291307
+        ],
+        "closestPointRightMm": [
+          -12.58975291964,
+          -27.58471848979,
+          28.138331399809
+        ],
+        "passZeroPenetration": true
+      }
+    },
+    "T3": {
+      "HW504A": {
+        "pair": "N1 T3<->HW504 A",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.48213580646207427,
+        "closestPointLeftMm": [
+          -6.6660613600785785,
+          -26.080656113725812,
+          28.342771490363276
+        ],
+        "closestPointRightMm": [
+          -6.665973681865124,
+          -25.792101030612354,
+          28.72902385889291
+        ],
+        "passZeroPenetration": true
+      },
+      "HW504B": {
+        "pair": "N1 T3<->HW504 B",
+        "aabbGapMm": 2.0474032460484857,
+        "penetrationMm3": 0.0,
+        "distanceMm": 4.481008656298749,
+        "closestPointLeftMm": [
+          -6.152693637195061,
+          -26.227215213101406,
+          28.261691212295137
+        ],
+        "closestPointRightMm": [
+          -2.9265417673090104,
+          -27.357986331229036,
+          31.15871371284004
+        ],
+        "passZeroPenetration": true
+      },
+      "shell": {
+        "pairCount": 2,
+        "penetrationMm3": 0.0,
+        "minimumDistanceMm": 4.808958648413854,
+        "zeroPenetration": true,
+        "pairs": [
+          {
+            "pair": "N1 T3<->N2_SEAM_JaD",
+            "aabbGapMm": 6.152602957900423,
+            "penetrationMm3": 0.0,
+            "distanceMm": 8.391439404858321,
+            "closestPointLeftMm": [
+              -6.886926734341421,
+              -27.74136305625419,
+              26.34976598673672
+            ],
+            "closestPointRightMm": [
+              7.268190935787e-14,
+              -31.06760100838,
+              22.896848882742
+            ],
+            "passZeroPenetration": true
+          },
+          {
+            "pair": "N1 T3<->N2_SEAM_JfD",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.808958648413854,
+            "closestPointLeftMm": [
+              -6.886926734341535,
+              -28.19640237986968,
+              27.17228602537624
+            ],
+            "closestPointRightMm": [
+              -6.678429000729625,
+              -32.414987231804076,
+              24.873122302571197
+            ],
+            "passZeroPenetration": true
+          }
+        ]
+      },
+      "carrier": {
+        "pair": "N1 T3<->frozen shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 6.458639023432168e-13,
+        "closestPointLeftMm": [
+          -6.666061360078465,
+          -25.62561679011032,
+          27.520251451723755
+        ],
+        "closestPointRightMm": [
+          -6.6660613600778955,
+          -25.625616790108793,
+          27.5202514517246
+        ],
+        "passZeroPenetration": true
+      }
+    },
+    "T4": {
+      "HW504A": {
+        "pair": "N1 T4<->HW504 A",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.7657087110801759,
+        "closestPointLeftMm": [
+          -6.2500850715181135,
+          -28.211756008342416,
+          31.232264309683814
+        ],
+        "closestPointRightMm": [
+          -6.125321089555229,
+          -27.882191506569463,
+          30.552462119190157
+        ],
+        "passZeroPenetration": true
+      },
+      "HW504B": {
+        "pair": "N1 T4<->HW504 B",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 2.4826390919825143,
+        "closestPointLeftMm": [
+          -6.152693637195061,
+          -28.405594953811406,
+          32.199287141953135
+        ],
+        "closestPointRightMm": [
+          -3.689876460447916,
+          -28.656691757594885,
+          32.386313370297465
+        ],
+        "passZeroPenetration": true
+      },
+      "shell": {
+        "pairCount": 2,
+        "penetrationMm3": 0.0,
+        "minimumDistanceMm": 4.848436244150582,
+        "zeroPenetration": true,
+        "pairs": [
+          {
+            "pair": "N1 T4<->N2_SEAM_JaD",
+            "aabbGapMm": 6.152602957900423,
+            "penetrationMm3": 0.0,
+            "distanceMm": 8.58446635774833,
+            "closestPointLeftMm": [
+              -6.886926734341535,
+              -30.37478212057968,
+              31.109881955034243
+            ],
+            "closestPointRightMm": [
+              1.491831083207e-13,
+              -35.39860703084,
+              30.097712960167
+            ],
+            "passZeroPenetration": true
+          },
+          {
+            "pair": "N1 T4<->N2_SEAM_JfD",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.848436244150582,
+            "closestPointLeftMm": [
+              -6.886926734341421,
+              -29.91974279696419,
+              30.287361916394723
+            ],
+            "closestPointRightMm": [
+              -6.82578524547367,
+              -34.09627945673944,
+              27.825627312200872
+            ],
+            "passZeroPenetration": true
+          }
+        ]
+      },
+      "carrier": {
+        "pair": "N1 T4<->frozen shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 2.1490305165857215,
+        "closestPointLeftMm": [
+          -6.886926734341421,
+          -29.91974279696419,
+          30.287361916394723
+        ],
+        "closestPointRightMm": [
+          -6.886926734341421,
+          -29.91974279696419,
+          28.138331399809
+        ],
+        "passZeroPenetration": true
+      }
+    }
+  },
+  "I_currentCarrierHW504": {
+    "pairCount": 2,
+    "penetrationMm3": 0.0,
+    "minimumDistanceMm": 0.3041803464295279,
+    "zeroPenetration": true,
+    "pairs": [
+      {
+        "pair": "frozen shared carrier<->HW504 A",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.3041803464295279,
+        "closestPointLeftMm": [
+          -3.100064401335,
+          -24.88394758486,
+          27.670075835437
+        ],
+        "closestPointRightMm": [
+          -3.100009084992622,
+          -24.701897664549097,
+          27.9137631486252
+        ],
+        "passZeroPenetration": true
+      },
+      {
+        "pair": "frozen shared carrier<->HW504 B",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.360983710065809,
+        "closestPointLeftMm": [
+          -2.70649129313,
+          -29.07157442112,
+          30.739988206556
+        ],
+        "closestPointRightMm": [
+          -2.7062437931131154,
+          -28.257034695361085,
+          31.830310009038563
+        ],
+        "passZeroPenetration": true
+      }
+    ]
+  },
+  "J_localShellClearance": {
+    "cap": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 0.19999999999766443,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "N1 cap<->N2_SEAM_JaD",
+          "aabbGapMm": 7.029432763972065,
+          "penetrationMm3": 0.0,
+          "distanceMm": 7.057003683358171,
+          "closestPointLeftMm": [
+            -7.029523443267,
+            -34.13018351802,
+            21.768478521379
+          ],
+          "closestPointRightMm": [
+            0.0,
+            -33.6550631297,
+            21.366779922809
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "N1 cap<->N2_SEAM_JfD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.19999999999766443,
+          "closestPointLeftMm": [
+            -7.029523443267,
+            -34.13018351802,
+            21.768478521379
+          ],
+          "closestPointRightMm": [
+            -6.830287204123207,
+            -34.14764550563975,
+            21.768478521379
+          ],
+          "passZeroPenetration": true
+        }
+      ]
+    },
+    "switchBody": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 1.6371224804789821,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "N1 switch body<->N2_SEAM_JaD",
+          "aabbGapMm": 7.270140824668938,
+          "penetrationMm3": 0.0,
+          "distanceMm": 7.750598662806634,
+          "closestPointLeftMm": [
+            -7.542451837917035,
+            -30.33767598540632,
+            24.5248566730912
+          ],
+          "closestPointRightMm": [
+            7.268190935787e-14,
+            -31.06760100838,
+            22.896848882742
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "N1 switch body<->N2_SEAM_JfD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 1.6371224804789821,
+          "closestPointLeftMm": [
+            -13.704357785396523,
+            -29.974752008313764,
+            24.845040617624598
+          ],
+          "closestPointRightMm": [
+            -14.60030494449592,
+            -31.173706429907924,
+            24.181748073469915
+          ],
+          "passZeroPenetration": true
+        }
+      ]
+    },
+    "actuator": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 2.324999999994846,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "N1 actuator<->N2_SEAM_JaD",
+          "aabbGapMm": 8.953218264724121,
+          "penetrationMm3": 0.0,
+          "distanceMm": 9.812986291552537,
+          "closestPointLeftMm": [
+            -9.12971467938397,
+            -32.163201429921685,
+            26.32360675973816
+          ],
+          "closestPointRightMm": [
+            7.268190935787e-14,
+            -31.06760100838,
+            22.896848882742
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "N1 actuator<->N2_SEAM_JfD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 2.324999999994846,
+          "closestPointLeftMm": [
+            -10.88057002624827,
+            -34.546404060683656,
+            27.606065837691084
+          ],
+          "closestPointRightMm": [
+            -10.978549319661536,
+            -35.66431952132094,
+            29.642309949024266
+          ],
+          "passZeroPenetration": true
+        }
+      ]
+    },
+    "carrier": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 0.24097489252543267,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "frozen shared carrier<->N2_SEAM_JaD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.24097489252543267,
+          "closestPointLeftMm": [
+            4.699698103079,
+            -34.89242569506,
+            29.606923482526
+          ],
+          "closestPointRightMm": [
+            4.697918777115929,
+            -35.09745776310469,
+            29.480323388133947
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "frozen shared carrier<->N2_SEAM_JfD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.33446718447980417,
+          "closestPointLeftMm": [
+            0.014438238494651619,
+            -30.7801600842871,
+            23.067252961095885
+          ],
+          "closestPointRightMm": [
+            -7.268190935787e-14,
+            -31.06760100838,
+            22.896848882742
+          ],
+          "passZeroPenetration": true
+        }
+      ]
+    }
+  },
+  "currentInternalToHW504": {
+    "A": {
+      "pair": "N1 current internal<->HW504 A",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 4.2248921257964537e-13,
+      "closestPointLeftMm": [
+        -13.432137451442966,
+        -29.78081493029368,
+        31.827041903494802
+      ],
+      "closestPointRightMm": [
+        -13.43213745144,
+        -29.78081493029,
+        31.827041903495
+      ],
+      "passZeroPenetration": true
+    },
+    "B": {
+      "pair": "N1 current internal<->HW504 B",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 2.4826390919825143,
+      "closestPointLeftMm": [
+        -6.152693637195061,
+        -28.405594953811406,
+        32.199287141953135
+      ],
+      "closestPointRightMm": [
+        -3.689876460447916,
+        -28.656691757594885,
+        32.386313370297465
+      ],
+      "passZeroPenetration": true
+    }
+  },
+  "conclusion": {
+    "capSwitchAlignment": "COAXIAL_AND_PARALLEL",
+    "directActuationCandidate": true,
+    "externalChangeRequired": false,
+    "terminalTrimIndicated": false
+  }
+}
