@@ -1,0 +1,725 @@
+{
+  "source": {
+    "document": "OneGrip_Play_V1",
+    "workspace": "Main",
+    "partStudio": "Joystick",
+    "stage": "Stage D",
+    "zip": "Joystick_Current_Main_StageD.zip",
+    "zipSha256": "f827cf9f3ef0e0036f75a3ce377faf0bfd2da683d8f5a0a17ef1161a3543883d",
+    "sourceStlCount": 30,
+    "coordinatePolicy": "all selected triangles preserved in original current-Main coordinates"
+  },
+  "selection": {
+    "selectedExteriorSolids": [
+      "Joystick_1",
+      "Joystick_2",
+      "Backplate",
+      "Button_wide_1",
+      "Button_side_1",
+      "Button_corner_1",
+      "Button_corner_2",
+      "Button_side_2",
+      "Button_wide_2",
+      "Button_middle_1",
+      "Button_middle_2",
+      "Part 13",
+      "Part 14",
+      "Part 15",
+      "Part 16",
+      "Part 24",
+      "Part 26",
+      "Part 28",
+      "Part 30"
+    ],
+    "selectedCount": 19,
+    "excluded": {
+      "Small_joystick_attachment": "Part Studio staging position; assembly mate transform is not present in this ZIP",
+      "Part 17/18": "internal retainers",
+      "Part 19/20/21/22/23/25/27/29": "internal spacers"
+    }
+  },
+  "outputs": {
+    "alignment": {
+      "file": "OneGrip_Current_Main_Exterior_Alignment_Check.stl",
+      "triangles": 133718,
+      "sha256": "fd642a9082e33d2a7b0a0c077bb072799f196371f137ab1118ebd063f3c89b1b",
+      "purpose": "exact multi-solid position/alignment validation"
+    },
+    "printableMockup": {
+      "file": "OneGrip_Current_Main_Exterior_Mockup_SlicerUnion.stl",
+      "triangles": 135318,
+      "sha256": "dbd6bca8f397a2baa35e8f8cc2ebcb274eb0e638c9bd358fa6a40f7ecd420c30",
+      "purpose": "non-functional handling mockup; enable union-overlapping-volumes in slicer",
+      "bridgeCount": 20,
+      "bridgePolicy": "closed cylinders with 1.2 mm positive target penetration; no source part moved"
+    }
+  },
+  "partAudit": {
+    "Joystick_1": {
+      "role": "Joystick_1",
+      "triangles": 59548,
+      "bboxMinMm": [
+        -1.8401621372510224e-13,
+        -61.42555236816406,
+        -73.87850952148438
+      ],
+      "bboxMaxMm": [
+        38.75876235961914,
+        62.427490234375,
+        78.25527954101562
+      ],
+      "volumeMm3": 47716.04588848075,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Joystick_2": {
+      "role": "Joystick_2",
+      "triangles": 59110,
+      "bboxMinMm": [
+        -38.75876235961914,
+        -61.42555236816406,
+        -73.87850952148438
+      ],
+      "bboxMaxMm": [
+        4.638045589949735e-13,
+        62.427490234375,
+        78.25527954101562
+      ],
+      "volumeMm3": 50184.63112799253,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Backplate": {
+      "role": "Backplate",
+      "triangles": 1928,
+      "bboxMinMm": [
+        -20.275609970092773,
+        -48.78539276123047,
+        22.54690170288086
+      ],
+      "bboxMaxMm": [
+        20.275609970092773,
+        9.393067359924316,
+        67.36646270751953
+      ],
+      "volumeMm3": 5897.941591458391,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_wide_1": {
+      "role": "Button_wide_1",
+      "triangles": 58,
+      "bboxMinMm": [
+        3.3567464351654053,
+        -15.65561294555664,
+        45.873878479003906
+      ],
+      "bboxMaxMm": [
+        12.956747055053711,
+        -7.5565690994262695,
+        53.56532287597656
+      ],
+      "volumeMm3": 288.09376612894863,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_side_1": {
+      "role": "Button_side_1",
+      "triangles": 86,
+      "bboxMinMm": [
+        7.199999809265137,
+        -6.633047103881836,
+        37.30298614501953
+      ],
+      "bboxMaxMm": [
+        14.800000190734863,
+        2.3367717266082764,
+        46.008705139160156
+      ],
+      "volumeMm3": 270.79449059882455,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_corner_1": {
+      "role": "Button_corner_1",
+      "triangles": 274,
+      "bboxMinMm": [
+        7.199999809265137,
+        1.6376374959945679,
+        30.052383422851562
+      ],
+      "bboxMaxMm": [
+        14.79743480682373,
+        10.31095027923584,
+        38.720088958740234
+      ],
+      "volumeMm3": 199.2134946257518,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_corner_2": {
+      "role": "Button_corner_2",
+      "triangles": 272,
+      "bboxMinMm": [
+        -14.79743480682373,
+        1.6376374959945679,
+        30.052383422851562
+      ],
+      "bboxMaxMm": [
+        -7.199999809265137,
+        10.31095027923584,
+        38.720088958740234
+      ],
+      "volumeMm3": 199.19566200073768,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_side_2": {
+      "role": "Button_side_2",
+      "triangles": 86,
+      "bboxMinMm": [
+        -14.800000190734863,
+        -6.633047103881836,
+        37.30298614501953
+      ],
+      "bboxMaxMm": [
+        -7.199999809265137,
+        2.3367717266082764,
+        46.008705139160156
+      ],
+      "volumeMm3": 270.78561787359064,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_wide_2": {
+      "role": "Button_wide_2",
+      "triangles": 58,
+      "bboxMinMm": [
+        -12.956747055053711,
+        -15.65561294555664,
+        45.873878479003906
+      ],
+      "bboxMaxMm": [
+        -3.3567464351654053,
+        -7.5565690994262695,
+        53.56532287597656
+      ],
+      "volumeMm3": 288.05909987401395,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_middle_1": {
+      "role": "Button_middle_1",
+      "triangles": 12,
+      "bboxMinMm": [
+        -3.799999952316284,
+        -6.633047103881836,
+        37.30298614501953
+      ],
+      "bboxMaxMm": [
+        3.799999952316284,
+        2.220839262008667,
+        45.89413070678711
+      ],
+      "volumeMm3": 275.0541840102239,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_middle_2": {
+      "role": "Button_middle_2",
+      "triangles": 12,
+      "bboxMinMm": [
+        -3.799999952316284,
+        1.6376374959945679,
+        30.05069351196289
+      ],
+      "bboxMaxMm": [
+        3.799999952316284,
+        10.491523742675781,
+        38.64183807373047
+      ],
+      "volumeMm3": 275.05414312000687,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 13": {
+      "role": "INDEX I1 cap",
+      "triangles": 590,
+      "bboxMinMm": [
+        -25.510358810424805,
+        -21.775737762451172,
+        4.959203720092773
+      ],
+      "bboxMaxMm": [
+        -17.82276725769043,
+        -12.926074981689453,
+        13.380142211914062
+      ],
+      "volumeMm3": 231.57790899222945,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 14": {
+      "role": "INDEX I2 cap",
+      "triangles": 590,
+      "bboxMinMm": [
+        -20.82251739501953,
+        -30.838064193725586,
+        4.996984958648682
+      ],
+      "bboxMaxMm": [
+        -10.550629615783691,
+        -20.693819046020508,
+        13.58354663848877
+      ],
+      "volumeMm3": 231.6148148883124,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 15": {
+      "role": "INDEX I3 cap",
+      "triangles": 590,
+      "bboxMinMm": [
+        -9.39102554321289,
+        -31.924158096313477,
+        4.956785202026367
+      ],
+      "bboxMaxMm": [
+        -1.5550137758255005,
+        -25.579099655151367,
+        13.393741607666016
+      ],
+      "volumeMm3": 231.57827258449535,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 16": {
+      "role": "INDEX I4 cap",
+      "triangles": 590,
+      "bboxMinMm": [
+        1.5550137758255005,
+        -31.924158096313477,
+        4.956785202026367
+      ],
+      "bboxMaxMm": [
+        9.39102554321289,
+        -25.579099655151367,
+        13.393741607666016
+      ],
+      "volumeMm3": 232.50220117373513,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 24": {
+      "role": "MIDDLE M1 cap",
+      "triangles": 2604,
+      "bboxMinMm": [
+        -21.561368942260742,
+        -4.739034175872803,
+        -15.068222045898438
+      ],
+      "bboxMaxMm": [
+        -16.67667007446289,
+        3.7307493686676025,
+        -6.86830472946167
+      ],
+      "volumeMm3": 127.92438771910618,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 26": {
+      "role": "MIDDLE M2 cap",
+      "triangles": 2542,
+      "bboxMinMm": [
+        -17.45352554321289,
+        -12.838837623596191,
+        -17.663280487060547
+      ],
+      "bboxMaxMm": [
+        -7.664709568023682,
+        -3.6593940258026123,
+        -9.869879722595215
+      ],
+      "volumeMm3": 127.84351967692344,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 28": {
+      "role": "MIDDLE M3 cap",
+      "triangles": 2444,
+      "bboxMinMm": [
+        -7.8375654220581055,
+        -17.481197357177734,
+        -14.437575340270996
+      ],
+      "bboxMaxMm": [
+        0.9067890644073486,
+        -10.238450050354004,
+        -6.968726634979248
+      ],
+      "volumeMm3": 127.56286724811672,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Part 30": {
+      "role": "MIDDLE M4 cap",
+      "triangles": 2324,
+      "bboxMinMm": [
+        2.5805904865264893,
+        -17.121139526367188,
+        -14.463065147399902
+      ],
+      "bboxMaxMm": [
+        11.99326229095459,
+        -8.936196327209473,
+        -6.956049919128418
+      ],
+      "volumeMm3": 128.7997944877729,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    }
+  },
+  "capToOpeningSanity": {
+    "method": "sampled source-mesh vertex proximity; sanity check only",
+    "distanceMm": {
+      "Button_wide_1": 0.4272669680188279,
+      "Button_side_1": 0.3105629690497579,
+      "Button_corner_1": 0.4527571828563352,
+      "Button_corner_2": 0.4527571828563352,
+      "Button_side_2": 0.30796571843794607,
+      "Button_wide_2": 0.4272669680188279,
+      "Button_middle_1": 0.6818089139289719,
+      "Button_middle_2": 0.40860643818349085,
+      "Part 13": 0.22823960265913404,
+      "Part 14": 0.24494793759082814,
+      "Part 15": 0.2449494549493848,
+      "Part 16": 0.2449494549493848,
+      "Part 24": 0.30148658103802783,
+      "Part 26": 0.3829836314870391,
+      "Part 28": 0.47521481974576574,
+      "Part 30": 0.5409264114951304
+    },
+    "primaryGate": "all shells and caps come from one 30-solid current-Main Part Studio export with zero transforms"
+  },
+  "bridges": [
+    {
+      "name": "shell seam bridge 1",
+      "start": [
+        -1.6,
+        7.676780502001445,
+        -59.9608268737793
+      ],
+      "end": [
+        1.6,
+        7.676780502001445,
+        -59.9608268737793
+      ],
+      "radiusMm": 1.25
+    },
+    {
+      "name": "shell seam bridge 2",
+      "start": [
+        -1.6,
+        41.77182642618815,
+        -64.87850952148438
+      ],
+      "end": [
+        1.6,
+        41.77182642618815,
+        -64.87850952148438
+      ],
+      "radiusMm": 1.25
+    },
+    {
+      "name": "shell seam bridge 3",
+      "start": [
+        -1.6,
+        -51.55738830566406,
+        70.88083521525066
+      ],
+      "end": [
+        1.6,
+        -51.55738830566406,
+        70.88083521525066
+      ],
+      "radiusMm": 1.25
+    },
+    {
+      "name": "Backplate to shell",
+      "start": [
+        0.0,
+        -19.97108272103526,
+        44.740074305083276
+      ],
+      "end": [
+        -0.0,
+        -12.993284072975376,
+        50.23784165754371
+      ],
+      "radiusMm": 1.1,
+      "centerToNearestTargetVertexMm": 7.333418251700534,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_wide_1 to module",
+      "start": [
+        8.139963604590982,
+        -11.755446601659749,
+        50.03568806598531
+      ],
+      "end": [
+        8.393368196063694,
+        -9.500362728565852,
+        45.26316081087402
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 3.73456559827274,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_side_1 to module",
+      "start": [
+        10.65109152984516,
+        -2.1582643809152375,
+        41.63014876372482
+      ],
+      "end": [
+        16.19625761195945,
+        -1.9973219121881447,
+        42.03854658296579
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 4.012513652588324,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_corner_1 to module",
+      "start": [
+        10.750722656946063,
+        5.812518880333951,
+        34.57285746516125
+      ],
+      "end": [
+        13.56478737519441,
+        7.648225167821439,
+        32.45521363074736
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 2.4215479629286114,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_corner_2 to module",
+      "start": [
+        -10.750722656946063,
+        5.812518880333951,
+        34.57285746516125
+      ],
+      "end": [
+        -13.56478737519441,
+        7.648225167821439,
+        32.45521363074736
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 2.4215479629286114,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_side_2 to module",
+      "start": [
+        -10.65109152984516,
+        -2.1582643809152375,
+        41.63014876372482
+      ],
+      "end": [
+        -16.19625761195945,
+        -1.9973219121881447,
+        42.03854658296579
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 4.012513652588324,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_wide_2 to module",
+      "start": [
+        -8.139963604590982,
+        -11.755446601659749,
+        50.03568806598531
+      ],
+      "end": [
+        -8.393368196063694,
+        -9.500362728565852,
+        45.26316081087402
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 3.73456559827274,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_middle_1 to module",
+      "start": [
+        0.0,
+        -2.524166175745975,
+        41.74462827928028
+      ],
+      "end": [
+        0.0,
+        2.677075159346481,
+        39.35596207413614
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 4.173516197712039,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "Button_middle_2 to module",
+      "start": [
+        0.0,
+        5.780857245056797,
+        34.551207362295365
+      ],
+      "end": [
+        -0.0,
+        10.294380854668724,
+        31.29095919046164
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 4.017864358662973,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "INDEX I1 cap to shell",
+      "start": [
+        -21.839550864816,
+        -17.46810024144505,
+        8.888886913304061
+      ],
+      "end": [
+        -19.535285865971257,
+        -15.90703244785804,
+        12.629066037826364
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 3.112135747121484,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "INDEX I2 cap to shell",
+      "start": [
+        -15.610502309188133,
+        -26.0857512566804,
+        9.170120181454324
+      ],
+      "end": [
+        -16.650894529874783,
+        -21.71185581666051,
+        10.813298830106515
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 3.2367957303898534,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "INDEX I3 cap to shell",
+      "start": [
+        -5.247664117666811,
+        -29.010250853958798,
+        9.105768425641264
+      ],
+      "end": [
+        -8.321155572065319,
+        -25.483058074652423,
+        10.05356950013118
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 3.223443777762124,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "INDEX I4 cap to shell",
+      "start": [
+        5.678334715788945,
+        -28.894530358502834,
+        8.930467788278069
+      ],
+      "end": [
+        2.487413664218003,
+        -26.673615059072873,
+        12.734979256804992
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 3.8895541580862645,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "MIDDLE M1 cap to shell",
+      "start": [
+        -19.434195794605195,
+        -0.36366793520469576,
+        -11.026836694895518
+      ],
+      "end": [
+        -15.831399590022697,
+        -1.9694387487928147,
+        -10.35728223240412
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 2.4508678528248917,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "MIDDLE M2 cap to shell",
+      "start": [
+        -12.62749654080756,
+        -8.398898652101776,
+        -14.075431879956074
+      ],
+      "end": [
+        -11.84192376506535,
+        -6.678116877477575,
+        -10.52718462813191
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 2.470979117322529,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "MIDDLE M3 cap to shell",
+      "start": [
+        -3.6677157397528415,
+        -14.095919810588757,
+        -10.863843820172871
+      ],
+      "end": [
+        -1.376816505391556,
+        -11.422668633750096,
+        -9.044363145550575
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 2.412953580574774,
+      "positiveTargetPenetrationMm": 1.2
+    },
+    {
+      "name": "MIDDLE M4 cap to shell",
+      "start": [
+        7.130353651899151,
+        -13.167967918456023,
+        -10.989879652261891
+      ],
+      "end": [
+        9.200576812027618,
+        -11.326127028567909,
+        -7.28342759200778
+      ],
+      "radiusMm": 0.72,
+      "centerToNearestTargetVertexMm": 3.0777412061780285,
+      "positiveTargetPenetrationMm": 1.2
+    }
+  ],
+  "limitations": [
+    "This is a non-functional exterior handling mockup; buttons are immobilized by sacrificial bridges.",
+    "The printable STL contains closed overlapping shells, not a CAD B-rep boolean union. Enable slicer union/merge overlapping volumes.",
+    "Small_joystick_attachment is intentionally omitted because its assembly mate transform is not encoded in the Part Studio ZIP."
+  ]
+}

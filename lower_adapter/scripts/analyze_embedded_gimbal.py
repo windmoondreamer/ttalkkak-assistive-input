@@ -35,8 +35,8 @@ H_BOSS = BOSS_OD / 2                           # 축 기준 상하 반경
 
 # ---- 원본 짐벌 실측 (asm_gimbal.json 에서) ----
 ORIG_PIVOT_DEPTH = 46.982
-ORIG_TOTAL_H = 122.47
-ORIG_FOOTPRINT = (100.0, 151.4)
+ORIG_TOTAL_H = 82.078   # 정정 2026-08-21 (docs/05 §0). 구값 122.47 = 서브어셈블리 transform 오적용
+ORIG_FOOTPRINT = (100.0, 143.0)  # 정정 2026-08-21 (docs/05 §0)
 
 
 def load(n, shared=True):

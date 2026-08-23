@@ -1,0 +1,2045 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-21T17:04:39.274392+00:00",
+  "mode": "LOCAL-FIRST / filesystem-only / Onshape calls 0 / CAD write 0",
+  "projectRoot": "C:\\Users\\User\\Desktop\\OneGrip-Play",
+  "policy": {
+    "step": "immutable editable B-rep interface; never overwritten",
+    "stl": "triangulated reference or manufacturing output; not an editable shell baseline",
+    "generatedGeometry": "build123d Python source is parametric source of truth"
+  },
+  "requiredBaselineStatus": {
+    "JaDShellStep": {
+      "status": "FOUND",
+      "paths": [
+        "local_cad/reference/JAD_CLEAN_PRE_FINGER.step"
+      ]
+    },
+    "JfDShellStep": {
+      "status": "FOUND",
+      "paths": [
+        "local_cad/reference/JFD_CLEAN_PRE_FINGER.step"
+      ]
+    },
+    "separateScrewBrep": {
+      "status": "MISSING",
+      "paths": [],
+      "note": "Screw keep-outs exist in validation data, but no separate editable screw STEP was found."
+    },
+    "approvedMiddleBrep": {
+      "status": "FOUND",
+      "paths": [
+        "build123d_workbench/out/middle_redesign/M1_cap.step",
+        "build123d_workbench/out/middle_redesign/M1_ITS1105_reference.step",
+        "build123d_workbench/out/middle_redesign/M1_M2_M3_shared_carrier.step",
+        "build123d_workbench/out/middle_redesign/M2_cap.step",
+        "build123d_workbench/out/middle_redesign/M2_ITS1105_reference.step",
+        "build123d_workbench/out/middle_redesign/M3_cap.step",
+        "build123d_workbench/out/middle_redesign/M3_ITS1105_reference.step",
+        "build123d_workbench/out/middle_redesign/M4_cap.step",
+        "build123d_workbench/out/middle_redesign/M4_ITS1105_reference.step",
+        "build123d_workbench/out/middle_redesign/M4_single_carrier.step",
+        "build123d_workbench/out/middle_redesign/MIDDLE_printable_parts_6.step",
+        "build123d_workbench/out/middle_redesign/MIDDLE_reference_with_ITS1105.step"
+      ]
+    }
+  },
+  "summary": {
+    "entryCount": 72,
+    "stepCount": 27,
+    "stlCount": 45,
+    "exactBrepCount": 27,
+    "meshOnlyCount": 32
+  },
+  "entries": [
+    {
+      "path": "build123d_workbench/out/finger_layout_reset/CLEAN_SHELL_EXTERNAL_LAYOUT_REVIEW.step",
+      "format": "step",
+      "role": "local CAD reference",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 3454448,
+      "modifiedUtc": "2026-08-21T16:56:51.367525+00:00",
+      "sha256": "2c08642e818fb0fd543c0cd40935f5a5b794214b7208083dbc4e8cc7b0680110",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 19,
+      "connectedComponentCount": 19,
+      "watertight": true,
+      "volumeMm3": 102950.77853056797,
+      "bboxMm": {
+        "min": [
+          -38.77976975433841,
+          -61.4319441248594,
+          -73.8785085486
+        ],
+        "max": [
+          38.77976975434534,
+          62.42831449597687,
+          78.25678350405059
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/finger_layout_reset/FINGER_LAYOUT_EXTERNAL_MARKERS_8.step",
+      "format": "step",
+      "role": "local CAD reference",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 146283,
+      "modifiedUtc": "2026-08-21T16:56:50.912035+00:00",
+      "sha256": "b83a05a5857c45f080fb1ece94b177ec19e23e567a02f709f876f1deec38e2d2",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 8,
+      "connectedComponentCount": 8,
+      "watertight": true,
+      "volumeMm3": 554.4959999995164,
+      "bboxMm": {
+        "min": [
+          -20.729208116242912,
+          -39.00588796184305,
+          -15.06158762258
+        ],
+        "max": [
+          21.921662721368982,
+          -2.574414875007,
+          28.328054891639
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/JaD_RZKD_carrier_extension.step",
+      "format": "step",
+      "role": "local CAD reference",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 49436,
+      "modifiedUtc": "2026-08-21T14:02:34.785560+00:00",
+      "sha256": "5975257bf4853f057dbc133c254de20fa7dd3cc4147858d39e8ce364555ddccd",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 3,
+      "connectedComponentCount": 3,
+      "watertight": true,
+      "volumeMm3": 409.3317942973633,
+      "bboxMm": {
+        "min": [
+          2.1121153324668294,
+          -21.33943521834616,
+          -7.38686235627058
+        ],
+        "max": [
+          7.5059346379171705,
+          -0.6809385173324962,
+          14.413828540657637
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/JfD_RWID_carrier_extension.step",
+      "format": "step",
+      "role": "local CAD reference",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 166378,
+      "modifiedUtc": "2026-08-21T14:02:34.754899+00:00",
+      "sha256": "d3b5a3539bcfbf1ac00a714fa22c454efab364e5a0670966906ab99321224c18",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 10,
+      "connectedComponentCount": 10,
+      "watertight": true,
+      "volumeMm3": 1032.3408205675073,
+      "bboxMm": {
+        "min": [
+          -15.966852112089189,
+          -23.26064269123477,
+          -14.51128893433944
+        ],
+        "max": [
+          -1.3260024575146145,
+          8.635393408173396,
+          20.84801580511905
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M1_cap.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 98075,
+      "modifiedUtc": "2026-08-21T14:00:21.568098+00:00",
+      "sha256": "0c5489f46e002df9489398e24bb536c769b6150d0b6e49672b84b8d5565cb224",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 214.84936560991952,
+      "bboxMm": {
+        "min": [
+          -22.00543953713,
+          0.968615563448,
+          -15.51828389803
+        ],
+        "max": [
+          -15.595472945535333,
+          8.626311049656,
+          -5.8436023111283735
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M1_cap.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 46284,
+      "modifiedUtc": "2026-08-21T14:00:21.582876+00:00",
+      "sha256": "fd3615a51474c2457803f457ae04acd8cecce95ba95fbb6fd74640c745151a4f",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 924,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 214.84648624877448,
+      "bboxMm": {
+        "min": [
+          -22.00543975830078,
+          0.9686155915260315,
+          -15.51828384399414
+        ],
+        "max": [
+          -15.595473289489746,
+          8.626311302185059,
+          -5.843602180480957
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M1_ITS1105_reference.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 22025,
+      "modifiedUtc": "2026-08-21T14:00:21.669068+00:00",
+      "sha256": "c4857a8feef25e30f1270215953ab88ed0b7327cf5a88a6a04f9f7868d0aa95d",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 156.15137536835252,
+      "bboxMm": {
+        "min": [
+          -18.70656792265959,
+          1.8649205980869334,
+          -13.65674572052
+        ],
+        "max": [
+          -12.08052228562,
+          8.105619670522,
+          -7.089543806221065
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M1_ITS1105_reference.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 42684,
+      "modifiedUtc": "2026-08-21T14:00:21.678166+00:00",
+      "sha256": "183477f20c863da4613bd30dea05d0369de5d7052a751702e5c2aa8e3356f9da",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 852,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 156.14817360108285,
+      "bboxMm": {
+        "min": [
+          -18.706562042236328,
+          1.8649206161499023,
+          -13.656745910644531
+        ],
+        "max": [
+          -12.080522537231445,
+          8.105619430541992,
+          -7.08954381942749
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M1_M2_M3_shared_carrier.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 828325,
+      "modifiedUtc": "2026-08-21T14:00:21.458555+00:00",
+      "sha256": "94dffd43d1aac44ec75183dee6e2e88a10bc6f468654d61ede07b6b2976de4d1",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 690.4546356084174,
+      "bboxMm": {
+        "min": [
+          -18.34853893031228,
+          -14.064446738391426,
+          -15.29929693591
+        ],
+        "max": [
+          1.2936416932741472,
+          10.554360618668,
+          1.3515292483417838
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M1_M2_M3_shared_carrier.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 39584,
+      "modifiedUtc": "2026-08-21T14:00:21.515422+00:00",
+      "sha256": "e5efce189907204e089e262116516b5dafacb1e8ebe8b142670156ac73989e66",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 790,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 690.4546663541261,
+      "bboxMm": {
+        "min": [
+          -18.348539352416992,
+          -14.064446449279785,
+          -15.299297332763672
+        ],
+        "max": [
+          1.2936416864395142,
+          10.554360389709473,
+          1.3515292406082153
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M2_cap.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 97240,
+      "modifiedUtc": "2026-08-21T14:00:21.593928+00:00",
+      "sha256": "28231a2b86cb4e4075fb86f489d2e868aa0dadff5322a6f82261bc4f3865cbec",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 214.84936561006876,
+      "bboxMm": {
+        "min": [
+          -21.578933434815088,
+          -11.698893711525574,
+          -14.96320361043
+        ],
+        "max": [
+          -11.03407972920727,
+          -1.205751708588,
+          -4.915628133359694
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M2_cap.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 46284,
+      "modifiedUtc": "2026-08-21T14:00:21.609235+00:00",
+      "sha256": "334fb308830db06cafb4a4b0db2e6b14324b5703faec64f20bade3d01e55ebe5",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 924,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 214.84650980302567,
+      "bboxMm": {
+        "min": [
+          -21.578933715820312,
+          -11.698893547058105,
+          -14.963203430175781
+        ],
+        "max": [
+          -11.034079551696777,
+          -1.205751657485962,
+          -4.915627956390381
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M2_ITS1105_reference.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 21830,
+      "modifiedUtc": "2026-08-21T14:00:21.682177+00:00",
+      "sha256": "3c306a67c9b3df01e55d1821fabb7a528b3ac3cdb5377a1c354e2b47b035c8d3",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 156.15137536814566,
+      "bboxMm": {
+        "min": [
+          -17.01095699192,
+          -8.058173897025,
+          -11.8704107919
+        ],
+        "max": [
+          -8.561587667971885,
+          0.419683829019,
+          -4.747092817545745
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M2_ITS1105_reference.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 42684,
+      "modifiedUtc": "2026-08-21T14:00:21.692206+00:00",
+      "sha256": "d76da1b1ff7bd3dad85413769d6343f10658b92866134d4480c0a35cea9874c8",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 852,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 156.14817840410856,
+      "bboxMm": {
+        "min": [
+          -17.010957717895508,
+          -8.058174133300781,
+          -11.870410919189453
+        ],
+        "max": [
+          -8.5615873336792,
+          0.4196838438510895,
+          -4.7470927238464355
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M3_cap.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 97271,
+      "modifiedUtc": "2026-08-21T14:00:21.620405+00:00",
+      "sha256": "88775a7591240f825958ff1e9d0e700db4bfb212058ae88d52915aa8a4466583",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 214.84936560951337,
+      "bboxMm": {
+        "min": [
+          -11.39769125123,
+          -17.72903263986,
+          -14.77413270869
+        ],
+        "max": [
+          -1.0653567381070974,
+          -7.731386139220062,
+          -5.970571866342
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M3_cap.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 46284,
+      "modifiedUtc": "2026-08-21T14:00:21.636454+00:00",
+      "sha256": "bf3a609934f7b298f689cd72df5eeb5e9daeeb1cb374509f67ebebbad1786932",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 924,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 214.84646861987434,
+      "bboxMm": {
+        "min": [
+          -11.39769172668457,
+          -17.729032516479492,
+          -14.77413272857666
+        ],
+        "max": [
+          -1.065356731414795,
+          -7.731386184692383,
+          -5.970571994781494
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M3_ITS1105_reference.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 21922,
+      "modifiedUtc": "2026-08-21T14:00:21.697731+00:00",
+      "sha256": "2eca438802a272e207525aa8628db018f5b896568e7e8c09268191927d7fe178",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 156.15137536835874,
+      "bboxMm": {
+        "min": [
+          -9.382029507596,
+          -13.278049955551042,
+          -11.304996514759452
+        ],
+        "max": [
+          -1.6330394780248838,
+          -4.971572919687302,
+          -3.929321002371
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M3_ITS1105_reference.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 42684,
+      "modifiedUtc": "2026-08-21T14:00:21.707404+00:00",
+      "sha256": "78096e32876000a56a39a6ffd64461316895261e9e786483e693ef907e4d2d4a",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 852,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 156.1481641806544,
+      "bboxMm": {
+        "min": [
+          -9.38202953338623,
+          -13.27800178527832,
+          -11.304845809936523
+        ],
+        "max": [
+          -1.6330394744873047,
+          -4.9715728759765625,
+          -3.929321050643921
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M4_cap.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 97281,
+      "modifiedUtc": "2026-08-21T14:00:21.648425+00:00",
+      "sha256": "63280fa72ddeb90af8d175d300ecc6e9d166856912cc204dccc3888c7414b262",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 214.8493656098706,
+      "bboxMm": {
+        "min": [
+          1.5532495667032662,
+          -17.5873532189,
+          -14.776888210674677
+        ],
+        "max": [
+          11.88668441812251,
+          -7.5935752914334405,
+          -5.972309747500803
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M4_cap.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 46284,
+      "modifiedUtc": "2026-08-21T14:00:21.664028+00:00",
+      "sha256": "7512bdf4d3f7d4577f24f094510f01b0c2dbcdd62449b8debfa6b71cf713a526",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 924,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 214.84646057464252,
+      "bboxMm": {
+        "min": [
+          1.5532495975494385,
+          -17.587352752685547,
+          -14.776887893676758
+        ],
+        "max": [
+          11.88668441772461,
+          -7.593575477600098,
+          -5.972309589385986
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M4_ITS1105_reference.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 21866,
+      "modifiedUtc": "2026-08-21T14:00:21.711466+00:00",
+      "sha256": "0107d29848d6039276090921a43c0a37917d3d5942015864e2ba97a31f7a03fe",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 156.15137536836406,
+      "bboxMm": {
+        "min": [
+          2.1188456880915565,
+          -13.135829225369836,
+          -11.309870710508573
+        ],
+        "max": [
+          9.868017473648,
+          -4.828965214018828,
+          -3.9380082902622524
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M4_ITS1105_reference.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 42684,
+      "modifiedUtc": "2026-08-21T14:00:21.721124+00:00",
+      "sha256": "f9f4f0f7a43c91a371dac410a3006c1979a68fad6006df5c5b53fa7e5c8e5b93",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 852,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 156.148165710111,
+      "bboxMm": {
+        "min": [
+          2.1188457012176514,
+          -13.135795593261719,
+          -11.309720039367676
+        ],
+        "max": [
+          9.868017196655273,
+          -4.828965187072754,
+          -3.9380083084106445
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M4_single_carrier.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 212978,
+      "modifiedUtc": "2026-08-21T14:00:21.540075+00:00",
+      "sha256": "65be438f06f20ed2f5fa815eadc4542e03d057c209d6f71a4b528ba8615b96a1",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 177.0342399999056,
+      "bboxMm": {
+        "min": [
+          -0.8099470998156892,
+          -13.91575503348,
+          -12.109816840916128
+        ],
+        "max": [
+          11.697249128252661,
+          0.07153001525778,
+          0.0975094763760942
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/M4_single_carrier.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 10484,
+      "modifiedUtc": "2026-08-21T14:00:21.555237+00:00",
+      "sha256": "d337b4e563758ad767f7bfe296ef783c9aac1a198db72d95dd9f2df7a1eb74ec",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 208,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 177.03424285329388,
+      "bboxMm": {
+        "min": [
+          -0.8099470734596252,
+          -13.915755271911621,
+          -12.109816551208496
+        ],
+        "max": [
+          11.697249412536621,
+          0.07153001427650452,
+          0.0975094735622406
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/MIDDLE_printable_parts_6.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 1460564,
+      "modifiedUtc": "2026-08-21T14:00:21.869100+00:00",
+      "sha256": "f6d3699984c845ac299ecf4175c10a8d574677ee1eb2441c3f97c04dda7cd307",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 6,
+      "connectedComponentCount": 6,
+      "watertight": true,
+      "volumeMm3": 1726.8863380476953,
+      "bboxMm": {
+        "min": [
+          -22.00543953713,
+          -17.72903263986,
+          -15.51828389803
+        ],
+        "max": [
+          11.88668441812251,
+          10.554360618668,
+          1.3515292483417838
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/MIDDLE_printable_parts_6.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 234784,
+      "modifiedUtc": "2026-08-21T14:00:21.944795+00:00",
+      "sha256": "28f0d565ce5c47fe743d5e53ca276e582cdee2c432d082f37c3f3977c185b51e",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 4694,
+      "solidCount": 6,
+      "connectedComponentCount": 6,
+      "watertight": true,
+      "volumeMm3Approx": 1726.8748344537373,
+      "bboxMm": {
+        "min": [
+          -22.00543975830078,
+          -17.729032516479492,
+          -15.51828384399414
+        ],
+        "max": [
+          11.88668441772461,
+          10.554360389709473,
+          1.3515292406082153
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/MIDDLE_reference_with_ITS1105.step",
+      "format": "step",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 1566742,
+      "modifiedUtc": "2026-08-21T14:00:22.103789+00:00",
+      "sha256": "b9b11e010b2dff318cd33aefa597bc2c4349ecd7fb4f171867e5a6450c950002",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 10,
+      "connectedComponentCount": 10,
+      "watertight": true,
+      "volumeMm3": 2351.491839520916,
+      "bboxMm": {
+        "min": [
+          -22.00543953713,
+          -17.72903263986,
+          -15.51828389803
+        ],
+        "max": [
+          11.88668441812251,
+          10.554360618668,
+          1.3515292483417838
+        ]
+      }
+    },
+    {
+      "path": "build123d_workbench/out/middle_redesign/MIDDLE_reference_with_ITS1105.stl",
+      "format": "stl",
+      "role": "approved build123d MIDDLE output",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 405184,
+      "modifiedUtc": "2026-08-21T14:00:22.185593+00:00",
+      "sha256": "2242a367279620756d0a26255c14081a10497430d6c977a8b3522feebbc26f33",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 8102,
+      "solidCount": 10,
+      "connectedComponentCount": 10,
+      "watertight": true,
+      "volumeMm3Approx": 2351.467516349694,
+      "bboxMm": {
+        "min": [
+          -22.00543975830078,
+          -17.729032516479492,
+          -15.51828384399414
+        ],
+        "max": [
+          11.88668441772461,
+          10.554360389709473,
+          1.3515292406082153
+        ]
+      }
+    },
+    {
+      "path": "cad_dump/thumb_reseat_stage_d/Joystick_1_stage_d.stl",
+      "format": "stl",
+      "role": "prior translated JaD shell study",
+      "sourceTier": "generated_mesh",
+      "sizeBytes": 808884,
+      "modifiedUtc": "2026-08-20T18:30:25.973347+00:00",
+      "sha256": "c9f004c28b7eb0db4950bddf6f4e55e977ef1744622b84b40b9746292f5ac888",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 16176,
+      "solidCount": 29,
+      "connectedComponentCount": 29,
+      "watertight": false,
+      "volumeMm3Approx": 109786.99201841983,
+      "bboxMm": {
+        "min": [
+          -110.52210998535156,
+          -61.35400390625,
+          -73.87850952148438
+        ],
+        "max": [
+          38.76081466674805,
+          62.427490234375,
+          78.2142105102539
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Backplate.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 96484,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "825d3466655521400393b95f66abf14be353978d8dd0a3776cd7e12e4192560c",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 1928,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 5897.941591458391,
+      "bboxMm": {
+        "min": [
+          -20.275609970092773,
+          -48.78539276123047,
+          22.54690170288086
+        ],
+        "max": [
+          20.275609970092773,
+          9.393067359924316,
+          67.36646270751953
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_corner_1.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 13784,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "bd64ca3cfca655e8fae35c77865872b6f0b5af48c3de872f0669602d918be9f0",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 274,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 199.2134946257518,
+      "bboxMm": {
+        "min": [
+          7.199999809265137,
+          1.6376374959945679,
+          30.052383422851562
+        ],
+        "max": [
+          14.79743480682373,
+          10.31095027923584,
+          38.720088958740234
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_corner_2.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 13684,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "641b5e506d52627bb8890404f3b5fbbda8c824060df19a243fcce6e42e6d8aa7",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 272,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 199.19566200073768,
+      "bboxMm": {
+        "min": [
+          -14.79743480682373,
+          1.6376374959945679,
+          30.052383422851562
+        ],
+        "max": [
+          -7.199999809265137,
+          10.31095027923584,
+          38.720088958740234
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_middle_1.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 684,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "b1d98781e439aac65eb18703fbfb2e94ed26a8115c68f343f63f613cda0fd31c",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 12,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 275.0541840102239,
+      "bboxMm": {
+        "min": [
+          -3.799999952316284,
+          -6.633047103881836,
+          37.30298614501953
+        ],
+        "max": [
+          3.799999952316284,
+          2.220839262008667,
+          45.89413070678711
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_middle_2.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 684,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "92a917d50ee622863e06d7124d6ff0842d39f88b29eb3c1a5d95edec7d5f6e4b",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 12,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 275.05414312000687,
+      "bboxMm": {
+        "min": [
+          -3.799999952316284,
+          1.6376374959945679,
+          30.05069351196289
+        ],
+        "max": [
+          3.799999952316284,
+          10.491523742675781,
+          38.64183807373047
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_side_1.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 4384,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "538b1fa163ce5b79b2faf651b8fdf74490cb4a78713d60bc857d8e60333078b1",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 86,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 270.79449059882455,
+      "bboxMm": {
+        "min": [
+          7.199999809265137,
+          -6.633047103881836,
+          37.30298614501953
+        ],
+        "max": [
+          14.800000190734863,
+          2.3367717266082764,
+          46.008705139160156
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_side_2.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 4384,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "112eb8e2693431d7d95217be060bc41a5ee40d55939c291ccae1291292956235",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 86,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 270.78561787359064,
+      "bboxMm": {
+        "min": [
+          -14.800000190734863,
+          -6.633047103881836,
+          37.30298614501953
+        ],
+        "max": [
+          -7.199999809265137,
+          2.3367717266082764,
+          46.008705139160156
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_wide_1.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 2984,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "b8ebd29ee817d7b16e8c360510b227ee37cf96c657f73e86e27676956d091bba",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 58,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 288.09376612894863,
+      "bboxMm": {
+        "min": [
+          3.3567464351654053,
+          -15.65561294555664,
+          45.873878479003906
+        ],
+        "max": [
+          12.956747055053711,
+          -7.5565690994262695,
+          53.56532287597656
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Button_wide_2.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 2984,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "1b94f4b67a5a5d82530f5e9d26585d5f8716d1fc1999d93ca6d25cb214b45833",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 58,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 288.05909987401395,
+      "bboxMm": {
+        "min": [
+          -12.956747055053711,
+          -15.65561294555664,
+          45.873878479003906
+        ],
+        "max": [
+          -3.3567464351654053,
+          -7.5565690994262695,
+          53.56532287597656
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Joystick_1.stl",
+      "format": "stl",
+      "role": "JaD shell reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 2977484,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "78961106b8f4a239ee4edee0d34a11994b35a9f22008dad10446e480f362b913",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 59548,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 47716.04588848075,
+      "bboxMm": {
+        "min": [
+          -1.8401621372510224e-13,
+          -61.42555236816406,
+          -73.87850952148438
+        ],
+        "max": [
+          38.75876235961914,
+          62.427490234375,
+          78.25527954101562
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Joystick_2.stl",
+      "format": "stl",
+      "role": "JfD shell reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 2955584,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "2bde6ed551e125f310606d5e878df894f7f7edc21d1874938e65e0e40c113da3",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 59110,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 50184.63112799253,
+      "bboxMm": {
+        "min": [
+          -38.75876235961914,
+          -61.42555236816406,
+          -73.87850952148438
+        ],
+        "max": [
+          4.638045589949735e-13,
+          62.427490234375,
+          78.25527954101562
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 13.stl",
+      "format": "stl",
+      "role": "INDEX cap/reference geometry",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 29584,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "2ec3cf2a09ae0a1279e743dab3d7e84412ded44f727b454b5300fc7d3adb31b4",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 590,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 231.57790899222945,
+      "bboxMm": {
+        "min": [
+          -25.510358810424805,
+          -21.775737762451172,
+          4.959203720092773
+        ],
+        "max": [
+          -17.82276725769043,
+          -12.926074981689453,
+          13.380142211914062
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 14.stl",
+      "format": "stl",
+      "role": "INDEX cap/reference geometry",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 29584,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "d712f592e483b018d6d3ee76a9bc2798242421e8e01fd298c25d07273b58dab7",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 590,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 231.6148148883124,
+      "bboxMm": {
+        "min": [
+          -20.82251739501953,
+          -30.838064193725586,
+          4.996984958648682
+        ],
+        "max": [
+          -10.550629615783691,
+          -20.693819046020508,
+          13.58354663848877
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 15.stl",
+      "format": "stl",
+      "role": "INDEX cap/reference geometry",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 29584,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "cd795fffc2ddb5e1d7b47351e4eb10fb5b464d87a759fbf62789a906aab5ff2a",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 590,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 231.57827258449535,
+      "bboxMm": {
+        "min": [
+          -9.39102554321289,
+          -31.924158096313477,
+          4.956785202026367
+        ],
+        "max": [
+          -1.5550137758255005,
+          -25.579099655151367,
+          13.393741607666016
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 16.stl",
+      "format": "stl",
+      "role": "INDEX cap/reference geometry",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 29584,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "2aab336f877fcc03559e959c12a48d296bc3f4aae84e5ed1ce0c2c002d7f9aa5",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 590,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 232.50220117373513,
+      "bboxMm": {
+        "min": [
+          1.5550137758255005,
+          -31.924158096313477,
+          4.956785202026367
+        ],
+        "max": [
+          9.39102554321289,
+          -25.579099655151367,
+          13.393741607666016
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 17.stl",
+      "format": "stl",
+      "role": "RWID reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 198084,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "31bfe5a64bfc5737eccd240f69f525d36d17c54448e356f92e87f46f14b29764",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 3960,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 2136.221981895527,
+      "bboxMm": {
+        "min": [
+          -19.415019989013672,
+          -27.773757934570312,
+          -1.249241828918457
+        ],
+        "max": [
+          3.174403190612793,
+          -0.01661541685461998,
+          26.44672203063965
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 18.stl",
+      "format": "stl",
+      "role": "RZKD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 61084,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "43ba6feacfd39a59663e479fedc60c66fab802a97ee9652d9322ca5af9dc2619",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 1220,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 284.9322385223125,
+      "bboxMm": {
+        "min": [
+          3.366419553756714,
+          -19.0258731842041,
+          7.329826354980469
+        ],
+        "max": [
+          15.68588638305664,
+          -12.590434074401855,
+          17.712223052978516
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 19.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "6555e5d9a68d0d4678e098a0712ae364402f64d538586847d2c6289984f35fde",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.83134900472483,
+      "bboxMm": {
+        "min": [
+          -15.668610572814941,
+          -14.5617036819458,
+          8.630867958068848
+        ],
+        "max": [
+          -11.69015121459961,
+          -10.221819877624512,
+          12.572921752929688
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 20.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "b91a044f6ea8ad80848a49b631499ccbebd2c41cc9ec606847cfeb22e3e69cca",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.831352737086757,
+      "bboxMm": {
+        "min": [
+          -14.195710182189941,
+          -22.593931198120117,
+          14.142650604248047
+        ],
+        "max": [
+          -9.931324005126953,
+          -18.245393753051758,
+          18.396120071411133
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 21.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "5d919114d742be20fd1ad625d30488e8e331854c7ec6d12aff615a8cc4c11b15",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.831341643548075,
+      "bboxMm": {
+        "min": [
+          -6.685273170471191,
+          -20.610549926757812,
+          7.0937418937683105
+        ],
+        "max": [
+          -2.9266698360443115,
+          -17.92733383178711,
+          10.716546058654785
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 22.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "e3e7e9b6c9d37db0dbdd6f8e370d23bca9028f4e6e5d25e23bb5387008bc5ce6",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.828293102149033,
+      "bboxMm": {
+        "min": [
+          3.423506259918213,
+          -21.199951171875,
+          9.469562530517578
+        ],
+        "max": [
+          7.0814080238342285,
+          -17.934823989868164,
+          13.564753532409668
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 23.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "b8fd662f10b466427245652b55099a81b48a9b8b8eba0ddcf06ea347cef0781e",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.82829330906141,
+      "bboxMm": {
+        "min": [
+          -13.415573120117188,
+          2.2454628944396973,
+          -10.931743621826172
+        ],
+        "max": [
+          -9.404979705810547,
+          6.583136558532715,
+          -6.882360935211182
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 24.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 130284,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "0d575df04f5b0a2ea3557aa711c06efc57e2e33562f033ceffab9d9e38974dc6",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 2604,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 127.92438771910618,
+      "bboxMm": {
+        "min": [
+          -21.561368942260742,
+          -4.739034175872803,
+          -15.068222045898438
+        ],
+        "max": [
+          -16.67667007446289,
+          3.7307493686676025,
+          -6.86830472946167
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 25.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "518ac4e422624cf8f0e4d9e76936ea9fe9f0d57e17b49c492ee3492e4b90892d",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.828294827734624,
+      "bboxMm": {
+        "min": [
+          -9.020100593566895,
+          -2.9446675777435303,
+          -14.495375633239746
+        ],
+        "max": [
+          -4.676626682281494,
+          1.2052338123321533,
+          -10.552961349487305
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 26.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 127184,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "52891f26575f1e3885cdfec60a20dcca55e5fd5facaba7e53249dfa620434fe3",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 2542,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 127.84351967692344,
+      "bboxMm": {
+        "min": [
+          -17.45352554321289,
+          -12.838837623596191,
+          -17.663280487060547
+        ],
+        "max": [
+          -7.664709568023682,
+          -3.6593940258026123,
+          -9.869879722595215
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 27.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "a0a914140824b57739630b86ded3fd064ff5c9de20941006d2af9ac83df6f502",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.82829251494681,
+      "bboxMm": {
+        "min": [
+          -8.857270240783691,
+          -9.153386116027832,
+          -7.266802787780762
+        ],
+        "max": [
+          -4.665243148803711,
+          -4.917168140411377,
+          -2.922708034515381
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 28.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 122284,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "70534af7b1482a3515e5ab2f4c5d90f9f6dc1e0c6dc0cc61c99c17c03cfe525f",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 2444,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 127.56286724811672,
+      "bboxMm": {
+        "min": [
+          -7.8375654220581055,
+          -17.481197357177734,
+          -14.437575340270996
+        ],
+        "max": [
+          0.9067890644073486,
+          -10.238450050354004,
+          -6.968726634979248
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 29.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 28884,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "734f358753ffee2565300951685158cb33b821c137660d484ed2cc09ca11d33f",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 576,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 24.82829410791156,
+      "bboxMm": {
+        "min": [
+          3.1541049480438232,
+          -7.88059663772583,
+          -7.327504634857178
+        ],
+        "max": [
+          7.210569858551025,
+          -3.7106969356536865,
+          -2.981977701187134
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Part 30.stl",
+      "format": "stl",
+      "role": "local CAD reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 116284,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "166579ba76bd184189c8f00454edfb347a54e7d3ea7a8798c922a1f4df3b9f35",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 2324,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 128.7997944877729,
+      "bboxMm": {
+        "min": [
+          2.5805904865264893,
+          -17.121139526367188,
+          -14.463065147399902
+        ],
+        "max": [
+          11.99326229095459,
+          -8.936196327209473,
+          -6.956049919128418
+        ]
+      }
+    },
+    {
+      "path": "exports/full_exterior_minimal_mockup/source_stl/Joystick - Small_joystick_attachment.stl",
+      "format": "stl",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 1107184,
+      "modifiedUtc": "2026-08-21T00:34:34+00:00",
+      "sha256": "cc4972eb78eb8bb6fecf10da740d1123367103991ab89cfcfb2b2ab189bdb3da",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 22142,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 284.45827481889245,
+      "bboxMm": {
+        "min": [
+          96.5221176147461,
+          -23.58074188232422,
+          0.0
+        ],
+        "max": [
+          110.52210998535156,
+          -9.580741882324219,
+          11.0
+        ]
+      }
+    },
+    {
+      "path": "exports/thumb_lower15_housing_mockup/OneGrip_lower15_housing_Joystick_1_JaD.stl",
+      "format": "stl",
+      "role": "JaD shell reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 941984,
+      "modifiedUtc": "2026-08-21T10:34:33.382274+00:00",
+      "sha256": "43cb0a9972e0153afe49341a3e29df130b9e966bbff40a1114cee3919c1b50cb",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 18838,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 47667.80151436934,
+      "bboxMm": {
+        "min": [
+          -6.30104421330685e-13,
+          -61.42745590209961,
+          -73.87850952148438
+        ],
+        "max": [
+          38.73471450805664,
+          62.427490234375,
+          78.24842834472656
+        ]
+      }
+    },
+    {
+      "path": "exports/thumb_lower15_housing_mockup/OneGrip_lower15_housing_Joystick_2_JfD.stl",
+      "format": "stl",
+      "role": "JfD shell reference",
+      "sourceTier": "immutable_mesh_only",
+      "sizeBytes": 987084,
+      "modifiedUtc": "2026-08-21T10:34:35.011772+00:00",
+      "sha256": "29050592a316c16b64211276ed0ce2bbfafd7bb0b833d954db7b305cee677677",
+      "geometryKernel": "triangulated STL audit",
+      "valid": true,
+      "triangleCount": 19740,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3Approx": 50128.55818038059,
+      "bboxMm": {
+        "min": [
+          -38.73471450805664,
+          -61.42745590209961,
+          -73.87850952148438
+        ],
+        "max": [
+          4.638045589949735e-13,
+          62.427490234375,
+          78.24842834472656
+        ]
+      }
+    },
+    {
+      "path": "local_cad/reference/JAD_CLEAN_PRE_FINGER.step",
+      "format": "step",
+      "role": "JaD shell reference",
+      "sourceTier": "immutable_exact_brep",
+      "sizeBytes": 612629,
+      "modifiedUtc": "2026-08-21T16:44:25.946006+00:00",
+      "sha256": "01f5708a29ca46b0f9f13b5c63b5f4d9b7b46bcf04fc8b0a55b806085f1ff4f0",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 46577.761694471395,
+      "bboxMm": {
+        "min": [
+          -0.5222681032686836,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          38.77976975434524,
+          62.428314495976565,
+          78.25678350405062
+        ]
+      }
+    },
+    {
+      "path": "local_cad/reference/JFD_CLEAN_PRE_FINGER.step",
+      "format": "step",
+      "role": "JfD shell reference",
+      "sourceTier": "immutable_exact_brep",
+      "sizeBytes": 610677,
+      "modifiedUtc": "2026-08-21T16:45:03.201593+00:00",
+      "sha256": "8d290891dd93f16f50789f24ef7d27c754b27b4250caa1ebb3cb587648475792",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 47850.714043167885,
+      "bboxMm": {
+        "min": [
+          -38.77976975434524,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          0.5222681032686836,
+          62.42831449419311,
+          78.25678350405062
+        ]
+      }
+    },
+    {
+      "path": "local_cad/reference/THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+      "format": "step",
+      "role": "original THUMB component reference",
+      "sourceTier": "immutable_exact_brep",
+      "sizeBytes": 442747,
+      "modifiedUtc": "2026-08-21T16:52:07.023822+00:00",
+      "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 10,
+      "connectedComponentCount": 10,
+      "watertight": true,
+      "volumeMm3": 8252.347678990332,
+      "bboxMm": {
+        "min": [
+          -20.279267268814046,
+          -54.28539123126642,
+          -1e-07
+        ],
+        "max": [
+          110.522113608337,
+          4.99152398970311,
+          73.36769141444876
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/export/step/CONFORMAL_CORE_REFERENCE_ROUNDTRIP.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 837532,
+      "modifiedUtc": "2026-08-21T13:43:29.048936+00:00",
+      "sha256": "2d98080afdbda57b4098a482ee14b66962cfb3ca9d4fd50af97e4e3415fdf9e5",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 2,
+      "connectedComponentCount": 2,
+      "watertight": true,
+      "volumeMm3": 585793.469222868,
+      "bboxMm": {
+        "min": [
+          -64.3,
+          -79.30000000000109,
+          -188.8729012593576
+        ],
+        "max": [
+          64.3,
+          91.3,
+          -61.8785
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/export/step/ERGO_HOUSING_W2.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 4902189,
+      "modifiedUtc": "2026-08-21T16:59:58.941800+00:00",
+      "sha256": "a0b9cd6d3d6e2d5e7a8a7edd3f555840e2a38aaef804d456e3a6bf5b48499bbd",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 714520.7752334771,
+      "bboxMm": {
+        "min": [
+          -66.80000009999999,
+          -103.44343028181473,
+          -188.8729013593576
+        ],
+        "max": [
+          66.800000100001,
+          93.8000001,
+          -42.985128573730236
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/export/step/ONEGRIP_LOWER_ASSEMBLY_REFERENCE_ROUNDTRIP.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 28652409,
+      "modifiedUtc": "2026-08-21T13:43:46.717805+00:00",
+      "sha256": "a9b3be9938ef00cacaf127b3bf870e36a67bee4d86392ca3594f926dcef0d321",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 172,
+      "connectedComponentCount": 172,
+      "watertight": true,
+      "volumeMm3": 346410.7321889421,
+      "bboxMm": {
+        "min": [
+          -49.778435620157005,
+          -58.53218566234643,
+          5.9906971398033214e-12
+        ],
+        "max": [
+          50.221564379843024,
+          85.72683587615141,
+          234.57214341906615
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/export/step/SMOKE_LOFT.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 36459,
+      "modifiedUtc": "2026-08-21T13:12:10.630327+00:00",
+      "sha256": "8948942716619f3b36788a356b6ad6c79bb1206c0a4e22e16d28898a4b98f671",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 1,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "volumeMm3": 19956.341983081624,
+      "bboxMm": {
+        "min": [
+          -20.0000001,
+          -15.0000001,
+          -1e-07
+        ],
+        "max": [
+          20.0000001,
+          15.0000001,
+          25.0000001
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/export/step/STOCK_GIMBAL_REFERENCE_ROUNDTRIP.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "generated_exact_brep",
+      "sizeBytes": 1358176,
+      "modifiedUtc": "2026-08-21T13:43:27.805537+00:00",
+      "sha256": "d32b6ebc00dfff5987161f4d4e6e0e3126c211185e143eb3beab621a5dc7e8a6",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 7,
+      "connectedComponentCount": 7,
+      "watertight": true,
+      "volumeMm3": 228346.2162545015,
+      "bboxMm": {
+        "min": [
+          -50.00000000000001,
+          -23.36399988328001,
+          -28.599600694800003
+        ],
+        "max": [
+          50.00000000000002,
+          119.63600011671,
+          61.599600694806
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/reference/CONFORMAL_CORE_REFERENCE.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "immutable_exact_brep",
+      "sizeBytes": 288395,
+      "modifiedUtc": "2026-08-21T13:28:51.712554+00:00",
+      "sha256": "19f7f2b9d806f53810894c6976e6931eb5a1780bcaec7fc3b43f3a51087dc43c",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 2,
+      "connectedComponentCount": 2,
+      "watertight": true,
+      "volumeMm3": 585793.4692228714,
+      "bboxMm": {
+        "min": [
+          -64.3,
+          -79.3,
+          -188.87290125937756
+        ],
+        "max": [
+          64.3,
+          91.30000000000001,
+          -61.8785
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/reference/ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "immutable_exact_brep",
+      "sizeBytes": 11129004,
+      "modifiedUtc": "2026-08-21T13:34:14.005825+00:00",
+      "sha256": "deb2f78838b41ab125247bd4068d7c0d08b5bddf780b449534b716fe35dc0ed4",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 172,
+      "connectedComponentCount": 172,
+      "watertight": true,
+      "volumeMm3": 343179.5466604198,
+      "bboxMm": {
+        "min": [
+          -49.77843562015706,
+          -58.53218566234923,
+          -9.83626369072675e-15
+        ],
+        "max": [
+          50.22156437984297,
+          85.72683587615121,
+          234.57214341906845
+        ]
+      }
+    },
+    {
+      "path": "lower_adapter/local_cad/reference/STOCK_GIMBAL_REFERENCE.step",
+      "format": "step",
+      "role": "lower-adapter local CAD reference/output",
+      "sourceTier": "immutable_exact_brep",
+      "sizeBytes": 469318,
+      "modifiedUtc": "2026-08-21T13:30:58.509412+00:00",
+      "sha256": "091922f602bfcbdfbf99b3c0ba7c871d1f5d7bff1a950ef5ce6ce47def9f10ab",
+      "geometryKernel": "OCCT via build123d",
+      "valid": true,
+      "solidCount": 7,
+      "connectedComponentCount": 7,
+      "watertight": true,
+      "volumeMm3": 228346.2159052518,
+      "bboxMm": {
+        "min": [
+          -50.00000000000001,
+          -23.363999883286603,
+          -28.599600694806103
+        ],
+        "max": [
+          50.00000000000002,
+          119.636000116713,
+          61.5996006948061
+        ]
+      }
+    }
+  ]
+}

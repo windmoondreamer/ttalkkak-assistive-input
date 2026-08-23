@@ -1,0 +1,359 @@
+{
+  "schema": "onegrip.szh_ek056.knob_interface_confirmation.v1",
+  "generatedUtc": "2026-08-23T13:00:00.281971+00:00",
+  "mode": "READ ONLY / LOCAL / PRODUCTION GEOMETRY EDIT 0",
+  "originalOneGripKnob": {
+    "partName": "Small_joystick_attachment",
+    "partId": "RHED",
+    "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+    "exactTargetOccurrence": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step",
+    "printableStl": "exports\\right_hand_handle_parts\\individual_stl\\Joystick - Small_joystick_attachment.stl",
+    "separatePart": true,
+    "sourceFeature": "Extrude 25 / FTcXnBBgATAer7g_13",
+    "assemblyMate": "FASTENED to HW504_B <2> moving part",
+    "volumeMm3": 284.54088875549144,
+    "bboxInOriginalJoystickFrameMm": {
+      "min": [
+        -7.000000099994582,
+        -7.000000099974719,
+        3.399999899998444
+      ],
+      "max": [
+        7.000000100005614,
+        7.000000100025281,
+        14.400000099999689
+      ]
+    },
+    "interface": {
+      "knobBlindBoreBboxMm": {
+        "min": [
+          -2.0754066389637975,
+          -1.6200744698762948,
+          3.3999999999985735
+        ],
+        "max": [
+          2.075406638963371,
+          1.529925530126883,
+          12.399999999999114
+        ]
+      },
+      "knobBoreCrossSectionMm": [
+        4.150813277927169,
+        3.150000000003178
+      ],
+      "knobBoreDepthMm": 9.00000000000054,
+      "originalHw504ShaftCrossSectionAtZ5Mm": [
+        4.15,
+        2.9500000000013653
+      ],
+      "originalAssembledInsertionLengthMm": 5.600000100001429,
+      "interfaceShape": "KEYED ROUNDED-RECTANGULAR BLIND BORE",
+      "retentionEvidence": "geometry/variables imply friction or press/transition fit; Onshape assembly uses FASTENED mate; no screw feature found",
+      "sourceVariablesMm": {
+        "small_joystick_pin_width": 3.0,
+        "small_joystick_pin_depth": 4.0,
+        "small_joystick_pin_height": 8.0,
+        "small_joystick_top_diameter": 14.0,
+        "small_joystick_tolerance": 0.075
+      }
+    }
+  },
+  "szhWebReferenceTopGeometry": {
+    "stockKnob": {
+      "label": "REMOVABLE_CAP_NOMINAL_ENVELOPE",
+      "class": "B / REMOVABLE NOMINAL ENVELOPE",
+      "exactPhysicalInterfaceKnown": false
+    },
+    "shaft": {
+      "label": "JOYSTICK_SHAFT_INFERRED",
+      "class": "A / MUST PRESERVE",
+      "diameterMm": 4.8,
+      "shape": "CYLINDER INFERRED",
+      "modeledLengthMm": 14.0,
+      "pivotToTipMm": 13.5,
+      "confidence": "LOW"
+    },
+    "gimbal": {
+      "label": "CENTRAL_GIMBAL_ENVELOPE",
+      "class": "A / MUST PRESERVE"
+    },
+    "nonRemovableHousing": [
+      "PCB_34P5_X_26_PHOTO_PATTERN",
+      "X_AXIS_POT_HOUSING",
+      "Y_AXIS_POT_HOUSING",
+      "PUSH_SWITCH_HOUSING"
+    ],
+    "docs71MovingEnvelopeIncludesStockKnob": true,
+    "movingEnvelopeMethod": "independent conservative cone using full handle/cap profile through overall top Z=38; not shaft/gimbal-only"
+  },
+  "compatibility": {
+    "szhShaftDiameterMm": 4.8,
+    "szhShaftShape": "ROUND CYLINDER — WEB INFERENCE, ACTUAL UNKNOWN",
+    "szhModeledShaftLengthAboveGimbalMm": 14.0,
+    "szhStockExposedLengthBeforeCapEnvelopeMm": 6.0,
+    "szhMaximumModeledInsertionLengthIfStockCapRemovedMm": 14.0,
+    "originalKnobBoreCrossSectionMm": [
+      4.150813277927169,
+      3.150000000003178
+    ],
+    "originalKnobBoreDepthMm": 9.00000000000054,
+    "nominalTargetKnobTopZMm": 27.0,
+    "stockReferenceOverallTopZMm": 38.0,
+    "nominalTargetTopReductionMm": 11.0,
+    "nominalShaftKnobInterferenceMm3": 54.89032852849161,
+    "verdict": "ADAPTER OR BORE CHANGE REQUIRED",
+    "physicalMeasurementRequired": true
+  },
+  "docs71Rerate": {
+    "stockKnobStaticShellCollisionRows": [
+      {
+        "pair": "REMOVABLE_KNOB<->local_shell.JaD",
+        "feature": "REMOVABLE_KNOB",
+        "target": "local_shell.JaD",
+        "class": "B",
+        "type": "REMOVABLE EXTERNAL KNOB",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 205.62209867523447,
+        "overlapDepthProxyMm": 3.618824516356291,
+        "minimumDistanceMm": 0.0,
+        "distanceMethod": "EXACT_COMMON",
+        "severity": "GROSS",
+        "overlapCentroidMm": [
+          4.307927991868835,
+          -15.349889370825572,
+          51.94195204294175
+        ],
+        "overlapBboxMm": {
+          "min": [
+            -1.7251834479016266e-06,
+            -22.391693239448447,
+            45.7941254108217
+          ],
+          "max": [
+            8.61585770892112,
+            -8.3080855022027,
+            58.089778675061794
+          ]
+        },
+        "referenceDisposition": "COARSE PACKAGING EVIDENCE"
+      },
+      {
+        "pair": "REMOVABLE_KNOB<->local_shell.JfD",
+        "feature": "REMOVABLE_KNOB",
+        "target": "local_shell.JfD",
+        "class": "B",
+        "type": "REMOVABLE EXTERNAL KNOB",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 216.48586250322214,
+        "overlapDepthProxyMm": 3.6379568135556113,
+        "minimumDistanceMm": 0.0,
+        "distanceMethod": "EXACT_COMMON",
+        "severity": "GROSS",
+        "overlapCentroidMm": [
+          -4.524045580905445,
+          -15.254766695447703,
+          51.87545340355092
+        ],
+        "overlapBboxMm": {
+          "min": [
+            -9.048092397841279,
+            -22.391693901930026,
+            45.650909456977374
+          ],
+          "max": [
+            1.2360303885108848e-06,
+            -8.117839488965382,
+            58.09999735012446
+          ]
+        },
+        "referenceDisposition": "COARSE PACKAGING EVIDENCE"
+      }
+    ],
+    "staticFit": "STOCK-KNOB-TO-SHELL ROWS REMOVED; N1/N2 HOLD UNCHANGED",
+    "movingEnvelope": "DOCS71 HOLD IS OVERCONSERVATIVE FOR FINAL INTENT; RECLASSIFY CONDITIONAL UNTIL ACTUAL SHAFT/GIMBAL + INTENDED KNOB SWEEP",
+    "shellClearance": "STOCK KNOB GROSS SHELL COLLISIONS ARE NOT FINAL HARD CONSTRAINTS",
+    "shaftOnlyInferredSweepShellRelationships": [
+      {
+        "pair": "SHAFT_ONLY_SWEEP<->local_shell.JaD",
+        "feature": "SHAFT_ONLY_SWEEP",
+        "target": "local_shell.JaD",
+        "class": "A",
+        "type": "FUNCTIONAL / KNOB EXCLUDED",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 37.6259650075764,
+        "overlapDepthProxyMm": 0.885761034391571,
+        "minimumDistanceMm": 0.0,
+        "distanceMethod": "EXACT_COMMON",
+        "severity": "MODERATE",
+        "overlapCentroidMm": [
+          3.9458806451410062,
+          -15.60260324532474,
+          51.44128955868621
+        ],
+        "overlapBboxMm": {
+          "min": [
+            -1.0000009932647152e-07,
+            -21.682373152192028,
+            46.72189482499267
+          ],
+          "max": [
+            7.891761390282112,
+            -9.52283333845745,
+            56.160684292379756
+          ]
+        },
+        "referenceDisposition": "COARSE PACKAGING EVIDENCE"
+      },
+      {
+        "pair": "SHAFT_ONLY_SWEEP<->local_shell.JfD",
+        "feature": "SHAFT_ONLY_SWEEP",
+        "target": "local_shell.JfD",
+        "class": "A",
+        "type": "FUNCTIONAL / KNOB EXCLUDED",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 40.042856148605345,
+        "overlapDepthProxyMm": 0.9032921476091751,
+        "minimumDistanceMm": 0.0,
+        "distanceMethod": "EXACT_COMMON",
+        "severity": "MODERATE",
+        "overlapCentroidMm": [
+          -4.159465754333217,
+          -15.50534705716543,
+          51.360849524274784
+        ],
+        "overlapBboxMm": {
+          "min": [
+            -8.318931608666533,
+            -21.683027083229636,
+            46.55929897965662
+          ],
+          "max": [
+            1.0000009932647152e-07,
+            -9.327667031101225,
+            56.16240006889296
+          ]
+        },
+        "referenceDisposition": "COARSE PACKAGING EVIDENCE"
+      }
+    ],
+    "shaftOnlyInferredSweepCollisionCount": 2,
+    "neutralShaftShellRelationships": [
+      {
+        "pair": "NEUTRAL_SHAFT<->local_shell.JaD",
+        "feature": "NEUTRAL_SHAFT",
+        "target": "local_shell.JaD",
+        "class": "A",
+        "type": "FUNCTIONAL / KNOB EXCLUDED",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 5.275597760642797,
+        "overlapDepthProxyMm": 0.005034731197106429,
+        "minimumDistanceMm": 0.0,
+        "distanceMethod": "EXACT_COMMON",
+        "severity": "SMALL",
+        "overlapCentroidMm": [
+          1.09320742556137,
+          -15.251470669567825,
+          50.993101342704506
+        ],
+        "overlapBboxMm": {
+          "min": [
+            -1.000000960036105e-07,
+            -17.348579684137743,
+            49.24414531475368
+          ],
+          "max": [
+            2.186414951122836,
+            -13.154361654997906,
+            52.742057370655324
+          ]
+        },
+        "referenceDisposition": "PROVISIONAL — ACTUAL PART MEASUREMENT REQUIRED"
+      },
+      {
+        "pair": "NEUTRAL_SHAFT<->local_shell.JfD",
+        "feature": "NEUTRAL_SHAFT",
+        "target": "local_shell.JfD",
+        "class": "A",
+        "type": "FUNCTIONAL / KNOB EXCLUDED",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 6.548519431827219,
+        "overlapDepthProxyMm": 0.005034731197298407,
+        "minimumDistanceMm": 0.0,
+        "distanceMethod": "EXACT_COMMON",
+        "severity": "SMALL",
+        "overlapCentroidMm": [
+          -1.3068463828561925,
+          -15.24920210628277,
+          50.995442831095914
+        ],
+        "overlapBboxMm": {
+          "min": [
+            -2.613692865712481,
+            -17.351694774781986,
+            49.24309781893864
+          ],
+          "max": [
+            1.000000960036105e-07,
+            -13.146709437783551,
+            52.747787843253185
+          ]
+        },
+        "referenceDisposition": "PROVISIONAL — ACTUAL PART MEASUREMENT REQUIRED"
+      }
+    ],
+    "gimbalHousingShellRelationships": [
+      {
+        "pair": "GIMBAL_HOUSING<->local_shell.JaD",
+        "feature": "GIMBAL_HOUSING",
+        "target": "local_shell.JaD",
+        "class": "A",
+        "type": "FUNCTIONAL / KNOB EXCLUDED",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "overlapDepthProxyMm": 0.0,
+        "minimumDistanceMm": 2.136932335899995,
+        "distanceMethod": "EXACT_DISTANCE",
+        "severity": "NONE",
+        "overlapCentroidMm": null,
+        "overlapBboxMm": null,
+        "referenceDisposition": "COARSE PACKAGING EVIDENCE"
+      },
+      {
+        "pair": "GIMBAL_HOUSING<->local_shell.JfD",
+        "feature": "GIMBAL_HOUSING",
+        "target": "local_shell.JfD",
+        "class": "A",
+        "type": "FUNCTIONAL / KNOB EXCLUDED",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "overlapDepthProxyMm": 0.0,
+        "minimumDistanceMm": 2.1171883530945896,
+        "distanceMethod": "EXACT_DISTANCE",
+        "severity": "NONE",
+        "overlapCentroidMm": null,
+        "overlapBboxMm": null,
+        "referenceDisposition": "COARSE PACKAGING EVIDENCE"
+      }
+    ],
+    "pcbToN1T4AxialSensitivityDepthMm": 1.108381471418622,
+    "pcbToN1T4EffectOfKnobRemoval": "UNCHANGED"
+  },
+  "render": "renders\\szh_ek056_knob_interface_confirmation\\01_stock_vs_original_knob_final_intended_stack.png",
+  "sourceHashesBeforeAfterIdentical": true,
+  "sourceSha256": {
+    "docs\\70_finger_8_button_mechanical_baseline_checkpoint.md": "bad77cd92f71dbd8dc027287facb9a983c12b78e94d544e0cac302fb37730719",
+    "docs\\71_szh_ek056_provisional_thumb_integration_audit.md": "b676d678753aa1d3b9dd3ca56aac0bf54e2fb50d144c57e0a838c9ba5d27c3b1",
+    "build123d_workbench\\out\\szh_ek056_provisional_thumb_integration_audit\\szh_ek056_provisional_thumb_integration_audit.json": "5d88aff37cf11c3bf14034106f95ca615a358c5207246b3290cc1e0163113aff",
+    "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step": "deb2f78838b41ab125247bd4068d7c0d08b5bddf780b449534b716fe35dc0ed4",
+    "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9",
+    "exports\\right_hand_handle_parts\\individual_stl\\Joystick - Small_joystick_attachment.stl": "7c337bdc588662a85c2c8c1f5fd39c78f613bb883fd75f61a6f17bb90175e9b7",
+    "cad_dump\\features_Joystick.json": "b344e5033a3e31cc465f594b1cf0925c2d3427503d163fbd78e411440d8c6c5b",
+    "cad_dump\\asmdef_Joystick.json": "ed0198479cee1b339e4fa042fc0ca5652ad46c74def89c85770a4cf7be4e1219",
+    "local_cad\\reference\\SZH_EK056_WEB_REFERENCE.step": "39fc7e19c36844e6f0eab4da88d519d6debccf41b8d5f5bc3f244afbce5ec4c5",
+    "local_cad\\reference\\SZH_EK056_WEB_REFERENCE.json": "317e751d319d8fc27dab64c9615a3ccd9f71d52effaf88c8b5a6384b90700818"
+  },
+  "productionGeometryEdits": 0,
+  "stepExports": 0,
+  "stlExports": 0,
+  "stop": "STOP AFTER CONFIRMATION"
+}

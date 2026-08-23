@@ -1,0 +1,41 @@
+{
+ "W2": {
+  "length_Y_mm": 197.2434310913086,
+  "width_X_mm": 133.60000610351562,
+  "height_world_mm": 139.85691696879948,
+  "volume_mm3": 714975.5069190463,
+  "added_vs_core_mm3": 219360.0365260463,
+  "ground_area_mm2": 2175.1063925364524,
+  "ground_u_front_mm": -24.59048482331819,
+  "floating_span_mm": 57.301405733901234,
+  "max_lower_slope_deg": 71.32795085055737,
+  "mean_lower_slope_deg": 41.00969220858723,
+  "support_area_frac": 0.12978978814481532
+ },
+ "A": {
+  "length_Y_mm": 227.63612365722656,
+  "width_X_mm": 133.60000610351562,
+  "height_world_mm": 139.85691666634344,
+  "volume_mm3": 732777.950632149,
+  "added_vs_core_mm3": 237162.480239149,
+  "ground_area_mm2": 2980.7517915929475,
+  "ground_u_front_mm": -63.78831847215283,
+  "floating_span_mm": 18.101688905112304,
+  "max_lower_slope_deg": 19.37872197745221,
+  "mean_lower_slope_deg": 14.424246060803613,
+  "support_area_frac": 0.1314506288288524
+ },
+ "B": {
+  "length_Y_mm": 227.63616943359375,
+  "width_X_mm": 133.60000610351562,
+  "height_world_mm": 139.8569166127632,
+  "volume_mm3": 732142.2784711352,
+  "added_vs_core_mm3": 236526.8080781352,
+  "ground_area_mm2": 3017.6264297536627,
+  "ground_u_front_mm": -68.09699257904292,
+  "floating_span_mm": 13.793014989013045,
+  "max_lower_slope_deg": 27.57155361732449,
+  "mean_lower_slope_deg": 17.893387860085074,
+  "support_area_frac": 0.1307327398281029
+ }
+}

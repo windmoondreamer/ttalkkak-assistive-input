@@ -1,0 +1,23 @@
+{
+ "ps_eid": "a2e4739a4d624b06dee5abba",
+ "fs_eid": "0e8c283852c78f4b37cddc06",
+ "varIds": {
+  "wrist_pad_angle": "Fp4RGdj7kAlmUjs_0",
+  "wrist_pad_length": "F7E34Q1wWIZRjwK_0",
+  "wrist_pad_width": "Fl2xBtYREJvfRaD_0",
+  "wrist_pad_radius": "FzHWKqDG4PgerSL_0",
+  "wrist_anchor_y": "FceB5prsoWyjLTR_0",
+  "front_rake": "F3eF8gdp7s11kzN_0",
+  "knee_angle": "FvHzLU188Rwhr5V_0",
+  "knee_y": "F4yzKGhwGWesVMD_0",
+  "pocket_clearance2": "F4pHuj5M3dvXFak_0",
+  "trace_steps": "FzCamr7OvEclF3j_0",
+  "edge_fillet": "FAjaBdBNdX9QC8G_0"
+ },
+ "namespace": "e0e8c283852c78f4b37cddc06::ma4d9917740b718727d4a941a",
+ "featureType": "oneGripErgo",
+ "stageIds": {
+  "SHELL": "FwMeHoDnwGu2dJd_0",
+  "CARRIER": "FmSiGuoAv7j391z_0"
+ }
+}

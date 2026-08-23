@@ -1,0 +1,420 @@
+{
+  "schema": "onegrip.button_cap_plane_mapping.v1",
+  "generatedUtc": "2026-08-22T16:45:51.437926+00:00",
+  "mode": "READ ONLY / BREP FACE NORMAL AUDIT / BOOLEAN 0",
+  "question": "Is each cap top plane parallel to its ITS-1105 top plane?",
+  "answer": "YES / ALL 8 PASS",
+  "parallelToleranceDeg": 0.05,
+  "buttons": [
+    {
+      "name": "I2",
+      "owner": "JfD",
+      "kind": "retained",
+      "carrier": "I2_I3_shared_carrier",
+      "externalCenterMm": [
+        -15.97116502911469,
+        -26.20981698837403,
+        8.99880711855274
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        -0.43398514194613513,
+        -0.7569241977430389,
+        -0.48859252495412786
+      ],
+      "shellNormal": [
+        -0.47237675018851943,
+        -0.7367637373812471,
+        -0.48377618912194265
+      ],
+      "capTopFaceNormal": [
+        -0.43398514194606536,
+        -0.7569241977431138,
+        -0.48859252495407346
+      ],
+      "switchTopFaceNormal": [
+        -0.43398514194613513,
+        -0.7569241977430389,
+        -0.48859252495412786
+      ],
+      "capTopFaceAreaMm2": 57.76000000000241,
+      "switchTopFaceAreaMm2": 37.8216,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 2.500000000005203,
+      "capToSwitchInPlaneRollDeg": -15.649484511098155,
+      "currentAdditionalClockingDeg": 0.0,
+      "capAxisLateralOffsetMm": 1.0012753038851963e-12,
+      "switchAxisLateralOffsetMm": 4.884981308350689e-15,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "INTENTIONAL INTERNAL TILT"
+    },
+    {
+      "name": "I3",
+      "owner": "JfD",
+      "kind": "retained",
+      "carrier": "I2_I3_shared_carrier",
+      "externalCenterMm": [
+        -5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        -0.08169076783987367,
+        -0.9520228437085347,
+        -0.2949222329815895
+      ],
+      "shellNormal": [
+        -0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "capTopFaceNormal": [
+        -0.08169076783982394,
+        -0.9520228437084632,
+        -0.29492223298183373
+      ],
+      "switchTopFaceNormal": [
+        -0.08169076783987365,
+        -0.9520228437085346,
+        -0.2949222329815895
+      ],
+      "capTopFaceAreaMm2": 57.76000000001438,
+      "switchTopFaceAreaMm2": 37.8216,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 2.4999999999982028,
+      "capToSwitchInPlaneRollDeg": -1.4496496993657892,
+      "currentAdditionalClockingDeg": 0.0,
+      "capAxisLateralOffsetMm": 8.128697894490425e-13,
+      "switchAxisLateralOffsetMm": 9.992007221626409e-16,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "INTENTIONAL INTERNAL TILT"
+    },
+    {
+      "name": "I4",
+      "owner": "JaD",
+      "kind": "retained",
+      "carrier": "I4_carrier",
+      "externalCenterMm": [
+        5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "shellNormal": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "capTopFaceNormal": [
+        0.038300753383210595,
+        -0.9556187972065158,
+        -0.29210574577685183
+      ],
+      "switchTopFaceNormal": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "capTopFaceAreaMm2": 57.75999999998164,
+      "switchTopFaceAreaMm2": 37.8216,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 0.0,
+      "capToSwitchInPlaneRollDeg": -179.32924252059476,
+      "currentAdditionalClockingDeg": 0.0,
+      "capAxisLateralOffsetMm": 1.4050182323267571e-12,
+      "switchAxisLateralOffsetMm": 2.962964572602038e-15,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "PARALLEL"
+    },
+    {
+      "name": "M3",
+      "owner": "JfD",
+      "kind": "retained",
+      "carrier": "M3_carrier",
+      "externalCenterMm": [
+        -6.890920103853075,
+        -13.71668568786225,
+        -11.11806979342742
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "shellNormal": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "capTopFaceNormal": [
+        -0.22425959856801542,
+        -0.771794181150053,
+        -0.5950137598350408
+      ],
+      "switchTopFaceNormal": [
+        -0.22425959856820338,
+        -0.771794181150088,
+        -0.5950137598349249
+      ],
+      "capTopFaceAreaMm2": 57.75999999989249,
+      "switchTopFaceAreaMm2": 37.8216,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 0.0,
+      "capToSwitchInPlaneRollDeg": -9.809049736870215,
+      "currentAdditionalClockingDeg": 0.0,
+      "capAxisLateralOffsetMm": 1.0387983441828354e-12,
+      "switchAxisLateralOffsetMm": 6.280369834735101e-16,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "PARALLEL"
+    },
+    {
+      "name": "M4",
+      "owner": "JaD",
+      "kind": "retained",
+      "carrier": "M4_N3_shared_carrier",
+      "externalCenterMm": [
+        7.379332315763718,
+        -13.575227245499876,
+        -11.115547003937289
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        0.2878365212266233,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "shellNormal": [
+        0.22485912746543743,
+        -0.7727927739559164,
+        -0.5934894281425763
+      ],
+      "capTopFaceNormal": [
+        0.28783652122699205,
+        -0.7441712373019794,
+        -0.6027929218399835
+      ],
+      "switchTopFaceNormal": [
+        0.28783652122662334,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "capTopFaceAreaMm2": 57.75999999993793,
+      "switchTopFaceAreaMm2": 37.8216,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 4.000000000023204,
+      "capToSwitchInPlaneRollDeg": -166.87577246522426,
+      "currentAdditionalClockingDeg": 0.0,
+      "capAxisLateralOffsetMm": 4.037297115902055e-12,
+      "switchAxisLateralOffsetMm": 6.280369834735101e-16,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "INTENTIONAL INTERNAL TILT"
+    },
+    {
+      "name": "N1",
+      "owner": "JfD",
+      "kind": "new",
+      "carrier": "N1_N2_SHARED_CARRIER_OPTION_C_FINAL_MICRO_RELIEF",
+      "externalCenterMm": [
+        -10.990443464183823,
+        -35.80002827761031,
+        25.0
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "shellNormal": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "capTopFaceNormal": [
+        -0.07646638594201442,
+        -0.8724593951000504,
+        -0.4826670650900278
+      ],
+      "switchTopFaceNormal": [
+        -0.07646638594201441,
+        -0.8724593951000504,
+        -0.4826670650900278
+      ],
+      "capTopFaceAreaMm2": 57.75999999996001,
+      "switchTopFaceAreaMm2": 37.8216,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 0.0,
+      "capToSwitchInPlaneRollDeg": -2.422349334467798,
+      "currentAdditionalClockingDeg": 0.0,
+      "capAxisLateralOffsetMm": 3.705121732977239e-12,
+      "switchAxisLateralOffsetMm": 5.310460254878239e-12,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "PARALLEL"
+    },
+    {
+      "name": "N2",
+      "owner": "JfD",
+      "kind": "new",
+      "carrier": "N1_N2_SHARED_CARRIER_OPTION_C_FINAL_MICRO_RELIEF",
+      "externalCenterMm": [
+        5.3077624785043596e-15,
+        -35.76511909258096,
+        25.0
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "shellNormal": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "capTopFaceNormal": [
+        -0.04316787764150931,
+        -0.8593994790249864,
+        -0.509479214287992
+      ],
+      "switchTopFaceNormal": [
+        -0.043167877641509325,
+        -0.8593994790249865,
+        -0.509479214287992
+      ],
+      "capTopFaceAreaMm2": 57.76000000000667,
+      "switchTopFaceAreaMm2": 37.821600000000004,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 0.0,
+      "capToSwitchInPlaneRollDeg": -6.465952613583232,
+      "currentAdditionalClockingDeg": -5.0,
+      "capAxisLateralOffsetMm": 3.3362453458000956e-12,
+      "switchAxisLateralOffsetMm": 3.229475413046739e-12,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "PARALLEL"
+    },
+    {
+      "name": "N3",
+      "owner": "JaD",
+      "kind": "new",
+      "carrier": "M4_N3_shared_carrier",
+      "externalCenterMm": [
+        17.48689737236422,
+        -6.664472046607768,
+        -11.125
+      ],
+      "externalCenterDeltaMm": 0.0,
+      "actuationAxis": [
+        0.6921593412330116,
+        -0.560207029374328,
+        -0.4550643147770151
+      ],
+      "shellNormal": [
+        0.7372725897449889,
+        -0.5077902287869772,
+        -0.4456211529530288
+      ],
+      "capTopFaceNormal": [
+        0.6921593412331376,
+        -0.5602070293741113,
+        -0.45506431477709036
+      ],
+      "switchTopFaceNormal": [
+        0.6921593412330117,
+        -0.560207029374328,
+        -0.45506431477701503
+      ],
+      "capTopFaceAreaMm2": 57.75999999996932,
+      "switchTopFaceAreaMm2": 37.821600000000004,
+      "capToSwitchPlaneAngleDeg": 0.0,
+      "capToShellTangentAngleDeg": 3.9999999999865445,
+      "capToSwitchInPlaneRollDeg": -150.65308099788714,
+      "currentAdditionalClockingDeg": 0.0,
+      "capAxisLateralOffsetMm": 1.9245020180457974e-12,
+      "switchAxisLateralOffsetMm": 9.930136612989092e-16,
+      "capSocketToActuatorAxisOffsetMm": 0.0,
+      "capSizeMm": 7.6,
+      "nominalExposureMm": 1.0,
+      "result": "PASS",
+      "shellRelation": "INTENTIONAL INTERNAL TILT"
+    }
+  ],
+  "productionGeometryChanged": false,
+  "renders": [
+    "renders\\button_cap_plane_mapping\\00_all_8_button_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\01_I2_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\02_I3_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\03_I4_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\04_M3_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\05_M4_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\06_N1_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\07_N2_plane_mapping.png",
+    "renders\\button_cap_plane_mapping\\08_N3_plane_mapping.png"
+  ],
+  "memory": [
+    {
+      "stage": "inputs loaded",
+      "rssMb": 400.3
+    },
+    {
+      "stage": "mapped and rendered I2",
+      "rssMb": 407.3
+    },
+    {
+      "stage": "mapped and rendered I3",
+      "rssMb": 407.7
+    },
+    {
+      "stage": "mapped and rendered I4",
+      "rssMb": 408.4
+    },
+    {
+      "stage": "mapped and rendered M3",
+      "rssMb": 408.4
+    },
+    {
+      "stage": "mapped and rendered M4",
+      "rssMb": 408.8
+    },
+    {
+      "stage": "mapped and rendered N1",
+      "rssMb": 408.8
+    },
+    {
+      "stage": "mapped and rendered N2",
+      "rssMb": 408.9
+    },
+    {
+      "stage": "mapped and rendered N3",
+      "rssMb": 408.9
+    }
+  ]
+}

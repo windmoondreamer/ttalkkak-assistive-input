@@ -1,0 +1,100 @@
+{
+  "scope": "simplified finger internals; THUMB unchanged",
+  "cadWrite": 0,
+  "architecture": {
+    "independentFingerSolidsBefore": 18,
+    "independentFingerSolidsAfter": 10,
+    "removed": "eight independent spacers",
+    "retained": "eight external caps + RWID/RZKD identities",
+    "middleShellChange": "remove 0.80-mm beams and 0.70-mm hooks; keep open-rear 6.40-mm seats",
+    "carrierChange": "extend RWID and RZKD with central contact posts and two backbones"
+  },
+  "dimensionsMm": {
+    "backplaneDepth": 14.5,
+    "contactPost": [
+      3.6,
+      3.6
+    ],
+    "backbone": [
+      3.2,
+      4.0
+    ],
+    "middlePocket": [
+      6.4,
+      6.4
+    ],
+    "commonVisibleCap": [
+      7.6,
+      7.6
+    ],
+    "commonCapExposureTarget": 1.4,
+    "middleOpeningTarget": [
+      8.0,
+      8.0
+    ]
+  },
+  "linkAudit": [
+    {
+      "name": "JfD I3-to-M3",
+      "bodyClearanceMm": 2.7402499560570974,
+      "terminalRootClearanceMm": 1.589813735917497,
+      "shellCollision": false,
+      "shellClearanceMm": 0.249822071192908,
+      "screwClearanceMm": 9.0724329761019
+    },
+    {
+      "name": "JfD M3 dogleg A",
+      "bodyClearanceMm": 3.542128221796472,
+      "terminalRootClearanceMm": 1.594053159681823,
+      "shellCollision": false,
+      "shellClearanceMm": 0.40212821627081924,
+      "screwClearanceMm": 16.84543914891447
+    },
+    {
+      "name": "JfD M3 dogleg B",
+      "bodyClearanceMm": 3.318992667876457,
+      "terminalRootClearanceMm": 1.6873570152401969,
+      "shellCollision": false,
+      "shellClearanceMm": 0.9001986071002719,
+      "screwClearanceMm": 10.871667924919366
+    },
+    {
+      "name": "JfD M2-to-M1",
+      "bodyClearanceMm": 3.4135853761504906,
+      "terminalRootClearanceMm": 0.8558695189526345,
+      "shellCollision": false,
+      "shellClearanceMm": 0.574229882624097,
+      "screwClearanceMm": 10.522044314229102
+    },
+    {
+      "name": "JaD I4-to-M4",
+      "bodyClearanceMm": 3.4045111725531654,
+      "terminalRootClearanceMm": 1.1869506834844525,
+      "shellCollision": false,
+      "shellClearanceMm": 0.36059761072775093,
+      "screwClearanceMm": 5.794510705806159
+    }
+  ],
+  "postToTerminalRootClearanceMm": {
+    "I1": 1.2031677184776737,
+    "I2": 1.1921902738645627,
+    "I3": 1.205183189001586,
+    "I4": 1.2674617261944818,
+    "M1": 1.2193829495151747,
+    "M2": 1.2193829495151736,
+    "M3": 1.2193829495151731,
+    "M4": 1.2193829495151731
+  },
+  "retainerPositiveOverlap": {
+    "JfD_RWID": true,
+    "JaD_RZKD": true
+  },
+  "minimums": {
+    "bodyClearanceMm": 2.7402499560570974,
+    "terminalRootClearanceMm": 0.8558695189526345,
+    "shellClearanceMm": 0.249822071192908,
+    "screwClearanceMm": 5.794510705806159,
+    "postToTerminalRootClearanceMm": 1.1921902738645627
+  },
+  "hardGatePass": true
+}

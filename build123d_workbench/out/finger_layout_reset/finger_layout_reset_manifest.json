@@ -1,0 +1,343 @@
+{
+  "schema": 1,
+  "mode": "LOCAL build123d / external markers only / shell boolean 0 / Onshape write 0",
+  "baseline": {
+    "document": "OneGrip_Play_V1",
+    "historicalState": "Start",
+    "historicalVersionId": "4342e7db262cbced58bf16b8",
+    "format": "STEP AP242",
+    "units": "mm",
+    "yAxisUpTransform": false,
+    "files": {
+      "JaD": {
+        "path": "local_cad\\reference\\JAD_CLEAN_PRE_FINGER.step",
+        "sha256": "01f5708a29ca46b0f9f13b5c63b5f4d9b7b46bcf04fc8b0a55b806085f1ff4f0",
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 46577.761694471395,
+        "bboxMm": {
+          "min": [
+            -0.5222681032686836,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            38.77976975434524,
+            62.428314495976565,
+            78.25678350405062
+          ]
+        },
+        "topology": {
+          "vertices": 116,
+          "edges": 170,
+          "faces": 62
+        }
+      },
+      "JfD": {
+        "path": "local_cad\\reference\\JFD_CLEAN_PRE_FINGER.step",
+        "sha256": "8d290891dd93f16f50789f24ef7d27c754b27b4250caa1ebb3cb587648475792",
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 47850.714043167885,
+        "bboxMm": {
+          "min": [
+            -38.77976975434524,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            0.5222681032686836,
+            62.42831449419311,
+            78.25678350405062
+          ]
+        },
+        "topology": {
+          "vertices": 107,
+          "edges": 159,
+          "faces": 60
+        }
+      },
+      "thumb": {
+        "path": "local_cad\\reference\\THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+        "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d",
+        "visibleInPlaceSolidCount": 9,
+        "parkedSourceSolidCount": 1,
+        "valid": true,
+        "solidCount": 10,
+        "volumeMm3": 8252.347678990332,
+        "bboxMm": {
+          "min": [
+            -20.279267268814046,
+            -54.28539123126642,
+            -1e-07
+          ],
+          "max": [
+            110.522113608337,
+            4.99152398970311,
+            73.36769141444876
+          ]
+        },
+        "topology": {
+          "vertices": 258,
+          "edges": 393,
+          "faces": 143
+        }
+      }
+    }
+  },
+  "parametersMm": {
+    "capSize": 7.6,
+    "markerExposure": 1.2,
+    "N1": {
+      "z": 25.0,
+      "arcStation": -11.0
+    },
+    "N2": {
+      "z": 25.0,
+      "arcStation": 0.0
+    },
+    "N3": {
+      "z": -11.125,
+      "arcStation": 20.0
+    }
+  },
+  "datums": {
+    "I2": {
+      "name": "I2",
+      "center": [
+        -15.97116502911469,
+        -26.20981698837403,
+        8.99880711855274
+      ],
+      "normal": [
+        -0.4724,
+        -0.7368,
+        -0.4838
+      ],
+      "kind": "retained",
+      "owner": "JfD",
+      "source": "validated INDEX datum"
+    },
+    "I3": {
+      "name": "I3",
+      "center": [
+        -5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "normal": [
+        -0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "kind": "retained",
+      "owner": "JfD",
+      "source": "validated INDEX datum"
+    },
+    "I4": {
+      "name": "I4",
+      "center": [
+        5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "normal": [
+        0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "kind": "retained",
+      "owner": "JaD",
+      "source": "validated INDEX datum"
+    },
+    "M3": {
+      "name": "M3",
+      "center": [
+        -6.890920103853075,
+        -13.71668568786225,
+        -11.11806979342742
+      ],
+      "normal": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "kind": "retained",
+      "owner": "JfD",
+      "source": "approved build123d MIDDLE datum"
+    },
+    "M4": {
+      "name": "M4",
+      "center": [
+        7.379332315763718,
+        -13.575227245499876,
+        -11.115547003937289
+      ],
+      "normal": [
+        0.22485912746543743,
+        -0.7727927739559164,
+        -0.5934894281425763
+      ],
+      "kind": "retained",
+      "owner": "JaD",
+      "source": "approved build123d MIDDLE datum"
+    },
+    "N1": {
+      "name": "N1",
+      "center": [
+        -10.990443464183823,
+        -35.80002827761031,
+        25.0
+      ],
+      "normal": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "kind": "new",
+      "owner": "JfD",
+      "source": "user-markup seed; z=25.000; arc=-11.000"
+    },
+    "N2": {
+      "name": "N2",
+      "center": [
+        5.3077624785043596e-15,
+        -35.76511909258096,
+        25.0
+      ],
+      "normal": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "kind": "new",
+      "owner": "SPLIT_REVIEW",
+      "source": "user-markup seed; z=25.000; arc=0.000"
+    },
+    "N3": {
+      "name": "N3",
+      "center": [
+        17.48689737236422,
+        -6.664472046607768,
+        -11.125
+      ],
+      "normal": [
+        0.7372725897449889,
+        -0.5077902287869772,
+        -0.4456211529530288
+      ],
+      "kind": "new",
+      "owner": "JaD",
+      "source": "user-markup seed; z=-11.125; arc=19.968"
+    }
+  },
+  "removedReferences": {
+    "I1": {
+      "name": "I1",
+      "center": [
+        -22.22482226162756,
+        -17.494210997229082,
+        8.999749786340129
+      ],
+      "normal": [
+        -0.9291,
+        -0.2385,
+        -0.2828
+      ],
+      "kind": "removed",
+      "owner": "JfD",
+      "source": "former INDEX datum"
+    },
+    "M1": {
+      "name": "M1",
+      "center": [
+        -20.415095664764088,
+        4.8100038771616305,
+        -11.121307310258963
+      ],
+      "normal": [
+        -0.992161445973124,
+        -0.028542071086963765,
+        -0.12165942340232677
+      ],
+      "kind": "removed",
+      "owner": "JfD",
+      "source": "former MIDDLE datum"
+    },
+    "M2": {
+      "name": "M2",
+      "center": [
+        -17.204068604018175,
+        -7.077823436408687,
+        -11.119085226412702
+      ],
+      "normal": [
+        -0.7163604291732192,
+        -0.5283578070189137,
+        -0.45570359146810097
+      ],
+      "kind": "removed",
+      "owner": "JfD",
+      "source": "former MIDDLE datum"
+    }
+  },
+  "exports": {
+    "markers": {
+      "path": "build123d_workbench\\out\\finger_layout_reset\\FINGER_LAYOUT_EXTERNAL_MARKERS_8.step",
+      "valid": true,
+      "solidCount": 8,
+      "volumeMm3": 554.496,
+      "bboxMm": {
+        "min": [
+          -20.729208116246102,
+          -39.00588796184718,
+          -15.061587622582557
+        ],
+        "max": [
+          21.921662721369437,
+          -2.5744148750072036,
+          28.328054891639283
+        ]
+      },
+      "topology": {
+        "vertices": 64,
+        "edges": 96,
+        "faces": 48
+      }
+    },
+    "review": {
+      "path": "build123d_workbench\\out\\finger_layout_reset\\CLEAN_SHELL_EXTERNAL_LAYOUT_REVIEW.step",
+      "valid": true,
+      "solidCount": 19,
+      "volumeMm3": 102950.77852787414,
+      "bboxMm": {
+        "min": [
+          -38.77976975434524,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          38.77976975434524,
+          62.428314495976565,
+          78.25678350405062
+        ]
+      },
+      "topology": {
+        "vertices": 531,
+        "edges": 796,
+        "faces": 301
+      }
+    }
+  },
+  "gates": {
+    "buttonCount": 8,
+    "retainedCount": 5,
+    "newCount": 3,
+    "removedReferenceCount": 3,
+    "shellCutCount": 0,
+    "openingCount": 0,
+    "pocketCount": 0,
+    "carrierCount": 0,
+    "wiringGeometryCount": 0
+  }
+}

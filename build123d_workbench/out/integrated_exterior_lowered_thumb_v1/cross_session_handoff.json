@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "handoffId": "ONEGRIP_EXTERIOR_FIRST_MAX_LOWERED_THUMB_2026-08-22",
+  "workspace": "C:\\Users\\User\\Desktop\\OneGrip-Play",
+  "authoritativeDocument": "docs/54_cross_session_final_handoff.md",
+  "status": {
+    "currentBaseline": "EXTERIOR-FIRST MAX-LOWERED THUMB V1",
+    "exteriorReviewMockup": "READY",
+    "userExteriorApproval": "PENDING",
+    "internalDesign": "DEFERRED",
+    "productionPrintApproval": "NOT EVALUATED"
+  },
+  "frozenIntent": {
+    "fingerButtons": ["I2", "I3", "I4", "M3", "M4", "N1", "N2", "N3"],
+    "thumbTranslationMm": [0.0, 12.25, -21.0],
+    "joystickExterior": "circular recess plus central split opening",
+    "oldThumbOpenings": "REMOVED",
+    "thumbMechanismThroughCutterCount": 0,
+    "externalFasteningGeometryCount": 0
+  },
+  "sourceRoles": {
+    "cleanExactShellBuilder": "build123d_workbench/integrated_exterior_clean_v1.py",
+    "exactReviewBuilder": "build123d_workbench/integrated_exterior_lowered_thumb_v1.py",
+    "visualLower15GraftBuilder": "build123d_workbench/render_integrated_exterior_lowered_thumb_v1.py",
+    "visualSourceOfTruth": [
+      "renders/integrated_exterior_lowered_thumb_v1/00_contact_sheet.png",
+      "renders/integrated_exterior_lowered_thumb_v1/08_thumb_housing_shell_only.png"
+    ],
+    "exactReviewOutputs": [
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/EXTERIOR_LOWERED_THUMB_V1_COMBINED_REFERENCE.step"
+    ],
+    "visualReference": "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/EXTERIOR_FIRST_LOWERED_THUMB_VISUAL_REFERENCE.stl"
+  },
+  "visualPatch": {
+    "uMm": [-23.5, 23.5],
+    "vMm": [-34.0, 28.0],
+    "nMm": [-8.0, 40.0],
+    "rejectsOppositeRearFingerSurface": true,
+    "joystickOpeningIncluded": true,
+    "printApproval": false
+  },
+  "exactReviewShells": {
+    "JaD": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 46254.47726455253
+    },
+    "JfD": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 47287.23994060223
+    }
+  },
+  "deferredInternalReview": [
+    "Thumb Backplate seating",
+    "HW504 mechanism clearance",
+    "PushBtn actuation and travel",
+    "Finger/Thumb internal interference",
+    "carrier and assembly path",
+    "wiring path",
+    "internal fastening",
+    "printability and physical validation"
+  ],
+  "obsolete": [
+    "finger_thumb_integrated_v3 external boss/fastening architecture",
+    "finger_thumb_exterior_clean_v4",
+    "integrated_exterior_clean_v1 as a final combined exterior",
+    "initial lower15 patch render missing the circular joystick opening",
+    "N1 rear HW504 through cutter",
+    "whole lower15 legacy shell as a replacement for the clean Finger shell"
+  ],
+  "hashes": {
+    "build123d_workbench/integrated_exterior_clean_v1.py": "2494b6a98a32c4f9589e0acf2b56cc82970ab7e1a3fc01d302c481de3b689dc2",
+    "build123d_workbench/integrated_exterior_lowered_thumb_v1.py": "57ea6600118faf0d509f9ee4c5fc35704953d65ab162eaa499716513c4be75e3",
+    "build123d_workbench/render_integrated_exterior_lowered_thumb_v1.py": "9f97f77fa0f21804e4efbd929ff994c73fb94476333de31904f23264530fb76d",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/EXTERIOR_LOWERED_THUMB_V1_COMBINED_REFERENCE.step": "95abe90a4a5f866c31834b24c3d5ad00556788513a9d162fd2b3615347419609",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/EXTERIOR_FIRST_LOWERED_THUMB_VISUAL_REFERENCE.stl": "8be75b89bcb30dc4fd375c744be3dd08f63bf599223f48e9d5acc9d10046a8c7",
+    "renders/integrated_exterior_lowered_thumb_v1/00_contact_sheet.png": "87da5e7057117735a171384fd4ca132845b5809907fa0e78a94a7f41e03dc916",
+    "renders/integrated_exterior_lowered_thumb_v1/08_thumb_housing_shell_only.png": "7c6d76e3c46c054b98a9d7923e893b5b485c6416eef2481de745cf9da8031e97"
+  }
+}

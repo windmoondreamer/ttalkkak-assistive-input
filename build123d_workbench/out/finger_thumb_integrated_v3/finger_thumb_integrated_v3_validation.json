@@ -1,0 +1,544 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-22T10:12:03.177537+00:00",
+  "mode": "LOCAL build123d + OCCT; Onshape API/browser/write = 0",
+  "hardFreeze": {
+    "fingerCenterMovementMm": {
+      "I2": 0.0,
+      "I3": 0.0,
+      "I4": 0.0,
+      "M3": 0.0,
+      "M4": 0.0,
+      "N1": 0.0,
+      "N2": 0.0,
+      "N3": 0.0
+    },
+    "fingerExternalCaps": {
+      "I2": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      },
+      "I3": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      },
+      "I4": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      },
+      "M3": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      },
+      "M4": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      },
+      "N1": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      },
+      "N2": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      },
+      "N3": {
+        "centerMovementMm": 0.0,
+        "sizeMm": 7.6,
+        "exposureMm": 1.0
+      }
+    },
+    "thumbTranslationMm": [
+      0.0,
+      12.25,
+      -21.0
+    ],
+    "thumbRelativeGeometryDifferenceMm": 0.0
+  },
+  "architecture": {
+    "carrierGrouping": [
+      "N1_N2_V3_shared_front_carrier",
+      "N1_N2_V3_rear_restraint",
+      "I2_I3_shared_carrier",
+      "M4_N3_shared_carrier",
+      "I4_carrier",
+      "M3_carrier"
+    ],
+    "carrierCount": 6,
+    "N1N2": "shared removable front ring + removable central rear restraint; shell closure capture",
+    "thumbSeat": "split continuous 1.60 mm flange + three conformal pads",
+    "fastenerChosen": "C_REDISTRIBUTED_POSTERIOR_3POINT",
+    "fastenerPositionsYZMm": [
+      [
+        10.0,
+        35.0
+      ],
+      [
+        25.0,
+        8.0
+      ],
+      [
+        15.8,
+        -21.35
+      ]
+    ],
+    "fastenerAxes": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "bossRadialWallMm": 1.7999999999999998,
+    "bossSupportWebMm": 3.2,
+    "minimumCarrierWallMm": 1.6,
+    "maximumAxisAdjustmentDeg": 0.0
+  },
+  "fastenerOptionComparison": {
+    "A_MINIMUM_RELOCATION": {
+      "positionsYZMm": [
+        [
+          -14.0,
+          0.0
+        ],
+        [
+          25.0,
+          8.0
+        ],
+        [
+          15.8,
+          -21.35
+        ]
+      ],
+      "minimumScrewToThumbMm": 6.5511916946665165,
+      "minimumScrewToFingerMm": 3.168115091465496,
+      "minimumBossToThumbMm": 4.687469176522983,
+      "minimumBossToFingerMm": 1.244774358002926,
+      "screwCount": 3
+    },
+    "B_DEDICATED_THUMB_PLUS_SHELL": {
+      "positionsYZMm": [
+        [
+          10.0,
+          35.0
+        ],
+        [
+          -25.0,
+          60.0
+        ],
+        [
+          15.8,
+          -21.35
+        ]
+      ],
+      "minimumScrewToThumbMm": 4.634297628703708,
+      "minimumScrewToFingerMm": 17.912673923746887,
+      "minimumBossToThumbMm": 1.5842976287037105,
+      "minimumBossToFingerMm": 14.822382285971551,
+      "screwCount": 3
+    },
+    "C_REDISTRIBUTED_POSTERIOR_3POINT": {
+      "positionsYZMm": [
+        [
+          10.0,
+          35.0
+        ],
+        [
+          25.0,
+          8.0
+        ],
+        [
+          15.8,
+          -21.35
+        ]
+      ],
+      "minimumScrewToThumbMm": 3.499359580416165,
+      "minimumScrewToFingerMm": 17.912673923746887,
+      "minimumBossToThumbMm": 3.499359580416165,
+      "minimumBossToFingerMm": 14.822382285971551,
+      "screwCount": 3
+    }
+  },
+  "construction": {
+    "seatDiagnostics": {
+      "minimumPositiveConnectionVolumeMm3": 12.67199904930737,
+      "fullSeatSolidCount": 1,
+      "fullSeatValid": true
+    },
+    "seatToShellPositiveOverlapMm3": {
+      "JaD": 126.49129775465961,
+      "JfD": 176.48320092663212
+    },
+    "bossToShellPositiveOverlapMm3": {
+      "JaD_1": 97.2417497950495,
+      "JfD_1": 94.99954541366826,
+      "JaD_2": 201.42197303011844,
+      "JfD_2": 125.29108762187573,
+      "JaD_3": 223.5655507064721,
+      "JfD_3": 142.00784192389997
+    },
+    "thumbMechanismLocalReliefs": [],
+    "thumbMechanismThroughReliefPolicy": {
+      "enabled": false,
+      "status": "DISCARDED",
+      "reason": "prevent exterior through-window behind N1/N2"
+    },
+    "fastenerOptions": {
+      "A_MINIMUM_RELOCATION": {
+        "positionsYZMm": [
+          [
+            -14.0,
+            0.0
+          ],
+          [
+            25.0,
+            8.0
+          ],
+          [
+            15.8,
+            -21.35
+          ]
+        ],
+        "minimumScrewToThumbMm": 6.5511916946665165,
+        "minimumScrewToFingerMm": 3.168115091465496,
+        "minimumBossToThumbMm": 4.687469176522983,
+        "minimumBossToFingerMm": 1.244774358002926,
+        "screwCount": 3
+      },
+      "B_DEDICATED_THUMB_PLUS_SHELL": {
+        "positionsYZMm": [
+          [
+            10.0,
+            35.0
+          ],
+          [
+            -25.0,
+            60.0
+          ],
+          [
+            15.8,
+            -21.35
+          ]
+        ],
+        "minimumScrewToThumbMm": 4.634297628703708,
+        "minimumScrewToFingerMm": 17.912673923746887,
+        "minimumBossToThumbMm": 1.5842976287037105,
+        "minimumBossToFingerMm": 14.822382285971551,
+        "screwCount": 3
+      },
+      "C_REDISTRIBUTED_POSTERIOR_3POINT": {
+        "positionsYZMm": [
+          [
+            10.0,
+            35.0
+          ],
+          [
+            25.0,
+            8.0
+          ],
+          [
+            15.8,
+            -21.35
+          ]
+        ],
+        "minimumScrewToThumbMm": 3.499359580416165,
+        "minimumScrewToFingerMm": 17.912673923746887,
+        "minimumBossToThumbMm": 3.499359580416165,
+        "minimumBossToFingerMm": 14.822382285971551,
+        "screwCount": 3
+      }
+    }
+  },
+  "clearances": {
+    "switchSwitchMinimumMm": 1.3587189423407178,
+    "N1HardToThumb": {
+      "minimumClearanceMm": 1.421369849641767,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "N2HardToThumb": {
+      "minimumClearanceMm": 1.4852536655841029,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "N1WiringToThumb": {
+      "minimumClearanceMm": 2.123227103129145,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "N2WiringToThumb": {
+      "minimumClearanceMm": 2.1912168984180487,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerBodiesToThumb": {
+      "minimumClearanceMm": 3.1884120350962686,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerCarriersToThumb": {
+      "minimumClearanceMm": 1.7147708476821462,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerWiringToThumb": {
+      "minimumClearanceMm": 2.123227103129145,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "thumbToNewScrews": {
+      "minimumClearanceMm": 5.349359580416166,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "thumbToNewBosses": {
+      "minimumClearanceMm": 3.499359580416165,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerHardToNewScrews": {
+      "minimumClearanceMm": 17.912673923746887,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerHardToNewBosses": {
+      "minimumClearanceMm": 14.822382285971551,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerWiringToNewScrews": {
+      "minimumClearanceMm": 18.950468389880545,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "fingerWiringToNewBosses": {
+      "minimumClearanceMm": 15.900468389880542,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "thumbWiringToNewScrews": {
+      "minimumClearanceMm": 11.481327085566223,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "thumbWiringToNewBosses": {
+      "minimumClearanceMm": 10.049027150414782,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "thumbToShell": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 93.18806673384738,
+      "intersectingPairCount": 2
+    },
+    "NFrontCarrierToShell": {
+      "minimumClearanceMm": 0.24999999999996844,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "NRearRestraintToShell": {
+      "minimumClearanceMm": 0.24999999999999992,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "N2CarrierToOppositeJaD": {
+      "minimumClearanceMm": 0.8199999999999465,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "N1ToN2Switch": {
+      "minimumClearanceMm": 4.637978453805112,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    },
+    "thumbWiringToFingerWiring": {
+      "minimumClearanceMm": 20.04622994774177,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0
+    }
+  },
+  "fragments": {
+    "JaD_shell": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 47008.991325686766,
+      "smallSolidCount": 0
+    },
+    "JfD_shell": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 47673.6956665621,
+      "smallSolidCount": 0
+    },
+    "N1_N2_V3_shared_front_carrier": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 378.1347163862556,
+      "smallSolidCount": 0
+    },
+    "N1_N2_V3_rear_restraint": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 92.69007545900692,
+      "smallSolidCount": 0
+    },
+    "I2_I3_shared_carrier": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 500.0740494240817,
+      "smallSolidCount": 0
+    },
+    "M4_N3_shared_carrier": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 530.3776948576643,
+      "smallSolidCount": 0
+    },
+    "I4_carrier": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 266.67501614920803,
+      "smallSolidCount": 0
+    },
+    "M3_carrier": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 264.56230247481744,
+      "smallSolidCount": 0
+    },
+    "JaD_boss_1": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 577.3887993805174,
+      "smallSolidCount": 0
+    },
+    "JfD_boss_1": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 435.1217760627036,
+      "smallSolidCount": 0
+    },
+    "JaD_boss_2": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 577.3887993805178,
+      "smallSolidCount": 0
+    },
+    "JfD_boss_2": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 435.12177606270393,
+      "smallSolidCount": 0
+    },
+    "JaD_boss_3": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 577.3887993805172,
+      "smallSolidCount": 0
+    },
+    "JfD_boss_3": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 435.1217760627035,
+      "smallSolidCount": 0
+    },
+    "JaD": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 865.3770661615079,
+      "smallSolidCount": 0
+    },
+    "JfD": {
+      "valid": true,
+      "solidCount": 1,
+      "volumeMm3": 889.9497224750563,
+      "smallSolidCount": 0
+    }
+  },
+  "assemblySequence": [
+    "pre-wire I2/I3, I4, M3 and M4/N3 modules",
+    "insert N1/N2 switches axially into the shared front ring",
+    "form N1/N2 distal leads once and install removable rear restraint",
+    "route Finger wires down both sides of the shared corridor",
+    "pre-wire lowered rigid thumb module",
+    "seat thumb Backplate against three conformal pads and split flange",
+    "route thumb bundle through the posterior corridor",
+    "close JaD/JfD and capture N carrier plus thumb flange",
+    "install three +X M3-class screws from posterior redistributed bosses"
+  ],
+  "serviceSequence": [
+    "remove three M3-class screws",
+    "separate JaD/JfD without cutting adhesive",
+    "lift thumb module from the split conformal seat",
+    "remove N rear restraint, then withdraw N1/N2 switches",
+    "remove the remaining four carrier groups independently"
+  ],
+  "printOrientation": {
+    "shells": "split/seam face on bed; protect cap guides and conformal pads from support scars",
+    "NFrontCarrier": "front-ring plane flat; bridge up; minimal local support only",
+    "NRearRestraint": "broad restraint face flat; support-free"
+  },
+  "gates": {
+    "FINGER EXTERNAL LAYOUT": "PRESERVED",
+    "THUMB EXTERNAL LAYOUT": "PRESERVED",
+    "N1 INTERNAL": "PASS",
+    "N2 SEAM": "PASS",
+    "FINGER CARRIERS": "PASS",
+    "THUMB SEATING": "PASS",
+    "NEW FASTENING": "PASS",
+    "WIRING": "PASS",
+    "ASSEMBLY": "HOLD",
+    "SERVICEABILITY": "PASS",
+    "FDM PRINTABILITY": "PASS",
+    "FRAGMENT GATE": "PASS",
+    "LOCAL INTEGRATED V3": "HOLD"
+  },
+  "sources": {
+    "targetThumb": {
+      "path": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step",
+      "sha256": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9"
+    },
+    "controlManifest": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\finger_controls_v2_source_manifest.json",
+      "sha256": "2de88051c9c981a04f284b5dde48e4a15861606e5bae3f1376e2a7ef6539c5b2"
+    },
+    "JaDV2": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\JAD_FINGER_V2.step",
+      "sha256": "a477aa79e55ddb21fb2a45c7f616544f6eb4844b593f61cf7d45303476c5a762"
+    },
+    "JfDV2": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\JFD_FINGER_V2.step",
+      "sha256": "d457d5d9b305a4c7d77e21aab3cb7d33336d672d4d8bf031e6158de44c26ad50"
+    }
+  },
+  "exports": {
+    "JAD_FINGER_THUMB_INTEGRATED_V3.step": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JAD_FINGER_THUMB_INTEGRATED_V3.step",
+    "JFD_FINGER_THUMB_INTEGRATED_V3.step": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JFD_FINGER_THUMB_INTEGRATED_V3.step",
+    "N1_N2_V3_shared_front_carrier.step": "build123d_workbench\\out\\finger_thumb_integrated_v3\\N1_N2_V3_shared_front_carrier.step",
+    "N1_N2_V3_shared_front_carrier.stl": "build123d_workbench\\out\\finger_thumb_integrated_v3\\N1_N2_V3_shared_front_carrier.stl",
+    "N1_N2_V3_rear_restraint.step": "build123d_workbench\\out\\finger_thumb_integrated_v3\\N1_N2_V3_rear_restraint.step",
+    "N1_N2_V3_rear_restraint.stl": "build123d_workbench\\out\\finger_thumb_integrated_v3\\N1_N2_V3_rear_restraint.stl",
+    "JaD.step": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JaD.step",
+    "JaD.stl": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JaD.stl",
+    "JfD.step": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JfD.step",
+    "JfD.stl": "build123d_workbench\\out\\finger_thumb_integrated_v3\\JfD.stl",
+    "FINGER_THUMB_INTEGRATED_V3_REFERENCE.step": "build123d_workbench\\out\\finger_thumb_integrated_v3\\FINGER_THUMB_INTEGRATED_V3_REFERENCE.step"
+  }
+}

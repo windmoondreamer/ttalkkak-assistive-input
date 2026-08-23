@@ -1,0 +1,58 @@
+{
+  "schema": 1,
+  "purpose": "exterior-first visual composite only",
+  "thumbTranslationMm": [
+    0.0,
+    12.25,
+    -21.0
+  ],
+  "surfaceSources": {
+    "outsideThumbMask": "FINAL EXTERIOR CLEAN V1 exact-shell tessellation",
+    "insideThumbMask": "THUMB_LOWER15_HOUSING_V1 shell STL"
+  },
+  "thumbPatchLocalMask": {
+    "uMm": [
+      -23.5,
+      23.5
+    ],
+    "vMm": [
+      -34.0,
+      28.0
+    ],
+    "nMm": [
+      -8.0,
+      40.0
+    ],
+    "rejectsOppositeRearFingerSurface": true
+  },
+  "patchMetrics": {
+    "JaD": {
+      "cleanTrianglesRemovedInThumbMask": 2142,
+      "lower15ThumbPatchTrianglesInserted": 3094,
+      "hybridTriangleCount": 14673
+    },
+    "JfD": {
+      "cleanTrianglesRemovedInThumbMask": 1949,
+      "lower15ThumbPatchTrianglesInserted": 2974,
+      "hybridTriangleCount": 13102
+    }
+  },
+  "exactEnvelopeShellTriangleCount": [
+    14306,
+    12332
+  ],
+  "visualReferenceStl": "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\EXTERIOR_FIRST_LOWERED_THUMB_VISUAL_REFERENCE.stl",
+  "printApproval": false,
+  "reason": "regional mesh graft is for exterior review; internal and watertight production gates are deferred",
+  "renders": [
+    "renders\\integrated_exterior_lowered_thumb_v1\\00_contact_sheet.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\01_thumb_side.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\02_thumb_oblique.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\03_rear_latest_finger.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\04_front_exterior.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\05_full_oblique.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\06_thumb_region_closeup.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\07_clean_vs_lowered_openings.png",
+    "renders\\integrated_exterior_lowered_thumb_v1\\08_thumb_housing_shell_only.png"
+  ]
+}

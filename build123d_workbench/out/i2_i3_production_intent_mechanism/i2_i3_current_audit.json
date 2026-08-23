@@ -1,0 +1,720 @@
+{
+  "schema": "onegrip.i2_i3.current_audit.v1",
+  "generatedUtc": "2026-08-23T08:02:43.274409+00:00",
+  "mode": "READ ONLY / LOCAL SHELL CROP / SERIAL EXACT",
+  "shellCropBboxMm": {
+    "min": [
+      -28.62523056413,
+      -39.718925226340005,
+      -2.9260332830798275
+    ],
+    "max": [
+      10.18327080368,
+      -3.8633536511085467,
+      29.320885925667
+    ]
+  },
+  "controls": {
+    "I2": {
+      "centerMm": [
+        -15.97116502911469,
+        -26.20981698837403,
+        8.99880711855274
+      ],
+      "axis": [
+        -0.43398514194613513,
+        -0.7569241977430389,
+        -0.48859252495412786
+      ],
+      "shellNormal": [
+        -0.4724,
+        -0.7368,
+        -0.4838
+      ],
+      "frontDepthMm": 5.4,
+      "actuatorTopCenterMm": [
+        -14.68656900895413,
+        -23.969321363054632,
+        10.44504099241696
+      ],
+      "capActuatorLateralOffsetMm": 1.1322097734007351e-15,
+      "capSwitchPlaneAngleDeg": 0.0,
+      "capShellLocalPlaneAngleDeg": 2.499999999999953,
+      "mappedCapSwitchPlaneAngleDeg": 0.0,
+      "mappedCapShellAngleDeg": 2.500000000005203,
+      "capShell": {
+        "pair": "I2 cap<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.19999999999475537,
+        "closestPointLeftMm": [
+          -17.826390875113283,
+          -27.08514247213826,
+          12.412071559801
+        ],
+        "closestPointRightMm": [
+          -17.87499579396696,
+          -27.16991551078368,
+          12.586573977497228
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyShell": {
+        "pair": "I2 body<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.600521526909085,
+        "closestPointLeftMm": [
+          -16.411488148642768,
+          -19.336231029117965,
+          9.793559665655872
+        ],
+        "closestPointRightMm": [
+          -17.572698750934624,
+          -20.17634210832775,
+          9.081188645882225
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyCarrier": {
+        "pair": "I2 body<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.10999999999655775,
+        "closestPointLeftMm": [
+          -9.29881527124012,
+          -18.89493519367072,
+          10.078414935358992
+        ],
+        "closestPointRightMm": [
+          -9.199714068170193,
+          -18.935043441883508,
+          10.052525169482642
+        ],
+        "passZeroPenetration": true
+      },
+      "actuatorCarrier": {
+        "pair": "I2 actuator<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.5249999999985577,
+        "closestPointLeftMm": [
+          -12.11860421596727,
+          -22.733165554666414,
+          11.24297622748808
+        ],
+        "closestPointRightMm": [
+          -10.744701173500339,
+          -23.28921172303317,
+          10.884049927863067
+        ],
+        "passZeroPenetration": true
+      },
+      "terminals": {
+        "T1": {
+          "carrier": {
+            "pair": "I2 T1<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.471130352202816e-13,
+            "closestPointLeftMm": [
+              -15.279166544694467,
+              -16.49109576188131,
+              12.03476775304479
+            ],
+            "closestPointRightMm": [
+              -15.27916654469,
+              -16.49109576188,
+              12.034767753041
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I2 T1<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.217986748887549,
+            "closestPointLeftMm": [
+              -15.395898416432063,
+              -16.95105000467266,
+              11.737868531803247
+            ],
+            "closestPointRightMm": [
+              -19.1684674810115,
+              -18.2659768336265,
+              10.385055794848652
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I2 T1<->I3 body",
+            "aabbGapMm": 6.501799327685404,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.551162950879581,
+            "closestPointLeftMm": [
+              -14.867770763717793,
+              -17.55544857836556,
+              12.466554710179443
+            ],
+            "closestPointRightMm": [
+              -7.811063865802748,
+              -20.122642210721963,
+              11.671277072091103
+            ],
+            "passZeroPenetration": true
+          }
+        },
+        "T2": {
+          "carrier": {
+            "pair": "I2 T2<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.46079721332955e-13,
+            "closestPointLeftMm": [
+              -15.279166544694299,
+              -18.93156361068163,
+              15.81552385189221
+            ],
+            "closestPointRightMm": [
+              -15.27916654469,
+              -18.93156361068,
+              15.815523851888
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I2 T2<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.027103572020666,
+            "closestPointLeftMm": [
+              -14.902247805548459,
+              -17.956191370537706,
+              17.563947823145
+            ],
+            "closestPointRightMm": [
+              -14.902247805548459,
+              -16.32614549111917,
+              20.11469407997474
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I2 T2<->I3 body",
+            "aabbGapMm": 6.311128130639032,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.262719122705211,
+            "closestPointLeftMm": [
+              -14.867770763717797,
+              -19.635830705770474,
+              15.689468472383966
+            ],
+            "closestPointRightMm": [
+              -7.811063865802748,
+              -21.078861000777053,
+              14.757996315033386
+            ],
+            "passZeroPenetration": true
+          }
+        },
+        "T3": {
+          "carrier": {
+            "pair": "I2 T3<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.305897772542967e-13,
+            "closestPointLeftMm": [
+              -9.085248965806642,
+              -19.505096642943197,
+              10.089238326078418
+            ],
+            "closestPointRightMm": [
+              -9.085248965807,
+              -19.50509664294,
+              10.089238326078
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I2 T3<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.437996633592116,
+            "closestPointLeftMm": [
+              -9.085248965806642,
+              -19.505096642943197,
+              10.089238326078418
+            ],
+            "closestPointRightMm": [
+              -10.883180320172517,
+              -23.656579218334837,
+              7.071881426709886
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I2 T3<->I3 body",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 0.8840171344179675,
+            "closestPointLeftMm": [
+              -8.483603352835065,
+              -19.399601789281803,
+              11.276158794167628
+            ],
+            "closestPointRightMm": [
+              -7.811063865802748,
+              -19.94764654892014,
+              11.106382842514222
+            ],
+            "passZeroPenetration": true
+          }
+        },
+        "T4": {
+          "carrier": {
+            "pair": "I2 T4<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.100340684172787e-13,
+            "closestPointLeftMm": [
+              -7.99981561141953,
+              -20.12082584221282,
+              15.047858294008075
+            ],
+            "closestPointRightMm": [
+              -7.99981561142,
+              -20.12082584221,
+              15.047858294008
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I2 T4<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.991459790400671,
+            "closestPointLeftMm": [
+              -9.085248965806642,
+              -22.45535110904928,
+              14.659752365573437
+            ],
+            "closestPointRightMm": [
+              -9.850620263956056,
+              -27.054762532636634,
+              12.878098029926388
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I2 T4<->I3 body",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 0.2165872869306553,
+            "closestPointLeftMm": [
+              -7.9784167262713135,
+              -20.963347604540235,
+              14.832559900266439
+            ],
+            "closestPointRightMm": [
+              -7.811063865802748,
+              -21.078861000777053,
+              14.757996315033386
+            ],
+            "passZeroPenetration": true
+          }
+        }
+      },
+      "rearReactionGapMm": 0.10999999999655775
+    },
+    "I3": {
+      "centerMm": [
+        -5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "axis": [
+        -0.08169076783987367,
+        -0.9520228437085347,
+        -0.2949222329815895
+      ],
+      "shellNormal": [
+        -0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "frontDepthMm": 5.8,
+      "actuatorTopCenterMm": [
+        -5.2215361062387045,
+        -26.126629390766723,
+        9.990808437104903
+      ],
+      "capActuatorLateralOffsetMm": 1.047382306668854e-15,
+      "capSwitchPlaneAngleDeg": 0.0,
+      "capShellLocalPlaneAngleDeg": 2.4999999999998073,
+      "mappedCapSwitchPlaneAngleDeg": 0.0,
+      "mappedCapShellAngleDeg": 2.4999999999982028,
+      "capShell": {
+        "pair": "I3 cap<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.19999999999930387,
+        "closestPointLeftMm": [
+          -9.36157897502,
+          -29.92674792114,
+          12.689834965266
+        ],
+        "closestPointRightMm": [
+          -9.560846722272434,
+          -29.909649239751893,
+          12.689834965266
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyShell": {
+        "pair": "I3 body<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 2.081731345544622,
+        "closestPointLeftMm": [
+          -8.101882999312698,
+          -22.657085473741386,
+          7.862154688043902
+        ],
+        "closestPointRightMm": [
+          -8.574061022528428,
+          -24.022352259064164,
+          6.363255120257749
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyCarrier": {
+        "pair": "I3 body<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.11000000000038586,
+        "closestPointLeftMm": [
+          -7.811063865802748,
+          -21.078861000777053,
+          14.757996315033386
+        ],
+        "closestPointRightMm": [
+          -7.920696215423756,
+          -21.070277449697272,
+          14.760655368929088
+        ],
+        "passZeroPenetration": true
+      },
+      "actuatorCarrier": {
+        "pair": "I3 actuator<->current shared carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.5249999999979842,
+        "closestPointLeftMm": [
+          -5.02221063270939,
+          -23.30804230819328,
+          9.110432827746946
+        ],
+        "closestPointRightMm": [
+          -5.022210632709389,
+          -22.856777651784416,
+          7.653729285540304
+        ],
+        "passZeroPenetration": true
+      },
+      "terminals": {
+        "T1": {
+          "carrier": {
+            "pair": "I3 T1<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 3.5118444430562835e-13,
+            "closestPointLeftMm": [
+              -8.62198644709185,
+              -17.449383366422722,
+              9.831362436241639
+            ],
+            "closestPointRightMm": [
+              -8.621986447092,
+              -17.44938336642,
+              9.831362436242
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I3 T1<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.035588072705475,
+            "closestPointLeftMm": [
+              -8.251746887784451,
+              -19.682733985176363,
+              9.13950429873324
+            ],
+            "closestPointRightMm": [
+              -9.73539663393696,
+              -23.559653773654894,
+              6.288991428666027
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I3 T1<->I2 body",
+            "aabbGapMm": 0.6768288241482683,
+            "penetrationMm3": 0.0,
+            "distanceMm": 0.8730305413750745,
+            "closestPointLeftMm": [
+              -8.43652904218493,
+              -18.764504433147177,
+              10.118820406086192
+            ],
+            "closestPointRightMm": [
+              -9.29881527124012,
+              -18.89493519367072,
+              10.078414935358992
+            ],
+            "passZeroPenetration": true
+          }
+        },
+        "T2": {
+          "carrier": {
+            "pair": "I3 T2<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.670720032511141e-13,
+            "closestPointLeftMm": [
+              -8.251746887784451,
+              -21.014334610645513,
+              13.437973767538406
+            ],
+            "closestPointRightMm": [
+              -8.251746887784,
+              -21.01433461064,
+              13.437973767538
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I3 T2<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.706720089073681,
+            "closestPointLeftMm": [
+              -8.088632180978317,
+              -18.978464568448313,
+              15.052726616647988
+            ],
+            "closestPointRightMm": [
+              -8.088632180978317,
+              -16.166229908876748,
+              20.018407878523494
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I3 T2<->I2 body",
+            "aabbGapMm": 0.6768288241482683,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.0398987599447007,
+            "closestPointLeftMm": [
+              -8.272696331261068,
+              -20.887963855887236,
+              13.477121510077543
+            ],
+            "closestPointRightMm": [
+              -9.29881527124012,
+              -21.029724258612063,
+              13.385615553057855
+            ],
+            "passZeroPenetration": true
+          }
+        },
+        "T3": {
+          "carrier": {
+            "pair": "I3 T3<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 6.466036496704425e-14,
+            "closestPointLeftMm": [
+              -1.187411745036303,
+              -18.353615966310468,
+              9.551244895726734
+            ],
+            "closestPointRightMm": [
+              -1.187411745037,
+              -18.35361596631,
+              9.551244895726
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I3 T3<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.582112344659631,
+            "closestPointLeftMm": [
+              -1.2704862620899362,
+              -20.507481118527174,
+              9.86808134786759
+            ],
+            "closestPointRightMm": [
+              -0.36466362530619534,
+              -25.970958549077988,
+              9.168168535473452
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I3 T3<->I2 body",
+            "aabbGapMm": 7.515846124579728,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.628299043521916,
+            "closestPointLeftMm": [
+              -1.7829691466603896,
+              -20.344922385235684,
+              9.918439577115779
+            ],
+            "closestPointRightMm": [
+              -9.29881527124012,
+              -19.248510092550074,
+              10.62617075029181
+            ],
+            "passZeroPenetration": true
+          }
+        },
+        "T4": {
+          "carrier": {
+            "pair": "I3 T4<->current shared carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 6.295424678153463e-14,
+            "closestPointLeftMm": [
+              -1.1874117450365622,
+              -19.68521659178036,
+              13.84971436453167
+            ],
+            "closestPointRightMm": [
+              -1.187411745037,
+              -19.68521659178,
+              13.849714364531
+            ],
+            "passZeroPenetration": true
+          },
+          "localShell": {
+            "pair": "I3 T4<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.11502310773805,
+            "closestPointLeftMm": [
+              -1.2704862620899358,
+              -21.83908174399632,
+              14.166550816672759
+            ],
+            "closestPointRightMm": [
+              -0.44688010477163304,
+              -26.704727461909023,
+              12.82095576686045
+            ],
+            "passZeroPenetration": true
+          },
+          "otherSwitchBody": {
+            "pair": "I3 T4<->I2 body",
+            "aabbGapMm": 7.515846124579729,
+            "penetrationMm3": 0.0,
+            "distanceMm": 7.516416393093127,
+            "closestPointLeftMm": [
+              -1.7829691466603892,
+              -21.67652301070483,
+              14.216909045920946
+            ],
+            "closestPointRightMm": [
+              -9.29881527124012,
+              -21.59873404089082,
+              14.26712161580355
+            ],
+            "passZeroPenetration": true
+          }
+        }
+      },
+      "rearReactionGapMm": 0.11000000000038586
+    }
+  },
+  "pairSeparation": {
+    "caps": {
+      "pair": "I2 cap<->I3 cap",
+      "aabbGapMm": 2.2046797112177074,
+      "penetrationMm3": 0.0,
+      "distanceMm": 2.8584592937498297,
+      "closestPointLeftMm": [
+        -11.71470651373876,
+        -26.425790947435114,
+        5.724216682638868
+      ],
+      "closestPointRightMm": [
+        -9.169953285772,
+        -27.69354533987,
+        5.4278733965
+      ],
+      "passZeroPenetration": true
+    },
+    "bodies": {
+      "pair": "I2 body<->I3 body",
+      "aabbGapMm": 1.1969322719274196,
+      "penetrationMm3": 0.0,
+      "distanceMm": 1.4227740786000351,
+      "closestPointLeftMm": [
+        -9.29881527124012,
+        -21.794464358252842,
+        14.570345684688245
+      ],
+      "closestPointRightMm": [
+        -7.881166687201741,
+        -21.895838110247745,
+        14.504909201617746
+      ],
+      "passZeroPenetration": true
+    },
+    "actuators": {
+      "pair": "I2 actuator<->I3 actuator",
+      "aabbGapMm": 5.227666422330343,
+      "penetrationMm3": 0.0,
+      "distanceMm": 5.528484530855777,
+      "closestPointLeftMm": [
+        -12.11893550162949,
+        -22.752064919129825,
+        11.272549253274383
+      ],
+      "closestPointRightMm": [
+        -6.690785038120097,
+        -23.688656477992627,
+        10.80125316239167
+      ],
+      "passZeroPenetration": true
+    }
+  },
+  "sharedCarrierLocalShell": {
+    "pair": "current I2/I3 shared carrier<->local shell",
+    "aabbGapMm": 0.0,
+    "penetrationMm3": 0.0,
+    "distanceMm": 0.48737059921058534,
+    "closestPointLeftMm": [
+      -18.03885842464,
+      -17.92046735101,
+      8.636416981039
+    ],
+    "closestPointRightMm": [
+      -18.446787882021265,
+      -18.110555550393066,
+      8.449360478262925
+    ],
+    "passZeroPenetration": true
+  },
+  "sharedCarrierSolidCount": 1,
+  "sharedCarrierVolumeMm3": 500.0740494240817,
+  "conclusion": {
+    "exteriorFeasibilityReopened": false,
+    "capOrientationsFrozen": true,
+    "intentionalShellAngleDeg": 2.5,
+    "directActuationCandidate": true,
+    "allTerminalsInitiallyRetained": true
+  }
+}

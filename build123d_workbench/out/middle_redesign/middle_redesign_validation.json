@@ -1,0 +1,951 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-21T14:00:22.185592+00:00",
+  "mode": "build123d FIRST / local exact geometry / Onshape CAD WRITE 0",
+  "onshapeReference": {
+    "url": "https://cad.onshape.com/documents/a21e64f36bc61df760d4587c/v/f51e9d9a868db9ef0fcd4b06/e/425d9199b59cfb1efd9ddc35",
+    "versionId": "f51e9d9a868db9ef0fcd4b06",
+    "currentBrepRecheck": "BLOCKED: API HTTP 402 and browser session at sign-in"
+  },
+  "parametersMm": {
+    "switchBody": [
+      6.18,
+      6.12,
+      3.56
+    ],
+    "switchPocket": [
+      6.4,
+      6.4
+    ],
+    "pocketPerSideClearance": [
+      0.11000000000000032,
+      0.14000000000000012
+    ],
+    "cap": 7.6,
+    "opening": 8.0,
+    "capExposure": 1.0,
+    "switchFrontDepth": 4.4,
+    "switchRearDepth": 7.960000000000001,
+    "carrierWall": 1.6,
+    "backboneSection": 3.2,
+    "terminalClearance": 0.08,
+    "wireEnvelope": [
+      4.0,
+      3.2,
+      12.0
+    ]
+  },
+  "datums": {
+    "M1": {
+      "centerMm": [
+        -20.441891909778107,
+        4.808880134986816,
+        -11.125
+      ],
+      "oldCenterMm": [
+        -19.835372272,
+        -0.614991709,
+        -11.125
+      ],
+      "centerChangeMm": 5.457678247295586,
+      "axis": [
+        -0.992161445973124,
+        -0.028542071086963765,
+        -0.12165942340232677
+      ],
+      "shellNormal": [
+        -0.992161445973124,
+        -0.028542071086963765,
+        -0.12165942340232677
+      ],
+      "axisMismatchDeg": 0.0,
+      "rollDeg": 90,
+      "shellOwner": "JfD",
+      "arcStationMm": -32.0
+    },
+    "M2": {
+      "centerMm": [
+        -17.213379782242022,
+        -7.0844962813799075,
+        -11.125
+      ],
+      "oldCenterMm": [
+        -12.89941819,
+        -8.744828192,
+        -14.125
+      ],
+      "centerChangeMm": 5.510623074822183,
+      "axis": [
+        -0.7163604291732192,
+        -0.5283578070189137,
+        -0.45570359146810097
+      ],
+      "shellNormal": [
+        -0.7163604291732192,
+        -0.5283578070189137,
+        -0.45570359146810097
+      ],
+      "axisMismatchDeg": 0.0,
+      "rollDeg": 90,
+      "shellOwner": "JfD",
+      "arcStationMm": -19.5
+    },
+    "M3": {
+      "centerMm": [
+        -6.893458811961845,
+        -13.725680237329435,
+        -11.125
+      ],
+      "oldCenterMm": [
+        -3.537874175,
+        -14.41370884,
+        -11.125
+      ],
+      "centerChangeMm": 3.4253951033285444,
+      "axis": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "shellNormal": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "axisMismatchDeg": 0.0,
+      "rollDeg": 0,
+      "shellOwner": "JfD",
+      "arcStationMm": -7.0
+    },
+    "M4": {
+      "centerMm": [
+        7.383060988607427,
+        -13.587450184483213,
+        -11.125
+      ],
+      "oldCenterMm": [
+        7.44432759,
+        -13.569623472,
+        -11.125
+      ],
+      "centerChangeMm": 0.06380743000744948,
+      "axis": [
+        0.22485912746543743,
+        -0.7727927739559164,
+        -0.5934894281425763
+      ],
+      "shellNormal": [
+        0.22485912746543743,
+        -0.7727927739559164,
+        -0.5934894281425763
+      ],
+      "axisMismatchDeg": 0.0,
+      "rollDeg": 0,
+      "shellOwner": "JaD",
+      "arcStationMm": 7.5
+    }
+  },
+  "spacing": {
+    "switchSatMm": {
+      "M1-M2": 1.5645476450787452,
+      "M2-M3": 1.3890531888234303,
+      "M3-M4": 3.6417143175743094
+    },
+    "minimumSwitchSatMm": 1.3890531888234303,
+    "dividerMm": {
+      "M1-M2": 1.2809534826506903,
+      "M2-M3": 1.1226839925202041,
+      "M3-M4": 3.394197760644225
+    },
+    "minimumDividerMm": 1.1226839925202041,
+    "splitOwnershipMm": {
+      "M3_JfD": 1.5041647520318797,
+      "M4_JaD": 1.990012395414956
+    },
+    "minimumSplitOwnershipMm": 1.5041647520318797,
+    "capGapMm": {
+      "M1-M2": 4.239441266022392,
+      "M2-M3": 3.784259623254343,
+      "M3-M4": 5.440531772729206
+    },
+    "minimumCapGapMm": 3.784259623254343
+  },
+  "clearance": {
+    "indexPerProxy": {
+      "M1_ring_pv": {
+        "holderMm": 17.094016324909713,
+        "switchMm": 22.748564183745764
+      },
+      "M1_ring_nv": {
+        "holderMm": 11.820791309012382,
+        "switchMm": 16.815015689913636
+      },
+      "M1_ring_pu": {
+        "holderMm": 12.648555829035745,
+        "switchMm": 17.873310734333288
+      },
+      "M1_ring_nu": {
+        "holderMm": 19.7252840961698,
+        "switchMm": 24.317987467496224
+      },
+      "M1_column_nu_nv": {
+        "holderMm": 19.135191151122246,
+        "switchMm": 23.56104173644753
+      },
+      "M1_column_nu_pv": {
+        "holderMm": 22.77344566232884,
+        "switchMm": 28.104716819007116
+      },
+      "M1_column_pu_nv": {
+        "holderMm": 11.70703516162875,
+        "switchMm": 16.828945595115357
+      },
+      "M1_column_pu_pv": {
+        "holderMm": 17.015550511830906,
+        "switchMm": 22.75886266080341
+      },
+      "M1_stop_nv": {
+        "holderMm": 11.921172679631395,
+        "switchMm": 17.264523597603233
+      },
+      "M1_stop_pv": {
+        "holderMm": 16.667827496068313,
+        "switchMm": 22.51651457591655
+      },
+      "M2_ring_pv": {
+        "holderMm": 9.355513062171797,
+        "switchMm": 13.804354729399606
+      },
+      "M2_ring_nv": {
+        "holderMm": 8.692197475003201,
+        "switchMm": 12.263521572002276
+      },
+      "M2_ring_pu": {
+        "holderMm": 8.64976920315846,
+        "switchMm": 12.263364786051156
+      },
+      "M2_ring_nu": {
+        "holderMm": 16.28993329083863,
+        "switchMm": 20.259619834641217
+      },
+      "M2_column_nu_nv": {
+        "holderMm": 15.87148251427259,
+        "switchMm": 20.253974929521227
+      },
+      "M2_column_nu_pv": {
+        "holderMm": 16.202456370038043,
+        "switchMm": 21.222387909794847
+      },
+      "M2_column_pu_nv": {
+        "holderMm": 7.879366109000037,
+        "switchMm": 12.254036905332303
+      },
+      "M2_column_pu_pv": {
+        "holderMm": 8.615479677996301,
+        "switchMm": 13.795929422310707
+      },
+      "M2_stop_nv": {
+        "holderMm": 7.996140745285432,
+        "switchMm": 12.296905977891416
+      },
+      "M2_stop_pv": {
+        "holderMm": 8.59236755109128,
+        "switchMm": 13.638187588101848
+      },
+      "M3_ring_pv": {
+        "holderMm": 7.461524450895392,
+        "switchMm": 11.836021954100007
+      },
+      "M3_ring_nv": {
+        "holderMm": 15.178347305980072,
+        "switchMm": 19.1549157432996
+      },
+      "M3_ring_pu": {
+        "holderMm": 9.048512363433577,
+        "switchMm": 14.279743370633412
+      },
+      "M3_ring_nu": {
+        "holderMm": 9.601416579809605,
+        "switchMm": 13.297354909560887
+      },
+      "M3_column_nu_nv": {
+        "holderMm": 13.315618792613718,
+        "switchMm": 18.564361010314173
+      },
+      "M3_column_nu_pv": {
+        "holderMm": 6.024883104501226,
+        "switchMm": 11.16479982329703
+      },
+      "M3_column_pu_nv": {
+        "holderMm": 15.390052649526798,
+        "switchMm": 20.6619556659267
+      },
+      "M3_column_pu_pv": {
+        "holderMm": 7.456283585340586,
+        "switchMm": 12.75097627299897
+      },
+      "M3_stop_nv": {
+        "holderMm": 13.823522490080945,
+        "switchMm": 18.285555171356833
+      },
+      "M3_stop_pv": {
+        "holderMm": 7.420543554035795,
+        "switchMm": 11.720903074827799
+      },
+      "M4_ring_pv": {
+        "holderMm": 7.710010004094615,
+        "switchMm": 13.475465016651624
+      },
+      "M4_ring_nv": {
+        "holderMm": 15.532190383977701,
+        "switchMm": 20.87879370401221
+      },
+      "M4_ring_pu": {
+        "holderMm": 12.405397962953662,
+        "switchMm": 16.988714197044146
+      },
+      "M4_ring_nu": {
+        "holderMm": 9.270369309251794,
+        "switchMm": 14.906888717601047
+      },
+      "M4_column_nu_nv": {
+        "holderMm": 15.521940887281605,
+        "switchMm": 20.881163680932744
+      },
+      "M4_column_nu_pv": {
+        "holderMm": 7.708343882605457,
+        "switchMm": 13.47913675092758
+      },
+      "M4_column_pu_nv": {
+        "holderMm": 18.35297411069207,
+        "switchMm": 23.249836572316152
+      },
+      "M4_column_pu_pv": {
+        "holderMm": 10.696901603566982,
+        "switchMm": 15.45973661777859
+      },
+      "M4_stop_nv": {
+        "holderMm": 15.119582688932852,
+        "switchMm": 20.55986720353516
+      },
+      "M4_stop_pv": {
+        "holderMm": 8.243474401243754,
+        "switchMm": 14.012466446363717
+      },
+      "M1_M2_backbone": {
+        "holderMm": 11.979938239743626,
+        "switchMm": 17.950766987400232
+      },
+      "M2_M3_backbone": {
+        "holderMm": 7.032972895446765,
+        "switchMm": 12.266895611043669
+      },
+      "M4_keyed_stop_nu": {
+        "holderMm": 8.018070278496893,
+        "switchMm": 13.596415742687302
+      },
+      "M4_keyed_stop_pu": {
+        "holderMm": 10.700187708690772,
+        "switchMm": 15.863801954237445
+      }
+    },
+    "minimumIndexHolderMm": 6.024883104501226,
+    "minimumIndexSwitchMm": 11.16479982329703,
+    "screwPerProxyMm": {
+      "M1_ring_pv": 8.016154947796709,
+      "M1_ring_nv": 13.498895242321375,
+      "M1_ring_pu": 14.719500076868133,
+      "M1_ring_nu": 8.895561613626603,
+      "M1_column_nu_nv": 12.046016258425079,
+      "M1_column_nu_pv": 5.737857263968914,
+      "M1_column_pu_nv": 16.993385685166846,
+      "M1_column_pu_pv": 12.736940665139098,
+      "M1_stop_nv": 12.279496134543008,
+      "M1_stop_pv": 6.980904121155627,
+      "M2_ring_pv": 15.020160409978306,
+      "M2_ring_nv": 19.26780489191712,
+      "M2_ring_pu": 22.297235419374978,
+      "M2_ring_nu": 15.67893795830059,
+      "M2_column_nu_nv": 17.588775292448165,
+      "M2_column_nu_pv": 12.965929426105713,
+      "M2_column_pu_nv": 22.332519734334902,
+      "M2_column_pu_pv": 20.34937160471541,
+      "M2_stop_nv": 18.115561504731346,
+      "M2_stop_pv": 14.139368666653152,
+      "M3_ring_pv": 23.048824719094696,
+      "M3_ring_nv": 19.599963560140125,
+      "M3_ring_pu": 22.7597060604844,
+      "M3_ring_nu": 21.02684107391102,
+      "M3_column_nu_nv": 17.58570690632904,
+      "M3_column_nu_pv": 21.04303871930758,
+      "M3_column_pu_nv": 19.232144119550348,
+      "M3_column_pu_pv": 20.284697559448507,
+      "M3_stop_nv": 19.006969472889143,
+      "M3_stop_pv": 22.172420595384125,
+      "M4_ring_pv": 23.062837366538446,
+      "M4_ring_nv": 19.23766643177693,
+      "M4_ring_pu": 20.641276973225633,
+      "M4_ring_nu": 22.629194926419736,
+      "M4_column_nu_nv": 19.104317670670756,
+      "M4_column_nu_pv": 20.338987429165368,
+      "M4_column_pu_nv": 17.37226357659528,
+      "M4_column_pu_pv": 21.030844307810064,
+      "M4_stop_nv": 18.704546128728428,
+      "M4_stop_pv": 22.203703586743917,
+      "M1_M2_backbone": 8.732650155113998,
+      "M2_M3_backbone": 15.828522841887658,
+      "M4_keyed_stop_nu": 20.34168382584444,
+      "M4_keyed_stop_pu": 21.031401093931272
+    },
+    "minimumScrewMm": 5.737857263968914,
+    "frozenMeshes": {
+      "INDEX_shell_keepout": {
+        "collisionCount": 0,
+        "collidingProxies": [],
+        "minimumClearanceMm": 2.1803076631760225,
+        "nearestProxy": "M3_ring_pu"
+      },
+      "RWID": {
+        "collisionCount": 0,
+        "collidingProxies": [],
+        "minimumClearanceMm": 0.9909070082816667,
+        "nearestProxy": "M3_column_pu_pv"
+      },
+      "RZKD": {
+        "collisionCount": 0,
+        "collidingProxies": [],
+        "minimumClearanceMm": 9.716919739741716,
+        "nearestProxy": "M4_column_nu_pv"
+      }
+    },
+    "thumbCollision": {
+      "Backplate": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Small_joystick_attachment": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_corner_1": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_side_1": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_wide_1": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_middle_1": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_corner_2": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_side_2": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_wide_2": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      },
+      "Button_middle_2": {
+        "collisionCount": 0,
+        "collidingProxies": []
+      }
+    }
+  },
+  "exactOccChecks": {
+    "partMetrics": {
+      "M1_M2_M3_shared_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "faceCount": 187,
+        "edgeCount": 576,
+        "volumeMm3": 690.4546356080334,
+        "bboxMm": {
+          "min": [
+            -18.3485389303103,
+            -14.06444673839823,
+            -15.29929693590963
+          ],
+          "max": [
+            1.2936416932744759,
+            10.55436061866814,
+            1.3515292483406887
+          ]
+        }
+      },
+      "M4_single_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "faceCount": 53,
+        "edgeCount": 156,
+        "volumeMm3": 177.03424000000024,
+        "bboxMm": {
+          "min": [
+            -0.8099470998153795,
+            -13.915755033484658,
+            -12.109816840915133
+          ],
+          "max": [
+            11.69724912825144,
+            0.07153001525778474,
+            0.09750947637457145
+          ]
+        }
+      },
+      "M1_cap": {
+        "valid": true,
+        "solidCount": 1,
+        "faceCount": 30,
+        "edgeCount": 71,
+        "volumeMm3": 214.8493656098751,
+        "bboxMm": {
+          "min": [
+            -22.00543953713358,
+            0.9686155634483926,
+            -15.518283898033818
+          ],
+          "max": [
+            -15.595472945540351,
+            8.626311049655667,
+            -5.843602311129196
+          ]
+        }
+      },
+      "M2_cap": {
+        "valid": true,
+        "solidCount": 1,
+        "faceCount": 30,
+        "edgeCount": 71,
+        "volumeMm3": 214.84936560987515,
+        "bboxMm": {
+          "min": [
+            -21.578933434815635,
+            -11.698893711525823,
+            -14.963203610430584
+          ],
+          "max": [
+            -11.034079729215003,
+            -1.2057517085877234,
+            -4.915628133360594
+          ]
+        }
+      },
+      "M3_cap": {
+        "valid": true,
+        "solidCount": 1,
+        "faceCount": 30,
+        "edgeCount": 71,
+        "volumeMm3": 214.84936560987518,
+        "bboxMm": {
+          "min": [
+            -11.397691251230942,
+            -17.72903263986651,
+            -14.774132708691798
+          ],
+          "max": [
+            -1.0653567381065274,
+            -7.7313861392240595,
+            -5.970571866341824
+          ]
+        }
+      },
+      "M4_cap": {
+        "valid": true,
+        "solidCount": 1,
+        "faceCount": 30,
+        "edgeCount": 71,
+        "volumeMm3": 214.84936560987504,
+        "bboxMm": {
+          "min": [
+            1.5532495667037922,
+            -17.587353218900176,
+            -14.776888210672823
+          ],
+          "max": [
+            11.886684418121877,
+            -7.59357529143501,
+            -5.9723097475032425
+          ]
+        }
+      }
+    },
+    "switchCarrierIntersectionMm3": {
+      "M1": {
+        "sharedCarrierMm3": 0.0,
+        "m4CarrierMm3": 0.0
+      },
+      "M2": {
+        "sharedCarrierMm3": 0.0,
+        "m4CarrierMm3": 0.0
+      },
+      "M3": {
+        "sharedCarrierMm3": 0.0,
+        "m4CarrierMm3": 0.0
+      },
+      "M4": {
+        "sharedCarrierMm3": 0.0,
+        "m4CarrierMm3": 0.0
+      }
+    },
+    "terminalRootIntersectionMm3": {
+      "M1": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "M2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "M3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "M4": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "switchInsertion": {
+      "M1": {
+        "maximumInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "frontDepthMm": 0.2,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 0.6666666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.1333333333333333,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.5999999999999999,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.066666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.5333333333333337,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.0,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.466666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.9333333333333336,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 4.4,
+            "intersectionVolumeMm3": 0.0
+          }
+        ]
+      },
+      "M2": {
+        "maximumInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "frontDepthMm": 0.2,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 0.6666666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.1333333333333333,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.5999999999999999,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.066666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.5333333333333337,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.0,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.466666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.9333333333333336,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 4.4,
+            "intersectionVolumeMm3": 0.0
+          }
+        ]
+      },
+      "M3": {
+        "maximumInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "frontDepthMm": 0.2,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 0.6666666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.1333333333333333,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.5999999999999999,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.066666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.5333333333333337,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.0,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.466666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.9333333333333336,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 4.4,
+            "intersectionVolumeMm3": 0.0
+          }
+        ]
+      },
+      "M4": {
+        "maximumInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "frontDepthMm": 0.2,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 0.6666666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.1333333333333333,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 1.5999999999999999,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.066666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 2.5333333333333337,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.0,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.466666666666667,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 3.9333333333333336,
+            "intersectionVolumeMm3": 0.0
+          },
+          {
+            "frontDepthMm": 4.4,
+            "intersectionVolumeMm3": 0.0
+          }
+        ]
+      }
+    },
+    "capMotion": {
+      "M1": {
+        "maximumTravelMm": 0.35,
+        "carrierInterferenceMm3": 0.0,
+        "switchHousingInterferenceMm3": 0.0,
+        "skirtToHousingAxialClearanceAtMaxTravelMm": 0.25000000000000056,
+        "tabToCarrierAxialClearanceAtMaxTravelMm": 0.24999999999999967,
+        "tabToHousingRadialClearanceMm": 0.5100000000000002
+      },
+      "M2": {
+        "maximumTravelMm": 0.35,
+        "carrierInterferenceMm3": 0.0,
+        "switchHousingInterferenceMm3": 0.0,
+        "skirtToHousingAxialClearanceAtMaxTravelMm": 0.25000000000000056,
+        "tabToCarrierAxialClearanceAtMaxTravelMm": 0.24999999999999967,
+        "tabToHousingRadialClearanceMm": 0.5100000000000002
+      },
+      "M3": {
+        "maximumTravelMm": 0.35,
+        "carrierInterferenceMm3": 0.0,
+        "switchHousingInterferenceMm3": 0.0,
+        "skirtToHousingAxialClearanceAtMaxTravelMm": 0.25000000000000056,
+        "tabToCarrierAxialClearanceAtMaxTravelMm": 0.24999999999999967,
+        "tabToHousingRadialClearanceMm": 0.5100000000000002
+      },
+      "M4": {
+        "maximumTravelMm": 0.35,
+        "carrierInterferenceMm3": 0.0,
+        "switchHousingInterferenceMm3": 0.0,
+        "skirtToHousingAxialClearanceAtMaxTravelMm": 0.25000000000000056,
+        "tabToCarrierAxialClearanceAtMaxTravelMm": 0.24999999999999967,
+        "tabToHousingRadialClearanceMm": 0.5100000000000002
+      }
+    },
+    "unexpectedFragmentCount": 0
+  },
+  "architecture": {
+    "independentMiddleParts": 6,
+    "tinyServiceParts": 0,
+    "parts": [
+      "4 caps",
+      "1 shared M1-M3 carrier",
+      "1 M4 carrier"
+    ],
+    "retention": "shell-captive cap tabs + robust continuous carrier; no hooks/rails",
+    "terminalPolicy": "all fixed roots cleared; distal leads pre-formable; open rear wire exit",
+    "recommendedPrintOrientation": {
+      "sharedCarrier": "non-wiring backbone side on build plate; pockets open sideways/up",
+      "M4Carrier": "keyed-stop/backbone side on build plate; pocket open sideways/up",
+      "caps": "external pad face on build plate; retention tabs upward"
+    },
+    "supportRequirement": "carriers: minimal/local bridge support only; caps: none expected",
+    "assemblySequence": [
+      "insert each cap from shell interior and push the 7.6 mm pad through the 8.0 mm opening",
+      "pre-form and optionally pre-solder the selected ITS-1105 leads",
+      "insert M1-M3 switches straight into the shared carrier until the broad rear stops",
+      "route wires through the open rear side opposite the backbone",
+      "mount the shared carrier into JfD and capture it with the shell interface",
+      "repeat with the independent M4 carrier in JaD",
+      "close the existing shell assembly; verify 0.25 mm actuation and return"
+    ]
+  },
+  "structural": {
+    "minimumStructuralWebMm": 1.2,
+    "minimumActualCarrierWallMm": 1.6,
+    "preferredCarrierWallMm": 1.6,
+    "minimumCapRetentionFeatureMm": 1.1999999999999997
+  },
+  "localGates": {
+    "occPartValidity": true,
+    "oneSolidPerPrintablePart": true,
+    "switchSat": true,
+    "divider": true,
+    "splitOwnership": true,
+    "axisMismatch": true,
+    "capSpacing": true,
+    "indexHolderCollision": true,
+    "indexSwitchCollision": true,
+    "screwClearance": true,
+    "frozenObstacleCollision": true,
+    "thumbCollision": true,
+    "switchCarrierInterference": true,
+    "terminalRootInterference": true,
+    "straightSwitchInsertion": true,
+    "capTravel": true,
+    "minimumStructuralWeb": true,
+    "fragmentCheck": true
+  },
+  "build123dLocalPass": true,
+  "onshapePhaseGate": {
+    "status": "HOLD",
+    "reason": "current Onshape B-rep/feature-tree and exact shell docking interface could not be re-read; no production write is permitted until that read-only gate is restored",
+    "cadWriteCount": 0
+  },
+  "exports": {
+    "M1_M2_M3_shared_carrier": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_M2_M3_shared_carrier.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_M2_M3_shared_carrier.stl"
+    },
+    "M4_single_carrier": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_single_carrier.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_single_carrier.stl"
+    },
+    "M1_cap": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_cap.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_cap.stl"
+    },
+    "M2_cap": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M2_cap.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M2_cap.stl"
+    },
+    "M3_cap": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M3_cap.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M3_cap.stl"
+    },
+    "M4_cap": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_cap.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_cap.stl"
+    },
+    "M1_ITS1105_reference": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_ITS1105_reference.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M1_ITS1105_reference.stl"
+    },
+    "M2_ITS1105_reference": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M2_ITS1105_reference.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M2_ITS1105_reference.stl"
+    },
+    "M3_ITS1105_reference": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M3_ITS1105_reference.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M3_ITS1105_reference.stl"
+    },
+    "M4_ITS1105_reference": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_ITS1105_reference.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\M4_ITS1105_reference.stl"
+    },
+    "MIDDLE_printable_parts_6": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\MIDDLE_printable_parts_6.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\MIDDLE_printable_parts_6.stl"
+    },
+    "MIDDLE_reference_with_ITS1105": {
+      "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\MIDDLE_reference_with_ITS1105.step",
+      "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\middle_redesign\\MIDDLE_reference_with_ITS1105.stl"
+    }
+  }
+}

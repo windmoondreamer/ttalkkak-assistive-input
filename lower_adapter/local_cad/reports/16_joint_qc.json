@@ -1,0 +1,58 @@
+{
+ "MAIN": {
+  "mating": {
+   "lap mating plane": {
+    "area": 3622.065041187343,
+    "down_area": 25.000019331688037
+   },
+   "rib": {
+    "area": 499.16481669254165,
+    "down_area": 25.000019331688037
+   },
+   "screw seating (counterbore)": null,
+   "insert pilot": {
+    "area": 607.1644269906025,
+    "down_area": 133.16840656913848
+   }
+  },
+  "support": {
+   "plate_only_mm2": 16967.639330465474,
+   "on_part_mm2": 12243.418308996199,
+   "vol_plate_cm3": 96.15020632501219,
+   "vol_part_cm3": 1103.8239140566225,
+   "plate_only_cover_pct": 58.08635736469749
+  },
+  "brim": {
+   "hull_area": 8925.024609336804,
+   "perimeter": 383.85223727720927
+  }
+ },
+ "ARMREST": {
+  "mating": {
+   "lap mating plane": {
+    "area": 3735.8888060118193,
+    "down_area": 89.79770877344521
+   },
+   "rib": {
+    "area": 527.6729597278006,
+    "down_area": 27.75002502547428
+   },
+   "screw seating (counterbore)": {
+    "area": 391.7027930932302,
+    "down_area": 103.65789463983778
+   },
+   "insert pilot": null
+  },
+  "support": {
+   "plate_only_mm2": 2829.557229032129,
+   "on_part_mm2": 180.09329774918956,
+   "vol_plate_cm3": 41.161699304237686,
+   "vol_part_cm3": 1.4759751494553408,
+   "plate_only_cover_pct": 94.01613921129272
+  },
+  "brim": {
+   "hull_area": 8125.073554463043,
+   "perimeter": 381.27884979047417
+  }
+ }
+}

@@ -1,0 +1,2612 @@
+{
+  "schema": "onegrip.i4_m3.current_audit.v1",
+  "generatedUtc": "2026-08-23T08:55:08.785510+00:00",
+  "mode": "READ ONLY / TWO INDEPENDENT LOCAL SHELL CROPS / SERIAL EXACT",
+  "controls": {
+    "I4": {
+      "owner": "JaD",
+      "centerMm": [
+        5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "axis": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "shellNormal": [
+        0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "frontDepthMm": 5.8,
+      "shellCropBboxMm": {
+        "min": [
+          -7.720237204287237,
+          -39.54233635219,
+          -2.9265029153683777
+        ],
+        "max": [
+          20.078010900621997,
+          -7.2728935891100015,
+          26.845428272296708
+        ]
+      },
+      "capPlaneNormal": [
+        0.038300753383210595,
+        -0.9556187972065158,
+        -0.29210574577685183
+      ],
+      "switchPlaneNormal": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "actuatorCenterMm": [
+        5.367326554813031,
+        -26.114546987013178,
+        9.981345040095901
+      ],
+      "capActuatorLateralOffsetMm": 6.661338147750939e-16,
+      "travelActuatorAxisAngleDeg": 0.0,
+      "capSwitchPlaneAngleDeg": 0.0,
+      "capShellPlaneAngleDeg": 0.0,
+      "capShell": {
+        "pair": "I4 cap<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.1999999999993788,
+        "closestPointLeftMm": [
+          9.329761170689,
+          -30.09123371772,
+          12.69255778732
+        ],
+        "closestPointRightMm": [
+          9.529600727080105,
+          -30.083224241987704,
+          12.69255778732
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyShell": {
+        "pair": "I4 body<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.8937570917555366,
+        "closestPointLeftMm": [
+          8.3616054505511,
+          -22.775157319277085,
+          7.802338261410936
+        ],
+        "closestPointRightMm": [
+          9.290875890873535,
+          -24.126946083262023,
+          6.856061605838472
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyCarrier": {
+        "pair": "I4 body<->current carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.11000000000009115,
+        "closestPointLeftMm": [
+          8.3616054505511,
+          -22.775157319277085,
+          7.802338261410936
+        ],
+        "closestPointRightMm": [
+          8.471524738816706,
+          -22.771128261797347,
+          7.8035698307807895
+        ],
+        "passZeroPenetration": true
+      },
+      "actuatorCarrier": {
+        "pair": "I4 actuator<->current carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.5249999999976611,
+        "closestPointLeftMm": [
+          5.273872716557966,
+          -23.29320073035688,
+          9.09224623784337
+        ],
+        "closestPointRightMm": [
+          5.273872716557966,
+          -22.84741237394163,
+          7.633857489503384
+        ],
+        "passZeroPenetration": true
+      },
+      "rearReactionGapMm": 0.11000000000009115,
+      "neighborCarriers": {
+        "N1_N2": {
+          "pair": "I4 carrier<->N1_N2 frozen carrier",
+          "aabbGapMm": 5.674884819834908,
+          "penetrationMm3": 0.0,
+          "distanceMm": 8.898515133780053,
+          "closestPointLeftMm": [
+            0.485054833847,
+            -25.55291142039,
+            15.1722590572
+          ],
+          "closestPointRightMm": [
+            0.5200089432626198,
+            -29.376046585188643,
+            23.207555399465644
+          ],
+          "passZeroPenetration": true
+        },
+        "I2_I3": {
+          "pair": "I4 carrier<->I2_I3 frozen carrier",
+          "aabbGapMm": 0.09649199203276304,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.10480528037779123,
+          "closestPointLeftMm": [
+            0.28799918391230933,
+            -17.841597947927088,
+            7.53232527383147
+          ],
+          "closestPointRightMm": [
+            0.18327080368,
+            -17.84543673428,
+            7.531151864985
+          ],
+          "passZeroPenetration": true
+        },
+        "M4_N3": {
+          "pair": "I4 carrier<->M4_N3 frozen carrier",
+          "aabbGapMm": 6.761397353010086,
+          "penetrationMm3": 0.0,
+          "distanceMm": 12.121880150954198,
+          "closestPointLeftMm": [
+            9.872718862488,
+            -17.27289358911,
+            7.664751561433
+          ],
+          "closestPointRightMm": [
+            9.716318746910972,
+            -9.68022958245407,
+            -1.7833683933504045
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "neighborCaps": {
+        "N1": {
+          "pair": "I4 cap<->N1 frozen cap",
+          "aabbGapMm": 12.143948837921913,
+          "penetrationMm3": 0.0,
+          "distanceMm": 13.067163722557677,
+          "closestPointLeftMm": [
+            1.781818931897,
+            -31.54233635219,
+            12.342030892389
+          ],
+          "closestPointRightMm": [
+            -7.121283106397,
+            -35.17713479214,
+            21.189278043271
+          ],
+          "passZeroPenetration": true
+        },
+        "N2": {
+          "pair": "I4 cap<->N2 frozen cap",
+          "aabbGapMm": 8.528127737673111,
+          "penetrationMm3": 0.0,
+          "distanceMm": 9.448381441822344,
+          "closestPointLeftMm": [
+            1.781818931897,
+            -31.54233635219,
+            12.342030892389
+          ],
+          "closestPointRightMm": [
+            1.6197133885205601,
+            -34.76958372074544,
+            21.220685524997
+          ],
+          "passZeroPenetration": true
+        },
+        "I2": {
+          "pair": "I4 cap<->I2 frozen cap",
+          "aabbGapMm": 12.09930382131321,
+          "penetrationMm3": 0.0,
+          "distanceMm": 13.379924383813618,
+          "closestPointLeftMm": [
+            1.6603446549669347,
+            -28.51150556800425,
+            6.518895095045605
+          ],
+          "closestPointRightMm": [
+            -10.452351121,
+            -23.11832980914,
+            8.312949940763
+          ],
+          "passZeroPenetration": true
+        },
+        "I3": {
+          "pair": "I4 cap<->I3 frozen cap",
+          "aabbGapMm": 3.2447315905234233,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.248773436672918,
+          "closestPointLeftMm": [
+            1.648388321790555,
+            -28.21319037261636,
+            5.4278733965
+          ],
+          "closestPointRightMm": [
+            -1.597778890205,
+            -28.34329523262,
+            5.4278733965
+          ],
+          "passZeroPenetration": true
+        },
+        "M4": {
+          "pair": "I4 cap<->M4 frozen cap",
+          "aabbGapMm": 12.959212790983782,
+          "penetrationMm3": 0.0,
+          "distanceMm": 17.39747234787134,
+          "closestPointLeftMm": [
+            5.13864809874814,
+            -28.037425540041493,
+            5.424023979564
+          ],
+          "closestPointRightMm": [
+            4.703975219930331,
+            -17.192166976121424,
+            -8.17242666996533
+          ],
+          "passZeroPenetration": true
+        },
+        "N3": {
+          "pair": "I4 cap<->N3 frozen cap",
+          "aabbGapMm": 17.175038135002698,
+          "penetrationMm3": 0.0,
+          "distanceMm": 22.789390930633285,
+          "closestPointLeftMm": [
+            9.240855843171,
+            -27.87301097682,
+            5.424023979564
+          ],
+          "closestPointRightMm": [
+            16.301955224713,
+            -10.59410138644,
+            -7.650244561379
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "neighborBodies": {
+        "N1": {
+          "pair": "I4 body<->N1 frozen body",
+          "aabbGapMm": 13.696791328366302,
+          "penetrationMm3": 0.0,
+          "distanceMm": 15.652048011931004,
+          "closestPointLeftMm": [
+            2.1861399825648054,
+            -24.790516924380995,
+            13.58582785817034
+          ],
+          "closestPointRightMm": [
+            -7.519231109837004,
+            -30.072734179546313,
+            24.671429321140153
+          ],
+          "passZeroPenetration": true
+        },
+        "N2": {
+          "pair": "I4 body<->N2 frozen body",
+          "aabbGapMm": 10.270438965770687,
+          "penetrationMm3": 0.0,
+          "distanceMm": 12.40296554875585,
+          "closestPointLeftMm": [
+            2.1861399825648054,
+            -24.790516924380995,
+            13.58582785817034
+          ],
+          "closestPointRightMm": [
+            2.2331646961952805,
+            -30.154840843756904,
+            24.768643781181144
+          ],
+          "passZeroPenetration": true
+        },
+        "I2": {
+          "pair": "I4 body<->I2 frozen body",
+          "aabbGapMm": 11.348604571760628,
+          "penetrationMm3": 0.0,
+          "distanceMm": 11.348604571760632,
+          "closestPointLeftMm": [
+            2.0497893005205112,
+            -20.991208993062045,
+            13.325947967107702
+          ],
+          "closestPointRightMm": [
+            -9.29881527124012,
+            -20.991208993062052,
+            13.325947967107703
+          ],
+          "passZeroPenetration": true
+        },
+        "I3": {
+          "pair": "I4 body<->I3 frozen body",
+          "aabbGapMm": 3.701508433116687,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.7044249119352455,
+          "closestPointLeftMm": [
+            2.0499876833268464,
+            -19.614438738985807,
+            8.804162411814048
+          ],
+          "closestPointRightMm": [
+            -1.6517191325961758,
+            -19.750123656253983,
+            8.762687354955494
+          ],
+          "passZeroPenetration": true
+        },
+        "M4": {
+          "pair": "I4 body<->M4 frozen body",
+          "aabbGapMm": 12.798213752983196,
+          "penetrationMm3": 0.0,
+          "distanceMm": 16.09776730809144,
+          "closestPointLeftMm": [
+            8.225254768506806,
+            -19.37315440122154,
+            8.842234716375382
+          ],
+          "closestPointRightMm": [
+            8.1877695018283,
+            -9.2495099463883,
+            -3.6736963361817487
+          ],
+          "passZeroPenetration": true
+        },
+        "N3": {
+          "pair": "I4 body<->N3 frozen body",
+          "aabbGapMm": 16.45549906944285,
+          "penetrationMm3": 0.0,
+          "distanceMm": 20.52237883068093,
+          "closestPointLeftMm": [
+            8.225254768506806,
+            -19.37315440122154,
+            8.842234716375382
+          ],
+          "closestPointRightMm": [
+            9.458199963097085,
+            -5.560815075539355,
+            -6.286121485450741
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "terminals": {
+        "T1": {
+          "carrier": {
+            "pair": "I4 T1<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 8.003507768014618e-13,
+            "closestPointLeftMm": [
+              8.651224922277512,
+              -21.39538639724451,
+              14.26809426939912
+            ],
+            "closestPointRightMm": [
+              8.651224922278,
+              -21.39538639724,
+              14.268094269399
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "I4 T1<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.801555813894654,
+            "closestPointLeftMm": [
+              8.651224922277512,
+              -21.12060537755267,
+              13.36915300812722
+            ],
+            "closestPointRightMm": [
+              9.884085902139518,
+              -26.298239229995012,
+              11.060427958210784
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "I4 T1<->N1_N2 carrier",
+              "aabbGapMm": 8.420278039965696,
+              "penetrationMm3": 0.0,
+              "distanceMm": 12.163887957220409,
+              "closestPointLeftMm": [
+                8.122044943852751,
+                -21.29252724668369,
+                14.299535414102778
+              ],
+              "closestPointRightMm": [
+                5.112234719291045,
+                -27.190432531929165,
+                24.503256592879126
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "I4 T1<->I2_I3 carrier",
+              "aabbGapMm": 7.938774140172751,
+              "penetrationMm3": 0.0,
+              "distanceMm": 8.017611299427081,
+              "closestPointLeftMm": [
+                8.122044943852751,
+                -21.29252724668369,
+                14.299535414102778
+              ],
+              "closestPointRightMm": [
+                0.13123071569356437,
+                -20.666894736447993,
+                14.49334687373732
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "I4 T1<->M4_N3 carrier",
+              "aabbGapMm": 14.267579546362624,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.092656422160537,
+              "closestPointLeftMm": [
+                8.593542314966523,
+                -18.79931142806533,
+                14.078707175817941
+              ],
+              "closestPointRightMm": [
+                8.878446046417205,
+                -8.164881469097049,
+                -0.5559074662541329
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "I4 T1<->N1 body",
+              "aabbGapMm": 18.907100972313806,
+              "penetrationMm3": 0.0,
+              "distanceMm": 20.367772451084914,
+              "closestPointLeftMm": [
+                8.122044943852751,
+                -21.29252724668369,
+                14.299535414102778
+              ],
+              "closestPointRightMm": [
+                -7.2702315039689065,
+                -27.231720538852212,
+                26.243151424811956
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "I4 T1<->N2 body",
+              "aabbGapMm": 12.149588471050427,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.325730042870854,
+              "closestPointLeftMm": [
+                8.122044943852751,
+                -21.29252724668369,
+                14.299535414102778
+              ],
+              "closestPointRightMm": [
+                3.4038287253707553,
+                -28.01425595388029,
+                26.03765026120302
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "I4 T1<->I2 body",
+              "aabbGapMm": 17.42086021509287,
+              "penetrationMm3": 0.0,
+              "distanceMm": 17.42086970834623,
+              "closestPointLeftMm": [
+                8.122044943852751,
+                -21.01774622699185,
+                13.400594152830879
+              ],
+              "closestPointRightMm": [
+                -9.29881527124012,
+                -21.03302623347121,
+                13.390730949924526
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "I4 T1<->I3 body",
+              "aabbGapMm": 9.773764076448927,
+              "penetrationMm3": 0.0,
+              "distanceMm": 9.775099212369154,
+              "closestPointLeftMm": [
+                8.122044943852751,
+                -21.01774622699185,
+                13.400594152830879
+              ],
+              "closestPointRightMm": [
+                -1.6517191325961758,
+                -21.172067155419093,
+                13.35278787054645
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "I4 T1<->M4 body",
+              "aabbGapMm": 17.626239786518173,
+              "penetrationMm3": 0.0,
+              "distanceMm": 20.02810602477225,
+              "closestPointLeftMm": [
+                8.593542314966523,
+                -18.79931142806533,
+                14.078707175817941
+              ],
+              "closestPointRightMm": [
+                7.932248834524897,
+                -8.588887971341114,
+                -3.1385799132277565
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "I4 T1<->N3 body",
+              "aabbGapMm": 20.300570511401883,
+              "penetrationMm3": 0.0,
+              "distanceMm": 24.211263396115577,
+              "closestPointLeftMm": [
+                8.593542314966523,
+                -18.79931142806533,
+                14.078707175817941
+              ],
+              "closestPointRightMm": [
+                9.74730562230485,
+                -4.504000694851511,
+                -5.427655799057396
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T2": {
+          "carrier": {
+            "pair": "I4 T2<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.287648548987259e-13,
+            "closestPointLeftMm": [
+              8.651224922277514,
+              -20.079945345528255,
+              9.964652061182582
+            ],
+            "closestPointRightMm": [
+              8.651224922278,
+              -20.07994534552,
+              9.964652061183
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "I4 T2<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 4.779411031117691,
+            "closestPointLeftMm": [
+              8.651224922277514,
+              -19.805164325836415,
+              9.065710799910683
+            ],
+            "closestPointRightMm": [
+              10.125465949051149,
+              -23.46528730157981,
+              6.368882477272735
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "I4 T2<->N1_N2 carrier",
+              "aabbGapMm": 12.739952382762665,
+              "penetrationMm3": 0.0,
+              "distanceMm": 16.44448890662694,
+              "closestPointLeftMm": [
+                8.122044943852753,
+                -19.977086194967434,
+                9.99609320588624
+              ],
+              "closestPointRightMm": [
+                5.066389354019702,
+                -28.103136264021312,
+                23.962176930099265
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "I4 T2<->I2_I3 carrier",
+              "aabbGapMm": 7.938774140172753,
+              "penetrationMm3": 0.0,
+              "distanceMm": 8.018992474961971,
+              "closestPointLeftMm": [
+                8.122044943852753,
+                -19.977086194967434,
+                9.99609320588624
+              ],
+              "closestPointRightMm": [
+                0.12985415642876763,
+                -19.351345908452156,
+                10.189938052977025
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "I4 T2<->M4_N3 carrier",
+              "aabbGapMm": 9.771313860252313,
+              "penetrationMm3": 0.0,
+              "distanceMm": 13.893563671439797,
+              "closestPointLeftMm": [
+                8.593542314966525,
+                -17.483870376349074,
+                9.775264967601403
+              ],
+              "closestPointRightMm": [
+                8.593542314966525,
+                -8.738834769533497,
+                -1.0208206067111405
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "I4 T2<->N1 body",
+              "aabbGapMm": 21.775376388211956,
+              "penetrationMm3": 0.0,
+              "distanceMm": 23.524587091267026,
+              "closestPointLeftMm": [
+                8.122044943852753,
+                -19.977086194967434,
+                9.99609320588624
+              ],
+              "closestPointRightMm": [
+                -7.295890125836229,
+                -27.524478009179667,
+                26.08119043295403
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "I4 T2<->N2 body",
+              "aabbGapMm": 16.322599417614004,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.521914525106503,
+              "closestPointLeftMm": [
+                8.122044943852753,
+                -19.977086194967434,
+                9.99609320588624
+              ],
+              "closestPointRightMm": [
+                3.357983360099485,
+                -28.92695968597121,
+                25.496570598424363
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "I4 T2<->I2 body",
+              "aabbGapMm": 17.420860215092873,
+              "penetrationMm3": 0.0,
+              "distanceMm": 17.44695302151612,
+              "closestPointLeftMm": [
+                8.122044943852753,
+                -19.977086194967434,
+                9.99609320588624
+              ],
+              "closestPointRightMm": [
+                -9.29881527124012,
+                -19.17570545726944,
+                10.513382307290271
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "I4 T2<->I3 body",
+              "aabbGapMm": 9.773764076448929,
+              "penetrationMm3": 0.0,
+              "distanceMm": 9.774834397236367,
+              "closestPointLeftMm": [
+                8.122044943852753,
+                -19.702305175275594,
+                9.09715194461434
+              ],
+              "closestPointRightMm": [
+                -1.6517191325961758,
+                -19.840475928747544,
+                9.054348741502157
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "I4 T2<->M4 body",
+              "aabbGapMm": 13.137662016236305,
+              "penetrationMm3": 0.0,
+              "distanceMm": 15.694757425930268,
+              "closestPointLeftMm": [
+                8.593542314966525,
+                -17.483870376349074,
+                9.775264967601403
+              ],
+              "closestPointRightMm": [
+                7.932248834524897,
+                -8.588887971341114,
+                -3.1385799132277565
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "I4 T2<->N3 body",
+              "aabbGapMm": 16.085244185745683,
+              "penetrationMm3": 0.0,
+              "distanceMm": 19.989130143199215,
+              "closestPointLeftMm": [
+                8.593542314966525,
+                -17.483870376349074,
+                9.775264967601403
+              ],
+              "closestPointRightMm": [
+                8.91652661010483,
+                -5.122405591054959,
+                -5.9299950871949845
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T3": {
+          "carrier": {
+            "pair": "I4 T3<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.6897404776709235e-13,
+            "closestPointLeftMm": [
+              1.6540328055617421,
+              -19.772395139510742,
+              14.764196975954201
+            ],
+            "closestPointRightMm": [
+              1.654032805563,
+              -19.77239513951,
+              14.764196975953
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "I4 T3<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.359843803388917,
+            "closestPointLeftMm": [
+              1.651692377109454,
+              -21.651952095592556,
+              14.189669363070673
+            ],
+            "closestPointRightMm": [
+              0.8143507929835737,
+              -26.759954880492323,
+              12.798593442181971
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "I4 T3<->N1_N2 carrier",
+              "aabbGapMm": 7.909596139720161,
+              "penetrationMm3": 0.0,
+              "distanceMm": 11.21485030742758,
+              "closestPointLeftMm": [
+                1.651692377109454,
+                -21.651952095592556,
+                14.189669363070673
+              ],
+              "closestPointRightMm": [
+                1.132883061319,
+                -26.54529693986,
+                24.267311971684
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "I4 T3<->I2_I3 carrier",
+              "aabbGapMm": 0.8207407367528289,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.9556680403288805,
+              "closestPointLeftMm": [
+                1.1024715202137552,
+                -19.53076797962738,
+                13.855121513709031
+              ],
+              "closestPointRightMm": [
+                0.18327080368,
+                -19.780537083216178,
+                13.777746834890163
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "I4 T3<->M4_N3 carrier",
+              "aabbGapMm": 14.261777285246836,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.37924013586457,
+              "closestPointLeftMm": [
+                1.5234059621981682,
+                -19.058465087121625,
+                13.999491202805862
+              ],
+              "closestPointRightMm": [
+                2.324814463664068,
+                -9.695476734816333,
+                -1.795718878106287
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "I4 T3<->N1 body",
+              "aabbGapMm": 13.704796583482574,
+              "penetrationMm3": 0.0,
+              "distanceMm": 15.985436814888232,
+              "closestPointLeftMm": [
+                1.4607974383688056,
+                -21.01019022233475,
+                14.385837888791272
+              ],
+              "closestPointRightMm": [
+                -7.2702315039689065,
+                -27.231720538852212,
+                26.243151424811956
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "I4 T3<->N2 body",
+              "aabbGapMm": 11.160560328449678,
+              "penetrationMm3": 0.0,
+              "distanceMm": 13.436134907707146,
+              "closestPointLeftMm": [
+                1.651692377109454,
+                -21.651952095592556,
+                14.189669363070673
+              ],
+              "closestPointRightMm": [
+                1.651692377109454,
+                -28.50377059256875,
+                25.747450488468463
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "I4 T3<->I2 body",
+              "aabbGapMm": 10.302826811672947,
+              "penetrationMm3": 0.0,
+              "distanceMm": 10.467070279914205,
+              "closestPointLeftMm": [
+                1.004011540432829,
+                -19.199759407676815,
+                13.95630150938375
+              ],
+              "closestPointRightMm": [
+                -9.29881527124012,
+                -20.751529486681378,
+                12.95463811520264
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "I4 T3<->I3 body",
+              "aabbGapMm": 2.6557306730290047,
+              "penetrationMm3": 0.0,
+              "distanceMm": 3.118727030639125,
+              "closestPointLeftMm": [
+                1.3480004355606974,
+                -20.356201580389783,
+                13.60280971506661
+              ],
+              "closestPointRightMm": [
+                -1.6517191325961758,
+                -21.17129805940646,
+                13.350305192432879
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "I4 T3<->M4 body",
+              "aabbGapMm": 17.645707297003177,
+              "penetrationMm3": 0.0,
+              "distanceMm": 20.384191395515384,
+              "closestPointLeftMm": [
+                1.5234059621981682,
+                -19.058465087121625,
+                13.999491202805862
+              ],
+              "closestPointRightMm": [
+                2.785352897621844,
+                -9.79094128402878,
+                -4.112266065341415
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "I4 T3<->N3 body",
+              "aabbGapMm": 21.474136821192523,
+              "penetrationMm3": 0.0,
+              "distanceMm": 25.41763976013008,
+              "closestPointLeftMm": [
+                1.5234059621981682,
+                -19.058465087121625,
+                13.999491202805862
+              ],
+              "closestPointRightMm": [
+                8.91652661010483,
+                -5.122405591054959,
+                -5.9299950871949845
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T4": {
+          "carrier": {
+            "pair": "I4 T4<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.3620604113746835e-13,
+            "closestPointLeftMm": [
+              1.6540328055608364,
+              -18.456954087791438,
+              10.460754767738598
+            ],
+            "closestPointRightMm": [
+              1.654032805563,
+              -18.45695408779,
+              10.460754767736
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "I4 T4<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.791030966314187,
+            "closestPointLeftMm": [
+              1.651692377109455,
+              -20.06173002418446,
+              8.98728589358224
+            ],
+            "closestPointRightMm": [
+              1.986521055338188,
+              -24.81251112058168,
+              5.692743682111841
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "I4 T4<->N1_N2 carrier",
+              "aabbGapMm": 12.408618946430712,
+              "penetrationMm3": 0.0,
+              "distanceMm": 15.672708314684204,
+              "closestPointLeftMm": [
+                1.651692377109455,
+                -20.3365110438763,
+                9.886227154854138
+              ],
+              "closestPointRightMm": [
+                1.132883061319,
+                -26.54529693986,
+                24.267311971684
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "I4 T4<->I2_I3 carrier",
+              "aabbGapMm": 0.8207407367528298,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.9510420340393716,
+              "closestPointLeftMm": [
+                1.098022037635534,
+                -18.200368394734365,
+                9.556251707691045
+              ],
+              "closestPointRightMm": [
+                0.18327080368000004,
+                -18.4489284661118,
+                9.479251568707934
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "I4 T4<->M4_N3 carrier",
+              "aabbGapMm": 9.762491032428395,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.043871994292312,
+              "closestPointLeftMm": [
+                1.523405962198169,
+                -17.74302403540537,
+                9.696048994589328
+              ],
+              "closestPointRightMm": [
+                1.8599092308637548,
+                -9.804054969547273,
+                -1.8836693229516273
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "I4 T4<->N1 body",
+              "aabbGapMm": 17.45040995751035,
+              "penetrationMm3": 0.0,
+              "distanceMm": 19.830808540015706,
+              "closestPointLeftMm": [
+                1.651692377109455,
+                -20.3365110438763,
+                9.886227154854138
+              ],
+              "closestPointRightMm": [
+                -7.361756495689057,
+                -28.27599427990827,
+                25.66543222713121
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "I4 T4<->N2 body",
+              "aabbGapMm": 15.600630346126659,
+              "penetrationMm3": 0.0,
+              "distanceMm": 17.80877680671755,
+              "closestPointLeftMm": [
+                1.651692377109455,
+                -20.3365110438763,
+                9.886227154854138
+              ],
+              "closestPointRightMm": [
+                1.651692377109455,
+                -29.418178292006875,
+                25.205360659909616
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "I4 T4<->I2 body",
+              "aabbGapMm": 10.302826811672947,
+              "penetrationMm3": 0.0,
+              "distanceMm": 10.33718195307596,
+              "closestPointLeftMm": [
+                1.00401154043283,
+                -18.08964155169191,
+                10.324570515959671
+              ],
+              "closestPointRightMm": [
+                -9.29881527124012,
+                -18.89493519367072,
+                10.078414935358992
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "I4 T4<->I3 body",
+              "aabbGapMm": 2.6557306730290056,
+              "penetrationMm3": 0.0,
+              "distanceMm": 3.1141010243494094,
+              "closestPointLeftMm": [
+                1.3435509529822771,
+                -19.025801995496096,
+                9.303939909048827
+              ],
+              "closestPointRightMm": [
+                -1.6517191325961758,
+                -19.83968944230136,
+                9.051809926250872
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "I4 T4<->M4 body",
+              "aabbGapMm": 13.163510612029818,
+              "penetrationMm3": 0.0,
+              "distanceMm": 15.976921904972391,
+              "closestPointLeftMm": [
+                1.523405962198169,
+                -17.74302403540537,
+                9.696048994589328
+              ],
+              "closestPointRightMm": [
+                2.32044766482264,
+                -9.899519518759588,
+                -4.200216510186457
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "I4 T4<->N3 body",
+              "aabbGapMm": 17.5429091379523,
+              "penetrationMm3": 0.0,
+              "distanceMm": 21.40353934465625,
+              "closestPointLeftMm": [
+                1.523405962198169,
+                -17.74302403540537,
+                9.696048994589328
+              ],
+              "closestPointRightMm": [
+                8.91652661010483,
+                -5.122405591054959,
+                -5.9299950871949845
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        }
+      },
+      "availableEnvelopes": {
+        "guide": {
+          "sizeMm": [
+            9.3,
+            9.3,
+            1.5
+          ],
+          "shell": {
+            "pair": "I4 guide envelope<->shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.16505904746948952,
+            "distanceMm": 0.0,
+            "closestPointLeftMm": [
+              8.184379872220845,
+              -23.74253393086613,
+              5.808729414011497
+            ],
+            "closestPointRightMm": [
+              8.184379872220847,
+              -23.742533930866134,
+              5.8087294140114984
+            ],
+            "passZeroPenetration": false
+          },
+          "currentCarrier": {
+            "pair": "I4 guide envelope<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 6.985541123329456,
+            "distanceMm": 0.0,
+            "closestPointLeftMm": [
+              0.6819990532284005,
+              -25.326259504338072,
+              15.14127808690499
+            ],
+            "closestPointRightMm": [
+              0.6819990532284005,
+              -25.326259504338072,
+              15.14127808690499
+            ],
+            "passZeroPenetration": false
+          }
+        },
+        "rearReaction": {
+          "sizeMm": [
+            6.4,
+            6.4,
+            0.2
+          ],
+          "shell": {
+            "pair": "I4 rear envelope<->shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.03483678170696,
+            "closestPointLeftMm": [
+              8.335174056771935,
+              -19.328200511021763,
+              8.709581417045158
+            ],
+            "closestPointRightMm": [
+              9.844571952891854,
+              -23.139398084712553,
+              5.786214785246901
+            ],
+            "passZeroPenetration": true
+          },
+          "currentCarrier": {
+            "pair": "I4 rear envelope<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 2.152607735591339,
+            "distanceMm": 0.0,
+            "closestPointLeftMm": [
+              8.32751390609529,
+              -19.13707675158044,
+              8.768002566200463
+            ],
+            "closestPointRightMm": [
+              8.32751390609529,
+              -19.13707675158044,
+              8.768002566200463
+            ],
+            "passZeroPenetration": false
+          }
+        },
+        "hardStop": {
+          "sizeMm": [
+            9.3,
+            9.3,
+            0.6500000000000004
+          ],
+          "shell": {
+            "pair": "I4 hard-stop envelope<->shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 0.35401168543746936,
+            "closestPointLeftMm": [
+              9.890641869586606,
+              -22.860566957504325,
+              6.057019297921546
+            ],
+            "closestPointRightMm": [
+              9.99870061999671,
+              -23.128275865802596,
+              5.852130254037221
+            ],
+            "passZeroPenetration": true
+          },
+          "currentCarrier": {
+            "pair": "I4 hard-stop envelope<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 6.985541123329481,
+            "distanceMm": 0.0,
+            "closestPointLeftMm": [
+              0.6819990532283983,
+              -25.326259504338072,
+              15.141278086904988
+            ],
+            "closestPointRightMm": [
+              0.6819990532283983,
+              -25.326259504338072,
+              15.141278086904988
+            ],
+            "passZeroPenetration": false
+          }
+        }
+      },
+      "currentCarrierShell": {
+        "pair": "I4 current carrier<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.6705879826940468,
+        "closestPointLeftMm": [
+          10.078010900622,
+          -22.39501034214,
+          6.09906476407
+        ],
+        "closestPointRightMm": [
+          10.290033050163176,
+          -22.897279458119513,
+          5.708602748285149
+        ],
+        "passZeroPenetration": true
+      },
+      "currentCarrierSolidCount": 1,
+      "currentCarrierVolumeMm3": 266.67501614920803
+    },
+    "M3": {
+      "owner": "JfD",
+      "centerMm": [
+        -6.890920103853075,
+        -13.71668568786225,
+        -11.11806979342742
+      ],
+      "axis": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "shellNormal": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "frontDepthMm": 5.2,
+      "shellCropBboxMm": {
+        "min": [
+          -19.39515254312,
+          -25.720038090396724,
+          -22.76720250211515
+        ],
+        "max": [
+          9.800000000000704,
+          8.062323659286628,
+          9.504950053871
+        ]
+      },
+      "capPlaneNormal": [
+        -0.22425959856801542,
+        -0.771794181150053,
+        -0.5950137598350408
+      ],
+      "switchPlaneNormal": [
+        -0.22425959856820338,
+        -0.771794181150088,
+        -0.5950137598349249
+      ],
+      "actuatorCenterMm": [
+        -6.271963611804834,
+        -11.586533747888009,
+        -9.475831816283026
+      ],
+      "capActuatorLateralOffsetMm": 1.1157603309187458e-15,
+      "travelActuatorAxisAngleDeg": 0.0,
+      "capSwitchPlaneAngleDeg": 0.0,
+      "capShellPlaneAngleDeg": 0.0,
+      "capShell": {
+        "pair": "M3 cap<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.19999999999352433,
+        "closestPointLeftMm": [
+          -3.827891763183,
+          -16.79388507301,
+          -7.944948092604
+        ],
+        "closestPointRightMm": [
+          -3.861096932123338,
+          -16.908161368588498,
+          -7.784204990033868
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyShell": {
+        "pair": "M3 body<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.9860115277827954,
+        "closestPointLeftMm": [
+          -2.713474216905313,
+          -12.087115397519112,
+          -6.066968462048765
+        ],
+        "closestPointRightMm": [
+          -2.7089992114992367,
+          -13.659964997186263,
+          -7.27955491242649
+        ],
+        "passZeroPenetration": true
+      },
+      "bodyCarrier": {
+        "pair": "M3 body<->current carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.10999999999934686,
+        "closestPointLeftMm": [
+          -7.937701994788718,
+          -8.275295693983328,
+          -3.059234728275415
+        ],
+        "closestPointRightMm": [
+          -8.044900233361197,
+          -8.255759036551376,
+          -3.0441729666334125
+        ],
+        "passZeroPenetration": true
+      },
+      "actuatorCarrier": {
+        "pair": "M3 actuator<->current carrier",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.5249999999928416,
+        "closestPointLeftMm": [
+          -5.7247701912984965,
+          -8.68065924198628,
+          -9.350541287890156
+        ],
+        "closestPointRightMm": [
+          -5.724770191298495,
+          -7.749547317544608,
+          -10.558289433886962
+        ],
+        "passZeroPenetration": true
+      },
+      "rearReactionGapMm": 0.10999999999934686,
+      "neighborCarriers": {
+        "N1_N2": {
+          "pair": "M3 carrier<->N1_N2 frozen carrier",
+          "aabbGapMm": 25.14400934164305,
+          "penetrationMm3": 0.0,
+          "distanceMm": 30.533601817332904,
+          "closestPointLeftMm": [
+            -9.245331982132,
+            -7.799102225728,
+            -0.495049946129
+          ],
+          "closestPointRightMm": [
+            -10.024466284881283,
+            -23.785719032162728,
+            25.507293655206887
+          ],
+          "passZeroPenetration": true
+        },
+        "I2_I3": {
+          "pair": "M3 carrier<->I2_I3 frozen carrier",
+          "aabbGapMm": 6.323823991974832,
+          "penetrationMm3": 0.0,
+          "distanceMm": 12.216826598106346,
+          "closestPointLeftMm": [
+            -9.384643344991,
+            -9.637157691153739,
+            -1.9120965111070856
+          ],
+          "closestPointRightMm": [
+            -9.384643344991,
+            -17.09632682187,
+            7.763214750427
+          ],
+          "passZeroPenetration": true
+        },
+        "M4_N3": {
+          "pair": "M3 carrier<->M4_N3 frozen carrier",
+          "aabbGapMm": 0.39999999999661795,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.4,
+          "closestPointLeftMm": [
+            -0.2,
+            -10.57150968742,
+            -2.632434015439
+          ],
+          "closestPointRightMm": [
+            0.2,
+            -10.57150968742,
+            -2.632434015439
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "neighborCaps": {
+        "N1": {
+          "pair": "M3 cap<->N1 frozen cap",
+          "aabbGapMm": 30.88491473818458,
+          "penetrationMm3": 0.0,
+          "distanceMm": 34.549752681226636,
+          "closestPointLeftMm": [
+            -3.827891763183,
+            -16.79388507301,
+            -7.944948092604
+          ],
+          "closestPointRightMm": [
+            -7.029523443267,
+            -34.13018351802,
+            21.768478521379
+          ],
+          "passZeroPenetration": true
+        },
+        "N2": {
+          "pair": "M3 cap<->N2 frozen cap",
+          "aabbGapMm": 30.932020931659274,
+          "penetrationMm3": 0.0,
+          "distanceMm": 34.11793696558237,
+          "closestPointLeftMm": [
+            -3.827891763183,
+            -16.79388507301,
+            -7.944948092604
+          ],
+          "closestPointRightMm": [
+            -3.7259832423140384,
+            -34.196193143133236,
+            21.40097004388221
+          ],
+          "passZeroPenetration": true
+        },
+        "I2": {
+          "pair": "M3 cap<->I2 frozen cap",
+          "aabbGapMm": 12.251715203588876,
+          "penetrationMm3": 0.0,
+          "distanceMm": 17.213112215230765,
+          "closestPointLeftMm": [
+            -11.12604102484,
+            -14.67326786226,
+            -7.944948092604
+          ],
+          "closestPointRightMm": [
+            -16.292515452533102,
+            -23.684243431162834,
+            5.780979687286
+          ],
+          "passZeroPenetration": true
+        },
+        "I3": {
+          "pair": "M3 cap<->I3 frozen cap",
+          "aabbGapMm": 13.27376435539612,
+          "penetrationMm3": 0.0,
+          "distanceMm": 16.819269080253164,
+          "closestPointLeftMm": [
+            -3.827891763183,
+            -16.79388507301,
+            -7.944948092604
+          ],
+          "closestPointRightMm": [
+            -4.433465007867906,
+            -23.851225550075053,
+            7.310052360692
+          ],
+          "passZeroPenetration": true
+        },
+        "M4": {
+          "pair": "M3 cap<->M4 frozen cap",
+          "aabbGapMm": 5.1137630104823515,
+          "penetrationMm3": 0.0,
+          "distanceMm": 5.521445703657758,
+          "closestPointLeftMm": [
+            -2.566095343439,
+            -12.451385841,
+            -14.05318599031
+          ],
+          "closestPointRightMm": [
+            2.951313842712,
+            -12.66084419575,
+            -14.02699956935
+          ],
+          "passZeroPenetration": true
+        },
+        "N3": {
+          "pair": "M3 cap<->N3 frozen cap",
+          "aabbGapMm": 13.67480878796535,
+          "penetrationMm3": 0.0,
+          "distanceMm": 15.405626307288971,
+          "closestPointLeftMm": [
+            -2.566095343439,
+            -12.451385841,
+            -14.05318599031
+          ],
+          "closestPointRightMm": [
+            11.108713444527,
+            -5.683320641441,
+            -11.92569451279
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "neighborBodies": {
+        "N1": {
+          "pair": "M3 body<->N1 frozen body",
+          "aabbGapMm": 31.255485635303845,
+          "penetrationMm3": 0.0,
+          "distanceMm": 34.895561532899606,
+          "closestPointLeftMm": [
+            -7.937701994788718,
+            -8.275295693983328,
+            -3.059234728275415
+          ],
+          "closestPointRightMm": [
+            -8.116967891530308,
+            -27.174899282561448,
+            26.274586410970198
+          ],
+          "passZeroPenetration": true
+        },
+        "N2": {
+          "pair": "M3 body<->N2 frozen body",
+          "aabbGapMm": 31.490979761835817,
+          "penetrationMm3": 0.0,
+          "distanceMm": 35.226781292841856,
+          "closestPointLeftMm": [
+            -3.7066539260388582,
+            -9.046395460155782,
+            -3.6537131297507948
+          ],
+          "closestPointRightMm": [
+            -2.7329885717950697,
+            -27.039766653128787,
+            26.615358364821805
+          ],
+          "passZeroPenetration": true
+        },
+        "I2": {
+          "pair": "M3 body<->I2 frozen body",
+          "aabbGapMm": 12.275068451799926,
+          "penetrationMm3": 0.0,
+          "distanceMm": 16.933956858213833,
+          "closestPointLeftMm": [
+            -8.091170993737773,
+            -8.803462519983363,
+            -3.4664242829958924
+          ],
+          "closestPointRightMm": [
+            -9.29881527124012,
+            -18.89493519367072,
+            10.078414935358992
+          ],
+          "passZeroPenetration": true
+        },
+        "I3": {
+          "pair": "M3 body<->I3 frozen body",
+          "aabbGapMm": 12.927537815771451,
+          "penetrationMm3": 0.0,
+          "distanceMm": 16.192564425206157,
+          "closestPointLeftMm": [
+            -7.811063865802748,
+            -9.381267872363571,
+            -3.9118825976208846
+          ],
+          "closestPointRightMm": [
+            -7.811063865802748,
+            -19.267884150139004,
+            8.91207783745836
+          ],
+          "passZeroPenetration": true
+        },
+        "M4": {
+          "pair": "M3 body<->M4 frozen body",
+          "aabbGapMm": 3.9288992080959053,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.96611374205069,
+          "closestPointLeftMm": [
+            -1.9151100460025088,
+            -5.689744819628084,
+            -8.682864631553802
+          ],
+          "closestPointRightMm": [
+            2.0137891620933974,
+            -6.1190234319667125,
+            -9.013816441482845
+          ],
+          "passZeroPenetration": true
+        },
+        "N3": {
+          "pair": "M3 body<->N3 frozen body",
+          "aabbGapMm": 10.831636656107337,
+          "penetrationMm3": 0.0,
+          "distanceMm": 11.039101532142576,
+          "closestPointLeftMm": [
+            -1.9151100460025088,
+            -6.809387973219454,
+            -7.230572047351897
+          ],
+          "closestPointRightMm": [
+            8.91652661010483,
+            -5.122405591054959,
+            -5.9299950871949845
+          ],
+          "passZeroPenetration": true
+        }
+      },
+      "terminals": {
+        "T1": {
+          "carrier": {
+            "pair": "M3 T1<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 2.0253584144909416e-14,
+            "closestPointLeftMm": [
+              -8.421137694731906,
+              -4.9538306732841715,
+              -7.7968485524567255
+            ],
+            "closestPointRightMm": [
+              -8.421137694732,
+              -4.953830673284,
+              -7.796848552457
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "M3 T1<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.102123191738644,
+            "closestPointLeftMm": [
+              -8.421137694731906,
+              -4.9538306732841715,
+              -7.7968485524567255
+            ],
+            "closestPointRightMm": [
+              -10.469607571934315,
+              -8.650183016318566,
+              -10.655591559796807
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "M3 T1<->N1_N2 carrier",
+              "aabbGapMm": 33.51940447891495,
+              "penetrationMm3": 0.0,
+              "distanceMm": 37.08764089349712,
+              "closestPointLeftMm": [
+                -8.451077105293692,
+                -3.6531759942885165,
+                -5.607190808035939
+              ],
+              "closestPointRightMm": [
+                -9.382220441579259,
+                -23.78457086414963,
+                25.52724382190428
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "M3 T1<->I2_I3 carrier",
+              "aabbGapMm": 14.144913666239587,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.81727082410147,
+              "closestPointLeftMm": [
+                -8.421137694731906,
+                -5.527761957858362,
+                -7.0524005149235345
+              ],
+              "closestPointRightMm": [
+                -8.970327833170224,
+                -17.128765225052568,
+                7.753165825273385
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "M3 T1<->M4_N3 carrier",
+              "aabbGapMm": 8.081180886449122,
+              "penetrationMm3": 0.0,
+              "distanceMm": 8.100058418694607,
+              "closestPointLeftMm": [
+                -7.8811808864518005,
+                -4.948421760507359,
+                -7.792678557908237
+              ],
+              "closestPointRightMm": [
+                0.2,
+                -5.377890110157502,
+                -8.140556127406843
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "M3 T1<->N1 body",
+              "aabbGapMm": 36.89136133151266,
+              "penetrationMm3": 0.0,
+              "distanceMm": 39.61442344755722,
+              "closestPointLeftMm": [
+                -8.451077105293692,
+                -3.6531759942885165,
+                -5.607190808035939
+              ],
+              "closestPointRightMm": [
+                -8.841661020319957,
+                -27.12626788487024,
+                26.301490555881323
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "M3 T1<->N2 body",
+              "aabbGapMm": 37.45706429854956,
+              "penetrationMm3": 0.0,
+              "distanceMm": 40.13680512109767,
+              "closestPointLeftMm": [
+                -7.9111202970135865,
+                -3.6477670815117036,
+                -5.603020813487451
+              ],
+              "closestPointRightMm": [
+                -2.7262361459662494,
+                -26.905337268213547,
+                26.695052359378884
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "M3 T1<->I2 body",
+              "aabbGapMm": 17.849825989385725,
+              "penetrationMm3": 0.0,
+              "distanceMm": 21.746582381952923,
+              "closestPointLeftMm": [
+                -8.421137694731906,
+                -5.527761957858362,
+                -7.0524005149235345
+              ],
+              "closestPointRightMm": [
+                -9.34502589215841,
+                -18.87623282683317,
+                10.090487262631685
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "M3 T1<->I3 body",
+              "aabbGapMm": 19.133768278407324,
+              "penetrationMm3": 0.0,
+              "distanceMm": 21.06361755809798,
+              "closestPointLeftMm": [
+                -7.8811808864518005,
+                -5.52235304508155,
+                -7.048230520375046
+              ],
+              "closestPointRightMm": [
+                -7.811063865802748,
+                -19.267884150139004,
+                8.91207783745836
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "M3 T1<->M4 body",
+              "aabbGapMm": 9.894970048545197,
+              "penetrationMm3": 0.0,
+              "distanceMm": 10.03628118728489,
+              "closestPointLeftMm": [
+                -7.8811808864518005,
+                -4.948421760507359,
+                -7.792678557908237
+              ],
+              "closestPointRightMm": [
+                2.0137891620933974,
+                -6.252513495349691,
+                -8.849017781717512
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "M3 T1<->N3 body",
+              "aabbGapMm": 16.79770749655663,
+              "penetrationMm3": 0.0,
+              "distanceMm": 16.809210741998665,
+              "closestPointLeftMm": [
+                -7.891338783001083,
+                -4.886340179985785,
+                -6.557897196534632
+              ],
+              "closestPointRightMm": [
+                8.91652661010483,
+                -4.721272378156156,
+                -6.423810221197596
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T2": {
+          "carrier": {
+            "pair": "M3 T2<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.1447255440433105e-13,
+            "closestPointLeftMm": [
+              -8.421137694731904,
+              -7.701374056884019,
+              -4.233001564265917
+            ],
+            "closestPointRightMm": [
+              -8.421137694732,
+              -7.701374056884,
+              -4.233001564266
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "M3 T2<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.1947966242492,
+            "closestPointLeftMm": [
+              -8.421137694731904,
+              -7.701374056884019,
+              -4.233001564265917
+            ],
+            "closestPointRightMm": [
+              -10.377781804641886,
+              -11.381345378570195,
+              -7.333850942425513
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "M3 T2<->N1_N2 carrier",
+              "aabbGapMm": 29.03663161495136,
+              "penetrationMm3": 0.0,
+              "distanceMm": 32.60661653902227,
+              "closestPointLeftMm": [
+                -8.45107710529369,
+                -6.400719377888364,
+                -2.0433438198451306
+              ],
+              "closestPointRightMm": [
+                -9.276530406875379,
+                -23.78438191794092,
+                25.530526885286605
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "M3 T2<->I2_I3 carrier",
+              "aabbGapMm": 9.647244954805153,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.31939832197808,
+              "closestPointLeftMm": [
+                -8.421137694731904,
+                -8.275305341458209,
+                -3.4885535267327263
+              ],
+              "closestPointRightMm": [
+                -8.842509037339182,
+                -17.138772665071542,
+                7.750065672187427
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "M3 T2<->M4_N3 carrier",
+              "aabbGapMm": 8.08118088644912,
+              "penetrationMm3": 0.0,
+              "distanceMm": 8.108159606070155,
+              "closestPointLeftMm": [
+                -7.881180886451799,
+                -7.695965144107206,
+                -4.228831569717429
+              ],
+              "closestPointRightMm": [
+                0.2,
+                -8.209509438586085,
+                -4.64481226105061
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "M3 T2<->N1 body",
+              "aabbGapMm": 32.39579207383917,
+              "penetrationMm3": 0.0,
+              "distanceMm": 35.11592027965806,
+              "closestPointLeftMm": [
+                -8.45107710529369,
+                -6.400719377888364,
+                -2.0433438198451306
+              ],
+              "closestPointRightMm": [
+                -8.789895687850606,
+                -27.129741659313417,
+                26.29956877416324
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "M3 T2<->N2 body",
+              "aabbGapMm": 33.007525844304766,
+              "penetrationMm3": 0.0,
+              "distanceMm": 35.68192788451651,
+              "closestPointLeftMm": [
+                -7.911120297013585,
+                -6.395310465111551,
+                -2.039173825296643
+              ],
+              "closestPointRightMm": [
+                -2.7262361459662494,
+                -26.905337268213547,
+                26.695052359378884
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "M3 T2<->I2 body",
+              "aabbGapMm": 13.35740426401202,
+              "penetrationMm3": 0.0,
+              "distanceMm": 17.25136195718181,
+              "closestPointLeftMm": [
+                -8.421137694731904,
+                -8.275305341458209,
+                -3.4885535267327263
+              ],
+              "closestPointRightMm": [
+                -9.29881527124012,
+                -18.89493519367072,
+                10.078414935358992
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "M3 T2<->I3 body",
+              "aabbGapMm": 14.694797862589208,
+              "penetrationMm3": 0.0,
+              "distanceMm": 16.57205191902796,
+              "closestPointLeftMm": [
+                -7.881180886451799,
+                -8.269896428681397,
+                -3.4843835321842387
+              ],
+              "closestPointRightMm": [
+                -7.811063865802748,
+                -19.267884150139004,
+                8.91207783745836
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "M3 T2<->M4 body",
+              "aabbGapMm": 9.894970048545195,
+              "penetrationMm3": 0.0,
+              "distanceMm": 10.054939699330143,
+              "closestPointLeftMm": [
+                -7.881180886451799,
+                -7.695965144107206,
+                -4.228831569717429
+              ],
+              "closestPointRightMm": [
+                2.013789162093397,
+                -9.084132823777939,
+                -5.353273915360999
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "M3 T2<->N3 body",
+              "aabbGapMm": 16.797707496556626,
+              "penetrationMm3": 0.0,
+              "distanceMm": 17.060504769075486,
+              "closestPointLeftMm": [
+                -7.891134191693038,
+                -7.072762283855543,
+                -3.7483741031093585
+              ],
+              "closestPointRightMm": [
+                8.91652661010483,
+                -5.122405591054959,
+                -5.9299950871949845
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T3": {
+          "carrier": {
+            "pair": "M3 T3<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.1143365519035955e-13,
+            "closestPointLeftMm": [
+              -1.2300993275840826,
+              -4.668411535250005,
+              -7.576805024533925
+            ],
+            "closestPointRightMm": [
+              -1.230099327584,
+              -4.66841153525,
+              -7.576805024534
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "M3 T3<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.126915394173931,
+            "closestPointLeftMm": [
+              -1.594878432117608,
+              -6.771833600558869,
+              -8.011515993773312
+            ],
+            "closestPointRightMm": [
+              -1.843818935840205,
+              -10.945684477604363,
+              -10.978376108576592
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "M3 T3<->N1_N2 carrier",
+              "aabbGapMm": 33.69197130012774,
+              "penetrationMm3": 0.0,
+              "distanceMm": 37.4440207907689,
+              "closestPointLeftMm": [
+                -1.0160050225874602,
+                -4.90438759005938,
+                -6.571810824786104
+              ],
+              "closestPointRightMm": [
+                -1.9865092090372194,
+                -23.771349261923817,
+                25.75697776798389
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "M3 T3<->I2_I3 carrier",
+              "aabbGapMm": 14.281706512092693,
+              "penetrationMm3": 0.0,
+              "distanceMm": 19.00575623692513,
+              "closestPointLeftMm": [
+                -1.8702145118710227,
+                -6.252786671588739,
+                -7.6113574122754954
+              ],
+              "closestPointRightMm": [
+                -2.393268590909945,
+                -17.643709255312185,
+                7.593643977380423
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "M3 T3<->M4_N3 carrier",
+              "aabbGapMm": 0.7333448681394086,
+              "penetrationMm3": 0.0,
+              "distanceMm": 1.1446440877957578,
+              "closestPointLeftMm": [
+                -0.8230406710228142,
+                -4.979529842713767,
+                -7.816661295025153
+              ],
+              "closestPointRightMm": [
+                0.2,
+                -5.378484568202298,
+                -8.139822245898465
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "M3 T3<->N1 body",
+              "aabbGapMm": 37.3607325418031,
+              "penetrationMm3": 0.0,
+              "distanceMm": 40.174059580658266,
+              "closestPointLeftMm": [
+                -1.3304955433797403,
+                -5.400821702189958,
+                -6.954536083389324
+              ],
+              "closestPointRightMm": [
+                -7.2702315039689065,
+                -27.231720538852212,
+                26.243151424811956
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "M3 T3<->N2 body",
+              "aabbGapMm": 37.230592495797396,
+              "penetrationMm3": 0.0,
+              "distanceMm": 39.88751043845255,
+              "closestPointLeftMm": [
+                -1.0160050225874602,
+                -4.90438759005938,
+                -6.571810824786104
+              ],
+              "closestPointRightMm": [
+                -1.103750486319185,
+                -26.965641348440503,
+                26.65930219177671
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "M3 T3<->I2 body",
+              "aabbGapMm": 19.284496096873863,
+              "penetrationMm3": 0.0,
+              "distanceMm": 22.928613694301614,
+              "closestPointLeftMm": [
+                -2.077538586562982,
+                -6.580054859779939,
+                -7.863664413139164
+              ],
+              "closestPointRightMm": [
+                -9.29881527124012,
+                -18.89493519367072,
+                10.078414935358992
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "M3 T3<->I3 body",
+              "aabbGapMm": 18.978945258752066,
+              "penetrationMm3": 0.0,
+              "distanceMm": 21.188788102028393,
+              "closestPointLeftMm": [
+                -2.077538586562982,
+                -6.580054859779939,
+                -7.863664413139164
+              ],
+              "closestPointRightMm": [
+                -2.6983835239281007,
+                -19.668176153555713,
+                8.788073447991765
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "M3 T3<->M4 body",
+              "aabbGapMm": 2.5471340302354832,
+              "penetrationMm3": 0.0,
+              "distanceMm": 3.2705995545099342,
+              "closestPointLeftMm": [
+                -0.9093520995157659,
+                -5.115775403510561,
+                -7.921699639923938
+              ],
+              "closestPointRightMm": [
+                2.0137891620933974,
+                -6.255711529826656,
+                -8.845069684141327
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "M3 T3<->N3 body",
+              "aabbGapMm": 9.449871478246914,
+              "penetrationMm3": 0.0,
+              "distanceMm": 9.461928955505192,
+              "closestPointLeftMm": [
+                -0.5333448681420867,
+                -5.09616633083831,
+                -6.719662405420252
+              ],
+              "closestPointRightMm": [
+                8.91652661010483,
+                -4.7255200896923215,
+                -6.4185810749339955
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        },
+        "T4": {
+          "carrier": {
+            "pair": "M3 T4<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.167439499910099e-13,
+            "closestPointLeftMm": [
+              -1.2300993275840846,
+              -7.415954918849854,
+              -4.012958036343118
+            ],
+            "closestPointRightMm": [
+              -1.230099327584,
+              -7.41595491885,
+              -4.012958036343
+            ],
+            "passZeroPenetration": true
+          },
+          "shell": {
+            "pair": "M3 T4<->local shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.055321151388965,
+            "closestPointLeftMm": [
+              -1.5948784321176104,
+              -9.061571753362253,
+              -5.041489580970227
+            ],
+            "closestPointRightMm": [
+              -1.7729879499806362,
+              -13.062728578792731,
+              -8.126176437304002
+            ],
+            "passZeroPenetration": true
+          },
+          "frozenCarriers": {
+            "N1_N2": {
+              "pair": "M3 T4<->N1_N2 carrier",
+              "aabbGapMm": 29.234491134672755,
+              "penetrationMm3": 0.0,
+              "distanceMm": 32.98665629034825,
+              "closestPointLeftMm": [
+                -1.0160050225874628,
+                -7.65193097365923,
+                -3.007963836595297
+              ],
+              "closestPointRightMm": [
+                -1.8763792219750584,
+                -23.998844303336288,
+                25.6304312659
+              ],
+              "passZeroPenetration": true
+            },
+            "I2_I3": {
+              "pair": "M3 T4<->I2_I3 carrier",
+              "aabbGapMm": 9.843217786046017,
+              "penetrationMm3": 0.0,
+              "distanceMm": 14.507889836856007,
+              "closestPointLeftMm": [
+                -1.8448060104146637,
+                -8.96022186105517,
+                -4.016589061920551
+              ],
+              "closestPointRightMm": [
+                -2.244075098306668,
+                -17.6553902050406,
+                7.59002539637681
+              ],
+              "passZeroPenetration": true
+            },
+            "M4_N3": {
+              "pair": "M3 T4<->M4_N3 carrier",
+              "aabbGapMm": 0.733344868139411,
+              "penetrationMm3": 0.0,
+              "distanceMm": 1.1931751252519636,
+              "closestPointLeftMm": [
+                -0.8664159224690856,
+                -7.795542553738565,
+                -4.305600649280953
+              ],
+              "closestPointRightMm": [
+                0.2,
+                -8.211412307166741,
+                -4.642463095997764
+              ],
+              "passZeroPenetration": true
+            }
+          },
+          "frozenBodies": {
+            "N1": {
+              "pair": "M3 T4<->N1 body",
+              "aabbGapMm": 32.928258109907325,
+              "penetrationMm3": 0.0,
+              "distanceMm": 35.74380257603907,
+              "closestPointLeftMm": [
+                -1.3304955433797363,
+                -8.148365085789798,
+                -3.3906890951985096
+              ],
+              "closestPointRightMm": [
+                -7.2702315039689065,
+                -27.231720538852212,
+                26.243151424811956
+              ],
+              "passZeroPenetration": true
+            },
+            "N2": {
+              "pair": "M3 T4<->N2 body",
+              "aabbGapMm": 32.74924666275906,
+              "penetrationMm3": 0.0,
+              "distanceMm": 35.40018680310054,
+              "closestPointLeftMm": [
+                -1.0160050225874628,
+                -7.65193097365923,
+                -3.007963836595297
+              ],
+              "closestPointRightMm": [
+                -1.0802010540657847,
+                -26.966516626963593,
+                26.658783298962472
+              ],
+              "passZeroPenetration": true
+            },
+            "I2": {
+              "pair": "M3 T4<->I2 body",
+              "aabbGapMm": 15.219290174793942,
+              "penetrationMm3": 0.0,
+              "distanceMm": 18.719357336299055,
+              "closestPointLeftMm": [
+                -2.077538586562984,
+                -9.32759824337979,
+                -4.299817424948357
+              ],
+              "closestPointRightMm": [
+                -9.29881527124012,
+                -18.89493519367072,
+                10.078414935358992
+              ],
+              "passZeroPenetration": true
+            },
+            "I3": {
+              "pair": "M3 T4<->I3 body",
+              "aabbGapMm": 14.490251954973637,
+              "penetrationMm3": 0.0,
+              "distanceMm": 16.690998773299544,
+              "closestPointLeftMm": [
+                -2.077538586562984,
+                -9.32759824337979,
+                -4.299817424948357
+              ],
+              "closestPointRightMm": [
+                -2.5705647280970334,
+                -19.67818359357469,
+                8.784973294905805
+              ],
+              "passZeroPenetration": true
+            },
+            "M4": {
+              "pair": "M3 T4<->M4 body",
+              "aabbGapMm": 2.5471340302354855,
+              "penetrationMm3": 0.0,
+              "distanceMm": 3.319130591965943,
+              "closestPointLeftMm": [
+                -0.9527273509618628,
+                -7.9317881145350855,
+                -4.410638994179526
+              ],
+              "closestPointRightMm": [
+                2.013789162093397,
+                -9.088639268790757,
+                -5.3477105342403535
+              ],
+              "passZeroPenetration": true
+            },
+            "N3": {
+              "pair": "M3 T4<->N3 body",
+              "aabbGapMm": 9.449871478246918,
+              "penetrationMm3": 0.0,
+              "distanceMm": 9.90106517319908,
+              "closestPointLeftMm": [
+                -0.5333448681420891,
+                -7.26977842986397,
+                -3.9002634547626363
+              ],
+              "closestPointRightMm": [
+                8.91652661010483,
+                -5.122405591054959,
+                -5.9299950871949845
+              ],
+              "passZeroPenetration": true
+            }
+          }
+        }
+      },
+      "availableEnvelopes": {
+        "guide": {
+          "sizeMm": [
+            9.3,
+            9.3,
+            1.5
+          ],
+          "shell": {
+            "pair": "M3 guide envelope<->shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 0.22605991862956387,
+            "closestPointLeftMm": [
+              -1.261378769448573,
+              -11.007458909918421,
+              -10.535636443169377
+            ],
+            "closestPointRightMm": [
+              -1.2653781840656502,
+              -11.19128402520201,
+              -10.667148490087143
+            ],
+            "passZeroPenetration": true
+          },
+          "currentCarrier": {
+            "pair": "M3 guide envelope<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 6.270540940476371,
+            "distanceMm": 0.0,
+            "closestPointLeftMm": [
+              -10.402511510736336,
+              -9.136942716174548,
+              -6.995662433953719
+            ],
+            "closestPointRightMm": [
+              -10.402511510736336,
+              -9.136942716174548,
+              -6.995662433953719
+            ],
+            "passZeroPenetration": false
+          }
+        },
+        "rearReaction": {
+          "sizeMm": [
+            6.4,
+            6.4,
+            0.2
+          ],
+          "shell": {
+            "pair": "M3 rear envelope<->shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 5.468383433243958,
+            "closestPointLeftMm": [
+              -1.807911807431882,
+              -8.67854515595877,
+              -4.846485326840458
+            ],
+            "closestPointRightMm": [
+              -2.075743954625458,
+              -13.004121285855796,
+              -8.181282840689196
+            ],
+            "passZeroPenetration": true
+          },
+          "currentCarrier": {
+            "pair": "M3 rear envelope<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 2.1526077357393083,
+            "distanceMm": 0.0,
+            "closestPointLeftMm": [
+              -8.000048313645708,
+              -8.186879327811456,
+              -2.8142949750340427
+            ],
+            "closestPointRightMm": [
+              -8.000048313645708,
+              -8.186879327811456,
+              -2.8142949750340427
+            ],
+            "passZeroPenetration": false
+          }
+        },
+        "hardStop": {
+          "sizeMm": [
+            9.3,
+            9.3,
+            0.6500000000000004
+          ],
+          "shell": {
+            "pair": "M3 hard-stop envelope<->shell",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 0.0,
+            "distanceMm": 1.0560821862357155,
+            "closestPointLeftMm": [
+              -1.0427836098601766,
+              -10.255159016067548,
+              -10.165296676961354
+            ],
+            "closestPointRightMm": [
+              -1.0491948076919029,
+              -11.115252710681732,
+              -10.778083195344138
+            ],
+            "passZeroPenetration": true
+          },
+          "currentCarrier": {
+            "pair": "M3 hard-stop envelope<->current carrier",
+            "aabbGapMm": 0.0,
+            "penetrationMm3": 6.270540940476387,
+            "distanceMm": 0.0,
+            "closestPointLeftMm": [
+              -10.402511510736336,
+              -9.136942716174554,
+              -6.99566243395371
+            ],
+            "closestPointRightMm": [
+              -10.402511510736336,
+              -9.136942716174554,
+              -6.995662433953709
+            ],
+            "passZeroPenetration": false
+          }
+        }
+      },
+      "currentCarrierShell": {
+        "pair": "M3 current carrier<->local shell",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 1.4759162080305728,
+        "closestPointLeftMm": [
+          -1.091880791566,
+          -12.90825817691,
+          -5.949163911705
+        ],
+        "closestPointRightMm": [
+          -1.0927560703409458,
+          -14.063470456046426,
+          -6.867756572870347
+        ],
+        "passZeroPenetration": true
+      },
+      "currentCarrierSolidCount": 1,
+      "currentCarrierVolumeMm3": 264.56230247481744
+    }
+  },
+  "conclusion": {
+    "exteriorFeasibilityReopened": false,
+    "capOrientationsFrozen": true,
+    "capSwitchAngleDeg": 0.0,
+    "capShellAngleDeg": 0.0,
+    "directActuationCandidate": true,
+    "allTerminalsInitiallyRetained": true,
+    "sharedCarrierBetweenI4M3": false
+  }
+}

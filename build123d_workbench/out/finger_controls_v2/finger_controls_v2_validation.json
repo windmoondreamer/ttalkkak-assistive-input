@@ -1,0 +1,2333 @@
+{
+  "schema": 2,
+  "generatedUtc": "2026-08-22T10:03:57.014000+00:00",
+  "mode": "LOCAL build123d + exact OCCT / Onshape API 0 / browser 0 / CAD write 0",
+  "externalLayout": "APPROVED / FROZEN / PRESERVED",
+  "parametersMm": {
+    "switchBody": [
+      6.18,
+      6.12,
+      3.56
+    ],
+    "switchPocket": [
+      6.4,
+      6.4
+    ],
+    "pocketPerSideClearance": [
+      0.11000000000000032,
+      0.14000000000000012
+    ],
+    "capSize": 7.6,
+    "openingNominal": 8.0,
+    "N2SeamOpening": 8.4,
+    "capExposure": 1.0,
+    "carrierWall": 1.6,
+    "wireExit": [
+      4.0,
+      3.2
+    ]
+  },
+  "buttons": {
+    "I2": {
+      "id": "I2",
+      "centerMm": [
+        -15.97116502911469,
+        -26.20981698837403,
+        8.99880711855274
+      ],
+      "shellOwnership": "JfD",
+      "localSurfaceNormal": [
+        -0.4724,
+        -0.7368,
+        -0.4838
+      ],
+      "finalActuationAxis": [
+        -0.43398514194613513,
+        -0.7569241977430389,
+        -0.48859252495412786
+      ],
+      "normalAxisAngleDeg": 2.499999999999953,
+      "rollDeg": -15.649484511098155,
+      "switchRearDepthMm": 8.96,
+      "nearestSwitch": "I3",
+      "minimumSwitchClearanceMm": 1.4227740786000305,
+      "nearestStructuralObstacle": "modified owning shell inner surface",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    },
+    "I3": {
+      "id": "I3",
+      "centerMm": [
+        -5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "shellOwnership": "JfD",
+      "localSurfaceNormal": [
+        -0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "finalActuationAxis": [
+        -0.08169076783987367,
+        -0.9520228437085347,
+        -0.2949222329815895
+      ],
+      "normalAxisAngleDeg": 2.4999999999998073,
+      "rollDeg": -1.4496496993657892,
+      "switchRearDepthMm": 9.36,
+      "nearestSwitch": "I2",
+      "minimumSwitchClearanceMm": 1.4227740786000305,
+      "nearestStructuralObstacle": "modified owning shell inner surface",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    },
+    "I4": {
+      "id": "I4",
+      "centerMm": [
+        5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "shellOwnership": "JaD",
+      "localSurfaceNormal": [
+        0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "finalActuationAxis": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "normalAxisAngleDeg": 0.0,
+      "rollDeg": -179.32924252059476,
+      "switchRearDepthMm": 9.36,
+      "nearestSwitch": "I3",
+      "minimumSwitchClearanceMm": 3.7044249119352486,
+      "nearestStructuralObstacle": "modified owning shell inner surface",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    },
+    "M3": {
+      "id": "M3",
+      "centerMm": [
+        -6.890920103853075,
+        -13.71668568786225,
+        -11.11806979342742
+      ],
+      "shellOwnership": "JfD",
+      "localSurfaceNormal": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "finalActuationAxis": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "normalAxisAngleDeg": 0.0,
+      "rollDeg": -9.809049736870215,
+      "switchRearDepthMm": 8.76,
+      "nearestSwitch": "M4",
+      "minimumSwitchClearanceMm": 3.950386009976997,
+      "nearestStructuralObstacle": "modified owning shell inner surface",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    },
+    "M4": {
+      "id": "M4",
+      "centerMm": [
+        7.379332315763718,
+        -13.575227245499876,
+        -11.115547003937289
+      ],
+      "shellOwnership": "JaD",
+      "localSurfaceNormal": [
+        0.22485912746543743,
+        -0.7727927739559164,
+        -0.5934894281425763
+      ],
+      "finalActuationAxis": [
+        0.2878365212266233,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "normalAxisAngleDeg": 3.9999999999998583,
+      "rollDeg": -166.87577246522426,
+      "switchRearDepthMm": 8.36,
+      "nearestSwitch": "N3",
+      "minimumSwitchClearanceMm": 1.358708779960231,
+      "nearestStructuralObstacle": "modified owning shell inner surface",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    },
+    "N1": {
+      "id": "N1",
+      "centerMm": [
+        -10.990443464183823,
+        -35.80002827761031,
+        25.0
+      ],
+      "shellOwnership": "JfD",
+      "localSurfaceNormal": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "finalActuationAxis": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "normalAxisAngleDeg": 0.0,
+      "rollDeg": -2.422349334467798,
+      "switchRearDepthMm": 8.36,
+      "nearestSwitch": "N2",
+      "minimumSwitchClearanceMm": 4.517974428087081,
+      "nearestStructuralObstacle": "modified owning shell inner surface",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    },
+    "N2": {
+      "id": "N2",
+      "centerMm": [
+        5.3077624785043596e-15,
+        -35.76511909258096,
+        25.0
+      ],
+      "shellOwnership": "JfD",
+      "localSurfaceNormal": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "finalActuationAxis": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "normalAxisAngleDeg": 0.0,
+      "rollDeg": -1.465952613583232,
+      "switchRearDepthMm": 8.36,
+      "nearestSwitch": "N1",
+      "minimumSwitchClearanceMm": 4.517974428087081,
+      "nearestStructuralObstacle": "split/seam",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    },
+    "N3": {
+      "id": "N3",
+      "centerMm": [
+        17.48689737236422,
+        -6.664472046607768,
+        -11.125
+      ],
+      "shellOwnership": "JaD",
+      "localSurfaceNormal": [
+        0.7372725897449889,
+        -0.5077902287869772,
+        -0.4456211529530288
+      ],
+      "finalActuationAxis": [
+        0.6921593412330116,
+        -0.560207029374328,
+        -0.4550643147770151
+      ],
+      "normalAxisAngleDeg": 3.99999999999995,
+      "rollDeg": -150.65308099788714,
+      "switchRearDepthMm": 9.16,
+      "nearestSwitch": "M4",
+      "minimumSwitchClearanceMm": 1.358708779960231,
+      "nearestStructuralObstacle": "modified owning shell inner surface",
+      "capExposureMm": 1.0,
+      "centerDeltaFromApprovedMm": 0.0
+    }
+  },
+  "spacing": {
+    "bodyPairs": {
+      "I2-I3": {
+        "satSeparationMm": 1.4227740786000305,
+        "exactBrepDistanceMm": 1.4227740786000351,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-I4": {
+        "satSeparationMm": 11.34860457176063,
+        "exactBrepDistanceMm": 11.348604571760632,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-M3": {
+        "satSeparationMm": 16.92292091717066,
+        "exactBrepDistanceMm": 16.933956858213833,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-M4": {
+        "satSeparationMm": 17.368521290037037,
+        "exactBrepDistanceMm": 20.32605563598401,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-N1": {
+        "satSeparationMm": 11.950295558344346,
+        "exactBrepDistanceMm": 11.952295021059674,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-N2": {
+        "satSeparationMm": 12.377673161793972,
+        "exactBrepDistanceMm": 13.873598919426092,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-N3": {
+        "satSeparationMm": 23.628869741520568,
+        "exactBrepDistanceMm": 27.88817747647582,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-I4": {
+        "satSeparationMm": 3.7044249119352486,
+        "exactBrepDistanceMm": 3.7044249119352455,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-M3": {
+        "satSeparationMm": 16.192564425206154,
+        "exactBrepDistanceMm": 16.192564425206157,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-M4": {
+        "satSeparationMm": 16.37310448171804,
+        "exactBrepDistanceMm": 16.691577887957607,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-N1": {
+        "satSeparationMm": 12.295459850771797,
+        "exactBrepDistanceMm": 12.29631895867061,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-N2": {
+        "satSeparationMm": 12.296901944635296,
+        "exactBrepDistanceMm": 12.378471824034552,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-N3": {
+        "satSeparationMm": 21.01937664361132,
+        "exactBrepDistanceMm": 23.27085884145544,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-M3": {
+        "satSeparationMm": 16.338460370565286,
+        "exactBrepDistanceMm": 16.76447954791015,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-M4": {
+        "satSeparationMm": 16.097719721371007,
+        "exactBrepDistanceMm": 16.09776730809144,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-N1": {
+        "satSeparationMm": 14.415414031042786,
+        "exactBrepDistanceMm": 15.652048011931004,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-N2": {
+        "satSeparationMm": 12.399324417772657,
+        "exactBrepDistanceMm": 12.40296554875585,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-N3": {
+        "satSeparationMm": 20.451156386685103,
+        "exactBrepDistanceMm": 20.52237883068093,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M3-M4": {
+        "satSeparationMm": 3.950386009976997,
+        "exactBrepDistanceMm": 3.96611374205069,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M3-N1": {
+        "satSeparationMm": 34.816721840897586,
+        "exactBrepDistanceMm": 34.895561532899606,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M3-N2": {
+        "satSeparationMm": 35.226781292841856,
+        "exactBrepDistanceMm": 35.226781292841856,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M3-N3": {
+        "satSeparationMm": 10.831636656107342,
+        "exactBrepDistanceMm": 11.039101532142576,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M4-N1": {
+        "satSeparationMm": 35.49063922008812,
+        "exactBrepDistanceMm": 36.255412949452,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M4-N2": {
+        "satSeparationMm": 35.16575055421013,
+        "exactBrepDistanceMm": 35.16575078346463,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M4-N3": {
+        "satSeparationMm": 1.358708779960231,
+        "exactBrepDistanceMm": 1.3587189423407178,
+        "intersectionVolumeMm3": 0.0
+      },
+      "N1-N2": {
+        "satSeparationMm": 4.517974428087081,
+        "exactBrepDistanceMm": 4.517974428087084,
+        "intersectionVolumeMm3": 0.0
+      },
+      "N1-N3": {
+        "satSeparationMm": 41.06909599089,
+        "exactBrepDistanceMm": 42.26043424040372,
+        "intersectionVolumeMm3": 0.0
+      },
+      "N2-N3": {
+        "satSeparationMm": 39.53575861843818,
+        "exactBrepDistanceMm": 39.62305440010821,
+        "intersectionVolumeMm3": 0.0
+      }
+    },
+    "minimumSwitchSatMm": 1.358708779960231,
+    "minimumExactSwitchDistanceMm": 1.3587189423407178,
+    "preferredSwitchClearanceMm": 1.3,
+    "openingPairs": {
+      "I2-I3": {
+        "exactToolDistanceMm": 0.0,
+        "intersectionVolumeMm3": 12.495527999684409
+      },
+      "I2-I4": {
+        "exactToolDistanceMm": 7.823830912057439,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-M3": {
+        "exactToolDistanceMm": 15.276639698663592,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-M4": {
+        "exactToolDistanceMm": 17.22633728093357,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-N1": {
+        "exactToolDistanceMm": 9.189598478158807,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-N2": {
+        "exactToolDistanceMm": 10.34457301841196,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I2-N3": {
+        "exactToolDistanceMm": 24.532835424505894,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-I4": {
+        "exactToolDistanceMm": 1.5496445069956672,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-M3": {
+        "exactToolDistanceMm": 13.405220579070871,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-M4": {
+        "exactToolDistanceMm": 13.330009851948814,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-N1": {
+        "exactToolDistanceMm": 9.067519335277444,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-N2": {
+        "exactToolDistanceMm": 8.512328268081845,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I3-N3": {
+        "exactToolDistanceMm": 19.560903492052198,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-M3": {
+        "exactToolDistanceMm": 13.557207297540879,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-M4": {
+        "exactToolDistanceMm": 12.99676211553596,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-N1": {
+        "exactToolDistanceMm": 12.43026511880306,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-N2": {
+        "exactToolDistanceMm": 8.614199127863218,
+        "intersectionVolumeMm3": 0.0
+      },
+      "I4-N3": {
+        "exactToolDistanceMm": 16.627805636686674,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M3-M4": {
+        "exactToolDistanceMm": 8.881784197001252e-16,
+        "intersectionVolumeMm3": 0.03299597197919693
+      },
+      "M3-N1": {
+        "exactToolDistanceMm": 32.73797740148629,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M3-N2": {
+        "exactToolDistanceMm": 32.25687444438188,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M3-N3": {
+        "exactToolDistanceMm": 6.360718956585235,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M4-N1": {
+        "exactToolDistanceMm": 32.94396874376565,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M4-N2": {
+        "exactToolDistanceMm": 32.03726093792848,
+        "intersectionVolumeMm3": 0.0
+      },
+      "M4-N3": {
+        "exactToolDistanceMm": 8.881784197001252e-16,
+        "intersectionVolumeMm3": 1.8441603350204325
+      },
+      "N1-N2": {
+        "exactToolDistanceMm": 2.3471420780777246,
+        "intersectionVolumeMm3": 0.0
+      },
+      "N1-N3": {
+        "exactToolDistanceMm": 38.40847355288569,
+        "intersectionVolumeMm3": 0.0
+      },
+      "N2-N3": {
+        "exactToolDistanceMm": 35.69748772125876,
+        "intersectionVolumeMm3": 0.0
+      }
+    },
+    "externalCapPairSatMm": {
+      "I2-I3": 2.862192338785674,
+      "I2-I4": 13.235706826941897,
+      "I2-M3": 17.215728306788165,
+      "I2-M4": 21.289396995994096,
+      "I2-N1": 10.11822992601303,
+      "I2-N2": 11.919408224745752,
+      "I2-N3": 30.328263054204335,
+      "I3-I4": 3.2499827143236937,
+      "I3-M3": 17.494755720213114,
+      "I3-M4": 17.910605596013724,
+      "I3-N1": 9.632523751008847,
+      "I3-N2": 9.336293994626882,
+      "I3-N3": 25.065673206415227,
+      "I4-M3": 17.672277477298106,
+      "I4-M4": 17.397652661936423,
+      "I4-N1": 12.417194111862788,
+      "I4-N2": 9.435868082259471,
+      "I4-N3": 20.735778060376255,
+      "M3-M4": 5.3748907959514245,
+      "M3-N1": 34.496826731963424,
+      "M3-N2": 34.1040083145605,
+      "M3-N3": 15.280552027103276,
+      "M4-N1": 34.79107028245322,
+      "M4-N2": 34.25860855560208,
+      "M4-N3": 3.8907100191536363,
+      "N1-N2": 3.302692027750046,
+      "N1-N3": 38.90723571595614,
+      "N2-N3": 37.898693143720465
+    },
+    "openingCutterCommonShellMaterialMm3": {
+      "I2-I3": 0.0,
+      "I2-I4": 0.0,
+      "I2-M3": 0.0,
+      "I2-M4": 0.0,
+      "I2-N1": 0.0,
+      "I2-N2": 0.0,
+      "I2-N3": 0.0,
+      "I3-I4": 0.0,
+      "I3-M3": 0.0,
+      "I3-M4": 0.0,
+      "I3-N1": 0.0,
+      "I3-N2": 0.0,
+      "I3-N3": 0.0,
+      "I4-M3": 0.0,
+      "I4-M4": 0.0,
+      "I4-N1": 0.0,
+      "I4-N2": 0.0,
+      "I4-N3": 0.0,
+      "M3-M4": 0.0,
+      "M3-N1": 0.0,
+      "M3-N2": 0.0,
+      "M3-N3": 0.0,
+      "M4-N1": 0.0,
+      "M4-N2": 0.0,
+      "M4-N3": 0.0,
+      "N1-N2": 0.0,
+      "N1-N3": 0.0,
+      "N2-N3": 0.0
+    },
+    "minimumOpeningLigamentMm": 2.862192338785674,
+    "N1N2PocketDividerMm": 4.297855408067098
+  },
+  "clearance": {
+    "shellIntersections": {
+      "I2": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 1.4946400566262537,
+        "carrierToJfDMm": 0.48737059920872483
+      },
+      "I3": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 1.4946400566262537,
+        "carrierToJfDMm": 0.48737059920872483
+      },
+      "I4": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 0.6705879826971584,
+        "carrierToJfDMm": 1.7766425133069081
+      },
+      "M3": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 1.8131071249820305,
+        "carrierToJfDMm": 1.4759162080285622
+      },
+      "M4": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 0.0801293254999511,
+        "carrierToJfDMm": 1.6161979932153474
+      },
+      "N1": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 1.5325420200611044,
+        "carrierToJfDMm": 1.028337974650418
+      },
+      "N2": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 1.5325420200611044,
+        "carrierToJfDMm": 1.028337974650418
+      },
+      "N3": {
+        "switchJaDMm3": 0.0,
+        "switchJfDMm3": 0.0,
+        "carrierJaDMm3": 0.0,
+        "carrierJfDMm3": 0.0,
+        "carrierToJaDMm": 0.0801293254999511,
+        "carrierToJfDMm": 1.6161979932153474
+      }
+    },
+    "screwPerPartMm": {
+      "switch_I2": 8.227691400314779,
+      "switch_I3": 7.237931996448471,
+      "switch_I4": 7.232895435657887,
+      "switch_M3": 20.966719417601468,
+      "switch_M4": 21.05236167273383,
+      "switch_N1": 9.752783486557107,
+      "switch_N2": 9.472140574060539,
+      "switch_N3": 15.98466656768691,
+      "carrier_N1_N2_shared_carrier": 7.059042875864517,
+      "carrier_I2_I3_shared_carrier": 4.0221632574960235,
+      "carrier_M4_N3_shared_carrier": 13.122265564242406,
+      "carrier_I4_carrier": 4.892426567025589,
+      "carrier_M3_carrier": 18.810916349587103
+    },
+    "minimumScrewMm": 4.0221632574960235,
+    "thumbPerPartMm": {
+      "switch_I2": 21.492112098174392,
+      "switch_I3": 23.61930049590207,
+      "switch_I4": 23.704365573812986,
+      "switch_M3": 32.427151905130955,
+      "switch_M4": 32.575879352523955,
+      "switch_N1": 14.019938261187802,
+      "switch_N2": 13.85273331867369,
+      "switch_N3": 31.791627387867223,
+      "carrier_N1_N2_shared_carrier": 10.746084338348119,
+      "carrier_I2_I3_shared_carrier": 19.028316628109103,
+      "carrier_M4_N3_shared_carrier": 28.95939613287933,
+      "carrier_I4_carrier": 21.360761059693264,
+      "carrier_M3_carrier": 29.821612714558878
+    },
+    "minimumThumbMm": 10.746084338348119,
+    "thumbIntersectionsMm3": {
+      "switch_I2": 0.0,
+      "switch_I3": 0.0,
+      "switch_I4": 0.0,
+      "switch_M3": 0.0,
+      "switch_M4": 0.0,
+      "switch_N1": 0.0,
+      "switch_N2": 0.0,
+      "switch_N3": 0.0,
+      "carrier_N1_N2_shared_carrier": 0.0,
+      "carrier_I2_I3_shared_carrier": 0.0,
+      "carrier_M4_N3_shared_carrier": 0.0,
+      "carrier_I4_carrier": 0.0,
+      "carrier_M3_carrier": 0.0
+    },
+    "switchCarrierIntersectionsMm3": {
+      "I2": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      },
+      "I3": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      },
+      "I4": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      },
+      "M3": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      },
+      "M4": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      },
+      "N1": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      },
+      "N2": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      },
+      "N3": {
+        "N1_N2_shared_carrier": 0.0,
+        "I2_I3_shared_carrier": 0.0,
+        "M4_N3_shared_carrier": 0.0,
+        "I4_carrier": 0.0,
+        "M3_carrier": 0.0
+      }
+    },
+    "terminalRootIntersectionsMm3": {
+      "I2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "I3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "I4": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "M3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "M4": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "N1": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "N2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "N3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "wire": {
+      "I2": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 2.180536795724981
+      },
+      "I3": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 2.8132176135639626
+      },
+      "I4": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 5.02694214330173
+      },
+      "M3": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 5.183427857681971
+      },
+      "M4": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 2.4669025544604657
+      },
+      "N1": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 5.626791661854912
+      },
+      "N2": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 5.980234996685594
+      },
+      "N3": {
+        "carrierIntersectionMm3": 0.0,
+        "JaDIntersectionMm3": 0.0,
+        "JfDIntersectionMm3": 0.0,
+        "nearestOtherSwitchMm": 2.8708268103596635
+      }
+    }
+  },
+  "N2Seam": {
+    "centerMm": [
+      5.3077624785043596e-15,
+      -35.76511909258096,
+      25.0
+    ],
+    "centerToNominalSeamXmm": 5.3077624785043596e-15,
+    "relation": "center lies on nominal X=0 shell seam",
+    "shellOwnership": "JfD carrier ownership; JaD is closure/capture side",
+    "openingArchitecture": "split 8.40 mm seam-relieved opening; approved 7.60 mm cap center unchanged",
+    "carrierOwnership": "N1/N2 one-piece JfD-side C-channel carrier",
+    "openingToolIntersectionMm3": {
+      "originalJaD": 107.50268758675097,
+      "originalJfD": 104.54217446063645
+    },
+    "oppositeShellCarrierClearanceMm": 1.5325420200611044,
+    "oppositeShellCarrierIntersectionMm3": 0.0,
+    "capOpeningDiametralClearanceMm": 0.8000000000000007,
+    "perSideNominalClearanceMm": 0.40000000000000036,
+    "closureToleranceBudgetMm": 0.2,
+    "remainingPerSideMarginAfterClosureBudgetMm": 0.20000000000000034,
+    "jamRisk": "LOW at <=0.20 mm relative shell misalignment; carrier guides actuator, not both shell edges",
+    "serviceability": "switch loads laterally from open seam side before JaD closure"
+  },
+  "architecture": {
+    "carrierCount": 5,
+    "printablePartCount": 13,
+    "carrierParts": [
+      "N1_N2_shared_carrier",
+      "I2_I3_shared_carrier",
+      "M4_N3_shared_carrier",
+      "I4_carrier",
+      "M3_carrier"
+    ],
+    "grouping": {
+      "N1/N2": "shared two-switch JfD-side carrier; N1 outer-load / N2 seam-load",
+      "I2/I3": "shared two-switch JfD-side carrier; opposite-end loading",
+      "M4/N3": "shared two-switch JaD-side carrier; opposite-end loading",
+      "I4/M3": "two robust independent shell-closure-captured C-channels"
+    },
+    "retention": "three-sided 1.60 mm C-channel + broad rear plate + opposite-shell closure capture",
+    "tinyHooks": 0,
+    "tinyRails": 0,
+    "independentSpacers": 0,
+    "wiring": "four rigid-root reliefs per switch plus 4.0 x 3.2 mm straight rear service exit",
+    "assemblySequence": [
+      "print and deburr caps/carriers; verify 8.0 mm openings and N2 8.4 mm seam relief",
+      "pre-form distal ITS-1105 leads and pre-solder insulated wires",
+      "seat each carrier from the open shell interior along its cap axis",
+      "slide each switch laterally from the central seam side into its C-channel",
+      "route the four roots and wires through the rear service exit",
+      "push each cap onto the 3.35 mm actuator from the exterior",
+      "close JaD/JfD; the opposite shell supplies the broad fourth lateral restraint",
+      "verify 0.35 mm usable cap stroke, return and continuity before final screws"
+    ],
+    "printOrientation": {
+      "carriers": "rear plate on bed; C-channel opening upward; N1/N2 uses N1 average plane",
+      "caps": "external 7.6 mm face on bed; actuator socket upward"
+    }
+  },
+  "assemblyChecks": {
+    "switchLateralInsertion": {
+      "I2": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 81.24112801003226,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.6214308470447858
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 18.6287520556426
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 60.09627604359838
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 81.24112801003226
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 65.95346871387729
+          }
+        ]
+      },
+      "I3": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "I4": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "M3": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "M4": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "N1": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 75.05529652998553,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 2.153738122988196
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 28.173383130470395
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 69.14878916805824
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 75.05529652998553
+          }
+        ]
+      },
+      "N2": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "N3": {
+        "path": "open-side lateral preload before carrier-to-shell insertion",
+        "maximumCarrierInterferenceMm3": 0.0,
+        "maximumOwnerShellInterferenceMm3": 89.79889693247243,
+        "samples": [
+          {
+            "travelMm": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 2.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "travelMm": 4.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 3.235119432766622
+          },
+          {
+            "travelMm": 6.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 24.399786998235847
+          },
+          {
+            "travelMm": 8.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 64.13742662415632
+          },
+          {
+            "travelMm": 10.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 89.79889693247243
+          },
+          {
+            "travelMm": 12.0,
+            "carrierIntersectionMm3": 0.0,
+            "ownerShellIntersectionMm3": 76.58466165036018
+          }
+        ]
+      }
+    },
+    "carrierInsertion": {
+      "I2": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "I3": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "I4": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "M3": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "M4": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "N1": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "N2": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      },
+      "N3": {
+        "path": "preloaded module translated from open central seam along global X",
+        "maximumOwnerShellInterferenceMm3": 0.0,
+        "samples": [
+          {
+            "seamApproachTravelMm": 0.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 2.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 4.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 6.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 8.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 10.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 12.0,
+            "ownerShellIntersectionMm3": 0.0
+          },
+          {
+            "seamApproachTravelMm": 14.0,
+            "ownerShellIntersectionMm3": 0.0
+          }
+        ]
+      }
+    },
+    "capMotion": {
+      "I2": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      },
+      "I3": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      },
+      "I4": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      },
+      "M3": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      },
+      "M4": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      },
+      "N1": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      },
+      "N2": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      },
+      "N3": {
+        "usableTravelMm": 0.35,
+        "samples": [
+          {
+            "pressTravelMm": 0.0,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.175,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          },
+          {
+            "pressTravelMm": 0.35,
+            "JaDIntersectionMm3": 0.0,
+            "JfDIntersectionMm3": 0.0,
+            "carrierIntersectionMm3": 0.0,
+            "housingIntersectionMm3": 0.0
+          }
+        ],
+        "maximumHardInterferenceMm3": 0.0
+      }
+    }
+  },
+  "carrierPairIntersectionsMm3": {
+    "N1_N2_shared_carrier-I2_I3_shared_carrier": 0.0,
+    "N1_N2_shared_carrier-M4_N3_shared_carrier": 0.0,
+    "N1_N2_shared_carrier-I4_carrier": 0.0,
+    "N1_N2_shared_carrier-M3_carrier": 0.0,
+    "I2_I3_shared_carrier-M4_N3_shared_carrier": 0.0,
+    "I2_I3_shared_carrier-I4_carrier": 0.0,
+    "I2_I3_shared_carrier-M3_carrier": 0.0,
+    "M4_N3_shared_carrier-I4_carrier": 0.0,
+    "M4_N3_shared_carrier-M3_carrier": 0.0,
+    "I4_carrier-M3_carrier": 0.0
+  },
+  "geometry": {
+    "shells": {
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 45917.341199185845,
+        "bboxMm": {
+          "min": [
+            -0.5222681032687031,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            38.77976975434524,
+            62.428314495976565,
+            78.2567835040506
+          ]
+        },
+        "topology": {
+          "vertices": 139,
+          "edges": 208,
+          "faces": 77
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 47000.697095695425,
+        "bboxMm": {
+          "min": [
+            -38.77976975434524,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            0.5222681032687031,
+            62.42831449419311,
+            78.25678350405059
+          ]
+        },
+        "topology": {
+          "vertices": 143,
+          "edges": 214,
+          "faces": 79
+        }
+      }
+    },
+    "carriers": {
+      "N1_N2_shared_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 587.1829715949793,
+        "bboxMm": {
+          "min": [
+            -15.424644455824957,
+            -34.437902175721334,
+            22.84248849339905
+          ],
+          "max": [
+            5.225477658279169,
+            -24.46556100027889,
+            35.135904708534056
+          ]
+        },
+        "topology": {
+          "vertices": 192,
+          "edges": 288,
+          "faces": 88
+        }
+      },
+      "I2_I3_shared_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 500.07404942432004,
+        "bboxMm": {
+          "min": [
+            -18.038858424644815,
+            -26.62715496920123,
+            5.950368696204146
+          ],
+          "max": [
+            0.18327080367953802,
+            -13.863353651116537,
+            19.320885925667117
+          ]
+        },
+        "topology": {
+          "vertices": 210,
+          "edges": 315,
+          "faces": 100
+        }
+      },
+      "M4_N3_shared_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 530.3776948580341,
+        "bboxMm": {
+          "min": [
+            0.1999999999999975,
+            -14.246900259779235,
+            -14.488108715791356
+          ],
+          "max": [
+            17.21361160398169,
+            4.968551878164717,
+            -0.4080519574120798
+          ]
+        },
+        "topology": {
+          "vertices": 204,
+          "edges": 306,
+          "faces": 94
+        }
+      },
+      "I4_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 266.67501614894877,
+        "bboxMm": {
+          "min": [
+            0.27976279571307927,
+            -25.552911420397976,
+            5.991582346338265
+          ],
+          "max": [
+            10.078010900622012,
+            -17.272893589115313,
+            16.845428272294594
+          ]
+        },
+        "topology": {
+          "vertices": 72,
+          "edges": 108,
+          "faces": 36
+        }
+      },
+      "M3_carrier": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 264.5623024753447,
+        "bboxMm": {
+          "min": [
+            -10.44736343045766,
+            -13.640936412543832,
+            -12.601678289661471
+          ],
+          "max": [
+            -0.19999999999998685,
+            -1.9376763407153188,
+            -0.4950499461289217
+          ]
+        },
+        "topology": {
+          "vertices": 74,
+          "edges": 111,
+          "faces": 37
+        }
+      }
+    },
+    "caps": {
+      "I2": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 121.59124334838782,
+        "bboxMm": {
+          "min": [
+            -20.62523056413161,
+            -30.467538594652424,
+            5.194668657341474
+          ],
+          "max": [
+            -11.664287607654684,
+            -21.47709265559376,
+            13.067793100204657
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "I3": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 127.95296847190708,
+        "bboxMm": {
+          "min": [
+            -9.459607896428015,
+            -31.71892522634218,
+            5.07396671692182
+          ],
+          "max": [
+            -1.5977788902052432,
+            -24.152837874076937,
+            12.689834965266428
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "I4": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 127.95296847190711,
+        "bboxMm": {
+          "min": [
+            1.6469527003186835,
+            -31.54233635219623,
+            5.073497084631844
+          ],
+          "max": [
+            9.375722074749259,
+            -24.16159803750653,
+            12.692557787320464
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "M3": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 118.41038078662814,
+        "bboxMm": {
+          "min": [
+            -11.39515254312217,
+            -17.720038090399328,
+            -14.767202502119222
+          ],
+          "max": [
+            -2.566095343438543,
+            -9.113898645196771,
+            -6.864203336577468
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "M4": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 112.0486556631087,
+        "bboxMm": {
+          "min": [
+            2.951313842711587,
+            -17.826599054279484,
+            -14.750351075559214
+          ],
+          "max": [
+            12.037620005797148,
+            -9.311376931710575,
+            -7.0839155041717445
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "N1": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 112.04865566310887,
+        "bboxMm": {
+          "min": [
+            -15.012536593854513,
+            -38.831396082827176,
+            21.189278043270612
+          ],
+          "max": [
+            -7.029523443266739,
+            -31.463659046737565,
+            28.76125362890232
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "N2": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 112.04865566310882,
+        "bboxMm": {
+          "min": [
+            -3.9355075069213936,
+            -38.74873655611484,
+            21.22068552499729
+          ],
+          "max": [
+            3.9009732048081966,
+            -31.42631136412746,
+            28.82625455253588
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      },
+      "N3": {
+        "valid": true,
+        "solidCount": 1,
+        "volumeMm3": 124.77210591014737,
+        "bboxMm": {
+          "min": [
+            12.74133311483659,
+            -11.266349821691934,
+            -14.963806890442994
+          ],
+          "max": [
+            21.91387321852926,
+            -2.274144920366355,
+            -7.069128152132388
+          ]
+        },
+        "topology": {
+          "vertices": 12,
+          "edges": 18,
+          "faces": 10
+        }
+      }
+    },
+    "printPlate": {
+      "valid": true,
+      "solidCount": 13,
+      "volumeMm3": 3105.6976684799306,
+      "bboxMm": {
+        "min": [
+          0.0,
+          -3.774758283725532e-15,
+          -1.9012569296705806e-15
+        ],
+        "max": [
+          102.79999999999998,
+          28.467336661839106,
+          10.626974431234098
+        ]
+      },
+      "topology": {
+        "vertices": 848,
+        "edges": 1272,
+        "faces": 435
+      }
+    },
+    "unexpectedOrphanSolidCount": 0,
+    "unexpectedSliverCount": 0,
+    "leftoverCutterCount": 0,
+    "tangentOnlyAttachedComponentCount": 0
+  },
+  "gates": {
+    "externalLayoutFrozenPreserved": true,
+    "axisMismatch": true,
+    "switchSeparation": true,
+    "hardShellCollision": true,
+    "screwClearance": true,
+    "thumbCollision": true,
+    "switchCarrierClearance": true,
+    "terminalRootClearance": true,
+    "wiringPath": true,
+    "openingOverlap": true,
+    "carrierCarrierCollision": true,
+    "structuralWall": true,
+    "divider": true,
+    "switchAssemblyPath": true,
+    "carrierAssemblyPath": true,
+    "capTravel": true,
+    "validPrintableParts": true,
+    "oneSolidPerPrintablePart": true,
+    "shellValidity": true,
+    "fragmentGate": true,
+    "N2CurrentPosition": true
+  },
+  "verdict": {
+    "EXTERNAL_LAYOUT": "FROZEN / PRESERVED",
+    "8_SWITCH_INTERNAL_FIT": "PASS",
+    "N2_SEAM": "PASS",
+    "CARRIER_ARCHITECTURE": "PASS",
+    "WIRING": "PASS",
+    "FDM_PRINTABILITY": "PASS",
+    "LOCAL_FINGER_V2": "PASS"
+  },
+  "exports": {
+    "JAD_FINGER_V2": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\JAD_FINGER_V2.step",
+      "sizeBytes": 1388347,
+      "sha256": "a477aa79e55ddb21fb2a45c7f616544f6eb4844b593f61cf7d45303476c5a762"
+    },
+    "JFD_FINGER_V2": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\JFD_FINGER_V2.step",
+      "sizeBytes": 1401989,
+      "sha256": "d457d5d9b305a4c7d77e21aab3cb7d33336d672d4d8bf031e6158de44c26ad50"
+    },
+    "N1_N2_shared_carrier.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N1_N2_shared_carrier.step",
+      "sizeBytes": 405612,
+      "sha256": "e982a1a77e4adc4cb914636266cad94e86bda894e22837537679e7142fe670ba"
+    },
+    "N1_N2_shared_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N1_N2_shared_carrier.stl",
+      "sizeBytes": 21084,
+      "sha256": "ca4599ce6dc7f16e5fc70d3e46073522968b3d3a4c8064edda7f7185a5eb3adc"
+    },
+    "I2_I3_shared_carrier.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I2_I3_shared_carrier.step",
+      "sizeBytes": 446979,
+      "sha256": "5f0c70e772c2e9fac3d3a2c78190d2b8613386b995b7d729b18185390978ac75"
+    },
+    "I2_I3_shared_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I2_I3_shared_carrier.stl",
+      "sizeBytes": 22884,
+      "sha256": "8632cbeb3650923d3c3f240d967eaae3ef3a6c152d299db51cedb3849fc3a289"
+    },
+    "M4_N3_shared_carrier.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M4_N3_shared_carrier.step",
+      "sizeBytes": 430789,
+      "sha256": "9022d6f6544d1cb912c3fadc3f6c9b67b937273336984fdf57a481641d559605"
+    },
+    "M4_N3_shared_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M4_N3_shared_carrier.stl",
+      "sizeBytes": 22284,
+      "sha256": "6fd0df14287952ed834c6f5f95b1e8ff19e42a50f4aab972248eda21442f62f2"
+    },
+    "I4_carrier.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I4_carrier.step",
+      "sizeBytes": 152690,
+      "sha256": "3e03c106c0e7324c3d468796505887106209aa5976362a263f37fc33fc906dfa"
+    },
+    "I4_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I4_carrier.stl",
+      "sizeBytes": 8084,
+      "sha256": "306266619e4cfabe0773bec0481766beca20c3666b1b19b64cd78828f53afdbc"
+    },
+    "M3_carrier.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M3_carrier.step",
+      "sizeBytes": 157585,
+      "sha256": "13e0f7fbd2e5147ede505105761ba0dfdd5d9a004475784622596e57f9ef6b67"
+    },
+    "M3_carrier.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M3_carrier.stl",
+      "sizeBytes": 8284,
+      "sha256": "7d1b0553245c28946683fd0847f6248db91edf95e84490447fa737c92c7c6eeb"
+    },
+    "I2_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I2_cap.step",
+      "sizeBytes": 26072,
+      "sha256": "2abc808687de758b939133f5cce5fb4eeeba0c40681cc54d750ca8ba612b7fe8"
+    },
+    "I2_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I2_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "774a7d2b310de41c4c390a2bf178bd9cd01cf9958fc6bc1b6c9129fb37bccb4b"
+    },
+    "I3_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I3_cap.step",
+      "sizeBytes": 26620,
+      "sha256": "52cc0b3dc682713c28b0a4dfb64892f27aaa8281625590ddd46bdf2d11590f93"
+    },
+    "I3_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I3_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "c7006d148c9af883cf8a62cef0afdfd970c37d511165760684866d40579eea0e"
+    },
+    "I4_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I4_cap.step",
+      "sizeBytes": 26621,
+      "sha256": "3dbefcf0d3a7dcd77d82626045e045fa6443e8a7e2fa8bf6dc17fb0ce77170c0"
+    },
+    "I4_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\I4_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "7e204965dd026d2ab089c65d4f2331af57bb70347a86f575fa04aae7991849bc"
+    },
+    "M3_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M3_cap.step",
+      "sizeBytes": 26044,
+      "sha256": "d6b219c9391d7af52d32124c1c2e20583dad264eeddcf98f61d6ddcfd70d530a"
+    },
+    "M3_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M3_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "b2e611665ba8ba84d78a3847eab7f670d9de16f375a74772a6101db1167269e9"
+    },
+    "M4_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M4_cap.step",
+      "sizeBytes": 26367,
+      "sha256": "e369c46dbad9519876c8775c274f4dd16b24bb2e17670b71cf2bbe76db290792"
+    },
+    "M4_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\M4_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "1bbfa6845d8cbf5d585dcc5dcdb933509c8dfef1bf9df311751f92be435078d9"
+    },
+    "N1_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N1_cap.step",
+      "sizeBytes": 26556,
+      "sha256": "6fecf7d8b68d565e91ebe7a8cd4905d45629dd259119902771400c9cef8e757b"
+    },
+    "N1_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N1_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "3f281068c9b9dcf07f44af5f48b663bad221eebb6f5604440779182c4c887637"
+    },
+    "N2_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N2_cap.step",
+      "sizeBytes": 26347,
+      "sha256": "4635272422a61cc14bb52a8e1535267d0b1f45ba3c429693b0d1992b2a9d4894"
+    },
+    "N2_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N2_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "b66a5abdd4ec71e397a7f1e040d4bd44d8ed0bf3c1f204c4fc18e7aa770d60e5"
+    },
+    "N3_cap.step": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N3_cap.step",
+      "sizeBytes": 26069,
+      "sha256": "54b43b3a9caead364df1b3d34120c3796b73a306980707d59583ac2a7d03d867"
+    },
+    "N3_cap.stl": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N3_cap.stl",
+      "sizeBytes": 84684,
+      "sha256": "317553c316ee4c3fdd68a17e610ab792a30917c175c49596d46100f0ff7adc6f"
+    },
+    "assembly": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\FINGER_V2_ASSEMBLY_REFERENCE.step",
+      "sizeBytes": 6624483,
+      "sha256": "c2ce9e0bd180c24c7f2792d4691a53566040bfdce1d1273d014ea33e2dc67fc1"
+    },
+    "printPlate": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\FINGER_V2_PRINT_PLATE.stl",
+      "sizeBytes": 759084,
+      "sha256": "916966f001817fc3b29dd65a574afdb4f61aee560ee839fac555a2411c8693ba"
+    },
+    "sourceManifest": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\finger_controls_v2_source_manifest.json",
+      "sizeBytes": 9884,
+      "sha256": "2de88051c9c981a04f284b5dde48e4a15861606e5bae3f1376e2a7ef6539c5b2"
+    }
+  }
+}

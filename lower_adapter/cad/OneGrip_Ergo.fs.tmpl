@@ -1,0 +1,532 @@
+FeatureScript 2878;
+import(path : "onshape/std/geometry.fs", version : "2878.0");
+
+/* ============================================================================
+   OneGrip Play — W2 손목 받침 인체공학 외피
+
+   내부 코어(CONFORMAL_STOCK_EMBED_V1)는 **완전히 그대로**다:
+     - 공동(CAV) 밴드 / 꼬리 공동 / 캐리어 개구 / 캐리어 / 스톡 인터페이스
+     - 20도 인체공학 기준면 (덱 평면 Z = DECK)
+     - HAND_REF / 그립 중립축 / ±10도 모션 keep-out
+
+   바뀌는 것은 **외피뿐**이다:
+     - 계단식 밴드 스택 -> **로프트 연속 곡면**
+     - 앞쪽(-Y)에 손목 받침 볼륨을 **같은 셸의 일부로** 추가
+     - 접지 구조를 손목 받침 앞끝까지만 연장
+     - USB/케이블은 측면으로 라우팅
+
+   손목면은 20도 평면 위에 놓을 수 없다 (1mm 전진마다 0.342mm 하강).
+   그래서 **더 완만한 별도 평면(#wrist_pad_angle)** 을 덱 평면 위에 얹는다.
+
+   Part Studio 변수:
+     #wrist_pad_angle   7 deg   (5 / 7 / 9 평가 가능)
+     #wrist_pad_length 85 mm    (70 / 85 / 100 평가 가능)
+     #wrist_pad_width  86 mm
+     #wrist_pad_radius 16 mm
+     #wrist_anchor_y  -20 mm    (그립 스윕 -10.51 보다 안전측)
+     #front_rake        5 deg   앞면 기울기 (아래가 앞으로)
+     #knee_angle / #knee_y      바닥 무릎면
+     #pocket_clearance2         캐리어 포켓 여유
+     #trace_steps               진단용 단계 제한 (0 = 전체)
+
+   FeatureScript 주의:
+     - 함수 인자 7개 초과 금지, 함수명 `box` 금지
+     - `id + "xa"` != `id + "x" + "a"`
+     - 절삭 도구는 **먼저 UNION 한 뒤 한 번에 SUBTRACT** (non-manifold 회피)
+     - 미사용 지역변수는 에러
+   ============================================================================ */
+
+export enum ErgoStage
+{
+    annotation { "Name" : "A ergonomic shell" }
+    SHELL,
+    annotation { "Name" : "B bottom carrier" }
+    CARRIER
+}
+
+// ======================= 생성 상수 (gen_ergo_fs.py) =======================
+//GENERATED
+// =========================================================================
+
+const BIG = 500 * millimeter;
+const WALL_T = 4.5;      // 손목 넥 외피 살 (mm)
+const PAD_T = 6.0;       // 손목 접촉면 살 (mm)
+const FILLET_R = 95.0;   // 필렛 대상 구 반경 (패드 중심 기준, mm)
+const UPV = vector(0.0, 0.3420201433256687, 0.9396926207859084);   // 월드 수직
+const UHV = vector(0.0, 0.9396926207859084, -0.3420201433256687);  // 월드 수평(+Y쪽)
+
+// ---------- 유틸 ----------
+
+function mkBox(context is Context, id is Id, c is Vector, wd is Vector,
+               z0 is ValueWithUnits, z1 is ValueWithUnits)
+{
+    fCuboid(context, id, {
+                "corner1" : vector(c[0] - wd[0] / 2, c[1] - wd[1] / 2, z0),
+                "corner2" : vector(c[0] + wd[0] / 2, c[1] + wd[1] / 2, z1)
+            });
+}
+
+/** 둥근 사각 기둥 (x0,x1,y0,y1 = mm 숫자 배열). */
+function mkRound(context is Context, id is Id, r4 is array, r is ValueWithUnits,
+                 z0 is ValueWithUnits, z1 is ValueWithUnits)
+{
+    const x0 = r4[0] * millimeter;
+    const x1 = r4[1] * millimeter;
+    const y0 = r4[2] * millimeter;
+    const y1 = r4[3] * millimeter;
+    const c = vector((x0 + x1) / 2, (y0 + y1) / 2);
+    const w = x1 - x0;
+    const d = y1 - y0;
+    var rr = r;
+    if (rr > w / 2 - 0.5 * millimeter)
+    {
+        rr = w / 2 - 0.5 * millimeter;
+    }
+    if (rr > d / 2 - 0.5 * millimeter)
+    {
+        rr = d / 2 - 0.5 * millimeter;
+    }
+    mkBox(context, id + "a", c, vector(w - 2 * rr, d), z0, z1);
+    const acc = qBodyType(qCreatedBy(id + "a", EntityType.BODY), BodyType.SOLID);
+    mkBox(context, id + "b", c, vector(w, d - 2 * rr), z0, z1);
+    opBoolean(context, id + "bj", {
+                "tools" : qUnion([acc, qBodyType(qCreatedBy(id + "b", EntityType.BODY),
+                            BodyType.SOLID)]),
+                "operationType" : BooleanOperationType.UNION
+            });
+    for (var s = 0; s < 4; s += 1)
+    {
+        var sx = 1;
+        var sy = 1;
+        if (s == 1 || s == 2)
+        {
+            sx = -1;
+        }
+        if (s >= 2)
+        {
+            sy = -1;
+        }
+        const cid = id + ("c" ~ s);
+        const px = c[0] + sx * (w / 2 - rr);
+        const py = c[1] + sy * (d / 2 - rr);
+        fCylinder(context, cid, {
+                    "topCenter" : vector(px, py, z1),
+                    "bottomCenter" : vector(px, py, z0),
+                    "radius" : rr
+                });
+        opBoolean(context, cid + "j", {
+                    "tools" : qUnion([acc, qBodyType(qCreatedBy(cid, EntityType.BODY),
+                                BodyType.SOLID)]),
+                    "operationType" : BooleanOperationType.UNION
+                });
+    }
+}
+
+function mkSlot(context is Context, id is Id, c is Vector, w is ValueWithUnits,
+                l is ValueWithUnits, z0 is ValueWithUnits, z1 is ValueWithUnits)
+{
+    mkBox(context, id + "a", c, vector(w, l - w), z0, z1);
+    const acc = qBodyType(qCreatedBy(id + "a", EntityType.BODY), BodyType.SOLID);
+    for (var s = 0; s < 2; s += 1)
+    {
+        var sy = 1;
+        if (s == 1)
+        {
+            sy = -1;
+        }
+        const cid = id + ("e" ~ s);
+        fCylinder(context, cid, {
+                    "topCenter" : vector(c[0], c[1] + sy * (l - w) / 2, z1),
+                    "bottomCenter" : vector(c[0], c[1] + sy * (l - w) / 2, z0),
+                    "radius" : w / 2
+                });
+        opBoolean(context, cid + "j", {
+                    "tools" : qUnion([acc, qBodyType(qCreatedBy(cid, EntityType.BODY),
+                                BodyType.SOLID)]),
+                    "operationType" : BooleanOperationType.UNION
+                });
+    }
+}
+
+function cut(context is Context, id is Id, target is Query, toolId is Id)
+{
+    opBoolean(context, id, {
+                "tools" : qBodyType(qCreatedBy(toolId, EntityType.BODY), BodyType.SOLID),
+                "targets" : target,
+                "operationType" : BooleanOperationType.SUBTRACTION
+            });
+}
+
+function join(context is Context, id is Id, a is Query, toolId is Id)
+{
+    opBoolean(context, id, {
+                "tools" : qUnion([a, qBodyType(qCreatedBy(toolId, EntityType.BODY),
+                            BodyType.SOLID)]),
+                "operationType" : BooleanOperationType.UNION
+            });
+}
+
+/** 평면 n·p = d 의 아래쪽(n 반대편) 을 채우는 반공간. 빼면 n·p >= d 가 남는다. */
+function halfSpace(context is Context, id is Id, n is Vector, d is ValueWithUnits)
+{
+    var t = vector(1.0, 0.0, 0.0);
+    if (abs(n[0]) > 0.9)
+    {
+        t = vector(0.0, 1.0, 0.0);
+    }
+    const e1 = normalize(cross(n, t));
+    const sk = newSketchOnPlane(context, id + "sk",
+            { "sketchPlane" : plane(n * d, n, e1) });
+    skRectangle(sk, "r", {
+                "firstCorner" : vector(-BIG, -BIG),
+                "secondCorner" : vector(BIG, BIG)
+            });
+    skSolve(sk);
+    opExtrude(context, id + "ex", {
+                "entities" : qSketchRegion(id + "sk", false),
+                "direction" : -n,
+                "endBound" : BoundingType.BLIND,
+                "endDepth" : BIG
+            });
+}
+
+/** 스케치에 둥근 사각을 그린다 (r4 = mm 숫자 배열). */
+function skRR(sk is Sketch, pfx is string, r4 is array, r is ValueWithUnits)
+{
+    const x0 = r4[0] * millimeter;
+    const x1 = r4[1] * millimeter;
+    const y0 = r4[2] * millimeter;
+    const y1 = r4[3] * millimeter;
+    var rr = r;
+    const hw = (x1 - x0) / 2;
+    const hd = (y1 - y0) / 2;
+    if (rr > hw - 0.5 * millimeter)
+    {
+        rr = hw - 0.5 * millimeter;
+    }
+    if (rr > hd - 0.5 * millimeter)
+    {
+        rr = hd - 0.5 * millimeter;
+    }
+    const k = rr * 0.29289321881;              // r - r/sqrt(2)
+    skLineSegment(sk, pfx ~ "l0", { "start" : vector(x0 + rr, y0),
+                "end" : vector(x1 - rr, y0) });
+    skArc(sk, pfx ~ "a0", { "start" : vector(x1 - rr, y0),
+                "mid" : vector(x1 - k, y0 + k), "end" : vector(x1, y0 + rr) });
+    skLineSegment(sk, pfx ~ "l1", { "start" : vector(x1, y0 + rr),
+                "end" : vector(x1, y1 - rr) });
+    skArc(sk, pfx ~ "a1", { "start" : vector(x1, y1 - rr),
+                "mid" : vector(x1 - k, y1 - k), "end" : vector(x1 - rr, y1) });
+    skLineSegment(sk, pfx ~ "l2", { "start" : vector(x1 - rr, y1),
+                "end" : vector(x0 + rr, y1) });
+    skArc(sk, pfx ~ "a2", { "start" : vector(x0 + rr, y1),
+                "mid" : vector(x0 + k, y1 - k), "end" : vector(x0, y1 - rr) });
+    skLineSegment(sk, pfx ~ "l3", { "start" : vector(x0, y1 - rr),
+                "end" : vector(x0, y0 + rr) });
+    skArc(sk, pfx ~ "a3", { "start" : vector(x0, y0 + rr),
+                "mid" : vector(x0 + k, y0 + k), "end" : vector(x0 + rr, y0) });
+}
+
+/** Z 스테이션 배열을 로프트해 매끈한 솔리드를 만든다. */
+function mkLoft(context is Context, id is Id, profs is array, zs is array,
+                rads is array)
+{
+    var qs = [];
+    for (var i = 0; i < size(profs); i += 1)
+    {
+        const sid = id + ("s" ~ i);
+        const sk = newSketchOnPlane(context, sid, {
+                    "sketchPlane" : plane(vector(0 * millimeter, 0 * millimeter,
+                                zs[i] * millimeter), vector(0, 0, 1), vector(1, 0, 0))
+                });
+        skRR(sk, "p", profs[i], rads[i] * millimeter);
+        skSolve(sk);
+        qs = append(qs, qSketchRegion(sid, false));
+    }
+    opLoft(context, id + "lf", { "profileSubqueries" : qs });
+}
+
+// ---------- 피처 ----------
+
+annotation { "Feature Type Name" : "OneGrip ergonomic wrist shell" }
+export const oneGripErgo = defineFeature(function(context is Context, id is Id,
+        definition is map)
+    precondition
+    {
+        annotation { "Name" : "Stage" }
+        definition.stage is ErgoStage;
+    }
+    {
+        const st = definition.stage;
+        const pclr = getVariable(context, "pocket_clearance2");
+        const ns = getVariable(context, "trace_steps") / millimeter;
+
+        // ---------------- A. ERGONOMIC SHELL ----------------
+        if (st == ErgoStage.SHELL)
+        {
+            const phi = getVariable(context, "wrist_pad_angle");
+            const plen = getVariable(context, "wrist_pad_length") / millimeter;
+            const pwid = getVariable(context, "wrist_pad_width") / millimeter;
+            const prad = getVariable(context, "wrist_pad_radius") / millimeter;
+            const ay = getVariable(context, "wrist_anchor_y") / millimeter;
+            const rake = getVariable(context, "front_rake");
+
+            // ---- 손목 패드 기하 (월드 (u,h) 로 계산) ----
+            const au = ay * UHV[1] + DECK_Z * UHV[2];
+            const ah = ay * UPV[1] + DECK_Z * UPV[2];
+            const fu = au - plen;
+            const fh = ah - plen * tan(phi);
+            const fy = fu * UHV[1] + fh * UPV[1];      // 패드 앞끝 grip Y
+            const fz = fu * UHV[2] + fh * UPV[2];      // 패드 앞끝 grip Z
+
+            // 패드 평면 (grip 좌표) — X 불변
+            const dy = fy - ay;
+            const dz = fz - DECK_Z;
+            const ln = sqrt(dy * dy + dz * dz);
+            const npad = vector(0.0, dz / ln, -dy / ln);
+            const dpad = npad[1] * ay * millimeter + npad[2] * DECK_Z * millimeter;
+
+            // 앞면 평면 (월드에서 rake 만큼 기울어짐, 아래가 앞으로)
+            const nfr = UHV * cos(rake) + UPV * sin(rake);
+            const dfr = (nfr[1] * fy + nfr[2] * fz) * millimeter;
+
+            // 접지 앞끝 grip Y (지면 평면 위, 앞면 평면과의 교선)
+            const gu = fu + tan(rake) * (fh - D_GROUND);
+            const gy = gu * UHV[1] + D_GROUND * UPV[1];
+
+            // ---- 1) 메인 셸 로프트 (연속 곡면) ----
+            mkLoft(context, id + "mn", MAIN_PROF, MAIN_Z, MAIN_R);
+            const hs = qBodyType(qCreatedBy(id + "mn" + "lf", EntityType.BODY),
+                    BodyType.SOLID);
+            mkRound(context, id + "sk", SKIRT, 14 * millimeter,
+                (GROUND_ZMIN - 20) * millimeter, CAR_TOP * millimeter);
+            join(context, id + "skj", hs, id + "sk" + "a");
+            if (ns > 0 && ns <= 1)
+            {
+                return;
+            }
+
+            // ---- 2) 손목 넥 로프트 (앞쪽 지지 구조) ----
+            var fp = [];
+            var fr = [];
+            for (var i = 0; i < size(FRONT_Z); i += 1)
+            {
+                const t = FRONT_T[i];
+                const halfw = pwid / 2 + 8.0 * (1 - t);
+                fp = append(fp, [-halfw, halfw, gy - 40.0, 10.0]);
+                fr = append(fr, prad * 0.55 + 6.0);
+            }
+            mkLoft(context, id + "fn", fp, FRONT_Z, fr);
+            join(context, id + "fnj", hs, id + "fn" + "lf");
+            if (ns > 0 && ns <= 2)
+            {
+                return;
+            }
+
+            // ---- 3) 손목 패드 볼륨 ----
+            mkRound(context, id + "pd", [-pwid / 2, pwid / 2, fy, ay],
+                prad * millimeter, (DECK_Z - 4) * millimeter,
+                (DECK_Z + 60) * millimeter);
+            // 패드 평면 절단은 **패드 본체에만** 적용한다.
+            // 셸 전체에 걸면 +Y 쪽에서 평면이 덱보다 20.8mm 아래로 내려가
+            // 20도 기준면 상부를 통째로 잘라낸다 (실측 확인).
+            halfSpace(context, id + "pp", -npad, -dpad);
+            cut(context, id + "ppc",
+                qBodyType(qCreatedBy(id + "pd" + "a", EntityType.BODY), BodyType.SOLID),
+                id + "pp" + "ex");
+            join(context, id + "pdj", hs, id + "pd" + "a");
+            if (ns > 0 && ns <= 3)
+            {
+                return;
+            }
+
+            // ---- 4) 평면 절단: 패드 상면 / 앞면 / 지면 / 무릎 ----
+            halfSpace(context, id + "ff", nfr, dfr);
+            cut(context, id + "ffc", hs, id + "ff" + "ex");
+            halfSpace(context, id + "g", UPV, D_GROUND * millimeter);
+            cut(context, id + "gc", hs, id + "g" + "ex");
+            const kth = getVariable(context, "knee_angle");
+            if (kth > 1 * degree)
+            {
+                const ky = getVariable(context, "knee_y");
+                const nk = -sin(kth) * UHV + cos(kth) * UPV;
+                const zk = (D_GROUND * millimeter - UPV[1] * ky) / UPV[2];
+                const dk = dot(vector(0 * millimeter, ky, zk), nk);
+                halfSpace(context, id + "k", nk, dk);
+                cut(context, id + "kc", hs, id + "k" + "ex");
+            }
+            if (ns > 0 && ns <= 4)
+            {
+                return;
+            }
+
+            // ---- 4b) 손목 넥/패드 중공화 (아래로 열린 셸) ----
+            //     통짜로 두면 넥만 400 cm3 를 넘는다. 바닥을 막지 않아야
+            //     내부 서포트 없이 인쇄된다.
+            var hp = [];
+            var hr = [];
+            for (var i = 0; i < size(FRONT_Z); i += 1)
+            {
+                const t = FRONT_T[i];
+                const halfw = pwid / 2 + 8.0 * (1 - t) - WALL_T;
+                hp = append(hp, [-halfw, halfw, gy - 40.0, -45.0]);
+                hr = append(hr, prad * 0.55 + 6.0 - WALL_T);
+            }
+            mkLoft(context, id + "hl", hp, FRONT_Z, hr);
+            const hq = qBodyType(qCreatedBy(id + "hl" + "lf", EntityType.BODY),
+                    BodyType.SOLID);
+            // 패드 평면 아래만 남긴다.  halfSpace(n,d) 를 빼면 n·p >= d 가 남으므로
+            // "아래를 남기려면" 부호를 뒤집어야 한다 (이 부호를 틀려서 중공이 21mm3 만 깎였다)
+            halfSpace(context, id + "hp", -npad, -(dpad - PAD_T * millimeter));
+            cut(context, id + "hpc", hq, id + "hp" + "ex");
+            halfSpace(context, id + "hf", nfr, dfr + WALL_T * millimeter);
+            cut(context, id + "hfc", hq, id + "hf" + "ex");
+            cut(context, id + "hlc", hs, id + "hl" + "lf");
+            if (ns > 0 && ns <= 45)
+            {
+                return;
+            }
+
+            // ---- 5) 공동 + 캐리어 개구 + USB (하나로 합쳐 한 번에 절삭) ----
+            mkRound(context, id + "cav0", CAV[0], 6 * millimeter,
+                (CAV_Z[0] - 2) * millimeter, CAV_Z[1] * millimeter);
+            const cq = qBodyType(qCreatedBy(id + "cav0" + "a", EntityType.BODY),
+                    BodyType.SOLID);
+            for (var i = 1; i < size(CAV); i += 1)
+            {
+                const cid = id + ("cav" ~ i);
+                var ztop = CAV_Z[i + 1] * millimeter;
+                if (i == size(CAV) - 1)
+                {
+                    ztop = (CAV_Z[i + 1] + 80) * millimeter;
+                }
+                mkRound(context, cid, CAV[i], 6 * millimeter,
+                    (CAV_Z[i] - 0.02) * millimeter, ztop);
+                join(context, cid + "j", cq, cid + "a");
+            }
+            mkRound(context, id + "tcav", TAIL_CAV, 5 * millimeter,
+                (TAIL_CAV_Z[0] - 2) * millimeter, TAIL_CAV_Z[1] * millimeter);
+            join(context, id + "tcavj", cq, id + "tcav" + "a");
+            mkRound(context, id + "co", CAR_OPEN, 8 * millimeter,
+                (GROUND_ZMIN - 30) * millimeter, CAR_TOP * millimeter);
+            join(context, id + "coj", cq, id + "co" + "a");
+            mkRound(context, id + "tco", TAIL_CAR_OPEN, 6 * millimeter,
+                (GROUND_ZMIN - 30) * millimeter, TAIL_CAV_Z[0] * millimeter);
+            join(context, id + "tcoj", cq, id + "tco" + "a");
+            // USB: 커넥터 앞 플러그 공간 + 측면(-X) 인출
+            mkRound(context, id + "ua", USB_A, 4 * millimeter,
+                USB_Z0 * millimeter, USB_Z1 * millimeter);
+            join(context, id + "uaj", cq, id + "ua" + "a");
+            mkRound(context, id + "ub", USB_B, 4 * millimeter,
+                USB_Z0 * millimeter, USB_Z1 * millimeter);
+            join(context, id + "ubj", cq, id + "ub" + "a");
+            cut(context, id + "cavc", hs, id + "cav0" + "a");
+            if (ns > 0 && ns <= 5)
+            {
+                return;
+            }
+
+            // ---- 6) M3 인서트 ----
+            for (var s = 0; s < size(SCREWS); s += 1)
+            {
+                const iid = id + ("ins" ~ s);
+                const px = SCREWS[s][0] * millimeter;
+                const py = SCREWS[s][1] * millimeter;
+                fCylinder(context, iid, {
+                            "topCenter" : vector(px, py,
+                                (CAR_TOP + INSERT_L) * millimeter),
+                            "bottomCenter" : vector(px, py, (CAR_TOP - 1) * millimeter),
+                            "radius" : INSERT_D / 2 * millimeter
+                        });
+                cut(context, iid + "c", hs, iid);
+            }
+            if (ns > 0 && ns <= 6)
+            {
+                return;
+            }
+
+            // ---- 7) 손목 접촉부 모서리 라운드 ----
+            //    패드 주변 구 영역의 모서리만 잡는다. 반경은 변수로 두어
+            //    실패 시 낮출 수 있게 한다 (필렛은 얇은 벽에서 잘 깨진다).
+            const fil = getVariable(context, "edge_fillet");
+            if (fil > 0.05 * millimeter)
+            {
+                // 구 영역 전체 모서리를 잡으면 내부 얇은 벽까지 걸려 어떤 반경에서도
+                // 실패한다 (6/4/3/2/1.5/1 mm 전부 실패 확인).
+                // -> 패드 **상면에 접한 둘레 모서리만** 잡는다.
+                const padC = vector(0 * millimeter, (fy + ay) / 2 * millimeter,
+                        (fz + DECK_Z) / 2 * millimeter);
+                const padFace = qContainsPoint(qOwnedByBody(hs, EntityType.FACE), padC);
+                const el = evaluateQuery(context,
+                        qEdgeAdjacent(padFace, EntityType.EDGE, EntityType.EDGE));
+                // 8개 모서리를 한 번에 걸면 FILLET_FAILED 로 전부 죽는다.
+                // 개별 try 로 돌려서 되는 것만 라운드한다 (앞면/양측면은 성공,
+                // 코너 호와 앵커 크리즈는 실패 — 실측 확인).
+                for (var i = 0; i < size(el); i += 1)
+                {
+                    try silent
+                    {
+                        opFillet(context, id + ("fil" ~ i),
+                            { "entities" : el[i], "radius" : fil });
+                    }
+                }
+            }
+            return;
+        }
+
+        // ---------------- B. BOTTOM CARRIER (코어와 동일, 무수정) ----------------
+        if (st == ErgoStage.CARRIER)
+        {
+            mkRound(context, id + "p", CARRIER, 8 * millimeter,
+                CAR_BOT * millimeter, CAR_TOP * millimeter);
+            const car = qBodyType(qCreatedBy(id + "p" + "a", EntityType.BODY),
+                    BodyType.SOLID);
+            mkBox(context, id + "pk", vector(CX * millimeter, CY * millimeter),
+                vector((BODY_W + 2 * pclr / millimeter) * millimeter,
+                    (BODY_D + 2 * pclr / millimeter) * millimeter),
+                BASE_BOT * millimeter, (CAR_TOP + 1) * millimeter);
+            cut(context, id + "pkc", car, id + "pk");
+            mkBox(context, id + "tl", vector(TAIL_CX * millimeter, -BIG / 2),
+                vector((TAIL_W0 + 2 * pclr / millimeter) * millimeter, BIG),
+                (CAR_BOT - 1) * millimeter, (CAR_TOP + 1) * millimeter);
+            cut(context, id + "tlc", car, id + "tl");
+            for (var s = 0; s < 2; s += 1)
+            {
+                var cy = C1_Y;
+                if (s == 1)
+                {
+                    cy = C2_Y;
+                }
+                const sid = id + ("cs" ~ s);
+                mkSlot(context, sid, vector(C_X * millimeter, cy * millimeter),
+                    M3_CLR * millimeter, C_SLOT_L * millimeter,
+                    (CAR_BOT - 1) * millimeter, (BASE_BOT + 1) * millimeter);
+                cut(context, sid + "c", car, sid + "a");
+                const bid = id + ("cb" ~ s);
+                mkSlot(context, bid, vector(C_X * millimeter, cy * millimeter),
+                    M3_CB * millimeter, (C_SLOT_L + M3_CB - M3_CLR) * millimeter,
+                    (CAR_BOT - 1) * millimeter, (CAR_BOT + CB_D) * millimeter);
+                cut(context, bid + "c", car, bid + "a");
+            }
+            for (var s = 0; s < size(SCREWS); s += 1)
+            {
+                const px = SCREWS[s][0] * millimeter;
+                const py = SCREWS[s][1] * millimeter;
+                const hid = id + ("hs" ~ s);
+                fCylinder(context, hid, {
+                            "topCenter" : vector(px, py, (CAR_TOP + 1) * millimeter),
+                            "bottomCenter" : vector(px, py, (CAR_BOT - 1) * millimeter),
+                            "radius" : M3_CLR / 2 * millimeter
+                        });
+                cut(context, hid + "c", car, hid);
+                const gid = id + ("hb" ~ s);
+                fCylinder(context, gid, {
+                            "topCenter" : vector(px, py, (CAR_BOT + CB_D) * millimeter),
+                            "bottomCenter" : vector(px, py, (CAR_BOT - 1) * millimeter),
+                            "radius" : M3_CB / 2 * millimeter
+                        });
+                cut(context, gid + "c", car, gid);
+            }
+            return;
+        }
+    });

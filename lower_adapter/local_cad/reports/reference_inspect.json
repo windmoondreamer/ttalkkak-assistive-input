@@ -1,0 +1,122 @@
+[
+ {
+  "key": "stock_gimbal",
+  "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\reference\\STOCK_GIMBAL_REFERENCE.step",
+  "describe": {
+   "name": "STOCK_GIMBAL_REFERENCE.step",
+   "solids": 7,
+   "bbox_min": [
+    -50.00000000000001,
+    -23.363999883286603,
+    -28.599600694806103
+   ],
+   "bbox_max": [
+    50.00000000000002,
+    119.636000116713,
+    61.5996006948061
+   ],
+   "size": [
+    100.00000000000003,
+    142.9999999999996,
+    90.1992013896122
+   ],
+   "volume": 228346.2159052518,
+   "center": [
+    -0.08032813594328803,
+    30.181097286901156,
+    -4.30357424980775
+   ]
+  },
+  "roundtrip_ok": true,
+  "roundtrip": {
+   "solid_match": true,
+   "bbox_delta_mm": 6.59383658785373e-12,
+   "volume_rel_delta": 1.529474396527849e-09,
+   "tol_bbox_mm": 1e-06,
+   "tol_volume_rel": 1e-06,
+   "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\step\\STOCK_GIMBAL_REFERENCE_ROUNDTRIP.step",
+   "flattened": false
+  },
+  "solid_count": 7
+ },
+ {
+  "key": "conformal_core",
+  "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\reference\\CONFORMAL_CORE_REFERENCE.step",
+  "describe": {
+   "name": "CONFORMAL_CORE_REFERENCE.step",
+   "solids": 2,
+   "bbox_min": [
+    -64.3,
+    -79.3,
+    -188.87290125937756
+   ],
+   "bbox_max": [
+    64.3,
+    91.30000000000001,
+    -61.8785
+   ],
+   "size": [
+    128.6,
+    170.60000000000002,
+    126.99440125937755
+   ],
+   "volume": 585793.4692228714,
+   "center": [
+    0.4267685451693414,
+    21.851900906525138,
+    -123.10682059373886
+   ]
+  },
+  "roundtrip_ok": true,
+  "roundtrip": {
+   "solid_match": true,
+   "bbox_delta_mm": 1.9952040020143613e-11,
+   "volume_rel_delta": 5.763198994792237e-15,
+   "tol_bbox_mm": 1e-06,
+   "tol_volume_rel": 1e-06,
+   "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\step\\CONFORMAL_CORE_REFERENCE_ROUNDTRIP.step",
+   "flattened": false
+  },
+  "solid_count": 2
+ },
+ {
+  "key": "assembly",
+  "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+  "describe": {
+   "name": "ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+   "solids": 172,
+   "bbox_min": [
+    -49.77843562015706,
+    -58.53218566234923,
+    -9.83626369072675e-15
+   ],
+   "bbox_max": [
+    50.22156437984297,
+    85.72683587615121,
+    234.57214341906845
+   ],
+   "size": [
+    100.00000000000003,
+    144.25902153850043,
+    234.57214341906845
+   ],
+   "volume": 346410.90406975785,
+   "center": [
+    0.7340721290170701,
+    -0.6559543170566258,
+    65.60665196770118
+   ]
+  },
+  "roundtrip_ok": true,
+  "roundtrip": {
+   "solid_match": true,
+   "bbox_delta_mm": 6.0005334034940485e-12,
+   "volume_rel_delta": 4.961761126480601e-07,
+   "tol_bbox_mm": 1e-06,
+   "tol_volume_rel": 1e-06,
+   "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\step\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE_ROUNDTRIP.step",
+   "flattened": true
+  },
+  "solid_count": 172
+ }
+]

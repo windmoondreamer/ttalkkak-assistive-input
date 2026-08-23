@@ -1,0 +1,40 @@
+{
+ "F1": {
+  "solids": 1,
+  "shells": 1,
+  "faces": 428,
+  "edges": 165939,
+  "valid": true,
+  "volume_mm3": 732081.2860041456,
+  "bbox": [
+   133.6,
+   227.4551,
+   146.0911
+  ],
+  "tri": 110626,
+  "degenerate_tri": 0,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "watertight": true,
+  "defects": []
+ },
+ "F0": {
+  "solids": 1,
+  "shells": 1,
+  "faces": 409,
+  "edges": 101703,
+  "valid": true,
+  "volume_mm3": 732223.7555100287,
+  "bbox": [
+   133.6,
+   227.6362,
+   146.0911
+  ],
+  "tri": 67802,
+  "degenerate_tri": 0,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "watertight": true,
+  "defects": []
+ }
+}

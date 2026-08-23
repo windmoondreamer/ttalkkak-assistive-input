@@ -1,0 +1,28 @@
+{
+ "v4": 947875.7535052402,
+ "main": 852170.5688964317,
+ "armrest": 153747.0755651671,
+ "assembled": 1005917.6444615988,
+ "assembled_solids": 2,
+ "joint_zone_y": [
+  -148.0,
+  -104.0
+ ],
+ "zones": {
+  "OUTSIDE joint": {
+   "only_v4_pts": 0,
+   "only_asm_pts": 0,
+   "both_pts": 6835,
+   "only_v4_mm3": 0.0,
+   "only_asm_mm3": 0.0
+  },
+  "INSIDE joint": {
+   "only_v4_pts": 6,
+   "only_asm_pts": 462,
+   "both_pts": 460,
+   "only_v4_mm3": 755.379126634962,
+   "only_asm_mm3": 58164.19275089207
+  }
+ },
+ "outside_pass": true
+}

@@ -1,0 +1,1378 @@
+{
+ "Button_corner_2 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_corner_2 <1>",
+  "base": "Button_corner_2",
+  "partId": "RBED",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <2>": {
+  "rel_deg": 123.03311170784175,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <2>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "PushBtn <3>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <3>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "Button_middle_1 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_middle_1 <1>",
+  "base": "Button_middle_1",
+  "partId": "RDED",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "PushBtn <4>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <4>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "HW504_B <2>": {
+  "rel_deg": 132.35043886437987,
+  "name": "HW504_B <2>",
+  "base": "HW504_B",
+  "partId": "JFD",
+  "elementId": "337546c7fda09e705fa1a056",
+  "frame": "GRIP"
+ },
+ "PushBtn <6>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <6>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "Button_corner_1 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_corner_1 <1>",
+  "base": "Button_corner_1",
+  "partId": "RAEL",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "PushBtn <2>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <2>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "Joystick_1 <1>": {
+  "rel_deg": 179.97795196943684,
+  "name": "Joystick_1 <1>",
+  "base": "Joystick_1",
+  "partId": "JaD",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "Button_wide_2 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_wide_2 <1>",
+  "base": "Button_wide_2",
+  "partId": "RBEL",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "Button_side_1 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_side_1 <1>",
+  "base": "Button_side_1",
+  "partId": "RAEH",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "HW504_B <1>": {
+  "rel_deg": 132.35043886437998,
+  "name": "HW504_B <1>",
+  "base": "HW504_B",
+  "partId": "JFH",
+  "elementId": "337546c7fda09e705fa1a056",
+  "frame": "GRIP"
+ },
+ "Button_side_2 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_side_2 <1>",
+  "base": "Button_side_2",
+  "partId": "RBEH",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "PushBtn <7>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <7>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "Button_wide_1 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_wide_1 <1>",
+  "base": "Button_wide_1",
+  "partId": "RAED",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "PushBtn <8>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <8>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "Button_middle_2 <1>": {
+  "rel_deg": 179.98178071772423,
+  "name": "Button_middle_2 <1>",
+  "base": "Button_middle_2",
+  "partId": "RDEH",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "Joystick_2 <1>": {
+  "rel_deg": 179.97795196960215,
+  "name": "Joystick_2 <1>",
+  "base": "Joystick_2",
+  "partId": "JfD",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "PushBtn <1>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <1>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "Small_joystick_attachment <1>": {
+  "rel_deg": 179.8874990659713,
+  "name": "Small_joystick_attachment <1>",
+  "base": "Small_joystick_attachment",
+  "partId": "RHED",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <3>": {
+  "rel_deg": 123.03311170784175,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <3>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Backplate <1>": {
+  "rel_deg": 179.98178072014477,
+  "name": "Backplate <1>",
+  "base": "Backplate",
+  "partId": "RYDD",
+  "elementId": "425d9199b59cfb1efd9ddc35",
+  "frame": "GRIP"
+ },
+ "PushBtn <5>": {
+  "rel_deg": 179.81568876124643,
+  "name": "PushBtn <5>",
+  "base": "PushBtn",
+  "partId": "JFD",
+  "elementId": "25ccab7ce6c1fdd4e74ccc0e",
+  "frame": "GRIP"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <6>": {
+  "rel_deg": 123.03311170784175,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <6>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Roll_holder <1>": {
+  "rel_deg": 0.0,
+  "name": "Roll_holder <1>",
+  "base": "Roll_holder",
+  "partId": "JJD",
+  "elementId": "df9a32f1f239bc71a732f5d3",
+  "frame": "BASE"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <4>": {
+  "rel_deg": 45.95801439996714,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <4>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Hex socket head cap screw M5x0.80 x 12 <4>": {
+  "rel_deg": 94.05625075301542,
+  "name": "Hex socket head cap screw M5x0.80 x 12 <4>",
+  "base": "Hex socket head cap screw M5x0.80 x 12",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Hex socket head cap screw M5x0.80 x 12 <1>": {
+  "rel_deg": 119.86040206336432,
+  "name": "Hex socket head cap screw M5x0.80 x 12 <1>",
+  "base": "Hex socket head cap screw M5x0.80 x 12",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Base <1>": {
+  "rel_deg": 0.0,
+  "name": "Base <1>",
+  "base": "Base",
+  "partId": "RYBD",
+  "elementId": "df9a32f1f239bc71a732f5d3",
+  "frame": "BASE"
+ },
+ "Roll <1>": {
+  "rel_deg": 0.4523203098094772,
+  "name": "Roll <1>",
+  "base": "Roll",
+  "partId": "JaD",
+  "elementId": "df9a32f1f239bc71a732f5d3",
+  "frame": "ROLL"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <1>": {
+  "rel_deg": 180.0,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <1>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Spacer <1>": {
+  "rel_deg": 180.0,
+  "name": "Spacer <1>",
+  "base": "Spacer",
+  "partId": "ROCD",
+  "elementId": "df9a32f1f239bc71a732f5d3",
+  "frame": "BASE"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <2>#2": {
+  "rel_deg": 180.0,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <2>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Hex socket head cap screw M5x0.80 x 12 <3>": {
+  "rel_deg": 179.9999973001307,
+  "name": "Hex socket head cap screw M5x0.80 x 12 <3>",
+  "base": "Hex socket head cap screw M5x0.80 x 12",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Hex socket head cap screw M5x0.80 x 12 <2>": {
+  "rel_deg": 119.73919725630007,
+  "name": "Hex socket head cap screw M5x0.80 x 12 <2>",
+  "base": "Hex socket head cap screw M5x0.80 x 12",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Magnet <1>": {
+  "rel_deg": 110.19851445085324,
+  "name": "Magnet <1>",
+  "base": "Magnet",
+  "partId": "JHD",
+  "elementId": "dbde1957910f936fb160611b",
+  "frame": "GRIP"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <5>": {
+  "rel_deg": 45.958014399967304,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <5>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <6>#2": {
+  "rel_deg": 45.958014399967375,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <6>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Roll_holder_2 <1>": {
+  "rel_deg": 0.0,
+  "name": "Roll_holder_2 <1>",
+  "base": "Roll_holder_2",
+  "partId": "RKCD",
+  "elementId": "df9a32f1f239bc71a732f5d3",
+  "frame": "BASE"
+ },
+ "Spring_holder <1>": {
+  "rel_deg": 5.606174710837815,
+  "name": "Spring_holder <1>",
+  "base": "Spring_holder",
+  "partId": "RRBD",
+  "elementId": "df9a32f1f239bc71a732f5d3",
+  "frame": "GRIP"
+ },
+ "Magnet <4>": {
+  "rel_deg": 69.8033879386903,
+  "name": "Magnet <4>",
+  "base": "Magnet",
+  "partId": "JHD",
+  "elementId": "dbde1957910f936fb160611b",
+  "frame": "GRIP"
+ },
+ "Hex socket head cap screw M3x0.50 x 16 <3>#2": {
+  "rel_deg": 45.95801439996574,
+  "name": "Hex socket head cap screw M3x0.50 x 16 <3>",
+  "base": "Hex socket head cap screw M3x0.50 x 16",
+  "partId": "JHD",
+  "elementId": "5b44a050e0b24df3e47c76dc",
+  "frame": "UNKNOWN"
+ },
+ "Magnet <3>": {
+  "rel_deg": 132.55758934824274,
+  "name": "Magnet <3>",
+  "base": "Magnet",
+  "partId": "JHD",
+  "elementId": "dbde1957910f936fb160611b",
+  "frame": "GRIP"
+ },
+ "Magnet <2>": {
+  "rel_deg": 131.98391749307075,
+  "name": "Magnet <2>",
+  "base": "Magnet",
+  "partId": "JHD",
+  "elementId": "dbde1957910f936fb160611b",
+  "frame": "GRIP"
+ },
+ "Pitch <1>": {
+  "rel_deg": 5.606174710838987,
+  "name": "Pitch <1>",
+  "base": "Pitch",
+  "partId": "JmD",
+  "elementId": "df9a32f1f239bc71a732f5d3",
+  "frame": "GRIP"
+ },
+ "micro board <1>": {
+  "rel_deg": 119.99999999999989,
+  "name": "micro board <1>",
+  "base": "micro board",
+  "partId": "KFnB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 102 <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 102 <1>",
+  "base": "MICRO_603 resistor 102",
+  "partId": "JF3",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 cap on pad <1>": {
+  "rel_deg": 180.0,
+  "name": "MICRO_603 cap on pad <1>",
+  "base": "MICRO_603 cap on pad",
+  "partId": "JFP",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 103 <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 103 <1>",
+  "base": "MICRO_603 resistor 103",
+  "partId": "KFHB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <2>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <2>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFX",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 cap on pad <7>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 cap on pad <7>",
+  "base": "MICRO_603 cap on pad",
+  "partId": "JFP",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_led <6>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_led <6>",
+  "base": "MICRO_led",
+  "partId": "JFH",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <6>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <6>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFr",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <2>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <2>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFr",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 cap on pad <2>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 cap on pad <2>",
+  "base": "MICRO_603 cap on pad",
+  "partId": "JFP",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_led <4>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_led <4>",
+  "base": "MICRO_led",
+  "partId": "JFH",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 cap on pad <4>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 cap on pad <4>",
+  "base": "MICRO_603 cap on pad",
+  "partId": "JFP",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 cap on pad <5>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 cap on pad <5>",
+  "base": "MICRO_603 cap on pad",
+  "partId": "JFP",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 103 <2>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 103 <2>",
+  "base": "MICRO_603 resistor 103",
+  "partId": "KFLB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <3>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <3>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFv",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <1>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <1>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFT",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <7>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <7>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFb",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <4>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <4>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFz",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 103 <3>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 103 <3>",
+  "base": "MICRO_603 resistor 103",
+  "partId": "KFPB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 cap on pad <3>": {
+  "rel_deg": 180.0,
+  "name": "MICRO_603 cap on pad <3>",
+  "base": "MICRO_603 cap on pad",
+  "partId": "JFP",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <6>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <6>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFX",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <5>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <5>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFT",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <8>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <8>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFf",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "SOD 323 <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "SOD 323 <1>",
+  "base": "SOD 323",
+  "partId": "JFL",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro_crystal 5x3 <1>": {
+  "rel_deg": 180.0,
+  "name": "micro_crystal 5x3 <1>",
+  "base": "micro_crystal 5x3",
+  "partId": "KFbB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 cap on pad <6>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 cap on pad <6>",
+  "base": "MICRO_603 cap on pad",
+  "partId": "JFP",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_cap106C <2>": {
+  "rel_deg": 180.0,
+  "name": "MICRO_cap106C <2>",
+  "base": "MICRO_cap106C",
+  "partId": "KFfB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_led <2>": {
+  "rel_deg": 180.0,
+  "name": "MICRO_led <2>",
+  "base": "MICRO_led",
+  "partId": "JFH",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_led <1>": {
+  "rel_deg": 180.0,
+  "name": "MICRO_led <1>",
+  "base": "MICRO_led",
+  "partId": "JFD",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_cap106C <1>": {
+  "rel_deg": 180.0,
+  "name": "MICRO_cap106C <1>",
+  "base": "MICRO_cap106C",
+  "partId": "KFfB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_led <5>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_led <5>",
+  "base": "MICRO_led",
+  "partId": "JFD",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 102 <3>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 102 <3>",
+  "base": "MICRO_603 resistor 102",
+  "partId": "JF/",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_PTC-1206 <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_PTC-1206 <1>",
+  "base": "MICRO_PTC-1206",
+  "partId": "JFj",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_led <3>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_led <3>",
+  "base": "MICRO_led",
+  "partId": "JFD",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <5>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <5>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFn",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 102 <4>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 102 <4>",
+  "base": "MICRO_603 resistor 102",
+  "partId": "KFDB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <7>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <7>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFv",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 103 <4>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 103 <4>",
+  "base": "MICRO_603 resistor 103",
+  "partId": "KFTB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <3>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <3>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFb",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <1>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFn",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "atmega32U4 <1>": {
+  "rel_deg": 98.42105811814912,
+  "name": "atmega32U4 <1>",
+  "base": "atmega32U4",
+  "partId": "KFjB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 331 <4>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_603 resistor 331 <4>",
+  "base": "MICRO_603 resistor 331",
+  "partId": "JFf",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 22 <8>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 22 <8>",
+  "base": "MICRO_603 resistor 22",
+  "partId": "JFz",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_603 resistor 102 <2>": {
+  "rel_deg": 89.9999999999999,
+  "name": "MICRO_603 resistor 102 <2>",
+  "base": "MICRO_603 resistor 102",
+  "partId": "JF7",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro_MIC5219 <1>": {
+  "rel_deg": 120.00000000000007,
+  "name": "micro_MIC5219 <1>",
+  "base": "micro_MIC5219",
+  "partId": "KFXB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "Ball_6 <6>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_6 <6>",
+  "base": "Ball_6",
+  "partId": "JFX",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_3 <3>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_3 <3>",
+  "base": "Ball_3",
+  "partId": "JFL",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Inner_racing <10>": {
+  "rel_deg": 179.68016165698228,
+  "name": "Inner_racing <10>",
+  "base": "Inner_racing",
+  "partId": "JFn",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_4 <4>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_4 <4>",
+  "base": "Ball_4",
+  "partId": "JFP",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_1 <1>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_1 <1>",
+  "base": "Ball_1",
+  "partId": "JFD",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_5 <5>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_5 <5>",
+  "base": "Ball_5",
+  "partId": "JFT",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Outer_racing <9>": {
+  "rel_deg": 179.66495147997017,
+  "name": "Outer_racing <9>",
+  "base": "Outer_racing",
+  "partId": "JFj",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_7 <7>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_7 <7>",
+  "base": "Ball_7",
+  "partId": "JFb",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_2 <2>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_2 <2>",
+  "base": "Ball_2",
+  "partId": "JFH",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_8 <8>": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_8 <8>",
+  "base": "Ball_8",
+  "partId": "JFf",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_6 <6>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_6 <6>",
+  "base": "Ball_6",
+  "partId": "JFX",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_3 <3>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_3 <3>",
+  "base": "Ball_3",
+  "partId": "JFL",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Inner_racing <10>#2": {
+  "rel_deg": 179.77095305506685,
+  "name": "Inner_racing <10>",
+  "base": "Inner_racing",
+  "partId": "JFn",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_4 <4>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_4 <4>",
+  "base": "Ball_4",
+  "partId": "JFP",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_1 <1>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_1 <1>",
+  "base": "Ball_1",
+  "partId": "JFD",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_5 <5>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_5 <5>",
+  "base": "Ball_5",
+  "partId": "JFT",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Outer_racing <9>#2": {
+  "rel_deg": 179.66495147997017,
+  "name": "Outer_racing <9>",
+  "base": "Outer_racing",
+  "partId": "JFj",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_7 <7>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_7 <7>",
+  "base": "Ball_7",
+  "partId": "JFb",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_2 <2>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_2 <2>",
+  "base": "Ball_2",
+  "partId": "JFH",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_8 <8>#2": {
+  "rel_deg": 179.97795196940376,
+  "name": "Ball_8 <8>",
+  "base": "Ball_8",
+  "partId": "JFf",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Part 4 <1>": {
+  "rel_deg": 120.00000000000004,
+  "name": "Part 4 <1>",
+  "base": "Part 4",
+  "partId": "JKL",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "Part 3 <1>": {
+  "rel_deg": 120.00000000000004,
+  "name": "Part 3 <1>",
+  "base": "Part 3",
+  "partId": "JKH",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "Part 1 <1>": {
+  "rel_deg": 120.00000000000004,
+  "name": "Part 1 <1>",
+  "base": "Part 1",
+  "partId": "JHD",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "Part 2 <1>": {
+  "rel_deg": 120.00000000000004,
+  "name": "Part 2 <1>",
+  "base": "Part 2",
+  "partId": "JKD",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "Ball_6 <6>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_6 <6>",
+  "base": "Ball_6",
+  "partId": "JFX",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_3 <3>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_3 <3>",
+  "base": "Ball_3",
+  "partId": "JFL",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Inner_racing <10>#3": {
+  "rel_deg": 119.86040206336416,
+  "name": "Inner_racing <10>",
+  "base": "Inner_racing",
+  "partId": "JFn",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_4 <4>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_4 <4>",
+  "base": "Ball_4",
+  "partId": "JFP",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_1 <1>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_1 <1>",
+  "base": "Ball_1",
+  "partId": "JFD",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_5 <5>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_5 <5>",
+  "base": "Ball_5",
+  "partId": "JFT",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Outer_racing <9>#3": {
+  "rel_deg": 119.99999999999937,
+  "name": "Outer_racing <9>",
+  "base": "Outer_racing",
+  "partId": "JFj",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_7 <7>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_7 <7>",
+  "base": "Ball_7",
+  "partId": "JFb",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_2 <2>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_2 <2>",
+  "base": "Ball_2",
+  "partId": "JFH",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_8 <8>#3": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_8 <8>",
+  "base": "Ball_8",
+  "partId": "JFf",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_6 <6>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_6 <6>",
+  "base": "Ball_6",
+  "partId": "JFX",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_3 <3>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_3 <3>",
+  "base": "Ball_3",
+  "partId": "JFL",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Inner_racing <10>#4": {
+  "rel_deg": 120.26148995321887,
+  "name": "Inner_racing <10>",
+  "base": "Inner_racing",
+  "partId": "JFn",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_4 <4>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_4 <4>",
+  "base": "Ball_4",
+  "partId": "JFP",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_1 <1>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_1 <1>",
+  "base": "Ball_1",
+  "partId": "JFD",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_5 <5>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_5 <5>",
+  "base": "Ball_5",
+  "partId": "JFT",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Outer_racing <9>#4": {
+  "rel_deg": 119.99999999999966,
+  "name": "Outer_racing <9>",
+  "base": "Outer_racing",
+  "partId": "JFj",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_7 <7>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_7 <7>",
+  "base": "Ball_7",
+  "partId": "JFb",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_2 <2>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_2 <2>",
+  "base": "Ball_2",
+  "partId": "JFH",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Ball_8 <8>#4": {
+  "rel_deg": 89.99999999999974,
+  "name": "Ball_8 <8>",
+  "base": "Ball_8",
+  "partId": "JFf",
+  "elementId": "f74b8d5333cca68cca117a86",
+  "frame": "UNKNOWN"
+ },
+ "Part 4 <1>#2": {
+  "rel_deg": 90.58738696604912,
+  "name": "Part 4 <1>",
+  "base": "Part 4",
+  "partId": "JKL",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "Part 3 <1>#2": {
+  "rel_deg": 90.58738696604912,
+  "name": "Part 3 <1>",
+  "base": "Part 3",
+  "partId": "JKH",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "Part 1 <1>#2": {
+  "rel_deg": 90.58738696604912,
+  "name": "Part 1 <1>",
+  "base": "Part 1",
+  "partId": "JHD",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "Part 2 <1>#2": {
+  "rel_deg": 90.58738696604912,
+  "name": "Part 2 <1>",
+  "base": "Part 2",
+  "partId": "JKD",
+  "elementId": "552758700844c59c605e549e",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <7>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <7>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header 12 <1>": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_stackable header 12 <1>",
+  "base": "MICRO_stackable header 12",
+  "partId": "KFvB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <1>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <1>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <8>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <8>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <4>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <4>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <11>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <11>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <9>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <9>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <3>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <3>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <5>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <5>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <2>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <2>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <12>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <12>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <10>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <10>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <6>": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <6>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro usb contact <5>": {
+  "rel_deg": 89.9999999999999,
+  "name": "micro usb contact <5>",
+  "base": "micro usb contact",
+  "partId": "KFzB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro usb shell <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "micro usb shell <1>",
+  "base": "micro usb shell",
+  "partId": "KF7B",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro usb contact <3>": {
+  "rel_deg": 89.9999999999999,
+  "name": "micro usb contact <3>",
+  "base": "micro usb contact",
+  "partId": "KFzB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro usb internal <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "micro usb internal <1>",
+  "base": "micro usb internal",
+  "partId": "KF3B",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro usb contact <2>": {
+  "rel_deg": 89.9999999999999,
+  "name": "micro usb contact <2>",
+  "base": "micro usb contact",
+  "partId": "KFzB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro usb contact <4>": {
+  "rel_deg": 89.9999999999999,
+  "name": "micro usb contact <4>",
+  "base": "micro usb contact",
+  "partId": "KFzB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "micro usb contact <1>": {
+  "rel_deg": 89.9999999999999,
+  "name": "micro usb contact <1>",
+  "base": "micro usb contact",
+  "partId": "KFzB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <1>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <1>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <11>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <11>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <10>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <10>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <5>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <5>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <3>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <3>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <12>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <12>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <7>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <7>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <2>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <2>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <9>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <9>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <6>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <6>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <4>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <4>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header 12 <1>#2": {
+  "rel_deg": 119.99999999999989,
+  "name": "MICRO_stackable header 12 <1>",
+  "base": "MICRO_stackable header 12",
+  "partId": "KFvB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ },
+ "MICRO_stackable header pin <8>#2": {
+  "rel_deg": 119.91203507268504,
+  "name": "MICRO_stackable header pin <8>",
+  "base": "MICRO_stackable header pin",
+  "partId": "KFrB",
+  "elementId": "f018a101ec0b6d10a6dcb0dc",
+  "frame": "GRIP"
+ }
+}

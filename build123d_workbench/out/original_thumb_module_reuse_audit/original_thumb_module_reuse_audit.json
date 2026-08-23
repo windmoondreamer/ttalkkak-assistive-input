@@ -1,0 +1,3437 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-22T12:00:37.967064+00:00",
+  "mode": "LOCAL OCCT EXACT B-REP / ANALYSIS ONLY / CAD WRITE TO PRODUCTION 0 / Onshape 0",
+  "scopePolicy": {
+    "currentExteriorPreserved": true,
+    "fingerExteriorPreserved": true,
+    "newProductionGeometryCount": 0,
+    "newCarrierSeatBossScrewMountWiringChannelCount": 0,
+    "allowedOutputs": [
+      "analysis STEP",
+      "transformed reference STEP",
+      "collision/debug B-rep",
+      "renders",
+      "JSON",
+      "report"
+    ]
+  },
+  "sources": {
+    "originalCompleteAssembly": {
+      "path": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "sha256": "deb2f78838b41ab125247bd4068d7c0d08b5bddf780b449534b716fe35dc0ed4"
+    },
+    "originalPartStudioThumbReference": {
+      "path": "local_cad\\reference\\THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+      "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d"
+    },
+    "loweredExactTarget": {
+      "path": "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step",
+      "sha256": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9"
+    },
+    "currentExteriorJaD": {
+      "path": "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JAD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "sha256": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6"
+    },
+    "currentExteriorJfD": {
+      "path": "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JFD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "sha256": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f"
+    },
+    "frozenFingerReference": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\FINGER_V2_ASSEMBLY_REFERENCE.step",
+      "sha256": "c2ce9e0bd180c24c7f2792d4691a53566040bfdce1d1273d014ea33e2dc67fc1"
+    }
+  },
+  "originalMechanicalArchitecture": {
+    "summary": "one swept Backplate carries eight PushBtn mechanisms and eight independent caps; one HW504 module is represented by two exact solids; Small_joystick_attachment is the joystick-side attachment/opening counterpart; shell-side M3 screws clamp/capture the assembly",
+    "separateButtonSupportPartCount": 0,
+    "supportIntegration": "button supports/retainers are integrated into the Backplate and original shell geometry",
+    "shellSideFastenerCount": 3
+  },
+  "rigidCartridgeDefinition": {
+    "name": "ORIGINAL THUMB CARTRIDGE",
+    "exactPartCount": 20,
+    "inventory": {
+      "backplate": 1,
+      "thumbCaps": 8,
+      "pushButtons": 8,
+      "joystickMechanismExactSolids": 2,
+      "smallJoystickAttachment": 1
+    },
+    "excludes": [
+      "JaD/JfD shell material",
+      "three shell-side M3 screws",
+      "all custom V3/V3.1 geometry"
+    ],
+    "transform": {
+      "scale": 1.0,
+      "rotationChangeDeg": 0.0,
+      "translationMm": [
+        0.0,
+        12.25,
+        -21.0
+      ],
+      "maximumCenterRoundTripResidualMm": 0.0,
+      "maximumVolumeResidualMm3": 0.0,
+      "maximumPairwiseCenterDistanceResidualMm": 1.4210854715202004e-14,
+      "relativeGeometryDifferenceMm": 1.4210854715202004e-14,
+      "validation": "PASS"
+    }
+  },
+  "partList": [
+    {
+      "partName": "THUMB_BACKPLATE",
+      "sourcePartLabel": "Backplate",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "common swept backplate; integrates the eight button supports/retainers",
+      "movesWithThumb": "YES",
+      "category": "backplate",
+      "volumeMm3": 5899.527828399787,
+      "bboxMm": {
+        "min": [
+          -20.513857672082953,
+          -42.267761579083306,
+          7.397600052528635
+        ],
+        "max": [
+          20.046116269416622,
+          16.195789099961452,
+          51.843918373420806
+        ]
+      },
+      "classification": "CLASS_B",
+      "reuseDisposition": "SHELL_SIDE_ADAPTER_REQUIRED",
+      "interferesWith": [
+        "current exact review shell",
+        "original fixed shell screws"
+      ],
+      "volumesMm3": {
+        "shell": 217.83894375941546,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 9.230933325722253
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_1_CAP__Button_corner_1",
+      "sourcePartLabel": "Button_corner_1",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 1 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 199.4563896202494,
+      "bboxMm": {
+        "min": [
+          6.944350093124537,
+          7.988582935885597,
+          14.544427153466598
+        ],
+        "max": [
+          14.550067047694128,
+          16.675383778906195,
+          23.190650736073827
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_2_CAP__Button_middle_1",
+      "sourcePartLabel": "Button_middle_1",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 2 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 275.0540870317865,
+      "bboxMm": {
+        "min": [
+          -4.045165644189641,
+          -0.4274233402704226,
+          21.793374185136127
+        ],
+        "max": [
+          3.56320558893832,
+          8.443636224531271,
+          30.368199648859502
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_3_CAP__Button_corner_2",
+      "sourcePartLabel": "Button_corner_2",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 3 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 199.42833668006864,
+      "bboxMm": {
+        "min": [
+          -15.047199073754635,
+          7.97295003524689,
+          14.55534189937629
+        ],
+        "max": [
+          -7.449231937948899,
+          16.665149657414695,
+          23.201565481982506
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_4_CAP__Button_side_1",
+      "sourcePartLabel": "Button_side_1",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 4 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 271.0870231045938,
+      "bboxMm": {
+        "min": [
+          6.954828319556216,
+          -0.41960678018714387,
+          21.785037574890804
+        ],
+        "max": [
+          14.563142952122961,
+          8.56086285528788,
+          30.475285399957592
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_5_CAP__Button_middle_2",
+      "sourcePartLabel": "Button_middle_2",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 5 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 275.0540870318047,
+      "bboxMm": {
+        "min": [
+          -4.056529265702661,
+          7.904275324370303,
+          14.61126667899907
+        ],
+        "max": [
+          3.5518419674253012,
+          16.77533488917326,
+          23.186092142723453
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_6_CAP__Button_side_2",
+      "sourcePartLabel": "Button_side_2",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 6 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 271.08701474161023,
+      "bboxMm": {
+        "min": [
+          -15.045159807934498,
+          -0.4352401003537582,
+          21.801710595381444
+        ],
+        "max": [
+          -7.436771603162335,
+          8.550630136633384,
+          30.486198649732763
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_7_CAP__Button_wide_1",
+      "sourcePartLabel": "Button_wide_1",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 7 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 288.55601324392893,
+      "bboxMm": {
+        "min": [
+          3.124791869322145,
+          -9.354078304664574,
+          30.138710131124057
+        ],
+        "max": [
+          12.732066440204294,
+          -1.2393701349075343,
+          37.82201900572233
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_8_CAP__Button_wide_2",
+      "sourcePartLabel": "Button_wide_2",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 8 cap",
+      "movesWithThumb": "YES",
+      "category": "thumbCap",
+      "volumeMm3": 288.55601324375124,
+      "bboxMm": {
+        "min": [
+          -13.188692125712533,
+          -9.365670761753597,
+          30.151073549292597
+        ],
+        "max": [
+          -3.5813983612034126,
+          -1.2492354279895437,
+          37.83341405812758
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_1_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 1 push-button mechanism; paired to Button_corner_1",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.9514522916291,
+      "bboxMm": {
+        "min": [
+          6.961456332776802,
+          3.6832348654561518,
+          9.333051351861156
+        ],
+        "max": [
+          14.531813195304215,
+          12.118513658648679,
+          18.22951062011011
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_2_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 2 push-button mechanism; paired to Button_middle_1",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.9514522916292,
+      "bboxMm": {
+        "min": [
+          -4.027174109455198,
+          -4.6562804592688485,
+          16.523495368243157
+        ],
+        "max": [
+          3.5431827530722146,
+          3.778998333923678,
+          25.419954636492108
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_3_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 3 push-button mechanism; paired to Button_corner_2",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.95145229162912,
+      "bboxMm": {
+        "min": [
+          -15.038531794707197,
+          3.667601545290151,
+          9.349724372351156
+        ],
+        "max": [
+          -7.468174932179785,
+          12.102880338482677,
+          18.24618364060011
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_4_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 4 push-button mechanism; paired to Button_side_1",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.95145229162912,
+      "bboxMm": {
+        "min": [
+          6.972819954289802,
+          -4.648463799185849,
+          16.515158857998156
+        ],
+        "max": [
+          14.543176816817216,
+          3.786814994006678,
+          25.411618126247106
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_5_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 5 push-button mechanism; paired to Button_middle_2",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.95145229162912,
+      "bboxMm": {
+        "min": [
+          -4.038537730968198,
+          3.675418205373152,
+          9.341387862105156
+        ],
+        "max": [
+          3.5318191315592147,
+          12.110696998565679,
+          18.23784713035411
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_6_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 6 push-button mechanism; paired to Button_side_2",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.95145229162915,
+      "bboxMm": {
+        "min": [
+          -15.027168173197197,
+          -4.664097119352848,
+          16.53183187848816
+        ],
+        "max": [
+          -7.456811310669785,
+          3.771181673839678,
+          25.42829114673711
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_7_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 7 push-button mechanism; paired to Button_wide_1",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.95145229162918,
+      "bboxMm": {
+        "min": [
+          4.142266436144802,
+          -13.96093829386385,
+          24.543129846702154
+        ],
+        "max": [
+          11.712623298672217,
+          -5.525659500671322,
+          33.43958911495111
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_BUTTON_8_PUSHBTN",
+      "sourcePartLabel": "PushBtn",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original Thumb button 8 push-button mechanism; paired to Button_wide_2",
+      "movesWithThumb": "YES",
+      "category": "pushButton",
+      "volumeMm3": 128.95145229162915,
+      "bboxMm": {
+        "min": [
+          -12.171217558894199,
+          -13.97253075094385,
+          24.555493264871156
+        ],
+        "max": [
+          -4.6008606963667855,
+          -5.537251957751323,
+          33.451952533120114
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+      "sourcePartLabel": "HW504_B",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "HW504 joystick mechanism component (two exact solids form one module)",
+      "movesWithThumb": "YES",
+      "category": "joystickMechanism",
+      "volumeMm3": 1461.11427622721,
+      "bboxMm": {
+        "min": [
+          -15.230075852931297,
+          -43.17075734983449,
+          21.536730123036346
+        ],
+        "max": [
+          11.804562101890257,
+          -8.424152365598976,
+          48.55200001982694
+        ]
+      },
+      "classification": "CLASS_D",
+      "reuseDisposition": "ORIGINAL_MECHANISM_CHANGE_REQUIRED",
+      "interferesWith": [
+        "current exact review shell",
+        "frozen Finger switch references",
+        "present Finger carrier references",
+        "original fixed shell screws"
+      ],
+      "volumesMm3": {
+        "shell": 87.85219779977655,
+        "fingerSwitches": 0.93951943724997,
+        "fingerCarriers": 45.27289437611084,
+        "fixedOriginalScrews": 2.8631447378932773
+      }
+    },
+    {
+      "partName": "THUMB_JOYSTICK_HW504_COMPONENT_2",
+      "sourcePartLabel": "HW504_B",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "HW504 joystick mechanism component (two exact solids form one module)",
+      "movesWithThumb": "YES",
+      "category": "joystickMechanism",
+      "volumeMm3": 767.1208621693855,
+      "bboxMm": {
+        "min": [
+          -12.218511287189648,
+          -31.93795759069354,
+          30.390174736411762
+        ],
+        "max": [
+          4.786519320748562,
+          -16.180220345790794,
+          48.86827843666085
+        ]
+      },
+      "classification": "CLASS_D",
+      "reuseDisposition": "ORIGINAL_MECHANISM_CHANGE_REQUIRED",
+      "interferesWith": [
+        "frozen Finger switch references",
+        "present Finger carrier references"
+      ],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.32036972303176653,
+        "fingerCarriers": 26.369308781071286,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    {
+      "partName": "THUMB_JOYSTICK_SMALL_ATTACHMENT",
+      "sourcePartLabel": "Small_joystick_attachment",
+      "sourceFile": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+      "role": "original joystick attachment / opening counterpart",
+      "movesWithThumb": "YES",
+      "category": "thumbSupport",
+      "volumeMm3": 284.54088875549127,
+      "bboxMm": {
+        "min": [
+          -7.213785132564749,
+          -23.57766714856391,
+          41.37964613278436
+        ],
+        "max": [
+          6.786487624860519,
+          -9.122688275607745,
+          56.022061864939744
+        ]
+      },
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    }
+  ],
+  "alignment": {
+    "method": "exact target external solids are compared to the unchanged solids exported with the current exterior; the circular/split opening and eight button openings are generated from the same rigidly translated original opening/control registry",
+    "rigidTransform": {
+      "translationMm": [
+        0.0,
+        12.25,
+        -21.0
+      ],
+      "scale": 1.0,
+      "rotationChangeDeg": 0.0,
+      "relativeGeometryDifferenceMm": 0.0
+    },
+    "joystickCenterErrorMm": 5.3290705182007514e-14,
+    "circularRecessCenterErrorMm": 5.3290705182007514e-14,
+    "buttonCenterErrorsMm": {
+      "BUTTON_1": 3.552713678800501e-15,
+      "BUTTON_2": 2.094764613337708e-15,
+      "BUTTON_3": 3.552713678800501e-15,
+      "BUTTON_4": 3.972054645195637e-15,
+      "BUTTON_5": 3.9968028886505635e-15,
+      "BUTTON_6": 1.7763568394002505e-15,
+      "BUTTON_7": 1.9860273225978185e-15,
+      "BUTTON_8": 1.9860273225978185e-15
+    },
+    "maximumButtonCenterErrorMm": 3.9968028886505635e-15,
+    "capToOpeningReferenceErrorMm": 3.9968028886505635e-15,
+    "buttonTravelAxisAngularErrorDeg": 0.0,
+    "openingResidualVolumesMm3": {
+      "Button_corner_1": 0.0,
+      "Button_middle_1": 0.0,
+      "Button_corner_2": 0.0,
+      "Button_side_1": 0.0,
+      "Button_middle_2": 0.0,
+      "Button_side_2": 0.0,
+      "Button_wide_1": 0.0,
+      "Button_wide_2": 0.0,
+      "Small_joystick_attachment": 0.0
+    },
+    "controls": {
+      "Button_corner_1": {
+        "targetCenterMm": [
+          10.747208570409333,
+          12.331983357395895,
+          18.867538944770214
+        ],
+        "currentExteriorReferenceCenterMm": [
+          10.74720857040933,
+          12.331983357395895,
+          18.867538944770214
+        ],
+        "centerErrorMm": 3.552713678800501e-15,
+        "shapeDistanceMm": 3.972054645195637e-15,
+        "volumeDifferenceMm3": 2.842170943040401e-14
+      },
+      "Button_middle_1": {
+        "targetCenterMm": [
+          -0.24098002762566062,
+          4.008106442130424,
+          26.080786916997816
+        ],
+        "currentExteriorReferenceCenterMm": [
+          -0.24098002762566173,
+          4.008106442130426,
+          26.080786916997816
+        ],
+        "centerErrorMm": 2.094764613337708e-15,
+        "shapeDistanceMm": 1.1102230246251565e-15,
+        "volumeDifferenceMm3": 0.0
+      },
+      "Button_corner_2": {
+        "targetCenterMm": [
+          -11.248215505851768,
+          12.319049846330792,
+          18.878453690679397
+        ],
+        "currentExteriorReferenceCenterMm": [
+          -11.248215505851771,
+          12.319049846330792,
+          18.878453690679397
+        ],
+        "centerErrorMm": 3.552713678800501e-15,
+        "shapeDistanceMm": 4.440892098500626e-15,
+        "volumeDifferenceMm3": 0.0
+      },
+      "Button_side_1": {
+        "targetCenterMm": [
+          10.758985635839588,
+          4.070628037550368,
+          26.130161487424196
+        ],
+        "currentExteriorReferenceCenterMm": [
+          10.758985635839585,
+          4.07062803755037,
+          26.130161487424196
+        ],
+        "centerErrorMm": 3.972054645195637e-15,
+        "shapeDistanceMm": 2.1649348980190553e-15,
+        "volumeDifferenceMm3": 5.684341886080802e-14
+      },
+      "Button_middle_2": {
+        "targetCenterMm": [
+          -0.2523436491386799,
+          12.33980510677178,
+          18.898679410861263
+        ],
+        "currentExteriorReferenceCenterMm": [
+          -0.2523436491386839,
+          12.33980510677178,
+          18.898679410861263
+        ],
+        "centerErrorMm": 3.9968028886505635e-15,
+        "shapeDistanceMm": 2.6645352591003757e-15,
+        "volumeDifferenceMm3": 0.0
+      },
+      "Button_side_2": {
+        "targetCenterMm": [
+          -11.240965705548417,
+          4.057695018139813,
+          26.143954622557104
+        ],
+        "currentExteriorReferenceCenterMm": [
+          -11.240965705548417,
+          4.057695018139811,
+          26.143954622557104
+        ],
+        "centerErrorMm": 1.7763568394002505e-15,
+        "shapeDistanceMm": 2.1649348980190553e-15,
+        "volumeDifferenceMm3": 5.684341886080802e-14
+      },
+      "Button_wide_1": {
+        "targetCenterMm": [
+          7.9284291547632195,
+          -5.2967242197860545,
+          33.9803645684232
+        ],
+        "currentExteriorReferenceCenterMm": [
+          7.928429154763221,
+          -5.296724219786054,
+          33.9803645684232
+        ],
+        "centerErrorMm": 1.9860273225978185e-15,
+        "shapeDistanceMm": 1.1102230246251565e-15,
+        "volumeDifferenceMm3": 1.3983481039758772e-10
+      },
+      "Button_wide_2": {
+        "targetCenterMm": [
+          -8.385045243457974,
+          -5.30745309487157,
+          33.99224380371009
+        ],
+        "currentExteriorReferenceCenterMm": [
+          -8.385045243457972,
+          -5.307453094871571,
+          33.99224380371009
+        ],
+        "centerErrorMm": 1.9860273225978185e-15,
+        "shapeDistanceMm": 8.881784197001252e-16,
+        "volumeDifferenceMm3": 1.4438228390645236e-10
+      },
+      "Small_joystick_attachment": {
+        "targetCenterMm": [
+          -0.21364875385211501,
+          -16.350177712085827,
+          48.70085399886205
+        ],
+        "currentExteriorReferenceCenterMm": [
+          -0.2136487538521079,
+          -16.350177712085788,
+          48.700853998862016
+        ],
+        "centerErrorMm": 5.3290705182007514e-14,
+        "shapeDistanceMm": 0.0,
+        "volumeDifferenceMm3": 1.0958842722175177e-09
+      }
+    },
+    "verdict": "PASS"
+  },
+  "collisionMatrix": {
+    "A_joystickMechanismVsShell": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 87.85219779977655,
+      "intersectingPairCount": 2,
+      "intersectingParts": [
+        "THUMB_JOYSTICK_HW504_COMPONENT_1"
+      ],
+      "collisions": [
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "JaD",
+          "penetrationVolumeMm3": 32.75313360228138,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "JfD",
+          "penetrationVolumeMm3": 55.09906419749516,
+          "minimumClearanceMm": 0.0
+        }
+      ],
+      "byPart": {
+        "THUMB_JOYSTICK_HW504_COMPONENT_1": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 87.85219779977655,
+          "intersections": [
+            {
+              "target": "JaD",
+              "penetrationVolumeMm3": 32.75313360228138
+            },
+            {
+              "target": "JfD",
+              "penetrationVolumeMm3": 55.09906419749516
+            }
+          ]
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_2": {
+          "minimumClearanceMm": 5.344279408201648,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        }
+      }
+    },
+    "B_thumbButtonsVsShell": {
+      "minimumClearanceMm": 0.3002802317110444,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0,
+      "intersectingParts": [],
+      "collisions": [],
+      "byPart": {
+        "THUMB_BUTTON_1_CAP__Button_corner_1": {
+          "minimumClearanceMm": 0.8000000999988046,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_CAP__Button_middle_1": {
+          "minimumClearanceMm": 1.9547778948692007,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_CAP__Button_corner_2": {
+          "minimumClearanceMm": 0.8000000999993055,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_CAP__Button_side_1": {
+          "minimumClearanceMm": 0.9284161035029456,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_CAP__Button_middle_2": {
+          "minimumClearanceMm": 0.7999999999997414,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_CAP__Button_side_2": {
+          "minimumClearanceMm": 0.8284164979654035,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_CAP__Button_wide_1": {
+          "minimumClearanceMm": 2.867779178139719,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_CAP__Button_wide_2": {
+          "minimumClearanceMm": 2.7546592486228905,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_1_PUSHBTN": {
+          "minimumClearanceMm": 3.7206671353472918,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_PUSHBTN": {
+          "minimumClearanceMm": 6.891897786871215,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_PUSHBTN": {
+          "minimumClearanceMm": 3.4191583599896167,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_PUSHBTN": {
+          "minimumClearanceMm": 5.929750319043124,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_PUSHBTN": {
+          "minimumClearanceMm": 5.527647161475172,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_PUSHBTN": {
+          "minimumClearanceMm": 5.446357391139251,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_PUSHBTN": {
+          "minimumClearanceMm": 0.3058291724253908,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_PUSHBTN": {
+          "minimumClearanceMm": 0.3002802317110444,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        }
+      }
+    },
+    "C_backplateVsShell": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 217.83894375941546,
+      "intersectingPairCount": 2,
+      "intersectingParts": [
+        "THUMB_BACKPLATE"
+      ],
+      "collisions": [
+        {
+          "part": "THUMB_BACKPLATE",
+          "target": "JaD",
+          "penetrationVolumeMm3": 88.49772460224884,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_BACKPLATE",
+          "target": "JfD",
+          "penetrationVolumeMm3": 129.34121915716662,
+          "minimumClearanceMm": 0.0
+        }
+      ],
+      "byPart": {
+        "THUMB_BACKPLATE": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 217.83894375941546,
+          "intersections": [
+            {
+              "target": "JaD",
+              "penetrationVolumeMm3": 88.49772460224884
+            },
+            {
+              "target": "JfD",
+              "penetrationVolumeMm3": 129.34121915716662
+            }
+          ]
+        }
+      }
+    },
+    "D_thumbSupportVsShell": {
+      "minimumClearanceMm": 0.8000000999997564,
+      "penetrationVolumeMm3": 0.0,
+      "intersectingPairCount": 0,
+      "intersectingParts": [],
+      "collisions": [],
+      "byPart": {
+        "THUMB_JOYSTICK_SMALL_ATTACHMENT": {
+          "minimumClearanceMm": 0.8000000999997564,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        }
+      }
+    },
+    "E_thumbCartridgeVsFingerSwitches": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 1.2598891602817366,
+      "intersectingPairCount": 3,
+      "intersectingParts": [
+        "THUMB_JOYSTICK_HW504_COMPONENT_1",
+        "THUMB_JOYSTICK_HW504_COMPONENT_2"
+      ],
+      "collisions": [
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "N1",
+          "penetrationVolumeMm3": 0.696218643334316,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "N2",
+          "penetrationVolumeMm3": 0.24330079391565396,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_2",
+          "target": "N2",
+          "penetrationVolumeMm3": 0.32036972303176653,
+          "minimumClearanceMm": 0.0
+        }
+      ],
+      "byPart": {
+        "THUMB_BACKPLATE": {
+          "minimumClearanceMm": 5.724517729428712,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_1_CAP__Button_corner_1": {
+          "minimumClearanceMm": 21.775533403946376,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_CAP__Button_middle_1": {
+          "minimumClearanceMm": 22.30796724593429,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_CAP__Button_corner_2": {
+          "minimumClearanceMm": 23.888270933934777,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_CAP__Button_side_1": {
+          "minimumClearanceMm": 22.060426226846623,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_CAP__Button_middle_2": {
+          "minimumClearanceMm": 23.51855547622603,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_CAP__Button_side_2": {
+          "minimumClearanceMm": 19.730439036583125,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_CAP__Button_wide_1": {
+          "minimumClearanceMm": 17.476192542650335,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_CAP__Button_wide_2": {
+          "minimumClearanceMm": 17.152272983039893,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_1_PUSHBTN": {
+          "minimumClearanceMm": 13.400755362740172,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_PUSHBTN": {
+          "minimumClearanceMm": 15.383181503853226,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_PUSHBTN": {
+          "minimumClearanceMm": 17.252792453744654,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_PUSHBTN": {
+          "minimumClearanceMm": 15.082542747526361,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_PUSHBTN": {
+          "minimumClearanceMm": 16.470789777329966,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_PUSHBTN": {
+          "minimumClearanceMm": 12.07494517418402,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_PUSHBTN": {
+          "minimumClearanceMm": 11.612245980092363,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_PUSHBTN": {
+          "minimumClearanceMm": 10.398879328250665,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_1": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.93951943724997,
+          "intersections": [
+            {
+              "target": "N1",
+              "penetrationVolumeMm3": 0.696218643334316
+            },
+            {
+              "target": "N2",
+              "penetrationVolumeMm3": 0.24330079391565396
+            }
+          ]
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_2": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.32036972303176653,
+          "intersections": [
+            {
+              "target": "N2",
+              "penetrationVolumeMm3": 0.32036972303176653
+            }
+          ]
+        },
+        "THUMB_JOYSTICK_SMALL_ATTACHMENT": {
+          "minimumClearanceMm": 12.56421525085112,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        }
+      }
+    },
+    "F_thumbCartridgeVsFingerCarriers": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 71.64220315718212,
+      "intersectingPairCount": 2,
+      "intersectingParts": [
+        "THUMB_JOYSTICK_HW504_COMPONENT_1",
+        "THUMB_JOYSTICK_HW504_COMPONENT_2"
+      ],
+      "collisions": [
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "N1_N2_SHARED_CARRIER",
+          "penetrationVolumeMm3": 45.27289437611084,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_2",
+          "target": "N1_N2_SHARED_CARRIER",
+          "penetrationVolumeMm3": 26.369308781071286,
+          "minimumClearanceMm": 0.0
+        }
+      ],
+      "byPart": {
+        "THUMB_BACKPLATE": {
+          "minimumClearanceMm": 4.694132795325576,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_1_CAP__Button_corner_1": {
+          "minimumClearanceMm": 21.056195607817724,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_CAP__Button_middle_1": {
+          "minimumClearanceMm": 21.56874236495042,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_CAP__Button_corner_2": {
+          "minimumClearanceMm": 23.358068424841388,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_CAP__Button_side_1": {
+          "minimumClearanceMm": 22.01580151873632,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_CAP__Button_middle_2": {
+          "minimumClearanceMm": 23.24792306689682,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_CAP__Button_side_2": {
+          "minimumClearanceMm": 19.707303306190894,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_CAP__Button_wide_1": {
+          "minimumClearanceMm": 17.69816171737564,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_CAP__Button_wide_2": {
+          "minimumClearanceMm": 17.388953382840423,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_1_PUSHBTN": {
+          "minimumClearanceMm": 12.503620825966063,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_PUSHBTN": {
+          "minimumClearanceMm": 14.666728604376535,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_PUSHBTN": {
+          "minimumClearanceMm": 16.993237142067436,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_PUSHBTN": {
+          "minimumClearanceMm": 15.53950350499952,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_PUSHBTN": {
+          "minimumClearanceMm": 16.335718634771656,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_PUSHBTN": {
+          "minimumClearanceMm": 12.103728126387333,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_PUSHBTN": {
+          "minimumClearanceMm": 11.059144656815599,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_PUSHBTN": {
+          "minimumClearanceMm": 10.101898653961339,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_1": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 45.27289437611084,
+          "intersections": [
+            {
+              "target": "N1_N2_SHARED_CARRIER",
+              "penetrationVolumeMm3": 45.27289437611084
+            }
+          ]
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_2": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 26.369308781071286,
+          "intersections": [
+            {
+              "target": "N1_N2_SHARED_CARRIER",
+              "penetrationVolumeMm3": 26.369308781071286
+            }
+          ]
+        },
+        "THUMB_JOYSTICK_SMALL_ATTACHMENT": {
+          "minimumClearanceMm": 11.346404722442228,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        }
+      }
+    },
+    "G_thumbCartridgeVsSeam": {
+      "definition": "exact shell split plane X=0; zero-thickness plane has no penetration volume",
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 0.0,
+      "crossingPartCount": 8,
+      "crossingParts": [
+        {
+          "part": "THUMB_BACKPLATE",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -20.513857672082953,
+            20.046116269416622
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        },
+        {
+          "part": "THUMB_BUTTON_2_CAP__Button_middle_1",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -4.045165644189641,
+            3.56320558893832
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        },
+        {
+          "part": "THUMB_BUTTON_5_CAP__Button_middle_2",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -4.056529265702661,
+            3.5518419674253012
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        },
+        {
+          "part": "THUMB_BUTTON_2_PUSHBTN",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -4.027174109455198,
+            3.5431827530722146
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        },
+        {
+          "part": "THUMB_BUTTON_5_PUSHBTN",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -4.038537730968198,
+            3.5318191315592147
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -15.230075852931297,
+            11.804562101890257
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_2",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -12.218511287189648,
+            4.786519320748562
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        },
+        {
+          "part": "THUMB_JOYSTICK_SMALL_ATTACHMENT",
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 0.0,
+          "xSpanMm": [
+            -7.213785132564749,
+            6.786487624860519
+          ],
+          "classification": "CROSSES_ZERO_THICKNESS_SPLIT_PLANE"
+        }
+      ]
+    },
+    "fullCartridgeVsShell": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 305.69114155919203,
+      "intersectingPairCount": 4,
+      "intersectingParts": [
+        "THUMB_BACKPLATE",
+        "THUMB_JOYSTICK_HW504_COMPONENT_1"
+      ],
+      "collisions": [
+        {
+          "part": "THUMB_BACKPLATE",
+          "target": "JaD",
+          "penetrationVolumeMm3": 88.49772460224884,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_BACKPLATE",
+          "target": "JfD",
+          "penetrationVolumeMm3": 129.34121915716662,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "JaD",
+          "penetrationVolumeMm3": 32.75313360228138,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "JfD",
+          "penetrationVolumeMm3": 55.09906419749516,
+          "minimumClearanceMm": 0.0
+        }
+      ],
+      "byPart": {
+        "THUMB_BACKPLATE": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 217.83894375941546,
+          "intersections": [
+            {
+              "target": "JaD",
+              "penetrationVolumeMm3": 88.49772460224884
+            },
+            {
+              "target": "JfD",
+              "penetrationVolumeMm3": 129.34121915716662
+            }
+          ]
+        },
+        "THUMB_BUTTON_1_CAP__Button_corner_1": {
+          "minimumClearanceMm": 0.8000000999988046,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_CAP__Button_middle_1": {
+          "minimumClearanceMm": 1.9547778948692007,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_CAP__Button_corner_2": {
+          "minimumClearanceMm": 0.8000000999993055,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_CAP__Button_side_1": {
+          "minimumClearanceMm": 0.9284161035029456,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_CAP__Button_middle_2": {
+          "minimumClearanceMm": 0.7999999999997414,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_CAP__Button_side_2": {
+          "minimumClearanceMm": 0.8284164979654035,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_CAP__Button_wide_1": {
+          "minimumClearanceMm": 2.867779178139719,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_CAP__Button_wide_2": {
+          "minimumClearanceMm": 2.7546592486228905,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_1_PUSHBTN": {
+          "minimumClearanceMm": 3.7206671353472918,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_PUSHBTN": {
+          "minimumClearanceMm": 6.891897786871215,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_PUSHBTN": {
+          "minimumClearanceMm": 3.4191583599896167,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_PUSHBTN": {
+          "minimumClearanceMm": 5.929750319043124,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_PUSHBTN": {
+          "minimumClearanceMm": 5.527647161475172,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_PUSHBTN": {
+          "minimumClearanceMm": 5.446357391139251,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_PUSHBTN": {
+          "minimumClearanceMm": 0.3058291724253908,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_PUSHBTN": {
+          "minimumClearanceMm": 0.3002802317110444,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_1": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 87.85219779977655,
+          "intersections": [
+            {
+              "target": "JaD",
+              "penetrationVolumeMm3": 32.75313360228138
+            },
+            {
+              "target": "JfD",
+              "penetrationVolumeMm3": 55.09906419749516
+            }
+          ]
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_2": {
+          "minimumClearanceMm": 5.344279408201648,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_JOYSTICK_SMALL_ATTACHMENT": {
+          "minimumClearanceMm": 0.8000000999997564,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        }
+      }
+    },
+    "fullCartridgeVsOriginalFixedScrews": {
+      "minimumClearanceMm": 0.0,
+      "penetrationVolumeMm3": 12.09407806361553,
+      "intersectingPairCount": 2,
+      "intersectingParts": [
+        "THUMB_BACKPLATE",
+        "THUMB_JOYSTICK_HW504_COMPONENT_1"
+      ],
+      "collisions": [
+        {
+          "part": "THUMB_BACKPLATE",
+          "target": "ORIGINAL_M3_SHELL_SCREW_3",
+          "penetrationVolumeMm3": 9.230933325722253,
+          "minimumClearanceMm": 0.0
+        },
+        {
+          "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+          "target": "ORIGINAL_M3_SHELL_SCREW_2",
+          "penetrationVolumeMm3": 2.8631447378932773,
+          "minimumClearanceMm": 0.0
+        }
+      ],
+      "byPart": {
+        "THUMB_BACKPLATE": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 9.230933325722253,
+          "intersections": [
+            {
+              "target": "ORIGINAL_M3_SHELL_SCREW_3",
+              "penetrationVolumeMm3": 9.230933325722253
+            }
+          ]
+        },
+        "THUMB_BUTTON_1_CAP__Button_corner_1": {
+          "minimumClearanceMm": 19.960665773158006,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_CAP__Button_middle_1": {
+          "minimumClearanceMm": 12.239891392184786,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_CAP__Button_corner_2": {
+          "minimumClearanceMm": 21.197760181981593,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_CAP__Button_side_1": {
+          "minimumClearanceMm": 11.749028490160535,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_CAP__Button_middle_2": {
+          "minimumClearanceMm": 20.169061931228413,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_CAP__Button_side_2": {
+          "minimumClearanceMm": 12.99125896397157,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_CAP__Button_wide_1": {
+          "minimumClearanceMm": 9.19902862505996,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_CAP__Button_wide_2": {
+          "minimumClearanceMm": 10.450490887715677,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_1_PUSHBTN": {
+          "minimumClearanceMm": 18.291988626220945,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_2_PUSHBTN": {
+          "minimumClearanceMm": 8.603118098325352,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_3_PUSHBTN": {
+          "minimumClearanceMm": 19.526534378230227,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_4_PUSHBTN": {
+          "minimumClearanceMm": 7.652066204555495,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_5_PUSHBTN": {
+          "minimumClearanceMm": 18.709564343644246,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_6_PUSHBTN": {
+          "minimumClearanceMm": 8.887738734373295,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_7_PUSHBTN": {
+          "minimumClearanceMm": 1.6686836576061006,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_BUTTON_8_PUSHBTN": {
+          "minimumClearanceMm": 2.3024645042094116,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_1": {
+          "minimumClearanceMm": 0.0,
+          "penetrationVolumeMm3": 2.8631447378932773,
+          "intersections": [
+            {
+              "target": "ORIGINAL_M3_SHELL_SCREW_2",
+              "penetrationVolumeMm3": 2.8631447378932773
+            }
+          ]
+        },
+        "THUMB_JOYSTICK_HW504_COMPONENT_2": {
+          "minimumClearanceMm": 9.869792653362492,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        },
+        "THUMB_JOYSTICK_SMALL_ATTACHMENT": {
+          "minimumClearanceMm": 16.808150278930842,
+          "penetrationVolumeMm3": 0,
+          "intersections": []
+        }
+      }
+    }
+  },
+  "collisionClassification": {
+    "THUMB_BACKPLATE": {
+      "classification": "CLASS_B",
+      "reuseDisposition": "SHELL_SIDE_ADAPTER_REQUIRED",
+      "interferesWith": [
+        "current exact review shell",
+        "original fixed shell screws"
+      ],
+      "volumesMm3": {
+        "shell": 217.83894375941546,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 9.230933325722253
+      }
+    },
+    "THUMB_BUTTON_1_CAP__Button_corner_1": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_2_CAP__Button_middle_1": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_3_CAP__Button_corner_2": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_4_CAP__Button_side_1": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_5_CAP__Button_middle_2": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_6_CAP__Button_side_2": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_7_CAP__Button_wide_1": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_8_CAP__Button_wide_2": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_1_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_2_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_3_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_4_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_5_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_6_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_7_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_BUTTON_8_PUSHBTN": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_JOYSTICK_HW504_COMPONENT_1": {
+      "classification": "CLASS_D",
+      "reuseDisposition": "ORIGINAL_MECHANISM_CHANGE_REQUIRED",
+      "interferesWith": [
+        "current exact review shell",
+        "frozen Finger switch references",
+        "present Finger carrier references",
+        "original fixed shell screws"
+      ],
+      "volumesMm3": {
+        "shell": 87.85219779977655,
+        "fingerSwitches": 0.93951943724997,
+        "fingerCarriers": 45.27289437611084,
+        "fixedOriginalScrews": 2.8631447378932773
+      }
+    },
+    "THUMB_JOYSTICK_HW504_COMPONENT_2": {
+      "classification": "CLASS_D",
+      "reuseDisposition": "ORIGINAL_MECHANISM_CHANGE_REQUIRED",
+      "interferesWith": [
+        "frozen Finger switch references",
+        "present Finger carrier references"
+      ],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.32036972303176653,
+        "fingerCarriers": 26.369308781071286,
+        "fixedOriginalScrews": 0.0
+      }
+    },
+    "THUMB_JOYSTICK_SMALL_ATTACHMENT": {
+      "classification": "AS_IS",
+      "reuseDisposition": "REUSABLE_AS_IS",
+      "interferesWith": [],
+      "volumesMm3": {
+        "shell": 0.0,
+        "fingerSwitches": 0.0,
+        "fingerCarriers": 0.0,
+        "fixedOriginalScrews": 0.0
+      }
+    }
+  },
+  "fasteningReuseAnalysis": {
+    "architecture": "three original M3x0.50x16 screws clamp the split Joystick shell and participate in Backplate/shell capture; the screw datums remain shell-side when the Thumb cartridge moves",
+    "screws": [
+      {
+        "name": "ORIGINAL_M3_SHELL_SCREW_1",
+        "source": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+        "axisPointMm": [
+          7.413978678699333,
+          16.34625428053729,
+          -21.353976816150894
+        ],
+        "axisDirection": [
+          0.9979647802617785,
+          -0.06376752588159793,
+          9.617537587941993e-16
+        ],
+        "movesWithThumb": false,
+        "intersectionsAtLoweredTarget": []
+      },
+      {
+        "name": "ORIGINAL_M3_SHELL_SCREW_2",
+        "source": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+        "axisPointMm": [
+          7.4139786786992765,
+          -13.895888138512593,
+          23.063919861813638
+        ],
+        "axisDirection": [
+          0.9979647802617785,
+          -0.06376752588159804,
+          9.618150227200648e-16
+        ],
+        "movesWithThumb": false,
+        "intersectionsAtLoweredTarget": [
+          {
+            "part": "THUMB_JOYSTICK_HW504_COMPONENT_1",
+            "target": "ORIGINAL_M3_SHELL_SCREW_2",
+            "penetrationVolumeMm3": 2.8631447378932773,
+            "minimumClearanceMm": 0.0
+          }
+        ]
+      },
+      {
+        "name": "ORIGINAL_M3_SHELL_SCREW_3",
+        "source": "lower_adapter\\local_cad\\reference\\ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step",
+        "axisPointMm": [
+          7.413978678699305,
+          -41.317081691828754,
+          45.98119845417303
+        ],
+        "axisDirection": [
+          0.9979647802617785,
+          -0.06376752588159787,
+          1.0859283724552909e-15
+        ],
+        "movesWithThumb": false,
+        "intersectionsAtLoweredTarget": [
+          {
+            "part": "THUMB_BACKPLATE",
+            "target": "ORIGINAL_M3_SHELL_SCREW_3",
+            "penetrationVolumeMm3": 9.230933325722253,
+            "minimumClearanceMm": 0.0
+          }
+        ]
+      }
+    ],
+    "targetMinimumClearanceMm": 0.0,
+    "targetPenetrationVolumeMm3": 12.09407806361553,
+    "originalHardwareReusable": true,
+    "originalAxesReusableAtLoweredPosition": false,
+    "verdict": "SHELL-SIDE ADAPTER REQUIRED",
+    "note": "No replacement fastener, boss, or screw architecture is designed in this audit."
+  },
+  "wiringExitAnalysis": {
+    "mode": "ANALYSIS-ONLY CLEARANCE MAP; no channel or corridor geometry is proposed",
+    "probeDefinition": {
+      "lengthMm": 12.0,
+      "squareSectionMm": 1.2,
+      "directions": {
+        "X_POS": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "X_NEG": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "Y_POS": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "Y_NEG": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "Z_POS": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Z_NEG": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      }
+    },
+    "controls": {
+      "THUMB_BUTTON_1_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              14.731813195303946,
+              4.579172881531634,
+              13.402764642340577
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 4.35102913469291
+              }
+            ]
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              6.761456332777068,
+              8.065535893511095,
+              10.39854237748413
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 10.07300561192944,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              10.745580513164102,
+              12.318512975305435,
+              15.9442937257121
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 4.029899888427046
+              }
+            ]
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              7.448867564558384,
+              3.4832348654563186,
+              12.374626640718606
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 8.200246120650316,
+            "blocked": false,
+            "intersections": []
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              10.749196210918242,
+              9.467517945646287,
+              18.429509750391656
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 3.879155996842231
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              14.000188072804564,
+              6.784165025242207,
+              9.133271964131579
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 3.710385103278983,
+            "blocked": false,
+            "intersections": []
+          }
+        },
+        "preferredUnblockedDirection": "X_NEG"
+      },
+      "THUMB_BUTTON_2_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              3.743182753071948,
+              -3.760342443193366,
+              20.593208658722578
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 5.082542855269828,
+            "blocked": false,
+            "intersections": []
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              -4.227174109454931,
+              -0.27397943121390567,
+              17.58898639386613
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 4.169629195593471,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              -0.24304992906789866,
+              3.9789976505804363,
+              23.1347377420941
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.2513544006289017,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              -3.539762877673616,
+              -4.856280459268682,
+              19.565070657100605
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 1.921437101151958
+              }
+            ]
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              -0.23943423131375685,
+              1.1280026209212877,
+              25.619953766773655
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 0.6427298065141264
+              },
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 1.4889793214732607
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              3.0115576305725646,
+              -1.555350299482793,
+              16.32371598051358
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 8.902379503568143,
+            "blocked": false,
+            "intersections": []
+          }
+        },
+        "preferredUnblockedDirection": "Z_NEG"
+      },
+      "THUMB_BUTTON_3_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              -7.268174932180053,
+              4.5635395613656335,
+              13.419437662830576
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 11.359422719725538,
+            "blocked": false,
+            "intersections": []
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              -15.238531794706931,
+              8.049902573345094,
+              10.41521539797413
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 4.366608087037745
+              }
+            ]
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              -11.254407614319899,
+              12.302879655139435,
+              15.9609667462021
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 3.815932390972814
+              }
+            ]
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              -14.551120562925616,
+              3.467601545290318,
+              12.391299661208606
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 4.674762586992424,
+            "blocked": false,
+            "intersections": []
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              -11.250791916565758,
+              9.451884625480288,
+              18.446182770881656
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 3.9486795131079075
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              -7.999800054679437,
+              6.768531705076207,
+              9.149944984621579
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 9.678194263530457,
+            "blocked": false,
+            "intersections": []
+          }
+        },
+        "preferredUnblockedDirection": "X_POS"
+      },
+      "THUMB_BUTTON_4_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              14.743176816816947,
+              -3.752525783110366,
+              20.584872148477576
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 4.335796791292307
+              }
+            ]
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              6.7728199542900684,
+              -0.2661627711309056,
+              17.580649883621128
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 10.926878375508341,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              10.756944134677102,
+              3.986814310663436,
+              23.126401231849098
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.2642495042249031,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              7.460231186071384,
+              -4.848463799185682,
+              19.556734146855604
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 1.7848632764736045
+              }
+            ]
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              10.760559832431243,
+              1.1358192810042878,
+              25.611617256528653
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 2.960593088327146
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              14.011551694317564,
+              -1.547533639399793,
+              16.315379470268578
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 4.706438094228058,
+            "blocked": false,
+            "intersections": []
+          }
+        },
+        "preferredUnblockedDirection": "X_NEG"
+      },
+      "THUMB_BUTTON_5_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              3.7318191315589475,
+              4.571356221448634,
+              13.411101152584576
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 3.9744607773822658,
+            "blocked": false,
+            "intersections": []
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              -4.2385377309679315,
+              8.057719233428095,
+              10.40687888772813
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 2.8946834587832577,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              -0.2544135505808987,
+              12.310696315222437,
+              15.9526302359561
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 1.4777525725322727
+              },
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 3.653153934979871
+              }
+            ]
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              -3.551126499186616,
+              3.4754182053733187,
+              12.382963150962606
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 8.189099552691374,
+            "blocked": false,
+            "intersections": []
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              -0.2507978528267569,
+              9.459701285563288,
+              18.437846260635656
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 0.9478716017015029
+              },
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 2.310130148279248
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              3.0001940090595642,
+              6.776348365159207,
+              9.141608474375579
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 8.926454837743398,
+            "blocked": false,
+            "intersections": []
+          }
+        },
+        "preferredUnblockedDirection": "Z_NEG"
+      },
+      "THUMB_BUTTON_6_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              -7.256811310670053,
+              -3.768159103277366,
+              20.60154516896758
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 6.744007096849869,
+            "blocked": false,
+            "intersections": []
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              -15.227168173196931,
+              -0.2817960912979056,
+              17.59732290411113
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 4.3406186710405
+              }
+            ]
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              -11.243043992809898,
+              3.9711809904964364,
+              23.1430742523391
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.2584912296439015,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              -14.539756941415616,
+              -4.864097119352682,
+              19.573407167345607
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 1.9608008192831436
+              }
+            ]
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              -11.239428295055758,
+              1.1201859608372877,
+              25.628290277018657
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 3.1071046595275966
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              -7.988436433169436,
+              -1.563166959566793,
+              16.33205249075858
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 7.449576902268507,
+            "blocked": false,
+            "intersections": []
+          }
+        },
+        "preferredUnblockedDirection": "Z_NEG"
+      },
+      "THUMB_BUTTON_7_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              11.912623298671948,
+              -13.065000277788366,
+              28.612843137181578
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 3.0832186705234603
+              }
+            ]
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              3.9422664361450694,
+              -9.578637265808906,
+              25.60862087232513
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 1.185451590562576,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              7.926390616532101,
+              -5.325660184014564,
+              31.1543722205531
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 0.7525877926677591
+              }
+            ]
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              4.6296776679263845,
+              -14.16093829386368,
+              27.584705135559606
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "FINGER_SWITCH_N2",
+                "penetrationVolumeMm3": 0.09720463740738028
+              },
+              {
+                "obstacle": "FINGER_CARRIER_N1_N2_SHARED_CARRIER",
+                "penetrationVolumeMm3": 0.31697302692335594
+              }
+            ]
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              7.930006314286244,
+              -8.176655213673712,
+              33.63958824523266
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 1.2124374969819618
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              11.180998176172565,
+              -10.860008134077793,
+              24.34335045897258
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 1.4366194862671011
+              }
+            ]
+          }
+        },
+        "preferredUnblockedDirection": "X_NEG"
+      },
+      "THUMB_BUTTON_8_PUSHBTN": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              -4.400860696367054,
+              -13.076592734868367,
+              28.625206555350577
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 1.5198980339465564,
+            "blocked": false,
+            "intersections": []
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              -12.371217558893932,
+              -9.590229722888907,
+              25.62098429049413
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 4.126352814776256
+              }
+            ]
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              -8.387093378506899,
+              -5.337252641094564,
+              31.1667356387221
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 0.7876619732340736
+              }
+            ]
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              -11.683806327112617,
+              -14.172530750943682,
+              27.597068553728604
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "FINGER_CARRIER_N1_N2_SHARED_CARRIER",
+                "penetrationVolumeMm3": 0.5940153937670373
+              }
+            ]
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              -8.383477680752758,
+              -8.188247670753713,
+              33.65195166340166
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 1.2521480093363053
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              -5.132485818866437,
+              -10.871600591157794,
+              24.35571387714158
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 1.4941834177572635
+              }
+            ]
+          }
+        },
+        "preferredUnblockedDirection": "X_POS"
+      },
+      "THUMB_JOYSTICK_HW504_COMPONENT_1": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              12.004562001885494,
+              -42.55307753335716,
+              42.5070692571032
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 10.248129520238702
+              }
+            ]
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              -15.430075752931296,
+              -16.17276237017888,
+              21.557192566382547
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 12.98994186067935
+              }
+            ]
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              4.045666757863774,
+              -8.224152365599032,
+              23.19114288829214
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 2.717300236020968,
+            "blocked": false,
+            "intersections": []
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              -15.195605281066143,
+              -43.37075724983449,
+              41.72640386143463
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 3.8405491212468825
+              }
+            ]
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              -4.9492486455594,
+              -30.756313533721343,
+              48.75200001982694
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 1.2217339787889512,
+            "blocked": false,
+            "intersections": []
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              11.769909676256592,
+              -16.153576022679275,
+              21.336730223036348
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 0.8643739172125982
+              }
+            ]
+          }
+        },
+        "preferredUnblockedDirection": "Y_POS"
+      },
+      "THUMB_JOYSTICK_HW504_COMPONENT_2": {
+        "terminalSemanticLimit": "the imported occurrence is one fused exact solid; connector sub-bodies are not separately named. Probe starts are conservative exact-B-rep support points, not a production pinout.",
+        "candidates": {
+          "X_POS": {
+            "probeStartMm": [
+              4.980333924637412,
+              -22.56754605669779,
+              36.253471437545066
+            ],
+            "direction": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 5.019452946533722,
+            "blocked": false,
+            "intersections": []
+          },
+          "X_NEG": {
+            "probeStartMm": [
+              -12.418511287189585,
+              -22.97677077000956,
+              37.40560927581066
+            ],
+            "direction": [
+              -1.0,
+              0.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 3.4791904834668
+              }
+            ]
+          },
+          "Y_POS": {
+            "probeStartMm": [
+              1.0591896571042998,
+              -16.460362152666907,
+              46.88257076031182
+            ],
+            "direction": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 3.186181682217022
+              }
+            ]
+          },
+          "Y_NEG": {
+            "probeStartMm": [
+              -0.21427865342432062,
+              -32.13795638764801,
+              34.57962693321263
+            ],
+            "direction": [
+              0.0,
+              -1.0,
+              0.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JaD",
+                "penetrationVolumeMm3": 1.6820005244800704
+              },
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 3.549959727876167
+              }
+            ]
+          },
+          "Z_POS": {
+            "probeStartMm": [
+              -1.4879965594064752,
+              -18.864910490035427,
+              48.730086771349995
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 0.0,
+            "blocked": true,
+            "intersections": [
+              {
+                "obstacle": "SHELL_JfD",
+                "penetrationVolumeMm3": 0.7648342164550341
+              }
+            ]
+          },
+          "Z_NEG": {
+            "probeStartMm": [
+              -0.22326046138406364,
+              -20.8651749428508,
+              32.910467172369586
+            ],
+            "direction": [
+              0.0,
+              0.0,
+              -1.0
+            ],
+            "probeLengthMm": 12.0,
+            "probeSectionMm": 1.2,
+            "minimumClearanceMm": 2.3237223412307983,
+            "blocked": false,
+            "intersections": []
+          }
+        },
+        "preferredUnblockedDirection": "X_POS"
+      }
+    },
+    "directionSummary": {
+      "X_POS": {
+        "blockedProbeCount": 4,
+        "minimumClearanceMm": 0.0
+      },
+      "X_NEG": {
+        "blockedProbeCount": 5,
+        "minimumClearanceMm": 0.0
+      },
+      "Y_POS": {
+        "blockedProbeCount": 6,
+        "minimumClearanceMm": 0.0
+      },
+      "Y_NEG": {
+        "blockedProbeCount": 7,
+        "minimumClearanceMm": 0.0
+      },
+      "Z_POS": {
+        "blockedProbeCount": 9,
+        "minimumClearanceMm": 0.0
+      },
+      "Z_NEG": {
+        "blockedProbeCount": 3,
+        "minimumClearanceMm": 0.0
+      }
+    }
+  },
+  "reuse": {
+    "originalThumbParts": 20,
+    "reusableAsIsDropIn": 17,
+    "shellSideAdaptationOnly": 1,
+    "originalMountingPartModification": 0,
+    "mechanismRedesignRequired": 2,
+    "directDropInRatioPercent": 85.0,
+    "originalPartsRetainedUnchanged": 18,
+    "originalThumbReuseRatioPercent": 90.0,
+    "reusableAsIsPartNames": [
+      "THUMB_BUTTON_1_CAP__Button_corner_1",
+      "THUMB_BUTTON_2_CAP__Button_middle_1",
+      "THUMB_BUTTON_3_CAP__Button_corner_2",
+      "THUMB_BUTTON_4_CAP__Button_side_1",
+      "THUMB_BUTTON_5_CAP__Button_middle_2",
+      "THUMB_BUTTON_6_CAP__Button_side_2",
+      "THUMB_BUTTON_7_CAP__Button_wide_1",
+      "THUMB_BUTTON_8_CAP__Button_wide_2",
+      "THUMB_BUTTON_1_PUSHBTN",
+      "THUMB_BUTTON_2_PUSHBTN",
+      "THUMB_BUTTON_3_PUSHBTN",
+      "THUMB_BUTTON_4_PUSHBTN",
+      "THUMB_BUTTON_5_PUSHBTN",
+      "THUMB_BUTTON_6_PUSHBTN",
+      "THUMB_BUTTON_7_PUSHBTN",
+      "THUMB_BUTTON_8_PUSHBTN",
+      "THUMB_JOYSTICK_SMALL_ATTACHMENT"
+    ],
+    "shellSideAdaptationPartNames": [
+      "THUMB_BACKPLATE"
+    ],
+    "mountingPartModificationPartNames": [],
+    "mechanismRedesignPartNames": [
+      "THUMB_JOYSTICK_HW504_COMPONENT_1",
+      "THUMB_JOYSTICK_HW504_COMPONENT_2"
+    ],
+    "definition": "ORIGINAL THUMB REUSE RATIO counts original part geometries that can remain unchanged, including Class A/B shell-side adaptation. DIRECT DROP-IN RATIO excludes all adaptation."
+  },
+  "verdict": {
+    "CURRENT EXTERIOR": "PRESERVED",
+    "ORIGINAL THUMB CARTRIDGE": "IDENTIFIED",
+    "JOYSTICK ALIGNMENT": "PASS",
+    "THUMB BUTTON ALIGNMENT": "PASS",
+    "ORIGINAL THUMB MECHANISM": "REDESIGN REQUIRED",
+    "ORIGINAL BACKPLATE": "ADAPTER REQUIRED",
+    "ORIGINAL FASTENING": "ADAPTER REQUIRED",
+    "SHELL INTERNAL ADAPTATION": "MAJOR",
+    "FINGER CONFLICT": "PRESENT",
+    "ORIGINAL THUMB REUSE RATIO": "90.0 %"
+  },
+  "limitations": [
+    "Current exact review STEP uses the documented 0.80 mm localized opening envelopes; the authoritative actual lower-15 exterior is a visual STL graft, not an exact editable B-rep.",
+    "Finger switches/carriers are the present frozen V2 exact reference set; the handoff still marks internal design as deferred, so these collisions are audit evidence, not production approval.",
+    "PushBtn/HW504 connector sub-bodies are not semantically separated in the imported STEP; wiring probes are conservative clearance directions only.",
+    "No collision has been auto-fixed and no production geometry has been created."
+  ],
+  "stop": "STOP AFTER ANALYSIS; await user review before any internal redesign.",
+  "outputs": {
+    "ORIGINAL_THUMB_CARTRIDGE.step": {
+      "path": "build123d_workbench\\out\\original_thumb_module_reuse_audit\\ORIGINAL_THUMB_CARTRIDGE.step",
+      "sha256": "ee6ed6848e7c0481a2c73639c85fc39bf63ac837514ca13b16bdc1bc6e075527"
+    },
+    "LOWERED_ORIGINAL_THUMB_CARTRIDGE.step": {
+      "path": "build123d_workbench\\out\\original_thumb_module_reuse_audit\\LOWERED_ORIGINAL_THUMB_CARTRIDGE.step",
+      "sha256": "f7a7cea568b08ff1565b90c886de955cccf246bf88b7f4a46a00ca61f35c4bc2"
+    },
+    "ORIGINAL_FASTENING_REFERENCE.step": {
+      "path": "build123d_workbench\\out\\original_thumb_module_reuse_audit\\ORIGINAL_FASTENING_REFERENCE.step",
+      "sha256": "540d8e36712e2f20e59d449c9a74fd6bf4265db18a1daf7b3ee28f92611d8068"
+    },
+    "ORIGINAL_THUMB_COLLISION_DEBUG.step": {
+      "path": "build123d_workbench\\out\\original_thumb_module_reuse_audit\\ORIGINAL_THUMB_COLLISION_DEBUG.step",
+      "sha256": "dfbe62248079029a5928342f9231007c4e93572689c6795ee196bd60c18a1058"
+    },
+    "THUMB_WIRING_CLEARANCE_PROBES.step": {
+      "path": "build123d_workbench\\out\\original_thumb_module_reuse_audit\\THUMB_WIRING_CLEARANCE_PROBES.step",
+      "sha256": "16140680357f939cd3574016228e47a1db8a11130b31b5e6daa8be4f6be8db5c"
+    }
+  }
+}

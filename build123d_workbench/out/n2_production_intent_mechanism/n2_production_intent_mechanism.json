@@ -1,0 +1,783 @@
+{
+  "schema": "onegrip.n2.production_intent_mechanism.v1",
+  "generatedUtc": "2026-08-22T17:44:25.128237+00:00",
+  "mode": "N2 LOCAL PRODUCTION-INTENT / SERIAL OCCT / FULL SHELL 0",
+  "physicalEvidence": {
+    "source": "user-reported physical ITS-1105 continuity and trimmed-sample test, 2026-08-23",
+    "T1T2": "ALWAYS CONNECTED",
+    "T3T4": "ALWAYS CONNECTED",
+    "T1T3": "OPEN AT REST / CLOSED WHEN PRESSED",
+    "T2T4ExternalTrim": "T1-T3 switching and actuator return confirmed normal",
+    "candidateAStatus": "ADOPTED"
+  },
+  "freeze": {
+    "externalCenterMovementMm": 0.0,
+    "capOrientationChangeDeg": 0.0,
+    "capTravelAxisChangeDeg": 0.0,
+    "switchPositionChangeMm": 0.0,
+    "HW504AChangeMm3": 0.0,
+    "HW504BChangeMm3": 0.0,
+    "externalGeometryRemovedMm3": 0.0,
+    "externalGeometryAddedMm3": 0.0,
+    "externalGeometrySymmetricDifferenceMm3": 0.0,
+    "N1GeometryChange": 0
+  },
+  "electrical": {
+    "activeTerminals": [
+      "T1",
+      "T3"
+    ],
+    "unusedTrimmedTerminals": [
+      "T2",
+      "T4"
+    ],
+    "trimCutDepthMm": 8.51,
+    "stubBeyondHousingRearAxialMm": 0.15000000000000036,
+    "separateSpring": 0
+  },
+  "mechanism": {
+    "capRetention": "6.50 mm square internal shoulder captured by three-sided carrier guide",
+    "guideBoreDiameterMm": 4.8,
+    "capGuideDiameterMm": 4.5,
+    "guideRadialClearanceMm": 0.1499999999999999,
+    "squareCavitySizeMm": 6.8,
+    "squareShoulderSizeMm": 6.5,
+    "guideLateralClearanceMm": 0.1499999999999999,
+    "contactDiameterMm": 3.0,
+    "nominalAndMaximumCapTravelMm": 0.35,
+    "hardStop": "cap square shoulder to carrier rear stop",
+    "returnPath": "ITS internal return -> actuator -> centered cap contact -> cap",
+    "rearReactionContactAreaMm2": 13.18277569345569,
+    "rearReactionHW504ARelief": {
+      "HW504AReliefMarginMm": 0.15,
+      "HW504AReliefRemovedMm3": 0.8821083258263229,
+      "reactionMaterialRemainingMm3": 2.636555138691129,
+      "reactionContactAreaEstimateMm2": 13.18277569345569,
+      "switchServiceCorridorPenetrationAfterCutMm3": 0.0,
+      "reliefToolBboxMm": {
+        "min": [
+          -2.7758550971093037,
+          -30.390392608766227,
+          31.381778057858114
+        ],
+        "max": [
+          2.76879904301288,
+          -29.395022886820097,
+          32.45890684477228
+        ]
+      }
+    },
+    "guideWallMm": 1.2500000000000004,
+    "reactionMinimumWallMm": 1.2000000000000002,
+    "existingCarrierConservativeWallMm": 1.3148483522514047,
+    "minimumStructuralWallMm": 1.2000000000000002,
+    "service": "shell-open, carrier-release, lateral C-path; pre-solder/replace T1/T3 through rear bay"
+  },
+  "checks": {
+    "motionStates": [
+      {
+        "travelMm": 0.0,
+        "capGuide": {
+          "pair": "cap<->guide @ 0.000",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.552713678800501e-15,
+          "closestPointLeftMm": [
+            -3.0117532159481377,
+            -30.940455534505137,
+            23.98660761913212
+          ],
+          "closestPointRightMm": [
+            -3.0117532159481377,
+            -30.94045553450514,
+            23.98660761913212
+          ],
+          "passZeroPenetration": true
+        },
+        "capShell": {
+          "pairCount": 2,
+          "penetrationMm3": 0.0,
+          "minimumDistanceMm": 0.39999999999317176,
+          "zeroPenetration": true,
+          "pairs": [
+            {
+              "pair": "cap<->N2_SEAM_JaD @ 0.000",
+              "aabbGapMm": 0.0,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.39999999999317176,
+              "closestPointLeftMm": [
+                3.900973204808,
+                -33.8502906668,
+                21.832060582142
+              ],
+              "closestPointRightMm": [
+                3.9111968291306796,
+                -33.64675558709081,
+                21.487867396803612
+              ],
+              "passZeroPenetration": true
+            },
+            {
+              "pair": "cap<->N2_SEAM_JfD @ 0.000",
+              "aabbGapMm": 0.0,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.39999999999317176,
+              "closestPointLeftMm": [
+                -3.883706053752,
+                -37.33618772674,
+                28.371731103573
+              ],
+              "closestPointRightMm": [
+                -3.8939296780746795,
+                -37.53972280644919,
+                28.715924288911385
+              ],
+              "passZeroPenetration": true
+            }
+          ]
+        },
+        "capActuator": {
+          "pair": "cap.contact<->actuator @ 0.000",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 7.95651227888113e-15,
+          "closestPointLeftMm": [
+            1.5999874536870813,
+            -33.8121868723196,
+            26.202370945718897
+          ],
+          "closestPointRightMm": [
+            1.5999874536870817,
+            -33.81218687231959,
+            26.2023709457189
+          ],
+          "passZeroPenetration": true
+        },
+        "frontRetentionStop": {
+          "pair": "cap.shoulder<->front retention @ 0.000",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.552713678800501e-15,
+          "closestPointLeftMm": [
+            -3.1778871111914633,
+            -34.24790057978229,
+            29.579746880881544
+          ],
+          "closestPointRightMm": [
+            -3.1778871111914633,
+            -34.24790057978229,
+            29.57974688088154
+          ],
+          "passZeroPenetration": true
+        },
+        "rearOvertravelStop": {
+          "pair": "cap.shoulder<->rear hard stop @ 0.000",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.3499999999999967,
+          "closestPointLeftMm": [
+            -3.1649367478990107,
+            -33.99008073607474,
+            29.732590645167843
+          ],
+          "closestPointRightMm": [
+            -3.1498279907244826,
+            -33.68929091841592,
+            29.910908370168524
+          ],
+          "passZeroPenetration": true
+        },
+        "analyticalFrontRetentionGapMm": 0.0,
+        "analyticalRearHardStopGapMm": 0.35,
+        "actuatorProjectionMm": 2.44
+      },
+      {
+        "travelMm": 0.175,
+        "capGuide": {
+          "pair": "cap<->guide @ 0.175",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.14999999999705077,
+          "closestPointLeftMm": [
+            3.334433101318424,
+            -34.16577154494357,
+            29.821749507668184
+          ],
+          "closestPointRightMm": [
+            3.330599242197424,
+            -34.242097199834575,
+            29.95082195217009
+          ],
+          "passZeroPenetration": true
+        },
+        "capShell": {
+          "pairCount": 2,
+          "penetrationMm3": 0.0,
+          "minimumDistanceMm": 0.3999999999930889,
+          "zeroPenetration": true,
+          "pairs": [
+            {
+              "pair": "cap<->N2_SEAM_JaD @ 0.175",
+              "aabbGapMm": 0.0,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.3999999999930889,
+              "closestPointLeftMm": [
+                3.908527583395264,
+                -33.699895757970594,
+                21.92121944464234
+              ],
+              "closestPointRightMm": [
+                3.918751207717945,
+                -33.496360678261375,
+                21.577026259303903
+              ],
+              "passZeroPenetration": true
+            },
+            {
+              "pair": "cap<->N2_SEAM_JfD @ 0.175",
+              "aabbGapMm": 0.0,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.3999999999930889,
+              "closestPointLeftMm": [
+                -3.876151675164736,
+                -37.185792817910595,
+                28.460889966073342
+              ],
+              "closestPointRightMm": [
+                -4.275648011818458,
+                -37.16572600451377,
+                28.460889966073342
+              ],
+              "passZeroPenetration": true
+            }
+          ]
+        },
+        "capActuator": {
+          "pair": "cap.contact<->actuator @ 0.175",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.5596458096434965e-15,
+          "closestPointLeftMm": [
+            1.6075418322743453,
+            -33.661791963490195,
+            26.291529808219238
+          ],
+          "closestPointRightMm": [
+            1.6075418322743456,
+            -33.661791963490195,
+            26.29152980821924
+          ],
+          "passZeroPenetration": true
+        },
+        "frontRetentionStop": {
+          "pair": "cap.shoulder<->front retention @ 0.175",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.1750000000000014,
+          "closestPointLeftMm": [
+            -3.1703327326041992,
+            -34.097505670952884,
+            29.668905743381885
+          ],
+          "closestPointRightMm": [
+            -3.1778871111914633,
+            -34.247900579782296,
+            29.579746880881544
+          ],
+          "passZeroPenetration": true
+        },
+        "rearOvertravelStop": {
+          "pair": "cap.shoulder<->rear hard stop @ 0.175",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.17499999999999835,
+          "closestPointLeftMm": [
+            -3.1573823693117467,
+            -33.83968582724533,
+            29.821749507668184
+          ],
+          "closestPointRightMm": [
+            -3.1498279907244826,
+            -33.68929091841592,
+            29.910908370168528
+          ],
+          "passZeroPenetration": true
+        },
+        "analyticalFrontRetentionGapMm": 0.175,
+        "analyticalRearHardStopGapMm": 0.175,
+        "actuatorProjectionMm": 2.265
+      },
+      {
+        "travelMm": 0.35,
+        "capGuide": {
+          "pair": "cap<->guide @ 0.350",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 5.0280510333510306e-15,
+          "closestPointLeftMm": [
+            -2.983694095481157,
+            -30.381845873138765,
+            24.3177691084191
+          ],
+          "closestPointRightMm": [
+            -2.9836940954811575,
+            -30.381845873138772,
+            24.317769108419096
+          ],
+          "passZeroPenetration": true
+        },
+        "capShell": {
+          "pairCount": 2,
+          "penetrationMm3": 0.0,
+          "minimumDistanceMm": 0.39999999999300295,
+          "zeroPenetration": true,
+          "pairs": [
+            {
+              "pair": "cap<->N2_SEAM_JaD @ 0.350",
+              "aabbGapMm": 0.0,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.39999999999300295,
+              "closestPointLeftMm": [
+                3.916081961982528,
+                -33.54950084914118,
+                22.01037830714268
+              ],
+              "closestPointRightMm": [
+                3.9263055863052103,
+                -33.345965769431935,
+                21.666185121804197
+              ],
+              "passZeroPenetration": true
+            },
+            {
+              "pair": "cap<->N2_SEAM_JfD @ 0.350",
+              "aabbGapMm": 0.0,
+              "penetrationMm3": 0.0,
+              "distanceMm": 0.39999999999300295,
+              "closestPointLeftMm": [
+                -3.8685972965774718,
+                -37.03539790908118,
+                28.550048828573683
+              ],
+              "closestPointRightMm": [
+                -4.268093633231181,
+                -37.01533109568436,
+                28.550048828573683
+              ],
+              "passZeroPenetration": true
+            }
+          ]
+        },
+        "capActuator": {
+          "pair": "cap.contact<->actuator @ 0.350",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.5596458096434965e-15,
+          "closestPointLeftMm": [
+            1.6150962108616094,
+            -33.51139705466078,
+            26.38068867071958
+          ],
+          "closestPointRightMm": [
+            1.6150962108616096,
+            -33.51139705466078,
+            26.380688670719582
+          ],
+          "passZeroPenetration": true
+        },
+        "frontRetentionStop": {
+          "pair": "cap.shoulder<->front retention @ 0.350",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.35000000000000464,
+          "closestPointLeftMm": [
+            -3.162778354016935,
+            -33.94711076212347,
+            29.758064605882225
+          ],
+          "closestPointRightMm": [
+            -3.1778871111914637,
+            -34.24790057978229,
+            29.57974688088154
+          ],
+          "passZeroPenetration": true
+        },
+        "rearOvertravelStop": {
+          "pair": "cap.shoulder<->rear hard stop @ 0.350",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.0,
+          "closestPointLeftMm": [
+            -3.1498279907244826,
+            -33.68929091841592,
+            29.910908370168524
+          ],
+          "closestPointRightMm": [
+            -3.1498279907244826,
+            -33.68929091841592,
+            29.910908370168524
+          ],
+          "passZeroPenetration": true
+        },
+        "analyticalFrontRetentionGapMm": 0.35,
+        "analyticalRearHardStopGapMm": 0.0,
+        "actuatorProjectionMm": 2.09
+      }
+    ],
+    "switchCarrier": {
+      "pair": "ITS body<->production carrier",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 3.340222386904035e-12,
+      "closestPointLeftMm": [
+        -2.601718401269669,
+        -33.227459789505424,
+        30.361254202331914
+      ],
+      "closestPointRightMm": [
+        -2.6017184012698134,
+        -33.227459789508295,
+        30.361254202330212
+      ],
+      "passZeroPenetration": true
+    },
+    "activeTerminalsToHW504B": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 2.119093039912462,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "HW504_B<->T1",
+          "aabbGapMm": 1.2585402590008528,
+          "penetrationMm3": 0.0,
+          "distanceMm": 2.119093039912462,
+          "closestPointLeftMm": [
+            -2.1413275110268444,
+            -26.791236105964234,
+            30.735137010483793
+          ],
+          "closestPointRightMm": [
+            -3.206070177640166,
+            -26.008721443880646,
+            29.078468917798116
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "HW504_B<->T3",
+          "aabbGapMm": 1.9441492472218194,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.203679233135281,
+          "closestPointLeftMm": [
+            1.9745591409799563,
+            -26.948578634318995,
+            30.851747590581287
+          ],
+          "closestPointRightMm": [
+            3.739012760286969,
+            -26.10239237826097,
+            28.31516861996059
+          ],
+          "passZeroPenetration": true
+        }
+      ],
+      "clearanceTargetMm": 0.8,
+      "clearancePass": true
+    },
+    "trimmedTerminalsToHW504B": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 0.8187689702669058,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "HW504_B<->T2 trimmed",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.8187689702669058,
+          "closestPointLeftMm": [
+            -3.00593077232415,
+            -29.37924080203556,
+            32.668737365830445
+          ],
+          "closestPointRightMm": [
+            -3.00607966854713,
+            -29.869268601463716,
+            32.0127988319041
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "HW504_B<->T4 trimmed",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 1.3621974675395752,
+          "closestPointLeftMm": [
+            3.2804109322875123,
+            -29.046232926289196,
+            32.418532322839575
+          ],
+          "closestPointRightMm": [
+            3.6613376050991246,
+            -29.819335248126546,
+            31.363643887751955
+          ],
+          "passZeroPenetration": true
+        }
+      ],
+      "clearanceTargetMm": 0.8,
+      "clearancePass": true
+    },
+    "carrierToHW504": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 0.004964233035254003,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "HW504_A<->production carrier",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.004964233035254003,
+          "closestPointLeftMm": [
+            -5.022298042306514,
+            -25.31773883436635,
+            28.37427202130848
+          ],
+          "closestPointRightMm": [
+            -5.022298945071,
+            -25.32070989492,
+            28.370295036521
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "HW504_B<->production carrier",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 1.0110003334839899,
+          "closestPointLeftMm": [
+            2.7689828972337334,
+            -29.42370201705335,
+            32.70064183162905
+          ],
+          "closestPointRightMm": [
+            2.7687990430128804,
+            -30.02877901267617,
+            31.890701420320646
+          ],
+          "passZeroPenetration": true
+        }
+      ]
+    },
+    "carrierToLocalShell": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 0.24097489252077478,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "production carrier<->N2_SEAM_JaD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.24097489252077478,
+          "closestPointLeftMm": [
+            4.6996981030789815,
+            -34.89242569506542,
+            29.60692348252592
+          ],
+          "closestPointRightMm": [
+            4.697918777115952,
+            -35.09745776310615,
+            29.480323388136313
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "production carrier<->N2_SEAM_JfD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.3344671844751571,
+          "closestPointLeftMm": [
+            0.014438238494450764,
+            -30.78016008429103,
+            23.06725296109341
+          ],
+          "closestPointRightMm": [
+            -7.268190935787e-14,
+            -31.06760100838,
+            22.896848882742
+          ],
+          "passZeroPenetration": true
+        }
+      ]
+    },
+    "serviceSweeps": {
+      "switch": {
+        "pair": "production carrier<->switch service sweep",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 0.0,
+        "closestPointLeftMm": [
+          3.1169018453030803,
+          -30.00059844866714,
+          24.433586164861396
+        ],
+        "closestPointRightMm": [
+          3.116901845303081,
+          -30.000598448667144,
+          24.433586164861396
+        ],
+        "passZeroPenetration": true
+      },
+      "cap": {
+        "pair": "production carrier<->cap service sweep",
+        "aabbGapMm": 0.0,
+        "penetrationMm3": 0.0,
+        "distanceMm": 5.05486871819381e-15,
+        "closestPointLeftMm": [
+          0.21242931768128204,
+          -31.536010437736653,
+          24.71801813797627
+        ],
+        "closestPointRightMm": [
+          0.21242931768128265,
+          -31.536010437736646,
+          24.718018137976273
+        ],
+        "passZeroPenetration": true
+      }
+    }
+  },
+  "verdict": "PASS / PRODUCTION-INTENT INTERNAL BASELINE",
+  "failures": [],
+  "productionScope": {
+    "changedSolids": [
+      "N2 cap internal solid",
+      "shared carrier N2 local features"
+    ],
+    "unchanged": [
+      "N1 geometry",
+      "exterior shell",
+      "HW504 A/B",
+      "switch pose",
+      "external cap geometry"
+    ]
+  },
+  "inputs": {
+    "docs57Step": {
+      "path": "build123d_workbench\\out\\option_c_final_local_fit\\OPTION_C_FINAL_LOCAL_FIT.step",
+      "sha256": "7beb889749a96b575c38a71a56d0ca17f52ae4c9ef2f0fedab9f73c7f4091d6e"
+    },
+    "docs57Json": {
+      "path": "build123d_workbench\\out\\option_c_final_local_fit\\option_c_final_local_fit.json",
+      "sha256": "1a91d96896cc71b0bbebc7bd0526fa9d4e90af6ae24394fc0cea8bc98f36b2c5"
+    },
+    "manifest": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\finger_controls_v2_source_manifest.json",
+      "sha256": "2de88051c9c981a04f284b5dde48e4a15861606e5bae3f1376e2a7ef6539c5b2"
+    },
+    "baseCap": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\N2_cap.step",
+      "sha256": "4635272422a61cc14bb52a8e1535267d0b1f45ba3c429693b0d1992b2a9d4894"
+    }
+  },
+  "outputs": {
+    "capStep": "build123d_workbench\\out\\n2_production_intent_mechanism\\N2_PRODUCTION_INTENT_CAP.step",
+    "capStl": "build123d_workbench\\out\\n2_production_intent_mechanism\\N2_PRODUCTION_INTENT_CAP.stl",
+    "carrierStep": "build123d_workbench\\out\\n2_production_intent_mechanism\\N1_N2_SHARED_CARRIER_N2_PRODUCTION_INTENT.step",
+    "carrierStl": "build123d_workbench\\out\\n2_production_intent_mechanism\\N1_N2_SHARED_CARRIER_N2_PRODUCTION_INTENT.stl",
+    "assemblyStep": "build123d_workbench\\out\\n2_production_intent_mechanism\\N2_PRODUCTION_INTENT_LOCAL_ASSEMBLY.step",
+    "json": "build123d_workbench\\out\\n2_production_intent_mechanism\\n2_production_intent_mechanism.json",
+    "report": "docs\\60_n2_production_intent_mechanism.md",
+    "renders": [
+      "renders\\n2_production_intent_mechanism\\01_n2_exploded.png",
+      "renders\\n2_production_intent_mechanism\\02_n2_rest_section.png",
+      "renders\\n2_production_intent_mechanism\\03_n2_pressed_0p35_section.png",
+      "renders\\n2_production_intent_mechanism\\04_cap_retention_closeup.png",
+      "renders\\n2_production_intent_mechanism\\05_rear_support_closeup.png",
+      "renders\\n2_production_intent_mechanism\\06_terminal_hw504_clearance.png",
+      "renders\\n2_production_intent_mechanism\\07_transparent_assembled_n2.png"
+    ]
+  },
+  "memory": [
+    {
+      "stage": "start",
+      "rssMb": 375.9
+    },
+    {
+      "stage": "docs/57 local source loaded",
+      "rssMb": 398.7
+    },
+    {
+      "stage": "T1/T3 active and T2/T4 production stubs modeled",
+      "rssMb": 401.7
+    },
+    {
+      "stage": "production cap built",
+      "rssMb": 402.6
+    },
+    {
+      "stage": "three-sided cap guide built",
+      "rssMb": 403.2
+    },
+    {
+      "stage": "rear reaction support built",
+      "rssMb": 403.3
+    },
+    {
+      "stage": "N2 production carrier fused and HW504-A relieved",
+      "rssMb": 414.6
+    },
+    {
+      "stage": "exact motion state 0.000 mm",
+      "rssMb": 418.0
+    },
+    {
+      "stage": "exact motion state 0.175 mm",
+      "rssMb": 420.2
+    },
+    {
+      "stage": "exact motion state 0.350 mm",
+      "rssMb": 421.4
+    },
+    {
+      "stage": "static and service exact checks",
+      "rssMb": 439.1
+    },
+    {
+      "stage": "production local solids exported",
+      "rssMb": 442.7
+    },
+    {
+      "stage": "render 01 exploded",
+      "rssMb": 446.8
+    },
+    {
+      "stage": "render 02 rest section",
+      "rssMb": 448.3
+    },
+    {
+      "stage": "render 03 pressed section",
+      "rssMb": 448.4
+    },
+    {
+      "stage": "render 04 retention",
+      "rssMb": 448.4
+    },
+    {
+      "stage": "render 05 rear support",
+      "rssMb": 448.4
+    },
+    {
+      "stage": "render 06 terminals",
+      "rssMb": 452.7
+    },
+    {
+      "stage": "render 07 transparent assembly",
+      "rssMb": 455.7
+    }
+  ],
+  "stop": "User visual review required; do not extend to N1 or other buttons"
+}
