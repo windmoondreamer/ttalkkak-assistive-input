@@ -1,0 +1,458 @@
+FeatureScript 2878;
+import(path : "onshape/std/geometry.fs", version : "2878.0");
+
+/* ============================================================================
+   OneGrip Play — 스톡 짐벌 컨포멀 매립 하우징
+
+       OneGrip (무수정, Pitch post 에서 탈착)
+            |
+       스톡 짐벌 전체 (STOCK_GIMBAL_INTERNALS = IMMUTABLE)
+            |   기존 M3 2개 (C1/C2) + 비대칭 위치결정 포켓
+       BOTTOM_CARRIER   <- 아래에서 탈착하는 서비스 판
+            |   플랜지 + 환형 착좌면 + M3 8개
+       CONFORMAL_HOUSING  (20도 경사 두꺼운 중공체)
+
+   얇은 덱에 짐벌을 매다는 구조가 아니다.
+   **경사 외피 자체가 짐벌을 담는 체적**이고, 짐벌은 그 안 공동에 들어간다.
+
+   좌표계 = 그립 Part Studio 프레임.
+     경사 외피(= 인체공학 기준면) 법선을 그립 +Z 로 두어
+     `GRIP_AXIS ⟂ INCLINED_OUTER_SURFACE` 를 정의상 성립시킨다.
+     20도는 **바닥 절단 두 평면**에만 존재한다.
+
+   공동은 상자가 아니다. Z 밴드별 실측 포락선을 따른다:
+     STOCK_FIXED ∪ STOCK_MOVING(9자세) ∪ ELECTRONICS ∪ CABLE
+     ∪ (그립 제거 후 중립 하방 인출 스윕)
+
+   FeatureScript 주의 (lower_adapter/docs/01 §11, docs/06 부록):
+     - 함수 인자 7개 초과 금지,  함수명 `box` 금지
+     - body 생성 id 는 feature id 하위여야 한다
+     - `id + "xa"` 와 `id + "x" + "a"` 는 다른 id 다
+     - qCreatedBy 는 스케치 wire 도 잡으므로 boolean 에는 qBodyType(SOLID) 로 감싼다
+   ============================================================================ */
+
+export enum ConfStage
+{
+    annotation { "Name" : "A conformal housing" }
+    HOUSING,
+    annotation { "Name" : "B bottom carrier" }
+    CARRIER
+}
+
+// ======================= 생성 상수 (gen_conformal_fs.py) =======================
+// 스톡 실측 인터페이스 (변경 금지)
+const CX = 0.354442;
+const CY = 26.689150;
+const BODY_W = 100.000;
+const BODY_D = 100.000;
+const BASE_BOT = -149.956514;
+const TAIL_CX = 0.354400;
+const TAIL_W0 = 28.000;
+const C_X = 0.354430;
+const C1_Y = 60.325240;
+const C2_Y = -6.946830;
+const C_SLOT_L = 11.400;
+
+// 구조
+const CAR_TOP = -146.956514;
+const CAR_BOT = -155.956514;
+const SKIRT_T = 5.000;
+const M3_CLR = 3.400;
+const M3_CB = 6.600;
+const CB_D = 3.500;
+const INSERT_D = 4.000;
+const INSERT_L = 8.000;
+
+// 컨포멀 공동 (Z 밴드별 실측 포락선)
+const CAV = [[-52.000, 52.000, -30.000, 79.000], [-45.000, 46.000, -25.000, 76.000], [-33.000, 31.000, -25.000, 70.000], [-33.000, 31.000, -16.000, 70.000], [-35.000, 31.000, -10.000, 73.000], [-35.000, 35.000, -10.000, 70.000], [-36.000, 36.000, -12.000, 66.000], [-45.000, 45.000, -17.000, 66.000], [-49.000, 49.000, -20.000, 73.000], [-46.000, 46.000, -18.000, 71.000]];
+const CAV_Z = [-155.9565, -137.0000, -132.0000, -126.0000, -116.0000, -98.0000, -90.0000, -84.0000, -80.0000, -68.0000, -61.8785];
+
+// 외피 (위쪽 최대의 단조 포락 + 벽)
+const OUTER = [[-64.300, 64.300, -42.300, 91.300], [-59.150, 59.150, -36.150, 86.150], [-54.000, 54.000, -30.000, 78.000], [-54.000, 54.000, -25.000, 78.000]];
+const OUTER_Z = [-146.9565, -137.0000, -132.0000, -116.0000, -61.8785];
+
+// 꼬리 (전장 / USB)
+const TAIL_CAV = [-16.000, 16.000, -72.000, -20.000];
+const TAIL_CAV_Z = [-155.9565, -126.0000];
+const TAIL_OUT = [-21.000, 21.000, -77.000, 0.000];
+const TAIL_OUT_Z = [-146.9565, -121.0000];
+const TAIL_CAR_OPEN = [-18.300, 18.300, -74.300, -20.000];
+const TAIL_SKIRT = [-23.300, 23.300, -79.300, 0.000];
+
+// 캐리어 / 스커트
+const CARRIER = [-59.000, 59.000, -37.000, 86.000];
+const CAR_OPEN = [-59.300, 59.300, -37.300, 86.300];
+const SKIRT = [-64.300, 64.300, -42.300, 91.300];
+const SCREWS = [[55.500, 64.500], [-55.500, 64.500], [55.500, 24.500], [-55.500, 24.500], [55.500, -15.500], [-55.500, -15.500], [28.000, 82.500], [-28.000, 82.500], [28.000, -33.500], [-28.000, -33.500]];
+
+// 바닥 절단 — 20도는 여기에만 존재한다
+const N_GROUND = vector(0.0000000000000000, 0.3420201433256687, 0.9396926207859084);
+const D_GROUND = -171.326109;
+const N_KNEE = vector(0.0000000000000000, -0.2419218955996678, 0.9702957262759966);
+const D_KNEE = -187.617163;
+const GROUND_ZMIN = -220.5519;
+
+// USB / 케이블 포트
+const USB_CX = 0.3540;
+const USB_W = 16.000;
+const USB_Z0 = -155.8063;
+const USB_Z1 = -138.2482;
+// =============================================================================
+
+const BIG = 500 * millimeter;
+
+// ---------- 유틸 ----------
+
+function mkBox(context is Context, id is Id, c is Vector, wd is Vector,
+               z0 is ValueWithUnits, z1 is ValueWithUnits)
+{
+    fCuboid(context, id, {
+                "corner1" : vector(c[0] - wd[0] / 2, c[1] - wd[1] / 2, z0),
+                "corner2" : vector(c[0] + wd[0] / 2, c[1] + wd[1] / 2, z1)
+            });
+}
+
+/** 모서리 반경 r 의 둥근 사각 기둥 (x0,x1,y0,y1 지정). */
+function mkRound(context is Context, id is Id, r4 is array, r is ValueWithUnits,
+                 z0 is ValueWithUnits, z1 is ValueWithUnits)
+{
+    const x0 = r4[0] * millimeter;
+    const x1 = r4[1] * millimeter;
+    const y0 = r4[2] * millimeter;
+    const y1 = r4[3] * millimeter;
+    const c = vector((x0 + x1) / 2, (y0 + y1) / 2);
+    const w = x1 - x0;
+    const d = y1 - y0;
+    var rr = r;
+    if (rr > w / 2 - 0.5 * millimeter)
+    {
+        rr = w / 2 - 0.5 * millimeter;
+    }
+    if (rr > d / 2 - 0.5 * millimeter)
+    {
+        rr = d / 2 - 0.5 * millimeter;
+    }
+    mkBox(context, id + "a", c, vector(w - 2 * rr, d), z0, z1);
+    const acc = qBodyType(qCreatedBy(id + "a", EntityType.BODY), BodyType.SOLID);
+    mkBox(context, id + "b", c, vector(w, d - 2 * rr), z0, z1);
+    opBoolean(context, id + "bj", {
+                "tools" : qUnion([acc, qBodyType(qCreatedBy(id + "b", EntityType.BODY),
+                            BodyType.SOLID)]),
+                "operationType" : BooleanOperationType.UNION
+            });
+    for (var s = 0; s < 4; s += 1)
+    {
+        var sx = 1;
+        var sy = 1;
+        if (s == 1 || s == 2)
+        {
+            sx = -1;
+        }
+        if (s >= 2)
+        {
+            sy = -1;
+        }
+        const cid = id + ("c" ~ s);
+        const px = c[0] + sx * (w / 2 - rr);
+        const py = c[1] + sy * (d / 2 - rr);
+        fCylinder(context, cid, {
+                    "topCenter" : vector(px, py, z1),
+                    "bottomCenter" : vector(px, py, z0),
+                    "radius" : rr
+                });
+        opBoolean(context, cid + "j", {
+                    "tools" : qUnion([acc, qBodyType(qCreatedBy(cid, EntityType.BODY),
+                                BodyType.SOLID)]),
+                    "operationType" : BooleanOperationType.UNION
+                });
+    }
+}
+
+function mkSlot(context is Context, id is Id, c is Vector, w is ValueWithUnits,
+                l is ValueWithUnits, z0 is ValueWithUnits, z1 is ValueWithUnits)
+{
+    mkBox(context, id + "a", c, vector(w, l - w), z0, z1);
+    const acc = qBodyType(qCreatedBy(id + "a", EntityType.BODY), BodyType.SOLID);
+    for (var s = 0; s < 2; s += 1)
+    {
+        var sy = 1;
+        if (s == 1)
+        {
+            sy = -1;
+        }
+        const cid = id + ("e" ~ s);
+        fCylinder(context, cid, {
+                    "topCenter" : vector(c[0], c[1] + sy * (l - w) / 2, z1),
+                    "bottomCenter" : vector(c[0], c[1] + sy * (l - w) / 2, z0),
+                    "radius" : w / 2
+                });
+        opBoolean(context, cid + "j", {
+                    "tools" : qUnion([acc, qBodyType(qCreatedBy(cid, EntityType.BODY),
+                                BodyType.SOLID)]),
+                    "operationType" : BooleanOperationType.UNION
+                });
+    }
+}
+
+function cut(context is Context, id is Id, target is Query, toolId is Id)
+{
+    opBoolean(context, id, {
+                "tools" : qBodyType(qCreatedBy(toolId, EntityType.BODY), BodyType.SOLID),
+                "targets" : target,
+                "operationType" : BooleanOperationType.SUBTRACTION
+            });
+}
+
+function join(context is Context, id is Id, a is Query, toolId is Id)
+{
+    opBoolean(context, id, {
+                "tools" : qUnion([a, qBodyType(qCreatedBy(toolId, EntityType.BODY),
+                            BodyType.SOLID)]),
+                "operationType" : BooleanOperationType.UNION
+            });
+}
+
+/** 평면 n·p = d 의 **아래쪽**(n 반대편) 을 채우는 반공간 solid. */
+function halfSpace(context is Context, id is Id, n is Vector, d is ValueWithUnits)
+{
+    var t = vector(1.0, 0.0, 0.0);
+    if (abs(n[0]) > 0.9)
+    {
+        t = vector(0.0, 1.0, 0.0);
+    }
+    const e1 = normalize(cross(n, t));
+    const p0 = n * d;
+    const sk = newSketchOnPlane(context, id + "sk",
+            { "sketchPlane" : plane(p0, n, e1) });
+    skRectangle(sk, "r", {
+                "firstCorner" : vector(-BIG, -BIG),
+                "secondCorner" : vector(BIG, BIG)
+            });
+    skSolve(sk);
+    opExtrude(context, id + "ex", {
+                "entities" : qSketchRegion(id + "sk", false),
+                "direction" : -n,
+                "endBound" : BoundingType.BLIND,
+                "endDepth" : BIG
+            });
+}
+
+// ---------- 피처 ----------
+
+annotation { "Feature Type Name" : "OneGrip conformal stock housing" }
+export const oneGripConformal = defineFeature(function(context is Context, id is Id,
+        definition is map)
+    precondition
+    {
+        annotation { "Name" : "Stage" }
+        definition.stage is ConfStage;
+    }
+    {
+        // FeatureScript 는 미사용 지역변수를 에러로 본다 -> 실제로 쓰는 것만 읽는다
+        const st = definition.stage;
+        const pclr = getVariable(context, "pocket_clearance2");
+        // 진단용 단계 제한. 0 = 전체. `GET /features` 가 429 일 때 어느 연산이
+        // 실패하는지 좁히는 유일한 수단이다 (평가 엔드포인트는 최상위 선언 불가).
+        const ns = getVariable(context, "trace_steps") / millimeter;
+
+        // ---------------- A. CONFORMAL HOUSING ----------------
+        if (st == ConfStage.HOUSING)
+        {
+            // 1) 외피 밴드 스택
+            mkRound(context, id + "o0", OUTER[0], 10 * millimeter,
+                OUTER_Z[0] * millimeter, OUTER_Z[1] * millimeter);
+            const hs = qBodyType(qCreatedBy(id + "o0" + "a", EntityType.BODY),
+                    BodyType.SOLID);
+            for (var i = 1; i < size(OUTER); i += 1)
+            {
+                const bid = id + ("o" ~ i);
+                mkRound(context, bid, OUTER[i], 10 * millimeter,
+                    OUTER_Z[i] * millimeter, OUTER_Z[i + 1] * millimeter);
+                join(context, bid + "j", hs, bid + "a");
+            }
+
+            if (ns > 0 && ns <= 1)
+            {
+                return;
+            }
+            // 2) 꼬리 외피
+            mkRound(context, id + "to", TAIL_OUT, 8 * millimeter,
+                TAIL_OUT_Z[0] * millimeter, TAIL_OUT_Z[1] * millimeter);
+            join(context, id + "toj", hs, id + "to" + "a");
+
+
+            if (ns > 0 && ns <= 2)
+            {
+                return;
+            }
+            // 3) 스커트 (캐리어 둘레) — 지면까지 내린다
+            mkRound(context, id + "sk", SKIRT, 10 * millimeter,
+                (GROUND_ZMIN - 20) * millimeter, CAR_TOP * millimeter);
+            join(context, id + "skj", hs, id + "sk" + "a");
+            mkRound(context, id + "tsk", TAIL_SKIRT, 8 * millimeter,
+                (GROUND_ZMIN - 20) * millimeter, TAIL_OUT_Z[0] * millimeter);
+            join(context, id + "tskj", hs, id + "tsk" + "a");
+
+
+            if (ns > 0 && ns <= 3)
+            {
+                return;
+            }
+            // 4) 바닥 두 평면 절단 — 20도는 여기에만 존재한다
+            halfSpace(context, id + "g", N_GROUND, D_GROUND * millimeter);
+            cut(context, id + "gc", hs, id + "g" + "ex");
+            const kth = getVariable(context, "knee_angle");
+            if (kth > 1 * degree)
+            {
+                const ky = getVariable(context, "knee_y");
+                const yv = vector(0.0, 1.0, 0.0);
+                const uu = normalize(yv - dot(yv, N_GROUND) * N_GROUND);
+                const nk = -sin(kth) * uu + cos(kth) * N_GROUND;
+                const zk = (D_GROUND * millimeter - N_GROUND[1] * ky) / N_GROUND[2];
+                const dk = dot(vector(0 * millimeter, ky, zk), nk);
+                halfSpace(context, id + "k", nk, dk);
+                cut(context, id + "kc", hs, id + "k" + "ex");
+            }
+
+
+            if (ns > 0 && ns <= 4)
+            {
+                return;
+            }
+            // 5) 공동 = 밴드를 **먼저 하나로 합친 뒤 한 번에** 절삭한다.
+            //    밴드별로 따로 빼면 인접 공동 경계가 맞닿으면서
+            //    BOOLEAN_NON_MANIFOLD_RESULT 가 난다 (실측 확인).
+            mkRound(context, id + "cav0", CAV[0], 6 * millimeter,
+                (CAV_Z[0] - 2) * millimeter, CAV_Z[1] * millimeter);
+            const cq = qBodyType(qCreatedBy(id + "cav0" + "a", EntityType.BODY),
+                    BodyType.SOLID);
+            var nb = size(CAV);
+            if (ns > 40)
+            {
+                nb = ns - 40;
+            }
+            for (var i = 1; i < nb; i += 1)
+            {
+                const cid = id + ("cav" ~ i);
+                var ztop = CAV_Z[i + 1] * millimeter;
+                if (i == size(CAV) - 1)
+                {
+                    ztop = (CAV_Z[i + 1] + 2) * millimeter;
+                }
+                mkRound(context, cid, CAV[i], 6 * millimeter,
+                    (CAV_Z[i] - 0.02) * millimeter, ztop);
+                join(context, cid + "j", cq, cid + "a");
+            }
+            if (ns == 0)
+            {
+            mkRound(context, id + "tcav", TAIL_CAV, 5 * millimeter,
+                (TAIL_CAV_Z[0] - 2) * millimeter, TAIL_CAV_Z[1] * millimeter);
+            join(context, id + "tcavj", cq, id + "tcav" + "a");
+
+            // 6) 캐리어 개구 — 캐리어 상면 아래는 지면까지 관통 (하방 탈착).
+            //    같은 이유로 공동과 **한 덩어리로 합쳐** 한 번에 뺀다.
+            mkRound(context, id + "co", CAR_OPEN, 8 * millimeter,
+                (GROUND_ZMIN - 30) * millimeter, CAR_TOP * millimeter);
+            join(context, id + "coj", cq, id + "co" + "a");
+            mkRound(context, id + "tco", TAIL_CAR_OPEN, 6 * millimeter,
+                (GROUND_ZMIN - 30) * millimeter, TAIL_CAV_Z[0] * millimeter);
+            join(context, id + "tcoj", cq, id + "tco" + "a");
+            }
+
+            cut(context, id + "cavc", hs, id + "cav0" + "a");
+
+            // 7) USB / 케이블 포트 (-Y 꼬리 벽 관통)
+            mkBox(context, id + "usb",
+                vector(USB_CX * millimeter, (TAIL_CAV[3] - 150) * millimeter),
+                vector(USB_W * millimeter, 300 * millimeter), USB_Z0 * millimeter,
+                USB_Z1 * millimeter);
+            cut(context, id + "usbc", hs, id + "usb");
+
+
+            if (ns > 0 && ns <= 7)
+            {
+                return;
+            }
+            // 8) M3 인서트 (환형 착좌면에서 위로)
+            for (var s = 0; s < size(SCREWS); s += 1)
+            {
+                const iid = id + ("ins" ~ s);
+                const px = SCREWS[s][0] * millimeter;
+                const py = SCREWS[s][1] * millimeter;
+                fCylinder(context, iid, {
+                            "topCenter" : vector(px, py,
+                                (CAR_TOP + INSERT_L) * millimeter),
+                            "bottomCenter" : vector(px, py,
+                                (CAR_TOP - 1) * millimeter),
+                            "radius" : INSERT_D / 2 * millimeter
+                        });
+                cut(context, iid + "c", hs, iid);
+            }
+
+            return;
+        }
+
+        // ---------------- B. BOTTOM CARRIER ----------------
+        if (st == ConfStage.CARRIER)
+        {
+            mkRound(context, id + "p", CARRIER, 8 * millimeter,
+                CAR_BOT * millimeter, CAR_TOP * millimeter);
+            const car = qBodyType(qCreatedBy(id + "p" + "a", EntityType.BODY),
+                    BodyType.SOLID);
+
+            // Base 위치결정 포켓
+            mkBox(context, id + "pk", vector(CX * millimeter, CY * millimeter),
+                vector((BODY_W + 2 * pclr / millimeter) * millimeter,
+                    (BODY_D + 2 * pclr / millimeter) * millimeter),
+                BASE_BOT * millimeter, (CAR_TOP + 1) * millimeter);
+            cut(context, id + "pkc", car, id + "pk");
+
+            // 전장 꼬리 슬롯 — -Y 로 완전 관통 (180도 오조립 거부 + 배선)
+            mkBox(context, id + "tl", vector(TAIL_CX * millimeter, -BIG / 2),
+                vector((TAIL_W0 + 2 * pclr / millimeter) * millimeter, BIG),
+                (CAR_BOT - 1) * millimeter, (CAR_TOP + 1) * millimeter);
+            cut(context, id + "tlc", car, id + "tl");
+
+            // C1 / C2 (Base 슬롯과 동일한 Y 슬롯) + 카운터보어
+            for (var s = 0; s < 2; s += 1)
+            {
+                var cy = C1_Y;
+                if (s == 1)
+                {
+                    cy = C2_Y;
+                }
+                const sid = id + ("cs" ~ s);
+                mkSlot(context, sid, vector(C_X * millimeter, cy * millimeter),
+                    M3_CLR * millimeter, C_SLOT_L * millimeter,
+                    (CAR_BOT - 1) * millimeter, (BASE_BOT + 1) * millimeter);
+                cut(context, sid + "c", car, sid + "a");
+                const bid = id + ("cb" ~ s);
+                mkSlot(context, bid, vector(C_X * millimeter, cy * millimeter),
+                    M3_CB * millimeter, (C_SLOT_L + M3_CB - M3_CLR) * millimeter,
+                    (CAR_BOT - 1) * millimeter, (CAR_BOT + CB_D) * millimeter);
+                cut(context, bid + "c", car, bid + "a");
+            }
+
+            // 하우징 체결 나사 (아래에서 위로)
+            for (var s = 0; s < size(SCREWS); s += 1)
+            {
+                const px = SCREWS[s][0] * millimeter;
+                const py = SCREWS[s][1] * millimeter;
+                const hid = id + ("hs" ~ s);
+                fCylinder(context, hid, {
+                            "topCenter" : vector(px, py, (CAR_TOP + 1) * millimeter),
+                            "bottomCenter" : vector(px, py, (CAR_BOT - 1) * millimeter),
+                            "radius" : M3_CLR / 2 * millimeter
+                        });
+                cut(context, hid + "c", car, hid);
+                const gid = id + ("hb" ~ s);
+                fCylinder(context, gid, {
+                            "topCenter" : vector(px, py, (CAR_BOT + CB_D) * millimeter),
+                            "bottomCenter" : vector(px, py, (CAR_BOT - 1) * millimeter),
+                            "radius" : M3_CB / 2 * millimeter
+                        });
+                cut(context, gid + "c", car, gid);
+            }
+            return;
+        }
+    });

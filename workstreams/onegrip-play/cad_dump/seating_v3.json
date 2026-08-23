@@ -1,0 +1,1 @@
+{"I1": {"required": 5.3, "feasible": true, "minside": 0.2, "at": [-2.57, -2.57]}, "I2": {"required": 5.3, "feasible": true, "minside": 0.2, "at": [-2.57, 0.43]}, "I3": {"required": 5.3, "feasible": true, "minside": 0.2, "at": [-2.14, 3.0]}, "I4": {"required": 5.3, "feasible": true, "minside": 0.2, "at": [2.57, -2.57]}}

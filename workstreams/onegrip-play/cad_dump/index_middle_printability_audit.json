@@ -1,0 +1,258 @@
+{
+  "scope": "INDEX/MIDDLE button insertion geometry only; THUMB excluded and unchanged",
+  "source": {
+    "shells": [
+      "OneGrip_lower15_housing_Joystick_1_JaD.stl",
+      "OneGrip_lower15_housing_Joystick_2_JfD.stl"
+    ],
+    "orientation": "both mating planes on build plate",
+    "cadWrite": 0
+  },
+  "processAssumption": {
+    "printer": "Bambu Lab P1S-class FDM",
+    "nozzleMm": 0.4,
+    "supportFreeOverhangHeuristicDeg": 45.0
+  },
+  "functionalFit": {
+    "seatMm": [
+      6.4,
+      6.4
+    ],
+    "conservativeBodyMm": [
+      6.18,
+      6.12
+    ],
+    "clearancePerSideMm": [
+      0.11,
+      0.14
+    ],
+    "physicalSampleBodyMm": [
+      6.12,
+      6.05
+    ],
+    "physicalSampleClearancePerSideMm": [
+      0.14,
+      0.175
+    ],
+    "couponStatus": "not previously validated; 6.4/6.5/6.6/6.7-mm coupon was explicitly deferred",
+    "verdict": "HOLD"
+  },
+  "minimumStructures": {
+    "indexDividerMm": 0.807375,
+    "indexTerminalWebMm": 1.552585,
+    "middleRingAnnulusMm": 0.8,
+    "middleBeamWidthMm": 0.8,
+    "middleHookDepthMm": 0.7,
+    "middleDividerMm": 1.04166
+  },
+  "buttons": [
+    {
+      "button": "I1",
+      "owner": "JfD",
+      "centerMm": [
+        -22.224,
+        -17.494,
+        9.0
+      ],
+      "buildCenterHeightMm": 22.224,
+      "axisTiltFromBuildVerticalDeg": 32.041086947308436,
+      "selectedTriangleCount": 373,
+      "localSurfaceAreaMm2": 524.6360861649143,
+      "downwardOverhangArea45DegMm2": 136.13253769156253,
+      "nearHorizontalDownwardArea30DegMm2": 9.267910094832942,
+      "overhangBuildHeightRangeMm": [
+        8.518589814503988,
+        20.411600748697918
+      ],
+      "supportFreeFunctionalPrint": "MARGINAL",
+      "reasons": [
+        "open rear improves access, but support/contact scars can reduce the 6.40-mm seat"
+      ]
+    },
+    {
+      "button": "I2",
+      "owner": "JfD",
+      "centerMm": [
+        -15.97,
+        -26.208,
+        9.0
+      ],
+      "buildCenterHeightMm": 15.97,
+      "axisTiltFromBuildVerticalDeg": 67.1983514316078,
+      "selectedTriangleCount": 514,
+      "localSurfaceAreaMm2": 532.6679726067306,
+      "downwardOverhangArea45DegMm2": 83.92833277538976,
+      "nearHorizontalDownwardArea30DegMm2": 8.524071126959432,
+      "overhangBuildHeightRangeMm": [
+        7.43062162399292,
+        19.68594233194987
+      ],
+      "supportFreeFunctionalPrint": "HOLD",
+      "reasons": [
+        "seat/support axis exceeds the 45-degree support-free heuristic",
+        "open rear improves access, but support/contact scars can reduce the 6.40-mm seat"
+      ]
+    },
+    {
+      "button": "I3",
+      "owner": "JfD",
+      "centerMm": [
+        -5.496,
+        -29.325,
+        9.0
+      ],
+      "buildCenterHeightMm": 5.496,
+      "axisTiltFromBuildVerticalDeg": 86.07479388730265,
+      "selectedTriangleCount": 461,
+      "localSurfaceAreaMm2": 595.294067115664,
+      "downwardOverhangArea45DegMm2": 185.40189838929055,
+      "nearHorizontalDownwardArea30DegMm2": 179.2724400298047,
+      "overhangBuildHeightRangeMm": [
+        0.0,
+        9.427718162536621
+      ],
+      "supportFreeFunctionalPrint": "HOLD",
+      "reasons": [
+        "seat/support axis is near-horizontal to build direction",
+        "large near-horizontal downward surface exists in local seat/support envelope",
+        "open rear improves access, but support/contact scars can reduce the 6.40-mm seat"
+      ]
+    },
+    {
+      "button": "I4",
+      "owner": "JaD",
+      "centerMm": [
+        5.496,
+        -29.325,
+        9.0
+      ],
+      "buildCenterHeightMm": 5.496,
+      "axisTiltFromBuildVerticalDeg": 88.61554177571895,
+      "selectedTriangleCount": 419,
+      "localSurfaceAreaMm2": 531.523867635478,
+      "downwardOverhangArea45DegMm2": 149.85335698413155,
+      "nearHorizontalDownwardArea30DegMm2": 149.85335698413155,
+      "overhangBuildHeightRangeMm": [
+        9.23130563700824e-17,
+        9.44759464263916
+      ],
+      "supportFreeFunctionalPrint": "HOLD",
+      "reasons": [
+        "seat/support axis is near-horizontal to build direction",
+        "large near-horizontal downward surface exists in local seat/support envelope",
+        "open rear improves access, but support/contact scars can reduce the 6.40-mm seat"
+      ]
+    },
+    {
+      "button": "M1",
+      "owner": "JfD",
+      "centerMm": [
+        -19.835372272,
+        -0.614991709,
+        -11.125
+      ],
+      "buildCenterHeightMm": 19.835372272,
+      "axisTiltFromBuildVerticalDeg": 33.12094812837669,
+      "selectedTriangleCount": 831,
+      "localSurfaceAreaMm2": 734.6932982826677,
+      "downwardOverhangArea45DegMm2": 191.120698589029,
+      "nearHorizontalDownwardArea30DegMm2": 26.668401951510358,
+      "overhangBuildHeightRangeMm": [
+        6.977405230204265,
+        18.181167602539062
+      ],
+      "supportFreeFunctionalPrint": "MARGINAL",
+      "reasons": [
+        "0.80 mm ring/beam and 0.70 mm hook are only about two 0.4-mm lines or less",
+        "integrated rear hooks make generated support difficult to remove without damage"
+      ]
+    },
+    {
+      "button": "M2",
+      "owner": "JfD",
+      "centerMm": [
+        -12.89941819,
+        -8.744828192,
+        -14.125
+      ],
+      "buildCenterHeightMm": 12.89941819,
+      "axisTiltFromBuildVerticalDeg": 53.02107995710997,
+      "selectedTriangleCount": 852,
+      "localSurfaceAreaMm2": 738.9849119509754,
+      "downwardOverhangArea45DegMm2": 101.12815503104376,
+      "nearHorizontalDownwardArea30DegMm2": 7.2540489434788045,
+      "overhangBuildHeightRangeMm": [
+        2.352346340815226,
+        15.582514762878418
+      ],
+      "supportFreeFunctionalPrint": "HOLD",
+      "reasons": [
+        "seat/support axis exceeds the 45-degree support-free heuristic",
+        "0.80 mm ring/beam and 0.70 mm hook are only about two 0.4-mm lines or less",
+        "integrated rear hooks make generated support difficult to remove without damage"
+      ]
+    },
+    {
+      "button": "M3",
+      "owner": "JfD",
+      "centerMm": [
+        -3.537874175,
+        -14.41370884,
+        -11.125
+      ],
+      "buildCenterHeightMm": 3.537874175,
+      "axisTiltFromBuildVerticalDeg": 71.31113568215224,
+      "selectedTriangleCount": 714,
+      "localSurfaceAreaMm2": 756.9304877412294,
+      "downwardOverhangArea45DegMm2": 138.91827142267238,
+      "nearHorizontalDownwardArea30DegMm2": 134.7743133107366,
+      "overhangBuildHeightRangeMm": [
+        -1.1519648082658485e-14,
+        10.693142573038736
+      ],
+      "supportFreeFunctionalPrint": "HOLD",
+      "reasons": [
+        "seat/support axis is near-horizontal to build direction",
+        "large near-horizontal downward surface exists in local seat/support envelope",
+        "0.80 mm ring/beam and 0.70 mm hook are only about two 0.4-mm lines or less",
+        "integrated rear hooks make generated support difficult to remove without damage"
+      ]
+    },
+    {
+      "button": "M4",
+      "owner": "JaD",
+      "centerMm": [
+        7.44432759,
+        -13.569623472,
+        -11.125
+      ],
+      "buildCenterHeightMm": 7.44432759,
+      "axisTiltFromBuildVerticalDeg": 77.00540553293193,
+      "selectedTriangleCount": 531,
+      "localSurfaceAreaMm2": 696.505900180117,
+      "downwardOverhangArea45DegMm2": 112.6636528286711,
+      "nearHorizontalDownwardArea30DegMm2": 109.30137323074727,
+      "overhangBuildHeightRangeMm": [
+        0.5,
+        11.008229573567709
+      ],
+      "supportFreeFunctionalPrint": "HOLD",
+      "reasons": [
+        "seat/support axis is near-horizontal to build direction",
+        "large near-horizontal downward surface exists in local seat/support envelope",
+        "0.80 mm ring/beam and 0.70 mm hook are only about two 0.4-mm lines or less",
+        "integrated rear hooks make generated support difficult to remove without damage"
+      ]
+    }
+  ],
+  "summary": {
+    "watertightMesh": "PASS",
+    "supportFreeFunctionalPrint": "HOLD",
+    "mainBlockers": [
+      "I2/I3/I4 and M2/M3/M4 axes are over 45 degrees from build vertical",
+      "I3/I4 and M3/M4 contain large near-horizontal downward seat/support surfaces",
+      "6.40-mm switch seat has only 0.11-0.175 mm nominal clearance per side",
+      "MIDDLE 0.8-mm beams/rings and 0.7-mm hooks are fragile and support removal is risky"
+    ]
+  }
+}

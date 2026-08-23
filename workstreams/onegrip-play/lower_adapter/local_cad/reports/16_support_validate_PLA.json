@@ -1,0 +1,294 @@
+{
+ "MAIN": {
+  "brep_chunks": 43,
+  "support_volume_mm3": 81493.80453752464,
+  "intrusion_pts": 52,
+  "intrusion_real": 0,
+  "intrusion_max_depth": 0.09833037382850307,
+  "support_for_support_mm2": 0.44060825844387264,
+  "trapped": 0,
+  "voxel_chunks": 28,
+  "chunk_rows": [
+   {
+    "vol": 17118.0,
+    "bbox": [
+     94.5,
+     1.5,
+     147.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 12939.75,
+    "bbox": [
+     106.5,
+     1.5,
+     85.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 14.8
+   },
+   {
+    "vol": 11677.5,
+    "bbox": [
+     82.5,
+     1.5,
+     97.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 7661.25,
+    "bbox": [
+     60.0,
+     1.5,
+     85.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 7580.25,
+    "bbox": [
+     61.5,
+     1.5,
+     82.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 7452.0,
+    "bbox": [
+     40.5,
+     1.5,
+     123.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 7448.625,
+    "bbox": [
+     40.5,
+     1.5,
+     123.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 6733.125,
+    "bbox": [
+     28.5,
+     1.5,
+     157.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 20.0
+   },
+   {
+    "vol": 2055.375,
+    "bbox": [
+     106.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.6
+   },
+   {
+    "vol": 2025.0,
+    "bbox": [
+     105.0,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.6
+   },
+   {
+    "vol": 1994.625,
+    "bbox": [
+     103.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 14.0
+   },
+   {
+    "vol": 1994.625,
+    "bbox": [
+     103.5,
+     1.5,
+     15.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 15.6
+   },
+   {
+    "vol": 1154.25,
+    "bbox": [
+     27.0,
+     1.5,
+     28.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 1154.25,
+    "bbox": [
+     27.0,
+     1.5,
+     28.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.4
+   },
+   {
+    "vol": 1046.25,
+    "bbox": [
+     28.5,
+     1.5,
+     25.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 13.2
+   },
+   {
+    "vol": 1042.875,
+    "bbox": [
+     28.5,
+     1.5,
+     25.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 13.2
+   },
+   {
+    "vol": 239.625,
+    "bbox": [
+     1.5,
+     1.5,
+     106.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 3.2
+   },
+   {
+    "vol": 239.625,
+    "bbox": [
+     1.5,
+     1.5,
+     106.5
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 3.2
+   },
+   {
+    "vol": 10.125,
+    "bbox": [
+     3.0,
+     1.5,
+     3.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 1.2
+   },
+   {
+    "vol": 10.125,
+    "bbox": [
+     3.0,
+     1.5,
+     3.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.0
+   },
+   {
+    "vol": 10.125,
+    "bbox": [
+     3.0,
+     1.5,
+     3.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.0
+   },
+   {
+    "vol": 10.125,
+    "bbox": [
+     3.0,
+     1.5,
+     3.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.0
+   },
+   {
+    "vol": 10.125,
+    "bbox": [
+     3.0,
+     1.5,
+     3.0
+    ],
+    "opening": "DECK_OPENING",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 4.0
+   }
+  ],
+  "product_step_sha": "6139af751d39b2ec",
+  "product_stl_sha": "577688df782cc23b"
+ },
+ "ARMREST": {
+  "brep_chunks": 1,
+  "support_volume_mm3": 2553.5199999998053,
+  "intrusion_pts": 0,
+  "intrusion_real": 0,
+  "intrusion_max_depth": 0.0,
+  "support_for_support_mm2": 0.0,
+  "trapped": 0,
+  "voxel_chunks": 1,
+  "chunk_rows": [
+   {
+    "vol": 4914.0,
+    "bbox": [
+     117.0,
+     1.5,
+     28.5
+    ],
+    "opening": "UNDERSIDE_OPEN",
+    "dir": "+Y 방향으로 빼낸다",
+    "clear": 5.6
+   }
+  ],
+  "product_step_sha": "6f7ff952d8b3e305",
+  "product_stl_sha": "ecfc2855ff7d97c3"
+ }
+}

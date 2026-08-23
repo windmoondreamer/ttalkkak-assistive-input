@@ -1,0 +1,18 @@
+{
+ "ps_eid": "f698b10ce216ca7c95051dd3",
+ "fs_eid": "62a4eb9392f3b60332d335b0",
+ "varIds": {
+  "cartridge_insert_depth": "F9wXyxAZlstSp9m_0",
+  "deck_thickness": "FkddXfYkaNwHd0O_0",
+  "wall_thickness": "FCYI5hd0nH2NZSQ_0",
+  "carrier_fit": "FjsE9QnEsmEKYN6_0",
+  "pocket_clearance": "F0okvvvolfi8Tis_0",
+  "usb_clearance": "FZXOodmWAmNSkfX_0"
+ },
+ "namespace": "e62a4eb9392f3b60332d335b0::m2b5ea5611e78a9732b372686",
+ "featureType": "oneGripCartridge",
+ "stageIds": {
+  "CARRIER": "F7YubCHgRLpxSFh_0",
+  "HOUSING": "F2ssGFsX8cp7VAJ_1"
+ }
+}

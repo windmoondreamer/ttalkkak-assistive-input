@@ -1,0 +1,43 @@
+{
+  "mode": "RENDER ONLY / EXISTING STEP READ ONLY / BOOLEAN 0",
+  "latestExterior": "integrated_exterior_lowered_thumb_v1",
+  "buttonsInstalled": [
+    "I2",
+    "I3",
+    "I4",
+    "M3",
+    "M4",
+    "N1",
+    "N2",
+    "N3"
+  ],
+  "capPosition": "nominal rest / frozen external centers",
+  "N1N2Carrier": "OPTION_C_FINAL_LOCAL_FIT local STEP (carrier PASS, N2 terminal HOLD)",
+  "productionGeometryChanged": false,
+  "outputs": [
+    "renders\\current_index_middle_buttons_inserted\\01_buttons_inserted_exterior_closeup.png",
+    "renders\\current_index_middle_buttons_inserted\\02_buttons_inserted_transparent_internal.png"
+  ],
+  "memory": [
+    {
+      "stage": "latest exterior full render mesh",
+      "rssMb": 400.6
+    },
+    {
+      "stage": "eight seated cap meshes",
+      "rssMb": 401.1
+    },
+    {
+      "stage": "exterior close-up render",
+      "rssMb": 405.4
+    },
+    {
+      "stage": "current carriers and eight switch references",
+      "rssMb": 417.3
+    },
+    {
+      "stage": "transparent internal render",
+      "rssMb": 420.0
+    }
+  ]
+}

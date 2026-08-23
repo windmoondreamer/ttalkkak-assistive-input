@@ -1,0 +1,30 @@
+{
+ "CURRENT": {
+  "first_ground_contact_u": -24.891890557219426,
+  "floating_span_mm": -57.0,
+  "max_lower_slope_deg": 71.2298376624259,
+  "support_length_mm": 235.5
+ },
+ "A": {
+  "first_ground_contact_u": -60.0,
+  "floating_span_mm": -21.891890557219426,
+  "front_lip_h_mm": 5.0,
+  "max_lower_slope_deg": 15.822772276917629,
+  "mean_lower_slope_deg": 8.655997370020588,
+  "ground_contact_slope_deg": 0.0,
+  "lip_front_Y_mm": -134.36453622277895,
+  "first_contact_Y_mm": -114.97838752114264,
+  "support_length_mm": 235.5
+ },
+ "B": {
+  "first_ground_contact_u": -67.0,
+  "floating_span_mm": -14.891890557219426,
+  "front_lip_h_mm": 5.0,
+  "max_lower_slope_deg": 28.151332287187252,
+  "mean_lower_slope_deg": 10.062002728054726,
+  "ground_contact_slope_deg": 0.0,
+  "lip_front_Y_mm": -134.36453622277895,
+  "first_contact_Y_mm": -121.55609847772976,
+  "support_length_mm": 235.5
+ }
+}

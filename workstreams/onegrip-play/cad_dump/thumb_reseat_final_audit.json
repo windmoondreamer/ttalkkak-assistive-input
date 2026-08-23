@@ -1,0 +1,139 @@
+{
+  "auditMode": "OFFLINE_READ_ONLY_FINE_MESH_PLUS_EXACT_RIGID_TRANSFORM",
+  "translationMm": [
+    0.0,
+    5.5,
+    -6.0
+  ],
+  "reach": {
+    "current": {
+      "index": {
+        "nearestMm": 37.86769669282554,
+        "nearestFinger": 1,
+        "nearestThumbControl": "Button_corner_2",
+        "meanOfPerFingerNearestMm": 41.654266971925736
+      },
+      "middle": {
+        "nearestMm": 52.27504725510814,
+        "nearestFinger": 1,
+        "nearestThumbControl": "Button_corner_2",
+        "meanOfPerFingerNearestMm": 53.70638949444863
+      }
+    },
+    "relocated": {
+      "index": {
+        "nearestMm": 36.3487117192968,
+        "nearestFinger": 1,
+        "nearestThumbControl": "Button_corner_2",
+        "meanOfPerFingerNearestMm": 40.682883040070266
+      },
+      "middle": {
+        "nearestMm": 46.827106128358004,
+        "nearestFinger": 1,
+        "nearestThumbControl": "Button_corner_2",
+        "meanOfPerFingerNearestMm": 49.30262162670685
+      }
+    }
+  },
+  "rigidIdentity": {
+    "maxCapCenterPairwiseDistanceDeltaMm": 0.0,
+    "buttonSizeChanged": false,
+    "buttonSpacingChanged": false,
+    "joystickGeometryChanged": false,
+    "relativePositionChanged": false,
+    "moduleScaleChanged": false,
+    "moduleRotationChanged": false
+  },
+  "screwB": {
+    "axisToBackplateMm": 12.084184508146656,
+    "radiusMm": 3.5,
+    "surfaceClearanceMm": 8.584184508146656,
+    "closestAxisXmm": 2.0000000949949026,
+    "axisClosestPointIsWithinFiniteLength": true
+  },
+  "moduleMeshTopology": {
+    "Button_wide_1": {
+      "partId": "RAED",
+      "triangles": 26,
+      "vertices": 15,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_side_1": {
+      "partId": "RAEH",
+      "triangles": 38,
+      "vertices": 21,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_corner_1": {
+      "partId": "RAEL",
+      "triangles": 138,
+      "vertices": 71,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_corner_2": {
+      "partId": "RBED",
+      "triangles": 136,
+      "vertices": 70,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_side_2": {
+      "partId": "RBEH",
+      "triangles": 38,
+      "vertices": 21,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_wide_2": {
+      "partId": "RBEL",
+      "triangles": 26,
+      "vertices": 15,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_middle_1": {
+      "partId": "RDED",
+      "triangles": 12,
+      "vertices": 8,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Button_middle_2": {
+      "partId": "RDEH",
+      "triangles": 12,
+      "vertices": 8,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    },
+    "Backplate": {
+      "partId": "RYDD",
+      "triangles": 1466,
+      "vertices": 705,
+      "connectedComponents": 1,
+      "boundaryEdges": 0,
+      "nonManifoldEdges": 0
+    }
+  },
+  "declaredInterface": {
+    "originalBackplateSweepThicknessMm": 5.0,
+    "originalButtonSupportWebMm": 4.0,
+    "originalBackplateSupportExtrusionDepthMm": 10.0,
+    "shellNominalWallMm": 3.0,
+    "buttonModuleThroughOpeningMm": 6.4,
+    "certifiedVirtualWireEnvelopeMm": 4.0,
+    "openingFacesMovedTogether": 36,
+    "newAdapterSolidBodies": 0,
+    "reason": "Original Backplate/supports and the 36 original opening faces retain their exact relative transform; no pedestal or floating adapter is required."
+  }
+}

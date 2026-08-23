@@ -1,0 +1,404 @@
+{
+  "method": {
+    "mode": "LOCAL READ-ONLY; Onshape CAD WRITE 0; registry WRITE 0",
+    "frozenVersion": "INDEX_FINAL_VALIDATED / 03ede76e83b5c865d9a69c35",
+    "configuration": "default frozen local mesh cache",
+    "measurementAuthority": "user-supplied owned physical sample, 2026-08-20",
+    "terminalGeometryQualifier": "drawing nominal; physical pin/root dimensions not supplied"
+  },
+  "physicalSample": {
+    "part": "ITS-1105-6mm",
+    "bodyXmm": 6.12,
+    "bodyYmm": 6.05,
+    "housingHmm": 3.56,
+    "totalHmm": 6.0,
+    "actuatorDiameterMm": 3.35,
+    "actuatorProjectionMm": 2.44,
+    "travelMm": {
+      "nominal": 0.25,
+      "lower": 0.15,
+      "upper": 0.35
+    },
+    "terminalCount": 4,
+    "terminalType": "THT; two pins per opposite side",
+    "terminalPolicy": {
+      "fixedRoot": "rigid; do not bend",
+      "distalPin": "one-time pre-form before assembly allowed",
+      "directWiring": true,
+      "preSolder": true
+    },
+    "consistencyChecksMm": {
+      "totalMinusHousing": 2.44,
+      "reportedActuatorProjection": 2.44,
+      "difference": 0.0
+    }
+  },
+  "indexPocket": {
+    "axisAligned": {
+      "bodyProjectionMm": [
+        6.12,
+        6.05
+      ],
+      "sideClearanceMm": [
+        0.14000000000000012,
+        0.17500000000000027
+      ]
+    },
+    "exactFitAllowedRolls": [
+      0,
+      1,
+      2,
+      88,
+      89,
+      90,
+      91,
+      92,
+      178,
+      179
+    ],
+    "warning": "near-square body cannot use arbitrary terminal roll inside a 6.4 square seat"
+  },
+  "indexActuator": {
+    "boreDiameterMm": 4.5,
+    "actuatorDiameterMm": 3.35,
+    "radialClearanceMm": 0.575,
+    "coaxial": true
+  },
+  "indexRollAndChannel": {
+    "physicalAxisMappingCardinal": {
+      "bodyAxisMappingMm": {
+        "localU_terminalExit": 6.12,
+        "localV_pinRow": 6.05
+      },
+      "cardinalOnly": true,
+      "allowedRolls0to179DegAt1DegResolution": [
+        0,
+        90
+      ],
+      "allowedRollCountPer180": 2,
+      "allowedRollCountPer360": 4,
+      "feasibleCombinationCount": 1,
+      "best": {
+        "rollsDeg": {
+          "I1": 0,
+          "I2": 0,
+          "I3": 90,
+          "I4": 90
+        },
+        "equivalentRolls0to360Deg": {
+          "I1": [
+            0,
+            180
+          ],
+          "I2": [
+            0,
+            180
+          ],
+          "I3": [
+            90,
+            270
+          ],
+          "I4": [
+            90,
+            270
+          ]
+        },
+        "bodySatMm": {
+          "I1-I2": 1.3328429948250387,
+          "I2-I3": 1.2378992266188442,
+          "I1-I3": 6.620760121025759,
+          "I3-I4": 4.112661401390973
+        },
+        "minimumBodySatMm": 1.2378992266188442,
+        "individualRootMarginsMm": {
+          "I1": 2.2574617261944825,
+          "I2": 2.2574617261944816,
+          "I3": 2.153865853033791,
+          "I4": 2.2574617261944825
+        },
+        "adjacentChannelWebLowerBoundMm": {
+          "I1-I2": 1.6369533726515315,
+          "I2-I3": 2.040068460406104,
+          "I3-I4": 5.364729591792694
+        },
+        "governingZeroClearanceWebMm": 1.6369533726515315,
+        "minimumPocketSideClearanceMm": 0.14000000000000012,
+        "conservativeSymmetricChannelClearanceMm": 0.06847668632576576,
+        "passesBodySat1p20": true,
+        "passesChannelWeb1p50": true,
+        "fixedRootsRigid": true,
+        "distalPinsOneTimeFormable": true
+      }
+    },
+    "physicalAxisMappingExactFit": {
+      "bodyAxisMappingMm": {
+        "localU_terminalExit": 6.12,
+        "localV_pinRow": 6.05
+      },
+      "cardinalOnly": false,
+      "allowedRolls0to179DegAt1DegResolution": [
+        0,
+        1,
+        2,
+        88,
+        89,
+        90,
+        91,
+        92,
+        178,
+        179
+      ],
+      "allowedRollCountPer180": 10,
+      "allowedRollCountPer360": 20,
+      "feasibleCombinationCount": 440,
+      "best": {
+        "rollsDeg": {
+          "I1": 179,
+          "I2": 178,
+          "I3": 88,
+          "I4": 88
+        },
+        "equivalentRolls0to360Deg": {
+          "I1": [
+            179,
+            359
+          ],
+          "I2": [
+            178,
+            358
+          ],
+          "I3": [
+            88,
+            268
+          ],
+          "I4": [
+            88,
+            268
+          ]
+        },
+        "bodySatMm": {
+          "I1-I2": 1.2160421839060174,
+          "I2-I3": 1.3065775098865036,
+          "I1-I3": 6.624825902322225,
+          "I3-I4": 4.027671803652822
+        },
+        "minimumBodySatMm": 1.2160421839060174,
+        "individualRootMarginsMm": {
+          "I1": 2.2126859371327594,
+          "I2": 2.1691247225605617,
+          "I3": 2.024683642304816,
+          "I4": 2.1691247225605625
+        },
+        "adjacentChannelWebLowerBoundMm": {
+          "I1-I2": 1.7898979613780623,
+          "I2-I3": 1.8878461657553256,
+          "I3-I4": 5.419404766933597
+        },
+        "governingZeroClearanceWebMm": 1.7898979613780623,
+        "minimumPocketSideClearanceMm": 0.0362930917965012,
+        "conservativeSymmetricChannelClearanceMm": 0.14494898068903117,
+        "passesBodySat1p20": true,
+        "passesChannelWeb1p50": true,
+        "fixedRootsRigid": true,
+        "distalPinsOneTimeFormable": true
+      }
+    },
+    "bodyXYMappingSwappedCardinalCheck": {
+      "bodyAxisMappingMm": {
+        "localU_terminalExit": 6.05,
+        "localV_pinRow": 6.12
+      },
+      "cardinalOnly": true,
+      "allowedRolls0to179DegAt1DegResolution": [
+        0,
+        90
+      ],
+      "allowedRollCountPer180": 2,
+      "allowedRollCountPer360": 4,
+      "feasibleCombinationCount": 1,
+      "best": {
+        "rollsDeg": {
+          "I1": 0,
+          "I2": 0,
+          "I3": 90,
+          "I4": 90
+        },
+        "equivalentRolls0to360Deg": {
+          "I1": [
+            0,
+            180
+          ],
+          "I2": [
+            0,
+            180
+          ],
+          "I3": [
+            90,
+            270
+          ],
+          "I4": [
+            90,
+            270
+          ]
+        },
+        "bodySatMm": {
+          "I1-I2": 1.3889303170218206,
+          "I2-I3": 1.2267547475079033,
+          "I1-I3": 6.635610477701407,
+          "I3-I4": 4.042815858608487
+        },
+        "minimumBodySatMm": 1.2267547475079033,
+        "individualRootMarginsMm": {
+          "I1": 2.2582989503647806,
+          "I2": 2.2582989503647792,
+          "I3": 2.1536924219649003,
+          "I4": 2.2582989503647815
+        },
+        "adjacentChannelWebLowerBoundMm": {
+          "I1-I2": 1.646526173050878,
+          "I2-I3": 2.0633344720759954,
+          "I3-I4": 5.365468177241367
+        },
+        "governingZeroClearanceWebMm": 1.646526173050878,
+        "minimumPocketSideClearanceMm": 0.14000000000000012,
+        "conservativeSymmetricChannelClearanceMm": 0.073263086525439,
+        "passesBodySat1p20": true,
+        "passesChannelWeb1p50": true,
+        "fixedRootsRigid": true,
+        "distalPinsOneTimeFormable": true
+      }
+    },
+    "terminalChannelDepthMm": [
+      8.86,
+      12.5
+    ],
+    "qualifier": "fixed-root boxes retain drawing nominal 4.5 pitch, 7.9 outer width, 0.3x0.7 metal and 1.8 formed depth"
+  },
+  "indexRear": {
+    "measuredBodyRearDepthMm": 8.86,
+    "currentPadFrontMm": 11.15,
+    "gapWithoutSpacerMm": 2.290000000000001,
+    "measuredProjectionDerivedSpacerMm": 2.44,
+    "contactRearWithSpacerMm": 11.299999999999999,
+    "preloadAgainstCurrentPadMm": 0.14999999999999858,
+    "preferred": "separate non-moving central spacer; do not extend moving retainer pad"
+  },
+  "indexCap": {
+    "availableStrokeBeforeCurrentHolderStopMm": 0.19999999999999973,
+    "prototypeFreeClearanceSeedMm": 0.05,
+    "perButton": {
+      "I1": {
+        "axisNormalCosine": 0.955247877199643,
+        "actuatorTopAxisDepthMm": 2.86,
+        "measuredFreeGapAlongCapNormalMm": 0.1320089287909787,
+        "bossFor0p05FreeClearanceMm": 0.0820089287909787,
+        "capDisplacementForTravelMm": {
+          "nominal": 0.28881196929991076,
+          "lower": 0.19328718157994645,
+          "upper": 0.384336757019875
+        },
+        "localStopRecessFor0p35TravelAt0p05FreeMm": 0.18433675701987529
+      },
+      "I2": {
+        "axisNormalCosine": 0.9552477590398503,
+        "actuatorTopAxisDepthMm": 2.86,
+        "measuredFreeGapAlongCapNormalMm": 0.13200859085397143,
+        "bossFor0p05FreeClearanceMm": 0.08200859085397143,
+        "capDisplacementForTravelMm": {
+          "nominal": 0.28881193975996255,
+          "lower": 0.19328716385597755,
+          "upper": 0.38433671566394756
+        },
+        "localStopRecessFor0p35TravelAt0p05FreeMm": 0.18433671566394783
+      },
+      "I3": {
+        "axisNormalCosine": 0.9552476618830845,
+        "actuatorTopAxisDepthMm": 2.86,
+        "measuredFreeGapAlongCapNormalMm": 0.13200831298562132,
+        "bossFor0p05FreeClearanceMm": 0.08200831298562132,
+        "capDisplacementForTravelMm": {
+          "nominal": 0.2888119154707711,
+          "lower": 0.19328714928246266,
+          "upper": 0.3843366816590795
+        },
+        "localStopRecessFor0p35TravelAt0p05FreeMm": 0.1843366816590798
+      },
+      "I4": {
+        "axisNormalCosine": 0.9989248153381866,
+        "actuatorTopAxisDepthMm": 2.86,
+        "measuredFreeGapAlongCapNormalMm": 0.2569249718672135,
+        "bossFor0p05FreeClearanceMm": 0.20692497186721354,
+        "capDisplacementForTravelMm": {
+          "nominal": 0.29973120383454666,
+          "lower": 0.19983872230072797,
+          "upper": 0.3996236853683653
+        },
+        "localStopRecessFor0p35TravelAt0p05FreeMm": 0.19962368536836556
+      }
+    },
+    "status": "measured stack resolves boss seed; prototype free clearance and printed tolerance still require physical validation"
+  },
+  "middle": {
+    "sourceCandidate": "h3p1_w1",
+    "fixedOriginalNominalFrontLip": {
+      "conservativeFootprintMm": 6.12,
+      "housingHeightMm": 3.56,
+      "frontLipMm": 2.2316165187419816,
+      "minimumBodySatMm": 1.3646399615661098,
+      "minimumPocketDividerMm": 1.0340657874218668,
+      "minimumSplitWallMm": 1.5139153322095087,
+      "minimumScrewClearanceMm": 7.709032217460065,
+      "minimumActualFrontLipMm": 0.47094725548101124,
+      "minimumFrozenIndexClearance": {
+        "clearanceMm": 0.5206005922340642,
+        "button": "M3",
+        "envelope": "holder",
+        "component": "RWID"
+      },
+      "frozenIndexCollisionCount": 0,
+      "hardGatePass": false,
+      "robust0p50Pass": false,
+      "holderRearDatumMm": 9.991616518741981
+    },
+    "adjustedFrontLipForMeasuredBody": {
+      "conservativeFootprintMm": 6.12,
+      "housingHeightMm": 3.56,
+      "frontLipMm": 2.263597250894323,
+      "minimumBodySatMm": 1.369702762801011,
+      "minimumPocketDividerMm": 1.039128588656768,
+      "minimumSplitWallMm": 1.5241628827263805,
+      "minimumScrewClearanceMm": 7.687521756432913,
+      "minimumActualFrontLipMm": 0.4999999999999991,
+      "minimumFrozenIndexClearance": {
+        "clearanceMm": 0.5145795053440642,
+        "button": "M3",
+        "envelope": "holder",
+        "component": "RWID"
+      },
+      "frozenIndexCollisionCount": 0,
+      "hardGatePass": true,
+      "robust0p50Pass": true,
+      "holderRearDatumMm": 10.023597250894323
+    },
+    "frontLipIncreaseRequiredMm": 0.03198073215234132,
+    "qualifier": "6.12 square is conservative over the measured 6.12x6.05 body for unknown MIDDLE roll"
+  },
+  "remainingMeasurementAndPrototypeGates": [
+    "fixed-root position/profile and maximum envelope",
+    "pin spacing, width and thickness",
+    "multi-sample min/max rather than one sample",
+    "6.4/6.5/6.6/6.7 pocket coupon",
+    "terminal-channel coupon at selected cardinal roll",
+    "wire gauge, insulation OD and solder-fillet envelope",
+    "explicit user CAD WRITE approval"
+  ],
+  "decision": {
+    "physicalBodyAndActuatorMeasurementAccepted": true,
+    "indexGrade": 1,
+    "case": "B",
+    "sameSkuIndexMiddle": true,
+    "middleGeometry": "conditional GO with measured-body front-lip adjustment",
+    "cadWrite": "HOLD",
+    "reason": "sample dimensions remove body/actuator uncertainty, but root/pin envelope, coupons, wiring envelope and explicit write approval remain"
+  }
+}

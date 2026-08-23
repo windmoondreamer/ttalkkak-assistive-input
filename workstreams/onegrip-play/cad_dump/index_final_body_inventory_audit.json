@@ -1,0 +1,1535 @@
+{
+  "auditMode": "READ_ONLY_GET_ONLY",
+  "tessellationRule": {
+    "angleTolerance": 0.09,
+    "chordTolerance": 0.1,
+    "canonicalization": "round coordinates to 1e-12 m; sort vertices and triangles; SHA-256"
+  },
+  "shared": {
+    "label": "INDEX_SHARED_RET_FINAL",
+    "versionId": "6703cd9cbd0d5e321ac10b87",
+    "configuration": "default",
+    "endpoint": "GET /parts/d/a21e64f36bc61df760d4587c/v/{versionId}/e/425d9199b59cfb1efd9ddc35",
+    "countRule": "bodyType == \"solid\"",
+    "allPartRecords": 19,
+    "solidCount": 17,
+    "wireCount": 2,
+    "wireParts": [
+      {
+        "name": "Curve 1",
+        "partId": "JMD"
+      },
+      {
+        "name": "Curve 2",
+        "partId": "RNDD"
+      }
+    ],
+    "health": {
+      "featureCount": 174,
+      "stateCounts": {
+        "OK": 174,
+        "INFO": 4
+      },
+      "isComplete": true,
+      "rollbackIndex": 174,
+      "sourceMicroversion": "8c1c46dca02a771746d4a15b",
+      "suppressed": [
+        {
+          "index": 105,
+          "name": "INDEX_switch_pockets",
+          "featureId": "FkGjuaVRtcptOX1_14"
+        }
+      ]
+    },
+    "assembly": {
+      "instances": 25,
+      "activeInstances": 25,
+      "occurrences": 25,
+      "suppressedInstances": 0,
+      "danglingIds": [],
+      "danglingCount": 0
+    },
+    "inventory": [
+      {
+        "name": "Joystick_1",
+        "partId": "JaD",
+        "ordinal": 1,
+        "bodyType": "solid",
+        "volumeMm3": 47417.90142806188,
+        "tessellation": {
+          "triangles": 17250,
+          "fingerprint": "5242df0b14ea3b333e5f628ae0c04b73af58b8f5eff4a1abf08b5382798c2f9d",
+          "bbox": {
+            "minMm": [
+              0.0,
+              -61.420667917,
+              -73.87851178599999
+            ],
+            "maxMm": [
+              38.73841837,
+              62.42749095,
+              78.251093626
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FFJEPQpuHhrtTmE_0",
+          "FXg5bkjBhv2Qlko_0",
+          "FmemK7LK9pvFF0b_0",
+          "FSmaHCB95gpmwgc_0",
+          "FdflGREM19IRypF_1"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FFJEPQpuHhrtTmE_0",
+            "name": "Joystick_side_profile",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FXg5bkjBhv2Qlko_0",
+            "name": "Joystick_part_4_plane",
+            "featureType": "cPlane"
+          },
+          {
+            "featureId": "FmemK7LK9pvFF0b_0",
+            "name": "Joystick_part_4",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FSmaHCB95gpmwgc_0",
+            "name": "Loft 2",
+            "featureType": "loft"
+          },
+          {
+            "featureId": "FdflGREM19IRypF_1",
+            "name": "Enclose 1",
+            "featureType": "enclose"
+          }
+        ]
+      },
+      {
+        "name": "Joystick_2",
+        "partId": "JfD",
+        "ordinal": 2,
+        "bodyType": "solid",
+        "volumeMm3": 49684.74087790842,
+        "tessellation": {
+          "triangles": 16910,
+          "fingerprint": "920e56b83fff5b04c2b0b90f24942cfc9606c26f67c0193aac42148ed5dae7c1",
+          "bbox": {
+            "minMm": [
+              -38.779295981000004,
+              -61.419807373999994,
+              -73.87851178599999
+            ],
+            "maxMm": [
+              0.0,
+              62.42749095,
+              78.242070973
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FFJEPQpuHhrtTmE_0",
+          "FXg5bkjBhv2Qlko_0",
+          "FmemK7LK9pvFF0b_0",
+          "FSmaHCB95gpmwgc_0",
+          "FdflGREM19IRypF_1",
+          "FfyGpppYw8McLsz_2"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FFJEPQpuHhrtTmE_0",
+            "name": "Joystick_side_profile",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FXg5bkjBhv2Qlko_0",
+            "name": "Joystick_part_4_plane",
+            "featureType": "cPlane"
+          },
+          {
+            "featureId": "FmemK7LK9pvFF0b_0",
+            "name": "Joystick_part_4",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FSmaHCB95gpmwgc_0",
+            "name": "Loft 2",
+            "featureType": "loft"
+          },
+          {
+            "featureId": "FdflGREM19IRypF_1",
+            "name": "Enclose 1",
+            "featureType": "enclose"
+          },
+          {
+            "featureId": "FfyGpppYw8McLsz_2",
+            "name": "Mirror 1",
+            "featureType": "mirror"
+          }
+        ]
+      },
+      {
+        "name": "Backplate",
+        "partId": "RYDD",
+        "ordinal": 4,
+        "bodyType": "solid",
+        "volumeMm3": 5900.009652072667,
+        "tessellation": {
+          "triangles": 1466,
+          "fingerprint": "52dfb2c3a000d20745395da2c9862053247bb62f737d7efa8759b13dbf57fba2",
+          "bbox": {
+            "minMm": [
+              -20.242279395,
+              -54.285392165000005,
+              28.546903282000002
+            ],
+            "maxMm": [
+              20.23666352,
+              3.893066896,
+              73.367625475
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "F5pLe9ocjnEyLMf_4",
+          "F6xaVo92NCoT8Ny_4",
+          "FR1RGAmsfokIVzQ_4"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "F5pLe9ocjnEyLMf_4",
+            "name": "Backplate",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F6xaVo92NCoT8Ny_4",
+            "name": "Sweep_guide",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FR1RGAmsfokIVzQ_4",
+            "name": "Sweep 1",
+            "featureType": "sweep"
+          }
+        ]
+      },
+      {
+        "name": "Button_wide_1",
+        "partId": "RAED",
+        "ordinal": 5,
+        "bodyType": "solid",
+        "volumeMm3": 288.48594859834844,
+        "tessellation": {
+          "triangles": 26,
+          "fingerprint": "7d74a301944c4bcbb8c317bd22d7346a701ef6d0e97f0fbfb377f769c6d6223b",
+          "bbox": {
+            "minMm": [
+              3.356746398,
+              -21.155612543,
+              51.87388137
+            ],
+            "maxMm": [
+              12.956746854,
+              -13.066717423,
+              59.554792941
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FN60hLJrErylbKr_5"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FN60hLJrErylbKr_5",
+            "name": "Extrude 17",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_side_1",
+        "partId": "RAEH",
+        "ordinal": 6,
+        "bodyType": "solid",
+        "volumeMm3": 271.0403938358029,
+        "tessellation": {
+          "triangles": 38,
+          "fingerprint": "83b9c19a5b78190bc76848134b61c1a1e2a158c7ded15c6a652eda73442084b0",
+          "bbox": {
+            "minMm": [
+              7.199999876000001,
+              -12.133046985,
+              43.302986771
+            ],
+            "maxMm": [
+              14.800000004000001,
+              -3.163228277,
+              52.008707076
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FN60hLJrErylbKr_5"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FN60hLJrErylbKr_5",
+            "name": "Extrude 17",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_corner_1",
+        "partId": "RAEL",
+        "ordinal": 7,
+        "bodyType": "solid",
+        "volumeMm3": 199.4401810243257,
+        "tessellation": {
+          "triangles": 138,
+          "fingerprint": "ccc7f11af1695d377c1826089b064745d236e36c4a41e1a243b08f09dc5fae29",
+          "bbox": {
+            "minMm": [
+              7.199999876000001,
+              -3.862362588,
+              36.052383482
+            ],
+            "maxMm": [
+              14.797435142,
+              4.810951184,
+              44.720090926000005
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FN60hLJrErylbKr_5"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FN60hLJrErylbKr_5",
+            "name": "Extrude 17",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_corner_2",
+        "partId": "RBED",
+        "ordinal": 8,
+        "bodyType": "solid",
+        "volumeMm3": 199.44018525403433,
+        "tessellation": {
+          "triangles": 136,
+          "fingerprint": "7554f29773ea47561e71cd66d9f7be08d24b3c73fac8afc1864d23e7fd49f8b9",
+          "bbox": {
+            "minMm": [
+              -14.797435142,
+              -3.862362588,
+              36.052383482
+            ],
+            "maxMm": [
+              -7.199999876000001,
+              4.810951184,
+              44.720090926000005
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "F5f2Bqv3P4yttCY_8"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F5f2Bqv3P4yttCY_8",
+            "name": "Extrude 23",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_side_2",
+        "partId": "RBEH",
+        "ordinal": 9,
+        "bodyType": "solid",
+        "volumeMm3": 271.04039383580204,
+        "tessellation": {
+          "triangles": 38,
+          "fingerprint": "4f6f04ac3843f83b5b99bd2e8cc57f0987237fccea209dca4da0a79ecc713476",
+          "bbox": {
+            "minMm": [
+              -14.800000004000001,
+              -12.133046985,
+              43.302986771
+            ],
+            "maxMm": [
+              -7.199999876000001,
+              -3.163228277,
+              52.008707076
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "F5f2Bqv3P4yttCY_8"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F5f2Bqv3P4yttCY_8",
+            "name": "Extrude 23",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_wide_2",
+        "partId": "RBEL",
+        "ordinal": 10,
+        "bodyType": "solid",
+        "volumeMm3": 288.48594859834725,
+        "tessellation": {
+          "triangles": 26,
+          "fingerprint": "3763f0baff211d72eeaa495720e8f83d19916b7ceb4c489f1f35bc5828e410ff",
+          "bbox": {
+            "minMm": [
+              -12.956746854,
+              -21.155612543,
+              51.87388137
+            ],
+            "maxMm": [
+              -3.356746398,
+              -13.066717423,
+              59.554792941
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "F5f2Bqv3P4yttCY_8"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F5f2Bqv3P4yttCY_8",
+            "name": "Extrude 23",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_middle_1",
+        "partId": "RDED",
+        "ordinal": 11,
+        "bodyType": "solid",
+        "volumeMm3": 275.0540870318332,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "226e06660833b8e84f7bc1b39402e24b294cc3db1154b6e44ba0ef1a5839874a",
+          "bbox": {
+            "minMm": [
+              -3.8000000640000002,
+              -12.133046985,
+              43.302986771
+            ],
+            "maxMm": [
+              3.8000000640000002,
+              -3.279160708,
+              51.894132048
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FhTqxuAvjIWGQgW_11"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FhTqxuAvjIWGQgW_11",
+            "name": "Extrude 24",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_middle_2",
+        "partId": "RDEH",
+        "ordinal": 12,
+        "bodyType": "solid",
+        "volumeMm3": 275.0540870318343,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "944d1a85655274afffaaf452f2e535ba81138c727e0168e6d997d1ebf4bc501c",
+          "bbox": {
+            "minMm": [
+              -3.8000000640000002,
+              -3.862362588,
+              36.050692201
+            ],
+            "maxMm": [
+              3.8000000640000002,
+              4.991523921,
+              44.641837478
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FhTqxuAvjIWGQgW_11"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FhTqxuAvjIWGQgW_11",
+            "name": "Extrude 24",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Small_joystick_attachment",
+        "partId": "RHED",
+        "ordinal": 13,
+        "bodyType": "solid",
+        "volumeMm3": 284.54088875547336,
+        "tessellation": {
+          "triangles": 5726,
+          "fingerprint": "3d8b25dda503c04ee616b0e358f1fe22941e221a4adf076cdffb5e25dbf924d0",
+          "bbox": {
+            "minMm": [
+              96.522115171,
+              -23.573692888,
+              0.0
+            ],
+            "maxMm": [
+              110.52211374,
+              -9.587789886,
+              10.99999994
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FaV6nqtsPKGqC7g_13",
+          "FTcXnBBgATAer7g_13"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FaV6nqtsPKGqC7g_13",
+            "name": "Sketch 2",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FTcXnBBgATAer7g_13",
+            "name": "Extrude 25",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Part 13",
+        "partId": "R4ED",
+        "ordinal": 14,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000013,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "9d1c611e2451eaa82297dfb302f7889fb7d29580b2a75be66be23d410c022b5b",
+          "bbox": {
+            "minMm": [
+              -25.510359555,
+              -21.775737404999997,
+              4.959203768999999
+            ],
+            "maxMm": [
+              -17.822766677,
+              -12.926074676,
+              13.380141929
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 14",
+        "partId": "R9ED",
+        "ordinal": 15,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000005,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "9f681515333ade16961823f193e217a60fc773c11a0ee12758b490a90559af74",
+          "bbox": {
+            "minMm": [
+              -20.822517574,
+              -30.838064849000002,
+              4.9969847309999995
+            ],
+            "maxMm": [
+              -10.550629348,
+              -20.693818107,
+              13.583546504
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 15",
+        "partId": "RCFD",
+        "ordinal": 16,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000002,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "7ea491585d32f43eb276b789f56047503b39c00c126e9213d3c8b2af9af6f394",
+          "bbox": {
+            "minMm": [
+              -9.39102564,
+              -31.924158335,
+              4.9567851240000005
+            ],
+            "maxMm": [
+              -1.55501382,
+              -25.579100475,
+              13.393742032
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 16",
+        "partId": "RHFD",
+        "ordinal": 17,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000005,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "84183a633c627357a5e7b72f3a3a82017572c2a1666e7984562b1076b9a32a13",
+          "bbox": {
+            "minMm": [
+              1.55501382,
+              -31.924158335,
+              4.9567851240000005
+            ],
+            "maxMm": [
+              9.39102564,
+              -25.579100475,
+              13.393742032
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 17",
+        "partId": "RWID",
+        "ordinal": 18,
+        "bodyType": "solid",
+        "volumeMm3": 2136.305048046518,
+        "tessellation": {
+          "triangles": 2112,
+          "fingerprint": "b1477991350dea824aca4edccd75edbbb062a9966aceea41ca5acc3c1333dc5c",
+          "bbox": {
+            "minMm": [
+              -19.415019079999997,
+              -27.773758397,
+              -1.2458590790000001
+            ],
+            "maxMm": [
+              3.174403217,
+              -0.017333459,
+              26.446722448
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "Fq5IPkiwWk5pWYv_15"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "Fq5IPkiwWk5pWYv_15",
+            "name": "RET_blank",
+            "featureType": "oneGripIndexRetainer"
+          }
+        ]
+      }
+    ]
+  },
+  "final": {
+    "label": "INDEX_FINAL_VALIDATED",
+    "versionId": "03ede76e83b5c865d9a69c35",
+    "configuration": "default",
+    "endpoint": "GET /parts/d/a21e64f36bc61df760d4587c/v/{versionId}/e/425d9199b59cfb1efd9ddc35",
+    "countRule": "bodyType == \"solid\"",
+    "allPartRecords": 20,
+    "solidCount": 18,
+    "wireCount": 2,
+    "wireParts": [
+      {
+        "name": "Curve 1",
+        "partId": "JMD"
+      },
+      {
+        "name": "Curve 2",
+        "partId": "RNDD"
+      }
+    ],
+    "health": {
+      "featureCount": 180,
+      "stateCounts": {
+        "OK": 180,
+        "INFO": 4
+      },
+      "isComplete": true,
+      "rollbackIndex": 180,
+      "sourceMicroversion": "fa76ab8dec2c7df3d6b1a48a",
+      "suppressed": [
+        {
+          "index": 105,
+          "name": "INDEX_switch_pockets",
+          "featureId": "FkGjuaVRtcptOX1_14"
+        }
+      ]
+    },
+    "assembly": {
+      "instances": 25,
+      "activeInstances": 25,
+      "occurrences": 25,
+      "suppressedInstances": 0,
+      "danglingIds": [],
+      "danglingCount": 0
+    },
+    "inventory": [
+      {
+        "name": "Joystick_1",
+        "partId": "JaD",
+        "ordinal": 1,
+        "bodyType": "solid",
+        "volumeMm3": 47492.70058650015,
+        "tessellation": {
+          "triangles": 17712,
+          "fingerprint": "a9faad2418a08462ce0da9cb545866902bc7b343eb53b00dfb6c3f1a4ba68fd5",
+          "bbox": {
+            "minMm": [
+              0.0,
+              -61.420667917,
+              -73.87851178599999
+            ],
+            "maxMm": [
+              38.73841837,
+              62.42749095,
+              78.251093626
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FFJEPQpuHhrtTmE_0",
+          "FXg5bkjBhv2Qlko_0",
+          "FmemK7LK9pvFF0b_0",
+          "FSmaHCB95gpmwgc_0",
+          "FdflGREM19IRypF_1"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FFJEPQpuHhrtTmE_0",
+            "name": "Joystick_side_profile",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FXg5bkjBhv2Qlko_0",
+            "name": "Joystick_part_4_plane",
+            "featureType": "cPlane"
+          },
+          {
+            "featureId": "FmemK7LK9pvFF0b_0",
+            "name": "Joystick_part_4",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FSmaHCB95gpmwgc_0",
+            "name": "Loft 2",
+            "featureType": "loft"
+          },
+          {
+            "featureId": "FdflGREM19IRypF_1",
+            "name": "Enclose 1",
+            "featureType": "enclose"
+          }
+        ]
+      },
+      {
+        "name": "Joystick_2",
+        "partId": "JfD",
+        "ordinal": 2,
+        "bodyType": "solid",
+        "volumeMm3": 49685.19718520176,
+        "tessellation": {
+          "triangles": 16910,
+          "fingerprint": "55642066d3b2b142c68fd9708e5cdfdd1119ed4374036fddc2e1d8c023657589",
+          "bbox": {
+            "minMm": [
+              -38.779295981000004,
+              -61.419807373999994,
+              -73.87851178599999
+            ],
+            "maxMm": [
+              0.0,
+              62.42749095,
+              78.242070973
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FFJEPQpuHhrtTmE_0",
+          "FXg5bkjBhv2Qlko_0",
+          "FmemK7LK9pvFF0b_0",
+          "FSmaHCB95gpmwgc_0",
+          "FdflGREM19IRypF_1",
+          "FfyGpppYw8McLsz_2"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FFJEPQpuHhrtTmE_0",
+            "name": "Joystick_side_profile",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FXg5bkjBhv2Qlko_0",
+            "name": "Joystick_part_4_plane",
+            "featureType": "cPlane"
+          },
+          {
+            "featureId": "FmemK7LK9pvFF0b_0",
+            "name": "Joystick_part_4",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FSmaHCB95gpmwgc_0",
+            "name": "Loft 2",
+            "featureType": "loft"
+          },
+          {
+            "featureId": "FdflGREM19IRypF_1",
+            "name": "Enclose 1",
+            "featureType": "enclose"
+          },
+          {
+            "featureId": "FfyGpppYw8McLsz_2",
+            "name": "Mirror 1",
+            "featureType": "mirror"
+          }
+        ]
+      },
+      {
+        "name": "Backplate",
+        "partId": "RYDD",
+        "ordinal": 4,
+        "bodyType": "solid",
+        "volumeMm3": 5899.945734074401,
+        "tessellation": {
+          "triangles": 1450,
+          "fingerprint": "313e4bf9766177857e06287877d56e831276848c831a17ce769e4ae7dd0ad73f",
+          "bbox": {
+            "minMm": [
+              -20.242279395,
+              -54.285392165000005,
+              28.546903282000002
+            ],
+            "maxMm": [
+              20.23666352,
+              3.893066896,
+              73.367625475
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "F5pLe9ocjnEyLMf_4",
+          "F6xaVo92NCoT8Ny_4",
+          "FR1RGAmsfokIVzQ_4"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "F5pLe9ocjnEyLMf_4",
+            "name": "Backplate",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F6xaVo92NCoT8Ny_4",
+            "name": "Sweep_guide",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FR1RGAmsfokIVzQ_4",
+            "name": "Sweep 1",
+            "featureType": "sweep"
+          }
+        ]
+      },
+      {
+        "name": "Button_wide_1",
+        "partId": "RAED",
+        "ordinal": 5,
+        "bodyType": "solid",
+        "volumeMm3": 288.48594859834844,
+        "tessellation": {
+          "triangles": 26,
+          "fingerprint": "7d74a301944c4bcbb8c317bd22d7346a701ef6d0e97f0fbfb377f769c6d6223b",
+          "bbox": {
+            "minMm": [
+              3.356746398,
+              -21.155612543,
+              51.87388137
+            ],
+            "maxMm": [
+              12.956746854,
+              -13.066717423,
+              59.554792941
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FN60hLJrErylbKr_5"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FN60hLJrErylbKr_5",
+            "name": "Extrude 17",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_side_1",
+        "partId": "RAEH",
+        "ordinal": 6,
+        "bodyType": "solid",
+        "volumeMm3": 271.0403938358024,
+        "tessellation": {
+          "triangles": 38,
+          "fingerprint": "83b9c19a5b78190bc76848134b61c1a1e2a158c7ded15c6a652eda73442084b0",
+          "bbox": {
+            "minMm": [
+              7.199999876000001,
+              -12.133046985,
+              43.302986771
+            ],
+            "maxMm": [
+              14.800000004000001,
+              -3.163228277,
+              52.008707076
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FN60hLJrErylbKr_5"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FN60hLJrErylbKr_5",
+            "name": "Extrude 17",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_corner_1",
+        "partId": "RAEL",
+        "ordinal": 7,
+        "bodyType": "solid",
+        "volumeMm3": 199.44018102432568,
+        "tessellation": {
+          "triangles": 138,
+          "fingerprint": "ccc7f11af1695d377c1826089b064745d236e36c4a41e1a243b08f09dc5fae29",
+          "bbox": {
+            "minMm": [
+              7.199999876000001,
+              -3.862362588,
+              36.052383482
+            ],
+            "maxMm": [
+              14.797435142,
+              4.810951184,
+              44.720090926000005
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FN60hLJrErylbKr_5"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FN60hLJrErylbKr_5",
+            "name": "Extrude 17",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_corner_2",
+        "partId": "RBED",
+        "ordinal": 8,
+        "bodyType": "solid",
+        "volumeMm3": 199.4401852540342,
+        "tessellation": {
+          "triangles": 136,
+          "fingerprint": "7554f29773ea47561e71cd66d9f7be08d24b3c73fac8afc1864d23e7fd49f8b9",
+          "bbox": {
+            "minMm": [
+              -14.797435142,
+              -3.862362588,
+              36.052383482
+            ],
+            "maxMm": [
+              -7.199999876000001,
+              4.810951184,
+              44.720090926000005
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "F5f2Bqv3P4yttCY_8"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F5f2Bqv3P4yttCY_8",
+            "name": "Extrude 23",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_side_2",
+        "partId": "RBEH",
+        "ordinal": 9,
+        "bodyType": "solid",
+        "volumeMm3": 271.04039383580215,
+        "tessellation": {
+          "triangles": 38,
+          "fingerprint": "4f6f04ac3843f83b5b99bd2e8cc57f0987237fccea209dca4da0a79ecc713476",
+          "bbox": {
+            "minMm": [
+              -14.800000004000001,
+              -12.133046985,
+              43.302986771
+            ],
+            "maxMm": [
+              -7.199999876000001,
+              -3.163228277,
+              52.008707076
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "F5f2Bqv3P4yttCY_8"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F5f2Bqv3P4yttCY_8",
+            "name": "Extrude 23",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_wide_2",
+        "partId": "RBEL",
+        "ordinal": 10,
+        "bodyType": "solid",
+        "volumeMm3": 288.48594859834793,
+        "tessellation": {
+          "triangles": 26,
+          "fingerprint": "3763f0baff211d72eeaa495720e8f83d19916b7ceb4c489f1f35bc5828e410ff",
+          "bbox": {
+            "minMm": [
+              -12.956746854,
+              -21.155612543,
+              51.87388137
+            ],
+            "maxMm": [
+              -3.356746398,
+              -13.066717423,
+              59.554792941
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "F5f2Bqv3P4yttCY_8"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "F5f2Bqv3P4yttCY_8",
+            "name": "Extrude 23",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_middle_1",
+        "partId": "RDED",
+        "ordinal": 11,
+        "bodyType": "solid",
+        "volumeMm3": 275.05408703176437,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "226e06660833b8e84f7bc1b39402e24b294cc3db1154b6e44ba0ef1a5839874a",
+          "bbox": {
+            "minMm": [
+              -3.8000000640000002,
+              -12.133046985,
+              43.302986771
+            ],
+            "maxMm": [
+              3.8000000640000002,
+              -3.279160708,
+              51.894132048
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FhTqxuAvjIWGQgW_11"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FhTqxuAvjIWGQgW_11",
+            "name": "Extrude 24",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Button_middle_2",
+        "partId": "RDEH",
+        "ordinal": 12,
+        "bodyType": "solid",
+        "volumeMm3": 275.0540870317647,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "944d1a85655274afffaaf452f2e535ba81138c727e0168e6d997d1ebf4bc501c",
+          "bbox": {
+            "minMm": [
+              -3.8000000640000002,
+              -3.862362588,
+              36.050692201
+            ],
+            "maxMm": [
+              3.8000000640000002,
+              4.991523921,
+              44.641837478
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FyXEyaypbs8fSEd_5",
+          "FhTqxuAvjIWGQgW_11"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FyXEyaypbs8fSEd_5",
+            "name": "Buttons_cover",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FhTqxuAvjIWGQgW_11",
+            "name": "Extrude 24",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Small_joystick_attachment",
+        "partId": "RHED",
+        "ordinal": 13,
+        "bodyType": "solid",
+        "volumeMm3": 284.5408887554733,
+        "tessellation": {
+          "triangles": 5726,
+          "fingerprint": "3d8b25dda503c04ee616b0e358f1fe22941e221a4adf076cdffb5e25dbf924d0",
+          "bbox": {
+            "minMm": [
+              96.522115171,
+              -23.573692888,
+              0.0
+            ],
+            "maxMm": [
+              110.52211374,
+              -9.587789886,
+              10.99999994
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FaV6nqtsPKGqC7g_13",
+          "FTcXnBBgATAer7g_13"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FaV6nqtsPKGqC7g_13",
+            "name": "Sketch 2",
+            "featureType": "newSketch"
+          },
+          {
+            "featureId": "FTcXnBBgATAer7g_13",
+            "name": "Extrude 25",
+            "featureType": "extrude"
+          }
+        ]
+      },
+      {
+        "name": "Part 13",
+        "partId": "R4ED",
+        "ordinal": 14,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000013,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "9d1c611e2451eaa82297dfb302f7889fb7d29580b2a75be66be23d410c022b5b",
+          "bbox": {
+            "minMm": [
+              -25.510359555,
+              -21.775737404999997,
+              4.959203768999999
+            ],
+            "maxMm": [
+              -17.822766677,
+              -12.926074676,
+              13.380141929
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 14",
+        "partId": "R9ED",
+        "ordinal": 15,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000005,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "9f681515333ade16961823f193e217a60fc773c11a0ee12758b490a90559af74",
+          "bbox": {
+            "minMm": [
+              -20.822517574,
+              -30.838064849000002,
+              4.9969847309999995
+            ],
+            "maxMm": [
+              -10.550629348,
+              -20.693818107,
+              13.583546504
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 15",
+        "partId": "RCFD",
+        "ordinal": 16,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000005,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "7ea491585d32f43eb276b789f56047503b39c00c126e9213d3c8b2af9af6f394",
+          "bbox": {
+            "minMm": [
+              -9.39102564,
+              -31.924158335,
+              4.9567851240000005
+            ],
+            "maxMm": [
+              -1.55501382,
+              -25.579100475,
+              13.393742032
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 16",
+        "partId": "RHFD",
+        "ordinal": 17,
+        "bodyType": "solid",
+        "volumeMm3": 231.04000000000005,
+        "tessellation": {
+          "triangles": 12,
+          "fingerprint": "84183a633c627357a5e7b72f3a3a82017572c2a1666e7984562b1076b9a32a13",
+          "bbox": {
+            "minMm": [
+              1.55501382,
+              -31.924158335,
+              4.9567851240000005
+            ],
+            "maxMm": [
+              9.39102564,
+              -25.579100475,
+              13.393742032
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "FSAYT6HrIBkapCP_14"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "FSAYT6HrIBkapCP_14",
+            "name": "INDEX_button_caps",
+            "featureType": "oneGripIndexButtons"
+          }
+        ]
+      },
+      {
+        "name": "Part 17",
+        "partId": "RWID",
+        "ordinal": 18,
+        "bodyType": "solid",
+        "volumeMm3": 2136.3050480465186,
+        "tessellation": {
+          "triangles": 2112,
+          "fingerprint": "b1477991350dea824aca4edccd75edbbb062a9966aceea41ca5acc3c1333dc5c",
+          "bbox": {
+            "minMm": [
+              -19.415019079999997,
+              -27.773758397,
+              -1.2458590790000001
+            ],
+            "maxMm": [
+              3.174403217,
+              -0.017333459,
+              26.446722448
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "Fq5IPkiwWk5pWYv_15"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "Fq5IPkiwWk5pWYv_15",
+            "name": "RET_blank",
+            "featureType": "oneGripIndexRetainer"
+          }
+        ]
+      },
+      {
+        "name": "Part 18",
+        "partId": "RZKD",
+        "ordinal": 19,
+        "bodyType": "solid",
+        "volumeMm3": 284.95944280643164,
+        "tessellation": {
+          "triangles": 628,
+          "fingerprint": "65d37b9d5a57279d18347e0977b18f7780be10a5402f2d4bc9861c47a3288677",
+          "bbox": {
+            "minMm": [
+              3.36641958,
+              -19.025873392999998,
+              7.329826242999999
+            ],
+            "maxMm": [
+              15.685886145000001,
+              -12.590905651,
+              17.712222412
+            ]
+          }
+        },
+        "queryFeatureIds": [
+          "F2N4HZlwCZvkovM_16"
+        ],
+        "queryFeatures": [
+          {
+            "featureId": "F2N4HZlwCZvkovM_16",
+            "name": "I4_retainer_blank",
+            "featureType": "oneGripI4Retainer"
+          }
+        ]
+      }
+    ]
+  },
+  "diff": {
+    "added": [
+      "RZKD"
+    ],
+    "removed": [],
+    "changed": [
+      {
+        "partId": "JaD",
+        "name": "Joystick_1",
+        "volumeBeforeMm3": 47417.90142806188,
+        "volumeAfterMm3": 47492.70058650015,
+        "volumeDeltaMm3": 74.79915843826893,
+        "fingerprintChanged": true,
+        "trianglesBefore": 17250,
+        "trianglesAfter": 17712
+      },
+      {
+        "partId": "JfD",
+        "name": "Joystick_2",
+        "volumeBeforeMm3": 49684.74087790842,
+        "volumeAfterMm3": 49685.19718520176,
+        "volumeDeltaMm3": 0.4563072933378862,
+        "fingerprintChanged": true,
+        "trianglesBefore": 16910,
+        "trianglesAfter": 16910
+      },
+      {
+        "partId": "RYDD",
+        "name": "Backplate",
+        "volumeBeforeMm3": 5900.009652072667,
+        "volumeAfterMm3": 5899.945734074401,
+        "volumeDeltaMm3": -0.0639179982663336,
+        "fingerprintChanged": true,
+        "trianglesBefore": 1466,
+        "trianglesAfter": 1450
+      }
+    ]
+  }
+}

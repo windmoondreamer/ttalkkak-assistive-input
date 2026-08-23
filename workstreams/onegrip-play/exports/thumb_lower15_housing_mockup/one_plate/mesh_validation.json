@@ -1,0 +1,30 @@
+{
+  "file": "OneGrip_lower15_housing_two_shells_one_plate.stl",
+  "triangles": 38578,
+  "uniqueEdges": 57867,
+  "nonTwoManifoldEdges": 0,
+  "inconsistentSharedEdgeOrientation": 0,
+  "degenerateTriangles": 0,
+  "connectedComponents": 2,
+  "watertight": true,
+  "windingConsistent": true,
+  "volumeMm3": 97796.3591340693,
+  "boundsMm": [
+    [
+      5.0,
+      5.0,
+      0.0
+    ],
+    [
+      172.55715942382812,
+      182.6575164794922,
+      38.73471450805664
+    ]
+  ],
+  "extentsMm": [
+    167.55715942382812,
+    177.6575164794922,
+    38.73471450805664
+  ],
+  "onePlateGate": "PASS"
+}

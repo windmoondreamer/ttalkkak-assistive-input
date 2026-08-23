@@ -1,0 +1,18 @@
+{
+ "silhouette_delta": {
+  "SIDE|전체": 0.0,
+  "SIDE|joint 구간": 41.79088708056469,
+  "TOP|전체": 0.0,
+  "TOP|joint 구간": 13.834419463133479,
+  "FRONT|전체": 0.0,
+  "FRONT|joint 구간": 41.79088708056469,
+  "OBLIQUE SHOULDER|전체": 0.0,
+  "OBLIQUE SHOULDER|joint 구간": 53.711843281200785
+ },
+ "max_protrusion_mm": 0.0020000000000024443,
+ "at": {
+  "y": -136.0,
+  "depth": 4.0
+ },
+ "pass": true
+}

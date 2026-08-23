@@ -1,0 +1,56 @@
+{
+ "brep": {
+  "solids": 1,
+  "shells": 1,
+  "faces": 428,
+  "edges": 1180,
+  "valid": true,
+  "volume_mm3": 732081.2860041456
+ },
+ "stl": {
+  "edges": 166273,
+  "boundary_edges": 1,
+  "nonmanifold_edges": 1,
+  "watertight": false,
+  "tolerance": 0.015,
+  "angular_tolerance": 0.08
+ },
+ "min_wall": {
+  "samples": 700,
+  "min_mm": 0.2880862566199801,
+  "p01_mm": 0.6576205957997558,
+  "p05_mm": 1.0133590650792266,
+  "median_mm": 5.443726779570595
+ },
+ "min_wall_skirt": {
+  "samples": 491,
+  "min_mm": 0.24979125103601735,
+  "p01_mm": 0.7665143883264194,
+  "p05_mm": 1.435196917428141,
+  "median_mm": 5.001489747735221
+ },
+ "measure": {
+  "W_mm": 133.60000610351562,
+  "L_mm": 227.4551239013672,
+  "H_world_mm": 139.85691669117216,
+  "volume_mm3": 732063.6849257319,
+  "first_ground_contact_u": -68.10857312558284,
+  "floating_span_mm": 13.781434493191725,
+  "u_tip": -81.89000761877456,
+  "max_blend_slope_deg": 37.821434819630596,
+  "mean_blend_slope_deg": 17.0110338350619,
+  "ground_area_mm2": 3017.47999772036
+ },
+ "carrier": {
+  "volume_mm3": 90177.99882959737,
+  "watertight": true
+ },
+ "paths": {
+  "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\step\\ERGO_HOUSING_W2_FINAL.step",
+  "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\stl\\ERGO_HOUSING_W2_FINAL.stl",
+  "brep": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\brep\\ERGO_HOUSING_W2_FINAL.brep",
+  "carrier_step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\step\\BOTTOM_CARRIER_FINAL.step",
+  "carrier_stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\stl\\BOTTOM_CARRIER_FINAL.stl",
+  "carrier_brep": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\brep\\BOTTOM_CARRIER_FINAL.brep"
+ }
+}

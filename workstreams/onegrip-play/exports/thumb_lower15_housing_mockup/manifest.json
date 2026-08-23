@@ -1,0 +1,27 @@
+{
+  "source": {
+    "documentId": "a21e64f36bc61df760d4587c",
+    "workspaceId": "ef6a7b3ccc45186203e4d2ca",
+    "elementId": "425d9199b59cfb1efd9ddc35",
+    "configuration": "default",
+    "onshapeVersionName": "THUMB_LOWER15_HOUSING_V1",
+    "method": "GET only"
+  },
+  "scope": "external housing shells only; controls and internals excluded",
+  "parts": [
+    {
+      "filename": "OneGrip_lower15_housing_Joystick_1_JaD.stl",
+      "partId": "JaD",
+      "bytes": 941984,
+      "triangles": 18838,
+      "binaryStlLengthCheck": "PASS"
+    },
+    {
+      "filename": "OneGrip_lower15_housing_Joystick_2_JfD.stl",
+      "partId": "JfD",
+      "bytes": 987084,
+      "triangles": 19740,
+      "binaryStlLengthCheck": "PASS"
+    }
+  ]
+}

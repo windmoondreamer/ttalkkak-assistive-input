@@ -1,0 +1,56 @@
+{
+ "brep": {
+  "faces": 1312,
+  "edges": 3271,
+  "shells": 1,
+  "volume_mm3": 947875.7534993547
+ },
+ "stl": {
+  "edges": 37566,
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "watertight": true,
+  "triangles": 25044,
+  "degenerate": 0
+ },
+ "void_audit": {
+  "grid": "159x59 @ 2.5mm",
+  "interior_void_cells": 0,
+  "locations": []
+ },
+ "arm_support": {
+  "area_mm2": 20332.220636351016,
+  "projected_area_mm2": 18147.380417361936,
+  "triangles": 1258,
+  "u_range": [
+   -227.1,
+   -50.1
+  ],
+  "mean_tilt_deg": 26.805445604430428
+ },
+ "carrier": {
+  "min_horizontal_clearance_mm": 0.021091461181640625,
+  "points_inside_footprint": 6090,
+  "z_range": [
+   -255.96,
+   -146.96
+  ]
+ },
+ "dims": {
+  "L_mm": 365.7596893310547,
+  "W_mm": 133.60000610351562,
+  "H_world_mm": 140.52403125535608,
+  "volume_mm3": 947809.1758094779,
+  "ground_area_mm2": 11266.119668121248,
+  "front_most_support_u": -227.05584712133899,
+  "rear_most_ground_u": 162.17747947557123,
+  "centroid_u": 20.116058539169792,
+  "rear_lever_arm_mm": 142.06142093640145,
+  "mass_25pct_infill_g": 293.82084450093816
+ },
+ "paths": {
+  "step": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\step\\ERGO_HOUSING_25_WRAP_FINAL_V4.step",
+  "stl": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\stl\\ERGO_HOUSING_25_WRAP_FINAL_V4.stl",
+  "brep": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\brep\\ERGO_HOUSING_25_WRAP_FINAL_V4.brep"
+ }
+}

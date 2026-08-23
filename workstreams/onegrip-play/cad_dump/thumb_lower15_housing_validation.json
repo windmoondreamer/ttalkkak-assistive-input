@@ -1,0 +1,45 @@
+{
+  "timestamp": "2026-08-21T19:15:00+09:00",
+  "onshapeDocument": "OneGrip_Play_V1",
+  "workspace": "Main",
+  "partStudio": "Joystick",
+  "preWriteCheckpoint": "THUMB_LOWER15_PREWRITE",
+  "postWriteVersion": "THUMB_LOWER15_HOUSING_V1",
+  "scope": "HOUSING_FIRST",
+  "additionalTranslationMm": [0.0, 6.75, -15.0],
+  "totalTranslationFromOriginalMm": [0.0, 12.25, -21.0],
+  "movedRigidMembers": {
+    "backplate": 1,
+    "buttonCaps": 8,
+    "totalSolids": 9
+  },
+  "movedOriginalOpeningFaces": 36,
+  "partStudioRegeneration": "PASS",
+  "featureCount": 202,
+  "solidCount": 30,
+  "requiredBodiesPresent": [
+    "Joystick_1",
+    "Joystick_2",
+    "Backplate",
+    "Button_wide_1",
+    "Button_side_1",
+    "Button_corner_1",
+    "Button_corner_2",
+    "Button_side_2",
+    "Button_wide_2",
+    "Button_middle_1",
+    "Button_middle_2"
+  ],
+  "visibleFeatureErrors": 0,
+  "newOrphanBodies": 0,
+  "sampledBackplateShellGapMm": 0.2524557555295586,
+  "housingDecision": "PASS",
+  "fullHardwareAssemblyDecision": "DEFERRED",
+  "deferred": [
+    "INDEX/MIDDLE internal holder redesign",
+    "finger switch and terminal routing",
+    "screw and wiring envelopes",
+    "HW504 and PushBtn assembly mate synchronization",
+    "full interference and actuation validation"
+  ]
+}

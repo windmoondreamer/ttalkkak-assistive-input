@@ -1,0 +1,15 @@
+{
+  "id": "03ede76e83b5c865d9a69c35",
+  "name": "INDEX_FINAL_VALIDATED",
+  "createdAt": "2026-08-20T08:31:30.085+00:00",
+  "featureCount": 180,
+  "partIds": {
+    "Joystick_1": "JaD",
+    "Joystick_2": "JfD",
+    "sharedRetainer": "RWID",
+    "i4Retainer": "RZKD"
+  },
+  "error": 0,
+  "warning": 0,
+  "assembly": "25/25"
+}

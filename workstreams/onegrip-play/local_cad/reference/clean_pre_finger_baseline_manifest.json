@@ -1,0 +1,110 @@
+{
+  "schema": 1,
+  "generatedKst": "2026-08-22T02:00:00+09:00",
+  "mode": "Onshape GUI history/export only; REST API 0; FeatureScript API 0; CAD write 0",
+  "source": {
+    "document": "OneGrip_Play_V1",
+    "documentId": "a21e64f36bc61df760d4587c",
+    "element": "Joystick",
+    "elementId": "425d9199b59cfb1efd9ddc35",
+    "historicalState": "Start",
+    "historicalVersionId": "4342e7db262cbced58bf16b8",
+    "historicalUrl": "https://cad.onshape.com/documents/a21e64f36bc61df760d4587c/v/4342e7db262cbced58bf16b8/e/425d9199b59cfb1efd9ddc35",
+    "guiEvidence": {
+      "readOnlyBanner": true,
+      "featureCount": 93,
+      "partCount": 12,
+      "curveCount": 2,
+      "part13OrLaterPresent": false,
+      "indexMiddleFeatureGroupPresent": false,
+      "originalThumbPartsPresent": true
+    },
+    "export": {
+      "format": "STEP AP242",
+      "units": "Millimeter",
+      "yAxisUpTransform": false,
+      "preprocessing": "None",
+      "option": "Download"
+    }
+  },
+  "files": {
+    "JaD": {
+      "path": "local_cad/reference/JAD_CLEAN_PRE_FINGER.step",
+      "sizeBytes": 612629,
+      "sha256": "01f5708a29ca46b0f9f13b5c63b5f4d9b7b46bcf04fc8b0a55b806085f1ff4f0",
+      "partName": "Joystick_1",
+      "partId": "JaD",
+      "solidCount": 1,
+      "validBrep": true,
+      "watertightSolid": true,
+      "volumeMm3": 46577.761694471,
+      "bboxMm": {
+        "min": [-0.5222681032686836, -61.431944124864756, -73.87850854860079],
+        "max": [38.77976975434524, 62.428314495976565, 78.25678350405062]
+      },
+      "topology": {"vertices": 116, "edges": 170, "faces": 62},
+      "validation": "PASS"
+    },
+    "JfD": {
+      "path": "local_cad/reference/JFD_CLEAN_PRE_FINGER.step",
+      "sizeBytes": 610677,
+      "sha256": "8d290891dd93f16f50789f24ef7d27c754b27b4250caa1ebb3cb587648475792",
+      "partName": "Joystick_2",
+      "partId": "JfD",
+      "solidCount": 1,
+      "validBrep": true,
+      "watertightSolid": true,
+      "volumeMm3": 47850.714043168,
+      "bboxMm": {
+        "min": [-38.77976975434524, -61.431944124864756, -73.87850854860079],
+        "max": [0.5222681032686836, 62.42831449419311, 78.25678350405062]
+      },
+      "topology": {"vertices": 107, "edges": 159, "faces": 60},
+      "validation": "PASS"
+    },
+    "originalThumb": {
+      "path": "local_cad/reference/THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+      "sizeBytes": 442747,
+      "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d",
+      "solidCount": 10,
+      "validBrep": true,
+      "watertightSolids": true,
+      "volumeMm3": 8252.34767899,
+      "bboxMm": {
+        "min": [-20.279267268814046, -54.28539123126642, -1e-7],
+        "max": [110.522113608337, 4.99152398970311, 73.36769141444876]
+      },
+      "note": "Backplate and eight cap solids are in-place. Small_joystick_attachment is intentionally parked near X=103.5 mm in the source Part Studio and remains immutable reference geometry.",
+      "validation": "PASS"
+    }
+  },
+  "fingerSurfaceContinuity": {
+    "method": "minimum exact OCCT face distance from each known control center",
+    "maximumDistanceMm": 0.027072818,
+    "distancesMm": {
+      "I1": 0.000885009,
+      "I2": 0.002466111,
+      "I3": 0.000445939,
+      "I4": 0.000445939,
+      "M1": 0.027072818,
+      "M2": 0.012892224,
+      "M3": 0.011635064,
+      "M4": 0.015895357
+    },
+    "interpretation": "All eight former/new-row datum centers land on continuous clean shell faces; no finger opening exists at these locations.",
+    "validation": "PASS"
+  },
+  "fingerGeometry": {
+    "I1OpeningPresent": false,
+    "M1OpeningPresent": false,
+    "M2OpeningPresent": false,
+    "otherNewFingerGeometryPresent": false,
+    "allNewFingerGeometryAbsent": true
+  },
+  "screwGeometry": {
+    "shellInterfacePreserved": true,
+    "separateScrewExportRequired": false,
+    "note": "Original screw holes/boss/interface surfaces are part of the clean JaD/JfD solids; physical standard screws remain existing keep-out/reference hardware."
+  },
+  "finalGate": "LOCAL CLEAN BASELINE = FOUND"
+}

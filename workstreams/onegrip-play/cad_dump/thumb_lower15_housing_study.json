@@ -1,0 +1,151 @@
+{
+  "mode": "OFFLINE_HOUSING_FIRST_NO_CAD_WRITE",
+  "source": "current Main Stage-D 30-part STL ZIP",
+  "instruction": "additional 15 mm drop; ignore INDEX/MIDDLE internal parts for this stage",
+  "currentTranslationFromOriginalMm": [
+    0.0,
+    5.5,
+    -6.0
+  ],
+  "requestedAdditionalTranslationMm": [
+    0.0,
+    null,
+    -15.0
+  ],
+  "recommendedAdditionalTranslationMm": [
+    0.0,
+    6.75,
+    -15.0
+  ],
+  "recommendedTotalTranslationFromOriginalMm": [
+    0.0,
+    12.25,
+    -21.0
+  ],
+  "method": "preserve current eight-cap center-to-shell vertex relation while sweeping additional Y in 0.25 mm steps",
+  "bestCandidate": {
+    "additionalYmm": 6.75,
+    "additionalZmm": -15.0,
+    "score": 1.9479937958638815,
+    "rmsRadialRelationErrorMm": 1.0914928022655195,
+    "maxRadialRelationErrorMm": 1.5572745338152036,
+    "centerToShellVertexMm": {
+      "Button_wide_1": 5.232804464738407,
+      "Button_side_1": 3.3654320356191003,
+      "Button_corner_1": 1.4777811830626588,
+      "Button_corner_2": 1.479010135147309,
+      "Button_side_2": 3.3656024683347856,
+      "Button_wide_2": 5.232804464738407,
+      "Button_middle_1": 4.1689310562209565,
+      "Button_middle_2": 2.460591535854203
+    }
+  },
+  "nextCandidates": [
+    {
+      "additionalYmm": 6.5,
+      "additionalZmm": -15.0,
+      "score": 2.0259074444411818,
+      "rmsRadialRelationErrorMm": 1.0851104194694743,
+      "maxRadialRelationErrorMm": 1.7105400454031043,
+      "centerToShellVertexMm": {
+        "Button_wide_1": 5.445104505648347,
+        "Button_side_1": 3.525932022981968,
+        "Button_corner_1": 1.6156857000068021,
+        "Button_corner_2": 1.6166876742465934,
+        "Button_side_2": 3.526050739734128,
+        "Button_wide_2": 5.445104505648347,
+        "Button_middle_1": 4.350519292221548,
+        "Button_middle_2": 2.689004536375824
+      }
+    },
+    {
+      "additionalYmm": 7.0,
+      "additionalZmm": -15.0,
+      "score": 2.101576221927094,
+      "rmsRadialRelationErrorMm": 1.1219901019546885,
+      "maxRadialRelationErrorMm": 1.7810656726771015,
+      "centerToShellVertexMm": {
+        "Button_wide_1": 5.0239747267418124,
+        "Button_side_1": 3.2163751245855843,
+        "Button_corner_1": 1.3552628402891351,
+        "Button_corner_2": 1.355103401310533,
+        "Button_side_2": 3.216601643123191,
+        "Button_wide_2": 5.0239747267418124,
+        "Button_middle_1": 3.994740816505533,
+        "Button_middle_2": 2.2368003969923054
+      }
+    },
+    {
+      "additionalYmm": 6.25,
+      "additionalZmm": -15.0,
+      "score": 2.164914314443279,
+      "rmsRadialRelationErrorMm": 1.1056583501999464,
+      "maxRadialRelationErrorMm": 1.9259199349878768,
+      "centerToShellVertexMm": {
+        "Button_wide_1": 5.660484395233119,
+        "Button_side_1": 3.6963847844898536,
+        "Button_corner_1": 1.7782135241300097,
+        "Button_corner_2": 1.779012954492816,
+        "Button_side_2": 3.696456095167097,
+        "Button_wide_2": 5.660484395233119,
+        "Button_middle_1": 4.53647431347936,
+        "Button_middle_2": 2.920955338067012
+      }
+    },
+    {
+      "additionalYmm": 7.25,
+      "additionalZmm": -15.0,
+      "score": 2.30574690615322,
+      "rmsRadialRelationErrorMm": 1.2064632284338583,
+      "maxRadialRelationErrorMm": 1.9986975958533852,
+      "centerToShellVertexMm": {
+        "Button_wide_1": 4.819066459771514,
+        "Button_side_1": 3.080422876446437,
+        "Button_corner_1": 1.1097789464916767,
+        "Button_corner_2": 1.10974193939446,
+        "Button_side_2": 3.0807097049583274,
+        "Button_wide_2": 4.819066459771514,
+        "Button_middle_1": 3.828958374099541,
+        "Button_middle_2": 2.0191684738160216
+      }
+    },
+    {
+      "additionalYmm": 6.0,
+      "additionalZmm": -15.0,
+      "score": 2.3357884036036234,
+      "rmsRadialRelationErrorMm": 1.1565657627245873,
+      "maxRadialRelationErrorMm": 2.1440411652346114,
+      "centerToShellVertexMm": {
+        "Button_wide_1": 5.878605625479854,
+        "Button_side_1": 3.8754773021302156,
+        "Button_corner_1": 1.9592463840954937,
+        "Button_corner_2": 1.9598712071066446,
+        "Button_side_2": 3.8755053228987277,
+        "Button_wide_2": 5.878605625479854,
+        "Button_middle_1": 4.720804609102808,
+        "Button_middle_2": 3.1556639202099115
+      }
+    }
+  ],
+  "currentCapCenterToShellVertexMm": {
+    "Button_wide_1": 3.7345644602452426,
+    "Button_side_1": 4.012513490197796,
+    "Button_corner_1": 2.421547820951593,
+    "Button_corner_2": 2.421547820951593,
+    "Button_side_2": 4.012513490197796,
+    "Button_wide_2": 3.7345644602452426,
+    "Button_middle_1": 4.173521084736686,
+    "Button_middle_2": 4.017866069669407
+  },
+  "movedBackplateSampledShellGapMm": 0.2524557555295586,
+  "housingGate": {
+    "rigidClusterRelativeGeometry": "PRESERVED",
+    "additionalZmm": -15.0,
+    "oldOpeningsMustHeal": true,
+    "newOpeningsMustFollowSameTransform": true,
+    "shellHalvesRemainOriginalBodies": true,
+    "newOrphanSolidAllowed": false,
+    "indexMiddleInternalCollisionGate": "DEFERRED BY USER",
+    "screwWiringHardwareGate": "DEFERRED BY USER"
+  }
+}

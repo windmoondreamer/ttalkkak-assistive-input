@@ -1,0 +1,56 @@
+{
+ "build123d": "0.11.1",
+ "python": "3.12.13",
+ "executable": "C:\\Users\\User\\Desktop\\OneGrip-Play\\.venv-build123d\\Scripts\\python.exe",
+ "results": [
+  {
+   "step": "A. primitive  Box 10 x 20 x 30",
+   "pass": true,
+   "detail": "vol 6000.0 mm3, bbox [10.0, 20.0, 30.0]"
+  },
+  {
+   "step": "B. boolean    Box - Cylinder (관통홀)",
+   "pass": true,
+   "detail": "vol 5151.77 (해석 5151.77)"
+  },
+  {
+   "step": "C. fillet     수직 모서리 4개 R1.5",
+   "pass": true,
+   "detail": "모서리 4개, vol 5093.83"
+  },
+  {
+   "step": "D. loft       rounded 40x30 -> 20x24, 높이 25",
+   "pass": true,
+   "detail": "vol 19956.34, bbox [40.0, 30.0, 25.0]"
+  },
+  {
+   "step": "E. export     STEP / STL / BREP",
+   "pass": true,
+   "detail": "step 36KB stl 27KB brep 63KB"
+  },
+  {
+   "step": "F. roundtrip  STEP 재임포트 (solid/bbox/volume)",
+   "pass": true,
+   "detail": "solid 1->1  bbox delta 1.421e-14 mm  vol rel delta 3.919e-14"
+  },
+  {
+   "step": "G. STL        watertight / manifold 검사",
+   "pass": true,
+   "detail": "556 tri, non-manifold edge 0"
+  }
+ ],
+ "roundtrip": {
+  "solid_match": true,
+  "bbox_delta_mm": 1.4210854715202004e-14,
+  "volume_rel_delta": 3.9193828417441614e-14,
+  "tol_bbox_mm": 1e-06,
+  "tol_volume_rel": 1e-06,
+  "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\lower_adapter\\local_cad\\export\\step\\SMOKE_LOFT_ROUNDTRIP.step"
+ },
+ "stl": {
+  "triangles": 556,
+  "edges": 834,
+  "non_manifold_edges": 0,
+  "watertight": true
+ }
+}

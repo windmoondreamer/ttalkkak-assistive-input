@@ -1,0 +1,475 @@
+{
+  "method": {
+    "mode": "LOCAL READ-ONLY; Onshape CAD WRITE 0",
+    "sourceVersion": "03ede76e83b5c865d9a69c35",
+    "configuration": "default",
+    "surfaceMesh": [
+      "Joystick_1_baseline",
+      "Joystick_2_baseline"
+    ],
+    "rowZmm": -6.0,
+    "contourSamplesEachSide": 2400,
+    "switchSat": "full 15-axis OBB SAT",
+    "axisFamily": "independent 2-DOF tangent coordinates for each unit axis"
+  },
+  "centers": {
+    "M1": [
+      -20.492961893952966,
+      -4.27730256603194,
+      -6.0
+    ],
+    "M2": [
+      -15.35376150564565,
+      -13.741645406147729,
+      -6.0
+    ],
+    "M3": [
+      -5.465307534846631,
+      -18.285168695390126,
+      -6.0
+    ],
+    "M4": [
+      5.468247160460056,
+      -18.279619638344773,
+      -6.0
+    ]
+  },
+  "normals": {
+    "M1": [
+      -0.9405505443680193,
+      -0.20096992840399422,
+      -0.2738170216884189
+    ],
+    "M2": [
+      -0.5127159550614662,
+      -0.6405843458356193,
+      -0.5716415356635316
+    ],
+    "M3": [
+      -0.14345863330023184,
+      -0.7565575733145518,
+      -0.6379970680120923
+    ],
+    "M4": [
+      0.13363778995521972,
+      -0.7581230324411092,
+      -0.6382714224984395
+    ]
+  },
+  "centerDistancesMm": {
+    "M1-M2": 10.769640942316927,
+    "M2-M3": 10.882330899788839,
+    "M3-M4": 10.933556103450377
+  },
+  "baselineSatMm": {
+    "M1-M2": -1.1680049369166325,
+    "M2-M3": 0.5596605220366451,
+    "M1-M3": 5.060402925742939,
+    "M3-M4": 1.6135457710200471
+  },
+  "candidateSummary": {
+    "0.8": {
+      "axes": [
+        [
+          -0.8323608407000498,
+          -0.4746003246327257,
+          -0.28623410475975414
+        ],
+        [
+          -0.41351081229581643,
+          -0.5963215325559075,
+          -0.6880475549877552
+        ],
+        [
+          -0.07912960602555143,
+          -0.6304277915468017,
+          -0.7722041861422816
+        ],
+        [
+          0.03267091340308716,
+          -0.7506026839879048,
+          -0.6599456206442781
+        ]
+      ],
+      "deviationsDeg": [
+        16.935436768420956,
+        9.132335657247255,
+        11.195398347047762,
+        5.935087260150947
+      ],
+      "maxDeviationDeg": 16.935436768420956,
+      "minimumSwitchSatMm": 1.099960836463187,
+      "minimumDividerSatMm": 0.5923370714505856,
+      "minimumSplitWallMm": 1.1911795699263856,
+      "minimumActualLipMm": -0.03868701633792648,
+      "violation": 0.5944505307321539
+    },
+    "1.5": {
+      "axes": [
+        [
+          -0.8215251853871421,
+          -0.49710912739631796,
+          -0.279246996821618
+        ],
+        [
+          -0.343359009887083,
+          -0.549980014828778,
+          -0.7613321046811956
+        ],
+        [
+          -0.05093873085341882,
+          -0.5674070493046027,
+          -0.8218603811466321
+        ],
+        [
+          -0.028303967389913393,
+          -0.667349811373312,
+          -0.744206365660759
+        ]
+      ],
+      "deviationsDeg": [
+        18.367932410778003,
+        15.514394488674649,
+        16.069174019334604,
+        12.27014673271967
+      ],
+      "maxDeviationDeg": 18.367932410778003,
+      "minimumSwitchSatMm": 1.302597815468535,
+      "minimumDividerSatMm": 0.7984670958483964,
+      "minimumSplitWallMm": 1.4979236178930004,
+      "minimumActualLipMm": 0.49829803008553997,
+      "violation": 1.0115302745111373e-05
+    },
+    "2.3": {
+      "axes": [
+        [
+          -0.9107289581581959,
+          -0.4077942165586465,
+          -0.06539603744422594
+        ],
+        [
+          -0.32235352425575764,
+          -0.5433510124534411,
+          -0.7751502323199764
+        ],
+        [
+          -0.04775459177892616,
+          -0.555010959153129,
+          -0.8304711519275981
+        ],
+        [
+          0.040211961232423585,
+          -0.7124500245404405,
+          -0.700569740073155
+        ]
+      ],
+      "deviationsDeg": [
+        16.971996360494604,
+        16.97229529165634,
+        16.944657763119555,
+        6.949938210533803
+      ],
+      "maxDeviationDeg": 16.97229529165634,
+      "minimumSwitchSatMm": 1.3021245706733486,
+      "minimumDividerSatMm": 0.8008199485340661,
+      "minimumSplitWallMm": 1.5000925397710931,
+      "minimumActualLipMm": 1.03114859055191,
+      "violation": 0.0
+    }
+  },
+  "selectedFrontLipMm": 2.3,
+  "selectedSwitchFrontDepthMm": 5.3,
+  "optimizedAxes": {
+    "M1": [
+      -0.9107289581581959,
+      -0.4077942165586465,
+      -0.06539603744422594
+    ],
+    "M2": [
+      -0.32235352425575764,
+      -0.5433510124534411,
+      -0.7751502323199764
+    ],
+    "M3": [
+      -0.04775459177892616,
+      -0.555010959153129,
+      -0.8304711519275981
+    ],
+    "M4": [
+      0.040211961232423585,
+      -0.7124500245404405,
+      -0.700569740073155
+    ]
+  },
+  "deviationsDeg": {
+    "M1": 16.971996360494604,
+    "M2": 16.97229529165634,
+    "M3": 16.944657763119555,
+    "M4": 6.949938210533803
+  },
+  "maxDeviationDeg": 16.97229529165634,
+  "optimizedSwitchClearance": {
+    "M1-M2": {
+      "satSeparationMm": 1.3514080906380475,
+      "euclideanMm": 1.3599559764012554
+    },
+    "M2-M3": {
+      "satSeparationMm": 1.3021245706733486,
+      "euclideanMm": 1.3021245706733504
+    },
+    "M1-M3": {
+      "satSeparationMm": 7.913090318292469,
+      "euclideanMm": 7.913094777480153
+    },
+    "M3-M4": {
+      "satSeparationMm": 3.725090264076198,
+      "euclideanMm": 3.725090264076198
+    }
+  },
+  "pocketDividers": {
+    "M1-M2": {
+      "satSeparationMm": 0.8008199485340661,
+      "euclideanMm": 0.8066632878606455
+    },
+    "M2-M3": {
+      "satSeparationMm": 0.8013905295142241,
+      "euclideanMm": 0.8013905295142258
+    },
+    "M3-M4": {
+      "satSeparationMm": 3.2903412952020927,
+      "euclideanMm": 3.2903412952020914
+    }
+  },
+  "splitWallsMm": {
+    "M3": 1.5000925397710931,
+    "M4": 1.6845630754757064
+  },
+  "actualFrontLipMinimumMm": {
+    "M1": 1.03114859055191,
+    "M2": 1.1207937530202523,
+    "M3": 1.1933000748407165,
+    "M4": 1.948677108473679
+  },
+  "screwClearanceMm": {
+    "M1": {
+      "A": 53.58765994693712,
+      "B": 20.471234652459877,
+      "C": 11.034048466316465
+    },
+    "M2": {
+      "A": 43.8451894415253,
+      "B": 12.156913040384325,
+      "C": 23.40416968810952
+    },
+    "M3": {
+      "A": 42.031697343596605,
+      "B": 11.860996774311587,
+      "C": 27.01537525175713
+    },
+    "M4": {
+      "A": 44.23606097908982,
+      "B": 12.393443344037516,
+      "C": 24.92540849403129
+    }
+  },
+  "indexBoxClearance": {
+    "M1": {
+      "nearestIndexHolder": "I1",
+      "holderClearanceMm": 3.902304071312945,
+      "nearestIndexSwitch": "I1",
+      "switchClearanceMm": 11.30252926564079
+    },
+    "M2": {
+      "nearestIndexHolder": "I1",
+      "holderClearanceMm": 0.0,
+      "nearestIndexSwitch": "I1",
+      "switchClearanceMm": 3.1255737841948426
+    },
+    "M3": {
+      "nearestIndexHolder": "I1",
+      "holderClearanceMm": 0.0,
+      "nearestIndexSwitch": "I3",
+      "switchClearanceMm": 3.3988547260646897
+    },
+    "M4": {
+      "nearestIndexHolder": "I3",
+      "holderClearanceMm": 0.0,
+      "nearestIndexSwitch": "I3",
+      "switchClearanceMm": 6.707227230435835
+    }
+  },
+  "indexRetainerClearance": {
+    "M1": {
+      "RWIDmm": 2.983027339147037,
+      "RZKDmm": 15.03524531994181
+    },
+    "M2": {
+      "RWIDmm": 0.0,
+      "RZKDmm": 10.896995682907503
+    },
+    "M3": {
+      "RWIDmm": 0.0,
+      "RZKDmm": 2.7048095459506087
+    },
+    "M4": {
+      "RWIDmm": 0.0,
+      "RZKDmm": 0.6481840216637815
+    }
+  },
+  "indexFasteningClearance": {
+    "M1": {
+      "sharedBossBProxyMm": 4.767915608677381,
+      "i4BossProxyMm": 21.367974911701143
+    },
+    "M2": {
+      "sharedBossBProxyMm": 1.3210925081205835,
+      "i4BossProxyMm": 17.23370312966506
+    },
+    "M3": {
+      "sharedBossBProxyMm": 0.0,
+      "i4BossProxyMm": 8.410546684797577
+    },
+    "M4": {
+      "sharedBossBProxyMm": 0.0,
+      "i4BossProxyMm": 3.473106042556691
+    }
+  },
+  "originalThumbClearance": {
+    "M1": {
+      "nearest": "Backplate",
+      "clearanceMm": 27.542724608543416
+    },
+    "M2": {
+      "nearest": "Backplate",
+      "clearanceMm": 22.811163943317688
+    },
+    "M3": {
+      "nearest": "Backplate",
+      "clearanceMm": 25.51445666191163
+    },
+    "M4": {
+      "nearest": "Backplate",
+      "clearanceMm": 24.671427616293613
+    }
+  },
+  "holderFeasibility": {
+    "M1": {
+      "wallMm": 3.13264486851449,
+      "nextObstructionDepthMm": 42.251083273998155,
+      "availableBehindWallMm": 39.118438405483666,
+      "stemBoreOpeningClearanceConservativeMm": 1.647544788686171,
+      "rearAxisOpenDistanceMm": 29.761083273998164,
+      "raySequence": [
+        [
+          -4.440892098500626e-16,
+          "Joystick_2_baseline"
+        ],
+        [
+          3.1326448685144896,
+          "Joystick_2_baseline"
+        ],
+        [
+          42.251083273998155,
+          "Joystick_1_baseline"
+        ],
+        [
+          45.4007056506087,
+          "Joystick_1_baseline"
+        ]
+      ]
+    },
+    "M2": {
+      "wallMm": 3.168132232964327,
+      "nextObstructionDepthMm": 42.80979271555794,
+      "availableBehindWallMm": 39.641660482593615,
+      "stemBoreOpeningClearanceConservativeMm": 1.6475410428082564,
+      "rearAxisOpenDistanceMm": 30.319792715557945,
+      "raySequence": [
+        [
+          1.7763568394002505e-15,
+          "Joystick_2_baseline"
+        ],
+        [
+          3.1681322329643287,
+          "Joystick_2_baseline"
+        ],
+        [
+          42.80979271555794,
+          "Joystick_2_baseline"
+        ],
+        [
+          46.09933326124567,
+          "Joystick_2_baseline"
+        ]
+      ]
+    },
+    "M3": {
+      "wallMm": 3.1459483941145043,
+      "nextObstructionDepthMm": 44.30283959233274,
+      "availableBehindWallMm": 41.15689119821823,
+      "stemBoreOpeningClearanceConservativeMm": 1.647887044964902,
+      "rearAxisOpenDistanceMm": 31.81283959233275,
+      "raySequence": [
+        [
+          1.7763568394002505e-15,
+          "Joystick_2_baseline"
+        ],
+        [
+          3.145948394114506,
+          "Joystick_2_baseline"
+        ],
+        [
+          44.30283959233274,
+          "Joystick_2_baseline"
+        ],
+        [
+          47.39384639600767,
+          "Joystick_2_baseline"
+        ]
+      ]
+    },
+    "M4": {
+      "wallMm": 3.027159331033389,
+      "nextObstructionDepthMm": 42.70981478312794,
+      "availableBehindWallMm": 39.68265545209455,
+      "stemBoreOpeningClearanceConservativeMm": 1.733345199091234,
+      "rearAxisOpenDistanceMm": 30.21981478312793,
+      "raySequence": [
+        [
+          -4.884981308350689e-15,
+          "Joystick_1_baseline"
+        ],
+        [
+          3.027159331033384,
+          "Joystick_1_baseline"
+        ],
+        [
+          42.70981478312794,
+          "Joystick_1_baseline"
+        ],
+        [
+          45.727728391967325,
+          "Joystick_1_baseline"
+        ]
+      ]
+    }
+  },
+  "clearNbr": {
+    "M1-M2": {
+      "M1HolderVsM2PocketSatMm": -3.215738944768372,
+      "M2HolderVsM1PocketSatMm": -2.371899154708175,
+      "required": true
+    },
+    "M2-M3": {
+      "M2HolderVsM3PocketSatMm": -2.198609470485777,
+      "M3HolderVsM2PocketSatMm": -3.076246155347005,
+      "required": true
+    },
+    "M3-M4": {
+      "M3HolderVsM4PocketSatMm": 0.044289299913617075,
+      "M4HolderVsM3PocketSatMm": 0.2641587506476033,
+      "required": false
+    }
+  },
+  "holderArchitecture": "short seat + open rear cavity + separate holder body + CLEARNBR + holder-only split clip + target-first union"
+}
