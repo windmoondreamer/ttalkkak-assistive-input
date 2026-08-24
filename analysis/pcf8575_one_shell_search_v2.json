@@ -1,0 +1,31 @@
+{
+  "decision": "one-shell PCF8575 envelope rejected; retain central split-spanning placement",
+  "source_stl_directory": "C:\\Users\\guest2\\Desktop\\ttalkkak-assistive-input-add-onegrip-play-cad-workspace\\workstreams\\onegrip-play\\exports\\full_exterior_minimal_mockup\\source_stl",
+  "board_assumption_mm": [
+    32.2,
+    21.0
+  ],
+  "tested_candidate_count": 180,
+  "exact_candidates_checked": 20,
+  "required_robustness_each_side_mm": [
+    0.8,
+    0.8,
+    0.8
+  ],
+  "result": "no exact nominal+robust collision-free one-shell placement",
+  "fallback": {
+    "center_mm": [
+      0.0,
+      24.0,
+      -33.0
+    ],
+    "envelope_mm": [
+      23.0,
+      7.0,
+      34.0
+    ],
+    "nominal_collision_triangles": 0,
+    "verified_growth_each_side_mm": 0.4,
+    "mounting": "cantilevered removable edge cradle owned by one shell; board envelope may cross X=0"
+  }
+}

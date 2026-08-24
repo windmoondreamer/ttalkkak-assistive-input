@@ -1,0 +1,247 @@
+{
+  "input_dimensions_mm": {
+    "rp2040": [
+      17.92,
+      23.15,
+      1.6
+    ],
+    "usb_opening": {
+      "bottom_from_tray": 2.5,
+      "width": 8.9,
+      "height": 3.0,
+      "external_protrusion": 1.28
+    },
+    "power_board": [
+      15.35,
+      23.24
+    ],
+    "power_board_underside_protrusion": 2.1
+  },
+  "claude_tray_origin_grip_frame": [
+    0.5,
+    -44.0,
+    -137.0
+  ],
+  "derived": {
+    "rp_pcb_bottom_z": -134.3,
+    "rp_actual_margin_in_19x27_5_tray": {
+      "x_each_side": 0.54,
+      "y_each_side": 2.175
+    },
+    "usb_opening_bbox": [
+      [
+        -3.95,
+        -56.855000000000004,
+        -134.5
+      ],
+      [
+        4.95,
+        -55.575,
+        -131.5
+      ]
+    ]
+  },
+  "current_position": {
+    "rp_board": {
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    "rp_board_vs_printed_tray_overlap_mm3": 78.08,
+    "usb_external_1_28mm": {
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    "usb_external_vs_printed_tray_overlap_mm3": 7.6095,
+    "usb_straight_insertion_12mm": {
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 53.4
+    }
+  },
+  "power_board_short_edge_behind_candidates": [
+    {
+      "gap_mm": 0.5,
+      "center": [
+        0.5,
+        -20.305,
+        -136.4
+      ],
+      "orientation": "X=15.35, Y=23.24",
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 396.154121
+    },
+    {
+      "gap_mm": 1.0,
+      "center": [
+        0.5,
+        -19.805,
+        -136.4
+      ],
+      "orientation": "X=15.35, Y=23.24",
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 425.66609
+    },
+    {
+      "gap_mm": 2.0,
+      "center": [
+        0.5,
+        -18.805,
+        -136.4
+      ],
+      "orientation": "X=15.35, Y=23.24",
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 484.418892
+    }
+  ],
+  "power_board_alternative_orientations": [
+    {
+      "name": "flat_rotated_90_behind_plus_Y",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -23.749999999999996,
+        -136.4
+      ],
+      "envelope_mm": [
+        23.24,
+        15.35,
+        3.7
+      ],
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 171.976
+    },
+    {
+      "name": "flat_behind_minus_Y_USB_side",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -68.19500000000001,
+        -136.4
+      ],
+      "envelope_mm": [
+        15.35,
+        23.24,
+        3.7
+      ],
+      "housing_overlap_mm3": 283.975,
+      "gimbal_overlap_mm3": 113.59
+    },
+    {
+      "name": "stacked_above_rp2040_gap_1mm",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -44.0,
+        -131.70000000000002
+      ],
+      "envelope_mm": [
+        15.35,
+        23.24,
+        3.7
+      ],
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "name": "stacked_above_rp2040_gap_2mm",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -44.0,
+        -130.70000000000002
+      ],
+      "envelope_mm": [
+        15.35,
+        23.24,
+        3.7
+      ],
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0
+    },
+    {
+      "name": "stacked_above_rp2040_gap_3mm",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -44.0,
+        -129.70000000000002
+      ],
+      "envelope_mm": [
+        15.35,
+        23.24,
+        3.7
+      ],
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0
+    },
+    {
+      "name": "stacked_above_rp2040_gap_4mm",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -44.0,
+        -128.70000000000002
+      ],
+      "envelope_mm": [
+        15.35,
+        23.24,
+        3.7
+      ],
+      "housing_overlap_mm3": 356.734,
+      "gimbal_overlap_mm3": 0
+    },
+    {
+      "name": "edge_on_XZ_plus_Y",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -29.574999999999996,
+        -126.62500000000001
+      ],
+      "envelope_mm": [
+        23.24,
+        3.7,
+        15.35
+      ],
+      "housing_overlap_mm3": 538.32555,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "name": "edge_on_XZ_minus_Y",
+      "center_or_xy_bottom_z": [
+        0.5,
+        -58.425000000000004,
+        -126.62500000000001
+      ],
+      "envelope_mm": [
+        23.24,
+        3.7,
+        15.35
+      ],
+      "housing_overlap_mm3": 429.94,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "name": "edge_on_YZ_plus_X",
+      "center_or_xy_bottom_z": [
+        12.31,
+        -44.0,
+        -126.62500000000001
+      ],
+      "envelope_mm": [
+        3.7,
+        23.24,
+        15.35
+      ],
+      "housing_overlap_mm3": 429.94,
+      "gimbal_overlap_mm3": 119.315994
+    },
+    {
+      "name": "edge_on_YZ_minus_X",
+      "center_or_xy_bottom_z": [
+        -11.31,
+        -44.0,
+        -126.62500000000001
+      ],
+      "envelope_mm": [
+        3.7,
+        23.24,
+        15.35
+      ],
+      "housing_overlap_mm3": 429.94,
+      "gimbal_overlap_mm3": 100.078287
+    }
+  ]
+}

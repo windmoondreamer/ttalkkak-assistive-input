@@ -1,0 +1,184 @@
+{
+  "board_envelope_mm": [
+    23.24,
+    15.35,
+    3.7
+  ],
+  "minimum_fdm_cradle_envelope_mm": [
+    24.84,
+    16.95,
+    4.9
+  ],
+  "candidate_count": 12,
+  "exact_verified_best": [
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 0.5,
+      "cradle_center_xyz_mm": [
+        -0.5,
+        -23.45,
+        -128.5
+      ],
+      "housing_clearance_mm": 0.05,
+      "gimbal_clearance_mm": 0.5065,
+      "minimum_clearance_mm": 0.05,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 0.5,
+      "cradle_center_xyz_mm": [
+        0.5,
+        -23.45,
+        -128.5
+      ],
+      "housing_clearance_mm": 0.05,
+      "gimbal_clearance_mm": 0.5065,
+      "minimum_clearance_mm": 0.05,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 0.5,
+      "cradle_center_xyz_mm": [
+        1.5,
+        -23.45,
+        -128.5
+      ],
+      "housing_clearance_mm": 0.05,
+      "gimbal_clearance_mm": 0.5065,
+      "minimum_clearance_mm": 0.05,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 1.5,
+      "cradle_center_xyz_mm": [
+        -0.5,
+        -22.45,
+        -128.5
+      ],
+      "housing_clearance_mm": 0.05,
+      "gimbal_clearance_mm": 0.3148,
+      "minimum_clearance_mm": 0.05,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 1.5,
+      "cradle_center_xyz_mm": [
+        0.5,
+        -22.45,
+        -128.5
+      ],
+      "housing_clearance_mm": 0.05,
+      "gimbal_clearance_mm": 0.3148,
+      "minimum_clearance_mm": 0.05,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 1.5,
+      "cradle_center_xyz_mm": [
+        1.5,
+        -22.45,
+        -128.5
+      ],
+      "housing_clearance_mm": 0.05,
+      "gimbal_clearance_mm": 0.3148,
+      "minimum_clearance_mm": 0.05,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 0.5,
+      "cradle_center_xyz_mm": [
+        -0.5,
+        -23.45,
+        -129.0
+      ],
+      "housing_clearance_mm": 0.55,
+      "gimbal_clearance_mm": 0.0065,
+      "minimum_clearance_mm": 0.0065,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 0.5,
+      "cradle_center_xyz_mm": [
+        0.5,
+        -23.45,
+        -129.0
+      ],
+      "housing_clearance_mm": 0.55,
+      "gimbal_clearance_mm": 0.0065,
+      "minimum_clearance_mm": 0.0065,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 0.5,
+      "cradle_center_xyz_mm": [
+        1.5,
+        -23.45,
+        -129.0
+      ],
+      "housing_clearance_mm": 0.55,
+      "gimbal_clearance_mm": 0.0065,
+      "minimum_clearance_mm": 0.0065,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 1.5,
+      "cradle_center_xyz_mm": [
+        -0.5,
+        -22.45,
+        -129.0
+      ],
+      "housing_clearance_mm": 0.55,
+      "gimbal_clearance_mm": 0.0065,
+      "minimum_clearance_mm": 0.0065,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 1.5,
+      "cradle_center_xyz_mm": [
+        0.5,
+        -22.45,
+        -129.0
+      ],
+      "housing_clearance_mm": 0.55,
+      "gimbal_clearance_mm": 0.0065,
+      "minimum_clearance_mm": 0.0065,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    },
+    {
+      "angle_x_deg": 0,
+      "rp_to_cradle_gap_mm": 1.5,
+      "cradle_center_xyz_mm": [
+        1.5,
+        -22.45,
+        -129.0
+      ],
+      "housing_clearance_mm": 0.55,
+      "gimbal_clearance_mm": 0.0065,
+      "minimum_clearance_mm": 0.0065,
+      "housing_overlap_mm3": 0.0,
+      "gimbal_overlap_mm3": 0.0
+    }
+  ],
+  "note": "Top-side component height of the power board is still unmeasured."
+}

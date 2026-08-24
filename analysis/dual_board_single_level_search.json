@@ -1,0 +1,15 @@
+{
+  "rp_cradle_envelope_mm": [
+    19.520000000000003,
+    24.75,
+    2.8
+  ],
+  "power_cradle_envelope_mm": [
+    24.84,
+    16.95,
+    4.9
+  ],
+  "pair_gap_mm": 0.8,
+  "candidate_count": 0,
+  "exact_verified_best": []
+}
