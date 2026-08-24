@@ -1,0 +1,272 @@
+{
+  "correct_part_identification": {
+    "fixed_spring_plate": "Base",
+    "moving_upper_plate": "Spring_holder",
+    "wrong_previous_part": "CARRIER_PLATE",
+    "source_base_bbox_mm": [
+      100.00000000000003,
+      142.9999999999996,
+      18.5
+    ],
+    "trimmed_base_bbox_mm": [
+      100.00000000000003,
+      100.0,
+      16.500000000000025
+    ],
+    "spring_holder_bbox_mm": [
+      57.519946767271485,
+      61.320283524516206,
+      7.00000020000013
+    ]
+  },
+  "red_x_rear_cassette_removal": {
+    "trim_plane_y_mm": 76.636,
+    "removed_volume_mm3": 10994.000030695533,
+    "remaining_base_valid": true,
+    "remaining_base_solid_count": 1,
+    "result": "pass"
+  },
+  "red_x_cut_face_wall_removal": {
+    "cut_envelope_mm": {
+      "x": [
+        -15.0,
+        15.0
+      ],
+      "y": [
+        69.0,
+        77.0
+      ],
+      "z": [
+        -21.59960069480611,
+        -9.59960069480611
+      ]
+    },
+    "deck_floor_remaining_thickness_mm": 6.5,
+    "deck_top_z_mm": -21.59960069480611,
+    "removed_wall_volume_mm3": 671.9999838340527,
+    "remaining_wall_probe_volume_mm3": 0.0,
+    "remaining_base_valid": true,
+    "remaining_base_solid_count": 1,
+    "result": "pass"
+  },
+  "red_circle_deck_flatness": {
+    "target_top_z_mm": -21.59960069480611,
+    "previous_wrong_top_z_mm": -24.59960069480611,
+    "corrected_height_mm": 3.0,
+    "result": "pass"
+  },
+  "cassette_attachment": {
+    "body_center_y_mm": -46.8639998832866,
+    "base_to_body_gap_y_mm": 1.0,
+    "bridge_bbox_mm": [
+      30.0,
+      7.0,
+      5.0
+    ],
+    "base_bridge_overlap_mm3": 447.31218734926074,
+    "body_bridge_overlap_mm3": 307.8240000000001,
+    "lid_overlap_mm3": 0.0,
+    "integrated_bbox_mm": [
+      100.00000035561787,
+      146.0000003167154,
+      16.503613831384584
+    ],
+    "integrated_valid": true,
+    "integrated_solid_count": 1
+  },
+  "spring_interface_preservation": {
+    "fixed_hook_count": 4,
+    "moving_ear_count": 4,
+    "attachment_overlap_with_hook_keepouts_mm3": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "result": "pass"
+  },
+  "gimbal_interference": {
+    "static_attachment_overlap_mm3": {
+      "Pitch": 0.0,
+      "Spring_holder": 0.0,
+      "Roll_holder": 0.0,
+      "Spacer": 0.0,
+      "Roll": 0.0,
+      "Roll_holder_2": 0.0
+    },
+    "static_lid_overlap_mm3": {
+      "Pitch": 0.0,
+      "Spring_holder": 0.0,
+      "Roll_holder": 0.0,
+      "Spacer": 0.0,
+      "Roll": 0.0,
+      "Roll_holder_2": 0.0
+    },
+    "motion_states": [
+      {
+        "state": "neutral",
+        "x_deg": 0.0,
+        "y_deg": 0.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "x_pos_20",
+        "x_deg": 20.0,
+        "y_deg": 0.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "x_neg_20",
+        "x_deg": -20.0,
+        "y_deg": 0.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "y_pos_20",
+        "x_deg": 0.0,
+        "y_deg": 20.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "y_neg_20",
+        "x_deg": 0.0,
+        "y_deg": -20.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "corner_pp",
+        "x_deg": 20.0,
+        "y_deg": 20.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "corner_pn",
+        "x_deg": 20.0,
+        "y_deg": -20.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "corner_np",
+        "x_deg": -20.0,
+        "y_deg": 20.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      },
+      {
+        "state": "corner_nn",
+        "x_deg": -20.0,
+        "y_deg": -20.0,
+        "body_bridge_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        },
+        "lid_overlap_mm3": {
+          "Pitch": 0.0,
+          "Spring_holder": 0.0,
+          "Roll": 0.0
+        }
+      }
+    ],
+    "maximum_overlap_mm3": 0.0,
+    "result": "pass"
+  },
+  "front_cassette_placement_assessment": {
+    "location": "fixed Base central front (-Y), not on moving gimbal",
+    "design_tilt_checked_deg": 20.0,
+    "spring_boss_keepout_max_overlap_mm3": 0.0,
+    "moving_gimbal_max_overlap_mm3": 0.0,
+    "lid_overlap_mm3": 0.0,
+    "usb_access": "outward toward -Y/front",
+    "mass_symmetry": "centered on X; no left/right fixed-base bias",
+    "result": "mechanically suitable"
+  },
+  "human_assembly": {
+    "lid_removal": "+Z; one-millimetre gap from fixed Base",
+    "spring_service": "all four fixed bosses and four moving ears remain untouched",
+    "usb": "faces -Y/front"
+  },
+  "printing": {
+    "integrated_part": "stock Base bottom and cassette bottom share Z datum",
+    "support": "none expected for Base/cassette bridge orientation; verify slicer bridges",
+    "print_layout_solid_count": 2
+  },
+  "outputs": {
+    "integrated": "ONEGRIP_STOCK_SPRING_BASE_CASSETTE_BODY_INTEGRATED_V4",
+    "assembly": "ONEGRIP_STOCK_SPRING_BASE_CASSETTE_LID_ASSEMBLY_V4",
+    "print_layout": "ONEGRIP_STOCK_SPRING_BASE_CASSETTE_LID_PRINT_LAYOUT_V4",
+    "base_reference": "STOCK_SPRING_BASE_REAR_REMOVED_FLAT_DECK_REFERENCE",
+    "spring_holder_reference": "STOCK_MOVING_SPRING_HOLDER_REFERENCE"
+  }
+}
