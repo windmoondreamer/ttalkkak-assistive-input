@@ -1,0 +1,11 @@
+Communication job: 전시 관람자가 OneGrip Play가 해결하려는 한 손 게임 입력 문제와 실제 구현 수준을 1분 이내에 이해하도록 한다.
+
+Visual direction: 사용자가 제공한 공대 전시 포스터 레퍼런스의 진한 남색 제목대, 옅은 청색 정보 영역, 기술 도면 중심 구성을 참고한다. 과도한 그라데이션, 장식 아이콘, 영어 슬로건 반복은 사용하지 않는다.
+
+Primary sources:
+- C:\Users\guest2\Desktop\ttalkkak-assistive-input-codex-full-workspace-checkpoint-20260823\CLAUDE.md
+- C:\Users\guest2\Desktop\ttalkkak-assistive-input-codex-full-workspace-checkpoint-20260823\docs\70_finger_8_button_mechanical_baseline_checkpoint.md
+- C:\Users\guest2\Desktop\ttalkkak-assistive-input-codex-full-workspace-checkpoint-20260823\docs\72_szh_ek056_actual_fit_test.md
+- C:\Users\guest2\Desktop\ttalkkak-assistive-input-codex-full-workspace-checkpoint-20260823\lower_adapter\local_cad\reports\12_motion15_final_v4.md
+
+Claims are limited to CAD/model validation. Physical user validation, USB-C routing, firmware integration, and joystick final fit are explicitly shown as pending.
