@@ -1,0 +1,57 @@
+{
+  "status": "PROVISIONAL / MEASURE ON ARRIVAL - no carrier designed",
+  "szh": {
+    "pcb": {
+      "vsLegacyMm3": 181.13379408479057,
+      "vsApprovedMm3": 181.13436487632936,
+      "deltaMm3": 0.0005707915387915818
+    },
+    "gimbal": {
+      "vsLegacyMm3": 0.0,
+      "vsApprovedMm3": 0.0,
+      "deltaMm3": 0.0
+    },
+    "x_pot": {
+      "vsLegacyMm3": 0.0,
+      "vsApprovedMm3": 0.0,
+      "deltaMm3": 0.0
+    },
+    "y_pot": {
+      "vsLegacyMm3": 0.0,
+      "vsApprovedMm3": 0.0,
+      "deltaMm3": 0.0
+    },
+    "push_switch": {
+      "vsLegacyMm3": 0.0,
+      "vsApprovedMm3": 0.0,
+      "deltaMm3": 0.0
+    },
+    "shaft": {
+      "vsLegacyMm3": 0.0,
+      "vsApprovedMm3": 0.0,
+      "deltaMm3": 0.0
+    },
+    "cap": {
+      "vsLegacyMm3": 44.79599784683367,
+      "vsApprovedMm3": 141.89816418061503,
+      "deltaMm3": 97.10216633378135
+    },
+    "header": {
+      "vsLegacyMm3": 73.37790573192412,
+      "vsApprovedMm3": 73.37790533241687,
+      "deltaMm3": -3.9950724328718934e-07
+    },
+    "MOVING_ENVELOPE_25deg": {
+      "vsLegacyMm3": 1839.568832594904,
+      "vsApprovedMm3": 2050.540986144869,
+      "deltaMm3": 210.9721535499648
+    }
+  },
+  "joystickAxisMaterialIntervals": [
+    [
+      -20.30894496178652,
+      -17.08403507481969
+    ]
+  ],
+  "cavityFloorBelowPivotMm": -17.08403507481969
+}

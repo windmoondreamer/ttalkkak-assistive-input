@@ -1,0 +1,2429 @@
+{
+  "schema": "onegrip.i2-minimum-angle-direct-shell-assembly-audit.v1",
+  "generatedUtc": "2026-08-24T09:43:59.718337+00:00",
+  "mode": "AUDIT-ONLY / I2 / MINIMUM ANGLE / DIRECT SHELL / RIGID INSERTION",
+  "finalVerdict": "B \u2014 GEOMETRY WORKS BUT ASSEMBLY/FDM REQUIRES SIMPLE REVISION",
+  "freeze": {
+    "buttonCenter": [
+      -15.97116502911469,
+      -26.20981698837403,
+      8.99880711855274
+    ],
+    "pressAxis": [
+      -0.43398514194613513,
+      -0.7569241977430389,
+      -0.48859252495412786
+    ],
+    "frontDepthMm": 5.4,
+    "switchPoseChange": 0,
+    "exteriorChange": 0,
+    "productionShellChange": 0,
+    "JaDJfDSplitChange": 0
+  },
+  "search": {
+    "targetMapPointCount": 2476,
+    "targetGridStepMm": 0.25,
+    "rootGridStepMm": 0.1,
+    "exactAngularResolutionApproxDeg": 0.01,
+    "priority": [
+      "tilt",
+      "root displacement",
+      "functional leg length"
+    ],
+    "docs80UsedAsAnswer": false,
+    "cache": "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/minimum_angle_search_cache.json"
+  },
+  "candidate": {
+    "angleRequiredLegCount": 4,
+    "legs": {
+      "+U": {
+        "edge": "+U",
+        "rootTangentCoordinateMm": 1.7156249999999997,
+        "rootLocalUVWmm": [
+          3.74,
+          1.7156249999999997,
+          0.0
+        ],
+        "rootShiftLocalUVWmm": [
+          0.0,
+          1.7156249999999997,
+          0.0
+        ],
+        "rootShiftMagnitudeMm": 1.7156249999999997,
+        "legThicknessMm": 1.2,
+        "legTangentWidthMm": 2.6,
+        "directionLocal": [
+          0.17529068140738743,
+          0.05561516058892641,
+          0.9829446225115643
+        ],
+        "directionWorld": [
+          -0.2686604759515771,
+          -0.838090692971892,
+          -0.4747899946453865
+        ],
+        "tiltFromPlusWDeg": 10.59711121399541,
+        "angleToUVPlaneDeg": 79.4028887860046,
+        "tiltAzimuthDeg": 17.60287500330703,
+        "tiltDirectionUV": [
+          0.9531754941938128,
+          0.3024177198319916,
+          0.0
+        ],
+        "centerHitsMm": [
+          5.510115144068289,
+          8.5241140463663
+        ],
+        "feasible": true,
+        "failure": null,
+        "footprintPairCoverage": 9,
+        "missingFootprintPairs": 0,
+        "legLengthMm": 7.098567643913504,
+        "floorPointLocalUVWmm": [
+          4.984312759318031,
+          2.1104129794676063,
+          6.977498893119364
+        ],
+        "rootFusionOverlapMm": 0.15,
+        "printedPrismLengthMm": 7.248567643913504,
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          1.6
+        ],
+        "minimumRemainingShellMm": 1.2004456738772733,
+        "shellThicknessFootprintRangeMm": [
+          2.704158936780532,
+          3.055022961155082
+        ],
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          1.8545772872778086
+        ],
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              4.542220540490955,
+              0.21794658114516996,
+              -0.05832287810883954
+            ],
+            "hitsMm": [
+              5.591154143933083,
+              8.597205191985447
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.7546458968529803,
+              0.21794658114516996,
+              0.0821270442781733
+            ],
+            "hitsMm": [
+              5.609380463165853,
+              8.61123940617809
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              2.967071253215006,
+              0.21794658114516996,
+              0.22257696666518614
+            ],
+            "hitsMm": [
+              5.898567643913504,
+              8.602726580694036
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              4.5275746436379745,
+              1.7156249999999997,
+              -0.14044992238701284
+            ],
+            "hitsMm": [
+              5.456945529631488,
+              8.483368010407792
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.74,
+              1.7156249999999997,
+              0.0
+            ],
+            "hitsMm": [
+              5.510115144068289,
+              8.5241140463663
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              2.952425356362026,
+              1.7156249999999997,
+              0.14044992238701284
+            ],
+            "hitsMm": [
+              5.533776002551625,
+              8.54049585647611
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              4.512928746784994,
+              3.2133034188548297,
+              -0.22257696666518614
+            ],
+            "hitsMm": [
+              5.243990356635695,
+              8.299013317790777
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.72535410314702,
+              3.2133034188548297,
+              -0.0821270442781733
+            ],
+            "hitsMm": [
+              5.335820347789267,
+              8.370577218255104
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              2.937779459509046,
+              3.2133034188548297,
+              0.05832287810883954
+            ],
+            "hitsMm": [
+              5.3960220728276616,
+              8.416033106258915
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "tangentLocal": [
+          -0.009763931235319961,
+          0.9984522792365532,
+          -0.054751362852115536
+        ],
+        "structuralLocal": [
+          -0.9844683045474678,
+          0.0,
+          0.17556240298376605
+        ],
+        "staticClearance": {
+          "allClear": true,
+          "body": {
+            "distanceMm": 0.06943844709227864,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "cornerKeepouts": {
+            "distanceMm": 0.8027321152147073,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "pusher": {
+            "distanceMm": 1.3844082848026862,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "terminals": {
+            "TNN": {
+              "distanceMm": 6.4286336821978205,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TNP": {
+              "distanceMm": 5.969389367758278,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPN": {
+              "distanceMm": 2.3149640939220997,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPP": {
+              "distanceMm": 0.03982793698291699,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          },
+          "minimumTerminalClearanceMm": 0.03982793698291699,
+          "terminalPenetrationMm3": 0.0,
+          "nearestNeighbor": "I3",
+          "minimumNeighborClearanceMm": 0.222620971278248,
+          "neighborPenetrationMm3": 0.0,
+          "neighbors": {
+            "N1": {
+              "minimumDistanceMm": 12.157572428950377,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N2": {
+              "minimumDistanceMm": 13.444297963759833,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I3": {
+              "minimumDistanceMm": 0.222620971278248,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I4": {
+              "minimumDistanceMm": 10.184047410722224,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M3": {
+              "minimumDistanceMm": 20.408570035337057,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M4": {
+              "minimumDistanceMm": 22.77816639619491,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N3": {
+              "minimumDistanceMm": 29.965741670420442,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          }
+        }
+      },
+      "-U": {
+        "edge": "-U",
+        "rootTangentCoordinateMm": -0.5812499999999988,
+        "rootLocalUVWmm": [
+          -4.04,
+          -0.5812499999999988,
+          -0.6
+        ],
+        "rootShiftLocalUVWmm": [
+          0.0,
+          -0.5812499999999988,
+          0.0
+        ],
+        "rootShiftMagnitudeMm": 0.5812499999999988,
+        "legThicknessMm": 1.6,
+        "legTangentWidthMm": 2.6,
+        "directionLocal": [
+          -0.21394467566993028,
+          -0.06984829381853461,
+          0.9743453656702679
+        ],
+        "directionWorld": [
+          -0.615598454986547,
+          -0.6216164238576015,
+          -0.48438782376176953
+        ],
+        "tiltFromPlusWDeg": 13.006289451268126,
+        "angleToUVPlaneDeg": 76.99371054873187,
+        "tiltAzimuthDeg": -161.9192631903155,
+        "tiltDirectionUV": [
+          -0.9506201292146153,
+          -0.3103568428953809,
+          0.0
+        ],
+        "centerHitsMm": [
+          5.275700331379171,
+          8.385237395939095
+        ],
+        "feasible": true,
+        "failure": null,
+        "footprintPairCoverage": 9,
+        "missingFootprintPairs": 0,
+        "legLengthMm": 6.872511813067466,
+        "floorPointLocalUVWmm": [
+          -5.510337310884483,
+          -1.0612832243904853,
+          6.096200035576456
+        ],
+        "rootFusionOverlapMm": 0.15,
+        "printedPrismLengthMm": 7.022511813067466,
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          2.0
+        ],
+        "minimumRemainingShellMm": 1.2002963281093608,
+        "shellThicknessFootprintRangeMm": [
+          2.8915341288910064,
+          3.2273250212966387
+        ],
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          2.027028693187278
+        ],
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              -3.040798704543123,
+              -2.077586437992451,
+              -0.4878659931449876
+            ],
+            "hitsMm": [
+              5.514725650528164,
+              8.563530121598244
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -4.017529613045382,
+              -2.077586437992451,
+              -0.7023344812180651
+            ],
+            "hitsMm": [
+              5.2437703982899615,
+              8.363502267688503
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -4.994260521547641,
+              -2.077586437992451,
+              -0.9168029692911426
+            ],
+            "hitsMm": [
+              4.845483119880188,
+              8.072808141176827
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.063269091497741,
+              -0.5812499999999988,
+              -0.3855315119269225
+            ],
+            "hitsMm": [
+              5.531481987988043,
+              8.574232563740214
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -4.04,
+              -0.5812499999999988,
+              -0.6
+            ],
+            "hitsMm": [
+              5.275700331379171,
+              8.385237395939095
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -5.016730908502259,
+              -0.5812499999999988,
+              -0.8144684880730775
+            ],
+            "hitsMm": [
+              4.892123811963184,
+              8.105797587306947
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.085739478452359,
+              0.9150864379924531,
+              -0.2831970307088574
+            ],
+            "hitsMm": [
+              5.672511813067466,
+              8.564045941958472
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -4.062470386954618,
+              0.9150864379924531,
+              -0.4976655187819349
+            ],
+            "hitsMm": [
+              5.291210961287275,
+              8.388640194529291
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -5.039201295456877,
+              0.9150864379924531,
+              -0.7121340068550124
+            ],
+            "hitsMm": [
+              4.924872789876089,
+              8.122656619714821
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "tangentLocal": [
+          -0.014980257969745201,
+          0.9975576253283014,
+          0.06822298747871004
+        ],
+        "structuralLocal": [
+          -0.9767309085022591,
+          3.469446951953614e-18,
+          -0.21446848807307747
+        ],
+        "staticClearance": {
+          "allClear": true,
+          "body": {
+            "distanceMm": 0.28587738317606004,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "cornerKeepouts": {
+            "distanceMm": 1.1593505906084056,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "pusher": {
+            "distanceMm": 2.0413718124920015,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "terminals": {
+            "TNN": {
+              "distanceMm": 0.0010277302236783186,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TNP": {
+              "distanceMm": 1.1739478430004266,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPN": {
+              "distanceMm": 6.056321550516161,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPP": {
+              "distanceMm": 6.2034310141713265,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          },
+          "minimumTerminalClearanceMm": 0.0010277302236783186,
+          "terminalPenetrationMm3": 0.0,
+          "nearestNeighbor": "I3",
+          "minimumNeighborClearanceMm": 7.536014582814277,
+          "neighborPenetrationMm3": 0.0,
+          "neighbors": {
+            "N1": {
+              "minimumDistanceMm": 14.418579467708344,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N2": {
+              "minimumDistanceMm": 18.948537896061403,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I3": {
+              "minimumDistanceMm": 7.536014582814277,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I4": {
+              "minimumDistanceMm": 17.155935384116898,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M3": {
+              "minimumDistanceMm": 19.3176337275978,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M4": {
+              "minimumDistanceMm": 24.914248856172676,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N3": {
+              "minimumDistanceMm": 32.38113280404613,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          }
+        }
+      },
+      "+V": {
+        "edge": "+V",
+        "rootTangentCoordinateMm": -1.56625,
+        "rootLocalUVWmm": [
+          -1.56625,
+          4.175,
+          -0.6
+        ],
+        "rootShiftLocalUVWmm": [
+          -1.56625,
+          0.0,
+          0.0
+        ],
+        "rootShiftMagnitudeMm": 1.56625,
+        "legThicknessMm": 1.6,
+        "legTangentWidthMm": 2.6,
+        "directionLocal": [
+          -0.03883311577324118,
+          0.12838199951151788,
+          0.9909642028452726
+        ],
+        "directionWorld": [
+          -0.4650492719790325,
+          -0.8055503570208499,
+          -0.36717543073489156
+        ],
+        "tiltFromPlusWDeg": 7.708119272552757,
+        "angleToUVPlaneDeg": 82.29188072744725,
+        "tiltAzimuthDeg": 106.82956869560279,
+        "tiltDirectionUV": [
+          -0.2895258033539103,
+          0.9571702091019512,
+          0.0
+        ],
+        "centerHitsMm": [
+          6.39518171719613,
+          9.406813710818495
+        ],
+        "feasible": true,
+        "failure": null,
+        "footprintPairCoverage": 9,
+        "missingFootprintPairs": 0,
+        "legLengthMm": 7.981108387167839,
+        "floorPointLocalUVWmm": [
+          -1.8761813059976749,
+          5.199630653062752,
+          7.308992710711498
+        ],
+        "rootFusionOverlapMm": 0.15,
+        "printedPrismLengthMm": 8.131108387167838,
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          2.0
+        ],
+        "minimumRemainingShellMm": 1.201970935599749,
+        "shellThicknessFootprintRangeMm": [
+          2.5364184934190863,
+          3.064116799248726
+        ],
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          1.8621458636489772
+        ],
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              -3.065118565124547,
+              3.1758039040391237,
+              -0.529288004567661
+            ],
+            "hitsMm": [
+              6.118962523518862,
+              9.183079322767588
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.065118565124547,
+              4.1675161454286105,
+              -0.6577669144254277
+            ],
+            "hitsMm": [
+              6.245291467404823,
+              9.29627200865058
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.065118565124547,
+              5.159228386818097,
+              -0.7862458242831943
+            ],
+            "hitsMm": [
+              6.35907573881309,
+              9.39831840796088
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.56625,
+              3.183287758610513,
+              -0.4715210901422333
+            ],
+            "hitsMm": [
+              6.302223360481209,
+              9.31997441395987
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.56625,
+              4.175,
+              -0.6
+            ],
+            "hitsMm": [
+              6.39518171719613,
+              9.406813710818495
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.56625,
+              5.166712241389487,
+              -0.7284789098577666
+            ],
+            "hitsMm": [
+              6.473988255487169,
+              9.48157328153934
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.06738143487545245,
+              3.1907716131819024,
+              -0.4137541757168056
+            ],
+            "hitsMm": [
+              6.781108387167839,
+              9.317526880586925
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.06738143487545245,
+              4.182483854571389,
+              -0.5422330855745723
+            ],
+            "hitsMm": [
+              6.365164674589282,
+              9.375958941984383
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.06738143487545245,
+              5.174196095960876,
+              -0.670711995432339
+            ],
+            "hitsMm": [
+              6.40694580747305,
+              9.421431716154434
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "tangentLocal": [
+          0.9992457100830316,
+          0.004989236380926472,
+          0.03851127628361845
+        ],
+        "structuralLocal": [
+          0.0,
+          0.9917122413894869,
+          -0.1284789098577667
+        ],
+        "staticClearance": {
+          "allClear": true,
+          "body": {
+            "distanceMm": 0.4175564235125705,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "cornerKeepouts": {
+            "distanceMm": 0.9493197607104311,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "pusher": {
+            "distanceMm": 1.2692212221609727,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "terminals": {
+            "TNN": {
+              "distanceMm": 5.257573407594191,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TNP": {
+              "distanceMm": 0.7675259208934111,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPN": {
+              "distanceMm": 6.118419598026221,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPP": {
+              "distanceMm": 3.2039550791481695,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          },
+          "minimumTerminalClearanceMm": 0.7675259208934111,
+          "terminalPenetrationMm3": 0.0,
+          "nearestNeighbor": "I3",
+          "minimumNeighborClearanceMm": 4.669732743943742,
+          "neighborPenetrationMm3": 0.0,
+          "neighbors": {
+            "N1": {
+              "minimumDistanceMm": 9.74827341268988,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N2": {
+              "minimumDistanceMm": 13.878104642136854,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I3": {
+              "minimumDistanceMm": 4.669732743943742,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I4": {
+              "minimumDistanceMm": 14.291185811797051,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M3": {
+              "minimumDistanceMm": 23.62975949876015,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M4": {
+              "minimumDistanceMm": 27.36911884203988,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N3": {
+              "minimumDistanceMm": 34.517263653433915,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          }
+        }
+      },
+      "-V": {
+        "edge": "-V",
+        "rootTangentCoordinateMm": 1.693125000000003,
+        "rootLocalUVWmm": [
+          1.693125000000003,
+          -4.005,
+          -0.6
+        ],
+        "rootShiftLocalUVWmm": [
+          1.693125000000003,
+          0.0,
+          0.0
+        ],
+        "rootShiftMagnitudeMm": 1.693125000000003,
+        "legThicknessMm": 1.6,
+        "legTangentWidthMm": 2.6,
+        "directionLocal": [
+          0.0438619409106098,
+          -0.14362670426089744,
+          0.9886594458976796
+        ],
+        "directionWorld": [
+          -0.3895474089378241,
+          -0.6864406949392293,
+          -0.6140455915656229
+        ],
+        "tiltFromPlusWDeg": 8.637062295365608,
+        "angleToUVPlaneDeg": 81.36293770463439,
+        "tiltAzimuthDeg": -73.01793240675521,
+        "tiltDirectionUV": [
+          0.29207238658453727,
+          -0.956396215485409,
+          0.0
+        ],
+        "centerHitsMm": [
+          6.430244240028009,
+          9.434752959161836
+        ],
+        "feasible": true,
+        "failure": null,
+        "footprintPairCoverage": 9,
+        "missingFootprintPairs": 0,
+        "legLengthMm": 8.09249080660352,
+        "floorPointLocalUVWmm": [
+          2.0480773535788996,
+          -5.167297783814075,
+          7.400717476788703
+        ],
+        "rootFusionOverlapMm": 0.15,
+        "printedPrismLengthMm": 8.24249080660352,
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          2.0
+        ],
+        "minimumRemainingShellMm": 1.2009094965501834,
+        "shellThicknessFootprintRangeMm": [
+          2.4009094965501836,
+          3.0176644140747904
+        ],
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          1.7631912960564637
+        ],
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              0.19456859705282104,
+              -5.004070568473032,
+              -0.6786556189790409
+            ],
+            "hitsMm": [
+              6.36822435168036,
+              9.384548231217366
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.19456859705282104,
+              -4.01445872207876,
+              -0.5348905555035225
+            ],
+            "hitsMm": [
+              6.329299510547056,
+              9.346963924621846
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.19456859705282104,
+              -3.0248468756844877,
+              -0.39112549202800406
+            ],
+            "hitsMm": [
+              6.8924908066035195,
+              9.293400303153703
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              1.693125000000003,
+              -4.994611846394272,
+              -0.7437650634755184
+            ],
+            "hitsMm": [
+              6.471037288556047,
+              9.473643155666531
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              1.693125000000003,
+              -4.005,
+              -0.6
+            ],
+            "hitsMm": [
+              6.430244240028009,
+              9.434752959161836
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              1.693125000000003,
+              -3.015388153605728,
+              -0.45623493652448155
+            ],
+            "hitsMm": [
+              6.370344886989994,
+              9.378499464914018
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.191681402947185,
+              -4.985153124315512,
+              -0.8088745079719959
+            ],
+            "hitsMm": [
+              6.467522542434085,
+              9.470458514623882
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.191681402947185,
+              -3.99554127792124,
+              -0.6651094444964775
+            ],
+            "hitsMm": [
+              6.425916702301568,
+              9.431021352894756
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.191681402947185,
+              -3.005929431526968,
+              -0.521344381020959
+            ],
+            "hitsMm": [
+              6.363082628120558,
+              9.372725488634215
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "tangentLocal": [
+          0.999037601964788,
+          0.006305814719173255,
+          -0.043406296330985014
+        ],
+        "structuralLocal": [
+          -8.673617379884037e-19,
+          0.989611846394272,
+          0.14376506347551843
+        ],
+        "staticClearance": {
+          "allClear": true,
+          "body": {
+            "distanceMm": 0.256078647551698,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "cornerKeepouts": {
+            "distanceMm": 0.8421031620041137,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "pusher": {
+            "distanceMm": 1.249531717162582,
+            "penetrationMm3": 0.0,
+            "clear": true
+          },
+          "terminals": {
+            "TNN": {
+              "distanceMm": 3.2908956499443005,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TNP": {
+              "distanceMm": 6.03984030138593,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPN": {
+              "distanceMm": 0.5841701361539854,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "TPP": {
+              "distanceMm": 5.083638005500478,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          },
+          "minimumTerminalClearanceMm": 0.5841701361539854,
+          "terminalPenetrationMm3": 0.0,
+          "nearestNeighbor": "I3",
+          "minimumNeighborClearanceMm": 1.7719390018144965,
+          "neighborPenetrationMm3": 0.0,
+          "neighbors": {
+            "N1": {
+              "minimumDistanceMm": 18.259468219747532,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N2": {
+              "minimumDistanceMm": 19.571259135944107,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I3": {
+              "minimumDistanceMm": 1.7719390018144965,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "I4": {
+              "minimumDistanceMm": 11.306582635653228,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M3": {
+              "minimumDistanceMm": 14.98987949202677,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "M4": {
+              "minimumDistanceMm": 18.828149262086132,
+              "penetrationMm3": 0.0,
+              "clear": true
+            },
+            "N3": {
+              "minimumDistanceMm": 26.38325711411048,
+              "penetrationMm3": 0.0,
+              "clear": true
+            }
+          }
+        }
+      }
+    },
+    "printedSolidCount": 1,
+    "straightRectangularPrisms": true,
+    "minimumRemainingExteriorShellMm": 1.2002963281093608,
+    "minimumPusherClearanceMm": 1.249531717162582,
+    "minimumTerminalClearanceMm": 0.0010277302236783186,
+    "minimumNeighborClearanceMm": 0.222620971278248,
+    "nearestNeighbor": "I3",
+    "minimumCornerClearanceMm": 0.8027321152147073,
+    "allStaticPenetrationsZero": true,
+    "adhesiveInLoadPath": false,
+    "loadPath": "finger -> button/pusher -> ITS -> one-piece open cross -> four straight legs -> direct slot floors/walls -> frozen shell"
+  },
+  "assembly": {
+    "commonDirection": {
+      "directionLocal": [
+        -0.019744523092266302,
+        -0.007269740127812785,
+        0.99977862784035
+      ],
+      "tiltFromPlusWDeg": 1.2056108374306067,
+      "azimuthDeg": -159.7867869825115,
+      "maximumMismatchDeg": 11.8015973405658,
+      "mismatchByLegDeg": {
+        "+U": 11.801597340560608,
+        "-U": 11.8015973405658,
+        "+V": 7.871265572661451,
+        "-V": 8.652601739847341
+      },
+      "pairwiseAnglesDeg": {
+        "+U:-U": 23.603194681048517,
+        "+U:+V": 12.993434233675144,
+        "+U:-V": 13.712300274520402,
+        "-U:+V": 15.229307914457442,
+        "-U:-V": 15.432675772883059,
+        "+V:-V": 16.34516704236548
+      },
+      "maximumInterLegAngularDifferenceDeg": 23.603194681048517
+    },
+    "insertionVectorLocal": [
+      -0.019744523092266302,
+      -0.007269740127812785,
+      0.99977862784035
+    ],
+    "insertionTravelMm": 1.6,
+    "nominal": {
+      "directionLocal": [
+        -0.019744523092266302,
+        -0.007269740127812785,
+        0.99977862784035
+      ],
+      "travelMm": 1.6,
+      "stateCount": 33,
+      "states": [
+        {
+          "stateIndex": 0,
+          "remainingTravelMm": 1.6,
+          "insertedTravelMm": 0.0,
+          "offsetLocalUVWmm": [
+            0.031591236947626083,
+            0.011631584204500457,
+            -1.59964580454456
+          ],
+          "shellPenetrationMm3": 0.15634213908046252,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 1,
+          "remainingTravelMm": 1.55,
+          "insertedTravelMm": 0.050000000000000044,
+          "offsetLocalUVWmm": [
+            0.03060401079301277,
+            0.011268097198109816,
+            -1.5496568731525424
+          ],
+          "shellPenetrationMm3": 0.16910904193896553,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 2,
+          "remainingTravelMm": 1.5,
+          "insertedTravelMm": 0.10000000000000009,
+          "offsetLocalUVWmm": [
+            0.02961678463839945,
+            0.010904610191719177,
+            -1.499667941760525
+          ],
+          "shellPenetrationMm3": 0.1762797117417237,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 3,
+          "remainingTravelMm": 1.4500000000000002,
+          "insertedTravelMm": 0.1499999999999999,
+          "offsetLocalUVWmm": [
+            0.028629558483786142,
+            0.01054112318532854,
+            -1.4496790103685075
+          ],
+          "shellPenetrationMm3": 0.1769584255524171,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 4,
+          "remainingTravelMm": 1.4000000000000001,
+          "insertedTravelMm": 0.19999999999999996,
+          "offsetLocalUVWmm": [
+            0.027642332329172827,
+            0.0101776361789379,
+            -1.3996900789764901
+          ],
+          "shellPenetrationMm3": 0.17474873131630403,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 5,
+          "remainingTravelMm": 1.35,
+          "insertedTravelMm": 0.25,
+          "offsetLocalUVWmm": [
+            0.02665510617455951,
+            0.00981414917254726,
+            -1.3497011475844725
+          ],
+          "shellPenetrationMm3": 0.16744759540357523,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 6,
+          "remainingTravelMm": 1.3,
+          "insertedTravelMm": 0.30000000000000004,
+          "offsetLocalUVWmm": [
+            0.025667880019946195,
+            0.00945066216615662,
+            -1.299712216192455
+          ],
+          "shellPenetrationMm3": 0.15511398067582607,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 7,
+          "remainingTravelMm": 1.25,
+          "insertedTravelMm": 0.3500000000000001,
+          "offsetLocalUVWmm": [
+            0.02468065386533288,
+            0.009087175159765981,
+            -1.2497232848004374
+          ],
+          "shellPenetrationMm3": 0.1378065454220908,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 8,
+          "remainingTravelMm": 1.2000000000000002,
+          "insertedTravelMm": 0.3999999999999999,
+          "offsetLocalUVWmm": [
+            0.023693427710719566,
+            0.008723688153375344,
+            -1.1997343534084202
+          ],
+          "shellPenetrationMm3": 0.11558370591545022,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 9,
+          "remainingTravelMm": 1.1500000000000001,
+          "insertedTravelMm": 0.44999999999999996,
+          "offsetLocalUVWmm": [
+            0.02270620155610625,
+            0.008360201146984703,
+            -1.1497454220164025
+          ],
+          "shellPenetrationMm3": 0.08850367410100377,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 10,
+          "remainingTravelMm": 1.1,
+          "insertedTravelMm": 0.5,
+          "offsetLocalUVWmm": [
+            0.021718975401492934,
+            0.007996714140594064,
+            -1.099756490624385
+          ],
+          "shellPenetrationMm3": 0.056610366740587,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 11,
+          "remainingTravelMm": 1.05,
+          "insertedTravelMm": 0.55,
+          "offsetLocalUVWmm": [
+            0.020731749246879618,
+            0.007633227134203425,
+            -1.0497675592323674
+          ],
+          "shellPenetrationMm3": 0.019909441337707376,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": false
+        },
+        {
+          "stateIndex": 12,
+          "remainingTravelMm": 1.0,
+          "insertedTravelMm": 0.6000000000000001,
+          "offsetLocalUVWmm": [
+            0.019744523092266302,
+            0.007269740127812785,
+            -0.99977862784035
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 13,
+          "remainingTravelMm": 0.9500000000000001,
+          "insertedTravelMm": 0.65,
+          "offsetLocalUVWmm": [
+            0.01875729693765299,
+            0.006906253121422146,
+            -0.9497896964483326
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 14,
+          "remainingTravelMm": 0.9,
+          "insertedTravelMm": 0.7000000000000001,
+          "offsetLocalUVWmm": [
+            0.017770070783039674,
+            0.006542766115031506,
+            -0.899800765056315
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 15,
+          "remainingTravelMm": 0.8500000000000001,
+          "insertedTravelMm": 0.75,
+          "offsetLocalUVWmm": [
+            0.016782844628426358,
+            0.006179279108640868,
+            -0.8498118336642976
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 16,
+          "remainingTravelMm": 0.8,
+          "insertedTravelMm": 0.8,
+          "offsetLocalUVWmm": [
+            0.015795618473813042,
+            0.005815792102250228,
+            -0.79982290227228
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 17,
+          "remainingTravelMm": 0.75,
+          "insertedTravelMm": 0.8500000000000001,
+          "offsetLocalUVWmm": [
+            0.014808392319199726,
+            0.005452305095859589,
+            -0.7498339708802625
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 18,
+          "remainingTravelMm": 0.7000000000000001,
+          "insertedTravelMm": 0.9,
+          "offsetLocalUVWmm": [
+            0.013821166164586413,
+            0.00508881808946895,
+            -0.6998450394882451
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 19,
+          "remainingTravelMm": 0.65,
+          "insertedTravelMm": 0.9500000000000001,
+          "offsetLocalUVWmm": [
+            0.012833940009973097,
+            0.00472533108307831,
+            -0.6498561080962275
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 20,
+          "remainingTravelMm": 0.6000000000000001,
+          "insertedTravelMm": 1.0,
+          "offsetLocalUVWmm": [
+            0.011846713855359783,
+            0.004361844076687672,
+            -0.5998671767042101
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 21,
+          "remainingTravelMm": 0.55,
+          "insertedTravelMm": 1.05,
+          "offsetLocalUVWmm": [
+            0.010859487700746467,
+            0.003998357070297032,
+            -0.5498782453121925
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.01821250502366772,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 22,
+          "remainingTravelMm": 0.5,
+          "insertedTravelMm": 1.1,
+          "offsetLocalUVWmm": [
+            0.009872261546133151,
+            0.0036348700639063924,
+            -0.499889313920175
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.03679509286499534,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 23,
+          "remainingTravelMm": 0.44999999999999996,
+          "insertedTravelMm": 1.1500000000000001,
+          "offsetLocalUVWmm": [
+            0.008885035391519835,
+            0.0032713830575157527,
+            -0.44990038252815745
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.055377680706320064,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 24,
+          "remainingTravelMm": 0.3999999999999999,
+          "insertedTravelMm": 1.2000000000000002,
+          "offsetLocalUVWmm": [
+            0.00789780923690652,
+            0.0029078960511251133,
+            -0.3999114511361399
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.07396026854764591,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 25,
+          "remainingTravelMm": 0.3500000000000001,
+          "insertedTravelMm": 1.25,
+          "offsetLocalUVWmm": [
+            0.0069105830822932075,
+            0.0025444090447344753,
+            -0.3499225197441226
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.09254285638896952,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 26,
+          "remainingTravelMm": 0.30000000000000004,
+          "insertedTravelMm": 1.3,
+          "offsetLocalUVWmm": [
+            0.0059233569276798915,
+            0.002180922038343836,
+            -0.29993358835210504
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.1111254442302951,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 27,
+          "remainingTravelMm": 0.25,
+          "insertedTravelMm": 1.35,
+          "offsetLocalUVWmm": [
+            0.0049361307730665755,
+            0.0018174350319531962,
+            -0.2499446569600875
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.12970803207162063,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 28,
+          "remainingTravelMm": 0.19999999999999996,
+          "insertedTravelMm": 1.4000000000000001,
+          "offsetLocalUVWmm": [
+            0.00394890461845326,
+            0.0014539480255625567,
+            -0.19995572556806995
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.14829061991294545,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 29,
+          "remainingTravelMm": 0.1499999999999999,
+          "insertedTravelMm": 1.4500000000000002,
+          "offsetLocalUVWmm": [
+            0.0029616784638399436,
+            0.0010904610191719171,
+            -0.1499667941760524
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.16687320775427283,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 30,
+          "remainingTravelMm": 0.10000000000000009,
+          "insertedTravelMm": 1.5,
+          "offsetLocalUVWmm": [
+            0.001974452309226632,
+            0.0007269740127812791,
+            -0.09997786278403509
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.18545579559559594,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 31,
+          "remainingTravelMm": 0.050000000000000044,
+          "insertedTravelMm": 1.55,
+          "offsetLocalUVWmm": [
+            0.000987226154613316,
+            0.00036348700639063955,
+            -0.049988931392017544
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.20403838343692252,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 32,
+          "remainingTravelMm": 0.0,
+          "insertedTravelMm": 1.6,
+          "offsetLocalUVWmm": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.222620971278248,
+          "collisionFree": true
+        }
+      ],
+      "maximumShellPenetrationMm3": 0.1769584255524171,
+      "maximumPusherPenetrationMm3": 0.0,
+      "maximumNeighborPenetrationMm3": 0.0,
+      "minimumNeighborClearanceMm": 0.0,
+      "sweptCollisionVolumeMm3": 0.30912008437100025,
+      "allStatesCollisionFree": false
+    },
+    "revised": {
+      "directionLocal": [
+        -0.019744523092266302,
+        -0.007269740127812785,
+        0.99977862784035
+      ],
+      "travelMm": 1.6,
+      "stateCount": 33,
+      "states": [
+        {
+          "stateIndex": 0,
+          "remainingTravelMm": 1.6,
+          "insertedTravelMm": 0.0,
+          "offsetLocalUVWmm": [
+            0.031591236947626083,
+            0.011631584204500457,
+            -1.59964580454456
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 1,
+          "remainingTravelMm": 1.55,
+          "insertedTravelMm": 0.050000000000000044,
+          "offsetLocalUVWmm": [
+            0.03060401079301277,
+            0.011268097198109816,
+            -1.5496568731525424
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 2,
+          "remainingTravelMm": 1.5,
+          "insertedTravelMm": 0.10000000000000009,
+          "offsetLocalUVWmm": [
+            0.02961678463839945,
+            0.010904610191719177,
+            -1.499667941760525
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 3,
+          "remainingTravelMm": 1.4500000000000002,
+          "insertedTravelMm": 0.1499999999999999,
+          "offsetLocalUVWmm": [
+            0.028629558483786142,
+            0.01054112318532854,
+            -1.4496790103685075
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 4,
+          "remainingTravelMm": 1.4000000000000001,
+          "insertedTravelMm": 0.19999999999999996,
+          "offsetLocalUVWmm": [
+            0.027642332329172827,
+            0.0101776361789379,
+            -1.3996900789764901
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 5,
+          "remainingTravelMm": 1.35,
+          "insertedTravelMm": 0.25,
+          "offsetLocalUVWmm": [
+            0.02665510617455951,
+            0.00981414917254726,
+            -1.3497011475844725
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 6,
+          "remainingTravelMm": 1.3,
+          "insertedTravelMm": 0.30000000000000004,
+          "offsetLocalUVWmm": [
+            0.025667880019946195,
+            0.00945066216615662,
+            -1.299712216192455
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 7,
+          "remainingTravelMm": 1.25,
+          "insertedTravelMm": 0.3500000000000001,
+          "offsetLocalUVWmm": [
+            0.02468065386533288,
+            0.009087175159765981,
+            -1.2497232848004374
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 8,
+          "remainingTravelMm": 1.2000000000000002,
+          "insertedTravelMm": 0.3999999999999999,
+          "offsetLocalUVWmm": [
+            0.023693427710719566,
+            0.008723688153375344,
+            -1.1997343534084202
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 9,
+          "remainingTravelMm": 1.1500000000000001,
+          "insertedTravelMm": 0.44999999999999996,
+          "offsetLocalUVWmm": [
+            0.02270620155610625,
+            0.008360201146984703,
+            -1.1497454220164025
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 10,
+          "remainingTravelMm": 1.1,
+          "insertedTravelMm": 0.5,
+          "offsetLocalUVWmm": [
+            0.021718975401492934,
+            0.007996714140594064,
+            -1.099756490624385
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 11,
+          "remainingTravelMm": 1.05,
+          "insertedTravelMm": 0.55,
+          "offsetLocalUVWmm": [
+            0.020731749246879618,
+            0.007633227134203425,
+            -1.0497675592323674
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 12,
+          "remainingTravelMm": 1.0,
+          "insertedTravelMm": 0.6000000000000001,
+          "offsetLocalUVWmm": [
+            0.019744523092266302,
+            0.007269740127812785,
+            -0.99977862784035
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 13,
+          "remainingTravelMm": 0.9500000000000001,
+          "insertedTravelMm": 0.65,
+          "offsetLocalUVWmm": [
+            0.01875729693765299,
+            0.006906253121422146,
+            -0.9497896964483326
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 14,
+          "remainingTravelMm": 0.9,
+          "insertedTravelMm": 0.7000000000000001,
+          "offsetLocalUVWmm": [
+            0.017770070783039674,
+            0.006542766115031506,
+            -0.899800765056315
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 15,
+          "remainingTravelMm": 0.8500000000000001,
+          "insertedTravelMm": 0.75,
+          "offsetLocalUVWmm": [
+            0.016782844628426358,
+            0.006179279108640868,
+            -0.8498118336642976
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 16,
+          "remainingTravelMm": 0.8,
+          "insertedTravelMm": 0.8,
+          "offsetLocalUVWmm": [
+            0.015795618473813042,
+            0.005815792102250228,
+            -0.79982290227228
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 17,
+          "remainingTravelMm": 0.75,
+          "insertedTravelMm": 0.8500000000000001,
+          "offsetLocalUVWmm": [
+            0.014808392319199726,
+            0.005452305095859589,
+            -0.7498339708802625
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 18,
+          "remainingTravelMm": 0.7000000000000001,
+          "insertedTravelMm": 0.9,
+          "offsetLocalUVWmm": [
+            0.013821166164586413,
+            0.00508881808946895,
+            -0.6998450394882451
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 19,
+          "remainingTravelMm": 0.65,
+          "insertedTravelMm": 0.9500000000000001,
+          "offsetLocalUVWmm": [
+            0.012833940009973097,
+            0.00472533108307831,
+            -0.6498561080962275
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 20,
+          "remainingTravelMm": 0.6000000000000001,
+          "insertedTravelMm": 1.0,
+          "offsetLocalUVWmm": [
+            0.011846713855359783,
+            0.004361844076687672,
+            -0.5998671767042101
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.0,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 21,
+          "remainingTravelMm": 0.55,
+          "insertedTravelMm": 1.05,
+          "offsetLocalUVWmm": [
+            0.010859487700746467,
+            0.003998357070297032,
+            -0.5498782453121925
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.01821250502366772,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 22,
+          "remainingTravelMm": 0.5,
+          "insertedTravelMm": 1.1,
+          "offsetLocalUVWmm": [
+            0.009872261546133151,
+            0.0036348700639063924,
+            -0.499889313920175
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.03679509286499534,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 23,
+          "remainingTravelMm": 0.44999999999999996,
+          "insertedTravelMm": 1.1500000000000001,
+          "offsetLocalUVWmm": [
+            0.008885035391519835,
+            0.0032713830575157527,
+            -0.44990038252815745
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.055377680706320064,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 24,
+          "remainingTravelMm": 0.3999999999999999,
+          "insertedTravelMm": 1.2000000000000002,
+          "offsetLocalUVWmm": [
+            0.00789780923690652,
+            0.0029078960511251133,
+            -0.3999114511361399
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.07396026854764591,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 25,
+          "remainingTravelMm": 0.3500000000000001,
+          "insertedTravelMm": 1.25,
+          "offsetLocalUVWmm": [
+            0.0069105830822932075,
+            0.0025444090447344753,
+            -0.3499225197441226
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.09254285638896952,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 26,
+          "remainingTravelMm": 0.30000000000000004,
+          "insertedTravelMm": 1.3,
+          "offsetLocalUVWmm": [
+            0.0059233569276798915,
+            0.002180922038343836,
+            -0.29993358835210504
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.1111254442302951,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 27,
+          "remainingTravelMm": 0.25,
+          "insertedTravelMm": 1.35,
+          "offsetLocalUVWmm": [
+            0.0049361307730665755,
+            0.0018174350319531962,
+            -0.2499446569600875
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.12970803207162063,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 28,
+          "remainingTravelMm": 0.19999999999999996,
+          "insertedTravelMm": 1.4000000000000001,
+          "offsetLocalUVWmm": [
+            0.00394890461845326,
+            0.0014539480255625567,
+            -0.19995572556806995
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.14829061991294545,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 29,
+          "remainingTravelMm": 0.1499999999999999,
+          "insertedTravelMm": 1.4500000000000002,
+          "offsetLocalUVWmm": [
+            0.0029616784638399436,
+            0.0010904610191719171,
+            -0.1499667941760524
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.16687320775427283,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 30,
+          "remainingTravelMm": 0.10000000000000009,
+          "insertedTravelMm": 1.5,
+          "offsetLocalUVWmm": [
+            0.001974452309226632,
+            0.0007269740127812791,
+            -0.09997786278403509
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.18545579559559594,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 31,
+          "remainingTravelMm": 0.050000000000000044,
+          "insertedTravelMm": 1.55,
+          "offsetLocalUVWmm": [
+            0.000987226154613316,
+            0.00036348700639063955,
+            -0.049988931392017544
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.20403838343692252,
+          "collisionFree": true
+        },
+        {
+          "stateIndex": 32,
+          "remainingTravelMm": 0.0,
+          "insertedTravelMm": 1.6,
+          "offsetLocalUVWmm": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "shellPenetrationMm3": 0.0,
+          "pusherPenetrationMm3": 0.0,
+          "neighborPenetrationMm3": 0.0,
+          "minimumNeighborClearanceMm": 0.222620971278248,
+          "collisionFree": true
+        }
+      ],
+      "maximumShellPenetrationMm3": 0.0,
+      "maximumPusherPenetrationMm3": 0.0,
+      "maximumNeighborPenetrationMm3": 0.0,
+      "minimumNeighborClearanceMm": 0.0,
+      "sweptCollisionVolumeMm3": 0.0,
+      "allStatesCollisionFree": true,
+      "mouthClearancePerSideMm": 0.35,
+      "mouthDepthMm": 0.3,
+      "minimumMouthFloorRemainingShellMm": 2.100296328109361
+    },
+    "optionB": {
+      "nominalClearanceConeDeg": 9.462322208025618,
+      "plusUMismatchDeg": 12.301785875704573,
+      "minusUMismatchDeg": 12.350724773882348,
+      "worksWithoutMouthRevision": false
+    },
+    "optionC90Deg": {
+      "works": false,
+      "authority": "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/i2_parallel_w_root_slide_simplification_audit.json"
+    },
+    "elasticBendingAssumed": false
+  },
+  "fdm": {
+    "machine": "Bambu Lab P1S",
+    "nozzleMm": 0.4,
+    "buildPlateNormalLocal": [
+      0,
+      0,
+      1
+    ],
+    "supportRequired": false,
+    "supportInsideCage": false,
+    "supportBetweenLegs": false,
+    "minimumProjectedThicknessMm": 1.1795335470138772,
+    "minimumRootFusionTailMm": 0.15,
+    "physicalCouponRequiredBeforeProduction": true
+  },
+  "docs80Comparison": {
+    "legs": {
+      "+U": {
+        "docs80TiltDeg": 19.376441400368186,
+        "newTiltDeg": 10.59711121399541,
+        "reductionDeg": 8.779330186372777
+      },
+      "-U": {
+        "docs80TiltDeg": 22.654338263232916,
+        "newTiltDeg": 13.006289451268126,
+        "reductionDeg": 9.64804881196479
+      },
+      "+V": {
+        "docs80TiltDeg": 11.867029714017223,
+        "newTiltDeg": 7.708119272552757,
+        "reductionDeg": 4.1589104414644655
+      },
+      "-V": {
+        "docs80TiltDeg": 13.500000765721646,
+        "newTiltDeg": 8.637062295365608,
+        "reductionDeg": 4.862938470356038
+      }
+    },
+    "docs80MaximumTiltDeg": 22.654338263232916,
+    "newMaximumTiltDeg": 13.006289451268126,
+    "docs80MeanTiltDeg": 16.849452535834992,
+    "newMeanTiltDeg": 9.987145558295476,
+    "docs80MinimumRemainingExteriorShellMm": 1.2429984082455352,
+    "newMinimumRemainingExteriorShellMm": 1.2002963281093608,
+    "remainingShellChangeMm": -0.04270208013617438,
+    "docs80MinimumNeighborClearanceMm": 0.21530001082079397,
+    "newMinimumNeighborClearanceMm": 0.222620971278248,
+    "neighborClearanceChangeMm": 0.007320960457454034,
+    "assemblyFeasibility": "docs/80 not rigid-path validated; new nominal fails, shallow mouth revision passes",
+    "fdmPrintability": "docs/80 one fused solid but orientation/support not audited; new one-piece open-cross orientation support-free"
+  },
+  "preservation": {
+    "protectedFileCount": 74,
+    "hashesBefore": {
+      "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "db15c811e1e47cf3533efd7af5818dcf03f41bf4a0c9b7ca404231a1b3badfb9",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/direct_shell_four_edge_i2_simplification_audit.json": "8f7bb015f7a6d0b42e8611e43f5d121166070b536cc5960602b860b1208ec740",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5c0adbba04089eb2d9f3c0637c1ac1f91d211b5517f428c39a541443bba4ff47",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_LOCAL_CROP_WITH_BLIND_SLOTS_AUDIT_ONLY.step": "247d9eafc8bf0324aaa21167626cf34dc437d7f921f1a516a48b0c18d9af1c65",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_SIMPLIFIED_FULL_ASSEMBLY_AUDIT_ONLY.step": "c4e2805db4502ea40bab27be7d3b8a16c573741538e699ada6b4b27633a549e1",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7dc5c5f5f2c01445f86b60cc56fe4fe271d7e50793394130db127eea48317b2e",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744b39ab532ad767afb36ddfd89a37ea13126ded9f9484246d54991acde1fa",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "c50194cd7ab892fc2c0bbe7991e78eee9645c1b1df1bd613364b97a2c3d17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9cba1cfa8e9b01d36308983fc0cf163326925817534a22ccb554b85d4a93521a",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72c15567c6c2c7f57667f28f4190bd5e584f7572d4de36886e37e7890abbc1e0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "bdb77197e59ea22ffbb4aa55e61b7b5382eee75e8399f9ddae1339f2eb5ca752",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_MINUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "ed7dea16202d618590862e660c86f770ee601d6f5b5ede34b5d43581a11afb4a",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/i2_parallel_w_four_edge_leg_revalidation_audit.json": "478b23fb308c3202276df038fe061ae91c283504a03db16e4a1098b8a397fd57",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_PLUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "9eb24aaf59bdc27d767697da477c4ecc80f7a476471dcf02ac829f7f88f9ba42",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/I2_PARALLEL_W_ROOT_SLIDE_BEST_FAILURE_PROBES_AUDIT_ONLY.step": "134d79340a6cb7aac2c1b5bfe75446454d1fba2d98664fc6fe739b5a831db858",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/i2_parallel_w_root_slide_simplification_audit.json": "96e26a8cb93fd7136bc230f27e3afdac634f72bfeaa5888b7bc868204647770f",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "a42634c3a617f900f51650d7820cad177de623ea568f5f9948dc96bfc8de54c3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069e535b5f5cac9c5d8696fe23719959a95b3daefb064086dab899993cdb1a64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "af0ea969cc11c62d9ce1cda4ee6c117372f83baa0207e2742544cfe08d2e2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568a6dfee254585b8cdfd83d86141c1554cdce3274ed0148f22de576fb0",
+      "renders/direct_shell_four_edge_i2_simplification_audit/01_current_docs79_i2_full_stack_exploded_named.png": "caf5ce4982298ec7d5acdc76c06ba9f39c3a24d4c7f873900d56de64e5668b35",
+      "renders/direct_shell_four_edge_i2_simplification_audit/02_current_receiver_panel_strut_closeup.png": "bdc894ae77d34c8987ef9f01d5d3c26d8eee8c35d2ed7a8b6d5f18e5b1cd7c04",
+      "renders/direct_shell_four_edge_i2_simplification_audit/03_simplified_direct_shell_candidate_top.png": "bfa9787ef3995eff923ef420afffcd3f69bf607ab772f1942bc5dca42d0167dc",
+      "renders/direct_shell_four_edge_i2_simplification_audit/04_simplified_candidate_isometric.png": "d96824137be24e0940fe5b5c10de4988ad420fc23a835e1199bbf75500d7e31c",
+      "renders/direct_shell_four_edge_i2_simplification_audit/05_section_plus_u_minus_u_legs.png": "3b0911318cd4c67fa5409b39e890fe58c36b3263b72e5d002cab20421af8a46d",
+      "renders/direct_shell_four_edge_i2_simplification_audit/06_section_plus_v_minus_v_legs.png": "033afc3ab2f97c276dd74e78f00ef54d1824992bc18bb8ae6430e6cb35de948d",
+      "renders/direct_shell_four_edge_i2_simplification_audit/07_four_shell_blind_slots_only.png": "83e219a77ed59503b165bccd6dfc166d5518d29e3b742b96c6b23df4da195917",
+      "renders/direct_shell_four_edge_i2_simplification_audit/08_its_harness_four_legs_only.png": "3ec2f8a1cfbbdb056e1fabe826cc4a386c636c097df832698770efa9fcf8ebbc",
+      "renders/direct_shell_four_edge_i2_simplification_audit/09_full_simplified_assembly.png": "16def17ec662267c0d0db84680ffa42acf6e770e1f284fc022937f8b91314f33",
+      "renders/direct_shell_four_edge_i2_simplification_audit/10_current_vs_simplified_comparison.png": "edfd6780829726c0c7da4fdfe7afd3ed5803323aae26dd75cd3b055e1a2e9b1e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9a7ecff9562a2fefe255ad5c8705128e929ce0ff81b8e83ff83d49df7c7371d5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28b9f704bfc64b8ff22f1b9cd3164ccc319ee2aaa5711af2f3404cc8d0f09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5d7075d2b6bb2524b0ebcf8dc0dd782afcd8248c3f25319248c0556b2e72d0ce",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2a4f286f6d1a456132e8cd76eb254e8f6cfe0b1a6f2a3590ba7b94cc88cfcd9f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "f2154c55a194fc26b75ddfbdb24c250b285c62d6d6c9ed471ba544864da28f96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "ef0ff029d1b6dbea6907c2ea11124f42b5ffe0b9f63f735019eb8b6376ade54e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "fb46fdbf211571434689dd4e5c2fa6ab407e79fe00b3593664196b54c09acc25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "b39e30fb31d6a5944e8f3445535e93f4ace74939879a9fdba87dbae74dd552cb",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "c2c5d2b635ce5421b0f4010e2ee6dc26f643135f9f1aee75024c8cb34a2edebf",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "f53b684898c0de0d786c324bbc8285afcbac607318c9397a9a8acffc3899bd2f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718d09e0f411f98bb8e8a4a11723115a0c2449c3c4825dc0f27611e9f52531ca",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5a30592c3ebb92eafe8542a1eadcc6922f03d8950262415ff984b7898099ba95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ed937cf499c3ec5d0c1a15ebab115672407802901c323db74078f4f5dfa2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16d6d796d6dc8799635ee16fe806599b1e9e213816b56a18c065ce30217cc5f0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006eff308701a5dfcb16172a3d0255de7c872449a76890c04cf28ea36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "c7441bdf1339677768308c9c984a15e4b553b05e401af9f3ce1320c8242b0fd9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "e4b687bbeeac298301ceefa70d018def4f5c9e38a6d2e6eb7a3991aa9f94763e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "eb5d37680e460dcede1cf9ff886cfc96b60c6718220cd366f97b7410fbab80bc",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832eb2aed99cc37130a0cd1b7ee4daf0e5e459a87ecff2f2eeb0e46b17e1dfea",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/01_current_i2_direction_revalidation.png": "e2191edb7568ee4eea017413ab6a05ad3594acd31a96d25f3c8edafac57512c0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/02_+w_parallel_fixed_root_probes.png": "d8083e7f286e4abe0e68b5327b3efd7400b6f16220dc5ef097354c364502dcb9",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/03_-w_parallel_fixed_root_probes.png": "67a3d4a51360b01eeeac2ac7636ccf72bac03d8a514c35dddbb2521040927fd0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/04_+w_footprint_36_ray_coverage.png": "458d888ec6c4cd1732675a7223f0eff087a002bc5e00de332c3eddfd0c761e3c",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/05_-w_footprint_36_ray_coverage.png": "6638e8ac05b66ba7fbfc25902081149921410847cdbad98afe9a337e448f815f",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/06_minus_w_plus_v_planar_floor_breakthrough.png": "36b1f70535c3a0e405c9c731286f6d95720c8e886282a6d40ad90db12894c5db",
+      "renders/i2_parallel_w_root_slide_simplification_audit/01_docs81_fixed_roots_top.png": "276a1a3859dd274dcd721ce1e35988e579b6f05beedc64f0b734d65cdc654194",
+      "renders/i2_parallel_w_root_slide_simplification_audit/02_feasible_root_regions_four_sides.png": "f4f565fe6f2fbfbc842e3028edaecd7c985c799aaeaa8bb5852025a9be327e19",
+      "renders/i2_parallel_w_root_slide_simplification_audit/03_best_new_roots_top_failure_diagnostic.png": "cbbdaa9484fabc0e32c30526d114c456e764a2aa6c6a2eaa708317f74321e024",
+      "renders/i2_parallel_w_root_slide_simplification_audit/04_90deg_parallel_legs_only_failure_probes.png": "f07c705c9fc17b37b86d94330bb5592e89f5179d55435729f5fa272aede9c5b9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/05_plus_u_minus_u_sections.png": "a5923b035e2eee3c0371bdd5a6616c9d1461616e53c1ca3822c2c05cf615154d",
+      "renders/i2_parallel_w_root_slide_simplification_audit/06_plus_v_minus_v_sections.png": "90950d842a3f5c3ef4b2faaacba4f8c1bb4b961f18c52bce444243695f56bacf",
+      "renders/i2_parallel_w_root_slide_simplification_audit/07_shell_blind_slot_footprint_ray_proof.png": "7c4343d6677e1a291ea7259c2e1f791c56856cc57ff082519dbc473d00b94ea9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/08_pusher_clearance_closeup.png": "ea803b82a538b3306023fa8c45e9110240d9400428a879232b914546b88fd637",
+      "renders/i2_parallel_w_root_slide_simplification_audit/09_i3_clearance_closeup.png": "64f745055ea47b5c5d433b5b49967275969a3e4ee971f026b3887a56824d05bc",
+      "renders/i2_parallel_w_root_slide_simplification_audit/10_full_simplified_failure_combination.png": "4c08de42122758f4f4d3bf1c2e53219cf7a17b91617333d9c18da84472e95307",
+      "renders/i2_parallel_w_root_slide_simplification_audit/11_docs80_angled_vs_parallel_root_slide.png": "651a74717631a253a72627a733038eb087b60e137ae4351e86ba3d48486a417c"
+    },
+    "hashesAfter": {
+      "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "db15c811e1e47cf3533efd7af5818dcf03f41bf4a0c9b7ca404231a1b3badfb9",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/direct_shell_four_edge_i2_simplification_audit.json": "8f7bb015f7a6d0b42e8611e43f5d121166070b536cc5960602b860b1208ec740",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5c0adbba04089eb2d9f3c0637c1ac1f91d211b5517f428c39a541443bba4ff47",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_LOCAL_CROP_WITH_BLIND_SLOTS_AUDIT_ONLY.step": "247d9eafc8bf0324aaa21167626cf34dc437d7f921f1a516a48b0c18d9af1c65",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_SIMPLIFIED_FULL_ASSEMBLY_AUDIT_ONLY.step": "c4e2805db4502ea40bab27be7d3b8a16c573741538e699ada6b4b27633a549e1",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7dc5c5f5f2c01445f86b60cc56fe4fe271d7e50793394130db127eea48317b2e",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744b39ab532ad767afb36ddfd89a37ea13126ded9f9484246d54991acde1fa",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "c50194cd7ab892fc2c0bbe7991e78eee9645c1b1df1bd613364b97a2c3d17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9cba1cfa8e9b01d36308983fc0cf163326925817534a22ccb554b85d4a93521a",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72c15567c6c2c7f57667f28f4190bd5e584f7572d4de36886e37e7890abbc1e0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "bdb77197e59ea22ffbb4aa55e61b7b5382eee75e8399f9ddae1339f2eb5ca752",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_MINUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "ed7dea16202d618590862e660c86f770ee601d6f5b5ede34b5d43581a11afb4a",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/i2_parallel_w_four_edge_leg_revalidation_audit.json": "478b23fb308c3202276df038fe061ae91c283504a03db16e4a1098b8a397fd57",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_PLUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "9eb24aaf59bdc27d767697da477c4ecc80f7a476471dcf02ac829f7f88f9ba42",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/I2_PARALLEL_W_ROOT_SLIDE_BEST_FAILURE_PROBES_AUDIT_ONLY.step": "134d79340a6cb7aac2c1b5bfe75446454d1fba2d98664fc6fe739b5a831db858",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/i2_parallel_w_root_slide_simplification_audit.json": "96e26a8cb93fd7136bc230f27e3afdac634f72bfeaa5888b7bc868204647770f",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "a42634c3a617f900f51650d7820cad177de623ea568f5f9948dc96bfc8de54c3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069e535b5f5cac9c5d8696fe23719959a95b3daefb064086dab899993cdb1a64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "af0ea969cc11c62d9ce1cda4ee6c117372f83baa0207e2742544cfe08d2e2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568a6dfee254585b8cdfd83d86141c1554cdce3274ed0148f22de576fb0",
+      "renders/direct_shell_four_edge_i2_simplification_audit/01_current_docs79_i2_full_stack_exploded_named.png": "caf5ce4982298ec7d5acdc76c06ba9f39c3a24d4c7f873900d56de64e5668b35",
+      "renders/direct_shell_four_edge_i2_simplification_audit/02_current_receiver_panel_strut_closeup.png": "bdc894ae77d34c8987ef9f01d5d3c26d8eee8c35d2ed7a8b6d5f18e5b1cd7c04",
+      "renders/direct_shell_four_edge_i2_simplification_audit/03_simplified_direct_shell_candidate_top.png": "bfa9787ef3995eff923ef420afffcd3f69bf607ab772f1942bc5dca42d0167dc",
+      "renders/direct_shell_four_edge_i2_simplification_audit/04_simplified_candidate_isometric.png": "d96824137be24e0940fe5b5c10de4988ad420fc23a835e1199bbf75500d7e31c",
+      "renders/direct_shell_four_edge_i2_simplification_audit/05_section_plus_u_minus_u_legs.png": "3b0911318cd4c67fa5409b39e890fe58c36b3263b72e5d002cab20421af8a46d",
+      "renders/direct_shell_four_edge_i2_simplification_audit/06_section_plus_v_minus_v_legs.png": "033afc3ab2f97c276dd74e78f00ef54d1824992bc18bb8ae6430e6cb35de948d",
+      "renders/direct_shell_four_edge_i2_simplification_audit/07_four_shell_blind_slots_only.png": "83e219a77ed59503b165bccd6dfc166d5518d29e3b742b96c6b23df4da195917",
+      "renders/direct_shell_four_edge_i2_simplification_audit/08_its_harness_four_legs_only.png": "3ec2f8a1cfbbdb056e1fabe826cc4a386c636c097df832698770efa9fcf8ebbc",
+      "renders/direct_shell_four_edge_i2_simplification_audit/09_full_simplified_assembly.png": "16def17ec662267c0d0db84680ffa42acf6e770e1f284fc022937f8b91314f33",
+      "renders/direct_shell_four_edge_i2_simplification_audit/10_current_vs_simplified_comparison.png": "edfd6780829726c0c7da4fdfe7afd3ed5803323aae26dd75cd3b055e1a2e9b1e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9a7ecff9562a2fefe255ad5c8705128e929ce0ff81b8e83ff83d49df7c7371d5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28b9f704bfc64b8ff22f1b9cd3164ccc319ee2aaa5711af2f3404cc8d0f09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5d7075d2b6bb2524b0ebcf8dc0dd782afcd8248c3f25319248c0556b2e72d0ce",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2a4f286f6d1a456132e8cd76eb254e8f6cfe0b1a6f2a3590ba7b94cc88cfcd9f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "f2154c55a194fc26b75ddfbdb24c250b285c62d6d6c9ed471ba544864da28f96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "ef0ff029d1b6dbea6907c2ea11124f42b5ffe0b9f63f735019eb8b6376ade54e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "fb46fdbf211571434689dd4e5c2fa6ab407e79fe00b3593664196b54c09acc25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "b39e30fb31d6a5944e8f3445535e93f4ace74939879a9fdba87dbae74dd552cb",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "c2c5d2b635ce5421b0f4010e2ee6dc26f643135f9f1aee75024c8cb34a2edebf",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "f53b684898c0de0d786c324bbc8285afcbac607318c9397a9a8acffc3899bd2f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718d09e0f411f98bb8e8a4a11723115a0c2449c3c4825dc0f27611e9f52531ca",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5a30592c3ebb92eafe8542a1eadcc6922f03d8950262415ff984b7898099ba95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ed937cf499c3ec5d0c1a15ebab115672407802901c323db74078f4f5dfa2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16d6d796d6dc8799635ee16fe806599b1e9e213816b56a18c065ce30217cc5f0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006eff308701a5dfcb16172a3d0255de7c872449a76890c04cf28ea36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "c7441bdf1339677768308c9c984a15e4b553b05e401af9f3ce1320c8242b0fd9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "e4b687bbeeac298301ceefa70d018def4f5c9e38a6d2e6eb7a3991aa9f94763e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "eb5d37680e460dcede1cf9ff886cfc96b60c6718220cd366f97b7410fbab80bc",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832eb2aed99cc37130a0cd1b7ee4daf0e5e459a87ecff2f2eeb0e46b17e1dfea",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/01_current_i2_direction_revalidation.png": "e2191edb7568ee4eea017413ab6a05ad3594acd31a96d25f3c8edafac57512c0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/02_+w_parallel_fixed_root_probes.png": "d8083e7f286e4abe0e68b5327b3efd7400b6f16220dc5ef097354c364502dcb9",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/03_-w_parallel_fixed_root_probes.png": "67a3d4a51360b01eeeac2ac7636ccf72bac03d8a514c35dddbb2521040927fd0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/04_+w_footprint_36_ray_coverage.png": "458d888ec6c4cd1732675a7223f0eff087a002bc5e00de332c3eddfd0c761e3c",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/05_-w_footprint_36_ray_coverage.png": "6638e8ac05b66ba7fbfc25902081149921410847cdbad98afe9a337e448f815f",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/06_minus_w_plus_v_planar_floor_breakthrough.png": "36b1f70535c3a0e405c9c731286f6d95720c8e886282a6d40ad90db12894c5db",
+      "renders/i2_parallel_w_root_slide_simplification_audit/01_docs81_fixed_roots_top.png": "276a1a3859dd274dcd721ce1e35988e579b6f05beedc64f0b734d65cdc654194",
+      "renders/i2_parallel_w_root_slide_simplification_audit/02_feasible_root_regions_four_sides.png": "f4f565fe6f2fbfbc842e3028edaecd7c985c799aaeaa8bb5852025a9be327e19",
+      "renders/i2_parallel_w_root_slide_simplification_audit/03_best_new_roots_top_failure_diagnostic.png": "cbbdaa9484fabc0e32c30526d114c456e764a2aa6c6a2eaa708317f74321e024",
+      "renders/i2_parallel_w_root_slide_simplification_audit/04_90deg_parallel_legs_only_failure_probes.png": "f07c705c9fc17b37b86d94330bb5592e89f5179d55435729f5fa272aede9c5b9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/05_plus_u_minus_u_sections.png": "a5923b035e2eee3c0371bdd5a6616c9d1461616e53c1ca3822c2c05cf615154d",
+      "renders/i2_parallel_w_root_slide_simplification_audit/06_plus_v_minus_v_sections.png": "90950d842a3f5c3ef4b2faaacba4f8c1bb4b961f18c52bce444243695f56bacf",
+      "renders/i2_parallel_w_root_slide_simplification_audit/07_shell_blind_slot_footprint_ray_proof.png": "7c4343d6677e1a291ea7259c2e1f791c56856cc57ff082519dbc473d00b94ea9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/08_pusher_clearance_closeup.png": "ea803b82a538b3306023fa8c45e9110240d9400428a879232b914546b88fd637",
+      "renders/i2_parallel_w_root_slide_simplification_audit/09_i3_clearance_closeup.png": "64f745055ea47b5c5d433b5b49967275969a3e4ee971f026b3887a56824d05bc",
+      "renders/i2_parallel_w_root_slide_simplification_audit/10_full_simplified_failure_combination.png": "4c08de42122758f4f4d3bf1c2e53219cf7a17b91617333d9c18da84472e95307",
+      "renders/i2_parallel_w_root_slide_simplification_audit/11_docs80_angled_vs_parallel_root_slide.png": "651a74717631a253a72627a733038eb087b60e137ae4351e86ba3d48486a417c"
+    },
+    "allProtectedFilesPreserved": true,
+    "productionModification": 0,
+    "eightButtonPropagation": 0,
+    "physicalCoupon": 0,
+    "N2Redesign": 0,
+    "newInnerHousing": 0
+  },
+  "outputs": {
+    "json": "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/i2_minimum_angle_direct_shell_assembly_audit.json",
+    "report": "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md",
+    "searchCache": "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/minimum_angle_search_cache.json",
+    "harnessStep": "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_EDGE_HARNESS_AUDIT_ONLY.step",
+    "shellStep": "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_SLOT_SHELL_CROP_AUDIT_ONLY.step",
+    "assemblyStep": "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FULL_SEATED_ASSEMBLY_AUDIT_ONLY.step",
+    "renders": [
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/01_i2_exterior_its_frozen_orientation.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/02_four_roots_top_view.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/03_plus_U_minimum_angle.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/04_minus_U_minimum_angle.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/05_plus_V_minimum_angle.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/06_minus_V_minimum_angle.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/07_four_minimum_angle_legs_only.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/08_four_direct_shell_slots_only.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/09_leg_slot_sectional_view.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/10_full_seated_assembly.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/11_assembly_start.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/12_assembly_partial_insert.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/13_assembly_full_seat.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/14_assembly_swept_collision_diagnostic.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/15_harness_fdm_print_orientation.png",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/16_docs80_vs_new_minimum_angle.png"
+    ]
+  }
+}

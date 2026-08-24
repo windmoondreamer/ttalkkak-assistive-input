@@ -1,0 +1,252 @@
+{
+  "controls": {
+    "T1_corner_1": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00011005948943134437,
+          0.6529192947596028,
+          0.7574274766718803
+        ],
+        "tiltFromJoystickAxisDeg": 4.0000000001624505,
+        "dominantFaceAreaMm2": 44.68545892337661,
+        "topSamples": 900,
+        "clearPathFraction": 0.3433333333333334
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005948943118582,
+          0.6529192947596082,
+          0.7574274766718756
+        ],
+        "tiltFromJoystickAxisDeg": 4.000000000162907,
+        "dominantFaceAreaMm2": 44.68545892337658,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "T2_middle_1": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00011005948943450072,
+          0.6529192947572882,
+          0.7574274766738756
+        ],
+        "tiltFromJoystickAxisDeg": 3.9999999999872746,
+        "dominantFaceAreaMm2": 57.76000000000373,
+        "topSamples": 900,
+        "clearPathFraction": 0.0
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005948943399348,
+          0.6529192947572885,
+          0.7574274766738752
+        ],
+        "tiltFromJoystickAxisDeg": 3.999999999987366,
+        "dominantFaceAreaMm2": 57.76000000000375,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "T3_corner_2": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00011005947828781857,
+          0.6529192947572462,
+          0.7574274766739134
+        ],
+        "tiltFromJoystickAxisDeg": 3.9999999999847216,
+        "dominantFaceAreaMm2": 44.685458923370405,
+        "topSamples": 900,
+        "clearPathFraction": 0.36444444444444446
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005947827730299,
+          0.6529192947572453,
+          0.7574274766739142
+        ],
+        "tiltFromJoystickAxisDeg": 3.99999999998463,
+        "dominantFaceAreaMm2": 44.685458923370405,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "T4_side_1": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00011005948943433235,
+          0.6529192947572796,
+          0.7574274766738829
+        ],
+        "tiltFromJoystickAxisDeg": 3.9999999999867275,
+        "dominantFaceAreaMm2": 57.759999999993,
+        "topSamples": 900,
+        "clearPathFraction": 0.012222222222222245
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005948943440965,
+          0.6529192947572788,
+          0.7574274766738835
+        ],
+        "tiltFromJoystickAxisDeg": 3.999999999986636,
+        "dominantFaceAreaMm2": 57.75999999999294,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "T5_middle_2": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00011005948943444437,
+          0.6529192947572136,
+          0.75742747667394
+        ],
+        "tiltFromJoystickAxisDeg": 3.9999999999816205,
+        "dominantFaceAreaMm2": 57.75999999999875,
+        "topSamples": 900,
+        "clearPathFraction": 0.3288888888888889
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005948943363756,
+          0.652919294757214,
+          0.7574274766739395
+        ],
+        "tiltFromJoystickAxisDeg": 3.999999999981712,
+        "dominantFaceAreaMm2": 57.759999999998755,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "T6_side_2": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00011005948943408636,
+          0.6529192947572788,
+          0.7574274766738835
+        ],
+        "tiltFromJoystickAxisDeg": 3.999999999986636,
+        "dominantFaceAreaMm2": 57.75999999999297,
+        "topSamples": 900,
+        "clearPathFraction": 0.03888888888888886
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005948943511705,
+          0.6529192947572795,
+          0.7574274766738831
+        ],
+        "tiltFromJoystickAxisDeg": 3.999999999986636,
+        "dominantFaceAreaMm2": 57.75999999999297,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "T7_wide_1": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00011005948943432956,
+          0.6529192947572325,
+          0.7574274766739236
+        ],
+        "tiltFromJoystickAxisDeg": 3.9999999999830793,
+        "dominantFaceAreaMm2": 63.360000000004014,
+        "topSamples": 900,
+        "clearPathFraction": 0.0
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005948943320917,
+          0.6529192947572319,
+          0.7574274766739241
+        ],
+        "tiltFromJoystickAxisDeg": 3.9999999999830793,
+        "dominantFaceAreaMm2": 63.36000000000397,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "T8_wide_2": {
+      "FROZEN": {
+        "axisWorld": [
+          0.0001100594894339187,
+          0.6529192947572333,
+          0.7574274766739229
+        ],
+        "tiltFromJoystickAxisDeg": 3.999999999983171,
+        "dominantFaceAreaMm2": 63.359999999964415,
+        "topSamples": 900,
+        "clearPathFraction": 0.0
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00011005948943327362,
+          0.6529192947572342,
+          0.7574274766739221
+        ],
+        "tiltFromJoystickAxisDeg": 3.9999999999832623,
+        "dominantFaceAreaMm2": 63.35999999996444,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    },
+    "JOYSTICK": {
+      "FROZEN": {
+        "axisWorld": [
+          0.00018185376874712877,
+          0.5984933689760229,
+          0.8011277390160305
+        ],
+        "tiltFromJoystickAxisDeg": 0.0,
+        "dominantFaceAreaMm2": 153.87424903457216,
+        "topSamples": 900,
+        "clearPathFraction": 0.3977777777777778
+      },
+      "CLEAN": {
+        "axisWorld": [
+          0.00018185376874829567,
+          0.598493368976025,
+          0.8011277390160289
+        ],
+        "tiltFromJoystickAxisDeg": 0.0,
+        "dominantFaceAreaMm2": 153.8742490345722,
+        "topSamples": 900,
+        "clearPathFraction": 1.0
+      }
+    }
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 420.8,
+      "availMb": 17901.0
+    },
+    {
+      "stage": "frozen tris 7540",
+      "rssMb": 424.2,
+      "availMb": 17904.8
+    },
+    {
+      "stage": "combined CLEAN",
+      "rssMb": 423.8,
+      "availMb": 17901.0
+    },
+    {
+      "stage": "clean tris 6898",
+      "rssMb": 424.5,
+      "availMb": 17914.6
+    },
+    {
+      "stage": "exposure FROZEN",
+      "rssMb": 427.5,
+      "availMb": 18338.3
+    },
+    {
+      "stage": "exposure CLEAN",
+      "rssMb": 429.6,
+      "availMb": 18217.7
+    }
+  ]
+}

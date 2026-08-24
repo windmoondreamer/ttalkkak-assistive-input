@@ -1,0 +1,479 @@
+{
+  "outerSkinColumns": [
+    {
+      "u": -18.0,
+      "v": 8.0,
+      "exactOuterN": 14.82957057186438,
+      "lower15OuterN": 14.827533695226919,
+      "deltaMm": -0.00203687663746166
+    },
+    {
+      "u": -18.0,
+      "v": 0.0,
+      "exactOuterN": 14.348309072568384,
+      "lower15OuterN": 14.439656263656374,
+      "deltaMm": 0.09134719108799061
+    },
+    {
+      "u": -18.0,
+      "v": -10.0,
+      "exactOuterN": 13.467762501597704,
+      "lower15OuterN": 13.500229356249513,
+      "deltaMm": 0.03246685465180832
+    },
+    {
+      "u": -18.0,
+      "v": -20.0,
+      "exactOuterN": 11.992370890498222,
+      "lower15OuterN": 11.989436107513534,
+      "deltaMm": -0.002934782984688411
+    },
+    {
+      "u": -18.0,
+      "v": -26.0,
+      "exactOuterN": 10.735807451017308,
+      "lower15OuterN": 10.745127916644279,
+      "deltaMm": 0.009320465626970531
+    },
+    {
+      "u": -18.0,
+      "v": -36.0,
+      "exactOuterN": 7.972433782943078,
+      "lower15OuterN": 7.976023196257145,
+      "deltaMm": 0.003589413314067258
+    },
+    {
+      "u": -18.0,
+      "v": -46.0,
+      "exactOuterN": 3.8740656409915033,
+      "lower15OuterN": 3.9664511937309683,
+      "deltaMm": 0.09238555273946503
+    },
+    {
+      "u": -12.0,
+      "v": 8.0,
+      "exactOuterN": 16.040845402537023,
+      "lower15OuterN": 16.034914520454272,
+      "deltaMm": -0.0059308820827510544
+    },
+    {
+      "u": -12.0,
+      "v": 0.0,
+      "exactOuterN": 15.732288641084963,
+      "lower15OuterN": 15.738523038048307,
+      "deltaMm": 0.006234396963343158
+    },
+    {
+      "u": -12.0,
+      "v": -10.0,
+      "exactOuterN": 14.972483414819216,
+      "lower15OuterN": 14.99945553231725,
+      "deltaMm": 0.0269721174980333
+    },
+    {
+      "u": -12.0,
+      "v": -20.0,
+      "exactOuterN": 13.780845585084833,
+      "lower15OuterN": -6.392368805242125,
+      "deltaMm": -20.173214390326958
+    },
+    {
+      "u": -12.0,
+      "v": -26.0,
+      "exactOuterN": 12.719395343402304,
+      "lower15OuterN": 12.785640310900696,
+      "deltaMm": 0.06624496749839182
+    },
+    {
+      "u": -12.0,
+      "v": -36.0,
+      "exactOuterN": 10.434274303778643,
+      "lower15OuterN": 10.508048734000852,
+      "deltaMm": 0.07377443022220831
+    },
+    {
+      "u": -6.0,
+      "v": 8.0,
+      "exactOuterN": 16.22560006516929,
+      "lower15OuterN": 16.195124297283265,
+      "deltaMm": -0.03047576788602413
+    },
+    {
+      "u": -6.0,
+      "v": 0.0,
+      "exactOuterN": 15.984749960827685,
+      "lower15OuterN": -17.219676363438655,
+      "deltaMm": -33.204426324266336
+    },
+    {
+      "u": -6.0,
+      "v": -10.0,
+      "exactOuterN": 15.368857284002893,
+      "lower15OuterN": 15.334017475812594,
+      "deltaMm": -0.03483980819029853
+    },
+    {
+      "u": -6.0,
+      "v": -20.0,
+      "exactOuterN": 14.28350211607566,
+      "lower15OuterN": -6.400405189616919,
+      "deltaMm": -20.68390730569258
+    },
+    {
+      "u": -6.0,
+      "v": -26.0,
+      "exactOuterN": 13.404574362829628,
+      "lower15OuterN": 13.425950523511823,
+      "deltaMm": 0.021376160682194723
+    },
+    {
+      "u": -6.0,
+      "v": -36.0,
+      "exactOuterN": 11.344696696328015,
+      "lower15OuterN": 11.379839893608889,
+      "deltaMm": 0.035143197280874006
+    },
+    {
+      "u": 0.0,
+      "v": 8.0,
+      "exactOuterN": 15.986820386995184,
+      "lower15OuterN": 16.036857049669948,
+      "deltaMm": 0.05003666267476348
+    },
+    {
+      "u": 0.0,
+      "v": -10.0,
+      "exactOuterN": 15.258263183505342,
+      "lower15OuterN": 15.25201940725011,
+      "deltaMm": -0.006243776255232092
+    },
+    {
+      "u": 0.0,
+      "v": -20.0,
+      "exactOuterN": 14.280981451487037,
+      "lower15OuterN": 14.279145694314195,
+      "deltaMm": -0.0018357571728415678
+    },
+    {
+      "u": 0.0,
+      "v": -26.0,
+      "exactOuterN": 13.466308243619302,
+      "lower15OuterN": 13.49185334026815,
+      "deltaMm": 0.025545096648848187
+    },
+    {
+      "u": 0.0,
+      "v": -46.0,
+      "exactOuterN": 8.80990844662071,
+      "lower15OuterN": 8.816953291373665,
+      "deltaMm": 0.007044844752954305
+    },
+    {
+      "u": 6.0,
+      "v": 8.0,
+      "exactOuterN": 16.225244578759508,
+      "lower15OuterN": 16.18411682082482,
+      "deltaMm": -0.0411277579346887
+    },
+    {
+      "u": 6.0,
+      "v": 0.0,
+      "exactOuterN": 15.986242244677783,
+      "lower15OuterN": -17.214409167772814,
+      "deltaMm": -33.2006514124506
+    },
+    {
+      "u": 6.0,
+      "v": -10.0,
+      "exactOuterN": 15.374023637321379,
+      "lower15OuterN": 15.340876697617269,
+      "deltaMm": -0.03314693970411042
+    },
+    {
+      "u": 6.0,
+      "v": -20.0,
+      "exactOuterN": 14.297934617767616,
+      "lower15OuterN": -6.411247136784851,
+      "deltaMm": -20.709181754552468
+    },
+    {
+      "u": 6.0,
+      "v": -26.0,
+      "exactOuterN": 13.42416873646031,
+      "lower15OuterN": 13.450679620147866,
+      "deltaMm": 0.02651088368755694
+    },
+    {
+      "u": 6.0,
+      "v": -36.0,
+      "exactOuterN": 11.400129505523935,
+      "lower15OuterN": 11.415158048459396,
+      "deltaMm": 0.015028542935461076
+    },
+    {
+      "u": 6.0,
+      "v": -46.0,
+      "exactOuterN": 8.467572295367646,
+      "lower15OuterN": 8.487020896048186,
+      "deltaMm": 0.01944860068054055
+    },
+    {
+      "u": 12.0,
+      "v": 8.0,
+      "exactOuterN": 16.078507007544886,
+      "lower15OuterN": 16.070984207347273,
+      "deltaMm": -0.007522800197612867
+    },
+    {
+      "u": 12.0,
+      "v": 0.0,
+      "exactOuterN": 15.775338977218183,
+      "lower15OuterN": 15.77851392017601,
+      "deltaMm": 0.003174942957826943
+    },
+    {
+      "u": 12.0,
+      "v": -10.0,
+      "exactOuterN": 15.049894882453678,
+      "lower15OuterN": 15.051067629136867,
+      "deltaMm": 0.0011727466831885636
+    },
+    {
+      "u": 12.0,
+      "v": -20.0,
+      "exactOuterN": 13.85056469064714,
+      "lower15OuterN": -6.416314801601864,
+      "deltaMm": -20.266879492249004
+    },
+    {
+      "u": 12.0,
+      "v": -26.0,
+      "exactOuterN": 12.846081451173788,
+      "lower15OuterN": 12.871635685649018,
+      "deltaMm": 0.025554234475229975
+    },
+    {
+      "u": 12.0,
+      "v": -36.0,
+      "exactOuterN": 10.582715084506809,
+      "lower15OuterN": 10.623892322031672,
+      "deltaMm": 0.04117723752486313
+    },
+    {
+      "u": 18.0,
+      "v": 8.0,
+      "exactOuterN": 14.955102232174411,
+      "lower15OuterN": 14.98013462075565,
+      "deltaMm": 0.025032388581237797
+    },
+    {
+      "u": 18.0,
+      "v": 0.0,
+      "exactOuterN": 14.537491823058474,
+      "lower15OuterN": 14.603927143224645,
+      "deltaMm": 0.06643532016617115
+    },
+    {
+      "u": 18.0,
+      "v": -10.0,
+      "exactOuterN": 13.642258492047773,
+      "lower15OuterN": 13.687791352390157,
+      "deltaMm": 0.045532860342383685
+    },
+    {
+      "u": 18.0,
+      "v": -20.0,
+      "exactOuterN": 12.199897833662313,
+      "lower15OuterN": 12.217836432191156,
+      "deltaMm": 0.017938598528843386
+    },
+    {
+      "u": 18.0,
+      "v": -26.0,
+      "exactOuterN": 10.978302328150797,
+      "lower15OuterN": 11.011350278029852,
+      "deltaMm": 0.03304794987905524
+    },
+    {
+      "u": 18.0,
+      "v": -36.0,
+      "exactOuterN": 8.32074210887761,
+      "lower15OuterN": 8.309253568385635,
+      "deltaMm": -0.011488540491974675
+    },
+    {
+      "u": 18.0,
+      "v": -46.0,
+      "exactOuterN": 4.373532265658113,
+      "lower15OuterN": 4.436351143347963,
+      "deltaMm": 0.06281887768984973
+    }
+  ],
+  "outerSkinDeltaStatsMm": {
+    "mean": -3.3520793143932157,
+    "median": 0.008182655189962418,
+    "maxAbs": 33.204426324266336,
+    "p95Abs": 20.705390587223484
+  },
+  "capVsSkins": {
+    "JOY": {
+      "tiltDeg": 0.0,
+      "capTopAlongAxisMm": 3.0701240587600465,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      }
+    },
+    "T1": {
+      "tiltDeg": 9.36199934380265,
+      "capTopAlongAxisMm": 2.2764800228887845,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      }
+    },
+    "T2": {
+      "tiltDeg": 3.999999999987366,
+      "capTopAlongAxisMm": 2.3779574882148222,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 1.2266775419481437,
+        "capTopToInnerSkinMm": 4.327642754756649,
+        "capTopToOuterSkinMm": 5.554320296704793
+      }
+    },
+    "T3": {
+      "tiltDeg": 9.37749111258268,
+      "capTopAlongAxisMm": 2.2728362689490975,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      }
+    },
+    "T4": {
+      "tiltDeg": 7.0732196363406,
+      "capTopAlongAxisMm": 2.419498487630432,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 0.3577110815407156,
+        "capTopToInnerSkinMm": 4.5622957217003055,
+        "capTopToOuterSkinMm": 4.920006803241021
+      }
+    },
+    "T5": {
+      "tiltDeg": 3.9999999999816205,
+      "capTopAlongAxisMm": 2.375395504319526,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      }
+    },
+    "T6": {
+      "tiltDeg": 7.059601161192331,
+      "capTopAlongAxisMm": 2.4132933939012755,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 0.2768152968823614,
+        "capTopToInnerSkinMm": 4.5551378189208425,
+        "capTopToOuterSkinMm": 4.831953115803204
+      }
+    },
+    "T7": {
+      "tiltDeg": 1.8392747092420292,
+      "capTopAlongAxisMm": 2.3364498054896945,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 2.980735794987007,
+        "capTopToInnerSkinMm": 3.654924746501596,
+        "capTopToOuterSkinMm": 6.635660541488603
+      }
+    },
+    "T8": {
+      "tiltDeg": 1.8392747092382637,
+      "capTopAlongAxisMm": 2.339473225739589,
+      "LOWER15": {
+        "wallThicknessMm": 0.0,
+        "note": "no material outboard of the cap"
+      },
+      "EXACT": {
+        "wallThicknessMm": 2.9867090777681513,
+        "capTopToInnerSkinMm": 3.6257908679745907,
+        "capTopToOuterSkinMm": 6.6124999457427425
+      }
+    }
+  },
+  "originalCapVsCleanReference": {
+    "JOY": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T1": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T2": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T3": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T4": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T5": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T6": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T7": {
+      "note": "no material outboard of the cap (open, as designed)"
+    },
+    "T8": {
+      "note": "no material outboard of the cap (open, as designed)"
+    }
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 421.4,
+      "availMb": 16428.3
+    },
+    {
+      "stage": "combined CLEAN",
+      "rssMb": 436.2,
+      "availMb": 16410.2
+    },
+    {
+      "stage": "shells",
+      "rssMb": 437.9,
+      "availMb": 16409.8
+    }
+  ]
+}

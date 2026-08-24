@@ -1,0 +1,1072 @@
+{
+  "root": "C:\\Users\\User\\Desktop\\OneGrip-Play",
+  "count": 213,
+  "capturedUtc": "2026-08-24T07:15:33.555033+00:00",
+  "files": {
+    "build123d_workbench/__init__.py": {
+      "bytes": 778,
+      "mtime": "2026-08-21T13:06:27.716073+00:00",
+      "sha256": "aac7f9c317ddc30365d4eb9af0931b98c2857b2ada8e78c15e1b8b62b509515c"
+    },
+    "build123d_workbench/all_8_button_integration_wiring_space_audit.py": {
+      "bytes": 59160,
+      "mtime": "2026-08-23T09:56:51.052454+00:00",
+      "sha256": "265d84de03e0ea43d293de4ae5e2d010145e41b04e1f5ae1a205575dd405fd18"
+    },
+    "build123d_workbench/audit_button_cap_plane_mapping.py": {
+      "bytes": 14478,
+      "mtime": "2026-08-22T16:45:31.795818+00:00",
+      "sha256": "095c402903685192da14fba6ed388a2185975b06fe1a726812e08365ff0da8dc"
+    },
+    "build123d_workbench/button_fdm_coupon.py": {
+      "bytes": 42120,
+      "mtime": "2026-08-23T13:58:39.427356+00:00",
+      "sha256": "d0910d0851e5aae87dce4d1cb6e78e8cfe8b2aa631b2a3e2da05bc0a2daaa1ca"
+    },
+    "build123d_workbench/detailed_pushbtn_8_button_revalidation.py": {
+      "bytes": 81332,
+      "mtime": "2026-08-23T18:01:49.344478+00:00",
+      "sha256": "063938e72e220dc85c8c9de2d6ff5a224c3b82fe7e62011f8e333c59a6aedd63"
+    },
+    "build123d_workbench/export_baseline.py": {
+      "bytes": 4340,
+      "mtime": "2026-08-21T13:05:25.131266+00:00",
+      "sha256": "097ffcf32a76f7d09fede58d79d138e134b1500b1a677ba21288a293a693f32f"
+    },
+    "build123d_workbench/finger_controls_v2.py": {
+      "bytes": 28681,
+      "mtime": "2026-08-21T19:57:29.417292+00:00",
+      "sha256": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3"
+    },
+    "build123d_workbench/finger_layout_reset.py": {
+      "bytes": 14705,
+      "mtime": "2026-08-21T16:56:18.704979+00:00",
+      "sha256": "9f1e49885908be26d462e1bea7daa9b4a3c4d63e88189edd2610424f6e19806e"
+    },
+    "build123d_workbench/finger_thumb_integrated_physical_validation.py": {
+      "bytes": 26742,
+      "mtime": "2026-08-22T06:14:02.004829+00:00",
+      "sha256": "a25e69e077f7bfaadae09fa7caa24f70e840fe5c3b022ef72aa07429f87aa890"
+    },
+    "build123d_workbench/finger_thumb_integrated_v3.py": {
+      "bytes": 45534,
+      "mtime": "2026-08-22T10:11:19.368195+00:00",
+      "sha256": "227499870329e0a32c757ee55bac8fcd5345cc49bb68aa5ae955b9223ce094bd"
+    },
+    "build123d_workbench/finger_thumb_joint_feasibility.py": {
+      "bytes": 31746,
+      "mtime": "2026-08-21T22:40:38.189357+00:00",
+      "sha256": "a2ab642808750c60cd1c66daa7e01d8a9af1096667fcc7285a1f3adba6e6420c"
+    },
+    "build123d_workbench/finger_v2_physical_validation.py": {
+      "bytes": 29533,
+      "mtime": "2026-08-21T20:36:47.230719+00:00",
+      "sha256": "119aa2bbe46fc0585c724b4541fe4eb55284f3b7cd50207923425232b4bfd3f2"
+    },
+    "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": {
+      "bytes": 51752,
+      "mtime": "2026-08-24T07:14:39.547864+00:00",
+      "sha256": "8cd21e3b0533468d2a87863b27845bc68650aabf3a7b82e344074679c40fc9ec"
+    },
+    "build123d_workbench/hw504_minimal_change_candidates.py": {
+      "bytes": 30147,
+      "mtime": "2026-08-22T14:41:16.949371+00:00",
+      "sha256": "fd8fd5d555b9451b4bd4515016ba3942e68983f8a09ef3498cc5b1a277277bd4"
+    },
+    "build123d_workbench/i2_i3_current_audit.py": {
+      "bytes": 8152,
+      "mtime": "2026-08-23T08:02:21.691690+00:00",
+      "sha256": "59212361feff0c9fa5ce77ece9de6b025cf08ce8474af142bca61507c2f96a9d"
+    },
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": {
+      "bytes": 54568,
+      "mtime": "2026-08-23T08:21:28.721130+00:00",
+      "sha256": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342"
+    },
+    "build123d_workbench/i4_m3_current_audit.py": {
+      "bytes": 12186,
+      "mtime": "2026-08-23T08:54:42.298061+00:00",
+      "sha256": "dcd09a1ddeff4a7bba61859afe02ec1f1a3428327b1d4192e3c872db91bdda20"
+    },
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": {
+      "bytes": 46863,
+      "mtime": "2026-08-23T09:02:20.333781+00:00",
+      "sha256": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8"
+    },
+    "build123d_workbench/integrated_exterior_clean_v1.py": {
+      "bytes": 17944,
+      "mtime": "2026-08-22T10:50:24.722999+00:00",
+      "sha256": "2494b6a98a32c4f9589e0acf2b56cc82970ab7e1a3fc01d302c481de3b689dc2"
+    },
+    "build123d_workbench/integrated_exterior_lowered_thumb_v1.py": {
+      "bytes": 11942,
+      "mtime": "2026-08-22T11:16:01.998744+00:00",
+      "sha256": "57ea6600118faf0d509f9ee4c5fc35704953d65ab162eaa499716513c4be75e3"
+    },
+    "build123d_workbench/integrated_v3_internal_design_review.py": {
+      "bytes": 31585,
+      "mtime": "2026-08-22T07:24:21.933383+00:00",
+      "sha256": "ded5eeae76b720466f670296e9a8d47f4d82d437b860dc316c3701c553756c14"
+    },
+    "build123d_workbench/inventory_local_references.py": {
+      "bytes": 11608,
+      "mtime": "2026-08-21T17:02:39.363617+00:00",
+      "sha256": "a95a2983eaf5cb6c54bf6fd64ea70245adaf82fc62a88dafdc1b736d700dc6ca"
+    },
+    "build123d_workbench/m4_n3_current_audit.py": {
+      "bytes": 10454,
+      "mtime": "2026-08-23T08:34:28.982171+00:00",
+      "sha256": "686cc9b03a9be823426e25064c8e3ce867e1f71b08e83227a735cf3a3d5d0853"
+    },
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": {
+      "bytes": 48882,
+      "mtime": "2026-08-23T08:46:46.927432+00:00",
+      "sha256": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d"
+    },
+    "build123d_workbench/m4_n3_terminal_redundancy_resolution.py": {
+      "bytes": 28787,
+      "mtime": "2026-08-23T11:43:39.745504+00:00",
+      "sha256": "819983f61c2205c47a7e6164c82b4668bdf27303147f39493357112caf4e1500"
+    },
+    "build123d_workbench/middle_redesign.py": {
+      "bytes": 16541,
+      "mtime": "2026-08-21T13:59:55.791914+00:00",
+      "sha256": "9940d03577337469eee580d41ec8195a33778a177213b997536f21a203ef3803"
+    },
+    "build123d_workbench/model.py": {
+      "bytes": 5032,
+      "mtime": "2026-08-21T13:05:23.371231+00:00",
+      "sha256": "a4775a8757f179027df29cb56a70fa0591f95692cb8689216288d6f689ae8b81"
+    },
+    "build123d_workbench/n1_current_audit.py": {
+      "bytes": 6475,
+      "mtime": "2026-08-23T07:32:03.754194+00:00",
+      "sha256": "d78aa93f4c1972d72224c6aebf0c407e52921ac69d2ad189c1bfad8893316089"
+    },
+    "build123d_workbench/n1_production_intent_mechanism.py": {
+      "bytes": 43632,
+      "mtime": "2026-08-23T07:56:51.801616+00:00",
+      "sha256": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b"
+    },
+    "build123d_workbench/n2_internal_actuation_architecture.py": {
+      "bytes": 33648,
+      "mtime": "2026-08-22T17:03:16.209854+00:00",
+      "sha256": "03e1d80b5a13d5b8569bdc778f5fd3dab8b23ddf6e25d5939ba5bcf01f8cd4b4"
+    },
+    "build123d_workbench/n2_production_intent_mechanism.py": {
+      "bytes": 47210,
+      "mtime": "2026-08-22T17:43:38.208262+00:00",
+      "sha256": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038"
+    },
+    "build123d_workbench/n2_rear_reaction_support_redesign.py": {
+      "bytes": 47337,
+      "mtime": "2026-08-22T19:09:20.748051+00:00",
+      "sha256": "09ae6ff17601f4e1257499d0ff0cbe4f692afc821beb35d2ff25ed5c17bc00fd"
+    },
+    "build123d_workbench/n2_robustness_pass.py": {
+      "bytes": 30617,
+      "mtime": "2026-08-22T18:13:11.382995+00:00",
+      "sha256": "ec8445c15b59df0d50ddd688353b9899632683a92ab5ed71aacd75197a7c40d6"
+    },
+    "build123d_workbench/open_frame_glued_switch_harness_candidate.py": {
+      "bytes": 51414,
+      "mtime": "2026-08-24T04:32:53.835751+00:00",
+      "sha256": "193522656216ee32010f428e90383048310b502fa6b9a6ea6575561fd2912e00"
+    },
+    "build123d_workbench/option_c_final_local_fit.py": {
+      "bytes": 34695,
+      "mtime": "2026-08-22T16:28:54.626750+00:00",
+      "sha256": "dab961112532bcb2199b01c9b247b4721dc7af211ad532fc7cb086bd2644a56a"
+    },
+    "build123d_workbench/option_c_local_exact_prototype.py": {
+      "bytes": 53474,
+      "mtime": "2026-08-22T16:39:27.329161+00:00",
+      "sha256": "43667615b935eab16a6f1cd4a82d8096e21decd2633618f2e7f4f15772291890"
+    },
+    "build123d_workbench/original_button_mechanism_rebase_audit.py": {
+      "bytes": 22590,
+      "mtime": "2026-08-23T15:52:59.184407+00:00",
+      "sha256": "26212551059370a17b3a1652955ec2956bf61e878f554ed8ee83f3f899d4152c"
+    },
+    "build123d_workbench/original_thumb_module_reuse_audit.py": {
+      "bytes": 39929,
+      "mtime": "2026-08-22T12:07:39.621633+00:00",
+      "sha256": "bd7a7de22432ff2d0a2820ae4c8209e16656e5d6e7f0a00d779c3dcb599b875b"
+    },
+    "build123d_workbench/prepare_middle_print_stl.py": {
+      "bytes": 4209,
+      "mtime": "2026-08-21T13:56:53.503697+00:00",
+      "sha256": "a9d098bb2d90b886f2587a428d39ae95c64e4cbddaf35eafff0e069c1473c0ec"
+    },
+    "build123d_workbench/real_integration_conflict_resolution.py": {
+      "bytes": 41279,
+      "mtime": "2026-08-23T10:13:04.110778+00:00",
+      "sha256": "295bb1f34b31ee33ea74c3f66ba43da18a73a4e5c7a66ffbb690f5ba44a1b8de"
+    },
+    "build123d_workbench/render_button_fdm_coupon_v2.py": {
+      "bytes": 5659,
+      "mtime": "2026-08-23T13:42:13.703854+00:00",
+      "sha256": "7b20994d04dc0eee12b5ba5bda7ec9cf9dc13fe89bb2fae97003d2e908a08bed"
+    },
+    "build123d_workbench/render_current_finger_buttons_inserted.py": {
+      "bytes": 8157,
+      "mtime": "2026-08-22T16:40:03.347956+00:00",
+      "sha256": "3ca7ac83dac0d36aa426b50f75ab408253456f85cad0ee50a0131a229eee2c70"
+    },
+    "build123d_workbench/render_finger_controls_v2.py": {
+      "bytes": 16702,
+      "mtime": "2026-08-21T20:52:19.800736+00:00",
+      "sha256": "6d72278e90a844d6e64e0990960a5e9c3262908c8f8fc7da8aa9fe692ddf2cb7"
+    },
+    "build123d_workbench/render_finger_layout_reset.py": {
+      "bytes": 6765,
+      "mtime": "2026-08-21T16:58:35.658088+00:00",
+      "sha256": "6e4323b8b86a0789192cbb885963c5768ba804bcb29c6a753c86ba5ffcd33d32"
+    },
+    "build123d_workbench/render_finger_thumb_integrated_physical_validation.py": {
+      "bytes": 12982,
+      "mtime": "2026-08-22T06:20:47.682863+00:00",
+      "sha256": "4c89ce8f01f6f697a1399d8af00b62c8ab6bd81d75ce34d0c4700c569ee02733"
+    },
+    "build123d_workbench/render_finger_thumb_integrated_v3.py": {
+      "bytes": 14801,
+      "mtime": "2026-08-22T04:51:34.396987+00:00",
+      "sha256": "10cce01ab82f13a7b4676f17ffdb86c45ae74074e8d8058e5bf9ab297c9a15a2"
+    },
+    "build123d_workbench/render_finger_thumb_joint_feasibility.py": {
+      "bytes": 13404,
+      "mtime": "2026-08-21T22:53:25.804830+00:00",
+      "sha256": "357a2bf22e15a8ed575d0b3327cd45673704070f1b4addecfa05dd488412ba27"
+    },
+    "build123d_workbench/render_finger_v2_physical_validation.py": {
+      "bytes": 13190,
+      "mtime": "2026-08-21T20:45:35.270919+00:00",
+      "sha256": "e3710831bbb4c062694d8149ba34b673c1176ddd2555538e5a46f6323ac87d2d"
+    },
+    "build123d_workbench/render_hw504_low_memory_analysis.py": {
+      "bytes": 9969,
+      "mtime": "2026-08-22T15:13:11.597932+00:00",
+      "sha256": "eff299f3ad867024b2c2471948ca15d994de3dff213fb922df64c8903e3672f3"
+    },
+    "build123d_workbench/render_integrated_exterior_clean_v1.py": {
+      "bytes": 10565,
+      "mtime": "2026-08-22T10:56:54.007997+00:00",
+      "sha256": "3af147711d932bad1c8a98c7e072d661a862c474db77a2fbd90b66eaae6a6058"
+    },
+    "build123d_workbench/render_integrated_exterior_lowered_thumb_v1.py": {
+      "bytes": 14982,
+      "mtime": "2026-08-22T11:29:31.994802+00:00",
+      "sha256": "9f97f77fa0f21804e4efbd929ff994c73fb94476333de31904f23264530fb76d"
+    },
+    "build123d_workbench/render_integrated_v3_internal_design_review.py": {
+      "bytes": 20387,
+      "mtime": "2026-08-22T07:10:46.207148+00:00",
+      "sha256": "036912f271e873bfe2606a984ad39ea1ddbbaef9a6058bb2ad0d32b5593c847e"
+    },
+    "build123d_workbench/render_middle_redesign.py": {
+      "bytes": 8983,
+      "mtime": "2026-08-21T13:56:11.430532+00:00",
+      "sha256": "d18d47fc2e83e5718b8c20859bb6dd277a702f3479d7f9c8fa6b29f413a8fc9d"
+    },
+    "build123d_workbench/render_original_thumb_module_reuse_audit.py": {
+      "bytes": 18823,
+      "mtime": "2026-08-22T12:11:00.367840+00:00",
+      "sha256": "78569b7d23e70d122d27614da58914f67c7ef0e56d554bc2dec69031349bde61"
+    },
+    "build123d_workbench/slot_anchored_harness_captive_pusher_audit.py": {
+      "bytes": 47920,
+      "mtime": "2026-08-24T06:39:40.233210+00:00",
+      "sha256": "1101595e9dda5b502de543e24f04e965592a30a6efe73b323adfc68bf8a22d4a"
+    },
+    "build123d_workbench/smoke_test.py": {
+      "bytes": 1938,
+      "mtime": "2026-08-21T13:05:26.944489+00:00",
+      "sha256": "915d90a38c8fd1c99768d15508fccb091665ce8f3c1499f76d5b5bf9a71a551e"
+    },
+    "build123d_workbench/source_faithful_button_mechanism_fdm_rebase_audit.py": {
+      "bytes": 50388,
+      "mtime": "2026-08-23T18:38:49.534502+00:00",
+      "sha256": "c49702973bf0f4cbd16d1b587912d8e7e906f39f4a2bcd0d996c4632857dd51b"
+    },
+    "build123d_workbench/source_of_truth.py": {
+      "bytes": 3683,
+      "mtime": "2026-08-21T13:05:21.647746+00:00",
+      "sha256": "30068dc8e68761353975fef53743ef89810413f13aa441db458003da9e106b1f"
+    },
+    "build123d_workbench/szh_actual_fit_fixture.py": {
+      "bytes": 24626,
+      "mtime": "2026-08-23T14:07:28.952761+00:00",
+      "sha256": "12e9801ebd2d876366df4625464da5c20b5190584e1c6521eb95e6b5b6fa084b"
+    },
+    "build123d_workbench/szh_ek056_knob_interface_confirmation.py": {
+      "bytes": 16517,
+      "mtime": "2026-08-23T12:59:43.086790+00:00",
+      "sha256": "e6c6d4bc73152201d9c42e5158c91302f2ce9d1d49e5bebe914932151f625ab0"
+    },
+    "build123d_workbench/szh_ek056_provisional_thumb_integration_audit.py": {
+      "bytes": 59778,
+      "mtime": "2026-08-23T12:49:03.943247+00:00",
+      "sha256": "aa73862c8b4d09b0dc89545a94e294efa23f0abec77f963111db857b6466420f"
+    },
+    "build123d_workbench/szh_ek056_web_reference.py": {
+      "bytes": 15692,
+      "mtime": "2026-08-23T12:14:44.755238+00:00",
+      "sha256": "b880c84632cc071599d90d2497e04654b3aa0d9cd3df958d4d7746a83d7f6a74"
+    },
+    "build123d_workbench/thumb_max_lower_finger_v2_mockup.py": {
+      "bytes": 13306,
+      "mtime": "2026-08-22T10:04:14.571440+00:00",
+      "sha256": "b7866893b87051cedf3ae0746164bb843b8574cd4f269c1b8a729599e89df11e"
+    },
+    "build123d_workbench/validate_finger_controls_v2.py": {
+      "bytes": 27008,
+      "mtime": "2026-08-21T19:50:26.977362+00:00",
+      "sha256": "854487b74ca9720cd4687f9f8851b9e3435b3dd056068a120c8f51f922b55eb0"
+    },
+    "build123d_workbench/validate_middle_redesign.py": {
+      "bytes": 24810,
+      "mtime": "2026-08-21T13:51:29.779364+00:00",
+      "sha256": "a975134cb8a3d7e047370ecbb77ea04ca543e41d034389fff14a7e03749aaf3f"
+    },
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/cross_session_handoff.json": {
+      "bytes": 4331,
+      "mtime": "2026-08-22T11:40:07.659008+00:00",
+      "sha256": "60b1cee895baa15f308357933d679b0e35e1f2e6d6f72e288f2033c24f8a641c"
+    },
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/exterior_first_lowered_thumb_visual_manifest.json": {
+      "bytes": 1962,
+      "mtime": "2026-08-22T11:30:32.190161+00:00",
+      "sha256": "87bdf4c1852051c76ed2ba03e34fabab450a7fcfb8edfe3d56c5f119623cc7a5"
+    },
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/EXTERIOR_FIRST_LOWERED_THUMB_VISUAL_REFERENCE.stl": {
+      "bytes": 3517934,
+      "mtime": "2026-08-22T11:30:32.188153+00:00",
+      "sha256": "8be75b89bcb30dc4fd375c744be3dd08f63bf599223f48e9d5acc9d10046a8c7"
+    },
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/EXTERIOR_LOWERED_THUMB_V1_COMBINED_REFERENCE.step": {
+      "bytes": 8701028,
+      "mtime": "2026-08-22T11:18:23.930928+00:00",
+      "sha256": "95abe90a4a5f866c31834b24c3d5ad00556788513a9d162fd2b3615347419609"
+    },
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/exterior_lowered_thumb_v1_validation.json": {
+      "bytes": 8369,
+      "mtime": "2026-08-22T11:18:23.970325+00:00",
+      "sha256": "f32dae0e15429f53680a80e99a00e34edaa060a62b9ba9a1a77d7b9058fbfc77"
+    },
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": {
+      "bytes": 4056249,
+      "mtime": "2026-08-22T11:18:23.233639+00:00",
+      "sha256": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6"
+    },
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": {
+      "bytes": 4093002,
+      "mtime": "2026-08-22T11:18:23.450866+00:00",
+      "sha256": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f"
+    },
+    "build123d_workbench/out/finger_controls_v2/FINGER_V2_ASSEMBLY_REFERENCE.step": {
+      "bytes": 6624483,
+      "mtime": "2026-08-22T10:03:54.089059+00:00",
+      "sha256": "c2ce9e0bd180c24c7f2792d4691a53566040bfdce1d1273d014ea33e2dc67fc1"
+    },
+    "build123d_workbench/out/finger_controls_v2/I2_cap.step": {
+      "bytes": 26072,
+      "mtime": "2026-08-22T10:03:53.486695+00:00",
+      "sha256": "2abc808687de758b939133f5cce5fb4eeeba0c40681cc54d750ca8ba612b7fe8"
+    },
+    "build123d_workbench/out/finger_controls_v2/I2_I3_shared_carrier.step": {
+      "bytes": 446979,
+      "mtime": "2026-08-22T10:03:53.345869+00:00",
+      "sha256": "5f0c70e772c2e9fac3d3a2c78190d2b8613386b995b7d729b18185390978ac75"
+    },
+    "build123d_workbench/out/finger_controls_v2/I3_cap.step": {
+      "bytes": 26620,
+      "mtime": "2026-08-22T10:03:53.505237+00:00",
+      "sha256": "52cc0b3dc682713c28b0a4dfb64892f27aaa8281625590ddd46bdf2d11590f93"
+    },
+    "build123d_workbench/out/finger_controls_v2/I4_cap.step": {
+      "bytes": 26621,
+      "mtime": "2026-08-22T10:03:53.523913+00:00",
+      "sha256": "3dbefcf0d3a7dcd77d82626045e045fa6443e8a7e2fa8bf6dc17fb0ce77170c0"
+    },
+    "build123d_workbench/out/finger_controls_v2/I4_carrier.step": {
+      "bytes": 152690,
+      "mtime": "2026-08-22T10:03:53.446622+00:00",
+      "sha256": "3e03c106c0e7324c3d468796505887106209aa5976362a263f37fc33fc906dfa"
+    },
+    "build123d_workbench/out/finger_controls_v2/JAD_FINGER_V2.step": {
+      "bytes": 1388347,
+      "mtime": "2026-08-22T10:03:53.168268+00:00",
+      "sha256": "a477aa79e55ddb21fb2a45c7f616544f6eb4844b593f61cf7d45303476c5a762"
+    },
+    "build123d_workbench/out/finger_controls_v2/JFD_FINGER_V2.step": {
+      "bytes": 1401989,
+      "mtime": "2026-08-22T10:03:53.247603+00:00",
+      "sha256": "d457d5d9b305a4c7d77e21aab3cb7d33336d672d4d8bf031e6158de44c26ad50"
+    },
+    "build123d_workbench/out/finger_controls_v2/M3_cap.step": {
+      "bytes": 26044,
+      "mtime": "2026-08-22T10:03:53.541429+00:00",
+      "sha256": "d6b219c9391d7af52d32124c1c2e20583dad264eeddcf98f61d6ddcfd70d530a"
+    },
+    "build123d_workbench/out/finger_controls_v2/M3_carrier.step": {
+      "bytes": 157585,
+      "mtime": "2026-08-22T10:03:53.471697+00:00",
+      "sha256": "13e0f7fbd2e5147ede505105761ba0dfdd5d9a004475784622596e57f9ef6b67"
+    },
+    "build123d_workbench/out/finger_controls_v2/M4_cap.step": {
+      "bytes": 26367,
+      "mtime": "2026-08-22T10:03:53.559524+00:00",
+      "sha256": "e369c46dbad9519876c8775c274f4dd16b24bb2e17670b71cf2bbe76db290792"
+    },
+    "build123d_workbench/out/finger_controls_v2/M4_N3_shared_carrier.step": {
+      "bytes": 430789,
+      "mtime": "2026-08-22T10:03:53.407986+00:00",
+      "sha256": "9022d6f6544d1cb912c3fadc3f6c9b67b937273336984fdf57a481641d559605"
+    },
+    "build123d_workbench/out/finger_controls_v2/N1_cap.step": {
+      "bytes": 26556,
+      "mtime": "2026-08-22T10:03:53.577541+00:00",
+      "sha256": "6fecf7d8b68d565e91ebe7a8cd4905d45629dd259119902771400c9cef8e757b"
+    },
+    "build123d_workbench/out/finger_controls_v2/N1_N2_shared_carrier.step": {
+      "bytes": 405612,
+      "mtime": "2026-08-22T10:03:53.288187+00:00",
+      "sha256": "e982a1a77e4adc4cb914636266cad94e86bda894e22837537679e7142fe670ba"
+    },
+    "build123d_workbench/out/finger_controls_v2/N2_cap.step": {
+      "bytes": 26347,
+      "mtime": "2026-08-22T10:03:53.596606+00:00",
+      "sha256": "4635272422a61cc14bb52a8e1535267d0b1f45ba3c429693b0d1992b2a9d4894"
+    },
+    "build123d_workbench/out/finger_controls_v2/N3_cap.step": {
+      "bytes": 26069,
+      "mtime": "2026-08-22T10:03:53.614290+00:00",
+      "sha256": "54b43b3a9caead364df1b3d34120c3796b73a306980707d59583ac2a7d03d867"
+    },
+    "build123d_workbench/out/finger_thumb_joint_feasibility/FINGER_THUMB_JOINT_FEASIBILITY_REFERENCE.step": {
+      "bytes": 14789321,
+      "mtime": "2026-08-21T22:47:59.587590+00:00",
+      "sha256": "12cbe41323f4a1e7f62850c5c43e97712ba1652089bcdac25745189777c8014a"
+    },
+    "build123d_workbench/out/finger_thumb_joint_feasibility/N1_FORMED_WIRING_ENVELOPE.step": {
+      "bytes": 198028,
+      "mtime": "2026-08-21T22:47:57.594507+00:00",
+      "sha256": "4db5b07a5dd61800afb0d86c8997ca362c547c33e68d8bab95232a05c910c311"
+    },
+    "build123d_workbench/out/finger_thumb_joint_feasibility/N1_LOW_PROFILE_CARRIER_PROPOSAL.step": {
+      "bytes": 84709,
+      "mtime": "2026-08-21T22:47:57.564913+00:00",
+      "sha256": "fcb3e0986d381ea87e761e51000f895ec1e1bf21653dfdf801565a9aca08bf8e"
+    },
+    "build123d_workbench/out/finger_thumb_joint_feasibility/N2_FORMED_WIRING_ENVELOPE.step": {
+      "bytes": 198045,
+      "mtime": "2026-08-21T22:47:57.629646+00:00",
+      "sha256": "75f399f5fa1e8842929e0e8270b56a1afb660620a6db9e4b12ce92ca95506548"
+    },
+    "build123d_workbench/out/finger_thumb_joint_feasibility/N2_LOW_PROFILE_CARRIER_PROPOSAL.step": {
+      "bytes": 69056,
+      "mtime": "2026-08-21T22:47:57.602602+00:00",
+      "sha256": "ea29d770df007f4fc825e9176dbd2c89318a78ae15ecdf095c72fd67f77abbe4"
+    },
+    "build123d_workbench/out/finger_thumb_joint_feasibility/THUMB_TARGET_EXACT_MODULE.step": {
+      "bytes": 8758440,
+      "mtime": "2026-08-21T22:47:58.371876+00:00",
+      "sha256": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9"
+    },
+    "build123d_workbench/out/original_thumb_module_reuse_audit/LOWERED_ORIGINAL_THUMB_CARTRIDGE.step": {
+      "bytes": 8714659,
+      "mtime": "2026-08-22T12:06:49.729642+00:00",
+      "sha256": "f7a7cea568b08ff1565b90c886de955cccf246bf88b7f4a46a00ca61f35c4bc2"
+    },
+    "build123d_workbench/out/original_thumb_module_reuse_audit/ORIGINAL_FASTENING_REFERENCE.step": {
+      "bytes": 75107,
+      "mtime": "2026-08-22T12:06:49.799052+00:00",
+      "sha256": "540d8e36712e2f20e59d449c9a74fd6bf4265db18a1daf7b3ee28f92611d8068"
+    },
+    "build123d_workbench/out/original_thumb_module_reuse_audit/ORIGINAL_THUMB_CARTRIDGE.step": {
+      "bytes": 8714634,
+      "mtime": "2026-08-22T12:06:48.866883+00:00",
+      "sha256": "ee6ed6848e7c0481a2c73639c85fc39bf63ac837514ca13b16bdc1bc6e075527"
+    },
+    "build123d_workbench/out/original_thumb_module_reuse_audit/ORIGINAL_THUMB_COLLISION_DEBUG.step": {
+      "bytes": 2500158,
+      "mtime": "2026-08-22T12:06:49.974422+00:00",
+      "sha256": "dfbe62248079029a5928342f9231007c4e93572689c6795ee196bd60c18a1058"
+    },
+    "build123d_workbench/out/original_thumb_module_reuse_audit/original_thumb_module_reuse_audit.json": {
+      "bytes": 108073,
+      "mtime": "2026-08-22T12:06:50.909065+00:00",
+      "sha256": "32fc78804ae960c29457b875ec90316ac0b7f607c1a158c295ff494f820625d9"
+    },
+    "build123d_workbench/out/original_thumb_module_reuse_audit/THUMB_WIRING_CLEARANCE_PROBES.step": {
+      "bytes": 1012137,
+      "mtime": "2026-08-22T12:06:50.096635+00:00",
+      "sha256": "16140680357f939cd3574016228e47a1db8a11130b31b5e6daa8be4f6be8db5c"
+    },
+    "build123d_workbench/out/n1_production_intent_mechanism/N1_N2_SHARED_CARRIER_N1_LOCAL.step": {
+      "bytes": 783512,
+      "mtime": "2026-08-23T07:55:16.470133+00:00",
+      "sha256": "2485e34f8716395459f1f7b10384fd73a33695472f9aae689cf321d583830756"
+    },
+    "build123d_workbench/out/n1_production_intent_mechanism/N1_PRODUCTION_INTENT_CAP_LOCAL.step": {
+      "bytes": 56952,
+      "mtime": "2026-08-23T07:55:16.404124+00:00",
+      "sha256": "5f7574f90682f7e511067aaac1d514274bb75a0ffeaeaae7e8a45b3502e1d6a5"
+    },
+    "build123d_workbench/out/szh_actual_fit_fixture/szh_ek056_actual_fit_fixture.json": {
+      "bytes": 12359,
+      "mtime": "2026-08-23T14:07:59.439263+00:00",
+      "sha256": "4857e54cfbd55c7c3f378839818dac62e5d595199f569982defbdf179af7bfc5"
+    },
+    "build123d_workbench/out/szh_actual_fit_fixture/SZH_EK056_ACTUAL_FIT_FIXTURE.step": {
+      "bytes": 7256140,
+      "mtime": "2026-08-23T14:07:47.828357+00:00",
+      "sha256": "1aafcf4c9c761175c3a7e483dc6c01febfb6363ab694b9899718efa109ea17e9"
+    },
+    "build123d_workbench/out/szh_actual_fit_fixture/SZH_EK056_ACTUAL_FIT_FIXTURE.stl": {
+      "bytes": 2656984,
+      "mtime": "2026-08-23T14:07:48.390939+00:00",
+      "sha256": "9464ed66f38bb1800f2d024da431d8506f90da9cf5534b24e5bd2c8f659792b8"
+    },
+    "build123d_workbench/out/szh_actual_fit_fixture/SZH_EK056_ACTUAL_FIT_FIXTURE_BODY.step": {
+      "bytes": 6484772,
+      "mtime": "2026-08-23T14:07:49.264371+00:00",
+      "sha256": "9cbbe2903f7c00fe0be22205ca3afdf466c553fe5d070a9ce0b3e79a906b676a"
+    },
+    "build123d_workbench/out/szh_actual_fit_fixture/SZH_EK056_ACTUAL_FIT_FIXTURE_BODY.stl": {
+      "bytes": 2558184,
+      "mtime": "2026-08-23T14:07:49.730781+00:00",
+      "sha256": "71b27c4071674cc7c1f55a2195686f9e108ce2cf34abb24e74a1230b4bc39c8a"
+    },
+    "build123d_workbench/out/szh_actual_fit_fixture/SZH_EK056_ACTUAL_FIT_FIXTURE_N1_N2_CARRIER.stl": {
+      "bytes": 107684,
+      "mtime": "2026-08-23T14:07:49.782398+00:00",
+      "sha256": "14b0ba5426e7299944c411f88ca02d95dd6ad27f65e64fa3212e23cc336096fb"
+    },
+    "build123d_workbench/out/szh_ek056_knob_interface_confirmation/szh_ek056_knob_interface_confirmation.json": {
+      "bytes": 13150,
+      "mtime": "2026-08-23T13:00:00.305066+00:00",
+      "sha256": "86b81212332b38d901530316b981990b55035784a3b924ff3ba9f368aba1fefe"
+    },
+    "local_cad/reference/clean_pre_finger_baseline_manifest.json": {
+      "bytes": 4060,
+      "mtime": "2026-08-21T17:02:07.719972+00:00",
+      "sha256": "1c432d0171b75596755a19a7e08420d1641a990b1527f8616c17a4c38cd30aa4"
+    },
+    "local_cad/reference/JAD_CLEAN_PRE_FINGER.step": {
+      "bytes": 612629,
+      "mtime": "2026-08-21T16:44:25.946006+00:00",
+      "sha256": "01f5708a29ca46b0f9f13b5c63b5f4d9b7b46bcf04fc8b0a55b806085f1ff4f0"
+    },
+    "local_cad/reference/JFD_CLEAN_PRE_FINGER.step": {
+      "bytes": 610677,
+      "mtime": "2026-08-21T16:45:03.201593+00:00",
+      "sha256": "8d290891dd93f16f50789f24ef7d27c754b27b4250caa1ebb3cb587648475792"
+    },
+    "local_cad/reference/README.md": {
+      "bytes": 897,
+      "mtime": "2026-08-21T14:27:47.025805+00:00",
+      "sha256": "f7b872115829ab369c4a3e90e898872f06a074281736ed2fd4c472e99d78e206"
+    },
+    "local_cad/reference/SZH_EK056_WEB_REFERENCE.json": {
+      "bytes": 1630,
+      "mtime": "2026-08-23T12:14:58.405101+00:00",
+      "sha256": "317e751d319d8fc27dab64c9615a3ccd9f71d52effaf88c8b5a6384b90700818"
+    },
+    "local_cad/reference/SZH_EK056_WEB_REFERENCE.step": {
+      "bytes": 196958,
+      "mtime": "2026-08-23T12:14:58.399792+00:00",
+      "sha256": "39fc7e19c36844e6f0eab4da88d519d6debccf41b8d5f5bc3f244afbce5ec4c5"
+    },
+    "local_cad/reference/THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step": {
+      "bytes": 442747,
+      "mtime": "2026-08-21T16:52:07.023822+00:00",
+      "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d"
+    },
+    "lower_adapter/local_cad/reference/CONFORMAL_CORE_REFERENCE.step": {
+      "bytes": 288395,
+      "mtime": "2026-08-21T13:28:51.712554+00:00",
+      "sha256": "19f7f2b9d806f53810894c6976e6931eb5a1780bcaec7fc3b43f3a51087dc43c"
+    },
+    "lower_adapter/local_cad/reference/ONEGRIP_LOWER_ASSEMBLY_REFERENCE.step": {
+      "bytes": 11129004,
+      "mtime": "2026-08-21T13:34:14.005825+00:00",
+      "sha256": "deb2f78838b41ab125247bd4068d7c0d08b5bddf780b449534b716fe35dc0ed4"
+    },
+    "lower_adapter/local_cad/reference/STOCK_GIMBAL_REFERENCE.step": {
+      "bytes": 469318,
+      "mtime": "2026-08-21T13:30:58.509412+00:00",
+      "sha256": "091922f602bfcbdfbf99b3c0ba7c871d1f5d7bff1a950ef5ce6ce47def9f10ab"
+    },
+    "docs/00_original_cad_analysis.md": {
+      "bytes": 13159,
+      "mtime": "2026-08-18T13:07:34.342893+00:00",
+      "sha256": "b729d99bda2c40c9557625a0c5e76c844f333f2f7cc56bb4d61addf907391197"
+    },
+    "docs/01_original_button_mechanism_analysis.md": {
+      "bytes": 30188,
+      "mtime": "2026-08-18T13:26:39.283360+00:00",
+      "sha256": "e09a243774616b17e3be8db8e768624cb8e5dc954c4e02e7c24e0b2c314c7a2b"
+    },
+    "docs/02_button_row_layout_feasibility.md": {
+      "bytes": 12016,
+      "mtime": "2026-08-18T13:51:49.364043+00:00",
+      "sha256": "52cb1793ac4e0b69a8777b0bf6cc8153d839a6eb9e48caf654777b67b677df90"
+    },
+    "docs/03_offset_3plus1_finger_rows.md": {
+      "bytes": 18667,
+      "mtime": "2026-08-18T14:06:50.174249+00:00",
+      "sha256": "0e6bba7ceb1e57038272dd3686aa991f77e7526e865659b19b8b03b318697451"
+    },
+    "docs/04_authenticated_internal_clearance.md": {
+      "bytes": 18395,
+      "mtime": "2026-08-18T14:51:58.025224+00:00",
+      "sha256": "905012bfea13312a444ac9135a49301083b59577fc6a1a8ddf4938aaf8e3d38d"
+    },
+    "docs/05_final_prewrite_validation.md": {
+      "bytes": 10660,
+      "mtime": "2026-08-18T15:05:55.385107+00:00",
+      "sha256": "bba3597729339a811013d8a51171c8336902797653d3c70c794ac88a7bd75e60"
+    },
+    "docs/06_index_button_cad_implementation.md": {
+      "bytes": 21528,
+      "mtime": "2026-08-18T18:52:25.696068+00:00",
+      "sha256": "f51dffc11b9bf494393e501c4972c4ee54d8c65e71868fbd492dfdbf24790123"
+    },
+    "docs/07_index_holder_wall_diagnosis.md": {
+      "bytes": 16598,
+      "mtime": "2026-08-18T19:44:17.541729+00:00",
+      "sha256": "30edc4aa3d0666b0bc18379294e21b784ebb07079e9db27257cf2af153988854"
+    },
+    "docs/08_index_shared_holder_implementation.md": {
+      "bytes": 7678,
+      "mtime": "2026-08-18T20:12:09.736725+00:00",
+      "sha256": "e53ab499995873f5aaf77117eb0708ac762dfdfc53363e9827c88d975e362e97"
+    },
+    "docs/09_index_local_holder_preunion.md": {
+      "bytes": 12041,
+      "mtime": "2026-08-19T08:05:58.036320+00:00",
+      "sha256": "d2273501d2645c34add9577ab705348335cc3ba6535dc0ce3cab036fa624c837"
+    },
+    "docs/10_i1_holder_atomic_debug.md": {
+      "bytes": 7224,
+      "mtime": "2026-08-19T06:30:57.160706+00:00",
+      "sha256": "d2453ccb59393f5ca1c25f9fbd4e05bd7a70e25cb641f359e4776b235145c2e7"
+    },
+    "docs/11_index_all_holders_atomic.md": {
+      "bytes": 10526,
+      "mtime": "2026-08-19T08:05:58.037320+00:00",
+      "sha256": "17e96ece7ce8a3d14dba41625e4a83626e56718640d5fe97e5f71df27e62faa5"
+    },
+    "docs/12_switch_collision_stop_condition.md": {
+      "bytes": 8722,
+      "mtime": "2026-08-19T08:05:41.881854+00:00",
+      "sha256": "064316be0d170bbc84b1d0569b12470683e459723cb67aaea0e9f5e181b29531"
+    },
+    "docs/13_index_axis_collision_optimization.md": {
+      "bytes": 30033,
+      "mtime": "2026-08-19T11:32:50.681445+00:00",
+      "sha256": "e2afbf7cc3ed14a7e31225ba691f454064a01c1eb9b2649386e7bb773a775c85"
+    },
+    "docs/14_index_f2_rebuild.md": {
+      "bytes": 20784,
+      "mtime": "2026-08-19T12:25:41.106503+00:00",
+      "sha256": "3de2c4b0b10fb342f5c885262c9d194e5a001f44a1373178867a1e6fdb2d18cd"
+    },
+    "docs/15_index_f2_final_clearance_fix.md": {
+      "bytes": 10013,
+      "mtime": "2026-08-19T12:50:36.583895+00:00",
+      "sha256": "5f923fa11f93bd989f6a69230c2a1dad3843d50a91a083abd0ad9b7ca6d1be61"
+    },
+    "docs/16_index_rear_retainer.md": {
+      "bytes": 22557,
+      "mtime": "2026-08-19T14:35:56.969127+00:00",
+      "sha256": "572202142dac7f4d528ade5a8194df7beb218f54423ca2f69fa1004b7128f4ce"
+    },
+    "docs/17_index_retainer_implementation.md": {
+      "bytes": 9144,
+      "mtime": "2026-08-19T17:44:59.277190+00:00",
+      "sha256": "21bba1432804a3d9d60c86bc684db619b397ff55e283256c0b5fd458f8f0adef"
+    },
+    "docs/18_index_retainer_insertion_relief.md": {
+      "bytes": 8321,
+      "mtime": "2026-08-19T18:07:12.301519+00:00",
+      "sha256": "23d2127ccb570870d90591bd5ac30ded9d83eb7a5d2eb8d8846e6d1f14ba1956"
+    },
+    "docs/19_index_retainer_service_disengagement.md": {
+      "bytes": 6350,
+      "mtime": "2026-08-19T18:47:18.501725+00:00",
+      "sha256": "2b1cc3ed619c13b11b4d19213a9c08ec22514483c7193fefde7ab1e318f7f062"
+    },
+    "docs/20_index_retainer_final.md": {
+      "bytes": 7808,
+      "mtime": "2026-08-19T19:18:50.805185+00:00",
+      "sha256": "7b1b1e35a127b3a78476545ed95ca52dd6f3cdccf957552308b198c0880383ac"
+    },
+    "docs/21_index_retainer_relief_precision.md": {
+      "bytes": 6078,
+      "mtime": "2026-08-19T19:33:50.227231+00:00",
+      "sha256": "98412dbd96e08ea35f3a349e9ddffd95779ff2bbc1e0f53616c74174c931c932"
+    },
+    "docs/22_index_retainer_relief_2p07.md": {
+      "bytes": 5394,
+      "mtime": "2026-08-19T20:09:10.199638+00:00",
+      "sha256": "9f7ca9ae01100216c2dd99bc26df30e8b5bec180fd138d30c5605c50423d177c"
+    },
+    "docs/23_index_retainer_fastening.md": {
+      "bytes": 8539,
+      "mtime": "2026-08-20T05:49:16.996905+00:00",
+      "sha256": "a09c88b12a9bb749b045dae32f706574cbc94aabba4bc3bc9a025798937673ca"
+    },
+    "docs/24_index_i4_retainer.md": {
+      "bytes": 8754,
+      "mtime": "2026-08-20T08:35:02.374299+00:00",
+      "sha256": "dc1b36e212aeca787a1a3ac05c39c1bef178cc2f6c0d6ee5403480cc6ad5dc1d"
+    },
+    "docs/25_index_final_body_inventory_audit.md": {
+      "bytes": 9877,
+      "mtime": "2026-08-20T09:08:41.136044+00:00",
+      "sha256": "45ff92804165b2f58364d921fc62642f963d5f44d64c1f39e2e8be15c39e6732"
+    },
+    "docs/26_index_final_geometry_identity_audit.md": {
+      "bytes": 8325,
+      "mtime": "2026-08-20T09:22:29.191242+00:00",
+      "sha256": "1a7c970885f5f52070654c17f45c868aab0abc1a33623a470f7b3ae15df3508f"
+    },
+    "docs/27_middle_prewrite_axis_optimization.md": {
+      "bytes": 12511,
+      "mtime": "2026-08-20T09:57:22.614017+00:00",
+      "sha256": "e4b68e653c9c951706d47880e79356f09824827be27c9d36c95c506af5ca17bb"
+    },
+    "docs/28_middle_center_axis_joint_optimization.md": {
+      "bytes": 13840,
+      "mtime": "2026-08-20T11:26:06.500834+00:00",
+      "sha256": "087ae9cf27b700bd1db2979dd9788a5b1ab170b9e473b3a58314c4362cf4fe2c"
+    },
+    "docs/29_middle_low_profile_switch_feasibility.md": {
+      "bytes": 14108,
+      "mtime": "2026-08-20T12:06:08.363847+00:00",
+      "sha256": "c4964348cc8fe36f1a764a7ae84fa4b84d493fc5644129b12256172cf08c7031"
+    },
+    "docs/30_evqp0e07k_actual_hardware_audit.md": {
+      "bytes": 18905,
+      "mtime": "2026-08-20T12:57:26.856053+00:00",
+      "sha256": "6ac1174cda0ca976d7d39f1f3cc9d69994d16a7f4a1f21962fb521a1b2ee76f6"
+    },
+    "docs/31_stock_6x6x6_switch_actual_fit_audit.md": {
+      "bytes": 17252,
+      "mtime": "2026-08-20T13:34:06.957837+00:00",
+      "sha256": "06025efd7ea2bbccb8ba55ed6315e72f3781ce57751d56671bb946d6689636b4"
+    },
+    "docs/32_its1105_primary_switch_design_audit.md": {
+      "bytes": 14845,
+      "mtime": "2026-08-20T13:53:07.553618+00:00",
+      "sha256": "01d7e4296e3409a883067bd85431e0ede23aa1486812c342194c7bc7c9c3024c"
+    },
+    "docs/33_its1105_physical_sample_reaudit.md": {
+      "bytes": 8954,
+      "mtime": "2026-08-20T14:32:59.787078+00:00",
+      "sha256": "236237ded4b6f1487b5ddc0b39145b7714dc89c1a60988a14e1d496db43c5647"
+    },
+    "docs/34_its1105_same_sku_8button_final.md": {
+      "bytes": 5889,
+      "mtime": "2026-08-20T17:41:22.908770+00:00",
+      "sha256": "7aa8c1734eff6a7a91caa078a879c5208092bb0f9cbef428cbd2524e6c9a0061"
+    },
+    "docs/35_its1105_right_hand_mirror.md": {
+      "bytes": 4080,
+      "mtime": "2026-08-20T18:21:16.192234+00:00",
+      "sha256": "c514f6b7725549b1356e370eb8bcb5dae33fef5bbdaf258821a90c8f792e4e7c"
+    },
+    "docs/36_right_hand_handle_stl_print_plate.md": {
+      "bytes": 2025,
+      "mtime": "2026-08-20T18:40:00.263523+00:00",
+      "sha256": "30453557f6a60d194676418762d720cbf32cb8461c0046b9ec2b9a2e269f4a72"
+    },
+    "docs/37_thumb_control_reposition_architecture_fragment_audit.md": {
+      "bytes": 18171,
+      "mtime": "2026-08-21T07:59:05.885814+00:00",
+      "sha256": "5a734c2fc86910e3457b3b9a94097e188fdda6babd99ce24d8a2731a8570ec85"
+    },
+    "docs/38_thumb_module_reseating_implementation.md": {
+      "bytes": 8925,
+      "mtime": "2026-08-21T08:55:08.206670+00:00",
+      "sha256": "8fc1bb18bfdc54831dd2ccbc28b0e8f5ee71640077eab4aee54c6eef6a74f38e"
+    },
+    "docs/39_thumb_lower15_housing_first.md": {
+      "bytes": 4058,
+      "mtime": "2026-08-21T10:37:42.268027+00:00",
+      "sha256": "10c49d6afeba8479554bfbd79f0b8f09c41043689ff6395fc696ac4b73178713"
+    },
+    "docs/40_index_middle_fdm_printability_audit.md": {
+      "bytes": 3776,
+      "mtime": "2026-08-21T11:55:03.204061+00:00",
+      "sha256": "f7f180acc5e27a89a9524c69f565b9a768e0225e1d8345814b6eea7426ed2084"
+    },
+    "docs/41_simplified_finger_carrier_v1.md": {
+      "bytes": 4372,
+      "mtime": "2026-08-21T12:44:28.578227+00:00",
+      "sha256": "efa37e5eb3a5435c76bec7556e09bf9105285dee693f13212a32ea61ee3371da"
+    },
+    "docs/42_build123d_workbench.md": {
+      "bytes": 2581,
+      "mtime": "2026-08-21T13:58:45.632999+00:00",
+      "sha256": "83089ed654180b815b5480efcc7843336fab7027b3df799fd8920fa2fc4855f5"
+    },
+    "docs/43_middle_carrier_redesign.md": {
+      "bytes": 10617,
+      "mtime": "2026-08-21T14:02:14.500619+00:00",
+      "sha256": "d868777da07060dfc5a9120b05f81a0b1511e139b6dcb47a19d0a1e31a5f2743"
+    },
+    "docs/44_finger_layout_baseline_reset.md": {
+      "bytes": 7345,
+      "mtime": "2026-08-21T16:36:14.388999+00:00",
+      "sha256": "2219fa592116643c4f5dcec9e2bae62039add38ea378fbeaf95409ddb4a42c7d"
+    },
+    "docs/44_local_middle_shell_docking.md": {
+      "bytes": 7428,
+      "mtime": "2026-08-21T14:27:48.532319+00:00",
+      "sha256": "b1f2f6d2f51a3a4ca3d557fbd5612444de019ac94dbcba574b6504ea5f67606b"
+    },
+    "docs/45_clean_baseline_external_layout.md": {
+      "bytes": 6396,
+      "mtime": "2026-08-21T17:05:32.383434+00:00",
+      "sha256": "f5700ba870037340c1ee78575bf123890704f636ce641e3164786a48a1930be9"
+    },
+    "docs/46_finger_controls_v2_internal_design.md": {
+      "bytes": 11625,
+      "mtime": "2026-08-21T20:11:04.716141+00:00",
+      "sha256": "6376e31603b6a4c6ca968ddca82755e7a7cf9ebaf5306ab6e7f88a9690696ed7"
+    },
+    "docs/47_finger_v2_physical_validation_kit.md": {
+      "bytes": 9703,
+      "mtime": "2026-08-21T20:46:09.519804+00:00",
+      "sha256": "acb5f838a2e9d00f2662d8f6aa2ffafc802f14c9ccbe786ee43e96fcbf83b45d"
+    },
+    "docs/48_finger_v2_physical_test_sheet.md": {
+      "bytes": 4755,
+      "mtime": "2026-08-21T20:46:12.869613+00:00",
+      "sha256": "5b8ef008e9dceb95f07639313e437a497d0658dd0398f9cc1371c82910d8a35e"
+    },
+    "docs/49_finger_thumb_joint_feasibility.md": {
+      "bytes": 12339,
+      "mtime": "2026-08-21T22:58:12.344240+00:00",
+      "sha256": "b62a483335ab4b3d1eba45ea09c75070abee20baf6430b152ac33e4b220a1ffc"
+    },
+    "docs/50_finger_thumb_integrated_internal_architecture.md": {
+      "bytes": 12756,
+      "mtime": "2026-08-22T05:18:51.065146+00:00",
+      "sha256": "320caa00971e9e6ce7b879caa6cccd21b8686e9febeef3320dddc0f03281a7c3"
+    },
+    "docs/51_finger_thumb_integrated_physical_test_sheet.md": {
+      "bytes": 12509,
+      "mtime": "2026-08-22T06:22:35.749506+00:00",
+      "sha256": "f86089f064bf69491159e0f7419d130bcb6ac524ffcfe649cb23d47b7c06371f"
+    },
+    "docs/51_integrated_v3_internal_design_review.md": {
+      "bytes": 20445,
+      "mtime": "2026-08-22T07:27:05.236284+00:00",
+      "sha256": "1f1feed5b2b3b62e4e045b4e24d18a9b8d336f39548a1efe525143f71ad26cd9"
+    },
+    "docs/52_exterior_cleanup_final_baseline.md": {
+      "bytes": 11201,
+      "mtime": "2026-08-22T11:02:25.272184+00:00",
+      "sha256": "8a55e459b34684d0168b9e103775af90ba3831550d8a1786f55524906ec2e45b"
+    },
+    "docs/53_exterior_first_max_lowered_thumb.md": {
+      "bytes": 5322,
+      "mtime": "2026-08-22T11:31:20.678958+00:00",
+      "sha256": "f254aed4d939144dc636956c8a7098d66d98745d83545faa8f6af2e7c806380d"
+    },
+    "docs/54_cross_session_final_handoff.md": {
+      "bytes": 10058,
+      "mtime": "2026-08-22T11:40:05.981725+00:00",
+      "sha256": "05d6b872413bde55e238f9bdf665ef7bb5141d4aec5b21e7c1e43a315a6cbd54"
+    },
+    "docs/54_original_thumb_module_reuse_audit.md": {
+      "bytes": 18343,
+      "mtime": "2026-08-22T12:18:07.887882+00:00",
+      "sha256": "9901db43ce6f6980a6d07c4f58a42bceeb8760ab4d6e2fce14e15696f9e24da9"
+    },
+    "docs/55_hw504_szh_ek056_low_memory_analysis.md": {
+      "bytes": 6340,
+      "mtime": "2026-08-22T15:12:14.886598+00:00",
+      "sha256": "a91c9622d0fd036918eaec78dee38af82d584b95adf39e2cf82806830ead8128"
+    },
+    "docs/56_option_c_local_exact_prototype.md": {
+      "bytes": 3937,
+      "mtime": "2026-08-22T16:06:53.190422+00:00",
+      "sha256": "f2e7fefdb8354ddf13c8f564af5dda412ede58001ebf475080606d527fea5cda"
+    },
+    "docs/57_option_c_final_local_fit.md": {
+      "bytes": 3116,
+      "mtime": "2026-08-22T16:29:53.996569+00:00",
+      "sha256": "45864f126e7e14b09959fcc0f42e8f5832b387595e758560ac0e51825ae334f3"
+    },
+    "docs/58_button_cap_plane_mapping.md": {
+      "bytes": 2118,
+      "mtime": "2026-08-22T16:45:51.440918+00:00",
+      "sha256": "cb96ec83be09c18dc084a50c1d430f39b4db2670279d0041f44e40781d2af713"
+    },
+    "docs/59_n2_internal_actuation_architecture.md": {
+      "bytes": 4399,
+      "mtime": "2026-08-22T17:05:37.869938+00:00",
+      "sha256": "e65eed221c202ad732abdbeb1c53cab213d405f69f3d63f127d93e0840e13647"
+    },
+    "docs/60_n2_production_intent_mechanism.md": {
+      "bytes": 3618,
+      "mtime": "2026-08-22T17:44:25.145473+00:00",
+      "sha256": "b88ea6cfacee7b84781b464b842442b9bd216ce571115e5d11f40378844ba648"
+    },
+    "docs/61_n2_robustness_pass.md": {
+      "bytes": 3124,
+      "mtime": "2026-08-22T18:14:56.074250+00:00",
+      "sha256": "6b59516bb149bb952febd4afffe11375e2054c5ac1d18d3f6a5b661a386facd5"
+    },
+    "docs/62_n2_rear_reaction_support_redesign.md": {
+      "bytes": 4153,
+      "mtime": "2026-08-22T19:11:55.097627+00:00",
+      "sha256": "871378effa12c71f23b73e8d6ed5c0c849864ee3fb35deee7b65e28d7a3669dd"
+    },
+    "docs/63_n1_production_intent_mechanism.md": {
+      "bytes": 6361,
+      "mtime": "2026-08-23T07:55:28.375196+00:00",
+      "sha256": "f3e481320321c683b3ffd64a361f91107b7e946b6679e64ed8dd2a4827b3bc0c"
+    },
+    "docs/64_i2_i3_production_intent_mechanism.md": {
+      "bytes": 6914,
+      "mtime": "2026-08-23T08:21:01.485054+00:00",
+      "sha256": "65395a3f8d33bc5f4835ee908d786df489a5084761faeabe6773aed88981aad5"
+    },
+    "docs/65_m4_n3_production_intent_mechanism.md": {
+      "bytes": 8244,
+      "mtime": "2026-08-23T08:46:48.441792+00:00",
+      "sha256": "450e257abf707adb9629aa537c4062fe86db1296be552cfd950cd5c89d0889ba"
+    },
+    "docs/66_i4_m3_production_intent_mechanisms.md": {
+      "bytes": 6593,
+      "mtime": "2026-08-23T09:03:25.351134+00:00",
+      "sha256": "b6560657259aed36d44b66583512db0c1d20d15164bf2c499c71e13306864aed"
+    },
+    "docs/67_all_8_button_integration_and_wiring_space_audit.md": {
+      "bytes": 11900,
+      "mtime": "2026-08-23T09:57:05.907862+00:00",
+      "sha256": "1eb8eb6084aba60798d134ee898927dd42c07d35e9311731aab484a01f1f2de5"
+    },
+    "docs/68_real_integration_conflict_resolution.md": {
+      "bytes": 4878,
+      "mtime": "2026-08-23T10:13:27.038199+00:00",
+      "sha256": "df70ac5093b2042bd6220c88d214ff023512812bd880cf30e1273af37c79ee97"
+    },
+    "docs/69_m4_n3_terminal_redundancy_resolution.md": {
+      "bytes": 3917,
+      "mtime": "2026-08-23T11:44:01.442712+00:00",
+      "sha256": "cf71c120556f37e8ded9ee572ba975ab5f888880edfac07ae86d8518d33d44a2"
+    },
+    "docs/70_finger_8_button_mechanical_baseline_checkpoint.md": {
+      "bytes": 13396,
+      "mtime": "2026-08-23T11:48:43.189028+00:00",
+      "sha256": "bad77cd92f71dbd8dc027287facb9a983c12b78e94d544e0cac302fb37730719"
+    },
+    "docs/71_szh_ek056_provisional_thumb_integration_audit.md": {
+      "bytes": 13793,
+      "mtime": "2026-08-23T12:50:46.285049+00:00",
+      "sha256": "b676d678753aa1d3b9dd3ca56aac0bf54e2fb50d144c57e0a838c9ba5d27c3b1"
+    },
+    "docs/72_szh_ek056_actual_fit_test.md": {
+      "bytes": 16932,
+      "mtime": "2026-08-23T14:27:04.928529+00:00",
+      "sha256": "eb3fe23a47f4816daf654fed5564d54530b57e54cb68be4c5622a3d7010d3fca"
+    },
+    "docs/73_original_button_geometry_lineage_audit.md": {
+      "bytes": 10675,
+      "mtime": "2026-08-23T14:26:47.967131+00:00",
+      "sha256": "81208c4580501cf0980f3632aa3cda3779535105461a5c11d898505ad4ad1f0d"
+    },
+    "docs/75_detailed_pushbtn_8_button_revalidation.md": {
+      "bytes": 20893,
+      "mtime": "2026-08-23T18:27:56.783613+00:00",
+      "sha256": "4f5d0e1ff69eac7086f113d60143cd7ed51b58803cac96d6b33963914c5082dc"
+    },
+    "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md": {
+      "bytes": 17762,
+      "mtime": "2026-08-23T18:39:20.916671+00:00",
+      "sha256": "b6e5890554fa3934ff0a40a7779da051da4fb8026060bbd8c8e3258a19924ef0"
+    },
+    "docs/77_open_frame_glued_switch_harness_candidate.md": {
+      "bytes": 14127,
+      "mtime": "2026-08-24T04:34:34.250213+00:00",
+      "sha256": "dbd740a9cde99d0ae61eb3953331a94439b99e818a59ff4349bffc745673a4e0"
+    },
+    "docs/78_slot_anchored_harness_and_captive_pusher_audit.md": {
+      "bytes": 13203,
+      "mtime": "2026-08-24T06:40:04.235259+00:00",
+      "sha256": "55e3b3b62931b2503c196936b36c643f0d813e9e93dc71be2427945d3af064ef"
+    },
+    "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": {
+      "bytes": 12627,
+      "mtime": "2026-08-24T07:15:12.479985+00:00",
+      "sha256": "a42634c3a617f900f51650d7820cad177de623ea568f5f9948dc96bfc8de54c3"
+    },
+    "docs/button_fdm_coupon_test.md": {
+      "bytes": 7477,
+      "mtime": "2026-08-23T13:59:33.488010+00:00",
+      "sha256": "dbcc04b54da704d710e0732d0225d3b6bcd5f62198e13274c1539dfbe9de5524"
+    },
+    "docs/button_fdm_coupon_test_V1_REJECTED.md": {
+      "bytes": 6969,
+      "mtime": "2026-08-23T10:28:55.901216+00:00",
+      "sha256": "74f509254a75a3aa73fd9548a70085b77e5edbead2174b7eae91293e21426dd9"
+    },
+    "docs/szh_ek056_cad_reference_research.md": {
+      "bytes": 9047,
+      "mtime": "2026-08-23T12:17:19.877359+00:00",
+      "sha256": "96dec1b7f1daddc8f8d63e1cdd7ddf9631ae4e4b7340966795c5d3885179d976"
+    },
+    "cad/OneGrip_FingerButtons.fs": {
+      "bytes": 11043,
+      "mtime": "2026-08-18T21:06:56.910000+00:00",
+      "sha256": "10dfac01a5bad363db6a6796f840e8ade7efc5d60c6e39acd3e7c4aea70a67b5"
+    },
+    "cad/OneGrip_I1_Debug.fs": {
+      "bytes": 13450,
+      "mtime": "2026-08-20T16:13:58.840923+00:00",
+      "sha256": "21d6832b73e1269e6f1ff4d99996af81d6fa9f066e4110fcbc09104681ae64f5"
+    },
+    "cad/OneGrip_I4_Retainer.fs": {
+      "bytes": 8996,
+      "mtime": "2026-08-20T08:29:16.942448+00:00",
+      "sha256": "d95069327e0b635a0ef14d40b934d595c6f4ba604deddd0c7412bf5b593b9cd1"
+    },
+    "cad/OneGrip_ITS1105_Index.fs": {
+      "bytes": 9268,
+      "mtime": "2026-08-20T16:21:56.782904+00:00",
+      "sha256": "3107358f4a4e678f39d26c00bd34d9a4a40f89b35b8668bbd02715f5d5a69609"
+    },
+    "cad/OneGrip_ITS1105_Middle.fs": {
+      "bytes": 14897,
+      "mtime": "2026-08-20T17:06:00.726093+00:00",
+      "sha256": "08180cb7040cb3ba2072d571f70841e54dbe0ae4b05b79ce7033fb37290b8a6d"
+    },
+    "cad/OneGrip_Retainer.fs": {
+      "bytes": 19292,
+      "mtime": "2026-08-20T05:40:31.274119+00:00",
+      "sha256": "4c44a7aa8b200bb61d9507c7af51ba50eb46b0cab933e0facf86701a705b0352"
+    },
+    "cad/OneGrip_RightHandMirror.fs": {
+      "bytes": 549,
+      "mtime": "2026-08-20T18:21:10.131122+00:00",
+      "sha256": "d485cb35752974dce844792a1376c425be44ad303230149fd33be62325c62383"
+    },
+    "cad/OneGrip_Simplified_Finger_Internals.fs": {
+      "bytes": 16119,
+      "mtime": "2026-08-21T12:38:26.725123+00:00",
+      "sha256": "48a54fad2768a983f3c21553c97edcc78bf9a14532dc8e0b4179912722f2a386"
+    },
+    "cad/OneGrip_Thumb_Module_Reseat.fs": {
+      "bytes": 4224,
+      "mtime": "2026-08-21T10:04:18.223568+00:00",
+      "sha256": "d97fa16934e137766ab74674c958acfd86c65820d08214899c8cab821b3c51f0"
+    }
+  }
+}

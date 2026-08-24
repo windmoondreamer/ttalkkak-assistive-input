@@ -102,6 +102,9 @@ def main():
     val = json.load(open(os.path.join(LOCAL, "reports",
                                       "16_support_validate_%s.json" % mat),
                          encoding="utf-8"))
+    cfg = json.load(open(os.path.join(LOCAL, "reports",
+                                      "16_custom_support_%s.json" % mat),
+                         encoding="utf-8"))
     ISO = np.array([-0.72, -0.50, -0.48])
     for nm, fn, lab in (("MAIN", "HOUSING_V4_MAIN_PRINT_REV_D", "CUT FACE UP"),
                         ("ARMREST", "HOUSING_V4_ARMREST_PRINT_REV_D",
@@ -122,10 +125,14 @@ def main():
             if t == "FRONT":
                 ax.axhline(0, color="#333", lw=1.3, ls="--")
                 ax.text(0, -8, "build plate", fontsize=9, color="#333", ha="center")
+        c0 = cfg.get(nm, {})
         fig.suptitle("%s CAD SACRIFICIAL SUPPORT (%s, %s)   회색 제품 / 빨강 support\n"
-                     "리브 0.8mm x 피치 10mm · Z gap 0.20 · 측면 0.40 · "
-                     "support %.1f cm3 (%.0f g)   bbox %.1f x %.1f x %.1f"
-                     % (nm, lab, mat, sv / 1000.0, sv * 1.24e-3, bb[0], bb[1], bb[2]),
+                     "리브 %.1f + 머리 %.1f x 피치 %.1f mm → 브리지 %.1f mm · "
+                     "Z gap %.2f · 측면 %.2f~%.2f · support %.1f cm3 (%.0f g)"
+                     % (nm, lab, mat, c0.get("rib_t", 0.8), c0.get("head_w", 0.0),
+                        c0.get("rib_pitch", 0.0), c0.get("free_span", 0.0),
+                        c0.get("gap_z", 0.2), c0.get("lateral_min", 0.4),
+                        c0.get("lateral", 0.4), sv / 1000.0, sv * 1.24e-3),
                      fontsize=12)
         save(fig, "%s_CUSTOM_SUPPORT" % nm)
 
@@ -138,7 +145,9 @@ def main():
                               fontsize=11)
             render(axes[1], [(Pd, C_PROD), (Sp, C_SUP)],
                    np.array([0.0, 0.0, -1.0]))
-            axes[1].set_title("TOP (리브 15줄 / 피치 10mm)", fontsize=11)
+            axes[1].set_title("TOP (리브 %d개 / 피치 %.1fmm)"
+                              % (cfg.get(nm, {}).get("n_rib", 0),
+                                 cfg.get(nm, {}).get("rib_pitch", 0)), fontsize=11)
             fig.suptitle("MAIN CUSTOM SUPPORT — CUTAWAY   "
                          "리브가 천장 아래 0.20mm 에서 끊긴다", fontsize=13)
             save(fig, "MAIN_CUSTOM_SUPPORT_CUTAWAY")

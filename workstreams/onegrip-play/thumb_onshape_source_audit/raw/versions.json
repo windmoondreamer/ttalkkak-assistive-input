@@ -1,0 +1,13 @@
+{
+  "method": "GET",
+  "url": "https://cad.onshape.com/api/v6/documents/d/a21e64f36bc61df760d4587c/versions",
+  "status": 402,
+  "contentType": "application/json",
+  "etag": null,
+  "body": {
+    "message": "API limit exceeded",
+    "moreInfoUrl": "",
+    "status": 402,
+    "code": 402
+  }
+}

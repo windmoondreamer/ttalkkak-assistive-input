@@ -1,0 +1,1391 @@
+{
+  "loweredControlFrames": {
+    "JOY": {
+      "axisWorld": [
+        0.0001818537687494954,
+        0.5984933689760226,
+        0.8011277390160307
+      ],
+      "capCentroidWorld": [
+        -0.2191190341802563,
+        -16.369625647744883,
+        49.57390536705094
+      ],
+      "capTopAlongAxisMm": 3.0701240587600465,
+      "userFaceAreaMm2": 88.12611749837639,
+      "tiltFromJoystickAxisDeg": 0.0,
+      "capCentroidLocal": [
+        -0.0051410696240477465,
+        0.0017474628492250416,
+        11.329874213494293
+      ]
+    },
+    "T1": {
+      "axisWorld": [
+        0.10610574067594872,
+        0.6894150077685794,
+        0.7165532212327693
+      ],
+      "capCentroidWorld": [
+        10.036759277505562,
+        11.827400129283784,
+        19.11578827432335
+      ],
+      "capTopAlongAxisMm": 2.2764800228887845,
+      "userFaceAreaMm2": 45.05767543118513,
+      "tiltFromJoystickAxisDeg": 9.36199934380265,
+      "capCentroidLocal": [
+        10.293851795698917,
+        -40.806140723433494,
+        3.8066297548377044
+      ]
+    },
+    "T2": {
+      "axisWorld": [
+        0.00011005948943425255,
+        0.6529192947572883,
+        0.7574274766738754
+      ],
+      "capCentroidWorld": [
+        -0.23737510774202614,
+        4.0030260274179374,
+        26.089193777242127
+      ],
+      "capTopAlongAxisMm": 2.3779574882148222,
+      "userFaceAreaMm2": 57.76000000000373,
+      "tiltFromJoystickAxisDeg": 3.999999999987366,
+      "capCentroidLocal": [
+        0.008878015053694793,
+        -30.37479512364417,
+        4.708513932218564
+      ]
+    },
+    "T3": {
+      "axisWorld": [
+        -0.10610916144120486,
+        0.689444148690552,
+        0.7165246762635635
+      ],
+      "capCentroidWorld": [
+        -10.541994281820852,
+        11.82202291514477,
+        19.126376206663778
+      ],
+      "capTopAlongAxisMm": 2.2728362689490975,
+      "userFaceAreaMm2": 45.04264860036108,
+      "tiltFromJoystickAxisDeg": 9.37749111258268,
+      "capCentroidLocal": [
+        -10.284902503402922,
+        -40.816545325844125,
+        3.8081514902377167
+      ]
+    },
+    "T4": {
+      "axisWorld": [
+        0.0975379415068025,
+        0.6543290010864593,
+        0.7498932646075788
+      ],
+      "capCentroidWorld": [
+        10.661304710339675,
+        3.9725344617215432,
+        26.039684947504686
+      ],
+      "capTopAlongAxisMm": 2.419498487630432,
+      "userFaceAreaMm2": 58.12653815267171,
+      "tiltFromJoystickAxisDeg": 7.0732196363406,
+      "capCentroidLocal": [
+        10.90756780507336,
+        -30.36885032475299,
+        4.6525840015100215
+      ]
+    },
+    "T5": {
+      "axisWorld": [
+        0.00011005948943406525,
+        0.6529192947572139,
+        0.7574274766739397
+      ],
+      "capCentroidWorld": [
+        -0.23550600498671273,
+        12.339896545167006,
+        18.906008576936355
+      ],
+      "capTopAlongAxisMm": 2.375395504319526,
+      "userFaceAreaMm2": 57.75999999999875,
+      "tiltFromJoystickAxisDeg": 3.9999999999816205,
+      "capCentroidLocal": [
+        0.02211522408548571,
+        -41.35277444703225,
+        3.943427076553516
+      ]
+    },
+    "T6": {
+      "axisWorld": [
+        -0.09733084977925645,
+        0.6538982607470087,
+        0.7502957885216235
+      ],
+      "capCentroidWorld": [
+        -11.128555492386003,
+        3.966152799769207,
+        26.057814058149933
+      ],
+      "capTopAlongAxisMm": 2.4132933939012755,
+      "userFaceAreaMm2": 58.12662414199282,
+      "tiltFromJoystickAxisDeg": 7.059601161192331,
+      "capCentroidLocal": [
+        -10.882298912800405,
+        -30.375175690425113,
+        4.659325784371673
+      ]
+    },
+    "T7": {
+      "axisWorld": [
+        0.02222463498719436,
+        0.616872395269655,
+        0.7867493333673469
+      ],
+      "capCentroidWorld": [
+        7.90156035629057,
+        -5.343083674416997,
+        33.98514672462098
+      ],
+      "capTopAlongAxisMm": 2.3364498054896945,
+      "userFaceAreaMm2": 63.50002651217331,
+      "tiltFromJoystickAxisDeg": 1.8392747092420292,
+      "capCentroidLocal": [
+        8.135183627248185,
+        -18.153373218828953,
+        5.442076278144638
+      ]
+    },
+    "T8": {
+      "axisWorld": [
+        -0.021908794082782287,
+        0.616841033796886,
+        0.7867827805476092
+      ],
+      "capCentroidWorld": [
+        -8.343287297442853,
+        -5.344833914141372,
+        33.98650650306115
+      ],
+      "capTopAlongAxisMm": 2.339473225739589,
+      "userFaceAreaMm2": 63.50002651213494,
+      "tiltFromJoystickAxisDeg": 1.8392747092382637,
+      "capCentroidLocal": [
+        -8.109657534055708,
+        -18.16777348417634,
+        5.439163940734198
+      ]
+    }
+  },
+  "originalControlFrames": {
+    "JOY": {
+      "axisWorld": [
+        0.00018185376874997678,
+        0.5984933689760241,
+        0.8011277390160295
+      ],
+      "capCentroidWorld": [
+        -0.21917159141091488,
+        -28.6213028180936,
+        70.57201125528798
+      ],
+      "capTopAlongAxisMm": 3.0726458293977665,
+      "userFaceAreaMm2": 88.12611749837642,
+      "tiltFromJoystickAxisDeg": 0.0,
+      "capCentroidLocal": [
+        -0.02981345600950071,
+        22.384119871050807,
+        20.81949175250756
+      ]
+    },
+    "T1": {
+      "axisWorld": [
+        0.10610574067594856,
+        0.6894150077685797,
+        0.7165532212327691
+      ],
+      "capCentroidWorld": [
+        10.036759277505562,
+        -0.42259987071023863,
+        40.11578827432335
+      ],
+      "capTopAlongAxisMm": 2.276480022888805,
+      "userFaceAreaMm2": 45.057675431185146,
+      "tiltFromJoystickAxisDeg": 9.36199934380261,
+      "capCentroidLocal": [
+        10.269231722841981,
+        -18.423978276199627,
+        13.298768504218735
+      ]
+    },
+    "T2": {
+      "axisWorld": [
+        0.0001100594894338144,
+        0.6529192947572886,
+        0.7574274766738752
+      ],
+      "capCentroidWorld": [
+        -0.24376297404063998,
+        -8.246763199861963,
+        47.08944839387351
+      ],
+      "capTopAlongAxisMm": 2.377627720056962,
+      "userFaceAreaMm2": 57.76000000000375,
+      "tiltFromJoystickAxisDeg": 3.9999999999874567,
+      "capCentroidLocal": [
+        -0.022129963843262043,
+        -7.992655679875722,
+        14.200981646460018
+      ]
+    },
+    "T3": {
+      "axisWorld": [
+        -0.10610916144120461,
+        0.6894441486905521,
+        0.7165246762635634
+      ],
+      "capCentroidWorld": [
+        -10.541994281820852,
+        -0.4279770848522114,
+        40.1263762066638
+      ],
+      "capTopAlongAxisMm": 2.2728362689490695,
+      "userFaceAreaMm2": 45.04264860036108,
+      "tiltFromJoystickAxisDeg": 9.377491112582721,
+      "capCentroidLocal": [
+        -10.309522576259859,
+        -18.434382878607874,
+        13.300290239616997
+      ]
+    },
+    "T4": {
+      "axisWorld": [
+        0.09753794150680278,
+        0.6543290010864592,
+        0.7498932646075788
+      ],
+      "capCentroidWorld": [
+        10.661301168297259,
+        -8.274868546620082,
+        47.03744628358039
+      ],
+      "capTopAlongAxisMm": 2.4194783051600863,
+      "userFaceAreaMm2": 58.126538152671756,
+      "tiltFromJoystickAxisDeg": 7.073219636340651,
+      "capCentroidLocal": [
+        10.882947732216445,
+        -7.990108226929737,
+        14.144483576762076
+      ]
+    },
+    "T5": {
+      "axisWorld": [
+        0.00011005948943456381,
+        0.6529192947572132,
+        0.7574274766739403
+      ],
+      "capCentroidWorld": [
+        -0.23550600498671284,
+        0.08989654517504787,
+        39.906008576936586
+      ],
+      "capTopAlongAxisMm": 2.3753955043193313,
+      "userFaceAreaMm2": 57.759999999998755,
+      "tiltFromJoystickAxisDeg": 3.999999999981712,
+      "capCentroidLocal": [
+        -0.0025048487714478605,
+        -18.970611999799907,
+        13.435565825935969
+      ]
+    },
+    "T6": {
+      "axisWorld": [
+        -0.09733084977925645,
+        0.6538982607470086,
+        0.7502957885216236
+      ],
+      "capCentroidWorld": [
+        -11.128551187456589,
+        -8.287003533386976,
+        47.060534886761225
+      ],
+      "capTopAlongAxisMm": 2.413316307421761,
+      "userFaceAreaMm2": 58.12662414199279,
+      "tiltFromJoystickAxisDeg": 7.05960116119228,
+      "capCentroidLocal": [
+        -10.90691898565744,
+        -7.988856217016105,
+        14.151755221341357
+      ]
+    },
+    "T7": {
+      "axisWorld": [
+        0.022224634987194566,
+        0.616872395269655,
+        0.7867493333673468
+      ],
+      "capCentroidWorld": [
+        7.90156035629057,
+        -17.593083674407968,
+        54.985146724620854
+      ],
+      "capTopAlongAxisMm": 2.3364498054897784,
+      "userFaceAreaMm2": 63.50002651217333,
+      "tiltFromJoystickAxisDeg": 1.8392747092422275,
+      "capCentroidLocal": [
+        8.110563554391254,
+        4.228789228402391,
+        14.934215027527395
+      ]
+    },
+    "T8": {
+      "axisWorld": [
+        -0.021908794082781263,
+        0.6168410337968857,
+        0.7867827805476094
+      ],
+      "capCentroidWorld": [
+        -8.343287297442853,
+        -17.594833914132494,
+        54.98650650306115
+      ],
+      "capTopAlongAxisMm": 2.3394732257396718,
+      "userFaceAreaMm2": 63.500026512134916,
+      "tiltFromJoystickAxisDeg": 1.8392747092382637,
+      "capCentroidLocal": [
+        -8.134277606912642,
+        4.2143889630552005,
+        14.931302690116969
+      ]
+    }
+  },
+  "matrix": {
+    "CLEAN": {
+      "loweredControlAxes": {
+        "JOY": {
+          "class": "B_PARTIAL_NOT_THROUGH",
+          "materialIntervalMm": [
+            3.0701240587600465,
+            4.419149260134369
+          ],
+          "wallThicknessMm": 1.3490252013743227,
+          "allIntervalsMm": [
+            [
+              -31.642417835946652,
+              -28.40058955994739
+            ],
+            [
+              1.417440948790143,
+              4.419149260134369
+            ]
+          ],
+          "footprintOpenFraction": 0.5102040816326531,
+          "footprintSamples": 49
+        },
+        "T1": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            2.3319361082484042,
+            5.449221434371662
+          ],
+          "wallThicknessMm": 3.1172853261232576,
+          "allIntervalsMm": [
+            [
+              -39.49775325250893,
+              -36.408808142230406
+            ],
+            [
+              2.3319361082484042,
+              5.449221434371662
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T2": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            4.926761370538039,
+            7.939095279825721
+          ],
+          "wallThicknessMm": 3.0123339092876815,
+          "allIntervalsMm": [
+            [
+              -38.59512279059593,
+              -35.5226286892624
+            ],
+            [
+              4.926761370538039,
+              7.939095279825721
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T3": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            2.2728362689490975,
+            5.340092765655935
+          ],
+          "wallThicknessMm": 3.067256496706838,
+          "allIntervalsMm": [
+            [
+              -39.39387376462617,
+              -36.32175239905466
+            ],
+            [
+              2.226867735728015,
+              5.340092765655935
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T4": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            4.204792823035372,
+            7.142673222121444
+          ],
+          "wallThicknessMm": 2.9378803990860725,
+          "allIntervalsMm": [
+            [
+              -38.019683103410344,
+              -34.94618244324447
+            ],
+            [
+              4.204792823035372,
+              7.142673222121444
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T5": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            3.0832140743342333,
+            6.13435769198689
+          ],
+          "wallThicknessMm": 3.0511436176526563,
+          "allIntervalsMm": [
+            [
+              -40.49205178130584,
+              -37.414626310910506
+            ],
+            [
+              3.0832140743342333,
+              6.13435769198689
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T6": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            4.118839894152853,
+            7.076130046056811
+          ],
+          "wallThicknessMm": 2.9572901519039583,
+          "allIntervalsMm": [
+            [
+              -37.927908810562144,
+              -34.83668314023359
+            ],
+            [
+              4.118839894152853,
+              7.076130046056811
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T7": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -35.91478345001279,
+              -32.677956685903574
+            ],
+            [
+              -17.685559012289826,
+              -17.181745603671427
+            ],
+            [
+              -11.242141065339734,
+              -10.73708378096955
+            ]
+          ],
+          "footprintOpenFraction": 0.6530612244897959,
+          "footprintSamples": 49
+        },
+        "T8": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -35.814686324754696,
+              -32.607182013899795
+            ],
+            [
+              -17.685309970354144,
+              -15.494751749984811
+            ],
+            [
+              -12.928509393024102,
+              -10.736716130335754
+            ]
+          ],
+          "footprintOpenFraction": 0.6326530612244898,
+          "footprintSamples": 49
+        }
+      },
+      "originalControlAxes": {
+        "JOY": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.435483514827844,
+              -30.28234451284647
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T1": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -42.26585711873909,
+              -38.704425086772545
+            ],
+            [
+              -25.19549514113738,
+              -24.602612240402916
+            ],
+            [
+              -19.66242471077605,
+              -19.06921662319045
+            ]
+          ],
+          "footprintOpenFraction": 0.673469387755102,
+          "footprintSamples": 49
+        },
+        "T2": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.067895414238045,
+              -33.81088608935739
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T3": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -42.22083251720935,
+              -38.68665769430078
+            ],
+            [
+              -25.192483102433908,
+              -19.079700297326106
+            ]
+          ],
+          "footprintOpenFraction": 0.5918367346938775,
+          "footprintSamples": 49
+        },
+        "T4": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.414208989798865,
+              -34.16744499665323
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T5": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -43.92905902103869,
+              -39.98338662540181
+            ],
+            [
+              -25.74417824828024,
+              -23.593989722310585
+            ],
+            [
+              -20.895099589303925,
+              -18.74475009467657
+            ]
+          ],
+          "footprintOpenFraction": 0.2653061224489796,
+          "footprintSamples": 49
+        },
+        "T6": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.42624937411579,
+              -34.15693248529276
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T7": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.364609922410494,
+              -30.18583723881353
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T8": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.34116686659322,
+              -30.180845680661438
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        }
+      }
+    },
+    "FINGER_V2": {
+      "loweredControlAxes": {
+        "JOY": {
+          "class": "B_PARTIAL_NOT_THROUGH",
+          "materialIntervalMm": [
+            3.0701240587600465,
+            4.419149260137037
+          ],
+          "wallThicknessMm": 1.3490252013769908,
+          "allIntervalsMm": [
+            [
+              1.417440948791932,
+              4.419149260137037
+            ]
+          ],
+          "footprintOpenFraction": 0.5102040816326531,
+          "footprintSamples": 49
+        },
+        "T1": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            2.3319361082482564,
+            5.400512970358702
+          ],
+          "wallThicknessMm": 3.0685768621104454,
+          "allIntervalsMm": [
+            [
+              2.3319361082482564,
+              5.400512970358702
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T2": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            4.9267613705392295,
+            7.939095279822942
+          ],
+          "wallThicknessMm": 3.0123339092837123,
+          "allIntervalsMm": [
+            [
+              -38.56328819147069,
+              -35.52250899765294
+            ],
+            [
+              4.9267613705392295,
+              7.939095279822942
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T3": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            2.2728362689490975,
+            5.3400927656545365
+          ],
+          "wallThicknessMm": 3.067256496705439,
+          "allIntervalsMm": [
+            [
+              2.226867735727269,
+              5.3400927656545365
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T4": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            4.205056683272263,
+            7.142673222121357
+          ],
+          "wallThicknessMm": 2.9376165388490945,
+          "allIntervalsMm": [
+            [
+              -38.0196831034085,
+              -34.94618244323797
+            ],
+            [
+              4.205056683272263,
+              7.142673222121357
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T5": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            3.0832140743340215,
+            6.134357691988234
+          ],
+          "wallThicknessMm": 3.051143617654213,
+          "allIntervalsMm": [
+            [
+              -40.48171498144488,
+              -37.41697901536381
+            ],
+            [
+              3.0832140743340215,
+              6.134357691988234
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T6": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            4.118727061012153,
+            7.076130046056334
+          ],
+          "wallThicknessMm": 2.9574029850441805,
+          "allIntervalsMm": [
+            [
+              -37.92790881056001,
+              -34.83668314023092
+            ],
+            [
+              4.118727061012153,
+              7.076130046056334
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T7": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -17.685559012286838,
+              -17.1817456036674
+            ],
+            [
+              -11.242141065334074,
+              -10.737083780964378
+            ]
+          ],
+          "footprintOpenFraction": 0.6530612244897959,
+          "footprintSamples": 49
+        },
+        "T8": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -17.685309970350215,
+              -15.494751749982012
+            ],
+            [
+              -12.928509393017494,
+              -10.736716130330707
+            ]
+          ],
+          "footprintOpenFraction": 0.6326530612244898,
+          "footprintSamples": 49
+        }
+      },
+      "originalControlAxes": {
+        "JOY": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.419873094396735,
+              -30.28526956224803
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T1": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -25.195495141130642,
+              -24.602612240393796
+            ],
+            [
+              -19.66242471077446,
+              -19.069216623188268
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T2": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.0467639983208,
+              -33.81212281765247
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T3": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -25.192483102425836,
+              -19.079700297323992
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T4": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.408578195110046,
+              -34.14457610035091
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T5": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -43.93546404050498,
+              -39.99711592935909
+            ],
+            [
+              -25.744178248275293,
+              -23.593989722305604
+            ],
+            [
+              -20.895099589298773,
+              -18.744750094671307
+            ]
+          ],
+          "footprintOpenFraction": 0.5714285714285714,
+          "footprintSamples": 49
+        },
+        "T6": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.38098534936841,
+              -34.165542247936806
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T7": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.29553075481175,
+              -30.129820480556962
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T8": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.33401629557094,
+              -30.13750091973556
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        }
+      }
+    },
+    "FROZEN": {
+      "loweredControlAxes": {
+        "JOY": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": null,
+          "footprintOpenFraction": 0.46938775510204084,
+          "footprintSamples": 49
+        },
+        "T1": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": null,
+          "footprintOpenFraction": 0.5102040816326531,
+          "footprintSamples": 49
+        },
+        "T2": {
+          "class": "B_PARTIAL_NOT_THROUGH",
+          "materialIntervalMm": [
+            6.705600242971471,
+            7.932277784919615
+          ],
+          "wallThicknessMm": 1.2266775419481437,
+          "allIntervalsMm": [
+            [
+              -38.551974086791006,
+              -35.57099552891296
+            ],
+            [
+              6.705600242971471,
+              7.932277784919615
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T3": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": null,
+          "footprintOpenFraction": 0.5510204081632653,
+          "footprintSamples": 49
+        },
+        "T4": {
+          "class": "B_PARTIAL_NOT_THROUGH",
+          "materialIntervalMm": [
+            6.9817942093307375,
+            7.339505290871453
+          ],
+          "wallThicknessMm": 0.3577110815407156,
+          "allIntervalsMm": [
+            [
+              -38.0196831034085,
+              -34.94618244323797
+            ],
+            [
+              6.9817942093307375,
+              7.339505290871453
+            ]
+          ],
+          "footprintOpenFraction": 0.10204081632653061,
+          "footprintSamples": 49
+        },
+        "T5": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -40.47704711398924,
+              -37.41100857023725
+            ]
+          ],
+          "footprintOpenFraction": 0.32653061224489793,
+          "footprintSamples": 49
+        },
+        "T6": {
+          "class": "B_PARTIAL_NOT_THROUGH",
+          "materialIntervalMm": [
+            6.968431212822118,
+            7.245246509704479
+          ],
+          "wallThicknessMm": 0.2768152968823614,
+          "allIntervalsMm": [
+            [
+              -37.93655784902977,
+              -34.83668314023092
+            ],
+            [
+              6.968431212822118,
+              7.245246509704479
+            ]
+          ],
+          "footprintOpenFraction": 0.1836734693877551,
+          "footprintSamples": 49
+        },
+        "T7": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            5.99137455199129,
+            8.972110346978297
+          ],
+          "wallThicknessMm": 2.980735794987007,
+          "allIntervalsMm": [
+            [
+              -17.685559012286838,
+              -17.1817456036674
+            ],
+            [
+              -11.242141065334074,
+              -10.737083780964378
+            ],
+            [
+              5.99137455199129,
+              8.972110346978297
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        },
+        "T8": {
+          "class": "A_CONTINUOUS_WALL",
+          "materialIntervalMm": [
+            5.96526409371418,
+            8.951973171482331
+          ],
+          "wallThicknessMm": 2.9867090777681513,
+          "allIntervalsMm": [
+            [
+              -17.685309970350215,
+              -15.494751749982012
+            ],
+            [
+              -12.928509393017494,
+              -10.736716130330707
+            ],
+            [
+              5.96526409371418,
+              8.951973171482331
+            ]
+          ],
+          "footprintOpenFraction": 0.0,
+          "footprintSamples": 49
+        }
+      },
+      "originalControlAxes": {
+        "JOY": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.40136552198351,
+              -30.28497570975422
+            ],
+            [
+              -7.703587569694943,
+              -4.706050640694311
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T1": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -25.195495141130642,
+              -24.602612240393796
+            ],
+            [
+              -19.66242471077446,
+              -19.069216623188268
+            ],
+            [
+              -2.017205137847274,
+              0.934974456152652
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T2": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.0486495952808,
+              -33.82135184955408
+            ],
+            [
+              -0.11628554456222744,
+              1.1975918388685882
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T3": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -25.192483102425836,
+              -19.079700297323992
+            ],
+            [
+              -2.073578053330943,
+              0.8732626451548948
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T4": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.408578195110046,
+              -34.14457610035091
+            ],
+            [
+              -1.832231280257247,
+              1.167676724441402
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T5": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -43.93317114650029,
+              -39.98450471949298
+            ],
+            [
+              -25.744178248275293,
+              -23.593989722305604
+            ],
+            [
+              -20.895099589298773,
+              -18.744750094671307
+            ],
+            [
+              -2.026730863308607,
+              0.9584398735663169
+            ]
+          ],
+          "footprintOpenFraction": 0.5714285714285714,
+          "footprintSamples": 49
+        },
+        "T6": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -37.380985349361495,
+              -34.16554225128803
+            ],
+            [
+              -1.8760762301886418,
+              1.1318457638075545
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T7": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.29553075481175,
+              -30.129815567529207
+            ],
+            [
+              -1.8009218598069427,
+              1.1919985528261952
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        },
+        "T8": {
+          "class": "C_THROUGH_OPENING",
+          "materialIntervalMm": null,
+          "wallThicknessMm": 0.0,
+          "allIntervalsMm": [
+            [
+              -33.3340162955896,
+              -30.13750091972801
+            ],
+            [
+              -1.8216801049423805,
+              1.1891765945866624
+            ]
+          ],
+          "footprintOpenFraction": 1.0,
+          "footprintSamples": 49
+        }
+      }
+    }
+  },
+  "summary": {
+    "CLEAN": {
+      "loweredControlAxes": {
+        "A": 6,
+        "B": 1,
+        "C": 2,
+        "meanFootprintOpen": 0.19954648526077098
+      },
+      "originalControlAxes": {
+        "A": 0,
+        "B": 0,
+        "C": 9,
+        "meanFootprintOpen": 0.8367346938775511
+      }
+    },
+    "FINGER_V2": {
+      "loweredControlAxes": {
+        "A": 6,
+        "B": 1,
+        "C": 2,
+        "meanFootprintOpen": 0.19954648526077098
+      },
+      "originalControlAxes": {
+        "A": 0,
+        "B": 0,
+        "C": 9,
+        "meanFootprintOpen": 0.9523809523809523
+      }
+    },
+    "FROZEN": {
+      "loweredControlAxes": {
+        "A": 2,
+        "B": 3,
+        "C": 4,
+        "meanFootprintOpen": 0.23809523809523808
+      },
+      "originalControlAxes": {
+        "A": 0,
+        "B": 0,
+        "C": 9,
+        "meanFootprintOpen": 0.9523809523809523
+      }
+    }
+  },
+  "classThresholds": {
+    "fullWallMm": 2.0,
+    "openEpsMm": 0.05
+  },
+  "memory": [
+    {
+      "stage": "control frames",
+      "rssMb": 409.9,
+      "availMb": 16072.6
+    },
+    {
+      "stage": "combined CLEAN",
+      "rssMb": 425.1,
+      "availMb": 16063.6
+    },
+    {
+      "stage": "probed CLEAN",
+      "rssMb": 429.2,
+      "availMb": 16063.0
+    },
+    {
+      "stage": "combined FINGER_V2",
+      "rssMb": 428.1,
+      "availMb": 16054.7
+    },
+    {
+      "stage": "probed FINGER_V2",
+      "rssMb": 432.9,
+      "availMb": 16054.8
+    },
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 445.5,
+      "availMb": 16039.4
+    },
+    {
+      "stage": "probed FROZEN",
+      "rssMb": 434.5,
+      "availMb": 16040.6
+    }
+  ]
+}

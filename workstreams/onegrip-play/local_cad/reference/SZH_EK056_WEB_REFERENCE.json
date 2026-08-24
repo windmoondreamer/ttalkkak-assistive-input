@@ -1,0 +1,114 @@
+{
+  "name": "SZH_EK056_WEB_REFERENCE",
+  "modelType": "REBUILT WEB-REFERENCE",
+  "exactSzhEk056CadFound": false,
+  "datum": "PCB centre XY; PCB top Z=0",
+  "sourceDimensionMm": {
+    "skuLinkedOverall": [
+      34.5,
+      26.0,
+      38.0
+    ],
+    "genericMatching": [
+      34.0,
+      26.0,
+      32.0
+    ]
+  },
+  "photoDerivedMm": {
+    "pcb": [
+      34.5,
+      26.0,
+      1.6
+    ],
+    "mountPitch": [
+      26.5,
+      19.45
+    ],
+    "mountCentres": [
+      [
+        -12.0,
+        9.95
+      ],
+      [
+        14.5,
+        9.95
+      ],
+      [
+        -12.0,
+        -9.5
+      ],
+      [
+        14.5,
+        -9.5
+      ]
+    ],
+    "joystickCentre": [
+      0.4,
+      2.0
+    ],
+    "gimbalXY": [
+      17.5,
+      16.6
+    ],
+    "xPotXY": [
+      5.2,
+      13.2
+    ],
+    "yPotXY": [
+      10.5,
+      5.0
+    ],
+    "pushSwitchXY": [
+      10.5,
+      7.0
+    ]
+  },
+  "inferredMm": {
+    "pivotZ": 11.5,
+    "shaftD": 4.8,
+    "shaftTopZ": 25.0,
+    "maxTiltDeg": 25.0
+  },
+  "bboxNominalMm": [
+    [
+      -23.2,
+      -13.0,
+      -1.6
+    ],
+    [
+      17.25,
+      13.1,
+      38.0
+    ]
+  ],
+  "bboxStaticEnvelopeMm": [
+    [
+      -23.3,
+      -13.0,
+      -2.8
+    ],
+    [
+      17.25,
+      13.0,
+      38.0
+    ]
+  ],
+  "bboxMovingEnvelopeMm": [
+    [
+      -18.9,
+      -17.3,
+      11.5
+    ],
+    [
+      19.7,
+      21.3,
+      38.0
+    ]
+  ],
+  "suitability": {
+    "generalPackaging": true,
+    "mountingDesign": "PROTOTYPE_ONLY",
+    "sub0p5FinalCollision": false
+  }
+}

@@ -1,0 +1,395 @@
+{
+  "cropLocal": {
+    "min": [
+      -30.0,
+      -36.0,
+      -34.0
+    ],
+    "max": [
+      30.0,
+      30.0,
+      14.0
+    ]
+  },
+  "gridPitchMm": 0.75,
+  "crops": {
+    "JAD_CLEAN": {
+      "source": "JAD_CLEAN_PRE_FINGER",
+      "cropVolumeMm3": 12482.841575004426,
+      "cropSolids": 1
+    },
+    "JFD_CLEAN": {
+      "source": "JFD_CLEAN_PRE_FINGER",
+      "cropVolumeMm3": 13427.073476316524,
+      "cropSolids": 1
+    },
+    "JAD_FV2": {
+      "source": "JAD_FINGER_V2",
+      "cropVolumeMm3": 12154.422398170647,
+      "cropSolids": 1
+    },
+    "JFD_FV2": {
+      "source": "JFD_FINGER_V2",
+      "cropVolumeMm3": 12720.273119159558,
+      "cropSolids": 1
+    },
+    "JAD_FROZEN": {
+      "source": "JAD_LOWERED_THUMB",
+      "cropVolumeMm3": 12392.796846826568,
+      "cropSolids": 1
+    },
+    "JFD_FROZEN": {
+      "source": "JFD_LOWERED_THUMB",
+      "cropVolumeMm3": 12942.23870529233,
+      "cropSolids": 1
+    }
+  },
+  "exactIntersectionVolumes": {
+    "JAD_CLEAN->JAD_FV2": {
+      "volA": 12482.841575004426,
+      "volB": 12154.422398170647,
+      "commonMm3": -44.89859500755412,
+      "onlyAMm3": 12527.74017001198,
+      "onlyBMm3": 12199.320993178202,
+      "symDiffMm3": 24727.061163190185
+    },
+    "JAD_FV2->JAD_FROZEN": {
+      "volA": 12154.422398170647,
+      "volB": 12392.796846826568,
+      "commonMm3": -44.898595007554135,
+      "onlyAMm3": 12199.320993178202,
+      "onlyBMm3": 12437.695441834123,
+      "symDiffMm3": 24637.016435012323
+    },
+    "JAD_CLEAN->JAD_FROZEN": {
+      "volA": 12482.841575004426,
+      "volB": 12392.796846826568,
+      "commonMm3": -44.89859500755412,
+      "onlyAMm3": 12527.74017001198,
+      "onlyBMm3": 12437.695441834123,
+      "symDiffMm3": 24965.435611846104
+    },
+    "JFD_CLEAN->JFD_FV2": {
+      "volA": 13427.073476316524,
+      "volB": 12720.273119159558,
+      "commonMm3": 0.0,
+      "onlyAMm3": 13427.073476316524,
+      "onlyBMm3": 12720.273119159558,
+      "symDiffMm3": 26147.346595476083
+    },
+    "JFD_FV2->JFD_FROZEN": {
+      "volA": 12720.273119159558,
+      "volB": 12942.23870529233,
+      "commonMm3": 12492.303744194194,
+      "onlyAMm3": 227.9693749653634,
+      "onlyBMm3": 449.9349610981353,
+      "symDiffMm3": 677.9043360634987
+    },
+    "JFD_CLEAN->JFD_FROZEN": {
+      "volA": 13427.073476316524,
+      "volB": 12942.23870529233,
+      "commonMm3": 12491.57488773424,
+      "onlyAMm3": 935.4985885822844,
+      "onlyBMm3": 450.66381755809016,
+      "symDiffMm3": 1386.1624061403745
+    }
+  },
+  "occupancyLocalisation": {
+    "JAD_CLEAN->JAD_FV2": {
+      "onlyACells": 915,
+      "onlyBCells": 200,
+      "onlyAApproxMm3": 386.015625,
+      "onlyBApproxMm3": 84.375,
+      "onlyALocalBbox": {
+        "u": [
+          0.375,
+          24.375
+        ],
+        "v": [
+          -35.625,
+          24.375
+        ],
+        "n": [
+          -33.625,
+          11.375
+        ]
+      },
+      "onlyBLocalBbox": {
+        "u": [
+          0.375,
+          23.625
+        ],
+        "v": [
+          -35.625,
+          27.375
+        ],
+        "n": [
+          -33.625,
+          12.125
+        ]
+      }
+    },
+    "JAD_FV2->JAD_FROZEN": {
+      "onlyACells": 1008,
+      "onlyBCells": 1323,
+      "onlyAApproxMm3": 425.25,
+      "onlyBApproxMm3": 558.140625,
+      "onlyALocalBbox": {
+        "u": [
+          0.375,
+          22.125
+        ],
+        "v": [
+          -35.625,
+          27.375
+        ],
+        "n": [
+          -32.875,
+          13.625
+        ]
+      },
+      "onlyBLocalBbox": {
+        "u": [
+          0.375,
+          24.375
+        ],
+        "v": [
+          -35.625,
+          29.625
+        ],
+        "n": [
+          -32.125,
+          13.625
+        ]
+      }
+    },
+    "JAD_CLEAN->JAD_FROZEN": {
+      "onlyACells": 1755,
+      "onlyBCells": 1355,
+      "onlyAApproxMm3": 740.390625,
+      "onlyBApproxMm3": 571.640625,
+      "onlyALocalBbox": {
+        "u": [
+          0.375,
+          23.625
+        ],
+        "v": [
+          -35.625,
+          27.375
+        ],
+        "n": [
+          -33.625,
+          13.625
+        ]
+      },
+      "onlyBLocalBbox": {
+        "u": [
+          0.375,
+          23.625
+        ],
+        "v": [
+          -35.625,
+          29.625
+        ],
+        "n": [
+          -33.625,
+          13.625
+        ]
+      }
+    },
+    "JFD_CLEAN->JFD_FV2": {
+      "onlyACells": 1809,
+      "onlyBCells": 223,
+      "onlyAApproxMm3": 763.171875,
+      "onlyBApproxMm3": 94.078125,
+      "onlyALocalBbox": {
+        "u": [
+          -22.875,
+          -0.375
+        ],
+        "v": [
+          -35.625,
+          24.375
+        ],
+        "n": [
+          -33.625,
+          10.625
+        ]
+      },
+      "onlyBLocalBbox": {
+        "u": [
+          -23.625,
+          -0.375
+        ],
+        "v": [
+          -35.625,
+          25.125
+        ],
+        "n": [
+          -33.625,
+          10.625
+        ]
+      }
+    },
+    "JFD_FV2->JFD_FROZEN": {
+      "onlyACells": 990,
+      "onlyBCells": 1318,
+      "onlyAApproxMm3": 417.65625,
+      "onlyBApproxMm3": 556.03125,
+      "onlyALocalBbox": {
+        "u": [
+          -23.625,
+          -0.375
+        ],
+        "v": [
+          -35.625,
+          27.375
+        ],
+        "n": [
+          -32.875,
+          13.625
+        ]
+      },
+      "onlyBLocalBbox": {
+        "u": [
+          -21.375,
+          -0.375
+        ],
+        "v": [
+          -35.625,
+          29.625
+        ],
+        "n": [
+          -30.625,
+          13.625
+        ]
+      }
+    },
+    "JFD_CLEAN->JFD_FROZEN": {
+      "onlyACells": 2704,
+      "onlyBCells": 1446,
+      "onlyAApproxMm3": 1140.75,
+      "onlyBApproxMm3": 610.03125,
+      "onlyALocalBbox": {
+        "u": [
+          -22.875,
+          -0.375
+        ],
+        "v": [
+          -35.625,
+          27.375
+        ],
+        "n": [
+          -33.625,
+          13.625
+        ]
+      },
+      "onlyBLocalBbox": {
+        "u": [
+          -22.875,
+          -0.375
+        ],
+        "v": [
+          -35.625,
+          29.625
+        ],
+        "n": [
+          -33.625,
+          13.625
+        ]
+      }
+    }
+  },
+  "memory": [
+    {
+      "stage": "cropped JAD_CLEAN_PRE_FINGER",
+      "rssMb": 405.5,
+      "availMb": 18692.8
+    },
+    {
+      "stage": "cropped JFD_CLEAN_PRE_FINGER",
+      "rssMb": 407.8,
+      "availMb": 18679.1
+    },
+    {
+      "stage": "cropped JAD_FINGER_V2",
+      "rssMb": 403.5,
+      "availMb": 18695.0
+    },
+    {
+      "stage": "cropped JFD_FINGER_V2",
+      "rssMb": 406.6,
+      "availMb": 18663.6
+    },
+    {
+      "stage": "cropped JAD_LOWERED_THUMB",
+      "rssMb": 412.2,
+      "availMb": 18665.5
+    },
+    {
+      "stage": "cropped JFD_LOWERED_THUMB",
+      "rssMb": 417.6,
+      "availMb": 18651.5
+    },
+    {
+      "stage": "common JAD_CLEAN->JAD_FV2",
+      "rssMb": 438.9,
+      "availMb": 18636.1
+    },
+    {
+      "stage": "common JAD_FV2->JAD_FROZEN",
+      "rssMb": 450.2,
+      "availMb": 18634.3
+    },
+    {
+      "stage": "common JAD_CLEAN->JAD_FROZEN",
+      "rssMb": 448.5,
+      "availMb": 18628.4
+    },
+    {
+      "stage": "common JFD_CLEAN->JFD_FV2",
+      "rssMb": 444.2,
+      "availMb": 18635.8
+    },
+    {
+      "stage": "common JFD_FV2->JFD_FROZEN",
+      "rssMb": 455.0,
+      "availMb": 18637.2
+    },
+    {
+      "stage": "common JFD_CLEAN->JFD_FROZEN",
+      "rssMb": 456.5,
+      "availMb": 18607.9
+    },
+    {
+      "stage": "occupancy JAD_CLEAN",
+      "rssMb": 460.2,
+      "availMb": 18608.6
+    },
+    {
+      "stage": "occupancy JFD_CLEAN",
+      "rssMb": 461.2,
+      "availMb": 18611.8
+    },
+    {
+      "stage": "occupancy JAD_FV2",
+      "rssMb": 462.1,
+      "availMb": 18610.2
+    },
+    {
+      "stage": "occupancy JFD_FV2",
+      "rssMb": 463.1,
+      "availMb": 18611.2
+    },
+    {
+      "stage": "occupancy JAD_FROZEN",
+      "rssMb": 464.7,
+      "availMb": 18597.1
+    },
+    {
+      "stage": "occupancy JFD_FROZEN",
+      "rssMb": 465.8,
+      "availMb": 18583.2
+    }
+  ]
+}

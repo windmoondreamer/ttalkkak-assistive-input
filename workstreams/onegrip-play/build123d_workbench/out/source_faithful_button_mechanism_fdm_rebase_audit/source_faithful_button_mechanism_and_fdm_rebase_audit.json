@@ -1,0 +1,788 @@
+{
+  "schema": "onegrip.source_faithful_button_mechanism_and_fdm_rebase_audit.v1",
+  "generatedUtc": "2026-08-23T18:39:20.858302+00:00",
+  "mode": "AUDIT ONLY / SERIAL / LOCAL CROPS + SELECTED PAIRS / NO FULL SHELL BOOLEAN",
+  "statusCorrection": "docs/75 BASELINE ARCHITECTURE REUSE=100% downgraded to PROVISIONAL — SOURCE-DETAIL DEPENDENCY RECHECK REQUIRED",
+  "authority": {
+    "nominal": "ORIGINAL ONEGRIP DETAILED PUSHBTN",
+    "hardware": "ACTUAL PURCHASED ITS-1105 MEASUREMENTS",
+    "architecture": "ORIGINAL SURROUNDING BACKPLATE/POCKET + CURRENT SEPARATE GUIDE/HARD-STOP PRINCIPLE",
+    "legacy": "CURRENT SIMPLIFIED ITS PROXY"
+  },
+  "freeze": {
+    "exterior": "PRESERVED",
+    "buttonCentersOrientations": "PRESERVED",
+    "loweredThumbExterior": "PRESERVED",
+    "JaDJfDSplit": "PRESERVED",
+    "productionGeometryModificationCount": 0
+  },
+  "cornerLugs": [
+    {
+      "centerSourceXZmm": [
+        -2.2499999708974014,
+        -2.249999968433585
+      ],
+      "centerFunctionalUVmm": [
+        -2.2499999708974014,
+        2.249999968433585
+      ],
+      "topTriangleCount": 126,
+      "topAreaMm2": 0.7850726917134411,
+      "widthXmm": 0.9996893350034952,
+      "lengthZmm": 0.9999999310821295,
+      "baseSourceYmm": 3.000000026077032,
+      "topSourceYmm": 3.5000001080334187,
+      "heightMm": 0.5000000819563866,
+      "nominalInterpretation": "D1.000 x 0.500 cylindrical housing post"
+    },
+    {
+      "centerSourceXZmm": [
+        -2.2499999708974014,
+        2.249999968433585
+      ],
+      "centerFunctionalUVmm": [
+        -2.2499999708974014,
+        -2.249999968433585
+      ],
+      "topTriangleCount": 126,
+      "topAreaMm2": 0.7850726917134411,
+      "widthXmm": 0.9996893350034952,
+      "lengthZmm": 0.9999999310821295,
+      "baseSourceYmm": 3.000000026077032,
+      "topSourceYmm": 3.5000001080334187,
+      "heightMm": 0.5000000819563866,
+      "nominalInterpretation": "D1.000 x 0.500 cylindrical housing post"
+    },
+    {
+      "centerSourceXZmm": [
+        2.2499999708974014,
+        -2.249999968433585
+      ],
+      "centerFunctionalUVmm": [
+        2.2499999708974014,
+        2.249999968433585
+      ],
+      "topTriangleCount": 126,
+      "topAreaMm2": 0.7850726917134413,
+      "widthXmm": 0.9996893350034952,
+      "lengthZmm": 0.9999999310821295,
+      "baseSourceYmm": 3.000000026077032,
+      "topSourceYmm": 3.5000001080334187,
+      "heightMm": 0.5000000819563866,
+      "nominalInterpretation": "D1.000 x 0.500 cylindrical housing post"
+    },
+    {
+      "centerSourceXZmm": [
+        2.2499999708974014,
+        2.249999968433585
+      ],
+      "centerFunctionalUVmm": [
+        2.2499999708974014,
+        -2.249999968433585
+      ],
+      "topTriangleCount": 126,
+      "topAreaMm2": 0.785072691713441,
+      "widthXmm": 0.9996893350034952,
+      "lengthZmm": 0.9999999310821295,
+      "baseSourceYmm": 3.000000026077032,
+      "topSourceYmm": 3.5000001080334187,
+      "heightMm": 0.5000000819563866,
+      "nominalInterpretation": "D1.000 x 0.500 cylindrical housing post"
+    }
+  ],
+  "lugPocketDistancesMm": [
+    0.3203669231,
+    0.4075434014,
+    2.220774373,
+    0.4763209919
+  ],
+  "lugFunction": "F / switch-housing staking or mold-assembly posts; no original pocket contact",
+  "actualLugFeature": {
+    "exists": true,
+    "source": "user visual observation",
+    "dimensions": "UNKNOWN",
+    "gate": "FIRST ARTICLE METROLOGY"
+  },
+  "originalPocket": {
+    "sourceExpression": "#button_module_width + #button_tolerance*2",
+    "moduleWidthMm": 6.0,
+    "tolerancePerSideMm": 0.2,
+    "pocketUmm": 6.4,
+    "pocketVmm": 6.4,
+    "supportThicknessMm": 4.0,
+    "occupiedBodyDepthMm": 3.5,
+    "seatingDatum": "PushBtn plastic main-body bottom plane, source local Y=0",
+    "insertion": "rear/interior insertion through the Backplate support; terminals exit rearward"
+  },
+  "candidate": {
+    "bodyUmm": 6.12,
+    "bodyVmm": 6.05,
+    "bodyHmm": 3.56,
+    "cavityUmm": 7.1,
+    "cavityVmm": 7.1,
+    "locatorPadProtrusionMm": 0.25,
+    "locatorPadWidthMm": 1.2,
+    "cornerKeepoutDiameterMm": 1.4,
+    "cornerKeepoutDepthMm": 0.8,
+    "pusherDiameterMm": 2.6,
+    "initialGapMm": 0.08,
+    "switchNominalTravelMm": 0.25,
+    "switchUpperObservedMm": 0.35,
+    "candidateActuatorCompressionAtStopMm": 0.3,
+    "capTravelToClickMm": 0.33,
+    "capTravelToHardStopMm": 0.38,
+    "radialCenteringMarginMm": 0.375
+  },
+  "travelAuthority": {
+    "original": "UNKNOWN / rigid CAD only",
+    "actualNominalMm": 0.25,
+    "actualUpperObservedMm": 0.35,
+    "current0p350": "PROVISIONAL",
+    "candidateHardStop": "0.38 cap travel / 0.30 actuator compression / PROVISIONAL"
+  },
+  "algorithm": {
+    "currentSolver": [
+      "approved external datum + shell opening",
+      "choose_front_depths: carrier/body versus shell collision + 0.20 mm clearance",
+      "switch body + terminal roots from selected front_depth",
+      "carrier/pair bridge from selected front_depth",
+      "build_cap last: boss/socket/contact adapts to already-selected switch depth",
+      "production-intent scripts add D3 contact, guide, 0.350 cavity/hard stop, reaction support"
+    ],
+    "currentDefect": "cap/pusher/travel/seating tolerances are not simultaneous constraints; 0.350 is injected as architecture constant",
+    "sourceFaithfulSolver": [
+      "frozen exterior cap pose and W axis",
+      "measured switch body + explicit corner-feature keep-out + measured seating datum",
+      "controlled pocket locating surfaces + rear reaction + terminal/service exits",
+      "actual rest/click/overtravel distribution",
+      "pusher gap/length/tip and structural stop solved together",
+      "shell/carrier clearance and split tolerance verified after the stack closes"
+    ],
+    "verdict": "REVISE — simultaneous source-faithful stack solver is mechanically correct"
+  },
+  "fdmModel": {
+    "machine": "Bambu Lab P1S / 0.4 mm nozzle / uncalibrated conservative audit model",
+    "xyDimensionalMm": [
+      -0.15,
+      0.15
+    ],
+    "zLayerQuantizationMm": [
+      -0.1,
+      0.1
+    ],
+    "smallPocketShrinkPerSideMm": [
+      0.0,
+      0.1
+    ],
+    "elephantFootPerSideMm": [
+      0.0,
+      0.15
+    ],
+    "slopedStairStepMm": [
+      0.0,
+      0.2
+    ],
+    "bridgeOverhangSagMm": [
+      0.0,
+      0.2
+    ],
+    "supportScarMm": [
+      0.0,
+      0.15
+    ],
+    "warpageMm": [
+      -0.2,
+      0.2
+    ],
+    "shellHalfTranslationEachGlobalAxisMm": [
+      -0.2,
+      0.2
+    ],
+    "shellHalfRotationDeg": [
+      -0.5,
+      0.5
+    ],
+    "switchDatumUnknownMm": [
+      -0.15,
+      0.15
+    ],
+    "pusherLengthMm": [
+      -0.2,
+      0.2
+    ],
+    "capStackMm": [
+      -0.1,
+      0.1
+    ]
+  },
+  "perButton": {
+    "N1": {
+      "centerMm": [
+        -10.990443464183823,
+        -35.80002827761031,
+        25.0
+      ],
+      "U": [
+        0.9970721597863257,
+        -0.06690971778686815,
+        -0.03701618355143479
+      ],
+      "V": [
+        0.0,
+        -0.48408438682467164,
+        0.8750213177017927
+      ],
+      "W": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "assemblyAxisVsGlobalZDeg": 61.14026239670856,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.1019499008589837,
+        1.2619499008589838
+      ],
+      "clickPositionRangeMm": [
+        -0.9519499008589837,
+        1.611949900858984
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.30194990085898377,
+        1.0619499008589837
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.1819499008589838,
+      "shellSplitProjectedWMm": 0.3819499008589837,
+      "shellSplitSensitivity": "HIGH",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    },
+    "N2": {
+      "centerMm": [
+        5.3077624785043596e-15,
+        -35.76511909258096,
+        25.0
+      ],
+      "U": [
+        0.9990678327020283,
+        -0.03713306578533386,
+        -0.022013656794234157
+      ],
+      "V": [
+        -3.469446951953614e-18,
+        -0.509954577268043,
+        0.8602013305752158
+      ],
+      "W": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "assemblyAxisVsGlobalZDeg": 59.37085330730905,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.0024093141908705,
+        1.1624093141908707
+      ],
+      "clickPositionRangeMm": [
+        -0.8524093141908705,
+        1.5124093141908705
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.2024093141908706,
+        0.9624093141908706
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.0824093141908706,
+      "shellSplitProjectedWMm": 0.2824093141908707,
+      "shellSplitSensitivity": "HIGH",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    },
+    "I2": {
+      "centerMm": [
+        -15.97116502911469,
+        -26.20981698837403,
+        8.99880711855274
+      ],
+      "U": [
+        0.9009200278437554,
+        -0.36462043827151674,
+        -0.2353615079504168
+      ],
+      "V": [
+        0.0,
+        -0.5423261886224416,
+        0.8401680219659969
+      ],
+      "W": [
+        -0.43398514194613513,
+        -0.7569241977430389,
+        -0.48859252495412786
+      ],
+      "assemblyAxisVsGlobalZDeg": 60.75188576398039,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.1814690259016203,
+        1.3414690259016204
+      ],
+      "clickPositionRangeMm": [
+        -1.0314690259016204,
+        1.6914690259016205
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.3814690259016206,
+        1.1414690259016207
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.2614690259016204,
+      "shellSplitProjectedWMm": 0.46146902590162053,
+      "shellSplitSensitivity": "LOW",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    },
+    "I3": {
+      "centerMm": [
+        -5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "U": [
+        0.9966577238198336,
+        -0.07803228254287731,
+        -0.02417321723347358
+      ],
+      "V": [
+        -3.469446951953614e-18,
+        -0.2959112501042562,
+        0.955215437512259
+      ],
+      "W": [
+        -0.08169076783987367,
+        -0.9520228437085347,
+        -0.2949222329815895
+      ],
+      "assemblyAxisVsGlobalZDeg": 72.8471258190666,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.0335298777520012,
+        1.1935298777520014
+      ],
+      "clickPositionRangeMm": [
+        -0.8835298777520012,
+        1.5435298777520012
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.2335298777520014,
+        0.9935298777520014
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.1135298777520013,
+      "shellSplitProjectedWMm": 0.3135298777520014,
+      "shellSplitSensitivity": "MEDIUM",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    },
+    "I4": {
+      "centerMm": [
+        5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "U": [
+        -0.999266256955711,
+        -0.03662779527019523,
+        -0.011196085180435357
+      ],
+      "V": [
+        0.0,
+        0.2923202337147228,
+        -0.9563204907147864
+      ],
+      "W": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "assemblyAxisVsGlobalZDeg": 73.01593391381006,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.0251328812318614,
+        1.1851328812318616
+      ],
+      "clickPositionRangeMm": [
+        -0.8751328812318614,
+        1.5351328812318616
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.2251328812318617,
+        0.9851328812318617
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.1051328812318615,
+      "shellSplitProjectedWMm": 0.30513288123186166,
+      "shellSplitSensitivity": "MEDIUM",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    },
+    "M3": {
+      "centerMm": [
+        -6.890920103853075,
+        -13.71668568786225,
+        -11.11806979342742
+      ],
+      "U": [
+        0.9745294415511665,
+        -0.1776059766511492,
+        -0.13692510583440554
+      ],
+      "V": [
+        -1.3877787807814457e-17,
+        -0.6105651963555218,
+        0.7919659973757354
+      ],
+      "W": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "assemblyAxisVsGlobalZDeg": 53.486386987212505,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.096817955323223,
+        1.256817955323223
+      ],
+      "clickPositionRangeMm": [
+        -0.9468179553232229,
+        1.6068179553232231
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.2968179553232232,
+        1.0568179553232233
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.176817955323223,
+      "shellSplitProjectedWMm": 0.37681795532322315,
+      "shellSplitSensitivity": "MEDIUM",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    },
+    "M4": {
+      "centerMm": [
+        7.379332315763718,
+        -13.575227245499876,
+        -11.115547003937289
+      ],
+      "U": [
+        -0.9576795586458738,
+        -0.22366527322023397,
+        -0.18117314510479327
+      ],
+      "V": [
+        2.7755575615628914e-17,
+        0.6294307071691907,
+        -0.7770566162593899
+      ],
+      "W": [
+        0.2878365212266233,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "assemblyAxisVsGlobalZDeg": 52.92981109159951,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.1086332224334048,
+        1.268633222433405
+      ],
+      "clickPositionRangeMm": [
+        -0.9586332224334048,
+        1.618633222433405
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.3086332224334051,
+        1.0686332224334052
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.1886332224334049,
+      "shellSplitProjectedWMm": 0.38863322243340503,
+      "shellSplitSensitivity": "MEDIUM",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    },
+    "N3": {
+      "centerMm": [
+        17.48689737236422,
+        -6.664472046607768,
+        -11.125
+      ],
+      "U": [
+        -0.7217447238074439,
+        -0.5372433155594315,
+        -0.436410556177123
+      ],
+      "V": [
+        -2.7755575615628914e-17,
+        0.6305059112540501,
+        -0.776184447070218
+      ],
+      "W": [
+        0.6921593412330116,
+        -0.560207029374328,
+        -0.4550643147770151
+      ],
+      "assemblyAxisVsGlobalZDeg": 62.93092756935163,
+      "recommendedCarrierPrintAxisVsBuildZDeg": 0.0,
+      "recommendedPocketWallVsBuildZDeg": 0.0,
+      "recommendedPusherVsBuildZDeg": 0.0,
+      "cornerLugAccommodation": "D1.40 x 0.80 audit keep-out; actual dimensions UNKNOWN",
+      "pocket": "7.10 clearance cavity + 3 tunable locator pads + rear seating plane",
+      "pusher": "D2.60 / 0.08 nominal initial gap / recalculated",
+      "restGapRangeMm": [
+        -1.1716285979578014,
+        1.3316285979578015
+      ],
+      "clickPositionRangeMm": [
+        -1.0216285979578015,
+        1.6816285979578014
+      ],
+      "hardStopCapTravelRangeMm": [
+        -0.37162859795780145,
+        1.1316285979578016
+      ],
+      "fdmU": {
+        "locatingSideNominalMm": 0.24,
+        "clearanceSideNominalMm": 0.49,
+        "uncalibratedMinimumMm": -0.11
+      },
+      "fdmV": {
+        "locatingSideNominalMm": 0.275,
+        "clearanceSideNominalMm": 0.525,
+        "uncalibratedMinimumMm": -0.075
+      },
+      "fdmWStackWorstPlusMinusMm": 1.2516285979578015,
+      "shellSplitProjectedWMm": 0.4516285979578015,
+      "shellSplitSensitivity": "LOW",
+      "worstCases": [
+        "BIND/PRELOAD",
+        "FAIL-TO-CLICK",
+        "OVERTRAVEL"
+      ],
+      "verdict": "AUDIT CANDIDATE ONLY / COUPON + ACTUAL METROLOGY REQUIRED"
+    }
+  },
+  "thumbHousing": {
+    "original": {
+      "method": "local/selected mesh centroid-to-shell samples; not a full-shell boolean",
+      "minimumSampleGapMm": 0.1487659440539403,
+      "maximumReportedLocalGapMm": 4.99267247148916,
+      "medianLocalGapMm": 2.332525965899057,
+      "contactAreaProxyLe0p10Mm2": 0.0,
+      "nearAreaLt5Mm2": 5173.516963949247,
+      "unsupportedAreaProxyGt2Lt5Mm2": 2620.7034997751452,
+      "unsupportedFractionOfNearArea": 0.5065613040484958,
+      "contactClass": "VARIABLE CLEARANCE / CAPTURED SEPARATE INSERT, NOT EXACT CONFORMAL"
+    },
+    "currentLowered": {
+      "method": "local/selected mesh centroid-to-shell samples; not a full-shell boolean",
+      "minimumSampleGapMm": 0.10787065976869784,
+      "maximumReportedLocalGapMm": 4.99823062818098,
+      "medianLocalGapMm": 3.842442629458812,
+      "contactAreaProxyLe0p10Mm2": 0.0,
+      "nearAreaLt5Mm2": 3019.579498258153,
+      "unsupportedAreaProxyGt2Lt5Mm2": 2321.419466784543,
+      "unsupportedFractionOfNearArea": 0.7687889880440824,
+      "contactClass": "VARIABLE CLEARANCE / CAPTURED SEPARATE INSERT, NOT EXACT CONFORMAL"
+    },
+    "candidate": "frozen exterior local inner-facing surface-derived 0.30 mm render band",
+    "verdict": "LOCAL CONFORMAL REBASE"
+  },
+  "finalVerdict": "C / SOURCE-FAITHFUL BUTTON MECHANISM REBASE RECOMMENDED",
+  "thumbVerdict": "LOCAL CONFORMAL REBASE",
+  "outputs": {
+    "step": "build123d_workbench/out/source_faithful_button_mechanism_fdm_rebase_audit/SOURCE_FAITHFUL_BUTTON_MECHANISM_AUDIT_ONLY.step",
+    "json": "build123d_workbench/out/source_faithful_button_mechanism_fdm_rebase_audit/source_faithful_button_mechanism_and_fdm_rebase_audit.json",
+    "report": "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md",
+    "renders": [
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/01_original_detailed_pushbtn_top_bottom_isometric.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/02_original_corner_lug_closeup.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/03_original_pushbtn_inside_original_pocket.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/04_corner_lug_pocket_section.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/05_simplified_its_vs_original_overlay.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/06_current_vs_source_faithful_pocket.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/07_actuation_stack_section.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/08_rest_click_full_sections.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/09_original_thumb_inner_housing_shell_sections.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/10_current_thumb_inner_housing_shell_sections.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/11_proposed_conformal_inner_housing_section.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/12_eight_button_local_axes.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/13_shell_split_button_axis_relationship.png",
+      "renders/source_faithful_button_mechanism_fdm_rebase_audit/14_fdm_worst_case_tolerance_visualization.png"
+    ]
+  },
+  "inputHashesBefore": {
+    "cad_dump/mesh_PushBtn.json": "d9c7ed740332b636014c56e4bc8874d879704bc73f266f72fac62667226be9e7",
+    "cad_dump/features_Joystick.json": "b344e5033a3e31cc465f594b1cf0925c2d3427503d163fbd78e411440d8c6c5b",
+    "cad_dump/asmdef_Joystick.json": "ed0198479cee1b339e4fa042fc0ca5652ad46c74def89c85770a4cf7be4e1219",
+    "cad_dump/mesh_Backplate.json": "3025b64946348401b9c4ad0b393fb17af2bfc633024782829e425f501d6d3ee9",
+    "cad_dump/mesh_Joystick_1.json": "908dd1c04d6f1e6779c75fb3051efc8431fa93e47571f1807e96b94d2f8b3945",
+    "cad_dump/mesh_Joystick_2.json": "9ea311b8b48c676b51ddda79faa0bcbed443d33aaadf10ab59b2860f6d7f6592",
+    "cad_dump/mesh_ITS_LIVE_JaD.json": "84f4b576e178e39d3463de86647fe1c69b96f59c231e72b2e0c6c34553f589c3",
+    "cad_dump/mesh_ITS_LIVE_JfD.json": "c1fc13948098dc44ae487bb12185f0ec95dfd181f010ac10c34ca75171bbdbcd",
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+    "build123d_workbench/out/original_thumb_module_reuse_audit/LOWERED_ORIGINAL_THUMB_CARTRIDGE.step": "f7a7cea568b08ff1565b90c886de955cccf246bf88b7f4a46a00ca61f35c4bc2"
+  },
+  "inputHashesAfter": {
+    "cad_dump/mesh_PushBtn.json": "d9c7ed740332b636014c56e4bc8874d879704bc73f266f72fac62667226be9e7",
+    "cad_dump/features_Joystick.json": "b344e5033a3e31cc465f594b1cf0925c2d3427503d163fbd78e411440d8c6c5b",
+    "cad_dump/asmdef_Joystick.json": "ed0198479cee1b339e4fa042fc0ca5652ad46c74def89c85770a4cf7be4e1219",
+    "cad_dump/mesh_Backplate.json": "3025b64946348401b9c4ad0b393fb17af2bfc633024782829e425f501d6d3ee9",
+    "cad_dump/mesh_Joystick_1.json": "908dd1c04d6f1e6779c75fb3051efc8431fa93e47571f1807e96b94d2f8b3945",
+    "cad_dump/mesh_Joystick_2.json": "9ea311b8b48c676b51ddda79faa0bcbed443d33aaadf10ab59b2860f6d7f6592",
+    "cad_dump/mesh_ITS_LIVE_JaD.json": "84f4b576e178e39d3463de86647fe1c69b96f59c231e72b2e0c6c34553f589c3",
+    "cad_dump/mesh_ITS_LIVE_JfD.json": "c1fc13948098dc44ae487bb12185f0ec95dfd181f010ac10c34ca75171bbdbcd",
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+    "build123d_workbench/out/original_thumb_module_reuse_audit/LOWERED_ORIGINAL_THUMB_CARTRIDGE.step": "f7a7cea568b08ff1565b90c886de955cccf246bf88b7f4a46a00ca61f35c4bc2"
+  },
+  "protectedInputsPreserved": true
+}

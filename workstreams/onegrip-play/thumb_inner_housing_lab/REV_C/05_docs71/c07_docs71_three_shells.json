@@ -1,0 +1,50 @@
+{
+  "note": "docs/71 not modified; SZH remains PROVISIONAL / MEASURE ON ARRIVAL",
+  "szhVsShells": {
+    "pcb": {
+      "FINGER_V2": 181.13409485994805,
+      "FROZEN_OLD": 181.13379408479057,
+      "RECONCILED": 181.13384336942545
+    },
+    "gimbal": {
+      "FINGER_V2": 0.0,
+      "FROZEN_OLD": 0.0,
+      "RECONCILED": 0.0
+    },
+    "x_pot": {
+      "FINGER_V2": 0.0,
+      "FROZEN_OLD": 0.0,
+      "RECONCILED": 0.0
+    },
+    "y_pot": {
+      "FINGER_V2": 0.0,
+      "FROZEN_OLD": 0.0,
+      "RECONCILED": 0.0
+    },
+    "push_switch": {
+      "FINGER_V2": 0.0,
+      "FROZEN_OLD": 0.0,
+      "RECONCILED": 0.0
+    },
+    "shaft": {
+      "FINGER_V2": 11.827498536683255,
+      "FROZEN_OLD": 0.0,
+      "RECONCILED": 0.0
+    },
+    "cap": {
+      "FINGER_V2": 422.17008072227003,
+      "FROZEN_OLD": 44.79599784683367,
+      "RECONCILED": 32.12509620678925
+    },
+    "header": {
+      "FINGER_V2": 73.37790573192412,
+      "FROZEN_OLD": 73.37790573192412,
+      "RECONCILED": 73.37790828890058
+    },
+    "MOVING_ENVELOPE_25deg": {
+      "FINGER_V2": 2072.2182610362333,
+      "FROZEN_OLD": 1839.568832594904,
+      "RECONCILED": 1826.8813710429897
+    }
+  }
+}

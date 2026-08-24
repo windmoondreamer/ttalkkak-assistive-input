@@ -1,0 +1,626 @@
+{
+  "schema": "onegrip.direct-shell-four-edge-i2-simplification-audit.v1",
+  "generatedUtc": "2026-08-24T07:51:54.953383+00:00",
+  "mode": "AUDIT-ONLY / I2 ONLY / NO PRODUCTION PROPAGATION",
+  "finalVerdict": "A \u2014 DIRECT-SHELL SIMPLE DESIGN WORKS",
+  "freeze": {
+    "button": "I2",
+    "owner": "JfD",
+    "buttonCenter": [
+      -15.97116502911469,
+      -26.20981698837403,
+      8.99880711855274
+    ],
+    "pressAxis": [
+      -0.43398514194613513,
+      -0.7569241977430389,
+      -0.48859252495412786
+    ],
+    "exteriorNormal": [
+      -0.47237675018851943,
+      -0.7367637373812471,
+      -0.48377618912194265
+    ],
+    "axisToExteriorNormalDeg": 2.499999999999953,
+    "frontDepthMm": 5.4,
+    "exteriorPreserved": true,
+    "splitPreserved": true
+  },
+  "currentAudit": {
+    "sourceDefinedComponents": [
+      {
+        "component": "FOUR EDGE LEGS",
+        "decision": "SIMPLIFY",
+        "solidCount": 4,
+        "volumeMm3": 53.248000000000005,
+        "reason": "replace upper/lower/transition stack with four straight full-length legs"
+      },
+      {
+        "component": "MINIMAL LANDINGS",
+        "decision": "REMOVE",
+        "solidCount": 4,
+        "volumeMm3": 25.535999999999994,
+        "reason": "0.60 mm structural reaction ledge is below the 1.20 mm rule"
+      },
+      {
+        "component": "FOUR RECEIVERS",
+        "decision": "REMOVE",
+        "solidCount": 4,
+        "volumeMm3": 72.912,
+        "reason": "replace references with four voids cut directly in the shell crop"
+      },
+      {
+        "component": "RECEIVER WALLS",
+        "decision": "REMOVE",
+        "solidCount": 8,
+        "volumeMm3": 71.42399999999999,
+        "reason": "eight separate walls are not part of the direct-shell load path"
+      },
+      {
+        "component": "OUTBOARD STRUTS",
+        "decision": "REMOVE",
+        "solidCount": 4,
+        "volumeMm3": 76.21272665168905,
+        "reason": "their span is absorbed into the straight structural legs"
+      },
+      {
+        "component": "CONFORMAL PANELS",
+        "decision": "REMOVE",
+        "solidCount": 4,
+        "volumeMm3": 86.01600000000006,
+        "reason": "Level 0 uses frozen shell material directly"
+      },
+      {
+        "component": "INNER HOUSING",
+        "decision": "REMOVE",
+        "solidCount": 1,
+        "volumeMm3": 20.41501943594793,
+        "reason": "separate support body is prohibited by the simplified intent"
+      },
+      {
+        "component": "ROOT TRANSITIONS",
+        "decision": "REMOVE",
+        "solidCount": 4,
+        "volumeMm3": 19.968,
+        "reason": "four separate root transitions disappear into four straight legs"
+      },
+      {
+        "component": "N2 REAR TRANSITION",
+        "decision": "REMOVE",
+        "solidCount": 0,
+        "volumeMm3": 0.0,
+        "reason": "not present in I2; no rear-route family is carried forward by default"
+      },
+      {
+        "component": "PUSHER GUIDE",
+        "decision": "KEEP",
+        "solidCount": 1,
+        "volumeMm3": 28.34501971701388,
+        "reason": "existing simple guide; checked only for collision"
+      },
+      {
+        "component": "HARD STOP",
+        "decision": "KEEP",
+        "solidCount": 1,
+        "volumeMm3": 1.1677299893393314,
+        "reason": "existing independent shoulder/cavity-floor stop"
+      },
+      {
+        "component": "PUSHER",
+        "decision": "KEEP",
+        "solidCount": 1,
+        "volumeMm3": 68.05098094720455,
+        "reason": "existing separate captive pusher"
+      },
+      {
+        "component": "RETENTION CLIP",
+        "decision": "KEEP",
+        "solidCount": 1,
+        "volumeMm3": 13.667219834520862,
+        "reason": "retention only; excluded from press load"
+      },
+      {
+        "component": "SECONDARY GLUE BEADS",
+        "decision": "REMOVE",
+        "solidCount": 8,
+        "volumeMm3": 3.906,
+        "reason": "not required to define the Level-0 structural path"
+      }
+    ],
+    "actualExportedStepChildren": [
+      {
+        "label": "I2_FOUR_RECEIVER_LOCAL_CONFORMAL_INNER_HOUSING",
+        "shapeType": "Solid",
+        "solidCount": 1,
+        "volumeMm3": 20.41501943595179
+      },
+      {
+        "label": "I2_FOUR_EDGE_LEG_STRUCTURAL_HARNESS",
+        "shapeType": "Solid",
+        "solidCount": 1,
+        "volumeMm3": 158.48479999999998
+      },
+      {
+        "label": "ITS1105_MEASURED_BODY",
+        "shapeType": "Solid",
+        "solidCount": 1,
+        "volumeMm3": 131.81256000000002
+      },
+      {
+        "label": "ITS1105_MEASURED_ACTUATOR",
+        "shapeType": "Solid",
+        "solidCount": 1,
+        "volumeMm3": 21.506479368495988
+      },
+      {
+        "label": "AUDIT_OUTER_SHELL_GUIDE_AND_STOP_INTERFACE",
+        "shapeType": "Solid",
+        "solidCount": 1,
+        "volumeMm3": 28.34501971701428
+      },
+      {
+        "label": "SEPARATE_CAPTIVE_PUSHER_PIN",
+        "shapeType": "Solid",
+        "solidCount": 1,
+        "volumeMm3": 68.05098094720479
+      },
+      {
+        "label": "METAL_E_CLIP_REPRESENTATION_RETENTION_ONLY",
+        "shapeType": "Solid",
+        "solidCount": 1,
+        "volumeMm3": 13.667219834520811
+      },
+      {
+        "label": "I2_RECEIVER_EXIT_SECONDARY_ADHESIVE",
+        "shapeType": "Compound",
+        "solidCount": 8,
+        "volumeMm3": 3.9059999999999993
+      }
+    ],
+    "actualExportedStepSolidCount": 15,
+    "generatorHousingCompoundCollapsedToMinusVStrut": true,
+    "generatorHousingActualSolidCount": 1,
+    "generatorHousingActualVolumeMm3": 20.41501943594793,
+    "sourcePanelSolids": 4,
+    "sourceReceiverWallSolids": 8,
+    "sourceOutboardStrutSolids": 4
+  },
+  "directShell": {
+    "level": 0,
+    "legCount": 4,
+    "straightLegs": true,
+    "cornerPosts": false,
+    "largePocket": false,
+    "separateReceiverBodies": false,
+    "conformalPanels": false,
+    "outboardStruts": false,
+    "localPads": false,
+    "legThicknessRangeMm": [
+      1.2,
+      1.6
+    ],
+    "legTangentWidthMm": 2.6,
+    "blindSlotDepthMm": 1.2,
+    "slotCrossSectionsMm": {
+      "+U": [
+        3.0,
+        1.6
+      ],
+      "-U": [
+        3.0,
+        2.0
+      ],
+      "+V": [
+        3.0,
+        2.0
+      ],
+      "-V": [
+        3.0,
+        2.0
+      ]
+    },
+    "slotClearancePerSideMm": 0.2,
+    "minimumRemainingExteriorThicknessMm": 1.2429984082455352,
+    "harnessPrintedSolidCount": 1,
+    "harnessShellPenetrationMm3": 0.0,
+    "legs": {
+      "+U": {
+        "edge": "+U",
+        "rootLocalUVWmm": [
+          3.74,
+          0.0,
+          0.0
+        ],
+        "targetLocalUVmm": [
+          4.8,
+          1.6
+        ],
+        "directionLocal": [
+          0.18323609666548785,
+          0.2765827874196044,
+          0.9433591546076171
+        ],
+        "directionWorld": [
+          -0.2443227873087204,
+          -0.9308610860980991,
+          -0.2716689418942938
+        ],
+        "innerPointLocalUVWmm": [
+          4.799999999999999,
+          1.599999999999999,
+          5.457225525326384
+        ],
+        "floorPointLocalUVWmm": [
+          5.07104414496318,
+          2.009123237680272,
+          6.852649135121985
+        ],
+        "legLengthMm": 7.264093533890908,
+        "legThicknessMm": 1.2,
+        "legTangentWidthMm": 2.6,
+        "shellThicknessCenterMm": 3.029833783679279,
+        "shellThicknessFootprintMinMm": 2.7197626449973535,
+        "shellThicknessFootprintMaxMm": 3.0559756244104763,
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          1.741298584270793
+        ],
+        "remainingExteriorThicknessCenterMm": 1.5506266302001608,
+        "remainingExteriorThicknessFootprintMinMm": 1.3011562965343488,
+        "innerDistanceFootprintRangeMm": [
+          5.522794949620115,
+          6.064093533890908
+        ],
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          1.6
+        ],
+        "clearancePerSideMm": 0.2
+      },
+      "-U": {
+        "edge": "-U",
+        "rootLocalUVWmm": [
+          -4.04,
+          0.0,
+          -0.6
+        ],
+        "targetLocalUVmm": [
+          -6.0,
+          0.0
+        ],
+        "directionLocal": [
+          -0.38517070529146835,
+          0.0,
+          0.9228453433730232
+        ],
+        "directionWorld": [
+          -0.7475091698738598,
+          -0.5580828598008004,
+          -0.3602409784450589
+        ],
+        "innerPointLocalUVWmm": [
+          -6.0,
+          0.0,
+          4.09603956937062
+        ],
+        "floorPointLocalUVWmm": [
+          -6.569002169145396,
+          0.0,
+          5.45933380476067
+        ],
+        "legLengthMm": 6.565925534839511,
+        "legThicknessMm": 1.6,
+        "legTangentWidthMm": 2.6,
+        "shellThicknessCenterMm": 3.0683112778854165,
+        "shellThicknessFootprintMinMm": 3.016226531044926,
+        "shellThicknessFootprintMaxMm": 3.149568675153681,
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          1.9065702669081457
+        ],
+        "remainingExteriorThicknessCenterMm": 1.5910385743063156,
+        "remainingExteriorThicknessFootprintMinMm": 1.2429984082455352,
+        "innerDistanceFootprintRangeMm": [
+          4.659355267931366,
+          5.365925534839511
+        ],
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          2.0
+        ],
+        "clearancePerSideMm": 0.2
+      },
+      "+V": {
+        "edge": "+V",
+        "rootLocalUVWmm": [
+          0.0,
+          4.175,
+          -0.6
+        ],
+        "targetLocalUVmm": [
+          0.0,
+          5.5
+        ],
+        "directionLocal": [
+          0.0,
+          0.20564107803225362,
+          0.9786274812336575
+        ],
+        "directionWorld": [
+          -0.42470978635557755,
+          -0.8522713631955192,
+          -0.3053770142801374
+        ],
+        "innerPointLocalUVWmm": [
+          0.0,
+          5.499999999999999,
+          5.705556385146058
+        ],
+        "floorPointLocalUVWmm": [
+          0.0,
+          5.79958969272335,
+          7.131276913354109
+        ],
+        "legLengthMm": 7.900122428207374,
+        "legThicknessMm": 1.6,
+        "legTangentWidthMm": 2.6,
+        "shellThicknessCenterMm": 3.025305353525389,
+        "shellThicknessFootprintMinMm": 2.527620753301308,
+        "shellThicknessFootprintMaxMm": 3.0513713370775877,
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          1.6281518090035876
+        ],
+        "remainingExteriorThicknessCenterMm": 1.5684481166830428,
+        "remainingExteriorThicknessFootprintMinMm": 1.327620753301308,
+        "innerDistanceFootprintRangeMm": [
+          6.2719706192037865,
+          6.700122428207374
+        ],
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          2.0
+        ],
+        "clearancePerSideMm": 0.2
+      },
+      "-V": {
+        "edge": "-V",
+        "rootLocalUVWmm": [
+          0.0,
+          -4.005,
+          -0.6
+        ],
+        "targetLocalUVmm": [
+          0.0,
+          -5.5
+        ],
+        "directionLocal": [
+          0.0,
+          -0.2334453768510111,
+          0.9723699172778276
+        ],
+        "directionWorld": [
+          -0.4219940965739697,
+          -0.6094067780658463,
+          -0.671226013578231
+        ],
+        "innerPointLocalUVWmm": [
+          0.0,
+          -5.5,
+          5.627122789662802
+        ],
+        "floorPointLocalUVWmm": [
+          0.0,
+          -5.826697287352642,
+          6.987914845445179
+        ],
+        "legLengthMm": 7.803526940331231,
+        "legThicknessMm": 1.6,
+        "legTangentWidthMm": 2.6,
+        "shellThicknessCenterMm": 3.034128757700852,
+        "shellThicknessFootprintMinMm": 2.5311601570382694,
+        "shellThicknessFootprintMaxMm": 3.0671889576089795,
+        "blindDepthFootprintRangeMm": [
+          1.2000000000000002,
+          1.6080232559807177
+        ],
+        "remainingExteriorThicknessCenterMm": 1.6346695276251761,
+        "remainingExteriorThicknessFootprintMinMm": 1.3311601570382692,
+        "innerDistanceFootprintRangeMm": [
+          6.195503684350514,
+          6.603526940331231
+        ],
+        "slotDepthMm": 1.2,
+        "slotCrossSectionMm": [
+          3.0,
+          2.0
+        ],
+        "clearancePerSideMm": 0.2
+      }
+    }
+  },
+  "pusher": {
+    "reusedWithoutRedesign": true,
+    "clipRetentionOnly": true,
+    "independentHardStop": true,
+    "printedSupportSolidCount": 3,
+    "printedSupportSolids": [
+      "one fused harness",
+      "existing pusher",
+      "existing guide/hard-stop interface"
+    ]
+  },
+  "clearances": {
+    "terminals": {
+      "TNN": {
+        "distanceMm": 0.6000000000000001,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "TNP": {
+        "distanceMm": 0.5999999999999999,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "TPN": {
+        "distanceMm": 0.8890779579242496,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "TPP": {
+        "distanceMm": 0.5939964226298714,
+        "penetrationMm3": 0.0,
+        "clear": true
+      }
+    },
+    "minimumTerminalClearanceMm": 0.5939964226298714,
+    "allTerminalsClear": true,
+    "pusherToHarnessClearanceMm": 1.4587274200021307,
+    "pusherToHarnessPenetrationMm3": 0.0,
+    "neighborScope": "other seven frozen measured ITS body+actuator envelopes",
+    "neighbors": {
+      "N1": {
+        "minimumDistanceMm": 9.317542627519192,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "N2": {
+        "minimumDistanceMm": 12.991508038131391,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "I3": {
+        "minimumDistanceMm": 0.21530001082079397,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "I4": {
+        "minimumDistanceMm": 10.123381016901133,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "M3": {
+        "minimumDistanceMm": 14.816560915143725,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "M4": {
+        "minimumDistanceMm": 19.825577154036505,
+        "penetrationMm3": 0.0,
+        "clear": true
+      },
+      "N3": {
+        "minimumDistanceMm": 27.428975793636273,
+        "penetrationMm3": 0.0,
+        "clear": true
+      }
+    },
+    "nearestNeighbor": "I3",
+    "minimumNeighborClearanceMm": 0.21530001082079397,
+    "allNeighborsClear": true
+  },
+  "preservation": {
+    "protectedFileCount": 35,
+    "hashesBefore": {
+      "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "db15c811e1e47cf3533efd7af5818dcf03f41bf4a0c9b7ca404231a1b3badfb9",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7dc5c5f5f2c01445f86b60cc56fe4fe271d7e50793394130db127eea48317b2e",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744b39ab532ad767afb36ddfd89a37ea13126ded9f9484246d54991acde1fa",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "c50194cd7ab892fc2c0bbe7991e78eee9645c1b1df1bd613364b97a2c3d17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9cba1cfa8e9b01d36308983fc0cf163326925817534a22ccb554b85d4a93521a",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72c15567c6c2c7f57667f28f4190bd5e584f7572d4de36886e37e7890abbc1e0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "bdb77197e59ea22ffbb4aa55e61b7b5382eee75e8399f9ddae1339f2eb5ca752",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "a42634c3a617f900f51650d7820cad177de623ea568f5f9948dc96bfc8de54c3",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9a7ecff9562a2fefe255ad5c8705128e929ce0ff81b8e83ff83d49df7c7371d5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28b9f704bfc64b8ff22f1b9cd3164ccc319ee2aaa5711af2f3404cc8d0f09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5d7075d2b6bb2524b0ebcf8dc0dd782afcd8248c3f25319248c0556b2e72d0ce",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2a4f286f6d1a456132e8cd76eb254e8f6cfe0b1a6f2a3590ba7b94cc88cfcd9f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "f2154c55a194fc26b75ddfbdb24c250b285c62d6d6c9ed471ba544864da28f96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "ef0ff029d1b6dbea6907c2ea11124f42b5ffe0b9f63f735019eb8b6376ade54e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "fb46fdbf211571434689dd4e5c2fa6ab407e79fe00b3593664196b54c09acc25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "b39e30fb31d6a5944e8f3445535e93f4ace74939879a9fdba87dbae74dd552cb",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "c2c5d2b635ce5421b0f4010e2ee6dc26f643135f9f1aee75024c8cb34a2edebf",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "f53b684898c0de0d786c324bbc8285afcbac607318c9397a9a8acffc3899bd2f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718d09e0f411f98bb8e8a4a11723115a0c2449c3c4825dc0f27611e9f52531ca",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5a30592c3ebb92eafe8542a1eadcc6922f03d8950262415ff984b7898099ba95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ed937cf499c3ec5d0c1a15ebab115672407802901c323db74078f4f5dfa2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16d6d796d6dc8799635ee16fe806599b1e9e213816b56a18c065ce30217cc5f0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006eff308701a5dfcb16172a3d0255de7c872449a76890c04cf28ea36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "c7441bdf1339677768308c9c984a15e4b553b05e401af9f3ce1320c8242b0fd9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "e4b687bbeeac298301ceefa70d018def4f5c9e38a6d2e6eb7a3991aa9f94763e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "eb5d37680e460dcede1cf9ff886cfc96b60c6718220cd366f97b7410fbab80bc",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832eb2aed99cc37130a0cd1b7ee4daf0e5e459a87ecff2f2eeb0e46b17e1dfea"
+    },
+    "hashesAfter": {
+      "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "db15c811e1e47cf3533efd7af5818dcf03f41bf4a0c9b7ca404231a1b3badfb9",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7dc5c5f5f2c01445f86b60cc56fe4fe271d7e50793394130db127eea48317b2e",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744b39ab532ad767afb36ddfd89a37ea13126ded9f9484246d54991acde1fa",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "c50194cd7ab892fc2c0bbe7991e78eee9645c1b1df1bd613364b97a2c3d17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9cba1cfa8e9b01d36308983fc0cf163326925817534a22ccb554b85d4a93521a",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72c15567c6c2c7f57667f28f4190bd5e584f7572d4de36886e37e7890abbc1e0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "bdb77197e59ea22ffbb4aa55e61b7b5382eee75e8399f9ddae1339f2eb5ca752",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "a42634c3a617f900f51650d7820cad177de623ea568f5f9948dc96bfc8de54c3",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9a7ecff9562a2fefe255ad5c8705128e929ce0ff81b8e83ff83d49df7c7371d5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28b9f704bfc64b8ff22f1b9cd3164ccc319ee2aaa5711af2f3404cc8d0f09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5d7075d2b6bb2524b0ebcf8dc0dd782afcd8248c3f25319248c0556b2e72d0ce",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2a4f286f6d1a456132e8cd76eb254e8f6cfe0b1a6f2a3590ba7b94cc88cfcd9f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "f2154c55a194fc26b75ddfbdb24c250b285c62d6d6c9ed471ba544864da28f96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "ef0ff029d1b6dbea6907c2ea11124f42b5ffe0b9f63f735019eb8b6376ade54e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "fb46fdbf211571434689dd4e5c2fa6ab407e79fe00b3593664196b54c09acc25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "b39e30fb31d6a5944e8f3445535e93f4ace74939879a9fdba87dbae74dd552cb",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "c2c5d2b635ce5421b0f4010e2ee6dc26f643135f9f1aee75024c8cb34a2edebf",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "f53b684898c0de0d786c324bbc8285afcbac607318c9397a9a8acffc3899bd2f",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718d09e0f411f98bb8e8a4a11723115a0c2449c3c4825dc0f27611e9f52531ca",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5a30592c3ebb92eafe8542a1eadcc6922f03d8950262415ff984b7898099ba95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ed937cf499c3ec5d0c1a15ebab115672407802901c323db74078f4f5dfa2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16d6d796d6dc8799635ee16fe806599b1e9e213816b56a18c065ce30217cc5f0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006eff308701a5dfcb16172a3d0255de7c872449a76890c04cf28ea36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "c7441bdf1339677768308c9c984a15e4b553b05e401af9f3ce1320c8242b0fd9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "e4b687bbeeac298301ceefa70d018def4f5c9e38a6d2e6eb7a3991aa9f94763e",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "eb5d37680e460dcede1cf9ff886cfc96b60c6718220cd366f97b7410fbab80bc",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832eb2aed99cc37130a0cd1b7ee4daf0e5e459a87ecff2f2eeb0e46b17e1dfea"
+    },
+    "allProtectedFilesPreserved": true,
+    "productionModification": 0,
+    "productionShellBoolean": 0,
+    "physicalCouponCreated": false,
+    "eightButtonPropagation": 0
+  },
+  "outputs": {
+    "harnessStep": "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_FOUR_EDGE_HARNESS_AUDIT_ONLY.step",
+    "shellCropStep": "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_LOCAL_CROP_WITH_BLIND_SLOTS_AUDIT_ONLY.step",
+    "assemblyStep": "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_SIMPLIFIED_FULL_ASSEMBLY_AUDIT_ONLY.step",
+    "json": "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/direct_shell_four_edge_i2_simplification_audit.json",
+    "report": "docs/80_direct_shell_four_edge_i2_simplification_audit.md",
+    "renders": [
+      "renders/direct_shell_four_edge_i2_simplification_audit/01_current_docs79_i2_full_stack_exploded_named.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/02_current_receiver_panel_strut_closeup.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/03_simplified_direct_shell_candidate_top.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/04_simplified_candidate_isometric.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/05_section_plus_u_minus_u_legs.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/06_section_plus_v_minus_v_legs.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/07_four_shell_blind_slots_only.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/08_its_harness_four_legs_only.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/09_full_simplified_assembly.png",
+      "renders/direct_shell_four_edge_i2_simplification_audit/10_current_vs_simplified_comparison.png"
+    ]
+  }
+}

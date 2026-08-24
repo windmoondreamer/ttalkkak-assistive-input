@@ -1,0 +1,170 @@
+{
+  "volumeMm3": 3087.943912393123,
+  "faces": 587,
+  "solids": 1,
+  "interferenceWithReconciledMm3": 0.20021496176865272,
+  "planAreaMm2": 1298.5625,
+  "thinBelowMinWallMm2": 21.8125,
+  "thinBelowPreferredMm2": 30.25,
+  "minThicknessMm": 0.0031926096728902564,
+  "interiorThinAreaMm2": 0.0,
+  "gapBands": [
+    {
+      "loMm": 0.0,
+      "hiMm": 0.2,
+      "columns": 601,
+      "areaMm2": 37.5625,
+      "fractionInsidePadFootprint": 1.0,
+      "class": "INTENTIONAL LOAD TRANSFER"
+    },
+    {
+      "loMm": 0.2,
+      "hiMm": 0.4,
+      "columns": 147,
+      "areaMm2": 9.1875,
+      "fractionInsidePadFootprint": 0.047619047619047616,
+      "class": "review"
+    },
+    {
+      "loMm": 0.4,
+      "hiMm": 0.8,
+      "columns": 7,
+      "areaMm2": 0.4375,
+      "fractionInsidePadFootprint": 1.0,
+      "class": "ASSEMBLY CLEARANCE"
+    },
+    {
+      "loMm": 0.8,
+      "hiMm": 1.2,
+      "columns": 13063,
+      "areaMm2": 816.4375,
+      "fractionInsidePadFootprint": 0.00826762611957437,
+      "class": "ASSEMBLY CLEARANCE"
+    },
+    {
+      "loMm": 1.2,
+      "hiMm": null,
+      "columns": 6959,
+      "areaMm2": 434.9375,
+      "fractionInsidePadFootprint": 0.0040235666043971835,
+      "class": "ASSEMBLY CLEARANCE"
+    }
+  ],
+  "lowGapZones": [
+    {
+      "areaMm2": 4.375,
+      "minGapMm": 0.250071991562252,
+      "meanGapMm": 0.27003569912749026,
+      "fractionInsidePad": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        -20.25,
+        -20.25
+      ],
+      "vRange": [
+        -6.25,
+        11.0
+      ]
+    },
+    {
+      "areaMm2": 1.25,
+      "minGapMm": 0.25832260437744203,
+      "meanGapMm": 0.2849405072488156,
+      "fractionInsidePad": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        -20.0,
+        -20.0
+      ],
+      "vRange": [
+        -15.75,
+        -11.0
+      ]
+    },
+    {
+      "areaMm2": 28.4375,
+      "minGapMm": 0.10605858937324264,
+      "meanGapMm": 0.12335797119045468,
+      "fractionInsidePad": 1.0,
+      "class": "INTENTIONAL LOAD TRANSFER",
+      "uRange": [
+        -8.0,
+        0.25
+      ],
+      "vRange": [
+        -38.25,
+        -28.75
+      ]
+    },
+    {
+      "areaMm2": 9.5625,
+      "minGapMm": 0.10522252418493494,
+      "meanGapMm": 0.11738037593295655,
+      "fractionInsidePad": 1.0,
+      "class": "INTENTIONAL LOAD TRANSFER",
+      "uRange": [
+        5.0,
+        10.25
+      ],
+      "vRange": [
+        -37.0,
+        -32.5
+      ]
+    },
+    {
+      "areaMm2": 1.4375,
+      "minGapMm": 0.2695975994454507,
+      "meanGapMm": 0.2801169603532072,
+      "fractionInsidePad": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        20.5,
+        20.5
+      ],
+      "vRange": [
+        -14.5,
+        -9.0
+      ]
+    },
+    {
+      "areaMm2": 0.375,
+      "minGapMm": 0.37793783341703957,
+      "meanGapMm": 0.38682780117212684,
+      "fractionInsidePad": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        20.5,
+        20.5
+      ],
+      "vRange": [
+        12.75,
+        14.0
+      ]
+    },
+    {
+      "areaMm2": 0.8125,
+      "minGapMm": 0.248627141786379,
+      "meanGapMm": 0.2607116295692942,
+      "fractionInsidePad": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        20.75,
+        20.75
+      ],
+      "vRange": [
+        0.25,
+        3.25
+      ]
+    }
+  ],
+  "intentionalLoadTransferMm2": 38.0,
+  "assemblyClearanceMm2": 8.25,
+  "contactFractionAt0p30": 0.035231265341483374,
+  "memory": [
+    {
+      "stage": "load",
+      "rssMb": 462.5,
+      "availMb": 14650.4
+    }
+  ]
+}

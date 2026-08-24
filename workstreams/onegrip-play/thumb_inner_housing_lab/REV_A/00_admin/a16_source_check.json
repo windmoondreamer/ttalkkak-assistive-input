@@ -1,0 +1,83 @@
+{
+  "authoritySources": {
+    "JAD_CLEAN_PRE_FINGER": {
+      "path": "local_cad/reference/JAD_CLEAN_PRE_FINGER.step",
+      "sha256": "01f5708a29ca46b0f9f13b5c63b5f4d9b7b46bcf04fc8b0a55b806085f1ff4f0",
+      "state": "UNCHANGED"
+    },
+    "JAD_FINGER_V2": {
+      "path": "build123d_workbench/out/finger_controls_v2/JAD_FINGER_V2.step",
+      "sha256": "a477aa79e55ddb21fb2a45c7f616544f6eb4844b593f61cf7d45303476c5a762",
+      "state": "UNCHANGED"
+    },
+    "JAD_LOWERED_THUMB": {
+      "path": "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "sha256": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+      "state": "UNCHANGED"
+    },
+    "JFD_CLEAN_PRE_FINGER": {
+      "path": "local_cad/reference/JFD_CLEAN_PRE_FINGER.step",
+      "sha256": "8d290891dd93f16f50789f24ef7d27c754b27b4250caa1ebb3cb587648475792",
+      "state": "UNCHANGED"
+    },
+    "JFD_FINGER_V2": {
+      "path": "build123d_workbench/out/finger_controls_v2/JFD_FINGER_V2.step",
+      "sha256": "d457d5d9b305a4c7d77e21aab3cb7d33336d672d4d8bf031e6158de44c26ad50",
+      "state": "UNCHANGED"
+    },
+    "JFD_LOWERED_THUMB": {
+      "path": "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "sha256": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+      "state": "UNCHANGED"
+    },
+    "LOWERED_ORIGINAL_THUMB_CARTRIDGE": {
+      "path": "build123d_workbench/out/original_thumb_module_reuse_audit/LOWERED_ORIGINAL_THUMB_CARTRIDGE.step",
+      "sha256": "f7a7cea568b08ff1565b90c886de955cccf246bf88b7f4a46a00ca61f35c4bc2",
+      "state": "UNCHANGED"
+    },
+    "N1_N2_CARRIER": {
+      "path": "build123d_workbench/out/n1_production_intent_mechanism/N1_N2_SHARED_CARRIER_N1_LOCAL.step",
+      "sha256": "2485e34f8716395459f1f7b10384fd73a33695472f9aae689cf321d583830756",
+      "state": "UNCHANGED"
+    },
+    "ORIGINAL_FASTENING": {
+      "path": "build123d_workbench/out/original_thumb_module_reuse_audit/ORIGINAL_FASTENING_REFERENCE.step",
+      "sha256": "540d8e36712e2f20e59d449c9a74fd6bf4265db18a1daf7b3ee28f92611d8068",
+      "state": "UNCHANGED"
+    },
+    "ORIGINAL_THUMB_CARTRIDGE": {
+      "path": "build123d_workbench/out/original_thumb_module_reuse_audit/ORIGINAL_THUMB_CARTRIDGE.step",
+      "sha256": "ee6ed6848e7c0481a2c73639c85fc39bf63ac837514ca13b16bdc1bc6e075527",
+      "state": "UNCHANGED"
+    },
+    "SZH_WEB_REFERENCE": {
+      "path": "local_cad/reference/SZH_EK056_WEB_REFERENCE.step",
+      "sha256": "39fc7e19c36844e6f0eab4da88d519d6debccf41b8d5f5bc3f244afbce5ec4c5",
+      "state": "UNCHANGED"
+    },
+    "THUMB_ORIGINAL_PRE_FINGER": {
+      "path": "local_cad/reference/THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+      "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d",
+      "state": "UNCHANGED"
+    },
+    "THUMB_TARGET_EXACT_MODULE": {
+      "path": "build123d_workbench/out/finger_thumb_joint_feasibility/THUMB_TARGET_EXACT_MODULE.step",
+      "sha256": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9",
+      "state": "UNCHANGED"
+    }
+  },
+  "authorityChangedCount": 0,
+  "watchSetChanged": [
+    "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py"
+  ],
+  "watchSetRemoved": [],
+  "watchSetAdded": [
+    "build123d_workbench/direct_shell_four_edge_i2_simplification_audit.py",
+    "build123d_workbench/i2_minimum_angle_direct_shell_assembly_audit.py",
+    "build123d_workbench/i2_parallel_w_four_edge_leg_revalidation_audit.py",
+    "build123d_workbench/i2_parallel_w_root_slide_simplification_audit.py",
+    "docs/80_direct_shell_four_edge_i2_simplification_audit.md",
+    "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md",
+    "docs/82_i2_parallel_w_root_slide_simplification_audit.md"
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "containment": {
+    "frozenVolumeMm3": 32614.44830998995,
+    "reconciledVolumeMm3": 31728.33391655645,
+    "commonVolumeMm3": -44.898595007554135,
+    "materialAddedMm3": 31773.232511564005,
+    "materialRemovedMm3": 32659.346904997506,
+    "reconciledIsSubsetOfFrozen": false
+  },
+  "openings": {
+    "JOY": {
+      "tiltDeg": 0.0,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 195.28000000000003,
+      "approvedAreaMm2": 173.09000000000003,
+      "excessMm2": 29.700000000000006,
+      "deficitMm2": 7.510000000000002,
+      "approvedCoveragePct": 95.66121670807095,
+      "minSurroundingLigamentMm": 0.8,
+      "wallMapClusterAreaMm2": 136.48000000000002
+    },
+    "T1": {
+      "tiltDeg": 9.36199934380265,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 65.70000000000002,
+      "approvedAreaMm2": 47.88000000000001,
+      "excessMm2": 18.600000000000005,
+      "deficitMm2": 0.7800000000000001,
+      "approvedCoveragePct": 98.37092731829574,
+      "minSurroundingLigamentMm": 0.28284271247461906,
+      "wallMapClusterAreaMm2": 40.68000000000001
+    },
+    "T2": {
+      "tiltDeg": 3.999999999987366,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 64.00000000000001,
+      "approvedAreaMm2": 64.00000000000001,
+      "excessMm2": 3.170000000000001,
+      "deficitMm2": 3.170000000000001,
+      "approvedCoveragePct": 95.046875,
+      "minSurroundingLigamentMm": 3.4000000000000004,
+      "wallMapClusterAreaMm2": 62.400000000000006
+    },
+    "T3": {
+      "tiltDeg": 9.37749111258268,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 67.10000000000001,
+      "approvedAreaMm2": 47.85000000000001,
+      "excessMm2": 20.810000000000002,
+      "deficitMm2": 1.5600000000000003,
+      "approvedCoveragePct": 96.7398119122257,
+      "minSurroundingLigamentMm": 2.0,
+      "wallMapClusterAreaMm2": 51.080000000000005
+    },
+    "T4": {
+      "tiltDeg": 7.0732196363406,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 64.88000000000001,
+      "approvedAreaMm2": 62.49000000000001,
+      "excessMm2": 3.0500000000000007,
+      "deficitMm2": 0.6600000000000001,
+      "approvedCoveragePct": 98.94383101296208,
+      "minSurroundingLigamentMm": 3.4000000000000004,
+      "wallMapClusterAreaMm2": 62.0
+    },
+    "T5": {
+      "tiltDeg": 3.9999999999816205,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 67.40000000000002,
+      "approvedAreaMm2": 63.20000000000001,
+      "excessMm2": 5.730000000000001,
+      "deficitMm2": 1.5300000000000002,
+      "approvedCoveragePct": 97.57911392405063,
+      "minSurroundingLigamentMm": 2.0,
+      "wallMapClusterAreaMm2": 54.96000000000001
+    },
+    "T6": {
+      "tiltDeg": 7.059601161192331,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 65.35000000000001,
+      "approvedAreaMm2": 61.97000000000001,
+      "excessMm2": 7.530000000000001,
+      "deficitMm2": 4.150000000000001,
+      "approvedCoveragePct": 93.30321123124092,
+      "minSurroundingLigamentMm": 3.4000000000000004,
+      "wallMapClusterAreaMm2": 61.36000000000001
+    },
+    "T7": {
+      "tiltDeg": 1.8392747092420292,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 70.00000000000001,
+      "approvedAreaMm2": 67.42000000000002,
+      "excessMm2": 4.070000000000001,
+      "deficitMm2": 1.4900000000000002,
+      "approvedCoveragePct": 97.78997330169089,
+      "minSurroundingLigamentMm": 5.2,
+      "wallMapClusterAreaMm2": 70.0
+    },
+    "T8": {
+      "tiltDeg": 1.8392747092382637,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 70.00000000000001,
+      "approvedAreaMm2": 68.08000000000001,
+      "excessMm2": 5.490000000000001,
+      "deficitMm2": 3.5700000000000007,
+      "approvedCoveragePct": 94.75616921269095,
+      "minSurroundingLigamentMm": 5.2,
+      "wallMapClusterAreaMm2": 70.0
+    }
+  },
+  "totalExcessMm2": 98.15000000000002,
+  "totalDeficitMm2": 24.420000000000005,
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 436.9,
+      "availMb": 16240.4
+    },
+    {
+      "stage": "sources",
+      "rssMb": 436.9,
+      "availMb": 16240.0
+    },
+    {
+      "stage": "recon tris",
+      "rssMb": 460.7,
+      "availMb": 16232.2
+    },
+    {
+      "stage": "agree JOY",
+      "rssMb": 553.4,
+      "availMb": 16160.8
+    },
+    {
+      "stage": "agree T1",
+      "rssMb": 564.1,
+      "availMb": 16167.7
+    },
+    {
+      "stage": "agree T2",
+      "rssMb": 564.3,
+      "availMb": 16607.4
+    },
+    {
+      "stage": "agree T3",
+      "rssMb": 564.5,
+      "availMb": 16536.4
+    },
+    {
+      "stage": "agree T4",
+      "rssMb": 565.6,
+      "availMb": 16545.5
+    },
+    {
+      "stage": "agree T5",
+      "rssMb": 566.0,
+      "availMb": 16547.4
+    },
+    {
+      "stage": "agree T6",
+      "rssMb": 566.1,
+      "availMb": 16546.7
+    },
+    {
+      "stage": "agree T7",
+      "rssMb": 568.2,
+      "availMb": 16547.2
+    },
+    {
+      "stage": "agree T8",
+      "rssMb": 568.2,
+      "availMb": 16539.8
+    }
+  ]
+}

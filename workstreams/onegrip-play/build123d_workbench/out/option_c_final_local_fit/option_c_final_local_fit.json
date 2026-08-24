@@ -1,0 +1,934 @@
+{
+  "schema": "onegrip.option_c.final_local_fit.v1",
+  "generatedUtc": "2026-08-22T16:29:53.979043+00:00",
+  "mode": "LOW-MEMORY LOCAL ONLY / SERIAL OCCT / NO FULL SHELL",
+  "inputs": {
+    "docs56LocalStep": {
+      "path": "build123d_workbench\\out\\option_c_local_exact_prototype\\OPTION_C_LOCAL_EXACT_PROTOTYPE.step",
+      "sha256": "7c1762614ba1288ef1ab38b62b32b928f299ee997d7df81f849281defa932156"
+    },
+    "docs56Json": {
+      "path": "build123d_workbench\\out\\option_c_local_exact_prototype\\option_c_local_exact_prototype.json",
+      "sha256": "f86ca4d897a3f3623fb8a4816389f0bcaa69bd76db1fa6ccd345d9eac08fa318"
+    },
+    "controlManifest": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\finger_controls_v2_source_manifest.json",
+      "sha256": "2de88051c9c981a04f284b5dde48e4a15861606e5bae3f1376e2a7ef6539c5b2"
+    },
+    "electricalAudit": {
+      "path": "cad_dump\\its1105_primary_switch_design_audit.json",
+      "sha256": "a065d589baedd261c1efa1784e3271de4798535699f69495bfebd49d24b9dc2d"
+    },
+    "physicalAudit": {
+      "path": "cad_dump\\its1105_physical_sample_reaudit.json",
+      "sha256": "39b9bf58bb0a7b8148159603fe0e8574369ce60bd130e51c793b7153c39ac586"
+    }
+  },
+  "scope": {
+    "included": [
+      "HW504 A",
+      "HW504 B",
+      "N1/N2 ITS-1105",
+      "N1/N2 carrier",
+      "two existing local shell coupons"
+    ],
+    "excluded": [
+      "full JaD/JfD",
+      "full assembly",
+      "Backplate",
+      "other six Finger controls",
+      "production geometry"
+    ],
+    "multiprocessing": 0,
+    "concurrentOCCOperations": 0,
+    "fullShellBooleans": 0
+  },
+  "clockingStudy": {
+    "mode": "BBOX + EXACT DISTANCE ONLY / BOOLEAN 0",
+    "rows": [
+      {
+        "clockingDeg": 0,
+        "terminalRows": [
+          {
+            "terminal": "terminalRoot1",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 1.5327094913083705,
+            "exactDistanceMm": 2.324519934803603
+          },
+          {
+            "terminal": "terminalRoot2",
+            "overlapVolumeMm3": 5.199772100762483,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.0
+          },
+          {
+            "terminal": "terminalRoot3",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 1.688463329762243,
+            "exactDistanceMm": 3.0631213748491337
+          },
+          {
+            "terminal": "terminalRoot4",
+            "overlapVolumeMm3": 6.173896410315132,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.5144804191433763
+          }
+        ],
+        "terminalAabbOverlapSumMm3": 11.373668511077614,
+        "terminalExactMinimumDistanceMm": 0.0,
+        "terminalExactZeroDistanceCount": 1,
+        "bodyToHW504BMinimumDistanceMm": 0.9553875485907237,
+        "N1ToN2MinimumDistanceMm": 2.579929984821958,
+        "switchToCurrentCarrierMinimumDistanceMm": 0.0,
+        "terminalToLocalShellMinimumDistanceMm": 4.972335733423672,
+        "electrical": {
+          "clockingDeg": 0,
+          "groupA": [
+            1,
+            2
+          ],
+          "groupB": [
+            3,
+            4
+          ],
+          "groupASideAfterClocking": "-U",
+          "groupBSideAfterClocking": "+U",
+          "validContactPairs": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "allFourTerminalsRetained": true,
+          "directWiring": true,
+          "electricallyEquivalent": true
+        }
+      },
+      {
+        "clockingDeg": 90,
+        "terminalRows": [
+          {
+            "terminal": "terminalRoot1",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 3.1617155560145136,
+            "exactDistanceMm": 3.7663897490790603
+          },
+          {
+            "terminal": "terminalRoot2",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 3.0626541004404615,
+            "exactDistanceMm": 3.4383833010243636
+          },
+          {
+            "terminal": "terminalRoot3",
+            "overlapVolumeMm3": 4.52408174334393,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.0
+          },
+          {
+            "terminal": "terminalRoot4",
+            "overlapVolumeMm3": 4.524081743343937,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.0
+          }
+        ],
+        "terminalAabbOverlapSumMm3": 9.048163486687868,
+        "terminalExactMinimumDistanceMm": 0.0,
+        "terminalExactZeroDistanceCount": 2,
+        "bodyToHW504BMinimumDistanceMm": 0.9450600859826879,
+        "N1ToN2MinimumDistanceMm": 3.7064288678198736,
+        "switchToCurrentCarrierMinimumDistanceMm": 0.0,
+        "terminalToLocalShellMinimumDistanceMm": 5.06906861163906,
+        "electrical": {
+          "clockingDeg": 90,
+          "groupA": [
+            1,
+            2
+          ],
+          "groupB": [
+            3,
+            4
+          ],
+          "groupASideAfterClocking": "+V",
+          "groupBSideAfterClocking": "-V",
+          "validContactPairs": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "allFourTerminalsRetained": true,
+          "directWiring": true,
+          "electricallyEquivalent": true
+        }
+      },
+      {
+        "clockingDeg": 180,
+        "terminalRows": [
+          {
+            "terminal": "terminalRoot1",
+            "overlapVolumeMm3": 6.1738964103151295,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.5144804191433806
+          },
+          {
+            "terminal": "terminalRoot2",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 1.6884633297622393,
+            "exactDistanceMm": 3.0631213748491306
+          },
+          {
+            "terminal": "terminalRoot3",
+            "overlapVolumeMm3": 5.199772100762483,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.0
+          },
+          {
+            "terminal": "terminalRoot4",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 1.532709491308374,
+            "exactDistanceMm": 2.324519934803604
+          }
+        ],
+        "terminalAabbOverlapSumMm3": 11.373668511077613,
+        "terminalExactMinimumDistanceMm": 0.0,
+        "terminalExactZeroDistanceCount": 1,
+        "bodyToHW504BMinimumDistanceMm": 0.9553875485907237,
+        "N1ToN2MinimumDistanceMm": 2.5799299848219563,
+        "switchToCurrentCarrierMinimumDistanceMm": 0.0,
+        "terminalToLocalShellMinimumDistanceMm": 4.972335733423674,
+        "electrical": {
+          "clockingDeg": 180,
+          "groupA": [
+            1,
+            2
+          ],
+          "groupB": [
+            3,
+            4
+          ],
+          "groupASideAfterClocking": "+U",
+          "groupBSideAfterClocking": "-U",
+          "validContactPairs": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "allFourTerminalsRetained": true,
+          "directWiring": true,
+          "electricallyEquivalent": true
+        }
+      },
+      {
+        "clockingDeg": 270,
+        "terminalRows": [
+          {
+            "terminal": "terminalRoot1",
+            "overlapVolumeMm3": 4.524081743343937,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.0
+          },
+          {
+            "terminal": "terminalRoot2",
+            "overlapVolumeMm3": 4.52408174334392,
+            "gapMm": 0.0,
+            "exactDistanceMm": 0.0
+          },
+          {
+            "terminal": "terminalRoot3",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 3.0626541004404615,
+            "exactDistanceMm": 3.4383833010243636
+          },
+          {
+            "terminal": "terminalRoot4",
+            "overlapVolumeMm3": 0.0,
+            "gapMm": 3.1617155560145136,
+            "exactDistanceMm": 3.76638974907906
+          }
+        ],
+        "terminalAabbOverlapSumMm3": 9.048163486687859,
+        "terminalExactMinimumDistanceMm": 0.0,
+        "terminalExactZeroDistanceCount": 2,
+        "bodyToHW504BMinimumDistanceMm": 0.9450600859826851,
+        "N1ToN2MinimumDistanceMm": 3.7064288678198722,
+        "switchToCurrentCarrierMinimumDistanceMm": 0.0,
+        "terminalToLocalShellMinimumDistanceMm": 5.069068611639058,
+        "electrical": {
+          "clockingDeg": 270,
+          "groupA": [
+            1,
+            2
+          ],
+          "groupB": [
+            3,
+            4
+          ],
+          "groupASideAfterClocking": "-V",
+          "groupBSideAfterClocking": "+V",
+          "validContactPairs": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              3
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "allFourTerminalsRetained": true,
+          "directWiring": true,
+          "electricallyEquivalent": true
+        }
+      }
+    ],
+    "rankingDeg": [
+      180,
+      0,
+      270,
+      90
+    ],
+    "recommendedClockingDeg": 180,
+    "electricalAuthority": {
+      "source": "cad_dump\\its1105_primary_switch_design_audit.json",
+      "circuit": "pins 1-2 internally common; pins 3-4 internally common; press bridges groups",
+      "physicalTerminalPolicySource": "cad_dump\\its1105_physical_sample_reaudit.json"
+    },
+    "memory": [
+      {
+        "stage": "start",
+        "rssMb": 375.6
+      },
+      {
+        "stage": "retained docs/56 local source children",
+        "rssMb": 398.4
+      },
+      {
+        "stage": "analysis start",
+        "rssMb": 398.4
+      },
+      {
+        "stage": "bbox/distance clocking 0",
+        "rssMb": 399.7
+      },
+      {
+        "stage": "bbox/distance clocking 90",
+        "rssMb": 399.7
+      },
+      {
+        "stage": "bbox/distance clocking 180",
+        "rssMb": 399.7
+      },
+      {
+        "stage": "bbox/distance clocking 270",
+        "rssMb": 399.7
+      },
+      {
+        "stage": "one exact boolean for best clocking",
+        "rssMb": 402.7
+      },
+      {
+        "stage": "custom pose distance screen ENGAGEMENT_LIMIT",
+        "rssMb": 402.7
+      },
+      {
+        "stage": "custom pose distance screen ABSOLUTE_TILT_LIMIT",
+        "rssMb": 402.7
+      },
+      {
+        "stage": "custom pose distance screen TARGET_CLEARANCE_SCREEN",
+        "rssMb": 402.7
+      },
+      {
+        "stage": "carrier micro-relief complete",
+        "rssMb": 412.3
+      },
+      {
+        "stage": "exact final A/carrier",
+        "rssMb": 421.5
+      },
+      {
+        "stage": "exact final B/carrier",
+        "rssMb": 421.5
+      },
+      {
+        "stage": "exact final B/N2 terminal roots",
+        "rssMb": 421.5
+      },
+      {
+        "stage": "exact final B/N2 body",
+        "rssMb": 421.5
+      },
+      {
+        "stage": "exact final N1/N2",
+        "rssMb": 421.5
+      },
+      {
+        "stage": "exact final carrier/N2",
+        "rssMb": 421.5
+      },
+      {
+        "stage": "exact final carrier/local shell",
+        "rssMb": 438.2
+      },
+      {
+        "stage": "single local STEP export",
+        "rssMb": 460.3
+      },
+      {
+        "stage": "render N2 before/after",
+        "rssMb": 468.2
+      },
+      {
+        "stage": "render clocking comparison",
+        "rssMb": 473.8
+      },
+      {
+        "stage": "render carrier micro-relief",
+        "rssMb": 473.9
+      },
+      {
+        "stage": "render final transparent crop",
+        "rssMb": 480.5
+      },
+      {
+        "stage": "outputs complete",
+        "rssMb": 469.1
+      }
+    ],
+    "exactMostPromising": {
+      "clockingDeg": 180,
+      "pair": "HW504_B<->N2.terminalRoot3 @ 180deg",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.3203697230299531,
+      "distanceMm": 0.0,
+      "closestPointLeftMm": [
+        -3.084389738050205,
+        -28.062560094907465,
+        32.728371232691856
+      ],
+      "closestPointRightMm": [
+        -3.084389738050205,
+        -28.062560094907465,
+        32.728371232691856
+      ],
+      "passZeroPenetration": false,
+      "electricallyEquivalent": true,
+      "allFourFixedTerminalsRetained": true,
+      "adopted": false,
+      "reason": "exact penetration remains nonzero"
+    }
+  },
+  "customPoseFeasibility": {
+    "mode": "three bounded distance-only screens / boolean 0",
+    "capSocketRadialAllowanceMm": 0.050000000000000044,
+    "capContactFreeGapMm": 0.05,
+    "maximumTiltMaintainingNominalSocketEngagementDeg": 1.1741760277525901,
+    "rows": [
+      {
+        "case": "ENGAGEMENT_LIMIT",
+        "axisTiltDeg": 1.1741760277525901,
+        "axialDepthDeltaMm": 0.0,
+        "terminalMinimumDistanceMm": 0.0,
+        "terminalDistancesMm": [
+          0.5446136450866685,
+          3.2341496920759285,
+          0.0,
+          2.5162752389471077
+        ],
+        "actuatorLateralOffsetAcrossProjectionMm": 0.050000000000000044,
+        "capSocketRadialAllowanceMm": 0.050000000000000044,
+        "capEngagementValid": true
+      },
+      {
+        "case": "ABSOLUTE_TILT_LIMIT",
+        "axisTiltDeg": 5.0,
+        "axialDepthDeltaMm": 0.0,
+        "terminalMinimumDistanceMm": 0.0,
+        "terminalDistancesMm": [
+          0.718409363577002,
+          3.806011021478862,
+          0.0,
+          3.1504487377241865
+        ],
+        "actuatorLateralOffsetAcrossProjectionMm": 0.2126600123042859,
+        "capSocketRadialAllowanceMm": 0.050000000000000044,
+        "capEngagementValid": false
+      },
+      {
+        "case": "TARGET_CLEARANCE_SCREEN",
+        "axisTiltDeg": 5.0,
+        "axialDepthDeltaMm": -1.75,
+        "terminalMinimumDistanceMm": 0.8845781410029996,
+        "terminalDistancesMm": [
+          1.3574334160953592,
+          4.255180508732896,
+          0.8845781410029996,
+          3.6631068961719317
+        ],
+        "actuatorLateralOffsetAcrossProjectionMm": 0.2126600123042859,
+        "capSocketRadialAllowanceMm": 0.050000000000000044,
+        "capEngagementValid": false
+      }
+    ],
+    "conclusion": "NO COMPLIANT CUSTOM POSE: terminal clearance requires pose change beyond frozen-cap engagement allowance",
+    "adopted": false
+  },
+  "finalCandidate": {
+    "N2SwitchClocking": "CUSTOM",
+    "currentApprovedRollDeltaDeg": -5.0,
+    "axisChangeDeg": 0.0,
+    "axialDepthChangeMm": 0.0,
+    "externalCenterChangeMm": 0.0,
+    "actuatorEngagement": "PRESERVED",
+    "reason": "no cardinal or engagement-compliant custom pose clears HW504 B; current approved N2 pose retained"
+  },
+  "carrierMicroRelief": {
+    "existingIntersectionMm3": 0.005690328264811843,
+    "existingIntersectionBboxMm": {
+      "min": [
+        -4.842298945070917,
+        -25.320709894921755,
+        28.29719779380943
+      ],
+      "max": [
+        -1.7486932369889914,
+        -25.21555824717316,
+        28.48224683520005
+      ]
+    },
+    "toolBboxMm": {
+      "min": [
+        -5.022298945070917,
+        -25.500709894921755,
+        28.11719779380943
+      ],
+      "max": [
+        -1.5686932369889914,
+        -25.03555824717316,
+        28.66224683520005
+      ]
+    },
+    "marginMm": 0.18,
+    "carrierMaterialRemovedMm3": 0.08891509031388978,
+    "alternativeHW504ATrimRemovedMm3": 0.39246444557352334,
+    "selected": "CARRIER MICRO-RELIEF",
+    "selectionReason": "smaller local material change and no expansion of approved HW504-A trim",
+    "residualIntersectionMm3": 0.0,
+    "nominalWallBeforeMm": 1.6,
+    "conservativeReliefDepthMm": 0.2851516477485954,
+    "conservativeRemainingWallMm": 1.3148483522514047,
+    "minimumWallRequirementMm": 1.2,
+    "wallPass": true,
+    "solidCountBefore": 3,
+    "solidCountAfter": 3,
+    "loadPathAssessment": "UNCHANGED SOLID COUNT; relief is outside switch locating pocket and broad bridge",
+    "switchLocatingDatumChangeMm": 0.0,
+    "fingerExteriorChangeMm": 0.0
+  },
+  "checks": {
+    "HW504_A_vs_carrier": {
+      "pair": "HW504_A<->carrier",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 0.004964233035155241,
+      "closestPointLeftMm": [
+        -5.0222980423064305,
+        -25.31773883436641,
+        28.374272021308524
+      ],
+      "closestPointRightMm": [
+        -5.022298945070917,
+        -25.32070989492,
+        28.37029503652112
+      ],
+      "passZeroPenetration": true
+    },
+    "HW504_B_vs_carrier": {
+      "pair": "HW504_B<->carrier",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 2.401754389579224,
+      "closestPointLeftMm": [
+        -1.3105828093038563,
+        -26.470102000368687,
+        30.495040834258315
+      ],
+      "closestPointRightMm": [
+        -1.7735436802729527,
+        -26.473569188307255,
+        28.138331399809
+      ],
+      "passZeroPenetration": true
+    },
+    "HW504_B_vs_N2_terminal_roots": {
+      "pairCount": 4,
+      "penetrationMm3": 0.40133650723935305,
+      "minimumDistanceMm": 0.0,
+      "zeroPenetration": false,
+      "pairs": [
+        {
+          "pair": "HW504_B<->N2.root_nu_nv",
+          "aabbGapMm": 1.2585402590008563,
+          "penetrationMm3": 0.0,
+          "distanceMm": 2.1190930399124617,
+          "closestPointLeftMm": [
+            -2.141327511026842,
+            -26.791236105964234,
+            30.735137010483793
+          ],
+          "closestPointRightMm": [
+            -3.206070177640162,
+            -26.008721443880646,
+            29.078468917798116
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "HW504_B<->N2.root_nu_pv",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.40133650723935305,
+          "distanceMm": 0.0,
+          "closestPointLeftMm": [
+            -3.4436507520713917,
+            -27.856938212696274,
+            32.16122528550623
+          ],
+          "closestPointRightMm": [
+            -3.4436507520713917,
+            -27.856938212696274,
+            32.16122528550623
+          ],
+          "passZeroPenetration": false
+        },
+        {
+          "pair": "HW504_B<->N2.root_pu_nv",
+          "aabbGapMm": 1.9441492472218371,
+          "penetrationMm3": 0.0,
+          "distanceMm": 3.203679233135264,
+          "closestPointLeftMm": [
+            1.974559140979924,
+            -26.948578634318974,
+            30.85174759058127
+          ],
+          "closestPointRightMm": [
+            3.7390127602869017,
+            -26.102392378260937,
+            28.315168619960573
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "HW504_B<->N2.root_pu_pv",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 0.7937710952553214,
+          "closestPointLeftMm": [
+            3.2496691497615138,
+            -28.753325017204784,
+            32.19971846549643
+          ],
+          "closestPointRightMm": [
+            3.9865819947479,
+            -28.838209279310988,
+            31.91718232160757
+          ],
+          "passZeroPenetration": true
+        }
+      ],
+      "clearanceTargetMm": 0.8,
+      "clearancePass": false
+    },
+    "HW504_B_vs_N2_switch_body": {
+      "pair": "HW504_B<->N2.body",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 0.8675108205203057,
+      "closestPointLeftMm": [
+        -2.447882996753694,
+        -29.648798170580058,
+        32.86998718741251
+      ],
+      "closestPointRightMm": [
+        -2.448040756865838,
+        -30.167997644176502,
+        32.17500020519721
+      ],
+      "passZeroPenetration": true
+    },
+    "N1_vs_N2": {
+      "pair": "N1<->N2 complete local envelopes",
+      "aabbGapMm": 2.3172076395585828,
+      "penetrationMm3": 0.0,
+      "distanceMm": 2.391916359735299,
+      "closestPointLeftMm": [
+        -6.152693637195016,
+        -26.088355355796125,
+        28.010690893710066
+      ],
+      "closestPointRightMm": [
+        -3.8060997737312654,
+        -25.68285012982814,
+        28.235026855241617
+      ],
+      "passZeroPenetration": true
+    },
+    "carrier_vs_N2": {
+      "pair": "carrier<->N2 complete local envelope",
+      "aabbGapMm": 0.0,
+      "penetrationMm3": 0.0,
+      "distanceMm": 2.1775610441540457e-12,
+      "closestPointLeftMm": [
+        -3.163540810489,
+        -27.57244221505,
+        27.237803606608
+      ],
+      "closestPointRightMm": [
+        -3.1635408104895633,
+        -27.572442215047577,
+        27.237803606609507
+      ],
+      "passZeroPenetration": true
+    },
+    "carrier_vs_local_shell": {
+      "pairCount": 2,
+      "penetrationMm3": 0.0,
+      "minimumDistanceMm": 1.1138719688665346,
+      "zeroPenetration": true,
+      "pairs": [
+        {
+          "pair": "carrier<->N2_SEAM_JaD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 1.532542020058309,
+          "closestPointLeftMm": [
+            4.994097834121,
+            -33.825956683,
+            30.334663623182
+          ],
+          "closestPointRightMm": [
+            4.986380757340973,
+            -35.13007874260119,
+            29.529746768077125
+          ],
+          "passZeroPenetration": true
+        },
+        {
+          "pair": "carrier<->N2_SEAM_JfD",
+          "aabbGapMm": 0.0,
+          "penetrationMm3": 0.0,
+          "distanceMm": 1.1138719688665346,
+          "closestPointLeftMm": [
+            -15.181132322223489,
+            -29.739185794677336,
+            24.238829078175254
+          ],
+          "closestPointRightMm": [
+            -15.266283407412649,
+            -30.723177334734554,
+            23.723833248276076
+          ],
+          "passZeroPenetration": true
+        }
+      ]
+    }
+  },
+  "clearancesMm": {
+    "HW504_B_to_N2_terminal": 0.0,
+    "HW504_B_to_carrier": 2.401754389579224,
+    "HW504_A_to_carrier": 0.004964233035155241,
+    "N1_to_N2": 2.391916359735299,
+    "carrier_to_localShell": 1.1138719688665346
+  },
+  "freeze": {
+    "HW504AProtectedMaterialRemovedMm3": 0.0,
+    "HW504BGeometryChange": 0.0,
+    "joystickCenterShiftMm": 0.0,
+    "joystickPivotAxesShiftDeg": 0.0,
+    "joystickTravelChangeMm": 0.0,
+    "thumbRelativeGeometryChangeMm": 0.0,
+    "N2ExternalCenterMovementMm": 0.0,
+    "fingerExterior": "PRESERVED",
+    "exterior": "UNCHANGED"
+  },
+  "reuse": {
+    "originalThumbExactPartsRetained": 19,
+    "denominator": 20,
+    "ratioPercent": 95.0
+  },
+  "gates": {
+    "terminalServiceClearanceTargetMm": 0.8,
+    "N2TerminalFit": "HOLD",
+    "carrierFit": "PASS",
+    "HW504BExactReuse": "PASS",
+    "joystickKinematics": "PASS"
+  },
+  "verdict": {
+    "OPTION_C_FINAL_LOCAL_FIT": "HOLD",
+    "N2_TERMINAL_FIT": "HOLD",
+    "CARRIER_FIT": "PASS",
+    "HW504_B_EXACT_REUSE": "PASS",
+    "JOYSTICK_KINEMATICS": "PASS",
+    "FINGER_EXTERIOR": "PRESERVED",
+    "EXTERIOR": "UNCHANGED"
+  },
+  "memory": [
+    {
+      "stage": "start",
+      "rssMb": 375.6
+    },
+    {
+      "stage": "retained docs/56 local source children",
+      "rssMb": 398.4
+    },
+    {
+      "stage": "analysis start",
+      "rssMb": 398.4
+    },
+    {
+      "stage": "bbox/distance clocking 0",
+      "rssMb": 399.7
+    },
+    {
+      "stage": "bbox/distance clocking 90",
+      "rssMb": 399.7
+    },
+    {
+      "stage": "bbox/distance clocking 180",
+      "rssMb": 399.7
+    },
+    {
+      "stage": "bbox/distance clocking 270",
+      "rssMb": 399.7
+    },
+    {
+      "stage": "one exact boolean for best clocking",
+      "rssMb": 402.7
+    },
+    {
+      "stage": "custom pose distance screen ENGAGEMENT_LIMIT",
+      "rssMb": 402.7
+    },
+    {
+      "stage": "custom pose distance screen ABSOLUTE_TILT_LIMIT",
+      "rssMb": 402.7
+    },
+    {
+      "stage": "custom pose distance screen TARGET_CLEARANCE_SCREEN",
+      "rssMb": 402.7
+    },
+    {
+      "stage": "carrier micro-relief complete",
+      "rssMb": 412.3
+    },
+    {
+      "stage": "exact final A/carrier",
+      "rssMb": 421.5
+    },
+    {
+      "stage": "exact final B/carrier",
+      "rssMb": 421.5
+    },
+    {
+      "stage": "exact final B/N2 terminal roots",
+      "rssMb": 421.5
+    },
+    {
+      "stage": "exact final B/N2 body",
+      "rssMb": 421.5
+    },
+    {
+      "stage": "exact final N1/N2",
+      "rssMb": 421.5
+    },
+    {
+      "stage": "exact final carrier/N2",
+      "rssMb": 421.5
+    },
+    {
+      "stage": "exact final carrier/local shell",
+      "rssMb": 438.2
+    },
+    {
+      "stage": "single local STEP export",
+      "rssMb": 460.3
+    },
+    {
+      "stage": "render N2 before/after",
+      "rssMb": 468.2
+    },
+    {
+      "stage": "render clocking comparison",
+      "rssMb": 473.8
+    },
+    {
+      "stage": "render carrier micro-relief",
+      "rssMb": 473.9
+    },
+    {
+      "stage": "render final transparent crop",
+      "rssMb": 480.5
+    },
+    {
+      "stage": "outputs complete",
+      "rssMb": 469.1
+    }
+  ],
+  "outputs": {
+    "json": "build123d_workbench\\out\\option_c_final_local_fit\\option_c_final_local_fit.json",
+    "localStep": "build123d_workbench\\out\\option_c_final_local_fit\\OPTION_C_FINAL_LOCAL_FIT.step",
+    "report": "docs\\57_option_c_final_local_fit.md",
+    "renders": [
+      "renders\\option_c_final_local_fit\\01_n2_terminal_before_after.png",
+      "renders\\option_c_final_local_fit\\02_n2_clocking_comparison.png",
+      "renders\\option_c_final_local_fit\\03_carrier_micro_relief_closeup.png",
+      "renders\\option_c_final_local_fit\\04_final_transparent_local_crop.png"
+    ]
+  },
+  "stop": "No production geometry changed; STOP at local-fit gate"
+}

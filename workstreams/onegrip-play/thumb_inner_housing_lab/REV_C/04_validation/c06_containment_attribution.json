@@ -1,0 +1,100 @@
+{
+  "containment": {
+    "cellMm": 0.5,
+    "reconciledCells": 208395,
+    "frozenCells": 215132,
+    "addedCells": 331,
+    "addedVolumeMm3": 41.375,
+    "removedCells": 7068,
+    "removedVolumeMm3": 883.5,
+    "exactVolumeDifferenceMm3": 886.1143934335014
+  },
+  "attribution": {
+    "JOY": {
+      "excessReconciledMm2": 29.730000000000008,
+      "excessFrozenMm2": 14.560000000000002,
+      "excessInheritedFromFrozenMm2": 14.560000000000002,
+      "excessAddedByReconciledCutMm2": 15.170000000000003,
+      "deficitMm2": 7.4700000000000015
+    },
+    "T1": {
+      "excessReconciledMm2": 18.640000000000004,
+      "excessFrozenMm2": 16.800000000000004,
+      "excessInheritedFromFrozenMm2": 16.800000000000004,
+      "excessAddedByReconciledCutMm2": 1.8400000000000003,
+      "deficitMm2": 0.7900000000000001
+    },
+    "T2": {
+      "excessReconciledMm2": 3.170000000000001,
+      "excessFrozenMm2": 0.0,
+      "excessInheritedFromFrozenMm2": 0.0,
+      "excessAddedByReconciledCutMm2": 3.170000000000001,
+      "deficitMm2": 3.170000000000001
+    },
+    "T3": {
+      "excessReconciledMm2": 20.790000000000003,
+      "excessFrozenMm2": 19.110000000000003,
+      "excessInheritedFromFrozenMm2": 19.100000000000005,
+      "excessAddedByReconciledCutMm2": 1.6900000000000004,
+      "deficitMm2": 1.5500000000000003
+    },
+    "T4": {
+      "excessReconciledMm2": 3.0500000000000007,
+      "excessFrozenMm2": 0.0,
+      "excessInheritedFromFrozenMm2": 0.0,
+      "excessAddedByReconciledCutMm2": 3.0500000000000007,
+      "deficitMm2": 0.6600000000000001
+    },
+    "T5": {
+      "excessReconciledMm2": 5.730000000000001,
+      "excessFrozenMm2": 3.4100000000000006,
+      "excessInheritedFromFrozenMm2": 3.400000000000001,
+      "excessAddedByReconciledCutMm2": 2.3300000000000005,
+      "deficitMm2": 1.5300000000000002
+    },
+    "T6": {
+      "excessReconciledMm2": 7.530000000000001,
+      "excessFrozenMm2": 0.0,
+      "excessInheritedFromFrozenMm2": 0.0,
+      "excessAddedByReconciledCutMm2": 7.530000000000001,
+      "deficitMm2": 4.150000000000001
+    },
+    "T7": {
+      "excessReconciledMm2": 3.9900000000000007,
+      "excessFrozenMm2": 0.0,
+      "excessInheritedFromFrozenMm2": 0.0,
+      "excessAddedByReconciledCutMm2": 3.9900000000000007,
+      "deficitMm2": 1.4400000000000004
+    },
+    "T8": {
+      "excessReconciledMm2": 4.800000000000001,
+      "excessFrozenMm2": 0.0,
+      "excessInheritedFromFrozenMm2": 0.0,
+      "excessAddedByReconciledCutMm2": 4.800000000000001,
+      "deficitMm2": 2.880000000000001
+    }
+  },
+  "totals": {
+    "exc": 97.43,
+    "inh": 53.86000000000001,
+    "new": 43.57000000000002,
+    "dfc": 23.640000000000008
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 421.4,
+      "availMb": 17058.9
+    },
+    {
+      "stage": "sources",
+      "rssMb": 421.4,
+      "availMb": 17057.8
+    },
+    {
+      "stage": "containment",
+      "rssMb": 451.7,
+      "availMb": 17004.6
+    }
+  ]
+}

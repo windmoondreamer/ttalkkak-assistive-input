@@ -1,0 +1,210 @@
+{
+  "gridPitchMm": 0.25,
+  "band": {
+    "current": [
+      2.0,
+      22.0
+    ],
+    "original": [
+      2.0,
+      22.0
+    ]
+  },
+  "footprints": {
+    "T1_corner_1": [
+      7.21,
+      14.8,
+      -45.38,
+      -37.5
+    ],
+    "T2_middle_1": [
+      -3.79,
+      3.81,
+      -34.34,
+      -26.43
+    ],
+    "T3_corner_2": [
+      -14.79,
+      -7.2,
+      -45.38,
+      -37.5
+    ],
+    "T4_side_1": [
+      7.21,
+      14.81,
+      -34.35,
+      -26.43
+    ],
+    "T5_middle_2": [
+      -3.79,
+      3.81,
+      -45.31,
+      -37.4
+    ],
+    "T6_side_2": [
+      -14.79,
+      -7.19,
+      -34.35,
+      -26.43
+    ],
+    "T7_wide_1": [
+      3.36,
+      12.96,
+      -21.58,
+      -14.66
+    ],
+    "T8_wide_2": [
+      -12.95,
+      -3.35,
+      -21.58,
+      -14.66
+    ],
+    "JOYSTICK": [
+      -7.0,
+      7.0,
+      -6.98,
+      6.98
+    ]
+  },
+  "controls": {
+    "T1_corner_1": {
+      "footprintCells": 992,
+      "FROZEN": {
+        "openFraction": 0.5544354838709677,
+        "meanWallThicknessMm": 0.5960195229526576,
+        "maxWallThicknessMm": 3.0916307184798244
+      },
+      "CLEAN": {
+        "openFraction": 0.7671370967741935,
+        "meanWallThicknessMm": 0.44285893272632487,
+        "maxWallThicknessMm": 3.0268914055558467
+      }
+    },
+    "T2_middle_1": {
+      "footprintCells": 992,
+      "FROZEN": {
+        "openFraction": 0.0,
+        "meanWallThicknessMm": 2.2534085635873042,
+        "maxWallThicknessMm": 3.054632414377121
+      },
+      "CLEAN": {
+        "openFraction": 0.9657258064516129,
+        "meanWallThicknessMm": 0.025227720200773945,
+        "maxWallThicknessMm": 3.0074766109235176
+      }
+    },
+    "T3_corner_2": {
+      "footprintCells": 992,
+      "FROZEN": {
+        "openFraction": 0.5786290322580645,
+        "meanWallThicknessMm": 0.5575103014749803,
+        "maxWallThicknessMm": 3.086857495156133
+      },
+      "CLEAN": {
+        "openFraction": 0.7328629032258065,
+        "meanWallThicknessMm": 0.45160781288550383,
+        "maxWallThicknessMm": 2.4348974062086732
+      }
+    },
+    "T4_side_1": {
+      "footprintCells": 992,
+      "FROZEN": {
+        "openFraction": 0.08165322580645161,
+        "meanWallThicknessMm": 1.700684565743478,
+        "maxWallThicknessMm": 3.160251618704997
+      },
+      "CLEAN": {
+        "openFraction": 0.9627016129032258,
+        "meanWallThicknessMm": 0.018387094634463027,
+        "maxWallThicknessMm": 3.0096754833930452
+      }
+    },
+    "T5_middle_2": {
+      "footprintCells": 992,
+      "FROZEN": {
+        "openFraction": 0.3377016129032258,
+        "meanWallThicknessMm": 1.053591153614277,
+        "maxWallThicknessMm": 3.0812997288811754
+      },
+      "CLEAN": {
+        "openFraction": 0.9375,
+        "meanWallThicknessMm": 0.10024566561124583,
+        "maxWallThicknessMm": 3.0224579996050083
+      }
+    },
+    "T6_side_2": {
+      "footprintCells": 992,
+      "FROZEN": {
+        "openFraction": 0.09879032258064516,
+        "meanWallThicknessMm": 1.6466858641694915,
+        "maxWallThicknessMm": 3.143686302496583
+      },
+      "CLEAN": {
+        "openFraction": 0.9657258064516129,
+        "meanWallThicknessMm": 0.02570443926319566,
+        "maxWallThicknessMm": 2.83231523434178
+      }
+    },
+    "T7_wide_1": {
+      "footprintCells": 1064,
+      "FROZEN": {
+        "openFraction": 0.0,
+        "meanWallThicknessMm": 2.899333036567379,
+        "maxWallThicknessMm": 3.1246063378897357
+      },
+      "CLEAN": {
+        "openFraction": 0.9642857142857143,
+        "meanWallThicknessMm": 0.08588184391871372,
+        "maxWallThicknessMm": 2.6872894021400358
+      }
+    },
+    "T8_wide_2": {
+      "footprintCells": 1064,
+      "FROZEN": {
+        "openFraction": 0.0,
+        "meanWallThicknessMm": 2.8928916768000934,
+        "maxWallThicknessMm": 3.106448389712156
+      },
+      "CLEAN": {
+        "openFraction": 0.9642857142857143,
+        "meanWallThicknessMm": 0.07877150061787556,
+        "maxWallThicknessMm": 2.3975068130352084
+      }
+    },
+    "JOYSTICK": {
+      "footprintCells": 3135,
+      "FROZEN": {
+        "openFraction": 0.6251993620414673,
+        "meanWallThicknessMm": 0.07456902725469527,
+        "maxWallThicknessMm": 0.8711753657469679
+      },
+      "CLEAN": {
+        "openFraction": 0.8516746411483254,
+        "meanWallThicknessMm": 0.41584298344645443,
+        "maxWallThicknessMm": 3.0624591564084622
+      }
+    }
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 419.6,
+      "availMb": 18034.3
+    },
+    {
+      "stage": "frozen wall state",
+      "rssMb": 426.0,
+      "availMb": 17985.6
+    },
+    {
+      "stage": "combined CLEAN",
+      "rssMb": 424.6,
+      "availMb": 17918.5
+    },
+    {
+      "stage": "clean wall state",
+      "rssMb": 427.7,
+      "availMb": 18212.6
+    }
+  ]
+}

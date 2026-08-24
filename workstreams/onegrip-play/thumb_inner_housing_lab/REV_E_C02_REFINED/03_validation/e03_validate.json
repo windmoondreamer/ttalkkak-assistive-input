@@ -1,0 +1,135 @@
+{
+  "solids": 1,
+  "valid": true,
+  "faces": 495,
+  "volumeMm3": 3375.5495410603157,
+  "interferenceMm3": 0.1903540853159913,
+  "planAreaMm2": 1320.1875,
+  "gapPercentilesMm": {
+    "5": 1.148802100715444,
+    "25": 1.1849221822694922,
+    "50": 1.1953597104353735,
+    "75": 1.2030304110727386,
+    "95": 1.227834598752522
+  },
+  "gapMinMm": 0.10321272790867919,
+  "gapMaxMm": 3.755478389235985,
+  "areaBelow1p20Mm2": 17.3125,
+  "areaBelow1p60Mm2": 23.375,
+  "minStructuralThicknessMm": 0.00018502844147484,
+  "intentionalLoadTransferMm2": 17.0,
+  "assemblyClearanceLowGapMm2": 3.3125,
+  "zones": {
+    "LEFT": {
+      "contactAreaMm2": 17.0,
+      "targetMm2": 71.69,
+      "plateCoverageMm2": 20.0625,
+      "minGapMm": 0.10321272790867919,
+      "meanGapMm": 0.14699352566416876
+    },
+    "RIGHT": {
+      "contactAreaMm2": 0.0,
+      "targetMm2": 23.38,
+      "plateCoverageMm2": 0.0,
+      "minGapMm": null,
+      "meanGapMm": null
+    }
+  },
+  "lowGapZones": [
+    {
+      "areaMm2": 1.25,
+      "minGapMm": 0.25373657051889076,
+      "fractionInPadZone": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        -20.0,
+        -20.0
+      ],
+      "vRange": [
+        -15.75,
+        -11.0
+      ]
+    },
+    {
+      "areaMm2": 17.0,
+      "minGapMm": 0.10321272790867919,
+      "fractionInPadZone": 1.0,
+      "class": "INTENTIONAL LOAD TRANSFER",
+      "uRange": [
+        -17.75,
+        -12.0
+      ],
+      "vRange": [
+        -38.5,
+        -31.0
+      ]
+    },
+    {
+      "areaMm2": 0.5,
+      "minGapMm": 0.2686616220759266,
+      "fractionInPadZone": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        20.5,
+        20.5
+      ],
+      "vRange": [
+        -14.5,
+        -12.75
+      ]
+    },
+    {
+      "areaMm2": 0.875,
+      "minGapMm": 0.2549389439335714,
+      "fractionInPadZone": 0.0,
+      "class": "ASSEMBLY CLEARANCE",
+      "uRange": [
+        20.5,
+        20.5
+      ],
+      "vRange": [
+        -12.25,
+        -9.0
+      ]
+    }
+  ],
+  "openingBlockedFraction": {
+    "JOY": 0.0,
+    "T1": 0.0,
+    "T2": 0.0,
+    "T3": 0.0,
+    "T4": 0.0,
+    "T5": 0.0,
+    "T6": 0.0,
+    "T7": 0.0,
+    "T8": 0.0
+  },
+  "keepOutMm3": {
+    "SZH_pcb": 0.0,
+    "SZH_gimbal": 0.0,
+    "SZH_x_pot": 0.0,
+    "SZH_y_pot": 0.0,
+    "SZH_push_switch": 0.0,
+    "SZH_shaft": 0.0,
+    "SZH_cap": 0.0,
+    "SZH_header": 0.0,
+    "SZH_MOVING_ENVELOPE_25deg": 0.0,
+    "N1_N2_SHARED_CARRIER": 0.0,
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 0.0,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "harnessCorridorMm3": 0.0,
+  "memory": [
+    {
+      "stage": "approved shell",
+      "rssMb": 415.3,
+      "availMb": 15508.8
+    },
+    {
+      "stage": "loaded",
+      "rssMb": 447.8,
+      "availMb": 15481.4
+    }
+  ]
+}

@@ -1,0 +1,1157 @@
+{
+  "schema": "onegrip.open_frame_glued_switch_harness_candidate.v1",
+  "generatedUtc": "2026-08-24T04:34:34.215164+00:00",
+  "mode": "AUDIT/CANDIDATE ONLY / SERIAL / LOCAL SHELL RAY SAMPLES / PRODUCTION EDIT 0",
+  "representative": {
+    "button": "I2",
+    "reason": "non-seam-special JfD curved wall + shared-family + all terminals"
+  },
+  "freeze": {
+    "exterior": "PRESERVED",
+    "buttonCentersAxes": "PRESERVED",
+    "loweredThumb": "PRESERVED",
+    "JaDJfDSplit": "PRESERVED",
+    "productionModificationCount": 0
+  },
+  "standardCore": {
+    "bodyAuthorityMm": [
+      6.12,
+      6.05,
+      3.56
+    ],
+    "guideOdMm": 7.4,
+    "openingMm": 8.0,
+    "minimumStructuralMm": 1.2,
+    "preferredStructuralMm": 1.6,
+    "coreVolumeMm3": 124.1958857193141,
+    "terminalAccess": {
+      "terminals": {
+        "TNN": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "solderIronAccess": "OPEN U-SIDE / V-separated from mid-side cheeks"
+        },
+        "TNP": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "solderIronAccess": "OPEN U-SIDE / V-separated from mid-side cheeks"
+        },
+        "TPN": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "solderIronAccess": "OPEN U-SIDE / V-separated from mid-side cheeks"
+        },
+        "TPP": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "solderIronAccess": "OPEN U-SIDE / V-separated from mid-side cheeks"
+        }
+      },
+      "allOpen": true
+    },
+    "switchRetention": "broad removable +U keeper; no snap; physical retention/cure test required"
+  },
+  "actuation": {
+    "pusherTipMm": 2.6,
+    "shaftMm": 4.0,
+    "shoulderMm": 4.8,
+    "restGapMm": 0.08,
+    "T_CLICK": 0.33,
+    "T_DESIGN_FULL": 0.38,
+    "T_HARD_STOP": 0.38,
+    "solver": "simultaneous cap/seat/pusher/travel/stop stack; shell clearance verified after closure",
+    "authority": "PROVISIONAL / physical force-travel coupon required"
+  },
+  "adhesive": {
+    "bondlineParametersMm": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "primaryLoad": "compression + shear",
+    "pressPeel": 0.0,
+    "unknowns": [
+      "adhesive chemistry",
+      "shell material compatibility",
+      "primer",
+      "cure shrink",
+      "fatigue"
+    ]
+  },
+  "alignmentJig": {
+    "openingKeyMm": 7.72,
+    "axisPilotMm": 4.16,
+    "flangeMm": 13.0,
+    "constrains": [
+      "center",
+      "W axis",
+      "depth",
+      "roll"
+    ],
+    "verdict": "PASS AS AUDIT GEOMETRY"
+  },
+  "virtualFit": {
+    "buttons": {
+      "N1": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "3-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 22.080114468472136,
+        "axis": [
+          -0.07646638594200623,
+          -0.8724593951000031,
+          -0.48266706509011453
+        ],
+        "rearProjectionDepthMm": 9.559999999999999,
+        "rearProjectionReductionVs9p96Mm": 0.40000000000000213,
+        "terminalAccess": "T1/T2/T3/T4 available",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "HIGH",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 3,
+          "feet": [
+            {
+              "centerUVmm": [
+                6.0,
+                0.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.231037691882206,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.010181461560206717,
+                0.01412015903880189
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                4.079574979167266,
+                6.205056523410473
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9957077126126654,
+              "pressShearFractionAreaWeighted": 0.0916621220928922,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                6.0,
+                -6.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.250768038053883,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 24,
+              "fitResidualP05P95Mm": [
+                -0.020538033480523986,
+                0.02023544232952749
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                5.027314816481974,
+                8.58284601589772
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9929982537315443,
+              "pressShearFractionAreaWeighted": 0.11698624439800258,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                -6.0,
+                0.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.598308738536046,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.05963800032026647,
+                0.05959264065197231
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                12.456151526542508,
+                24.635619507963693
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9475792900443806,
+              "pressShearFractionAreaWeighted": 0.31117361090949913,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 22.080114468472136,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "LOCAL FOOT VALIDATION REQUIRED",
+        "neighborClearanceMm": 0.7470563915941941
+      },
+      "N2": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "1-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 9.708416494158024,
+        "axis": [
+          -0.043167877641508666,
+          -0.8593994790251817,
+          -0.5094792142876627
+        ],
+        "rearProjectionDepthMm": 9.559999999999999,
+        "rearProjectionReductionVs9p96Mm": 0.40000000000000213,
+        "terminalAccess": "T1/T3 active; T2/T4 unused trim",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "HIGH",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 1,
+          "feet": [
+            {
+              "centerUVmm": [
+                -9.0,
+                -10.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 9.708416494158024,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 23,
+              "fitResidualP05P95Mm": [
+                -1.5001343891540842e-07,
+                1.8278541400462697e-07
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                63.578271095857566,
+                63.57828224503178
+              ],
+              "pressCompressionFractionAreaWeighted": 0.4449747291537741,
+              "pressShearFractionAreaWeighted": 0.8955431259378428,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 9.708416494158024,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "HOLD / FOOT PATCH INSUFFICIENT",
+        "neighborClearanceMm": 0.7470563915941941
+      },
+      "I2": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "3-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 24.994121654447596,
+        "axis": [
+          -0.43398514194613513,
+          -0.7569241977430389,
+          -0.48859252495412786
+        ],
+        "rearProjectionDepthMm": 10.16,
+        "rearProjectionReductionVs9p96Mm": null,
+        "terminalAccess": "T1/T2/T3/T4 open",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "LOW",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 3,
+          "feet": [
+            {
+              "centerUVmm": [
+                5.0,
+                -4.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 11.334117640766117,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -6.355269945856889e-08,
+                3.882797106058433e-08
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                67.59505930250539,
+                67.59506074421468
+              ],
+              "pressCompressionFractionAreaWeighted": 0.38115009363075536,
+              "pressShearFractionAreaWeighted": 0.9245131724995952,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                9.0,
+                -5.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 8.710440268289211,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -7.640044579204641e-08,
+                9.307059531948872e-08
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                60.267151756347836,
+                60.26715953133599
+              ],
+              "pressCompressionFractionAreaWeighted": 0.49595656097053714,
+              "pressShearFractionAreaWeighted": 0.868347332367801,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                8.0,
+                10.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 4.9495637453922665,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.008113096417970844,
+                0.007105293008587839
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                28.7374229959233,
+                30.203441462260326
+              ],
+              "pressCompressionFractionAreaWeighted": 0.872804194919532,
+              "pressShearFractionAreaWeighted": 0.48800683090115715,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 24.994121654447596,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "LOCAL FOOT/WING VARIANT REQUIRED",
+        "neighborClearanceMm": 0.0
+      },
+      "I3": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "3-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 27.493057451003313,
+        "axis": [
+          -0.08169076783987367,
+          -0.9520228437085347,
+          -0.2949222329815895
+        ],
+        "rearProjectionDepthMm": 10.559999999999999,
+        "rearProjectionReductionVs9p96Mm": null,
+        "terminalAccess": "T1/T2/T3/T4 open",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "MEDIUM",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 3,
+          "feet": [
+            {
+              "centerUVmm": [
+                3.0,
+                6.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.338137968536611,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.023591838361537044,
+                0.02163374593631344
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                9.804618131349642,
+                13.12149514998995
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9811753377861118,
+              "pressShearFractionAreaWeighted": 0.1924902599560696,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                -3.0,
+                6.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 9.293165464869055,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -1.4426122971755717e-07,
+                2.6663858143649545e-07
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                62.29897553236571,
+                62.2989913657918
+              ],
+              "pressCompressionFractionAreaWeighted": 0.46485775125073303,
+              "pressShearFractionAreaWeighted": 0.88538537999117,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                -7.0,
+                10.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 10.861754017597647,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -3.521582387477906e-07,
+                4.5126599008682427e-07
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                66.56388505469192,
+                66.56394163922418
+              ],
+              "pressCompressionFractionAreaWeighted": 0.397725817856026,
+              "pressShearFractionAreaWeighted": 0.9175043181428132,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 27.493057451003313,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "LOCAL FOOT/WING VARIANT REQUIRED",
+        "neighborClearanceMm": 0.0
+      },
+      "I4": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "3-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 13.903854897740683,
+        "axis": [
+          0.03830075338322864,
+          -0.9556187972066135,
+          -0.2921057457765297
+        ],
+        "rearProjectionDepthMm": 10.559999999999999,
+        "rearProjectionReductionVs9p96Mm": null,
+        "terminalAccess": "T1/T2/T3/T4 open",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "MEDIUM",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 3,
+          "feet": [
+            {
+              "centerUVmm": [
+                4.0,
+                -7.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 4.384685976776044,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.005042257785820503,
+                0.0068548711909965435
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                9.108382730141193,
+                10.350152259169942
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9852472954463197,
+              "pressShearFractionAreaWeighted": 0.17100691026527023,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                4.0,
+                8.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 4.742898614277375,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.009209101177664714,
+                0.011104109368471704
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                23.972406710822728,
+                24.866996238578434
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9108354091727079,
+              "pressShearFractionAreaWeighted": 0.41275089117409003,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                -1.0,
+                8.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 4.776270306687264,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.013950615338529104,
+                0.012675203106716637
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                24.755457788375626,
+                25.80904125110844
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9044714228069468,
+              "pressShearFractionAreaWeighted": 0.4264879553338661,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 13.903854897740683,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "LOCAL FOOT/WING VARIANT REQUIRED",
+        "neighborClearanceMm": 0.0
+      },
+      "M3": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "3-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 19.29402675969768,
+        "axis": [
+          -0.22425959856820332,
+          -0.7717941811500879,
+          -0.5950137598349249
+        ],
+        "rearProjectionDepthMm": 9.959999999999999,
+        "rearProjectionReductionVs9p96Mm": null,
+        "terminalAccess": "T1/T2/T3/T4 open",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "MEDIUM",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 3,
+          "feet": [
+            {
+              "centerUVmm": [
+                -6.0,
+                3.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.410152507796107,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.030929633097834586,
+                0.03746858836610513
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                10.004914377627607,
+                17.210489832936823
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9716399213680139,
+              "pressShearFractionAreaWeighted": 0.23240373290477326,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                -6.0,
+                -3.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.486527906170547,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.03593145624410763,
+                0.04378021008102699
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                11.578662529121491,
+                20.060916399357463
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9617275311383819,
+              "pressShearFractionAreaWeighted": 0.2693987396999466,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                5.0,
+                0.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 4.397346345731025,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.008394006078231708,
+                0.0070002060941127325
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                9.607748038513275,
+                11.55946708277786
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9824106768833178,
+              "pressShearFractionAreaWeighted": 0.18631112364806363,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 19.29402675969768,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "LOCAL FOOT VALIDATION REQUIRED",
+        "neighborClearanceMm": 0.010306474005174593
+      },
+      "M4": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "3-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 19.15807553925664,
+        "axis": [
+          0.2878365212266233,
+          -0.7441712373021486,
+          -0.6027929218399507
+        ],
+        "rearProjectionDepthMm": 9.559999999999999,
+        "rearProjectionReductionVs9p96Mm": null,
+        "terminalAccess": "T2 unused; other terminals open",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "LOW",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 3,
+          "feet": [
+            {
+              "centerUVmm": [
+                3.0,
+                -6.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.347586276971279,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.0250757026635104,
+                0.022620146457138012
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                8.81427807044431,
+                13.689914070305564
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9799136381108118,
+              "pressShearFractionAreaWeighted": 0.19689774710027733,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                -6.0,
+                0.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.34343718897811,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.03546628906926754,
+                0.04185616983233728
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                7.022025433991089,
+                15.25152601907313
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9804672954521354,
+              "pressShearFractionAreaWeighted": 0.19035723664988116,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                5.0,
+                -9.0
+              ],
+              "planarAreaMm2": 4.32,
+              "contactSurfaceAreaMm2": 4.46705207330725,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.012380895853522311,
+                0.015968234797705348
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                12.023402967722573,
+                17.15310220893551
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9670807344767809,
+              "pressShearFractionAreaWeighted": 0.2531777465627547,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 19.15807553925664,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "LOCAL FOOT/WING VARIANT REQUIRED",
+        "neighborClearanceMm": 0.0
+      },
+      "N3": {
+        "coreType": "STANDARD OPEN FRAME V1",
+        "footType": "3-PATCH SHELL-DERIVED FACETED CONFORMAL FOOT",
+        "glueAreaMm2": 24.601259360618528,
+        "axis": [
+          0.6921593412330116,
+          -0.560207029374328,
+          -0.4550643147770151
+        ],
+        "rearProjectionDepthMm": 10.36,
+        "rearProjectionReductionVs9p96Mm": null,
+        "terminalAccess": "T3 unused; other terminals open",
+        "wireExit": "±U SIDE / four terminal quadrants open",
+        "seamSensitivity": "LOW",
+        "assemblyJigAccess": "YES / opening pilot D4.16 + 7.72 key",
+        "glue": {
+          "patchCount": 3,
+          "feet": [
+            {
+              "centerUVmm": [
+                6.0,
+                -6.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.794196632187228,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.034917514206818545,
+                0.03740885017567201
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                18.773002919202302,
+                25.71201613245925
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9237642235335186,
+              "pressShearFractionAreaWeighted": 0.38055113945157804,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                6.0,
+                3.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 7.58491163264882,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.034425436484436654,
+                0.044200567826064754
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                14.321689834801635,
+                22.078242676848156
+              ],
+              "pressCompressionFractionAreaWeighted": 0.9492529839119035,
+              "pressShearFractionAreaWeighted": 0.31127035228883454,
+              "pressPeelFraction": 0.0
+            },
+            {
+              "centerUVmm": [
+                -6.0,
+                6.0
+              ],
+              "planarAreaMm2": 7.199999999999999,
+              "contactSurfaceAreaMm2": 9.222151095782479,
+              "bondlineNominalMm": 0.3,
+              "bondlineAuditRangeMm": [
+                0.2,
+                0.5
+              ],
+              "actualGridSamplesUsed": 25,
+              "fitResidualP05P95Mm": [
+                -0.04041494391493661,
+                0.04429817559870128
+              ],
+              "surfaceNormalFromWMinMaxDeg": [
+                35.03150511121689,
+                40.34329645486415
+              ],
+              "pressCompressionFractionAreaWeighted": 0.7807289129423114,
+              "pressShearFractionAreaWeighted": 0.6240283422008638,
+              "pressPeelFraction": 0.0
+            }
+          ],
+          "totalGlueContactAreaMm2": 24.601259360618528,
+          "minimumAttachmentDistanceMm": 0.0,
+          "maximumAttachmentDistanceMm": 0.0,
+          "floatingOrTangentOnly": false,
+          "bondlineParameterMm": [
+            0.2,
+            0.3,
+            0.5
+          ],
+          "glueKeepOut": "central 8 x 8 guide/switch/terminal prism + all T1-T4 solder cones"
+        },
+        "verdict": "LOCAL FOOT/WING VARIANT REQUIRED",
+        "neighborClearanceMm": 0.0
+      }
+    },
+    "neighborPairs": {
+      "N1-N2": {
+        "aabbGapMm": 0.7470563915941941,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-I2": {
+        "aabbGapMm": 4.1961134130190025,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-I3": {
+        "aabbGapMm": 5.661495108484829,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-I4": {
+        "aabbGapMm": 7.925159306346965,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-M3": {
+        "aabbGapMm": 25.81856335481631,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-M4": {
+        "aabbGapMm": 26.430991455215395,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-N3": {
+        "aabbGapMm": 32.15078310058396,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I2": {
+        "aabbGapMm": 5.0315507632748675,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I3": {
+        "aabbGapMm": 5.76500961791843,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I4": {
+        "aabbGapMm": 5.7998291730741585,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-M3": {
+        "aabbGapMm": 25.909310298900895,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-M4": {
+        "aabbGapMm": 25.964562217349158,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-N3": {
+        "aabbGapMm": 29.85447308600474,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-I3": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 243.65699562030986,
+        "status": "REVIEW"
+      },
+      "I2-I4": {
+        "aabbGapMm": 7.376318091134124,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-M3": {
+        "aabbGapMm": 8.003495272278307,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-M4": {
+        "aabbGapMm": 10.936207000652544,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-N3": {
+        "aabbGapMm": 18.159914313365125,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-I4": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 11.957933575332897,
+        "status": "REVIEW"
+      },
+      "I3-M3": {
+        "aabbGapMm": 7.807768920553346,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-M4": {
+        "aabbGapMm": 7.872893144994806,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-N3": {
+        "aabbGapMm": 14.037966491996754,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-M3": {
+        "aabbGapMm": 7.810153146777,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-M4": {
+        "aabbGapMm": 7.87376937790333,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-N3": {
+        "aabbGapMm": 12.393203162254679,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M3-M4": {
+        "aabbGapMm": 0.010306474005174593,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M3-N3": {
+        "aabbGapMm": 6.831305105582661,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M4-N3": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 226.71800794640836,
+        "status": "REVIEW"
+      }
+    }
+  },
+  "architectureComparison": {
+    "closedPocketMaterialMm3": 235.759,
+    "bulkyCartridgeEnvelopeMm3": 921.5999999999999,
+    "openFrameCoreMaterialMm3": 124.1958857193141,
+    "openFrameEnvelopeMm3": 772.2445500000001,
+    "verdict": "OPEN FRAME LOWEST MATERIAL / ADHESIVE AND ASSEMBLY HIGHEST DEPENDENCY"
+  },
+  "couponV2": {
+    "stations": [
+      {
+        "gapUmm": 0.12,
+        "gapVmm": 0.14,
+        "tipDmm": 2.4,
+        "stopMm": 0.34
+      },
+      {
+        "gapUmm": 0.2,
+        "gapVmm": 0.22,
+        "tipDmm": 2.6,
+        "stopMm": 0.38
+      },
+      {
+        "gapUmm": 0.32,
+        "gapVmm": 0.35,
+        "tipDmm": 2.8,
+        "stopMm": 0.42
+      }
+    ],
+    "tests": [
+      "ITS insertion",
+      "bottom seating",
+      "side clearance",
+      "corner feature",
+      "pusher",
+      "REST/click/return",
+      "hard stop",
+      "terminal access",
+      "removal",
+      "100-cycle",
+      "glue",
+      "jig repeatability"
+    ]
+  },
+  "finalVerdict": "B / OPEN-FRAME HARNESS WORKS, BUT SOME POSITIONS NEED LOCAL VARIANTS",
+  "outputs": {
+    "standardCoreStep": "build123d_workbench/out/open_frame_glued_switch_harness_candidate/STANDARD_OPEN_FRAME_HARNESS_CORE_AUDIT_ONLY.step",
+    "representativeStep": "build123d_workbench/out/open_frame_glued_switch_harness_candidate/I2_OPEN_FRAME_GLUED_HARNESS_AUDIT_ONLY.step",
+    "jigStep": "build123d_workbench/out/open_frame_glued_switch_harness_candidate/I2_OPENING_DATUM_ALIGNMENT_JIG_AUDIT_ONLY.step",
+    "all8Step": "build123d_workbench/out/open_frame_glued_switch_harness_candidate/ALL8_VIRTUAL_OPEN_FRAME_HARNESS_AUDIT_ONLY.step",
+    "couponStep": "build123d_workbench/out/open_frame_glued_switch_harness_candidate/OPEN_FRAME_HARNESS_FDM_COUPON_V2_AUDIT_ONLY.step",
+    "couponStl": "build123d_workbench/out/open_frame_glued_switch_harness_candidate/OPEN_FRAME_HARNESS_FDM_COUPON_V2_AUDIT_ONLY.stl",
+    "json": "build123d_workbench/out/open_frame_glued_switch_harness_candidate/open_frame_glued_switch_harness_candidate.json",
+    "report": "docs/77_open_frame_glued_switch_harness_candidate.md",
+    "renders": [
+      "renders/open_frame_glued_switch_harness_candidate/01_open_frame_harness_isolated.png",
+      "renders/open_frame_glued_switch_harness_candidate/02_its_inserted_in_harness.png",
+      "renders/open_frame_glued_switch_harness_candidate/03_bottom_seating_closeup.png",
+      "renders/open_frame_glued_switch_harness_candidate/04_corner_feature_clearance.png",
+      "renders/open_frame_glued_switch_harness_candidate/05_open_terminal_access.png",
+      "renders/open_frame_glued_switch_harness_candidate/06_pusher_actuator_section.png",
+      "renders/open_frame_glued_switch_harness_candidate/07_hard_stop_section.png",
+      "renders/open_frame_glued_switch_harness_candidate/08_glue_wings_isolated.png",
+      "renders/open_frame_glued_switch_harness_candidate/09_conformal_foot_on_shell_inner_surface.png",
+      "renders/open_frame_glued_switch_harness_candidate/10_alignment_jig_installed.png",
+      "renders/open_frame_glued_switch_harness_candidate/11_jig_shell_harness_section.png",
+      "renders/open_frame_glued_switch_harness_candidate/12_glue_load_path_visualization.png",
+      "renders/open_frame_glued_switch_harness_candidate/13_representative_harness_in_shell.png",
+      "renders/open_frame_glued_switch_harness_candidate/14_all8_virtual_harness_placement.png",
+      "renders/open_frame_glued_switch_harness_candidate/15_n1_n2_thumb_szh_closeup.png",
+      "renders/open_frame_glued_switch_harness_candidate/16_jad_jfd_split_relationship.png",
+      "renders/open_frame_glued_switch_harness_candidate/17_coupon_v2_preview.png"
+    ]
+  },
+  "inputHashesBefore": {
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+    "build123d_workbench/out/button_fdm_coupon/BUTTON_FDM_TEST_COUPON.step": "45adbe0d2b51c83061d06625c15528824bad0264ce9b51c1d3aac71b7a35dff6",
+    "cad_dump/mesh_ITS_LIVE_JaD.json": "84f4b576e178e39d3463de86647fe1c69b96f59c231e72b2e0c6c34553f589c3",
+    "cad_dump/mesh_ITS_LIVE_JfD.json": "c1fc13948098dc44ae487bb12185f0ec95dfd181f010ac10c34ca75171bbdbcd",
+    "cad_dump/its1105_physical_sample_reaudit.json": "39b9bf58bb0a7b8148159603fe0e8574369ce60bd130e51c793b7153c39ac586",
+    "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md": "b6e5890554fa3934ff0a40a7779da051da4fb8026060bbd8c8e3258a19924ef0"
+  },
+  "inputHashesAfter": {
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+    "build123d_workbench/out/button_fdm_coupon/BUTTON_FDM_TEST_COUPON.step": "45adbe0d2b51c83061d06625c15528824bad0264ce9b51c1d3aac71b7a35dff6",
+    "cad_dump/mesh_ITS_LIVE_JaD.json": "84f4b576e178e39d3463de86647fe1c69b96f59c231e72b2e0c6c34553f589c3",
+    "cad_dump/mesh_ITS_LIVE_JfD.json": "c1fc13948098dc44ae487bb12185f0ec95dfd181f010ac10c34ca75171bbdbcd",
+    "cad_dump/its1105_physical_sample_reaudit.json": "39b9bf58bb0a7b8148159603fe0e8574369ce60bd130e51c793b7153c39ac586",
+    "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md": "b6e5890554fa3934ff0a40a7779da051da4fb8026060bbd8c8e3258a19924ef0"
+  },
+  "protectedInputsPreserved": true
+}

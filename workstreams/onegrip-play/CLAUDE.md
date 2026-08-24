@@ -1343,3 +1343,130 @@ OneGrip-Play/
   `*_CUSTOM_SUPPORT_PLA.{step,stl}`, `*_PRODUCT_ONLY_PLA.step`, preview 7종.
   **REV B/C/D 및 `JOINT_FIT_COUPON` 무수정 보존. G-code 미생성.**
   **STOP: PETG STL / M3·M4 나사 재설계 / 전장 / 배터리 / 버튼 / 상부 손가락 형상 미착수.**
+
+- 2026-08-23: **실물 처짐 보고 -> CAD support CONSERVATIVE V2. REV D body 수정 0건.**
+  보고서 `lower_adapter/local_cad/reports/17_support_conservative_v2.md`.
+  ARMREST 출력에서 **천장 첫 레이어가 처졌다**는 보고. 밀도부터 올리려 했으나
+  피치를 10 -> 4mm 로 줄여도 **리브가 1개 그대로**여서 형상을 실측했다.
+  **원인은 밀도가 아니라 금지 규칙이었다.** `ARM_CONTACT` 가 램프 평면 아래
+  **7mm 슬래브 전체**를 금지해 `support 필요 1,656.9mm2` 중 **869.7mm2** 가
+  통째로 배제돼 있었다 (최대 단일 면 **589.4mm2**).
+  **그 면의 정체 = stepped lap 상단 mating 면.** print (x,-78.9,28.0) 을 grip 으로
+  되돌리면 `grip y -140.30 = Y_UP`, 패드면 아래 `6.401 = LAP_D`. ARMREST 는
+  CUT FACE DOWN 이라 lap 위 단이 **공중 28mm 의 수평 아래보기**가 된다.
+  -> 금지 규칙을 **3단계(FORBID / NARROW / 제한없음)** 로 재정의.
+  외부 팔접촉면은 **0.8mm 외피만** FORBID, lap·rib/groove 는 **NARROW**
+  (받치되 넓은 머리 없이 0.8mm 선접촉). insert pilot·카운터보어 안착면은 FORBID 유지.
+  **처지면 조립이 안 되고 복구도 안 되지만 support 자국은 joint 안쪽이라 긁으면 된다**
+  는 판단이며, 되돌리려면 `_arm_zone`/`_main_zone` 의 LAP 을 FORBID 로 두면 된다.
+  **보수화 2축:** 리브 피치 10 -> **MAIN 6.0 / ARMREST 4.0**,
+  천장 접촉에 **2.0x2.0 계단 4단 머리**(단 폭 0.15mm = 노즐 미만이라 자립) 추가.
+  자유 브리지 **9.2 -> 4.0 / 2.0mm**. teeth 6:3@9 -> 10:2@12. Z gap 0.20 유지.
+  측면 여유는 **적응식 0.40 -> 0.25 -> 0.12** (고정 0.40 이 가장자리 행을 통째로
+  버려 `측면막힘 119/119` 였다) + 끝단 행 보강.
+  **실측 (받침까지 수평거리):** MAIN 평균 1.01 / **최대 3.60mm**, 미지지 3,736mm2.
+  ARMREST 평균 0.48 / **최대 2.40mm**, 미지지 935.5 -> **316.0mm2**.
+  **물량:** MAIN 리브 71개 134.10cm3 (166.3g, V1 101g), ARMREST 리브 5개 7.63cm3 (9.5g).
+  **검증:** SUPPORT_FOR_SUPPORT **0.000 / 0.000 mm2**, TRUE TRAPPED **0**,
+  STL 경계0·비다양체0·degen0·watertight, product sha256 REV D 와 동일,
+  부피 차 9.3e-10 / 5.8e-11 mm3.
+  **결함 6건 — 형상 3 / 측정 3.**
+  형상: (1) ARM_CONTACT 7mm 슬래브 -> 0.8mm 외피 (2) 고정 측면여유가 가장자리 행을
+  전부 버림 -> 적응식 (3) **폴리곤 현(chord)이 재료 관통** — 표본 간 천장 단차를
+  2.0mm 까지 허용해 모서리를 가로질렀다. 0.6mm 로 조여 침범 **0.3208 -> 0.1659mm**.
+  측정: (4) 감사기가 "표본점 **바로 밑**"만 봐서 리브 사이 간격을 전부 미지지로 셌다
+  -> **브리지 거리** 판정으로 교체 (935.5 -> 316.0) (5) **`has_below` 가 표면 교차점만
+  봐서 리브 몸통처럼 연속 재료 안에 있는 점을 '아래에 아무것도 없다'로 셌다**
+  -> 내부 판정(parity) 으로 SUPPORT_FOR_SUPPORT **2,202.4 -> 0.000mm2**.
+  같은 함수에서 **세 번째** 측정 결함이다 (6) 계단 머리 0.15mm 단이 잡혀
+  **0.45mm(노즐 1개) 이하 미세 단**은 자립으로 분류·별도 집계.
+  **교훈: 판정이 FAIL 이면 형상부터 고치려 들지 말고 판정식이 물리를 맞게 표현하는지
+  먼저 확인하라. 이번 FAIL 3건 중 2건이 판정식 문제였다.**
+  **주시 2건:** 제품 침범 게이트가 MAIN 10개 삼각형 / 최대 **0.1659mm** 로 여전히 FAIL
+  (전체의 0.018%, 메시 tol 잡음 하한의 약 2배. 국소 오목면에서 리브가 벽에 닿는 정도).
+  측면 여유가 국소 **0.12mm** (지시 0.35~0.45 미달, MAIN 18 / ARMREST 7 표본) —
+  support 를 아예 못 세우는 것보다 낫다고 판단.
+  신규 진단 스크립트 `diag_overhang.py` / `probe_column.py`.
+  **V1 산출물은 `*_V1.*` 로 보존.** G-code 미생성.
+
+- 2026-08-23: **SZH-EK056 실물 fit-test fixture 생성 + 독립 재검증 16 PASS / 0 FAIL.
+  Onshape API 0건. Production geometry 수정 0건.** 문서 `docs/72_szh_ek056_actual_fit_test.md`,
+  생성기 `build123d_workbench/szh_actual_fit_fixture.py`.
+  docs/70 checkpoint / docs/71 provisional audit / knob interface confirmation 기준.
+  **목적:** docs/71 의 provisional 결과(PCB↔N1/N2 충돌, N1 T4 약 1.108mm, shaft/gimbal
+  sweep 약 0.89~0.90mm, wiring BLOCKED)를 **CAD 로 고치지 않고 실물로 검증**하는 것.
+  WEB REFERENCE 가 APPROXIMATE 라 N1/N2/Thumb 재설계는 금지 상태 유지.
+  **fixture:** 실제 OneGrip world 좌표를 그대로 유지한 국소 crop `51 x 36 x 43mm`
+  (JaD/JfD 현재 쉘 섹션 + lowered Thumb Backplate + 승인 N1/N2 carrier 무수정 복사본)
+  + 희생형 open frame `59 x 43 x 3mm` + support link 6개. solid 74.
+  Stock knob / custom knob adapter / web joystick 은 **인쇄물에 미포함**.
+  label 10종(`N1` `N2` `PCB DATUM` `JOYSTICK AXIS` `+-X` `+-Y` `N1 T4 CHECK` `TEST ONLY`)
+  + tilt mark 4개 emboss.
+  **독립 재검증 (generator 자체 JSON 을 믿지 않고 동결 source 에서 crop 재계산):**
+  JaD/JfD/Backplate 전부 재계산본과 일치(dCentroid 최대 `3.2e-05mm` = **STEP 직렬화 정밀도**;
+  코드상 `moved()` 미사용이라 병진·회전 0), carrier dVol `4.8e-12mm3`,
+  STL 3종 boundary 0 / degenerate 0, STEP leaf solid 74개 전부 valid, web solid 0건.
+  **검증 중 fixture 결함 2건 발견·수정 (희생형 frame 한정, production 무관):**
+   1) **tilt mark 4개가 개구부 위 캔틸레버**였다 — ring 재료 위 footprint **0.0%**,
+      ring 안쪽 벽에 **0.44mm2 맞대기 면 하나로만** 붙은 4mm 캔틸레버(겹침 부피 0).
+      FDM 에서 첫 레이어가 허공이라 처지거나 떨어진다 -> 각 tick 을 band 위로 이설,
+      재검사 footprint **100.0%**
+   2) `JOYSTICK AXIS` ∩ `TEST ONLY` = **0.080523mm3** — `Text` 가 원점 **중앙 정렬**이라
+      `x=-5.0` 에서 맞물렸다 -> `x=-7.5`, 간극 `0.76mm`, 충돌 0
+  **검사기 결함 3건 (전부 CLAUDE.md 에 이미 적혀 있던 함정을 재발):**
+   (1) **Compound 를 부울 피연산자로** 줘서 `got - ref` 가 got 전체를 반환 -> symDiff 3,802mm3
+       라는 허위 FAIL. (2) 그 대체로 쓴 **coincident solid 교집합도 ill-conditioned**
+       (공통부 44% 로 나옴) -> **부울을 버리고 solid 별 (부피, 도심, bbox) 대조**로 교체.
+   (3) label 이 WORLD compound 안에 **LOCAL 좌표로** 저장돼 있는데 `frame.inverse()*` 를
+       걸어 **이중 변환** -> 위치 FAIL 14건이 전부 허위였다.
+  **교훈 2건:** (a) **각도·부피·해시·닫힘이 전부 통과해도 "그 solid 밑에 재료가 있는가" 는
+  별도 지표다** — tick 은 좌표·치수·label 이 다 옳고 STEP/STL 도 닫혀 있었지만 출력하면
+  사라졌을 것이다. (b) STL 의 **non-manifold edge 189개는 결함이 아니다** — 열린 경계 0 이고
+  맞닿는 별개 body(분할면의 JaD/JfD, frame 위 emboss)의 정상 면접촉이다. body count 처럼
+  **지표의 정의를 함께 적어야** 오판하지 않는다.
+  **산출물** `build123d_workbench/out/szh_actual_fit_fixture/SZH_EK056_ACTUAL_FIT_FIXTURE.{step,stl}`
+  + `_BODY.{step,stl}` + `_N1_N2_CARRIER.stl` + JSON 기록, 렌더 3종.
+  **STOP: 실측표(PCB/shaft/N1·N2 contact/tilt/wire) 없이 N1/N2 / Thumb / shell / knob bore
+  재설계 금지.**
+
+- 2026-08-23: **ORIGINAL BUTTON GEOMETRY LINEAGE AUDIT -> docs/73. READ ONLY,
+  CAD/fixture 수정 0건, Onshape API 0건.** docs/72 는 **LEGACY CUSTOM-BUTTON-BASELINE
+  FIT FIXTURE** 로 재분류(배너 추가).
+  **판정: DOCS/72 SZH FIT FIXTURE = REUSABLE WITH CAP-SIDE CHANGES ONLY** (경계조건 있음).
+  **의심 전제는 성립하지 않았다.** "N1/N2 carrier·switch pose 가 custom cap 기준으로
+  설계됐다" 는 근거가 없다. 정적 추적 결과 의존 방향이 **switch -> cap** 이다:
+  `choose_front_depths()` 의 수락조건은 **carrier↔shell + ITS body↔shell 간섭과 이격 0.20mm**
+  뿐이고 **인자에 cap 이 없다.** `caps` 는 `build_finger_controls_v2()` 맨 마지막에 계산돼
+  dataclass 에 담길 뿐 어떤 boolean 에도 재투입되지 않는 **leaf** 다.
+  `build_cap()` 이 오히려 `front_depth` 를 읽어 `boss_rear` 를 맞춘다.
+  **원본 부품 실측 (`cad_dump/mesh_*`):** 캡 4형상x2mirror = `Button_corner`(RAEL/RBED)
+  `Button_middle`(RDED/RDEH) `Button_side`(RAEH/RBEH) `Button_wide`(RAED/RBEL),
+  스위치 `PushBtn` bbox 7.566x8.519x6.010. 정사각 캡 **7.597~7.600 mm**, 두께 4.742~4.938.
+  **원본 캡은 socket/boss 가 없는 solid block** — `Button_middle_1` 은 삼각형 **12개**,
+  mesh 부피 **275.054** = `7.6x7.6x4.762` 정확히 일치 (fill 1.000).
+  **원본 8버튼은 엄지 클러스터** — 가장 가까운 손가락 버튼까지 **38.10~49.08mm**.
+  즉 **원본에 대응하는 N1/N2 는 존재하지 않는다** (손가락 8버튼은 전부 신규).
+  **현재 cap 판정 = MODIFIED (외부 ORIGINAL 정합 / 내부 CUSTOM):**
+  판 `CAP_SIZE 7.60` = 원본 7.600 **일치**, 개구부 `OPENING_SIZE 8.00` = `#button_width`
+  **일치**, 클리어런스 0.20 **일치**. custom 인 것은 ITS-1105 용 boss ⌀4.50 + socket ⌀3.45 뿐.
+  **두 갈래 (판정이 갈리는 지점):**
+   A) 현재 외형 유지 + socket (**권고**) -> `front_depth 4.80` / terminal / carrier rear
+      **9.96mm 전부 불변** -> **docs/72 fixture 수정 0건, 그대로 인쇄·시험 가능**
+   B) 원본 solid block 무수정 채용 -> socket 이 없어 ITS actuator 상면(u +2.36)을
+      **1.382~1.578mm 관통**하므로 switch 를 그만큼 밀어야 하고, carrier rear 가
+      9.96 -> **11.342~11.538mm** 로 **docs/71 의 `PCB↔N1/N2` 충돌을 정확히 그만큼 악화**
+      -> **N1/N2 region 재생성 필요**
+  **fixture 안에 cap 은 한 조각도 없다** (STEP label 40개 중 cap solid **0**). 내용물은
+  JaD/JfD 쉘 섹션 + lowered Backplate + 승인 carrier 무수정 복사본(379.533822mm3) + 희생 frame,
+  전부 cap 무의존. 쉘 개구부 8.00 도 **원본 스펙 유래**지 custom cap 유래가 아니다.
+  **부수 발견 (cap 무관, 별개 최적성 문제): `CARRIER_FRONT_SEED = 4.40` 이 탐색범위를 자른다.**
+  문서화된 유도가 없고 cap 산술(4.64 / 2.64)과도 안 맞는다. 같은 수락조건으로 seed 아래를
+  직접 돌리면 **N1 은 4.00, N2 는 3.60 부터 FEASIBLE**. 최종 4.80 은 seed 가 아니라
+  **N1/N2 공용 bridge 루프**가 4.40 에서 2스텝 민 결과다. SZH 방향 여유를 1.2mm 이상
+  만들 수 있는 자리이므로 docs/71 충돌 해소 때 재검토 대상.
+  **측정 함정 1건: 정사각 판에 PCA-OBB 를 쓰면 45도 대각 정렬돼** `10.748 = 7.6√2` 가 나오고
+  fill 이 0.50 으로 보인다. 지배 평면 법선을 축으로 써야 한다.
+  **미해결:** CLAUDE.md §3 "버튼 스위치 PushBtn 유지 vs 교체" 가 아직 공식적으로 안 닫혔다
+  (실작업은 ITS-1105 로 진행, 물리 샘플 감사 다수). PushBtn 회귀는 8버튼 전체 재유도가 된다.
+  이 audit 은 **N1/N2 만** 다뤘고 I2/I3/I4/M3/M4/N3 개별 검증은 미수행.
+  **STOP: §7 갈래 선택 승인 대기. N1/N2 / Thumb / shell / cap / fixture 재설계 금지.**

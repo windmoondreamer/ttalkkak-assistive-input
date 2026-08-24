@@ -1,0 +1,1743 @@
+{
+  "schema": "onegrip.slot_anchored_harness_captive_pusher_audit.v1",
+  "generatedUtc": "2026-08-24T06:40:04.212309+00:00",
+  "mode": "AUDIT/CANDIDATE ONLY / FROZEN MESH-DERIVED HOUSING / PRODUCTION EDIT 0",
+  "architecture": "SLOT-ANCHORED OPEN-FRAME SWITCH HARNESS + CAPTIVE PUSHER",
+  "supersedesAsProductionDirection": "docs/77 conformal glue-foot harness",
+  "freeze": {
+    "centersAxes": "PRESERVED",
+    "visibleLayout": "PRESERVED",
+    "exterior": "PRESERVED",
+    "maximumLoweredThumb": "PRESERVED",
+    "JaDJfDSplit": "PRESERVED",
+    "productionModificationCount": 0
+  },
+  "representative": {
+    "button": "I2",
+    "reason": "non-seam-special curved JfD + all terminals"
+  },
+  "harness": {
+    "bodyAuthorityMm": [
+      6.12,
+      6.05,
+      3.56
+    ],
+    "tongueAmm": [
+      2.4,
+      2.0,
+      3.2
+    ],
+    "tongueBmm": [
+      3.2,
+      2.0,
+      3.2
+    ],
+    "slotClearancePerSideMm": 0.25,
+    "slotDepthMm": 2.4,
+    "minimumWallMm": 1.2,
+    "familyCount": 2,
+    "families": [
+      "STANDARD TAB MODULE (7)",
+      "N2 SAME-HALF TAB MODULE (1)"
+    ],
+    "retention": "slot/shoulder primary + adhesive secondary"
+  },
+  "pusher": {
+    "tipDiameterMm": 2.6,
+    "shaftDiameterMm": 4.6,
+    "guideBoreMm": 5.0,
+    "radialClearanceMm": 0.20000000000000018,
+    "guideLengthMm": 1.7499999999999991,
+    "angularClearanceDeg": 6.5198017516569955,
+    "grooveRootDiameterMm": 3.8,
+    "grooveWidthMm": 0.6,
+    "grooveAreaFraction": 0.6824196597353498,
+    "clipLoadBearing": false,
+    "clipOutwardRetentionFloatMm": 0.05000000000000071,
+    "clipGuideGapAtFullMm": 0.4300000000000007,
+    "preferredFallback": "metal pin or separate retained collar if printed-groove coupon fails"
+  },
+  "actuation": {
+    "restGapMm": 0.08,
+    "T_CLICK": 0.33,
+    "T_DESIGN_FULL": 0.38,
+    "T_STOP": 0.38,
+    "actuatorCompressionAtClickMm": 0.25,
+    "actuatorCompressionAtStopMm": 0.3,
+    "hardStop": "pusher shoulder to guide cavity floor",
+    "clipInLoadPath": false,
+    "authority": "PROVISIONAL / force-travel coupon required"
+  },
+  "adhesive": {
+    "role": [
+      "anti-pullout",
+      "anti-vibration",
+      "anti-slip",
+      "tolerance fill"
+    ],
+    "primaryPressReaction": false,
+    "access": "rear slot exits after shoulder seating",
+    "keepOut": "central pusher/actuator and T1-T4 terminal quadrants",
+    "squeezeOut": "rearward open path"
+  },
+  "referenceHousing": {
+    "original": {
+      "method": "local/selected mesh centroid-to-shell samples; not a full-shell boolean",
+      "minimumSampleGapMm": 0.1487659440539403,
+      "maximumReportedLocalGapMm": 4.99267247148916,
+      "medianLocalGapMm": 2.332525965899057,
+      "contactAreaProxyLe0p10Mm2": 0.0,
+      "nearAreaLt5Mm2": 5173.516963949247,
+      "unsupportedAreaProxyGt2Lt5Mm2": 2620.7034997751452,
+      "unsupportedFractionOfNearArea": 0.5065613040484958,
+      "contactClass": "VARIABLE CLEARANCE / CAPTURED SEPARATE INSERT, NOT EXACT CONFORMAL"
+    },
+    "currentLowered": {
+      "method": "local/selected mesh centroid-to-shell samples; not a full-shell boolean",
+      "minimumSampleGapMm": 0.10787065976869784,
+      "maximumReportedLocalGapMm": 4.99823062818098,
+      "medianLocalGapMm": 3.842442629458812,
+      "contactAreaProxyLe0p10Mm2": 0.0,
+      "nearAreaLt5Mm2": 3019.579498258153,
+      "unsupportedAreaProxyGt2Lt5Mm2": 2321.419466784543,
+      "unsupportedFractionOfNearArea": 0.7687889880440824,
+      "contactClass": "VARIABLE CLEARANCE / CAPTURED SEPARATE INSERT, NOT EXACT CONFORMAL"
+    },
+    "candidate": "frozen exterior local inner-facing surface-derived 0.30 mm render band",
+    "verdict": "LOCAL CONFORMAL REBASE"
+  },
+  "housingSummary": {
+    "minimumRobustGapMm": 0.2999999999999996,
+    "maximumRobustGapMm": 1.3641612908195297,
+    "localThicknessMm": 1.6,
+    "authority": "mesh-derived audit; exact BRep rebase pending"
+  },
+  "virtualFit": {
+    "buttons": {
+      "N1": {
+        "coreFamily": "STANDARD TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              -10.351184477708651,
+              -26.085845800450926,
+              24.659990075644394
+            ],
+            "localUVmm": [
+              0.0,
+              -5.0
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              -10.351184477708651,
+              -30.92668966869764,
+              33.41020325266232
+            ],
+            "localUVmm": [
+              0.0,
+              5.0
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JfD",
+        "axis": [
+          -0.07646638594200623,
+          -0.8724593951000031,
+          -0.48266706509011453
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T1/T2/T3/T4 available",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 4,
+          "panels": [
+            {
+              "sampleCount": 34,
+              "inlierCount": 31,
+              "residualP05P50P95Mm": [
+                -0.33580505287901374,
+                -0.05908031833995819,
+                0.4695446029337875
+              ],
+              "clearanceAppliedMm": 0.7695446029337876,
+              "robustGapP05P50P95Mm": [
+                0.30000000000000004,
+                0.8286249212737458,
+                1.1053496558128013
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 13,
+              "inlierCount": 13,
+              "residualP05P50P95Mm": [
+                -0.3143907342050284,
+                -0.014461462273871017,
+                0.38559751141866794
+              ],
+              "clearanceAppliedMm": 0.6855975114186679,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999977,
+                0.7000589736925389,
+                0.9999882456236963
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 36,
+              "inlierCount": 31,
+              "residualP05P50P95Mm": [
+                -0.0515701166130349,
+                -0.016943024020557473,
+                0.06594052473296985
+              ],
+              "clearanceAppliedMm": 0.36594052473296984,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.3828835487535273,
+                0.41751064134600474
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            },
+            {
+              "sampleCount": 222,
+              "inlierCount": 139,
+              "residualP05P50P95Mm": [
+                -0.3613925327173043,
+                -0.06136029838487156,
+                0.5127956480065953
+              ],
+              "clearanceAppliedMm": 0.8127956480065952,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999977,
+                0.8741559463914668,
+                1.1741881807238996
+              ],
+              "boundsUVmm": [
+                4.5,
+                7.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.29999999999999977,
+          "maximumReportedRobustGapMm": 1.1741881807238996,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "N2": {
+        "coreFamily": "N2 SAME-HALF TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              -3.835201440265501,
+              -25.6198303966578,
+              24.620596271816954
+            ],
+            "localUVmm": [
+              -4.2,
+              -5.5
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              -3.835201440265501,
+              -31.229330746606276,
+              34.082810908144324
+            ],
+            "localUVmm": [
+              -4.2,
+              5.5
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JfD",
+        "axis": [
+          -0.043167877641508666,
+          -0.8593994790251817,
+          -0.5094792142876627
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T1/T3 active; T2/T4 unused trim",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 3,
+          "panels": [
+            {
+              "sampleCount": 33,
+              "inlierCount": 28,
+              "residualP05P50P95Mm": [
+                -0.17556875528355603,
+                0.03301212370717077,
+                0.12869943282685697
+              ],
+              "clearanceAppliedMm": 0.42869943282685696,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.3956873091196862,
+                0.6042681881104129
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -0.6,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 33,
+              "inlierCount": 28,
+              "residualP05P50P95Mm": [
+                -0.17556875528355603,
+                0.03301212370717077,
+                0.12869943282685697
+              ],
+              "clearanceAppliedMm": 0.42869943282685696,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.3956873091196862,
+                0.6042681881104129
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -0.6,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 33,
+              "inlierCount": 28,
+              "residualP05P50P95Mm": [
+                -0.17556875528355603,
+                0.03301212370717077,
+                0.12869943282685697
+              ],
+              "clearanceAppliedMm": 0.42869943282685696,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.3956873091196862,
+                0.6042681881104129
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.3,
+          "maximumReportedRobustGapMm": 0.6042681881104129,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "CONDITIONAL / BOTH SLOT BOSSES JfD-SIDE",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "I2": {
+        "coreFamily": "STANDARD TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              -12.082658157277319,
+              -16.716145233484195,
+              9.17575603231174
+            ],
+            "localUVmm": [
+              0.0,
+              -5.0
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              -12.082658157277319,
+              -22.13940711970861,
+              17.57743625197171
+            ],
+            "localUVmm": [
+              0.0,
+              5.0
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JfD",
+        "axis": [
+          -0.43398514194613513,
+          -0.7569241977430389,
+          -0.48859252495412786
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T1/T2/T3/T4 open",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 4,
+          "panels": [
+            {
+              "sampleCount": 102,
+              "inlierCount": 60,
+              "residualP05P50P95Mm": [
+                -0.5333448711180905,
+                0.012424022538966906,
+                0.5308164197014391
+              ],
+              "clearanceAppliedMm": 0.8308164197014392,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.8183923971624723,
+                1.3641612908195297
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 73,
+              "inlierCount": 27,
+              "residualP05P50P95Mm": [
+                -0.5162160527687433,
+                -0.018128169443512032,
+                0.5293947530578682
+              ],
+              "clearanceAppliedMm": 0.8293947530578683,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.8475229225013803,
+                1.3456108058266114
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 83,
+              "inlierCount": 40,
+              "residualP05P50P95Mm": [
+                -0.4690092314912369,
+                -0.05240774708275597,
+                0.5073387070384506
+              ],
+              "clearanceAppliedMm": 0.8073387070384506,
+              "robustGapP05P50P95Mm": [
+                0.2999999999999997,
+                0.8597464541212065,
+                1.2763479385296874
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            },
+            {
+              "sampleCount": 52,
+              "inlierCount": 25,
+              "residualP05P50P95Mm": [
+                -0.5170673303265768,
+                0.011893456729932694,
+                0.36513327993402017
+              ],
+              "clearanceAppliedMm": 0.6651332799340202,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.6532398232040875,
+                1.1822006102605964
+              ],
+              "boundsUVmm": [
+                4.5,
+                7.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.2999999999999997,
+          "maximumReportedRobustGapMm": 1.3641612908195297,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "I3": {
+        "coreFamily": "STANDARD TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              -4.731391499199463,
+              -18.934936077994234,
+              6.984264647433143
+            ],
+            "localUVmm": [
+              0.0,
+              -5.0
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              -4.731391499199463,
+              -21.894048579036795,
+              16.536419022555734
+            ],
+            "localUVmm": [
+              0.0,
+              5.0
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JfD",
+        "axis": [
+          -0.08169076783987367,
+          -0.9520228437085347,
+          -0.2949222329815895
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T1/T2/T3/T4 open",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 4,
+          "panels": [
+            {
+              "sampleCount": 47,
+              "inlierCount": 27,
+              "residualP05P50P95Mm": [
+                -0.24112132622410684,
+                0.021366834420741387,
+                0.29350209919270875
+              ],
+              "clearanceAppliedMm": 0.5935020991927087,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.5721352647719673,
+                0.8346234254168156
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 47,
+              "inlierCount": 42,
+              "residualP05P50P95Mm": [
+                -0.1748833412905176,
+                -0.0831319335721028,
+                0.43100162302730705
+              ],
+              "clearanceAppliedMm": 0.7310016230273071,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.8141335565994099,
+                0.9058849643178247
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 90,
+              "inlierCount": 48,
+              "residualP05P50P95Mm": [
+                -0.4159928597998057,
+                -0.0272306421317563,
+                0.43582051283168083
+              ],
+              "clearanceAppliedMm": 0.7358205128316808,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.7630511549634371,
+                1.1518133726314863
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            },
+            {
+              "sampleCount": 31,
+              "inlierCount": 25,
+              "residualP05P50P95Mm": [
+                -0.17916772726063668,
+                -0.0340527254396259,
+                0.20415529072946692
+              ],
+              "clearanceAppliedMm": 0.5041552907294669,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999977,
+                0.5382080161690928,
+                0.6833230179901035
+              ],
+              "boundsUVmm": [
+                4.5,
+                7.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.29999999999999977,
+          "maximumReportedRobustGapMm": 1.1518133726314863,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "I4": {
+        "coreFamily": "STANDARD TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              5.137522034513659,
+              -21.84243537234711,
+              16.51558196832901
+            ],
+            "localUVmm": [
+              0.0,
+              -5.0
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              5.137522034513659,
+              -18.91923303519988,
+              6.9523770611811475
+            ],
+            "localUVmm": [
+              0.0,
+              5.0
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JaD",
+        "axis": [
+          0.03830075338322864,
+          -0.9556187972066135,
+          -0.2921057457765297
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T1/T2/T3/T4 open",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 4,
+          "panels": [
+            {
+              "sampleCount": 97,
+              "inlierCount": 84,
+              "residualP05P50P95Mm": [
+                -0.13649154804328104,
+                -0.02221667131744476,
+                0.35549282922128833
+              ],
+              "clearanceAppliedMm": 0.6554928292212883,
+              "robustGapP05P50P95Mm": [
+                0.2999999999999996,
+                0.677709500538733,
+                0.7919843772645692
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 46,
+              "inlierCount": 22,
+              "residualP05P50P95Mm": [
+                -0.18844330322484287,
+                -0.039314961921260605,
+                0.3285803226391441
+              ],
+              "clearanceAppliedMm": 0.6285803226391441,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.6678952845604047,
+                0.8170236258639869
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 57,
+              "inlierCount": 29,
+              "residualP05P50P95Mm": [
+                -0.08644116710145777,
+                -0.03991645209644901,
+                0.1483338103610009
+              ],
+              "clearanceAppliedMm": 0.4483338103610009,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.4882502624574499,
+                0.5347749774624586
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            },
+            {
+              "sampleCount": 12,
+              "inlierCount": 12,
+              "residualP05P50P95Mm": [
+                -7.980727190215475e-13,
+                -1.7141843500212417e-13,
+                1.4087064847956295e-12
+              ],
+              "clearanceAppliedMm": 0.3000000000014087,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.3000000000015801,
+                0.3000000000022068
+              ],
+              "boundsUVmm": [
+                4.5,
+                7.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.2999999999999996,
+          "maximumReportedRobustGapMm": 0.8170236258639869,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "M3": {
+        "coreFamily": "STANDARD TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              -4.926406020395614,
+              -3.902942679209872,
+              -9.865579244152155
+            ],
+            "localUVmm": [
+              0.0,
+              -5.0
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              -4.926406020395614,
+              -10.00859464276509,
+              -1.9459192703948016
+            ],
+            "localUVmm": [
+              0.0,
+              5.0
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JfD",
+        "axis": [
+          -0.22425959856820332,
+          -0.7717941811500879,
+          -0.5950137598349249
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T1/T2/T3/T4 open",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 4,
+          "panels": [
+            {
+              "sampleCount": 24,
+              "inlierCount": 20,
+              "residualP05P50P95Mm": [
+                -0.2770435247449313,
+                -0.08484868934623924,
+                0.46025766007359387
+              ],
+              "clearanceAppliedMm": 0.7602576600735939,
+              "robustGapP05P50P95Mm": [
+                0.30000000000000004,
+                0.8451063494198331,
+                1.0373011848185252
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 16,
+              "inlierCount": 15,
+              "residualP05P50P95Mm": [
+                -0.18940534552324126,
+                -0.03038617734702953,
+                0.2535391722668068
+              ],
+              "clearanceAppliedMm": 0.5535391722668068,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.5839253496138364,
+                0.7429445177900479
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 16,
+              "inlierCount": 15,
+              "residualP05P50P95Mm": [
+                -0.05028538319392819,
+                -0.004924444850926246,
+                0.05542781946673067
+              ],
+              "clearanceAppliedMm": 0.35542781946673063,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.3603522643176569,
+                0.4057132026606588
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            },
+            {
+              "sampleCount": 19,
+              "inlierCount": 17,
+              "residualP05P50P95Mm": [
+                -0.5119457871474852,
+                0.03772784995606404,
+                0.3882996975515797
+              ],
+              "clearanceAppliedMm": 0.6882996975515797,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.6505718475955157,
+                1.2002454846990651
+              ],
+              "boundsUVmm": [
+                4.5,
+                7.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.29999999999999993,
+          "maximumReportedRobustGapMm": 1.2002454846990651,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.010306474005174593,
+        "neighborReview": false
+      },
+      "M4": {
+        "coreFamily": "STANDARD TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              4.973018998309147,
+              -10.501109237499868,
+              -2.190915096058352
+            ],
+            "localUVmm": [
+              0.0,
+              -5.0
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              4.973018998309147,
+              -4.206802165807961,
+              -9.961481258652253
+            ],
+            "localUVmm": [
+              0.0,
+              5.0
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JaD",
+        "axis": [
+          0.2878365212266233,
+          -0.7441712373021486,
+          -0.6027929218399507
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T2 unused; remaining terminals open",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 4,
+          "panels": [
+            {
+              "sampleCount": 18,
+              "inlierCount": 16,
+              "residualP05P50P95Mm": [
+                -0.31586531730528455,
+                -0.006208944591655996,
+                0.3157362680397924
+              ],
+              "clearanceAppliedMm": 0.6157362680397924,
+              "robustGapP05P50P95Mm": [
+                0.30000000000000004,
+                0.6219452126314484,
+                0.931601585345077
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 23,
+              "inlierCount": 20,
+              "residualP05P50P95Mm": [
+                -0.29794594473517894,
+                -0.07714546228049102,
+                0.526136269640649
+              ],
+              "clearanceAppliedMm": 0.8261362696406489,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.9032817319211399,
+                1.1240822143758278
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 17,
+              "inlierCount": 17,
+              "residualP05P50P95Mm": [
+                -0.04680912394480714,
+                -0.0012890618969416678,
+                0.06084180460394791
+              ],
+              "clearanceAppliedMm": 0.3608418046039479,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.36213086650088955,
+                0.407650928548755
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            },
+            {
+              "sampleCount": 30,
+              "inlierCount": 19,
+              "residualP05P50P95Mm": [
+                -0.5308726086707056,
+                0.005762994082679551,
+                0.3964997990841422
+              ],
+              "clearanceAppliedMm": 0.6964997990841422,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999993,
+                0.6907368050014626,
+                1.2273724077548476
+              ],
+              "boundsUVmm": [
+                4.5,
+                7.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.29999999999999993,
+          "maximumReportedRobustGapMm": 1.2273724077548476,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "N3": {
+        "coreFamily": "STANDARD TAB MODULE",
+        "slots": [
+          {
+            "id": "A",
+            "centerMm": [
+              11.146717806669832,
+              -4.685505213809175,
+              -3.075688641291452
+            ],
+            "localUVmm": [
+              0.0,
+              -5.0
+            ],
+            "widthUmm": 2.9,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          },
+          {
+            "id": "B",
+            "centerMm": [
+              11.146717806669832,
+              1.6195538987313265,
+              -10.837533111993633
+            ],
+            "localUVmm": [
+              0.0,
+              5.0
+            ],
+            "widthUmm": 3.7,
+            "heightVmm": 2.5,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "insertionDirection": "local -W into through-slot",
+            "minimumWallMm": 1.2
+          }
+        ],
+        "slotSameOwnerHalf": true,
+        "owner": "JaD",
+        "axis": [
+          0.6921593412330116,
+          -0.560207029374328,
+          -0.4550643147770151
+        ],
+        "guideBoreMm": 5.0,
+        "shaftMm": 4.6,
+        "guideRadialClearanceMm": 0.20000000000000018,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true
+            }
+          },
+          "allOpen": true
+        },
+        "terminalPlan": "T3 unused; remaining terminals open",
+        "housing": {
+          "derivation": "frozen owner-shell triangle centroids -> robust local depth planes -> controlled inward clearance",
+          "panelCount": 4,
+          "panels": [
+            {
+              "sampleCount": 31,
+              "inlierCount": 24,
+              "residualP05P50P95Mm": [
+                -0.21446622521685815,
+                -0.018533007401030144,
+                0.37341054802042517
+              ],
+              "clearanceAppliedMm": 0.6734105480204251,
+              "robustGapP05P50P95Mm": [
+                0.29999999999999966,
+                0.6919435554214552,
+                0.8878767732372833
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                -7.0,
+                -4.2
+              ]
+            },
+            {
+              "sampleCount": 33,
+              "inlierCount": 25,
+              "residualP05P50P95Mm": [
+                -0.22362729466854345,
+                0.0038772148175230114,
+                0.3986988160590686
+              ],
+              "clearanceAppliedMm": 0.6986988160590686,
+              "robustGapP05P50P95Mm": [
+                0.2999999999999998,
+                0.6948216012415456,
+                0.9223261107276121
+              ],
+              "boundsUVmm": [
+                -7.5,
+                7.5,
+                4.2,
+                7.0
+              ]
+            },
+            {
+              "sampleCount": 15,
+              "inlierCount": 8,
+              "residualP05P50P95Mm": [
+                -0.02412200815750678,
+                -0.012206858002776544,
+                0.04053518216921273
+              ],
+              "clearanceAppliedMm": 0.34053518216921275,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.3527420401719893,
+                0.3646571903267195
+              ],
+              "boundsUVmm": [
+                -7.5,
+                -4.5,
+                -4.2,
+                4.2
+              ]
+            },
+            {
+              "sampleCount": 19,
+              "inlierCount": 14,
+              "residualP05P50P95Mm": [
+                -0.03929463912773399,
+                -0.003878948024601092,
+                0.0425806856950323
+              ],
+              "clearanceAppliedMm": 0.3425806856950323,
+              "robustGapP05P50P95Mm": [
+                0.3,
+                0.3464596337196334,
+                0.3818753248227663
+              ],
+              "boundsUVmm": [
+                4.5,
+                7.5,
+                -4.2,
+                4.2
+              ]
+            }
+          ],
+          "minimumReportedRobustGapMm": 0.29999999999999966,
+          "maximumReportedRobustGapMm": 0.9223261107276121,
+          "localThicknessMm": 1.6,
+          "slotDepthMm": 2.4,
+          "slotClearancePerSideMm": 0.25,
+          "minimumSlotWallMm": 1.2,
+          "loadSupport": "two broad shoulder bosses + two 1.60 mm columns into shell-derived band",
+          "productionAuthority": "AUDIT MESH-DERIVED; exact frozen BRep offset/loft required before apply"
+        },
+        "loadPath": "PUSHER->ITS->OPEN SEAT->2 SHOULDERS->2 COLUMNS->CONFORMAL BAND->SHELL",
+        "clipInPressLoadPath": false,
+        "gluePrimaryPressReaction": false,
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / COUPON + EXACT BREP HOUSING REQUIRED",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      }
+    },
+    "neighborPairs": {
+      "N1-N2": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 417.1865528673284,
+        "status": "LOCAL TRIM REVIEW"
+      },
+      "N1-I2": {
+        "aabbGapMm": 0.2679941174650118,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-I3": {
+        "aabbGapMm": 2.366190970593511,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-I4": {
+        "aabbGapMm": 6.021010728208655,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-M3": {
+        "aabbGapMm": 20.350236739961666,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-M4": {
+        "aabbGapMm": 21.189456998792345,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-N3": {
+        "aabbGapMm": 27.02680469535224,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I2": {
+        "aabbGapMm": 0.36888070856109595,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I3": {
+        "aabbGapMm": 2.4085914334911784,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I4": {
+        "aabbGapMm": 2.4698313899133524,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-M3": {
+        "aabbGapMm": 20.28912076885321,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-M4": {
+        "aabbGapMm": 20.434405606181922,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-N3": {
+        "aabbGapMm": 23.992844432222192,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-I3": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 493.42899300121115,
+        "status": "LOCAL TRIM REVIEW"
+      },
+      "I2-I4": {
+        "aabbGapMm": 7.376318091134124,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-M3": {
+        "aabbGapMm": 3.9208546423512294,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-M4": {
+        "aabbGapMm": 8.36346133880937,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-N3": {
+        "aabbGapMm": 15.257881535551922,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-I4": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 23.16383376223878,
+        "status": "LOCAL TRIM REVIEW"
+      },
+      "I3-M3": {
+        "aabbGapMm": 3.425478925643332,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-M4": {
+        "aabbGapMm": 3.642324520138919,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-N3": {
+        "aabbGapMm": 9.36144560213241,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-M3": {
+        "aabbGapMm": 2.561013628573021,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-M4": {
+        "aabbGapMm": 2.775120314151291,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-N3": {
+        "aabbGapMm": 6.052233134684574,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M3-M4": {
+        "aabbGapMm": 0.010306474005174593,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M3-N3": {
+        "aabbGapMm": 6.831305105582661,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M4-N3": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 634.4085799570572,
+        "status": "LOCAL TRIM REVIEW"
+      }
+    }
+  },
+  "couponV2": {
+    "slotClearanceVariantsPerSideMm": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "tests": [
+      "ITS insertion",
+      "tongue/slot",
+      "shoulder seating",
+      "adhesive access",
+      "guide clearance",
+      "clip installation",
+      "REST/CLICK/FULL",
+      "hard stop",
+      "100-cycle",
+      "groove crack"
+    ]
+  },
+  "finalVerdict": "B / SLOT-ANCHORED ARCHITECTURE COHERENT; EXACT BREP HOUSING + PHYSICAL COUPON REQUIRED",
+  "outputs": {
+    "standardCoreStep": "build123d_workbench/out/slot_anchored_harness_captive_pusher_audit/STANDARD_SLOT_ANCHORED_OPEN_FRAME_HARNESS_AUDIT_ONLY.step",
+    "representativeStep": "build123d_workbench/out/slot_anchored_harness_captive_pusher_audit/I2_SLOT_ANCHORED_HARNESS_CAPTIVE_PUSHER_AUDIT_ONLY.step",
+    "all8Step": "build123d_workbench/out/slot_anchored_harness_captive_pusher_audit/ALL8_SLOT_ANCHORED_HARNESS_VIRTUAL_AUDIT_ONLY.step",
+    "couponStep": "build123d_workbench/out/slot_anchored_harness_captive_pusher_audit/SLOT_ANCHORED_HARNESS_CAPTIVE_PUSHER_COUPON_V2_AUDIT_ONLY.step",
+    "couponStl": "build123d_workbench/out/slot_anchored_harness_captive_pusher_audit/SLOT_ANCHORED_HARNESS_CAPTIVE_PUSHER_COUPON_V2_AUDIT_ONLY.stl",
+    "json": "build123d_workbench/out/slot_anchored_harness_captive_pusher_audit/slot_anchored_harness_and_captive_pusher_audit.json",
+    "report": "docs/78_slot_anchored_harness_and_captive_pusher_audit.md",
+    "renders": [
+      "renders/slot_anchored_harness_captive_pusher_audit/01_exploded_architecture.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/02_outer_shell_and_pusher_guide.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/03_pusher_and_retaining_groove.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/04_e_clip_closeup.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/05_pusher_hard_stop_shoulder.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/06_its_and_open_frame_harness.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/07_harness_tongue_and_shoulders.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/08_inner_housing_slots.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/09_harness_inserted_into_slots.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/10_secondary_adhesive_region.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/11_full_button_to_shell_section.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/12_rest.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/13_click.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/14_full_hard_stop.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/15_n2_seam_closeup.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/16_all8_virtual_arrangement.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/17_inner_housing_outer_shell_conformal_section.png",
+      "renders/slot_anchored_harness_captive_pusher_audit/18_coupon_v2_preview.png"
+    ]
+  },
+  "inputHashesBefore": {
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/open_frame_glued_switch_harness_candidate.py": "193522656216ee32010f428e90383048310b502fa6b9a6ea6575561fd2912e00",
+    "build123d_workbench/out/button_fdm_coupon/BUTTON_FDM_TEST_COUPON.step": "45adbe0d2b51c83061d06625c15528824bad0264ce9b51c1d3aac71b7a35dff6",
+    "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md": "b6e5890554fa3934ff0a40a7779da051da4fb8026060bbd8c8e3258a19924ef0",
+    "docs/77_open_frame_glued_switch_harness_candidate.md": "dbd740a9cde99d0ae61eb3953331a94439b99e818a59ff4349bffc745673a4e0",
+    "cad_dump/mesh_ITS_LIVE_JaD.json": "84f4b576e178e39d3463de86647fe1c69b96f59c231e72b2e0c6c34553f589c3",
+    "cad_dump/mesh_ITS_LIVE_JfD.json": "c1fc13948098dc44ae487bb12185f0ec95dfd181f010ac10c34ca75171bbdbcd"
+  },
+  "inputHashesAfter": {
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/open_frame_glued_switch_harness_candidate.py": "193522656216ee32010f428e90383048310b502fa6b9a6ea6575561fd2912e00",
+    "build123d_workbench/out/button_fdm_coupon/BUTTON_FDM_TEST_COUPON.step": "45adbe0d2b51c83061d06625c15528824bad0264ce9b51c1d3aac71b7a35dff6",
+    "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md": "b6e5890554fa3934ff0a40a7779da051da4fb8026060bbd8c8e3258a19924ef0",
+    "docs/77_open_frame_glued_switch_harness_candidate.md": "dbd740a9cde99d0ae61eb3953331a94439b99e818a59ff4349bffc745673a4e0",
+    "cad_dump/mesh_ITS_LIVE_JaD.json": "84f4b576e178e39d3463de86647fe1c69b96f59c231e72b2e0c6c34553f589c3",
+    "cad_dump/mesh_ITS_LIVE_JfD.json": "c1fc13948098dc44ae487bb12185f0ec95dfd181f010ac10c34ca75171bbdbcd"
+  },
+  "protectedInputsPreserved": true,
+  "docs77PreservedSha256": "dbd740a9cde99d0ae61eb3953331a94439b99e818a59ff4349bffc745673a4e0"
+}

@@ -1,0 +1,410 @@
+{
+  "schema": "onegrip.szh_ek056.actual_fit_fixture.v1",
+  "generatedUtc": "2026-08-23T14:07:57.564734+00:00",
+  "classification": "TEST FIXTURE / SACRIFICIAL PROTOTYPE / NOT PRODUCTION GEOMETRY",
+  "mode": "LOCAL ONLY / SINGLE PROCESS / SERIAL OCCT / WEB REFERENCE FOR RENDER ONLY",
+  "productionGeometryModificationCount": 0,
+  "sourceHashesBeforeAfterIdentical": true,
+  "sourceSha256": {
+    "docs\\70_finger_8_button_mechanical_baseline_checkpoint.md": "bad77cd92f71dbd8dc027287facb9a983c12b78e94d544e0cac302fb37730719",
+    "docs\\71_szh_ek056_provisional_thumb_integration_audit.md": "b676d678753aa1d3b9dd3ca56aac0bf54e2fb50d144c57e0a838c9ba5d27c3b1",
+    "build123d_workbench\\out\\szh_ek056_knob_interface_confirmation\\szh_ek056_knob_interface_confirmation.json": "86b81212332b38d901530316b981990b55035784a3b924ff3ba9f368aba1fefe",
+    "local_cad\\reference\\SZH_EK056_WEB_REFERENCE.step": "39fc7e19c36844e6f0eab4da88d519d6debccf41b8d5f5bc3f244afbce5ec4c5",
+    "local_cad\\reference\\SZH_EK056_WEB_REFERENCE.json": "317e751d319d8fc27dab64c9615a3ccd9f71d52effaf88c8b5a6384b90700818",
+    "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9",
+    "build123d_workbench\\out\\finger_controls_v2\\JAD_FINGER_V2.step": "a477aa79e55ddb21fb2a45c7f616544f6eb4844b593f61cf7d45303476c5a762",
+    "build123d_workbench\\out\\finger_controls_v2\\JFD_FINGER_V2.step": "d457d5d9b305a4c7d77e21aab3cb7d33336d672d4d8bf031e6158de44c26ad50",
+    "build123d_workbench\\out\\n1_production_intent_mechanism\\N1_N2_SHARED_CARRIER_N1_LOCAL.step": "2485e34f8716395459f1f7b10384fd73a33695472f9aae689cf321d583830756"
+  },
+  "realCoordinateFrame": {
+    "localOriginWorldMm": [
+      -2.2185395191585133,
+      -29.71272061848716,
+      31.04532867843345
+    ],
+    "joystickPivotDatumWorldMm": [
+      -0.21604013507035,
+      -23.14907664213591,
+      40.49617911468703
+    ],
+    "joystickAxisWorld": [
+      0.00018185376875099997,
+      0.5984933689761269,
+      0.8011277390159528
+    ],
+    "localXWorld": [
+      0.0010228626666149996,
+      -0.8011274445002377,
+      0.5984929167671778
+    ],
+    "localYWorld": [
+      0.9999994603404404,
+      0.0007106054629440003,
+      -0.0007578645683750003
+    ],
+    "localZWorld": [
+      0.00018185376875099997,
+      0.5984933689761269,
+      0.8011277390159528
+    ],
+    "sourceGeometryTranslationMm": 0.0,
+    "sourceGeometryRotationDeg": 0.0
+  },
+  "crop": {
+    "localMinMm": [
+      -27.5,
+      -18.0,
+      -9.0
+    ],
+    "localMaxMm": [
+      23.5,
+      18.0,
+      34.0
+    ],
+    "sizeMm": [
+      51.0,
+      36.0,
+      43.0
+    ],
+    "fullShellExported": false,
+    "fullShellTessellated": false,
+    "serialFullShellToLocalCropOperations": 2
+  },
+  "fixtureArchitecture": {
+    "mandatoryAssembly": "body + separately removable exact-copy N1/N2 carrier",
+    "bodyContents": [
+      "current JaD local shell section",
+      "current JfD local shell section",
+      "lowered original Thumb Backplate local mount section",
+      "sacrificial open foundation/labels/support links"
+    ],
+    "carrierContents": "approved carrier exact copy; no terminal/switch body is printed",
+    "assemblyCoordinates": "original OneGrip world coordinates",
+    "splitPrintAllowed": true,
+    "stockKnobInPrintable": false,
+    "customKnobAdapterInPrintable": false,
+    "webJoystickInPrintable": false
+  },
+  "access": {
+    "moduleInsertion": "open central rear aperture; insert by hand with stock knob removed",
+    "stockHeader": "present during actual test; open side/rear observation",
+    "windows": [
+      "central rear module insertion window",
+      "open PCB/header side crop boundary",
+      "open N1/N1-T4 inspection side",
+      "open N2 inspection side",
+      "open shaft/gimbal exterior opening",
+      "rear/side/shell-wall wire probe access"
+    ],
+    "wireProbeDiameterMm": [
+      1.0,
+      1.3
+    ]
+  },
+  "labels": [
+    "N1",
+    "N2",
+    "PCB DATUM",
+    "JOYSTICK AXIS",
+    "+X",
+    "-X",
+    "+Y",
+    "-Y",
+    "N1 T4 CHECK",
+    "TEST ONLY"
+  ],
+  "supportLinks": [
+    {
+      "target": "JAD_NEG_X",
+      "supportSideLocalX": "NEGATIVE",
+      "anchorLocalMm": [
+        -27.499999999999996,
+        18.000000000000004,
+        19.652371292829077
+      ],
+      "foundationEdgeLocalMm": [
+        -25.7,
+        16.821818181818188,
+        -12.35
+      ],
+      "sectionMm": 3.2,
+      "fixtureOnly": true
+    },
+    {
+      "target": "JAD_POS_X",
+      "supportSideLocalX": "POSITIVE",
+      "anchorLocalMm": [
+        23.5,
+        18.0,
+        0.12497158340040926
+      ],
+      "foundationEdgeLocalMm": [
+        23.10833333333333,
+        17.7,
+        -12.35
+      ],
+      "sectionMm": 3.2,
+      "fixtureOnly": true
+    },
+    {
+      "target": "JFD_NEG_X",
+      "supportSideLocalX": "NEGATIVE",
+      "anchorLocalMm": [
+        -27.499999999999996,
+        -18.00000000000001,
+        20.26915415945914
+      ],
+      "foundationEdgeLocalMm": [
+        -25.7,
+        -16.821818181818195,
+        -12.35
+      ],
+      "sectionMm": 3.2,
+      "fixtureOnly": true
+    },
+    {
+      "target": "JFD_POS_X",
+      "supportSideLocalX": "POSITIVE",
+      "anchorLocalMm": [
+        23.5,
+        -18.000000000000007,
+        21.72139835321355
+      ],
+      "foundationEdgeLocalMm": [
+        23.108333333333324,
+        -17.7,
+        -12.35
+      ],
+      "sectionMm": 3.2,
+      "fixtureOnly": true
+    },
+    {
+      "target": "BACKPLATE_NEG_X",
+      "supportSideLocalX": "NEGATIVE",
+      "anchorLocalMm": [
+        -27.499999999999996,
+        -18.000000000000004,
+        10.18152779166537
+      ],
+      "foundationEdgeLocalMm": [
+        -25.7,
+        -16.821818181818188,
+        -12.35
+      ],
+      "sectionMm": 3.2,
+      "fixtureOnly": true
+    },
+    {
+      "target": "BACKPLATE_POS_X",
+      "supportSideLocalX": "POSITIVE",
+      "anchorLocalMm": [
+        16.715491234692244,
+        18.0,
+        10.544953493337296
+      ],
+      "foundationEdgeLocalMm": [
+        16.43689971411404,
+        17.7,
+        -12.35
+      ],
+      "sectionMm": 3.2,
+      "fixtureOnly": true
+    }
+  ],
+  "referenceOnlyWebPlacement": {
+    "quality": "LOW / APPROXIMATE",
+    "axialSensitivityMm": 1.8,
+    "webReferenceExportedIntoFixture": false,
+    "stockKnobExcluded": true,
+    "stockHeaderIncludedInRenders": true
+  },
+  "mountReference": {
+    "originalMountHoleCenterPlaneLocalZMm": 1.0000000000018183,
+    "originalMountHoleCenterPlaneSpreadMm": 9.325873406851315e-15,
+    "webReferenceMountPlaneOffsetMm": 1.8000000000018184,
+    "webPatternVerdict": "ADAPTER REQUIRED",
+    "hardLocatorFromWebDimensions": false,
+    "instruction": "hold/locate the actual module against the preserved Backplate/opening; measure actual position before designing an adapter"
+  },
+  "localGeometryBbox": {
+    "JaD": {
+      "min": [
+        -27.500000100000005,
+        2.194091216828928,
+        -9.000000100000006
+      ],
+      "max": [
+        23.500000100000015,
+        18.000000100000022,
+        27.814497484945406
+      ]
+    },
+    "JfD": {
+      "min": [
+        -27.500000100000005,
+        -18.000000100000072,
+        -0.757651956398112
+      ],
+      "max": [
+        23.50000010000023,
+        2.242737849104773,
+        27.811647288438508
+      ]
+    },
+    "Backplate": {
+      "min": [
+        -27.500000100000104,
+        -18.000000100000015,
+        1.4693364293690128
+      ],
+      "max": [
+        17.05706147685758,
+        18.000000100000012,
+        13.81963116649135
+      ]
+    },
+    "N1N2Carrier": {
+      "min": [
+        -8.09347771839143,
+        -13.328034692659815,
+        -7.655232250038729
+      ],
+      "max": [
+        4.454979227297382,
+        7.451352654624537,
+        0.18581965358214544
+      ]
+    },
+    "fixtureAssemblyWorld": {
+      "min": [
+        -23.75124831790564,
+        -61.74016541436326,
+        2.157705199358331
+      ],
+      "max": [
+        19.309622935369838,
+        7.108963625515245,
+        67.36688404428794
+      ]
+    }
+  },
+  "serializationCheck": {
+    "stepSolidCount": 74,
+    "stepVolumeMm3": 15157.361121125656,
+    "stepRootCompoundMassPropertyMm3": 4127.52515017012,
+    "stepBboxWorldMm": {
+      "min": [
+        -23.751248317906132,
+        -61.740165414356944,
+        2.1577051993598553
+      ],
+      "max": [
+        19.30962293536936,
+        7.108963625515171,
+        67.36688404428818
+      ]
+    },
+    "stepNonEmpty": true,
+    "carrier": {
+      "sourceVolumeMm3": 379.5338220584208,
+      "exportedVolumeMm3": 379.53382205842576,
+      "commonVolumeMm3": 379.5338220584208,
+      "minimumDistanceMm": 0.0,
+      "exactCopy": true
+    },
+    "webReferenceLabelsInFixture": [],
+    "webReferenceSolidsAbsent": true
+  },
+  "outputs": {
+    "SZH_EK056_ACTUAL_FIT_FIXTURE.step": {
+      "path": "build123d_workbench\\out\\szh_actual_fit_fixture\\SZH_EK056_ACTUAL_FIT_FIXTURE.step",
+      "sha256": "1aafcf4c9c761175c3a7e483dc6c01febfb6363ab694b9899718efa109ea17e9",
+      "bytes": 7256140
+    },
+    "SZH_EK056_ACTUAL_FIT_FIXTURE.stl": {
+      "path": "build123d_workbench\\out\\szh_actual_fit_fixture\\SZH_EK056_ACTUAL_FIT_FIXTURE.stl",
+      "sha256": "9464ed66f38bb1800f2d024da431d8506f90da9cf5534b24e5bd2c8f659792b8",
+      "bytes": 2656984
+    },
+    "SZH_EK056_ACTUAL_FIT_FIXTURE_BODY.step": {
+      "path": "build123d_workbench\\out\\szh_actual_fit_fixture\\SZH_EK056_ACTUAL_FIT_FIXTURE_BODY.step",
+      "sha256": "9cbbe2903f7c00fe0be22205ca3afdf466c553fe5d070a9ce0b3e79a906b676a",
+      "bytes": 6484772
+    },
+    "SZH_EK056_ACTUAL_FIT_FIXTURE_BODY.stl": {
+      "path": "build123d_workbench\\out\\szh_actual_fit_fixture\\SZH_EK056_ACTUAL_FIT_FIXTURE_BODY.stl",
+      "sha256": "71b27c4071674cc7c1f55a2195686f9e108ce2cf34abb24e74a1230b4bc39c8a",
+      "bytes": 2558184
+    },
+    "SZH_EK056_ACTUAL_FIT_FIXTURE_N1_N2_CARRIER.stl": {
+      "path": "build123d_workbench\\out\\szh_actual_fit_fixture\\SZH_EK056_ACTUAL_FIT_FIXTURE_N1_N2_CARRIER.stl",
+      "sha256": "14b0ba5426e7299944c411f88ca02d95dd6ad27f65e64fa3212e23cc336096fb",
+      "bytes": 107684
+    }
+  },
+  "renders": [
+    {
+      "path": "renders\\szh_actual_fit_fixture\\01_actual_fit_fixture_assembled.png",
+      "sha256": "a8e7399880e5b080e18f533ec4632676624f397a1bc168a9d58f598bfc184bca",
+      "bytes": 299829
+    },
+    {
+      "path": "renders\\szh_actual_fit_fixture\\02_access_windows_and_n1_t4.png",
+      "sha256": "5896ce24826b8b3a88bd6f81c54856e302ab7b9ce260ee0bd52cab69581cf238",
+      "bytes": 81138
+    },
+    {
+      "path": "renders\\szh_actual_fit_fixture\\03_shaft_tilt_direction_reference.png",
+      "sha256": "40872319eca76ea572f7ff9b3459c720407395c78d007714c27fd9045c3b7eb4",
+      "bytes": 182435
+    }
+  ],
+  "memoryLog": [
+    {
+      "stage": "start/hash guard",
+      "rssMb": 377.0,
+      "systemAvailableMb": 16528.8
+    },
+    {
+      "stage": "crop JAD_CURRENT_SHELL_LOCAL_FIT_SECTION",
+      "rssMb": 404.4,
+      "systemAvailableMb": 16522.9
+    },
+    {
+      "stage": "crop JFD_CURRENT_SHELL_LOCAL_FIT_SECTION",
+      "rssMb": 409.0,
+      "systemAvailableMb": 16517.7
+    },
+    {
+      "stage": "lowered Backplate local crop",
+      "rssMb": 410.0,
+      "systemAvailableMb": 16506.3
+    },
+    {
+      "stage": "frozen carrier and terminal references",
+      "rssMb": 422.4,
+      "systemAvailableMb": 16519.1
+    },
+    {
+      "stage": "fixture assembly built",
+      "rssMb": 433.5,
+      "systemAvailableMb": 16508.8
+    },
+    {
+      "stage": "STEP/STL exports",
+      "rssMb": 495.6,
+      "systemAvailableMb": 16442.1
+    },
+    {
+      "stage": "review renders",
+      "rssMb": 506.7,
+      "systemAvailableMb": 16460.3
+    },
+    {
+      "stage": "serialized STEP re-import",
+      "rssMb": 521.3,
+      "systemAvailableMb": 16446.1
+    }
+  ],
+  "stop": "STOP AFTER FIXTURE AND TEST SHEET; actual measurements required before N1/N2/Thumb redesign"
+}

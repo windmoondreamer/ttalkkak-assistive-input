@@ -1,0 +1,292 @@
+{
+  "slabLocalNExtent": [
+    -7.525266799888026,
+    16.106543904895105
+  ],
+  "thumbOpeningClearanceMm": 0.8,
+  "controls": {
+    "JOY": {
+      "tiltDeg": 0.0,
+      "capTopAlongAxisMm": 3.0701240587600465,
+      "aabbToolReachOnAxisRayMm": [
+        -11.226997638745653,
+        4.58890746267908
+      ],
+      "aabbToolCornerExtentMm": [
+        -11.99972779060317,
+        4.620151295147276
+      ],
+      "aabbToolVolumeMm3": 3475.4760073463776,
+      "translatedVoidExtentAlongAxisMm": [
+        NaN,
+        NaN
+      ],
+      "cleanWallOnAxisMm": [
+        1.417440948790143,
+        4.419149260134369
+      ],
+      "frozenWallOnAxisMm": null,
+      "aabbShortfallMm": -3.171466513888937,
+      "voidShortfallMm": NaN
+    },
+    "T1": {
+      "tiltDeg": 9.36199934380265,
+      "capTopAlongAxisMm": 2.2764800228887845,
+      "aabbToolReachOnAxisRayMm": [
+        -6.728628099368749,
+        6.803210588271014
+      ],
+      "aabbToolCornerExtentMm": [
+        -7.45994326450061,
+        7.950675548110388
+      ],
+      "aabbToolVolumeMm3": 970.2904966996896,
+      "translatedVoidExtentAlongAxisMm": [
+        -2.2117200533196857,
+        0.6862929691048012
+      ],
+      "cleanWallOnAxisMm": [
+        2.436580910839651,
+        5.400512970360623
+      ],
+      "frozenWallOnAxisMm": null,
+      "aabbShortfallMm": -4.366629677431363,
+      "voidShortfallMm": 1.7502879417348498
+    },
+    "T2": {
+      "tiltDeg": 3.999999999987366,
+      "capTopAlongAxisMm": 2.3779574882148222,
+      "aabbToolReachOnAxisRayMm": [
+        -6.727798698937479,
+        6.70560024297117
+      ],
+      "aabbToolCornerExtentMm": [
+        -7.275282218722792,
+        7.269180452910621
+      ],
+      "aabbToolVolumeMm3": 981.0709533795645,
+      "translatedVoidExtentAlongAxisMm": [
+        -1.7336034452299927,
+        1.2702249907594618
+      ],
+      "cleanWallOnAxisMm": [
+        4.93452053088058,
+        7.945873353125863
+      ],
+      "frozenWallOnAxisMm": [
+        6.705600242971471,
+        7.932277784919615
+      ],
+      "aabbShortfallMm": -1.7710797120905895,
+      "voidShortfallMm": 3.6642955401211186
+    },
+    "T3": {
+      "tiltDeg": 9.37749111258268,
+      "capTopAlongAxisMm": 2.2728362689490975,
+      "aabbToolReachOnAxisRayMm": [
+        -6.743218995661612,
+        6.803937724435683
+      ],
+      "aabbToolCornerExtentMm": [
+        -7.46681246010934,
+        7.946744961744479
+      ],
+      "aabbToolVolumeMm3": 969.9824639777207,
+      "translatedVoidExtentAlongAxisMm": [
+        -2.3735125352599593,
+        0.6405564973611667
+      ],
+      "cleanWallOnAxisMm": [
+        2.305698417550886,
+        5.320795721096915
+      ],
+      "frozenWallOnAxisMm": null,
+      "aabbShortfallMm": -4.4982393068847975,
+      "voidShortfallMm": 1.6651419201897193
+    },
+    "T4": {
+      "tiltDeg": 7.0732196363406,
+      "capTopAlongAxisMm": 2.419498487630432,
+      "aabbToolReachOnAxisRayMm": [
+        -6.740489095150086,
+        6.981794209330188
+      ],
+      "aabbToolCornerExtentMm": [
+        -7.627367042613487,
+        7.910488674160399
+      ],
+      "aabbToolVolumeMm3": 1002.5612838865318,
+      "translatedVoidExtentAlongAxisMm": [
+        -2.0925654449010533,
+        0.9386159017711821
+      ],
+      "cleanWallOnAxisMm": [
+        4.290168608368819,
+        7.26186972435129
+      ],
+      "frozenWallOnAxisMm": [
+        6.981794209330737,
+        7.338391165171883
+      ],
+      "aabbShortfallMm": -2.691625600961369,
+      "voidShortfallMm": 3.3515527065976367
+    },
+    "T5": {
+      "tiltDeg": 3.9999999999816205,
+      "capTopAlongAxisMm": 2.375395504319526,
+      "aabbToolReachOnAxisRayMm": [
+        -6.726375864141626,
+        6.70702307776721
+      ],
+      "aabbToolCornerExtentMm": [
+        -7.277844202618859,
+        7.266618469016011
+      ],
+      "aabbToolVolumeMm3": 981.0709533797793,
+      "translatedVoidExtentAlongAxisMm": [
+        -1.8360402746626834,
+        1.1629223180423682
+      ],
+      "cleanWallOnAxisMm": [
+        3.119701333535198,
+        6.179274586486239
+      ],
+      "frozenWallOnAxisMm": null,
+      "aabbShortfallMm": -3.5873217442320118,
+      "voidShortfallMm": 1.95677901549283
+    },
+    "T6": {
+      "tiltDeg": 7.059601161192331,
+      "capTopAlongAxisMm": 2.4132933939012755,
+      "aabbToolReachOnAxisRayMm": [
+        -6.738813598742164,
+        6.968431212821802
+      ],
+      "aabbToolCornerExtentMm": [
+        -7.631944048259955,
+        7.902806411547957
+      ],
+      "aabbToolVolumeMm3": 1002.5195811752102,
+      "translatedVoidExtentAlongAxisMm": [
+        -2.1503579169501084,
+        0.8677909741969074
+      ],
+      "cleanWallOnAxisMm": [
+        4.184060715653325,
+        7.148274919591429
+      ],
+      "frozenWallOnAxisMm": [
+        6.96843121282212,
+        7.246414639732429
+      ],
+      "aabbShortfallMm": -2.784370497168477,
+      "voidShortfallMm": 3.3162697414564173
+    },
+    "T7": {
+      "tiltDeg": 1.8392747092420292,
+      "capTopAlongAxisMm": 2.3364498054896945,
+      "aabbToolReachOnAxisRayMm": [
+        -5.905866578379953,
+        5.893709831637465
+      ],
+      "aabbToolCornerExtentMm": [
+        -6.747292317688581,
+        6.7981576354076205
+      ],
+      "aabbToolVolumeMm3": 1010.7239840752882,
+      "translatedVoidExtentAlongAxisMm": [
+        -1.9622397847537034,
+        1.048231726141795
+      ],
+      "cleanWallOnAxisMm": null,
+      "frozenWallOnAxisMm": [
+        5.995308821647724,
+        8.980067334073913
+      ]
+    },
+    "T8": {
+      "tiltDeg": 1.8392747092382637,
+      "capTopAlongAxisMm": 2.339473225739589,
+      "aabbToolReachOnAxisRayMm": [
+        -5.891629898842273,
+        5.9062141037607985
+      ],
+      "aabbToolCornerExtentMm": [
+        -6.7426230926706605,
+        6.799596890271725
+      ],
+      "aabbToolVolumeMm3": 1010.7999603815279,
+      "translatedVoidExtentAlongAxisMm": [
+        -1.9896964464381781,
+        1.0035403634283484
+      ],
+      "cleanWallOnAxisMm": null,
+      "frozenWallOnAxisMm": [
+        5.970839212779348,
+        8.954775166094086
+      ]
+    }
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 421.2,
+      "availMb": 16357.2
+    },
+    {
+      "stage": "combined CLEAN",
+      "rssMb": 420.6,
+      "availMb": 16365.9
+    },
+    {
+      "stage": "shells",
+      "rssMb": 423.0,
+      "availMb": 16376.6
+    },
+    {
+      "stage": "trace JOY",
+      "rssMb": 463.0,
+      "availMb": 16331.2
+    },
+    {
+      "stage": "trace T1",
+      "rssMb": 463.9,
+      "availMb": 16330.1
+    },
+    {
+      "stage": "trace T2",
+      "rssMb": 464.8,
+      "availMb": 16330.4
+    },
+    {
+      "stage": "trace T3",
+      "rssMb": 465.7,
+      "availMb": 16330.8
+    },
+    {
+      "stage": "trace T4",
+      "rssMb": 465.8,
+      "availMb": 16328.2
+    },
+    {
+      "stage": "trace T5",
+      "rssMb": 465.8,
+      "availMb": 16327.6
+    },
+    {
+      "stage": "trace T6",
+      "rssMb": 465.8,
+      "availMb": 16336.5
+    },
+    {
+      "stage": "trace T7",
+      "rssMb": 465.8,
+      "availMb": 16337.5
+    },
+    {
+      "stage": "trace T8",
+      "rssMb": 465.8,
+      "availMb": 16325.1
+    }
+  ]
+}

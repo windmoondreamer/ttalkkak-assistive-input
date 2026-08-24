@@ -1,0 +1,158 @@
+{
+  "bands": [
+    {
+      "loMm": 0.0,
+      "hiMm": 0.2,
+      "columns": 117,
+      "areaMm2": 7.3125,
+      "share": 0.004864662591992017
+    },
+    {
+      "loMm": 0.2,
+      "hiMm": 0.4,
+      "columns": 49,
+      "areaMm2": 3.0625,
+      "share": 0.0020373373248513574
+    },
+    {
+      "loMm": 0.4,
+      "hiMm": 0.8,
+      "columns": 4,
+      "areaMm2": 0.25,
+      "share": 0.00016631325100827408
+    },
+    {
+      "loMm": 0.8,
+      "hiMm": 1.2,
+      "columns": 15623,
+      "areaMm2": 976.4375,
+      "share": 0.6495779801255666
+    },
+    {
+      "loMm": 1.2,
+      "hiMm": null,
+      "columns": 8258,
+      "areaMm2": 516.125,
+      "share": 0.34335370670658183
+    }
+  ],
+  "contactGapMm": 0.4,
+  "zones": [
+    {
+      "id": 1,
+      "areaMm2": 4.25,
+      "minGapMm": 0.004189950056009195,
+      "meanGapMm": 0.11704454406086003,
+      "elongation": 67.0,
+      "class": "LOAD_TRANSFER_CONTACT",
+      "uRange": [
+        -20.25,
+        -20.25
+      ],
+      "vRange": [
+        -7.5,
+        9.25
+      ]
+    },
+    {
+      "id": 10,
+      "areaMm2": 1.9375,
+      "minGapMm": 0.0016567343667031054,
+      "meanGapMm": 0.061083090775462215,
+      "elongation": 30.0,
+      "class": "ASSEMBLY_CLEARANCE_BOTTLENECK",
+      "uRange": [
+        20.75,
+        20.75
+      ],
+      "vRange": [
+        -4.25,
+        3.25
+      ]
+    },
+    {
+      "id": 8,
+      "areaMm2": 1.0625,
+      "minGapMm": 0.20538016821277782,
+      "meanGapMm": 0.2450096707478935,
+      "elongation": 16.0,
+      "class": "ASSEMBLY_CLEARANCE_BOTTLENECK",
+      "uRange": [
+        20.5,
+        20.5
+      ],
+      "vRange": [
+        -14.5,
+        -10.5
+      ]
+    },
+    {
+      "id": 2,
+      "areaMm2": 0.5625,
+      "minGapMm": 0.0011357948018577702,
+      "meanGapMm": 0.041951278278055386,
+      "elongation": 8.0,
+      "class": "ASSEMBLY_CLEARANCE_BOTTLENECK",
+      "uRange": [
+        -20.25,
+        -20.25
+      ],
+      "vRange": [
+        10.5,
+        12.5
+      ]
+    },
+    {
+      "id": 9,
+      "areaMm2": 0.5625,
+      "minGapMm": 0.12554989581851927,
+      "meanGapMm": 0.1765535360623686,
+      "elongation": 8.0,
+      "class": "ASSEMBLY_CLEARANCE_BOTTLENECK",
+      "uRange": [
+        20.5,
+        20.5
+      ],
+      "vRange": [
+        12.75,
+        14.75
+      ]
+    },
+    {
+      "id": 7,
+      "areaMm2": 0.5,
+      "minGapMm": 0.3079183235218075,
+      "meanGapMm": 0.34874214672810266,
+      "elongation": 2.0,
+      "class": "ASSEMBLY_CLEARANCE_BOTTLENECK",
+      "uRange": [
+        19.5,
+        20.0
+      ],
+      "vRange": [
+        -26.25,
+        -25.25
+      ]
+    }
+  ],
+  "loadTransferAreaMm2": 4.25,
+  "bottleneckAreaMm2": 4.625,
+  "fractionBelow0p30": 0.005945698723545799,
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 438.1,
+      "availMb": 16480.5
+    },
+    {
+      "stage": "fields",
+      "rssMb": 447.1,
+      "availMb": 16467.1
+    },
+    {
+      "stage": "maps",
+      "rssMb": 449.3,
+      "availMb": 16822.1
+    }
+  ]
+}

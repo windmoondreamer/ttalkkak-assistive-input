@@ -1,0 +1,270 @@
+{
+  "shells": [
+    {
+      "key": "JAD_LOWERED_THUMB",
+      "path": "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "sha256": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+      "bytes": 4056249,
+      "solidCount": 1,
+      "volumeMm3": 46236.99560450862,
+      "bboxWorld": {
+        "min": [
+          -3.170915491501326e-05,
+          -61.43194412485939,
+          -73.8785085486
+        ],
+        "max": [
+          38.77976975434534,
+          62.42831449597687,
+          78.25674381952894
+        ],
+        "size": [
+          38.779801463500256,
+          123.86025862083626,
+          152.13525236812893
+        ]
+      },
+      "thumbWindowSamplePoints": 37327,
+      "thumbWindowLocalBbox": {
+        "min": [
+          0.1786203925206388,
+          -33.99957682489963,
+          -35.28886067128987
+        ],
+        "max": [
+          25.209287557309743,
+          33.99967502477563,
+          14.999225421339956
+        ]
+      },
+      "thumbWindowMaxOutwardN": 14.999225421339956
+    },
+    {
+      "key": "JFD_LOWERED_THUMB",
+      "path": "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "sha256": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+      "bytes": 4093002,
+      "solidCount": 1,
+      "volumeMm3": 47270.22162924328,
+      "bboxWorld": {
+        "min": [
+          -38.77976975433841,
+          -61.4319441248594,
+          -73.8785085486
+        ],
+        "max": [
+          3.168544855734989e-05,
+          62.42831449420142,
+          78.25674381952894
+        ],
+        "size": [
+          38.779801439786965,
+          123.86025861906083,
+          152.13525236812893
+        ]
+      },
+      "thumbWindowSamplePoints": 35875,
+      "thumbWindowLocalBbox": {
+        "min": [
+          -24.764888321455864,
+          -33.99930492315702,
+          -35.185639628599596
+        ],
+        "max": [
+          0.2569229258525786,
+          33.99986614440656,
+          14.999785212497597
+        ]
+      },
+      "thumbWindowMaxOutwardN": 14.999785212497597
+    },
+    {
+      "key": "JAD_FINGER_V2",
+      "path": "build123d_workbench/out/finger_controls_v2/JAD_FINGER_V2.step",
+      "sha256": "a477aa79e55ddb21fb2a45c7f616544f6eb4844b593f61cf7d45303476c5a762",
+      "bytes": 1388347,
+      "solidCount": 1,
+      "volumeMm3": 45911.71691187993,
+      "bboxWorld": {
+        "min": [
+          -0.5224408822790091,
+          -61.43194412485939,
+          -73.8785085486
+        ],
+        "max": [
+          38.77976975434534,
+          62.42831449597687,
+          78.25678350405059
+        ],
+        "size": [
+          39.302210636624345,
+          123.86025862083626,
+          152.13529205265058
+        ]
+      },
+      "thumbWindowSamplePoints": 42872,
+      "thumbWindowLocalBbox": {
+        "min": [
+          0.1787995609658128,
+          -33.999813266509946,
+          -35.07033116917689
+        ],
+        "max": [
+          25.20755615532856,
+          33.99868091756712,
+          14.999435623469903
+        ]
+      },
+      "thumbWindowMaxOutwardN": 14.999435623469903
+    },
+    {
+      "key": "JFD_FINGER_V2",
+      "path": "build123d_workbench/out/finger_controls_v2/JFD_FINGER_V2.step",
+      "sha256": "d457d5d9b305a4c7d77e21aab3cb7d33336d672d4d8bf031e6158de44c26ad50",
+      "bytes": 1401989,
+      "solidCount": 1,
+      "volumeMm3": 46995.69829122518,
+      "bboxWorld": {
+        "min": [
+          -38.77976975433841,
+          -61.4319441248594,
+          -73.8785085486
+        ],
+        "max": [
+          0.5224408822790091,
+          62.42831449420142,
+          78.25678350405059
+        ],
+        "size": [
+          39.30221063661742,
+          123.86025861906083,
+          152.13529205265058
+        ]
+      },
+      "thumbWindowSamplePoints": 41338,
+      "thumbWindowLocalBbox": {
+        "min": [
+          -24.7654101668257,
+          -33.9977206100155,
+          -35.21410291011117
+        ],
+        "max": [
+          0.25696996463708394,
+          33.997117124807126,
+          14.999448866612504
+        ]
+      },
+      "thumbWindowMaxOutwardN": 14.999448866612504
+    },
+    {
+      "key": "JAD_CLEAN_PRE_FINGER",
+      "path": "local_cad/reference/JAD_CLEAN_PRE_FINGER.step",
+      "sha256": "01f5708a29ca46b0f9f13b5c63b5f4d9b7b46bcf04fc8b0a55b806085f1ff4f0",
+      "bytes": 612629,
+      "solidCount": 1,
+      "volumeMm3": 46577.761694471395,
+      "bboxWorld": {
+        "min": [
+          -0.5222681032686836,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          38.77976975434524,
+          62.428314495976565,
+          78.25678350405062
+        ],
+        "size": [
+          39.302037857613925,
+          123.86025862084132,
+          152.1352920526514
+        ]
+      },
+      "thumbWindowSamplePoints": 42982,
+      "thumbWindowLocalBbox": {
+        "min": [
+          0.17873591941517344,
+          -33.9996389303045,
+          -35.26127156500981
+        ],
+        "max": [
+          25.20701865649127,
+          33.997498309333395,
+          14.999520232334232
+        ]
+      },
+      "thumbWindowMaxOutwardN": 14.999520232334232
+    },
+    {
+      "key": "JFD_CLEAN_PRE_FINGER",
+      "path": "local_cad/reference/JFD_CLEAN_PRE_FINGER.step",
+      "sha256": "8d290891dd93f16f50789f24ef7d27c754b27b4250caa1ebb3cb587648475792",
+      "bytes": 610677,
+      "solidCount": 1,
+      "volumeMm3": 47850.714043167885,
+      "bboxWorld": {
+        "min": [
+          -38.77976975434524,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          0.5222681032686836,
+          62.42831449419311,
+          78.25678350405062
+        ],
+        "size": [
+          39.302037857613925,
+          123.86025861905787,
+          152.1352920526514
+        ]
+      },
+      "thumbWindowSamplePoints": 41670,
+      "thumbWindowLocalBbox": {
+        "min": [
+          -24.76120302752685,
+          -33.99909644164041,
+          -35.21979386995749
+        ],
+        "max": [
+          0.2566727559420461,
+          33.99962483391418,
+          14.999642089558952
+        ]
+      },
+      "thumbWindowMaxOutwardN": 14.999642089558952
+    }
+  ],
+  "memory": [
+    {
+      "stage": "summarised JAD_LOWERED_THUMB",
+      "rssMb": 399.5,
+      "availMb": 18460.6
+    },
+    {
+      "stage": "summarised JFD_LOWERED_THUMB",
+      "rssMb": 405.5,
+      "availMb": 18518.1
+    },
+    {
+      "stage": "summarised JAD_FINGER_V2",
+      "rssMb": 411.7,
+      "availMb": 18514.7
+    },
+    {
+      "stage": "summarised JFD_FINGER_V2",
+      "rssMb": 410.7,
+      "availMb": 18516.7
+    },
+    {
+      "stage": "summarised JAD_CLEAN_PRE_FINGER",
+      "rssMb": 412.0,
+      "availMb": 18526.5
+    },
+    {
+      "stage": "summarised JFD_CLEAN_PRE_FINGER",
+      "rssMb": 412.0,
+      "availMb": 18523.3
+    }
+  ]
+}

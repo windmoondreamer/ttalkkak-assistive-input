@@ -1,0 +1,94 @@
+{
+  "originFrames": {
+    "CURRENT": [
+      -0.21604013507035,
+      -23.14907664213591,
+      40.49617911468703
+    ],
+    "ORIGINAL": [
+      -0.21604013507035,
+      -35.39907664213591,
+      61.49617911468703
+    ]
+  },
+  "gridPitchMm": 0.5,
+  "gridLocal": {
+    "min": [
+      -26.0,
+      -50.0
+    ],
+    "max": [
+      26.0,
+      14.0
+    ]
+  },
+  "stats": {
+    "ORIGINAL": {
+      "columnsWithBothMaterial": 6260,
+      "gapMinMm": -0.02231770230446717,
+      "gapMaxMm": 4.788998443540999,
+      "gapMeanMm": 1.1944028431761395,
+      "gapMedianMm": 1.2948796970949723,
+      "columnsInterfering": 4,
+      "columnsWithin0p5mm": 854,
+      "columnsWithin1p0mm": 1975,
+      "columnsGapOver3mm": 131,
+      "columnsGapOver6mm": 0,
+      "wallInnerRange": [
+        -33.70112927152337,
+        6.455073710685648
+      ],
+      "partOuterRange": [
+        -3.6463435810071605,
+        2.307116499927803
+      ]
+    },
+    "CURRENT": {
+      "columnsWithBothMaterial": 7293,
+      "gapMinMm": -28.495017739952754,
+      "gapMaxMm": 14.804311922913406,
+      "gapMeanMm": 8.199957621890894,
+      "gapMedianMm": 9.027456043234732,
+      "columnsInterfering": 189,
+      "columnsWithin0p5mm": 21,
+      "columnsWithin1p0mm": 47,
+      "columnsGapOver3mm": 6888,
+      "columnsGapOver6mm": 6123,
+      "wallInnerRange": [
+        -30.497153353670274,
+        15.947720817493252
+      ],
+      "partOuterRange": [
+        -3.6463435810084683,
+        2.3071164999265976
+      ]
+    }
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 418.1,
+      "availMb": 18307.9
+    },
+    {
+      "stage": "combined CLEAN",
+      "rssMb": 423.4,
+      "availMb": 18142.6
+    },
+    {
+      "stage": "loaded backplates",
+      "rssMb": 442.9,
+      "availMb": 18118.0
+    },
+    {
+      "stage": "original analysed",
+      "rssMb": 449.6,
+      "availMb": 18428.7
+    },
+    {
+      "stage": "current analysed",
+      "rssMb": 454.0,
+      "availMb": 18434.6
+    }
+  ]
+}

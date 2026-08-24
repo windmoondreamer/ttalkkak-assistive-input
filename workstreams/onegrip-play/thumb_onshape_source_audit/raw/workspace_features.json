@@ -1,0 +1,13 @@
+{
+  "method": "GET",
+  "url": "https://cad.onshape.com/api/v6/partstudios/d/a21e64f36bc61df760d4587c/w/ef6a7b3ccc45186203e4d2ca/e/425d9199b59cfb1efd9ddc35/features?configuration=default",
+  "status": 402,
+  "contentType": "application/json",
+  "etag": null,
+  "body": {
+    "message": "API limit exceeded",
+    "moreInfoUrl": "",
+    "status": 402,
+    "code": 402
+  }
+}

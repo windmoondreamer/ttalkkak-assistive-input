@@ -1,0 +1,216 @@
+{
+  "openings": {
+    "JOY": {
+      "tiltDeg": 0.0,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 195.33000000000004,
+      "approvedAreaMm2": 173.07000000000002,
+      "areaErrorMm2": 22.26000000000002,
+      "areaErrorPct": 12.861847807245631,
+      "centroidErrorMm": 0.4853527598093008,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 2.469817807045684,
+      "contourMeanDeviationMm": 0.7468447743065696,
+      "outerContourWMm": 4.551804881247166,
+      "innerContourWMm": 3.600693438931548,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.03746044333244435
+    },
+    "T1": {
+      "tiltDeg": 9.36199934380265,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 65.68,
+      "approvedAreaMm2": 47.830000000000005,
+      "areaErrorMm2": 17.85,
+      "areaErrorPct": 37.31967384486724,
+      "centroidErrorMm": 0.853645085518093,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 4.272001872658752,
+      "contourMeanDeviationMm": 0.7110268797338013,
+      "outerContourWMm": 4.833898683209946,
+      "innerContourWMm": 3.772906793323792,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.04128265332072221
+    },
+    "T2": {
+      "tiltDeg": 3.999999999987366,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 64.0,
+      "approvedAreaMm2": 64.0,
+      "areaErrorMm2": 0.0,
+      "areaErrorPct": 0.0,
+      "centroidErrorMm": 0.3162277660168369,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 0.3162277660168368,
+      "contourMeanDeviationMm": 0.20701739464976882,
+      "outerContourWMm": 7.889472634970456,
+      "innerContourWMm": 5.23665976762289,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.12181081292884766
+    },
+    "T3": {
+      "tiltDeg": 9.37749111258268,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 67.10000000000001,
+      "approvedAreaMm2": 47.86000000000001,
+      "areaErrorMm2": 19.240000000000002,
+      "areaErrorPct": 40.20058503969912,
+      "centroidErrorMm": 1.287929544744412,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 4.964876634922546,
+      "contourMeanDeviationMm": 0.8098552043451446,
+      "outerContourWMm": 4.648972650746241,
+      "innerContourWMm": 3.641658884225384,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.05145347052138609
+    },
+    "T4": {
+      "tiltDeg": 7.0732196363406,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 64.88000000000001,
+      "approvedAreaMm2": 62.49000000000001,
+      "areaErrorMm2": 2.3900000000000006,
+      "areaErrorPct": 3.824611937910066,
+      "centroidErrorMm": 0.13382494907163925,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 0.41231056256176457,
+      "contourMeanDeviationMm": 0.14580232779527574,
+      "outerContourWMm": 7.123139093909439,
+      "innerContourWMm": 4.878493274128939,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.031184803770621605
+    },
+    "T5": {
+      "tiltDeg": 3.9999999999816205,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 67.4,
+      "approvedAreaMm2": 63.2,
+      "areaErrorMm2": 4.200000000000003,
+      "areaErrorPct": 6.645569620253169,
+      "centroidErrorMm": 0.30292704562395534,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 0.9055385138137384,
+      "contourMeanDeviationMm": 0.2281619686932161,
+      "outerContourWMm": 6.000219502022878,
+      "innerContourWMm": 3.867701586984826,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.03446124826524978
+    },
+    "T6": {
+      "tiltDeg": 7.059601161192331,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 65.35000000000001,
+      "approvedAreaMm2": 61.970000000000006,
+      "areaErrorMm2": 3.3800000000000026,
+      "areaErrorPct": 5.454252057447155,
+      "centroidErrorMm": 0.6294918650726206,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 0.9055385138137384,
+      "contourMeanDeviationMm": 0.38328287900936797,
+      "outerContourWMm": 7.026666045466892,
+      "innerContourWMm": 4.786262094819611,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.14958734863076337
+    },
+    "T7": {
+      "tiltDeg": 1.8392747092420292,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 70.0,
+      "approvedAreaMm2": 67.45,
+      "areaErrorMm2": 2.549999999999997,
+      "areaErrorPct": 3.780578206078572,
+      "centroidErrorMm": 0.22940520046709542,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 0.3605551275463976,
+      "contourMeanDeviationMm": 0.18231737568044276,
+      "outerContourWMm": 8.842015265736912,
+      "innerContourWMm": 5.884913054542377,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.062023525055173515
+    },
+    "T8": {
+      "tiltDeg": 1.8392747092382637,
+      "fullThroughOpening": true,
+      "reconciledAreaMm2": 70.0,
+      "approvedAreaMm2": 68.08000000000001,
+      "areaErrorMm2": 1.9199999999999875,
+      "areaErrorPct": 2.820211515863671,
+      "centroidErrorMm": 0.34808500621319305,
+      "axisAngularErrorDeg": 0.0,
+      "contourHausdorffMaxMm": 0.42426406871192573,
+      "contourMeanDeviationMm": 0.23976750229864763,
+      "outerContourWMm": 8.806915507780046,
+      "innerContourWMm": 5.854902138846085,
+      "minSurroundingLigamentMm": 0.14142135623730953,
+      "residualWallInsideApprovedFootprintMm": 0.12515977056179828
+    }
+  },
+  "surfacePreservation": {
+    "neighbourhoodRadiusMm": 8.0,
+    "columnsSampled": 11593,
+    "columnsExcludedNearOpenings": 5236,
+    "columnsCompared": 6357,
+    "medianDeviationMm": 1.4210854715202004e-14,
+    "p95DeviationMm": 0.012538453935725606,
+    "maxDeviationMm": 0.18264413143705838,
+    "changedColumns": 2126,
+    "changedAreaMm2": 531.5
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 432.7,
+      "availMb": 15496.2
+    },
+    {
+      "stage": "sources",
+      "rssMb": 436.0,
+      "availMb": 15499.9
+    },
+    {
+      "stage": "validate JOY",
+      "rssMb": 484.3,
+      "availMb": 16189.0
+    },
+    {
+      "stage": "validate T1",
+      "rssMb": 489.1,
+      "availMb": 16190.6
+    },
+    {
+      "stage": "validate T2",
+      "rssMb": 489.9,
+      "availMb": 16197.2
+    },
+    {
+      "stage": "validate T3",
+      "rssMb": 491.2,
+      "availMb": 16196.0
+    },
+    {
+      "stage": "validate T4",
+      "rssMb": 492.6,
+      "availMb": 16195.0
+    },
+    {
+      "stage": "validate T5",
+      "rssMb": 492.8,
+      "availMb": 16189.9
+    },
+    {
+      "stage": "validate T6",
+      "rssMb": 493.1,
+      "availMb": 16161.7
+    },
+    {
+      "stage": "validate T7",
+      "rssMb": 493.1,
+      "availMb": 16154.9
+    },
+    {
+      "stage": "validate T8",
+      "rssMb": 493.3,
+      "availMb": 15656.9
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "mode": "READ_ONLY_NO_HEAL_NO_GEOMETRY_MODIFICATION",
+  "source": {
+    "documentId": "a21e64f36bc61df760d4587c",
+    "versionId": "50dfe4e752e447375b95493a",
+    "elementId": "425d9199b59cfb1efd9ddc35",
+    "configuration": "default"
+  },
+  "files": {
+    "JaD_STEP": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JaD_THUMB_LOWER15_APPROVED.step",
+      "bytes": 817422,
+      "sha256": "622adb3b1b1d6095435aac624bb11042080fc8b7399b0c920becde708fa54e86"
+    },
+    "JfD_STEP": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JfD_THUMB_LOWER15_APPROVED.step",
+      "bytes": 1446528,
+      "sha256": "d75f62e04df15b1150ea10eeb8da1aaa0aae7ca7c31862cea42823a0929ea340"
+    },
+    "JaD_PARASOLID": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JaD_THUMB_LOWER15_APPROVED.x_t",
+      "bytes": 1049588,
+      "sha256": "2cfd9cd3d323cf45d57f59b4528eb364b5b5ab1bceb0a20692b0292a75eb2453"
+    },
+    "JfD_PARASOLID": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JfD_THUMB_LOWER15_APPROVED.x_t",
+      "bytes": 1719570,
+      "sha256": "5c50f3aa199223f673eee6a9439e5c42c77a082ad9bafd9b5bcfcdcdb00155f5"
+    }
+  },
+  "stepValidation": {
+    "JaD": {
+      "importSucceeded": true,
+      "isValid": true,
+      "solidCount": 1,
+      "faceCount": 190,
+      "edgeCount": 548,
+      "vertexCount": 368,
+      "volumeMm3": 47672.95042863383,
+      "boundingBoxMm": {
+        "min": [
+          -4.64930231014386e-06,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          38.77976975434524,
+          62.42831449597656,
+          78.25678350406848
+        ],
+        "size": [
+          38.77977440364755,
+          123.86025862084131,
+          152.13529205266929
+        ]
+      }
+    },
+    "JfD": {
+      "importSucceeded": true,
+      "isValid": true,
+      "solidCount": 1,
+      "faceCount": 507,
+      "edgeCount": 1557,
+      "vertexCount": 1040,
+      "volumeMm3": 50150.49807071409,
+      "boundingBoxMm": {
+        "min": [
+          -38.77976975434524,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          1.0001386535330993e-07,
+          62.42831449419312,
+          78.2567835040506
+        ],
+        "size": [
+          38.7797698543591,
+          123.86025861905787,
+          152.13529205265138
+        ]
+      }
+    },
+    "separateValidSolids": true
+  },
+  "openings": {
+    "JOY": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 173.2275,
+      "sampledCentroidLocalXYmm": [
+        0.21769710351996427,
+        1.0156643719963916
+      ],
+      "sampledCentroidOffsetMm": 1.0387329519293236,
+      "boundaryPointCount": 394,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T1": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 48.1275,
+      "sampledCentroidLocalXYmm": [
+        -0.04053295932676241,
+        -0.24144460028047948
+      ],
+      "sampledCentroidOffsetMm": 0.24482323377568863,
+      "boundaryPointCount": 206,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T2": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 63.2025,
+      "sampledCentroidLocalXYmm": [
+        0.2500000000000267,
+        0.1000000000000263
+      ],
+      "sampledCentroidOffsetMm": 0.26925824035675977,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T3": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 48.105,
+      "sampledCentroidLocalXYmm": [
+        0.5501403180542837,
+        -0.22897567820390338
+      ],
+      "sampledCentroidOffsetMm": 0.5958894450800466,
+      "boundaryPointCount": 206,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T4": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 62.144999999999996,
+      "sampledCentroidLocalXYmm": [
+        -0.20141202027513713,
+        0.10016292541639124
+      ],
+      "sampledCentroidOffsetMm": 0.2249431340123139,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T5": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 63.2025,
+      "sampledCentroidLocalXYmm": [
+        0.2500000000000267,
+        0.1000000000000263
+      ],
+      "sampledCentroidOffsetMm": 0.26925824035675977,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T6": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 62.144999999999996,
+      "sampledCentroidLocalXYmm": [
+        0.6646994931209546,
+        0.09592686459090245
+      ],
+      "sampledCentroidOffsetMm": 0.6715857201470973,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T7": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 68.4225,
+      "sampledCentroidLocalXYmm": [
+        0.12629069385073324,
+        0.2205031239724041
+      ],
+      "sampledCentroidOffsetMm": 0.2541081797874461,
+      "boundaryPointCount": 222,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    },
+    "T8": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 67.005,
+      "sampledCentroidLocalXYmm": [
+        0.31331430490264617,
+        0.24073203492279355
+      ],
+      "sampledCentroidOffsetMm": 0.39511740824050945,
+      "boundaryPointCount": 220,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ]
+    }
+  },
+  "allNineThroughOpeningsPass": true
+}

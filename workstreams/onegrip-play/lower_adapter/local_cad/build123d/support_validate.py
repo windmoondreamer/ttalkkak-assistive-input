@@ -168,20 +168,44 @@ def main():
         nz = np.where(mg > 1e-12, n[:, 2] / np.maximum(mg, 1e-12), 0.0)
         area = 0.5 * mg
         dn = (nz < -0.7071) & (ctr[:, 2] > 0.35)
+        LEDGE_R = 0.45          # 노즐 폭 1개 이내의 미세 단은 자립한다
+
+        def _inside(col, px, py, zq):
+            zz = col.hit(px, py)
+            return len(zz) > 0 and (int(np.searchsorted(zz, zq)) % 2 == 1)
+
+        def has_below(px, py, pz):
+            """바로 아래에 **재료가 있나** — 표면 교차점이 아니라 내부 판정.
+
+            (교차점만 보면 리브 몸통처럼 연속 재료 안에 있는 점이
+             '아래에 아무것도 없다'로 잡힌다. 세 번째로 밟은 측정 결함.)
+            """
+            for d in (0.10, 0.30, 0.55):
+                if _inside(pc, px, py, pz - d) or _inside(sc, px, py, pz - d):
+                    return True
+            return False
+
         fa = 0.0
+        ledge = 0.0
         float_pts = []
         for k in np.where(dn)[0]:
             p = ctr[k]
-            zp = pc.hit(p[0], p[1])
-            zs = sc.hit(p[0], p[1])
-            # 면이 표면 위에 정확히 얹혀 있으면 z 가 같다 -> 배제하면 안 된다
-            bel = np.concatenate([zp[zp <= p[2] + 0.05], zs[zs < p[2] - 0.05]])
-            if len(bel) == 0 or (p[2] - bel.max()) > 0.55:
-                fa += area[k]
-                float_pts.append([float(p[0]), float(p[1]), float(p[2])])
+            if has_below(p[0], p[1], p[2]):
+                continue
+            # 계단 머리처럼 0.45mm 이내에 받침이 있으면 자립 미세 단이다
+            if any(has_below(p[0] + LEDGE_R * math.cos(t),
+                             p[1] + LEDGE_R * math.sin(t), p[2])
+                   for t in np.arange(0.0, 6.28, 0.7854)):
+                ledge += area[k]
+                continue
+            fa += area[k]
+            float_pts.append([float(p[0]), float(p[1]), float(p[2])])
         print("  B. SUPPORT_FOR_SUPPORT 뜬 아래보기 면적 : %.3f mm2   [%s]"
               % (fa, "PASS" if fa < 1.0 else "FAIL"))
+        print("     (자립 미세 단 <=0.45mm : %.3f mm2 — 계단 머리, 별도 집계)"
+              % ledge)
         r["support_for_support_mm2"] = float(fa)
+        r["micro_ledge_mm2"] = float(ledge)
         if float_pts:
             a_ = np.array(float_pts)
             print("     뜬 위치  z %.1f~%.1f  x %.1f~%.1f  y %.1f~%.1f"

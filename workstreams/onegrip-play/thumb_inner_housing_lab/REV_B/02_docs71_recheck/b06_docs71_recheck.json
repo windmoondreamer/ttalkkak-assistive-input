@@ -1,0 +1,76 @@
+{
+  "szhVsBothShells": {
+    "pcb": {
+      "vsFingerV2Mm3": 181.13409485994805,
+      "vsFrozenMm3": 181.13379408479057,
+      "differenceMm3": -0.0003007751574841677
+    },
+    "gimbal": {
+      "vsFingerV2Mm3": 0.0,
+      "vsFrozenMm3": 0.0,
+      "differenceMm3": 0.0
+    },
+    "x_pot": {
+      "vsFingerV2Mm3": 0.0,
+      "vsFrozenMm3": 0.0,
+      "differenceMm3": 0.0
+    },
+    "y_pot": {
+      "vsFingerV2Mm3": 0.0,
+      "vsFrozenMm3": 0.0,
+      "differenceMm3": 0.0
+    },
+    "push_switch": {
+      "vsFingerV2Mm3": 0.0,
+      "vsFrozenMm3": 0.0,
+      "differenceMm3": 0.0
+    },
+    "shaft": {
+      "vsFingerV2Mm3": 11.827498536683255,
+      "vsFrozenMm3": 0.0,
+      "differenceMm3": -11.827498536683255
+    },
+    "cap": {
+      "vsFingerV2Mm3": 422.17008072227003,
+      "vsFrozenMm3": 44.79599784683367,
+      "differenceMm3": -377.37408287543633
+    },
+    "header": {
+      "vsFingerV2Mm3": 73.37790573192412,
+      "vsFrozenMm3": 73.37790573192412,
+      "differenceMm3": 0.0
+    },
+    "MOVING_ENVELOPE_25deg": {
+      "vsFingerV2Mm3": 2072.2182610362333,
+      "vsFrozenMm3": 1839.568832594904,
+      "differenceMm3": -232.6494284413293
+    }
+  },
+  "docs71Comparison": {
+    "PCB": {
+      "docs71Mm3": 181.13487500000002,
+      "labFingerV2Mm3": 181.13409485994805,
+      "labFrozenMm3": 181.13379408479057
+    },
+    "SHAFT": {
+      "docs71Mm3": 11.824117,
+      "labFingerV2Mm3": 11.827498536683255,
+      "labFrozenMm3": 0.0
+    },
+    "REMOVABLE_KNOB": {
+      "docs71Mm3": 422.107962,
+      "labFingerV2Mm3": 422.17008072227003,
+      "labFrozenMm3": 44.79599784683367
+    },
+    "HEADER_PLASTIC": {
+      "docs71Mm3": 69.906859,
+      "labFingerV2Mm3": 73.37790573192412,
+      "labFrozenMm3": 73.37790573192412
+    }
+  },
+  "featuresChangedOver1mm3": [
+    "shaft",
+    "cap",
+    "MOVING_ENVELOPE_25deg"
+  ]
+}

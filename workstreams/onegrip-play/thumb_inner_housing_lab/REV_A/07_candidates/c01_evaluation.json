@@ -1,0 +1,156 @@
+{
+  "evaluation": {
+    "plateVolumeMm3": 3374.9789972453555,
+    "faces": 291,
+    "solidCount": 1,
+    "shellIntersectionMm3": 0.0,
+    "gapPercentilesMm": {
+      "1": 1.0813063385866215,
+      "5": 1.1274970452051614,
+      "25": 1.1760122654530392,
+      "50": 1.1956058570935744,
+      "75": 1.2008556958667598,
+      "95": 1.241859114204032,
+      "99": 2.4787429898304962
+    },
+    "gapMinMaxMm": [
+      0.16253118930613653,
+      3.5951402688106766
+    ],
+    "thicknessPercentilesMm": {
+      "1": 0.5296322966930787,
+      "5": 1.1926441231698444,
+      "25": 2.3928713419764005,
+      "50": 2.399999999998075,
+      "75": 2.4000000175431015,
+      "95": 2.4108240895060655,
+      "99": 2.42998142133986
+    },
+    "thicknessMinMaxMm": [
+      0.30048820513169794,
+      2.4693178476650868
+    ],
+    "columnsBelowMinWall": 282,
+    "columnsTotal": 5603,
+    "apertures": {
+      "T1_corner_1": {
+        "removedMm3": 49.21424025552287
+      },
+      "T2_middle_1": {
+        "removedMm3": 156.59341362607816
+      },
+      "T3_corner_2": {
+        "removedMm3": 46.1210910828284
+      },
+      "T4_side_1": {
+        "removedMm3": 122.69517320181313
+      },
+      "T5_middle_2": {
+        "removedMm3": 81.86288343868456
+      },
+      "T6_side_2": {
+        "removedMm3": 118.73740070343129
+      },
+      "T7_wide_1": {
+        "removedMm3": 199.78664962844817
+      },
+      "T8_wide_2": {
+        "removedMm3": 199.4540866578626
+      },
+      "JOYSTICK": {
+        "removedMm3": 34.70620483493178
+      }
+    },
+    "keepOuts": {
+      "SZH_pcb": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "SZH_gimbal": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "SZH_x_pot": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "SZH_y_pot": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "SZH_push_switch": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "SZH_shaft": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "SZH_cap": {
+        "clearanceMm": 0.5,
+        "removedMm3": 174.67223190231556
+      },
+      "SZH_header": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "SZH_MOVING_ENVELOPE_25deg": {
+        "clearanceMm": 0.5,
+        "removedMm3": 223.7939632103328
+      },
+      "N1_N2_SHARED_CARRIER": {
+        "clearanceMm": 0.5,
+        "removedMm3": 0.0
+      },
+      "ORIGINAL_SCREW_1": {
+        "clearanceMm": 1.0,
+        "removedMm3": 0.0
+      },
+      "ORIGINAL_SCREW_2": {
+        "clearanceMm": 1.0,
+        "removedMm3": 0.0
+      },
+      "ORIGINAL_SCREW_3": {
+        "clearanceMm": 1.0,
+        "removedMm3": 0.0
+      }
+    },
+    "keepOutResidualMm3": {
+      "SZH_pcb": 0.0,
+      "SZH_gimbal": 0.0,
+      "SZH_x_pot": 0.0,
+      "SZH_y_pot": 0.0,
+      "SZH_push_switch": 0.0,
+      "SZH_shaft": 0.0,
+      "SZH_cap": 0.0,
+      "SZH_header": 0.0,
+      "SZH_MOVING_ENVELOPE_25deg": 0.0,
+      "N1_N2_SHARED_CARRIER": 0.0,
+      "ORIGINAL_SCREW_1": 0.0,
+      "ORIGINAL_SCREW_2": 0.0,
+      "ORIGINAL_SCREW_3": 0.0
+    }
+  },
+  "memory": [
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 430.7,
+      "availMb": 16727.0
+    },
+    {
+      "stage": "standoff",
+      "rssMb": 480.3,
+      "availMb": 16605.8
+    },
+    {
+      "stage": "apertures",
+      "rssMb": 605.3,
+      "availMb": 16441.3
+    },
+    {
+      "stage": "keepouts",
+      "rssMb": 547.4,
+      "availMb": 16432.9
+    }
+  ]
+}

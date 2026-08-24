@@ -1,0 +1,351 @@
+{
+  "model": "SZH_EK056_WEB_REFERENCE photo-plane study",
+  "classification": "PHOTO-DERIVED; visually matching KY-023, not exact-SKU metrology",
+  "datum": "PCB centre; +X right and +Y image-up in rectified top view",
+  "calibration": {
+    "pcb_mm": [
+      34.5,
+      26.0
+    ],
+    "source": "SZH-EK056 reseller 34.5x26 plan dimension; height excluded from homography",
+    "accuracy_note": "manual perspective picks; report dimensions to practical 0.5 mm class only"
+  },
+  "top_photo": {
+    "file": "ps_Joystick-Module-Connections-1.jpg",
+    "picks_px": {
+      "pcb_corners": [
+        [
+          302.0,
+          127.0
+        ],
+        [
+          752.0,
+          128.0
+        ],
+        [
+          751.0,
+          480.0
+        ],
+        [
+          302.0,
+          476.0
+        ]
+      ],
+      "mount_holes": [
+        [
+          370.5,
+          167.0
+        ],
+        [
+          716.5,
+          170.5
+        ],
+        [
+          368.0,
+          428.5
+        ],
+        [
+          714.5,
+          432.0
+        ]
+      ],
+      "joystick_center": [
+        [
+          531.0,
+          276.0
+        ]
+      ],
+      "gimbal_envelope": [
+        [
+          415.0,
+          164.0
+        ],
+        [
+          646.0,
+          389.0
+        ]
+      ],
+      "x_pot_envelope": [
+        [
+          638.0,
+          190.0
+        ],
+        [
+          704.0,
+          365.0
+        ]
+      ],
+      "y_pot_envelope": [
+        [
+          464.0,
+          127.0
+        ],
+        [
+          600.0,
+          192.0
+        ]
+      ],
+      "push_switch_envelope": [
+        [
+          464.0,
+          380.0
+        ],
+        [
+          600.0,
+          474.0
+        ]
+      ],
+      "header_pin_envelope": [
+        [
+          227.0,
+          227.0
+        ],
+        [
+          352.0,
+          384.0
+        ]
+      ]
+    },
+    "mapped_mm": {
+      "pcb_corners": [
+        [
+          -17.25,
+          13.0
+        ],
+        [
+          17.25,
+          13.0
+        ],
+        [
+          17.25,
+          -13.0
+        ],
+        [
+          -17.25,
+          -13.0
+        ]
+      ],
+      "mount_holes": [
+        [
+          -11.9587,
+          10.0411
+        ],
+        [
+          14.5583,
+          9.859
+        ],
+        [
+          -12.1431,
+          -9.4152
+        ],
+        [
+          14.4579,
+          -9.4694
+        ]
+      ],
+      "joystick_center": [
+        [
+          0.3971,
+          1.9999
+        ]
+      ],
+      "gimbal_envelope": [
+        [
+          -8.5288,
+          10.2736
+        ],
+        [
+          9.2199,
+          -6.3233
+        ]
+      ],
+      "x_pot_envelope": [
+        [
+          8.576,
+          8.4002
+        ],
+        [
+          13.644,
+          -4.5165
+        ]
+      ],
+      "y_pot_envelope": [
+        [
+          -4.7617,
+          13.0267
+        ],
+        [
+          5.6721,
+          8.2427
+        ]
+      ],
+      "push_switch_envelope": [
+        [
+          -4.7418,
+          -5.7516
+        ],
+        [
+          5.7127,
+          -12.6544
+        ]
+      ],
+      "header_pin_envelope": [
+        [
+          -23.0616,
+          5.5387
+        ],
+        [
+          -13.381,
+          -6.1084
+        ]
+      ]
+    },
+    "hole_pitch_mm": [
+      26.559,
+      19.3924
+    ]
+  },
+  "bottom_photo": {
+    "file": "ps_Joystick-Module-Back.jpg",
+    "picks_px": {
+      "pcb_corners": [
+        [
+          207.0,
+          140.0
+        ],
+        [
+          623.0,
+          140.0
+        ],
+        [
+          621.0,
+          462.0
+        ],
+        [
+          207.0,
+          461.0
+        ]
+      ],
+      "mount_holes": [
+        [
+          269.5,
+          186.0
+        ],
+        [
+          588.5,
+          186.0
+        ],
+        [
+          269.0,
+          427.0
+        ],
+        [
+          588.0,
+          427.0
+        ]
+      ]
+    },
+    "mapped_mm": {
+      "pcb_corners": [
+        [
+          -17.25,
+          13.0
+        ],
+        [
+          17.25,
+          13.0
+        ],
+        [
+          17.25,
+          -13.0
+        ],
+        [
+          -17.25,
+          -13.0
+        ]
+      ],
+      "mount_holes": [
+        [
+          -12.0494,
+          9.2912
+        ],
+        [
+          14.4187,
+          9.3001
+        ],
+        [
+          -12.0723,
+          -10.2234
+        ],
+        [
+          14.4913,
+          -10.1675
+        ]
+      ]
+    },
+    "hole_pitch_mm": [
+      26.5159,
+      19.4911
+    ]
+  },
+  "adopted": {
+    "mount_hole_centres_mm": [
+      [
+        -12.0,
+        9.95
+      ],
+      [
+        14.5,
+        9.95
+      ],
+      [
+        -12.0,
+        -9.5
+      ],
+      [
+        14.5,
+        -9.5
+      ]
+    ],
+    "mount_hole_pitch_mm": [
+      26.5,
+      19.45
+    ],
+    "joystick_center_mm": [
+      0.4,
+      2.0
+    ],
+    "gimbal_envelope_xy_mm": [
+      17.5,
+      16.6
+    ],
+    "x_pot_center_xy_mm": [
+      11.1,
+      2.0
+    ],
+    "x_pot_envelope_xy_mm": [
+      5.2,
+      13.2
+    ],
+    "y_pot_center_xy_mm": [
+      0.5,
+      10.6
+    ],
+    "y_pot_envelope_xy_mm": [
+      10.5,
+      5.0
+    ],
+    "push_switch_center_xy_mm": [
+      0.5,
+      -9.2
+    ],
+    "push_switch_envelope_xy_mm": [
+      10.5,
+      7.0
+    ],
+    "header_pin_envelope_xy_mm": [
+      8.8,
+      12.2
+    ]
+  }
+}

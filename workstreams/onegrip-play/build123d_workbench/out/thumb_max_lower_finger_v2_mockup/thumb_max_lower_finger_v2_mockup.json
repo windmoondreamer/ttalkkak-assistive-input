@@ -1,0 +1,103 @@
+{
+  "schema": 1,
+  "mode": "LOCAL build123d/mesh render only; Onshape 0; production CAD write 0",
+  "scope": "external multi-body placement mockup",
+  "thumbTotalTranslationFromOriginalMm": [
+    0.0,
+    12.25,
+    -21.0
+  ],
+  "latestFingerButtons": [
+    "I2",
+    "I3",
+    "I4",
+    "M3",
+    "M4",
+    "N1",
+    "N2",
+    "N3"
+  ],
+  "sources": {
+    "lower15JaD": {
+      "path": "exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_1_JaD.stl",
+      "sha256": "43cb0a9972e0153afe49341a3e29df130b9e966bbff40a1114cee3919c1b50cb"
+    },
+    "lower15JfD": {
+      "path": "exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_2_JfD.stl",
+      "sha256": "29050592a316c16b64211276ed0ce2bbfafd7bb0b833d954db7b305cee677677"
+    },
+    "originalThumb": {
+      "path": "local_cad\\reference\\THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+      "sha256": "c80a6e44dab38b88791d6167d9a7e5d3e800f48db316e5cbe988eb997d99d21d"
+    },
+    "fingerV2Manifest": {
+      "path": "build123d_workbench\\out\\finger_controls_v2\\finger_controls_v2_source_manifest.json",
+      "sha256": "2de88051c9c981a04f284b5dde48e4a15861606e5bae3f1376e2a7ef6539c5b2"
+    }
+  },
+  "visualMesh": {
+    "path": "build123d_workbench\\out\\thumb_max_lower_finger_v2_mockup\\THUMB_MAX_LOWER_PLUS_FINGER_V2_VISUAL_MOCKUP.stl",
+    "triangleCount": 50560,
+    "declaredComponentCount": 19,
+    "finite": true,
+    "purpose": "viewer/reference only; do not slice as one validated assembly"
+  },
+  "thumbToLatestFingerCapIntersection": {
+    "I2": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "I3": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "I4": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "M3": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "M4": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "N1": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "N2": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    },
+    "N3": {
+      "maximumThumbComponentIntersectionMm3": 0.0,
+      "totalThumbComponentIntersectionMm3": 0.0,
+      "intersectingThumbComponentCount": 0
+    }
+  },
+  "latestFingerCapsWithAnyExactThumbIntersection": 0,
+  "renders": [
+    "build123d_workbench\\out\\thumb_max_lower_finger_v2_mockup\\renders\\00_contact_sheet.png",
+    "build123d_workbench\\out\\thumb_max_lower_finger_v2_mockup\\renders\\01_thumb_control_side.png",
+    "build123d_workbench\\out\\thumb_max_lower_finger_v2_mockup\\renders\\02_finger_control_side.png",
+    "build123d_workbench\\out\\thumb_max_lower_finger_v2_mockup\\renders\\03_finger_layout_wireframe.png",
+    "build123d_workbench\\out\\thumb_max_lower_finger_v2_mockup\\renders\\04_side_oblique.png"
+  ],
+  "verdict": {
+    "EXTERNAL_POSITION_MOCKUP": "GENERATED",
+    "LATEST_FINGER_V2_LAYOUT": "PRESERVED",
+    "MAX_LOWER_THUMB_POSITION": "APPLIED",
+    "INTERNAL_COMPATIBILITY": "NOT VALIDATED",
+    "PRINTABLE_MERGED_SHELL": "NOT PROVIDED"
+  },
+  "warning": "The lower-15 shell source predates the latest Finger V2 shell booleans. The visual STL intentionally combines independent source bodies and is not production CAD."
+}

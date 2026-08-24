@@ -1,0 +1,1444 @@
+{
+  "deltaLocal": [
+    0.024620072856939,
+    -22.382162447238652,
+    -9.492138749377457
+  ],
+  "trueAxes": {
+    "JOY_meta": {
+      "userFaceAreaMm2": 88.12611749837639,
+      "tiltDeg": 0.0,
+      "capCentreWorld": [
+        -0.2191190341802563,
+        -16.369625647744883,
+        49.57390536705094
+      ],
+      "capTopAlongAxisMm": 3.0701240587600465
+    },
+    "T1_meta": {
+      "userFaceAreaMm2": 45.05767543118513,
+      "tiltDeg": 9.36199934380265,
+      "capCentreWorld": [
+        10.036759277505562,
+        11.827400129283784,
+        19.11578827432335
+      ],
+      "capTopAlongAxisMm": 2.2764800228887845
+    },
+    "T2_meta": {
+      "userFaceAreaMm2": 57.76000000000373,
+      "tiltDeg": 3.999999999987366,
+      "capCentreWorld": [
+        -0.23737510774202614,
+        4.0030260274179374,
+        26.089193777242127
+      ],
+      "capTopAlongAxisMm": 2.3779574882148222
+    },
+    "T3_meta": {
+      "userFaceAreaMm2": 45.04264860036108,
+      "tiltDeg": 9.37749111258268,
+      "capCentreWorld": [
+        -10.541994281820852,
+        11.82202291514477,
+        19.126376206663778
+      ],
+      "capTopAlongAxisMm": 2.2728362689490975
+    },
+    "T4_meta": {
+      "userFaceAreaMm2": 58.12653815267171,
+      "tiltDeg": 7.0732196363406,
+      "capCentreWorld": [
+        10.661304710339675,
+        3.9725344617215432,
+        26.039684947504686
+      ],
+      "capTopAlongAxisMm": 2.419498487630432
+    },
+    "T5_meta": {
+      "userFaceAreaMm2": 57.75999999999875,
+      "tiltDeg": 3.9999999999816205,
+      "capCentreWorld": [
+        -0.23550600498671273,
+        12.339896545167006,
+        18.906008576936355
+      ],
+      "capTopAlongAxisMm": 2.375395504319526
+    },
+    "T6_meta": {
+      "userFaceAreaMm2": 58.12662414199282,
+      "tiltDeg": 7.059601161192331,
+      "capCentreWorld": [
+        -11.128555492386003,
+        3.966152799769207,
+        26.057814058149933
+      ],
+      "capTopAlongAxisMm": 2.4132933939012755
+    },
+    "T7_meta": {
+      "userFaceAreaMm2": 63.50002651217331,
+      "tiltDeg": 1.8392747092420292,
+      "capCentreWorld": [
+        7.90156035629057,
+        -5.343083674416997,
+        33.98514672462098
+      ],
+      "capTopAlongAxisMm": 2.3364498054896945
+    },
+    "T8_meta": {
+      "userFaceAreaMm2": 63.50002651213494,
+      "tiltDeg": 1.8392747092382637,
+      "capCentreWorld": [
+        -8.343287297442853,
+        -5.344833914141372,
+        33.98650650306115
+      ],
+      "capTopAlongAxisMm": 2.339473225739589
+    }
+  },
+  "loweredControlUV": {
+    "JOY": [
+      -0.0051410696240477465,
+      0.0017474628492250416
+    ],
+    "T1": [
+      10.293851795698917,
+      -40.806140723433494
+    ],
+    "T2": [
+      0.008878015053694793,
+      -30.37479512364417
+    ],
+    "T3": [
+      -10.284902503402922,
+      -40.816545325844125
+    ],
+    "T4": [
+      10.90756780507336,
+      -30.36885032475299
+    ],
+    "T5": [
+      0.02211522408548571,
+      -41.35277444703225
+    ],
+    "T6": [
+      -10.882298912800405,
+      -30.375175690425113
+    ],
+    "T7": [
+      8.135183627248185,
+      -18.153373218828953
+    ],
+    "T8": [
+      -8.109657534055708,
+      -18.16777348417634
+    ]
+  },
+  "originalControlUV": {
+    "JOY": [
+      -0.029761142480986744,
+      22.383909910087876
+    ],
+    "T1": [
+      10.269231722841978,
+      -18.42397827619484
+    ],
+    "T2": [
+      -0.015742057803244204,
+      -7.992632676405517
+    ],
+    "T3": [
+      -10.30952257625986,
+      -18.434382878605472
+    ],
+    "T4": [
+      10.88294773221642,
+      -7.986687877514338
+    ],
+    "T5": [
+      -0.002504848771453287,
+      -18.9706119997936
+    ],
+    "T6": [
+      -10.906918985657343,
+      -7.993013243186461
+    ],
+    "T7": [
+      8.110563554391247,
+      4.228789228409699
+    ],
+    "T8": [
+      -8.134277606912647,
+      4.214388963062312
+    ]
+  },
+  "test1_rayAlongTrueAxis": {
+    "FROZEN": {
+      "JOY": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": null,
+        "footprintOpenFraction": 0.44,
+        "capTopAlongAxisMm": 3.0701240587600465
+      },
+      "T1": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": null,
+        "footprintOpenFraction": 0.48,
+        "capTopAlongAxisMm": 2.2764800228887845
+      },
+      "T2": {
+        "class": "B_PARTIAL_NOT_THROUGH",
+        "materialIntervalMm": [
+          6.705600242971471,
+          7.932277784919615
+        ],
+        "wallThicknessMm": 1.2266775419481437,
+        "allIntervalsMm": [
+          [
+            -38.551974086791006,
+            -35.57099552891296
+          ],
+          [
+            6.705600242971471,
+            7.932277784919615
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.3779574882148222
+      },
+      "T3": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": null,
+        "footprintOpenFraction": 0.52,
+        "capTopAlongAxisMm": 2.2728362689490975
+      },
+      "T4": {
+        "class": "B_PARTIAL_NOT_THROUGH",
+        "materialIntervalMm": [
+          6.9817942093307375,
+          7.339505290871453
+        ],
+        "wallThicknessMm": 0.3577110815407156,
+        "allIntervalsMm": [
+          [
+            -38.0196831034085,
+            -34.94618244323797
+          ],
+          [
+            6.9817942093307375,
+            7.339505290871453
+          ]
+        ],
+        "footprintOpenFraction": 0.16,
+        "capTopAlongAxisMm": 2.419498487630432
+      },
+      "T5": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": [
+          [
+            -40.47704711398924,
+            -37.41100857023725
+          ]
+        ],
+        "footprintOpenFraction": 0.48,
+        "capTopAlongAxisMm": 2.375395504319526
+      },
+      "T6": {
+        "class": "B_PARTIAL_NOT_THROUGH",
+        "materialIntervalMm": [
+          6.968431212822118,
+          7.245246509704479
+        ],
+        "wallThicknessMm": 0.2768152968823614,
+        "allIntervalsMm": [
+          [
+            -37.93655784902977,
+            -34.83668314023092
+          ],
+          [
+            6.968431212822118,
+            7.245246509704479
+          ]
+        ],
+        "footprintOpenFraction": 0.2,
+        "capTopAlongAxisMm": 2.4132933939012755
+      },
+      "T7": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          5.99137455199129,
+          8.972110346978297
+        ],
+        "wallThicknessMm": 2.980735794987007,
+        "allIntervalsMm": [
+          [
+            -17.685559012286838,
+            -17.1817456036674
+          ],
+          [
+            -11.242141065334074,
+            -10.737083780964378
+          ],
+          [
+            5.99137455199129,
+            8.972110346978297
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.3364498054896945
+      },
+      "T8": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          5.96526409371418,
+          8.951973171482331
+        ],
+        "wallThicknessMm": 2.9867090777681513,
+        "allIntervalsMm": [
+          [
+            -17.685309970350215,
+            -15.494751749982012
+          ],
+          [
+            -12.928509393017494,
+            -10.736716130330707
+          ],
+          [
+            5.96526409371418,
+            8.951973171482331
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.339473225739589
+      }
+    },
+    "FINGER_V2": {
+      "JOY": {
+        "class": "B_PARTIAL_NOT_THROUGH",
+        "materialIntervalMm": [
+          3.0701240587600465,
+          4.419149260137037
+        ],
+        "wallThicknessMm": 1.3490252013769908,
+        "allIntervalsMm": [
+          [
+            1.417440948791932,
+            4.419149260137037
+          ]
+        ],
+        "footprintOpenFraction": 0.52,
+        "capTopAlongAxisMm": 3.0701240587600465
+      },
+      "T1": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          2.3319361082482564,
+          5.400512970358702
+        ],
+        "wallThicknessMm": 3.0685768621104454,
+        "allIntervalsMm": [
+          [
+            2.3319361082482564,
+            5.400512970358702
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.2764800228887845
+      },
+      "T2": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          4.9267613705392295,
+          7.939095279822942
+        ],
+        "wallThicknessMm": 3.0123339092837123,
+        "allIntervalsMm": [
+          [
+            -38.56328819147069,
+            -35.52250899765294
+          ],
+          [
+            4.9267613705392295,
+            7.939095279822942
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.3779574882148222
+      },
+      "T3": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          2.2728362689490975,
+          5.3400927656545365
+        ],
+        "wallThicknessMm": 3.067256496705439,
+        "allIntervalsMm": [
+          [
+            2.226867735727269,
+            5.3400927656545365
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.2728362689490975
+      },
+      "T4": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          4.205056683272263,
+          7.142673222121357
+        ],
+        "wallThicknessMm": 2.9376165388490945,
+        "allIntervalsMm": [
+          [
+            -38.0196831034085,
+            -34.94618244323797
+          ],
+          [
+            4.205056683272263,
+            7.142673222121357
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.419498487630432
+      },
+      "T5": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          3.0832140743340215,
+          6.134357691988234
+        ],
+        "wallThicknessMm": 3.051143617654213,
+        "allIntervalsMm": [
+          [
+            -40.48171498144488,
+            -37.41697901536381
+          ],
+          [
+            3.0832140743340215,
+            6.134357691988234
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.375395504319526
+      },
+      "T6": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          4.118727061012153,
+          7.076130046056334
+        ],
+        "wallThicknessMm": 2.9574029850441805,
+        "allIntervalsMm": [
+          [
+            -37.92790881056001,
+            -34.83668314023092
+          ],
+          [
+            4.118727061012153,
+            7.076130046056334
+          ]
+        ],
+        "footprintOpenFraction": 0.0,
+        "capTopAlongAxisMm": 2.4132933939012755
+      },
+      "T7": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": [
+          [
+            -17.685559012286838,
+            -17.1817456036674
+          ],
+          [
+            -11.242141065334074,
+            -10.737083780964378
+          ]
+        ],
+        "footprintOpenFraction": 0.64,
+        "capTopAlongAxisMm": 2.3364498054896945
+      },
+      "T8": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": [
+          [
+            -17.685309970350215,
+            -15.494751749982012
+          ],
+          [
+            -12.928509393017494,
+            -10.736716130330707
+          ]
+        ],
+        "footprintOpenFraction": 0.64,
+        "capTopAlongAxisMm": 2.339473225739589
+      }
+    },
+    "CLEAN": {
+      "JOY": {
+        "class": "B_PARTIAL_NOT_THROUGH",
+        "materialIntervalMm": [
+          3.0701240587600465,
+          4.419149260134369
+        ],
+        "wallThicknessMm": 1.3490252013743227,
+        "allIntervalsMm": [
+          [
+            -31.67964694852853,
+            -28.40871941218565
+          ],
+          [
+            1.417440948790143,
+            4.419149260134369
+          ]
+        ],
+        "footprintOpenFraction": 0.52,
+        "capTopAlongAxisMm": 3.0701240587600465
+      },
+      "T1": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": null,
+        "footprintOpenFraction": 1.0,
+        "capTopAlongAxisMm": 2.2764800228887845
+      },
+      "T2": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          4.9264774174119035,
+          7.948689594976002
+        ],
+        "wallThicknessMm": 3.022212177564098,
+        "allIntervalsMm": [
+          [
+            -38.58673600298889,
+            -35.55304963783129
+          ],
+          [
+            4.9264774174119035,
+            7.948689594976002
+          ]
+        ],
+        "footprintOpenFraction": 0.4,
+        "capTopAlongAxisMm": 2.3779574882148222
+      },
+      "T3": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": null,
+        "footprintOpenFraction": 1.0,
+        "capTopAlongAxisMm": 2.2728362689490975
+      },
+      "T4": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          4.2656508673853555,
+          7.332023470928177
+        ],
+        "wallThicknessMm": 3.0663726035428214,
+        "allIntervalsMm": [
+          [
+            -38.02943318059851,
+            -34.949145942345964
+          ],
+          [
+            4.2656508673853555,
+            7.332023470928177
+          ]
+        ],
+        "footprintOpenFraction": 0.56,
+        "capTopAlongAxisMm": 2.419498487630432
+      },
+      "T5": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": null,
+        "footprintOpenFraction": 1.0,
+        "capTopAlongAxisMm": 2.375395504319526
+      },
+      "T6": {
+        "class": "A_CONTINUOUS_WALL",
+        "materialIntervalMm": [
+          4.169758058979929,
+          7.234053727721939
+        ],
+        "wallThicknessMm": 3.0642956687420098,
+        "allIntervalsMm": [
+          [
+            -37.93655784903214,
+            -34.862541697828895
+          ],
+          [
+            4.169758058979929,
+            7.234053727721939
+          ]
+        ],
+        "footprintOpenFraction": 0.28,
+        "capTopAlongAxisMm": 2.4132933939012755
+      },
+      "T7": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": [
+          [
+            -35.91478345001279,
+            -32.677956685903574
+          ],
+          [
+            -17.685559012289826,
+            -17.181745603671427
+          ],
+          [
+            -11.242141065339734,
+            -10.73708378096955
+          ]
+        ],
+        "footprintOpenFraction": 0.64,
+        "capTopAlongAxisMm": 2.3364498054896945
+      },
+      "T8": {
+        "class": "C_THROUGH_OPENING",
+        "materialIntervalMm": null,
+        "wallThicknessMm": 0.0,
+        "allIntervalsMm": [
+          [
+            -35.814686324754696,
+            -32.607182013899795
+          ],
+          [
+            -17.685309970354144,
+            -15.494751749984811
+          ],
+          [
+            -12.928509393024102,
+            -10.736716130335754
+          ]
+        ],
+        "footprintOpenFraction": 0.64,
+        "capTopAlongAxisMm": 2.339473225739589
+      }
+    }
+  },
+  "test2_openingLocalisation": {
+    "FROZEN": {
+      "clusters": [
+        {
+          "cells": 1076,
+          "areaMm2": 96.84,
+          "centroidUV": [
+            -0.008736059479492707,
+            -2.9304832713759295
+          ],
+          "uRange": [
+            -7.699999999999957,
+            7.60000000000008
+          ],
+          "vRange": [
+            -6.700000000000429,
+            5.8999999999994515
+          ],
+          "nearestLowered": {
+            "control": "JOY",
+            "distanceMm": 2.9322329379990686
+          },
+          "nearestOriginal": {
+            "control": "T2",
+            "distanceMm": 5.062154253166721
+          }
+        },
+        {
+          "cells": 430,
+          "areaMm2": 38.699999999999996,
+          "centroidUV": [
+            -12.292093023255783,
+            -42.691627906976834
+          ],
+          "uRange": [
+            -15.499999999999975,
+            -6.499999999999954
+          ],
+          "vRange": [
+            -46.300000000000054,
+            -39.10000000000012
+          ],
+          "nearestLowered": {
+            "control": "T3",
+            "distanceMm": 2.7467705526771797
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 24.33812897376766
+          }
+        },
+        {
+          "cells": 310,
+          "areaMm2": 27.9,
+          "centroidUV": [
+            11.837741935483962,
+            -42.41838709677429
+          ],
+          "uRange": [
+            6.700000000000074,
+            15.400000000000098
+          ],
+          "vRange": [
+            -45.40000000000006,
+            -39.40000000000012
+          ],
+          "nearestLowered": {
+            "control": "T1",
+            "distanceMm": 2.2322488956377677
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 24.04562078500497
+          }
+        },
+        {
+          "cells": 251,
+          "areaMm2": 22.59,
+          "centroidUV": [
+            0.15856573705185464,
+            -42.564940239043906
+          ],
+          "uRange": [
+            -4.399999999999949,
+            4.6000000000000725
+          ],
+          "vRange": [
+            -43.90000000000008,
+            -41.2000000000001
+          ],
+          "nearestLowered": {
+            "control": "T5",
+            "distanceMm": 1.2198215647429849
+          },
+          "nearestOriginal": {
+            "control": "T5",
+            "distanceMm": 23.594878020348016
+          }
+        },
+        {
+          "cells": 136,
+          "areaMm2": 12.239999999999998,
+          "centroidUV": [
+            21.984558823529525,
+            -44.98308823529419
+          ],
+          "uRange": [
+            20.20000000000011,
+            23.500000000000114
+          ],
+          "vRange": [
+            -52.0,
+            -32.20000000000019
+          ],
+          "nearestLowered": {
+            "control": "T1",
+            "distanceMm": 12.414488363497195
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 29.028179600099527
+          }
+        },
+        {
+          "cells": 102,
+          "areaMm2": 9.18,
+          "centroidUV": [
+            -21.097058823529398,
+            -47.67647058823533
+          ],
+          "uRange": [
+            -22.09999999999999,
+            -19.699999999999985
+          ],
+          "vRange": [
+            -52.0,
+            -40.30000000000011
+          ],
+          "nearestLowered": {
+            "control": "T3",
+            "distanceMm": 12.804737361478525
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 31.168423635208757
+          }
+        },
+        {
+          "cells": 90,
+          "areaMm2": 8.1,
+          "centroidUV": [
+            -13.66666666666664,
+            -31.516666666666858
+          ],
+          "uRange": [
+            -15.499999999999975,
+            -9.499999999999961
+          ],
+          "vRange": [
+            -32.80000000000018,
+            -30.100000000000207
+          ],
+          "nearestLowered": {
+            "control": "T6",
+            "distanceMm": 3.009269917706192
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 13.506167685732578
+          }
+        },
+        {
+          "cells": 74,
+          "areaMm2": 6.659999999999999,
+          "centroidUV": [
+            13.668918918919013,
+            -31.49459459459479
+          ],
+          "uRange": [
+            10.000000000000085,
+            15.400000000000098
+          ],
+          "vRange": [
+            -32.500000000000185,
+            -30.400000000000205
+          ],
+          "nearestLowered": {
+            "control": "T4",
+            "distanceMm": 2.9820060588500286
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 13.505513095547062
+          }
+        }
+      ]
+    },
+    "FINGER_V2": {
+      "clusters": [
+        {
+          "cells": 746,
+          "areaMm2": 67.13999999999999,
+          "centroidUV": [
+            8.567158176943781,
+            4.501340482573191
+          ],
+          "uRange": [
+            3.4000000000000696,
+            13.300000000000097
+          ],
+          "vRange": [
+            1.099999999999497,
+            7.699999999999434
+          ],
+          "nearestLowered": {
+            "control": "JOY",
+            "distanceMm": 9.681459172865214
+          },
+          "nearestOriginal": {
+            "control": "T7",
+            "distanceMm": 0.5317544879829263
+          }
+        },
+        {
+          "cells": 702,
+          "areaMm2": 63.17999999999999,
+          "centroidUV": [
+            -10.699999999999964,
+            -8.050000000000415
+          ],
+          "uRange": [
+            -14.599999999999973,
+            -6.7999999999999545
+          ],
+          "vRange": [
+            -11.80000000000038,
+            -4.300000000000452
+          ],
+          "nearestLowered": {
+            "control": "T8",
+            "distanceMm": 10.444099500098973
+          },
+          "nearestOriginal": {
+            "control": "T6",
+            "distanceMm": 0.21462282515532127
+          }
+        },
+        {
+          "cells": 702,
+          "areaMm2": 63.17999999999999,
+          "centroidUV": [
+            11.200000000000088,
+            -8.050000000000415
+          ],
+          "uRange": [
+            7.300000000000082,
+            15.100000000000094
+          ],
+          "vRange": [
+            -11.80000000000038,
+            -4.300000000000452
+          ],
+          "nearestLowered": {
+            "control": "T7",
+            "distanceMm": 10.557994591665118
+          },
+          "nearestOriginal": {
+            "control": "T4",
+            "distanceMm": 0.3233118701199484
+          }
+        },
+        {
+          "cells": 676,
+          "areaMm2": 60.83999999999999,
+          "centroidUV": [
+            0.2500000000000623,
+            -8.050000000000416
+          ],
+          "uRange": [
+            -3.4999999999999467,
+            4.000000000000071
+          ],
+          "vRange": [
+            -11.80000000000038,
+            -4.300000000000452
+          ],
+          "nearestLowered": {
+            "control": "JOY",
+            "distanceMm": 8.05578886086984
+          },
+          "nearestOriginal": {
+            "control": "T2",
+            "distanceMm": 0.27186366270978146
+          }
+        },
+        {
+          "cells": 650,
+          "areaMm2": 58.5,
+          "centroidUV": [
+            0.2500000000000623,
+            -19.000000000000313
+          ],
+          "uRange": [
+            -3.4999999999999467,
+            4.000000000000071
+          ],
+          "vRange": [
+            -22.60000000000028,
+            -15.400000000000347
+          ],
+          "nearestLowered": {
+            "control": "T7",
+            "distanceMm": 7.930504255217221
+          },
+          "nearestOriginal": {
+            "control": "T5",
+            "distanceMm": 0.25420927050222947
+          }
+        },
+        {
+          "cells": 575,
+          "areaMm2": 51.75,
+          "centroidUV": [
+            -7.709391304347783,
+            5.125217391303806
+          ],
+          "uRange": [
+            -12.799999999999969,
+            -3.199999999999946
+          ],
+          "vRange": [
+            1.099999999999497,
+            7.699999999999434
+          ],
+          "nearestLowered": {
+            "control": "JOY",
+            "distanceMm": 9.252319481460804
+          },
+          "nearestOriginal": {
+            "control": "T8",
+            "distanceMm": 1.0050556182620505
+          }
+        },
+        {
+          "cells": 541,
+          "areaMm2": 48.68999999999999,
+          "centroidUV": [
+            10.609426987061086,
+            -18.378373382625085
+          ],
+          "uRange": [
+            7.300000000000082,
+            15.100000000000094
+          ],
+          "vRange": [
+            -22.60000000000028,
+            -15.10000000000035
+          ],
+          "nearestLowered": {
+            "control": "T7",
+            "distanceMm": 2.484452711823374
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 0.3432384362431133
+          }
+        },
+        {
+          "cells": 536,
+          "areaMm2": 48.239999999999995,
+          "centroidUV": [
+            -10.098880597014888,
+            -18.427425373134646
+          ],
+          "uRange": [
+            -14.599999999999973,
+            -6.7999999999999545
+          ],
+          "vRange": [
+            -22.60000000000028,
+            -15.10000000000035
+          ],
+          "nearestLowered": {
+            "control": "T8",
+            "distanceMm": 2.0060975792937685
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 0.21075685114039786
+          }
+        },
+        {
+          "cells": 114,
+          "areaMm2": 10.259999999999998,
+          "centroidUV": [
+            21.73684210526327,
+            -46.902631578947414
+          ],
+          "uRange": [
+            20.20000000000011,
+            22.90000000000012
+          ],
+          "vRange": [
+            -52.0,
+            -37.600000000000136
+          ],
+          "nearestLowered": {
+            "control": "T1",
+            "distanceMm": 12.965694272816576
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 30.700810768144166
+          }
+        },
+        {
+          "cells": 102,
+          "areaMm2": 9.18,
+          "centroidUV": [
+            -21.097058823529398,
+            -47.67647058823533
+          ],
+          "uRange": [
+            -22.09999999999999,
+            -19.699999999999985
+          ],
+          "vRange": [
+            -52.0,
+            -40.30000000000011
+          ],
+          "nearestLowered": {
+            "control": "T3",
+            "distanceMm": 12.804737361478525
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 31.168423635208757
+          }
+        },
+        {
+          "cells": 79,
+          "areaMm2": 7.109999999999999,
+          "centroidUV": [
+            0.2063291139241127,
+            15.439240506328472
+          ],
+          "uRange": [
+            -3.4999999999999467,
+            4.000000000000071
+          ],
+          "vRange": [
+            14.899999999999366,
+            15.799999999999358
+          ],
+          "nearestLowered": {
+            "control": "JOY",
+            "distanceMm": 15.438941385535474
+          },
+          "nearestOriginal": {
+            "control": "JOY",
+            "distanceMm": 6.948681294798417
+          }
+        }
+      ]
+    },
+    "CLEAN": {
+      "clusters": [
+        {
+          "cells": 1933,
+          "areaMm2": 173.97,
+          "centroidUV": [
+            0.2173305742369998,
+            -0.30750129332692533
+          ],
+          "uRange": [
+            -7.099999999999955,
+            7.60000000000008
+          ],
+          "vRange": [
+            -7.600000000000421,
+            7.09999999999944
+          ],
+          "nearestLowered": {
+            "control": "JOY",
+            "distanceMm": 0.3809572489384247
+          },
+          "nearestOriginal": {
+            "control": "T2",
+            "distanceMm": 7.688664853339989
+          }
+        },
+        {
+          "cells": 748,
+          "areaMm2": 67.32,
+          "centroidUV": [
+            8.350000000000081,
+            -17.950000000000323
+          ],
+          "uRange": [
+            3.4000000000000696,
+            13.300000000000097
+          ],
+          "vRange": [
+            -21.100000000000293,
+            -14.800000000000352
+          ],
+          "nearestLowered": {
+            "control": "T7",
+            "distanceMm": 0.29581538184989575
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 1.9768929693503898
+          }
+        },
+        {
+          "cells": 726,
+          "areaMm2": 65.33999999999999,
+          "centroidUV": [
+            -7.999999999999957,
+            -17.950000000000323
+          ],
+          "uRange": [
+            -12.799999999999969,
+            -3.199999999999946
+          ],
+          "vRange": [
+            -21.100000000000293,
+            -14.800000000000352
+          ],
+          "nearestLowered": {
+            "control": "T8",
+            "distanceMm": 0.2438238404778139
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 2.3597714515054187
+          }
+        },
+        {
+          "cells": 686,
+          "areaMm2": 61.739999999999995,
+          "centroidUV": [
+            -10.661516034985388,
+            -30.462536443148895
+          ],
+          "uRange": [
+            -14.599999999999973,
+            -6.7999999999999545
+          ],
+          "vRange": [
+            -34.30000000000017,
+            -26.80000000000024
+          ],
+          "nearestLowered": {
+            "control": "T6",
+            "distanceMm": 0.23743837148352104
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 12.033302853631842
+          }
+        },
+        {
+          "cells": 679,
+          "areaMm2": 61.10999999999999,
+          "centroidUV": [
+            11.220324005891106,
+            -30.377025036819056
+          ],
+          "uRange": [
+            7.300000000000082,
+            15.100000000000094
+          ],
+          "vRange": [
+            -34.00000000000017,
+            -26.50000000000024
+          ],
+          "nearestLowered": {
+            "control": "T4",
+            "distanceMm": 0.31286301645818376
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 11.990825801109139
+          }
+        },
+        {
+          "cells": 676,
+          "areaMm2": 60.83999999999999,
+          "centroidUV": [
+            0.2500000000000623,
+            -41.35000000000011
+          ],
+          "uRange": [
+            -3.4999999999999467,
+            4.000000000000071
+          ],
+          "vRange": [
+            -45.100000000000065,
+            -37.600000000000136
+          ],
+          "nearestLowered": {
+            "control": "T5",
+            "distanceMm": 0.22790166443001456
+          },
+          "nearestOriginal": {
+            "control": "T5",
+            "distanceMm": 22.380812450901782
+          }
+        },
+        {
+          "cells": 664,
+          "areaMm2": 59.75999999999999,
+          "centroidUV": [
+            0.2337349397590983,
+            -30.482228915662855
+          ],
+          "uRange": [
+            -3.4999999999999467,
+            4.000000000000071
+          ],
+          "vRange": [
+            -34.30000000000017,
+            -26.80000000000024
+          ],
+          "nearestLowered": {
+            "control": "T2",
+            "distanceMm": 0.249204045423596
+          },
+          "nearestOriginal": {
+            "control": "T5",
+            "distanceMm": 11.514040700614713
+          }
+        },
+        {
+          "cells": 639,
+          "areaMm2": 57.51,
+          "centroidUV": [
+            -23.4093896713615,
+            -35.72723004694851
+          ],
+          "uRange": [
+            -24.499999999999996,
+            -20.599999999999987
+          ],
+          "vRange": [
+            -52.0,
+            -3.1000000000004633
+          ],
+          "nearestLowered": {
+            "control": "T6",
+            "distanceMm": 13.622499356153696
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 21.694448162997755
+          }
+        },
+        {
+          "cells": 638,
+          "areaMm2": 57.42,
+          "centroidUV": [
+            23.916144200627077,
+            -35.81504702194373
+          ],
+          "uRange": [
+            21.100000000000108,
+            25.00000000000012
+          ],
+          "vRange": [
+            -52.0,
+            -3.4000000000004604
+          ],
+          "nearestLowered": {
+            "control": "T4",
+            "distanceMm": 14.102628063713821
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 22.10627721475713
+          }
+        },
+        {
+          "cells": 546,
+          "areaMm2": 49.13999999999999,
+          "centroidUV": [
+            -10.058791208791169,
+            -40.75164835164846
+          ],
+          "uRange": [
+            -14.599999999999973,
+            -6.7999999999999545
+          ],
+          "vRange": [
+            -45.100000000000065,
+            -37.600000000000136
+          ],
+          "nearestLowered": {
+            "control": "T3",
+            "distanceMm": 0.23524016411054352
+          },
+          "nearestOriginal": {
+            "control": "T3",
+            "distanceMm": 22.31867389458678
+          }
+        },
+        {
+          "cells": 546,
+          "areaMm2": 49.13999999999999,
+          "centroidUV": [
+            10.558791208791297,
+            -40.75164835164846
+          ],
+          "uRange": [
+            7.300000000000082,
+            15.100000000000094
+          ],
+          "vRange": [
+            -45.100000000000065,
+            -37.600000000000136
+          ],
+          "nearestLowered": {
+            "control": "T1",
+            "distanceMm": 0.2704853252812299
+          },
+          "nearestOriginal": {
+            "control": "T1",
+            "distanceMm": 22.32954759269006
+          }
+        }
+      ]
+    }
+  },
+  "test2_verdict": {
+    "FROZEN": {
+      "bigClusters": 7,
+      "matchingLowered": 7,
+      "matchingOriginal": 0
+    },
+    "FINGER_V2": {
+      "bigClusters": 10,
+      "matchingLowered": 2,
+      "matchingOriginal": 8
+    },
+    "CLEAN": {
+      "bigClusters": 11,
+      "matchingLowered": 11,
+      "matchingOriginal": 0
+    }
+  },
+  "wallBand": [
+    -2.0,
+    26.0
+  ],
+  "gridPitchMm": 0.3,
+  "memory": [
+    {
+      "stage": "axes",
+      "rssMb": 415.3,
+      "availMb": 16023.7
+    },
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 445.8,
+      "availMb": 16002.1
+    },
+    {
+      "stage": "combined FINGER_V2",
+      "rssMb": 464.8,
+      "availMb": 15978.0
+    },
+    {
+      "stage": "combined CLEAN",
+      "rssMb": 457.8,
+      "availMb": 15981.0
+    },
+    {
+      "stage": "test1 FROZEN",
+      "rssMb": 463.3,
+      "availMb": 15991.0
+    },
+    {
+      "stage": "test1 FINGER_V2",
+      "rssMb": 465.2,
+      "availMb": 15983.9
+    },
+    {
+      "stage": "test1 CLEAN",
+      "rssMb": 467.1,
+      "availMb": 15989.0
+    },
+    {
+      "stage": "test2 FROZEN",
+      "rssMb": 473.2,
+      "availMb": 15980.8
+    },
+    {
+      "stage": "test2 FINGER_V2",
+      "rssMb": 474.9,
+      "availMb": 15978.4
+    },
+    {
+      "stage": "test2 CLEAN",
+      "rssMb": 477.2,
+      "availMb": 15990.7
+    }
+  ]
+}

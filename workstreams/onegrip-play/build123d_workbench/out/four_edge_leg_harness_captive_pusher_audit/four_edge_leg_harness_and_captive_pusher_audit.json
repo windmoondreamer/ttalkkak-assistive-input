@@ -1,0 +1,3312 @@
+{
+  "schema": "onegrip.four_edge_leg_harness_captive_pusher_audit.v1",
+  "generatedUtc": "2026-08-24T07:16:06.114336+00:00",
+  "mode": "AUDIT ONLY / EXACT LOCAL BREP RAYS / LIGHTWEIGHT PAIRWISE / PRODUCTION EDIT 0",
+  "finalVerdict": "B / FOUR-EDGE-LEG HARNESS WORKS WITH LIMITED LOCAL VARIANTS",
+  "supersededAlternatives": [
+    "docs/77 conformal glue-foot",
+    "docs/78 broad two-tongue/shoulder"
+  ],
+  "freeze": {
+    "centersAxes": "PRESERVED",
+    "visibleLayout": "PRESERVED",
+    "exterior": "PRESERVED",
+    "maximumLoweredThumb": "PRESERVED",
+    "JaDJfDSplit": "PRESERVED",
+    "productionModificationCount": 0
+  },
+  "representative": {
+    "button": "I2",
+    "reason": "non-seam-special curved JfD; exact local crop; all terminals"
+  },
+  "harness": {
+    "type": "FOUR-EDGE-LEG STRUCTURAL HARNESS",
+    "legCount": 4,
+    "legLocations": [
+      "+U",
+      "-U",
+      "+V",
+      "-V"
+    ],
+    "vertexPosts": false,
+    "largePocket": false,
+    "legThicknessMm": 1.6,
+    "legTangentWidthMm": 2.6,
+    "receiverClearancePerSideMm": 0.25,
+    "receiverDepthMm": 2.4,
+    "receiverWallMm": 1.2,
+    "landingExtensionMm": 0.6,
+    "landingThicknessMm": 0.6,
+    "familyCount": 2,
+    "families": [
+      "STANDARD FOUR-EDGE-LEG (7)",
+      "N2 SAME-HALF REAR ROUTE (1)"
+    ]
+  },
+  "representativeMetrics": {
+    "housing": {
+      "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+      "panelCount": 4,
+      "panels": [
+        {
+          "edge": "+U",
+          "missingConstructionNodes": 4,
+          "exactValidationSamples": 16,
+          "appliedGapMm": 1.024889441518826,
+          "minimumGapMm": 0.19999999999999996,
+          "maximumGapMm": 3.0457415042475935,
+          "unsupportedAreaProxyGt1mmMm2": 8.4,
+          "planarAreaMm2": 13.440000000000001
+        },
+        {
+          "edge": "-U",
+          "missingConstructionNodes": 1,
+          "exactValidationSamples": 23,
+          "appliedGapMm": 0.3,
+          "minimumGapMm": 0.3,
+          "maximumGapMm": 0.4206487538612535,
+          "unsupportedAreaProxyGt1mmMm2": 0.0,
+          "planarAreaMm2": 13.440000000000001
+        },
+        {
+          "edge": "+V",
+          "missingConstructionNodes": 1,
+          "exactValidationSamples": 24,
+          "appliedGapMm": 0.3087204380385316,
+          "minimumGapMm": 0.2,
+          "maximumGapMm": 0.353142481204652,
+          "unsupportedAreaProxyGt1mmMm2": 0.0,
+          "planarAreaMm2": 13.440000000000001
+        },
+        {
+          "edge": "-V",
+          "missingConstructionNodes": 1,
+          "exactValidationSamples": 23,
+          "appliedGapMm": 0.3,
+          "minimumGapMm": 0.3,
+          "maximumGapMm": 0.3929722707333518,
+          "unsupportedAreaProxyGt1mmMm2": 0.0,
+          "planarAreaMm2": 13.440000000000001
+        }
+      ],
+      "receivers": [
+        {
+          "edge": "+U",
+          "centerLocalUVmm": [
+            4.21,
+            0.0
+          ],
+          "slotUmm": 2.1,
+          "slotVmm": 3.1,
+          "depthWmm": 2.4,
+          "clearancePerSideMm": 0.25,
+          "minimumWallMm": 1.2,
+          "insertionDirection": "local -W",
+          "supportLocalUVmm": [
+            6.21,
+            0.0
+          ],
+          "receiverShape": "two opposed structural walls; tangent ends open",
+          "loadStrutTangentialWidthMm": 2.6,
+          "loadStrutPressThicknessMm": 1.6
+        },
+        {
+          "edge": "-U",
+          "centerLocalUVmm": [
+            -4.04,
+            0.0
+          ],
+          "slotUmm": 2.1,
+          "slotVmm": 3.1,
+          "depthWmm": 2.4,
+          "clearancePerSideMm": 0.25,
+          "minimumWallMm": 1.2,
+          "insertionDirection": "local -W",
+          "supportLocalUVmm": [
+            -6.04,
+            0.0
+          ],
+          "receiverShape": "two opposed structural walls; tangent ends open",
+          "loadStrutTangentialWidthMm": 2.6,
+          "loadStrutPressThicknessMm": 1.6
+        },
+        {
+          "edge": "+V",
+          "centerLocalUVmm": [
+            0.0,
+            4.175
+          ],
+          "slotUmm": 3.1,
+          "slotVmm": 2.1,
+          "depthWmm": 2.4,
+          "clearancePerSideMm": 0.25,
+          "minimumWallMm": 1.2,
+          "insertionDirection": "local -W",
+          "supportLocalUVmm": [
+            0.0,
+            6.175
+          ],
+          "receiverShape": "two opposed structural walls; tangent ends open",
+          "loadStrutTangentialWidthMm": 2.6,
+          "loadStrutPressThicknessMm": 1.6
+        },
+        {
+          "edge": "-V",
+          "centerLocalUVmm": [
+            0.0,
+            -4.005
+          ],
+          "slotUmm": 3.1,
+          "slotVmm": 2.1,
+          "depthWmm": 2.4,
+          "clearancePerSideMm": 0.25,
+          "minimumWallMm": 1.2,
+          "insertionDirection": "local -W",
+          "supportLocalUVmm": [
+            0.0,
+            -6.005
+          ],
+          "receiverShape": "two opposed structural walls; tangent ends open",
+          "loadStrutTangentialWidthMm": 2.6,
+          "loadStrutPressThicknessMm": 1.6
+        }
+      ],
+      "minimumGapMm": 0.19999999999999996,
+      "maximumGapMm": 3.0457415042475935,
+      "localThicknessMm": 1.6,
+      "unsupportedAreaProxyGt1mmMm2": 8.4,
+      "totalPanelPlanarAreaMm2": 53.760000000000005
+    },
+    "terminalAccess": {
+      "terminals": {
+        "TNN": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "componentPenetrationMm3": {
+            "harnessCore": 0.0,
+            "receiverWalls": 0.0,
+            "loadStruts": 0.0
+          },
+          "strutPenetrationMm3": {
+            "+U": 0.0,
+            "-U": 0.0,
+            "+V": 0.0,
+            "-V": 0.0
+          }
+        },
+        "TNP": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "componentPenetrationMm3": {
+            "harnessCore": 0.0,
+            "receiverWalls": 0.0,
+            "loadStruts": 0.0
+          },
+          "strutPenetrationMm3": {
+            "+U": 0.0,
+            "-U": 0.0,
+            "+V": 0.0,
+            "-V": 0.0
+          }
+        },
+        "TPN": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "componentPenetrationMm3": {
+            "harnessCore": 0.0,
+            "receiverWalls": 0.0,
+            "loadStruts": 0.0
+          },
+          "strutPenetrationMm3": {
+            "+U": 0.0,
+            "-U": 0.0,
+            "+V": 0.0,
+            "-V": 0.0
+          }
+        },
+        "TPP": {
+          "penetrationMm3": 0.0,
+          "open": true,
+          "componentPenetrationMm3": {
+            "harnessCore": 0.0,
+            "receiverWalls": 0.0,
+            "loadStruts": 0.0
+          },
+          "strutPenetrationMm3": {
+            "+U": 0.0,
+            "-U": 0.0,
+            "+V": 0.0,
+            "-V": 0.0
+          }
+        }
+      },
+      "allOpen": true
+    },
+    "cornerClearance": {
+      "minimumDistanceMm": 0.8557246746793497,
+      "penetrationMm3": 0.0,
+      "clear": true,
+      "cornerFeaturesUsedForLocation": false
+    },
+    "family": "STANDARD FOUR-EDGE-LEG",
+    "loadDistribution": [
+      {
+        "edge": "+U",
+        "transitionLengthMm": 1.2,
+        "sectionAreaMm2": 4.16,
+        "stiffnessProxy": 3.466666666666667,
+        "nominalLoadSharePercent": 25.0
+      },
+      {
+        "edge": "-U",
+        "transitionLengthMm": 1.2,
+        "sectionAreaMm2": 4.16,
+        "stiffnessProxy": 3.466666666666667,
+        "nominalLoadSharePercent": 25.0
+      },
+      {
+        "edge": "+V",
+        "transitionLengthMm": 1.2,
+        "sectionAreaMm2": 4.16,
+        "stiffnessProxy": 3.466666666666667,
+        "nominalLoadSharePercent": 25.0
+      },
+      {
+        "edge": "-V",
+        "transitionLengthMm": 1.2,
+        "sectionAreaMm2": 4.16,
+        "stiffnessProxy": 3.466666666666667,
+        "nominalLoadSharePercent": 25.0
+      }
+    ]
+  },
+  "housingSummary": {
+    "authority": "exact frozen STEP face intersections",
+    "minimumGapMm": 0.19999999999999996,
+    "maximumGapMm": 3.0457415042475935,
+    "unsupportedAreaProxyGt1mmMm2": 58.693333333333335,
+    "localThicknessMm": 1.6,
+    "representativeExactCropSolids": 1
+  },
+  "pusher": {
+    "tipDiameterMm": 2.6,
+    "shaftDiameterMm": 4.6,
+    "guideDiameterMm": 5.0,
+    "radialClearanceMm": 0.2,
+    "angularClearanceDeg": 6.519801751656987,
+    "grooveRootDiameterMm": 3.8,
+    "grooveAreaFraction": 0.6824196597353498,
+    "clipLoadBearing": false,
+    "hardStop": "D6.40 shoulder -> D6.80 guide cavity floor",
+    "T_CLICK": 0.33,
+    "T_DESIGN_FULL": 0.38,
+    "T_STOP": 0.38
+  },
+  "adhesive": {
+    "primaryLoadBearing": false,
+    "roles": [
+      "pullout",
+      "anti-vibration",
+      "assembly retention",
+      "tolerance fill"
+    ],
+    "access": "receiver rear exits",
+    "keepOut": "ITS/actuator/pusher/four corner terminal corridors"
+  },
+  "virtualFit": {
+    "buttons": {
+      "N1": {
+        "family": "STANDARD FOUR-EDGE-LEG",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              4.21,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              6.21,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -4.04,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.04,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              0.0,
+              4.175
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              6.175
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              0.0,
+              -4.005
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              -6.005
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 3,
+              "exactValidationSamples": 15,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2942920988801642,
+              "maximumGapMm": 0.303584889481234,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2951855811442187,
+              "maximumGapMm": 0.34195110913179877,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.29765621836834705,
+              "maximumGapMm": 0.317275509947567,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2949792403510953,
+              "maximumGapMm": 0.3234124844024337,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                4.21,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                6.21,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -4.04,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.04,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                0.0,
+                4.175
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                6.175
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                0.0,
+                -4.005
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                -6.005
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.2942920988801642,
+          "maximumGapMm": 0.34195110913179877,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 0.0,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          }
+        ],
+        "loadShareRangePercent": [
+          25.0,
+          25.0
+        ],
+        "pusherAxis": [
+          -0.07646638594200623,
+          -0.8724593951000031,
+          -0.48266706509011453
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "N2": {
+        "family": "N2 SAME-HALF FOUR-RECEIVER ROUTE",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              -3.3,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.0,
+              -2.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.4,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -7.0,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.0,
+              2.5
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              -4.2,
+              5.0
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.0,
+              6.2
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              -4.2,
+              -5.0
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.0,
+              -6.2
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 2,
+              "exactValidationSamples": 21,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.28707021193283716,
+              "maximumGapMm": 2.1263386866138854,
+              "unsupportedAreaProxyGt1mmMm2": 0.64,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 2,
+              "exactValidationSamples": 21,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.295309247358672,
+              "maximumGapMm": 0.3336674868310842,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2977900447344248,
+              "maximumGapMm": 0.3070010843310695,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.29459837097317204,
+              "maximumGapMm": 0.3113662231531233,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                -3.3,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.0,
+                -2.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.4,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -7.0,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.0,
+                2.5
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                -4.2,
+                5.0
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.0,
+                6.2
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                -4.2,
+                -5.0
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.0,
+                -6.2
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.28707021193283716,
+          "maximumGapMm": 2.1263386866138854,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 0.64,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 7.6052679111258135,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 0.5469892775130643,
+            "nominalLoadSharePercent": 14.728420833639818
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 3.1939943644283404,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 1.3024443769626235,
+            "nominalLoadSharePercent": 35.0700638658409
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 4.445292453821233,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 0.9358214432942444,
+            "nominalLoadSharePercent": 25.19824904913723
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 4.479958147125931,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 0.9285801035147624,
+            "nominalLoadSharePercent": 25.00326625138204
+          }
+        ],
+        "loadShareRangePercent": [
+          14.728420833639818,
+          35.0700638658409
+        ],
+        "pusherAxis": [
+          -0.043167877641508666,
+          -0.8593994790251817,
+          -0.5094792142876627
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "CONDITIONAL / FOUR RECEIVERS JfD-SIDE",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "I2": {
+        "family": "STANDARD FOUR-EDGE-LEG",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              4.21,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              6.21,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -4.04,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.04,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              0.0,
+              4.175
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              6.175
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              0.0,
+              -4.005
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              -6.005
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 4,
+              "exactValidationSamples": 16,
+              "appliedGapMm": 1.024889441518826,
+              "minimumGapMm": 0.19999999999999996,
+              "maximumGapMm": 3.0457415042475935,
+              "unsupportedAreaProxyGt1mmMm2": 8.4,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 23,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.3,
+              "maximumGapMm": 0.4206487538612535,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 24,
+              "appliedGapMm": 0.3087204380385316,
+              "minimumGapMm": 0.2,
+              "maximumGapMm": 0.353142481204652,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 23,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.3,
+              "maximumGapMm": 0.3929722707333518,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                4.21,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                6.21,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -4.04,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.04,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                0.0,
+                4.175
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                6.175
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                0.0,
+                -4.005
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                -6.005
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.19999999999999996,
+          "maximumGapMm": 3.0457415042475935,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 8.4,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          }
+        ],
+        "loadShareRangePercent": [
+          25.0,
+          25.0
+        ],
+        "pusherAxis": [
+          -0.43398514194613513,
+          -0.7569241977430389,
+          -0.48859252495412786
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "I3": {
+        "family": "STANDARD FOUR-EDGE-LEG",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              4.21,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              6.21,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -4.04,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.04,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              0.0,
+              4.175
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              6.175
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              0.0,
+              -4.005
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              -6.005
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 6,
+              "exactValidationSamples": 10,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.276841563734153,
+              "maximumGapMm": 2.865948865273534,
+              "unsupportedAreaProxyGt1mmMm2": 6.720000000000001,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 3,
+              "exactValidationSamples": 18,
+              "appliedGapMm": 1.1267806457491358,
+              "minimumGapMm": 0.19999999999999996,
+              "maximumGapMm": 2.9216950269696476,
+              "unsupportedAreaProxyGt1mmMm2": 10.453333333333335,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2912268437316771,
+              "maximumGapMm": 0.31796900679438717,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.3,
+              "maximumGapMm": 0.33340566059098026,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                4.21,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                6.21,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -4.04,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.04,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                0.0,
+                4.175
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                6.175
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                0.0,
+                -4.005
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                -6.005
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.19999999999999996,
+          "maximumGapMm": 2.9216950269696476,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 17.173333333333336,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          }
+        ],
+        "loadShareRangePercent": [
+          25.0,
+          25.0
+        ],
+        "pusherAxis": [
+          -0.08169076783987367,
+          -0.9520228437085347,
+          -0.2949222329815895
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "I4": {
+        "family": "STANDARD FOUR-EDGE-LEG",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              4.21,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              6.21,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -4.04,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.04,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              0.0,
+              4.175
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              6.175
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              0.0,
+              -4.005
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              -6.005
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 6,
+              "exactValidationSamples": 10,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2779023453336961,
+              "maximumGapMm": 1.6240503364235537,
+              "unsupportedAreaProxyGt1mmMm2": 6.720000000000001,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.3,
+              "maximumGapMm": 0.3380181842225231,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.3,
+              "maximumGapMm": 0.33227320472951377,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.29123233978977686,
+              "maximumGapMm": 0.31849938062787303,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                4.21,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                6.21,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -4.04,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.04,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                0.0,
+                4.175
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                6.175
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                0.0,
+                -4.005
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                -6.005
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.2779023453336961,
+          "maximumGapMm": 1.6240503364235537,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 6.720000000000001,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          }
+        ],
+        "loadShareRangePercent": [
+          25.0,
+          25.0
+        ],
+        "pusherAxis": [
+          0.03830075338322864,
+          -0.9556187972066135,
+          -0.2921057457765297
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "M3": {
+        "family": "STANDARD FOUR-EDGE-LEG",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              4.21,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              6.21,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -4.04,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.04,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              0.0,
+              4.175
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              6.175
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              0.0,
+              -4.005
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              -6.005
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 3,
+              "exactValidationSamples": 15,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2628578039605058,
+              "maximumGapMm": 0.3171667132241535,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.29490968284611013,
+              "maximumGapMm": 0.32284906315143996,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 25,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.29739223729672676,
+              "maximumGapMm": 0.3197622288222692,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 24,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2617329770680385,
+              "maximumGapMm": 0.321778728115569,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                4.21,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                6.21,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -4.04,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.04,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                0.0,
+                4.175
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                6.175
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                0.0,
+                -4.005
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                -6.005
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.2617329770680385,
+          "maximumGapMm": 0.32284906315143996,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 0.0,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          }
+        ],
+        "loadShareRangePercent": [
+          25.0,
+          25.0
+        ],
+        "pusherAxis": [
+          -0.22425959856820332,
+          -0.7717941811500879,
+          -0.5950137598349249
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "M4": {
+        "family": "STANDARD FOUR-EDGE-LEG",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              4.21,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              6.21,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -4.04,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.04,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              0.0,
+              4.175
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              6.175
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              0.0,
+              -4.005
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              -6.005
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 3,
+              "exactValidationSamples": 20,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.29331699573275943,
+              "maximumGapMm": 2.2408365784951583,
+              "unsupportedAreaProxyGt1mmMm2": 3.3600000000000003,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 24,
+              "appliedGapMm": 1.0465653919177125,
+              "minimumGapMm": 0.19999999999999996,
+              "maximumGapMm": 1.1739283903809026,
+              "unsupportedAreaProxyGt1mmMm2": 11.760000000000002,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 24,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.28763690882014553,
+              "maximumGapMm": 0.3216761956660889,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 24,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2854552210124128,
+              "maximumGapMm": 0.3199649932350012,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                4.21,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                6.21,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -4.04,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.04,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                0.0,
+                4.175
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                6.175
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                0.0,
+                -4.005
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                -6.005
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.19999999999999996,
+          "maximumGapMm": 2.2408365784951583,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 15.120000000000001,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          }
+        ],
+        "loadShareRangePercent": [
+          25.0,
+          25.0
+        ],
+        "pusherAxis": [
+          0.2878365212266233,
+          -0.7441712373021486,
+          -0.6027929218399507
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      },
+      "N3": {
+        "family": "STANDARD FOUR-EDGE-LEG",
+        "legCount": 4,
+        "legLocations": [
+          "+U",
+          "-U",
+          "+V",
+          "-V"
+        ],
+        "vertexPosts": false,
+        "receivers": [
+          {
+            "edge": "+U",
+            "centerLocalUVmm": [
+              4.21,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              6.21,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-U",
+            "centerLocalUVmm": [
+              -4.04,
+              0.0
+            ],
+            "slotUmm": 2.1,
+            "slotVmm": 3.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              -6.04,
+              0.0
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "+V",
+            "centerLocalUVmm": [
+              0.0,
+              4.175
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              6.175
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          },
+          {
+            "edge": "-V",
+            "centerLocalUVmm": [
+              0.0,
+              -4.005
+            ],
+            "slotUmm": 3.1,
+            "slotVmm": 2.1,
+            "depthWmm": 2.4,
+            "clearancePerSideMm": 0.25,
+            "minimumWallMm": 1.2,
+            "insertionDirection": "local -W",
+            "supportLocalUVmm": [
+              0.0,
+              -6.005
+            ],
+            "receiverShape": "two opposed structural walls; tangent ends open",
+            "loadStrutTangentialWidthMm": 2.6,
+            "loadStrutPressThicknessMm": 1.6
+          }
+        ],
+        "receiverSameOwnerHalf": true,
+        "terminalAccess": {
+          "terminals": {
+            "TNN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TNP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPN": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            },
+            "TPP": {
+              "penetrationMm3": 0.0,
+              "open": true,
+              "componentPenetrationMm3": {
+                "harnessCore": 0.0,
+                "receiverWalls": 0.0,
+                "loadStruts": 0.0
+              },
+              "strutPenetrationMm3": {
+                "+U": 0.0,
+                "-U": 0.0,
+                "+V": 0.0,
+                "-V": 0.0
+              }
+            }
+          },
+          "allOpen": true
+        },
+        "cornerClearance": {
+          "minimumDistanceMm": 0.8557246746793497,
+          "penetrationMm3": 0.0,
+          "clear": true,
+          "cornerFeaturesUsedForLocation": false
+        },
+        "housing": {
+          "authority": "exact frozen-shell BRep line/face intersections; faceted ruled audit panels",
+          "panelCount": 4,
+          "panels": [
+            {
+              "edge": "+U",
+              "missingConstructionNodes": 0,
+              "exactValidationSamples": 24,
+              "appliedGapMm": 1.241924201673793,
+              "minimumGapMm": 0.19999999999999996,
+              "maximumGapMm": 1.260363040323132,
+              "unsupportedAreaProxyGt1mmMm2": 10.64,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-U",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 23,
+              "appliedGapMm": 0.31025271149389494,
+              "minimumGapMm": 0.2,
+              "maximumGapMm": 0.3391263181498923,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "+V",
+              "missingConstructionNodes": 1,
+              "exactValidationSamples": 23,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.2976072452972695,
+              "maximumGapMm": 0.6826214998266382,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            },
+            {
+              "edge": "-V",
+              "missingConstructionNodes": 2,
+              "exactValidationSamples": 22,
+              "appliedGapMm": 0.3,
+              "minimumGapMm": 0.24925129592806367,
+              "maximumGapMm": 0.3644480008556263,
+              "unsupportedAreaProxyGt1mmMm2": 0.0,
+              "planarAreaMm2": 13.440000000000001
+            }
+          ],
+          "receivers": [
+            {
+              "edge": "+U",
+              "centerLocalUVmm": [
+                4.21,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                6.21,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-U",
+              "centerLocalUVmm": [
+                -4.04,
+                0.0
+              ],
+              "slotUmm": 2.1,
+              "slotVmm": 3.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                -6.04,
+                0.0
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "+V",
+              "centerLocalUVmm": [
+                0.0,
+                4.175
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                6.175
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            },
+            {
+              "edge": "-V",
+              "centerLocalUVmm": [
+                0.0,
+                -4.005
+              ],
+              "slotUmm": 3.1,
+              "slotVmm": 2.1,
+              "depthWmm": 2.4,
+              "clearancePerSideMm": 0.25,
+              "minimumWallMm": 1.2,
+              "insertionDirection": "local -W",
+              "supportLocalUVmm": [
+                0.0,
+                -6.005
+              ],
+              "receiverShape": "two opposed structural walls; tangent ends open",
+              "loadStrutTangentialWidthMm": 2.6,
+              "loadStrutPressThicknessMm": 1.6
+            }
+          ],
+          "minimumGapMm": 0.19999999999999996,
+          "maximumGapMm": 1.260363040323132,
+          "localThicknessMm": 1.6,
+          "unsupportedAreaProxyGt1mmMm2": 10.64,
+          "totalPanelPlanarAreaMm2": 53.760000000000005
+        },
+        "loadDistribution": [
+          {
+            "edge": "+U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-U",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "+V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          },
+          {
+            "edge": "-V",
+            "transitionLengthMm": 1.2,
+            "sectionAreaMm2": 4.16,
+            "stiffnessProxy": 3.466666666666667,
+            "nominalLoadSharePercent": 25.0
+          }
+        ],
+        "loadShareRangePercent": [
+          25.0,
+          25.0
+        ],
+        "pusherAxis": [
+          0.6921593412330116,
+          -0.560207029374328,
+          -0.4550643147770151
+        ],
+        "guideRadialClearanceMm": 0.2,
+        "clipLoadBearing": false,
+        "adhesivePrimaryLoadBearing": false,
+        "loadPath": "ITS BODY->OPEN CROSS->4 EDGE LEGS->4 MINIMAL LANDINGS->4 RECEIVERS/STRUTS->PANELS->SHELL",
+        "seamVerdict": "NOT N2 SPECIAL",
+        "verdict": "CONDITIONAL / PHYSICAL COUPON + LOCAL NEIGHBOR REVIEW",
+        "neighborClearanceMm": 0.0,
+        "neighborReview": true
+      }
+    },
+    "neighborPairs": {
+      "N1-N2": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 763.6209053156912,
+        "status": "LOCAL REVIEW"
+      },
+      "N1-I2": {
+        "aabbGapMm": 1.1771675128362027,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-I3": {
+        "aabbGapMm": 3.2919256282219536,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-I4": {
+        "aabbGapMm": 5.316965049071069,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-M3": {
+        "aabbGapMm": 21.29342720527627,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-M4": {
+        "aabbGapMm": 21.74739475374742,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N1-N3": {
+        "aabbGapMm": 26.773233910407594,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I2": {
+        "aabbGapMm": 0.9731771358921932,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I3": {
+        "aabbGapMm": 3.087935251277944,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-I4": {
+        "aabbGapMm": 3.117897242317568,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-M3": {
+        "aabbGapMm": 20.93128575110571,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-M4": {
+        "aabbGapMm": 21.136613310907972,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "N2-N3": {
+        "aabbGapMm": 24.6847994459088,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-I3": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 804.3636448939789,
+        "status": "LOCAL REVIEW"
+      },
+      "I2-I4": {
+        "aabbGapMm": 4.97725981194597,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-M3": {
+        "aabbGapMm": 4.675198489688935,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-M4": {
+        "aabbGapMm": 6.4719604468736405,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I2-N3": {
+        "aabbGapMm": 12.112595906228512,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-I4": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 285.59921954063816,
+        "status": "LOCAL REVIEW"
+      },
+      "I3-M3": {
+        "aabbGapMm": 3.382001975295754,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-M4": {
+        "aabbGapMm": 3.6639274545023395,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I3-N3": {
+        "aabbGapMm": 7.745867631064974,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-M3": {
+        "aabbGapMm": 4.547897036062786,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-M4": {
+        "aabbGapMm": 4.829822515269372,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "I4-N3": {
+        "aabbGapMm": 7.733860128661542,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M3-M4": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 593.7766696908612,
+        "status": "LOCAL REVIEW"
+      },
+      "M3-N3": {
+        "aabbGapMm": 3.261116223721583,
+        "aabbOverlapProxyMm3": 0.0,
+        "status": "CLEAR"
+      },
+      "M4-N3": {
+        "aabbGapMm": 0.0,
+        "aabbOverlapProxyMm3": 850.4683960044707,
+        "status": "LOCAL REVIEW"
+      }
+    }
+  },
+  "n2LoadShareRangePercent": [
+    14.728420833639818,
+    35.0700638658409
+  ],
+  "allTerminalsOpen": true,
+  "couponV3": {
+    "legSlotClearanceVariantsPerSideMm": [
+      0.15,
+      0.25,
+      0.35
+    ],
+    "guideBoreVariantsMm": [
+      4.8,
+      5.0,
+      5.2
+    ],
+    "stopVariantsMm": [
+      0.34,
+      0.38,
+      0.42
+    ],
+    "status": "READY FOR P1S PHYSICAL TEST"
+  },
+  "outputs": {
+    "standardCoreStep": "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step",
+    "representativeStep": "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step",
+    "all8Step": "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step",
+    "couponStep": "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step",
+    "couponStl": "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl",
+    "json": "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json",
+    "report": "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md",
+    "renders": [
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png"
+    ]
+  },
+  "inputHashesBefore": {
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/open_frame_glued_switch_harness_candidate.py": "193522656216ee32010f428e90383048310b502fa6b9a6ea6575561fd2912e00",
+    "build123d_workbench/slot_anchored_harness_captive_pusher_audit.py": "1101595e9dda5b502de543e24f04e965592a30a6efe73b323adfc68bf8a22d4a",
+    "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md": "b6e5890554fa3934ff0a40a7779da051da4fb8026060bbd8c8e3258a19924ef0",
+    "docs/77_open_frame_glued_switch_harness_candidate.md": "dbd740a9cde99d0ae61eb3953331a94439b99e818a59ff4349bffc745673a4e0",
+    "docs/78_slot_anchored_harness_and_captive_pusher_audit.md": "55e3b3b62931b2503c196936b36c643f0d813e9e93dc71be2427945d3af064ef",
+    "build123d_workbench/out/button_fdm_coupon/BUTTON_FDM_TEST_COUPON.step": "45adbe0d2b51c83061d06625c15528824bad0264ce9b51c1d3aac71b7a35dff6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f"
+  },
+  "inputHashesAfter": {
+    "build123d_workbench/finger_controls_v2.py": "ab902a423c2932a08864b5aaae5f3b03d92902ba8d8707fb546e28b6ee5466f3",
+    "build123d_workbench/n1_production_intent_mechanism.py": "815ceb40df97f177485474014edc866925cc9883ae72202deccb4c3bc383126b",
+    "build123d_workbench/n2_production_intent_mechanism.py": "4402848c98dd1883f50abe096eacbf76f023558e0d9e9c44bfa576a8e59f9038",
+    "build123d_workbench/i2_i3_production_intent_mechanism.py": "d62577fd138f85efb9ca096999825c727979f91d9511d40fc16b62055fe96342",
+    "build123d_workbench/i4_m3_production_intent_mechanisms.py": "c6bfd2509133d17a1380d576328128dec6b3ed077d81a14765a2ee1b4f9fbcd8",
+    "build123d_workbench/m4_n3_production_intent_mechanism.py": "f583ccf6b5f488f458d2bda6da519bfdb1a0cefd3270116a8aaa7e3f8a820f2d",
+    "build123d_workbench/open_frame_glued_switch_harness_candidate.py": "193522656216ee32010f428e90383048310b502fa6b9a6ea6575561fd2912e00",
+    "build123d_workbench/slot_anchored_harness_captive_pusher_audit.py": "1101595e9dda5b502de543e24f04e965592a30a6efe73b323adfc68bf8a22d4a",
+    "docs/76_source_faithful_button_mechanism_and_fdm_rebase_audit.md": "b6e5890554fa3934ff0a40a7779da051da4fb8026060bbd8c8e3258a19924ef0",
+    "docs/77_open_frame_glued_switch_harness_candidate.md": "dbd740a9cde99d0ae61eb3953331a94439b99e818a59ff4349bffc745673a4e0",
+    "docs/78_slot_anchored_harness_and_captive_pusher_audit.md": "55e3b3b62931b2503c196936b36c643f0d813e9e93dc71be2427945d3af064ef",
+    "build123d_workbench/out/button_fdm_coupon/BUTTON_FDM_TEST_COUPON.step": "45adbe0d2b51c83061d06625c15528824bad0264ce9b51c1d3aac71b7a35dff6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f"
+  },
+  "protectedInputsPreserved": true,
+  "preservedHashes": {
+    "docs77": "dbd740a9cde99d0ae61eb3953331a94439b99e818a59ff4349bffc745673a4e0",
+    "docs78": "55e3b3b62931b2503c196936b36c643f0d813e9e93dc71be2427945d3af064ef"
+  }
+}

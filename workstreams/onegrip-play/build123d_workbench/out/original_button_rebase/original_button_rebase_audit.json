@@ -1,0 +1,339 @@
+{
+  "schema": "onegrip.original_button_mechanism_rebase_audit.v1",
+  "generatedUtc": "2026-08-23T15:53:04.480186+00:00",
+  "classification": "AUDIT + REFERENCE RECONSTRUCTION; PRODUCTION GEOMETRY MODIFICATION = 0",
+  "unitsNote": "Onshape assembly occurrence transforms are in METRES; cached tessellation meshes are in MILLIMETRES",
+  "originalPushBtn": {
+    "body": 6.01,
+    "body_top": 3.05,
+    "shoulder": 5.5,
+    "shoulder_top": 3.55,
+    "act_dia": 3.5,
+    "act_top": 5.0,
+    "term_metal": [
+      0.728,
+      0.7
+    ],
+    "term_cx": 3.419,
+    "term_cz": 1.955,
+    "term_u0": -3.519,
+    "term_u1": -0.76,
+    "skirt": 6.31,
+    "skirt_top": 1.0
+  },
+  "originalPushBtnActuatorProjection": 1.4500000000000002,
+  "actualIts1105": {
+    "body_x": 6.12,
+    "body_y": 6.05,
+    "housing_h": 3.56,
+    "total_h": 6.0,
+    "act_dia": 3.35,
+    "act_proj": 2.44,
+    "term_pitch": 4.5,
+    "term_outer": 7.9,
+    "term_metal": [
+      0.3,
+      0.7
+    ],
+    "term_root": 1.8,
+    "travel": [
+      0.15,
+      0.25,
+      0.35
+    ]
+  },
+  "originalCapFamilies": {
+    "Button_corner": {
+      "a": 7.597,
+      "b": 7.597,
+      "t": 4.866,
+      "tris": 138
+    },
+    "Button_middle": {
+      "a": 7.6,
+      "b": 7.6,
+      "t": 4.762,
+      "tris": 12
+    },
+    "Button_side": {
+      "a": 7.6,
+      "b": 7.6,
+      "t": 4.938,
+      "tris": 38
+    },
+    "Button_wide": {
+      "a": 9.6,
+      "b": 6.6,
+      "t": 4.742,
+      "tris": 26
+    }
+  },
+  "originalOpeningMm": 8.0,
+  "originalClearanceTotalMm": 0.4,
+  "currentMechanism": {
+    "cap": 7.6,
+    "cap_thk": 1.2,
+    "cap_exposure": 1.0,
+    "opening": 8.0,
+    "boss": 4.5,
+    "socket": 3.45,
+    "front_depth_n1": 4.8,
+    "body_h": 3.56,
+    "rear_plate": 1.6,
+    "travel": 0.35
+  },
+  "compatibility": {
+    "BODY_COMPATIBILITY": "NEAR-EQUIVALENT (max delta 0.110 mm, both fit a 6.40 seat)",
+    "ACTUATOR_COMPATIBILITY": "NEAR-EQUIVALENT DIAMETER (delta 0.150 mm) but PROJECTION DIFFERS 0.990 mm",
+    "HEIGHT_COMPATIBILITY": "HOUSING NEAR-IDENTICAL (delta 0.010 mm); TOTAL differs 1.000 mm, entirely from actuator projection",
+    "TERMINAL_COMPATIBILITY": "REQUIRES ADAPTATION (pitch +0.590, outer span +0.334 mm)",
+    "OVERALL": "REQUIRES SMALL ADAPTATION"
+  },
+  "originalSubsystem": {
+    "caps": {
+      "Button_corner_1": {
+        "a": 7.5974362311811685,
+        "b": 7.5974355754572755,
+        "thickness": 4.8660979298803255,
+        "clearanceToOpening": {
+          "a": -2.2537675092775977
+        },
+        "protrusionMm": -43.5229072380748,
+        "nearestSwitch": "PushBtn <8>",
+        "lateralOffsetToSwitchAxisMm": 4.202424177504566
+      },
+      "Button_corner_2": {
+        "a": 7.597436231181169,
+        "b": 7.597435575457274,
+        "thickness": 4.866097929880326,
+        "clearanceToOpening": {
+          "a": -2.2537675092775986
+        },
+        "protrusionMm": -43.5229072380748,
+        "nearestSwitch": "PushBtn <6>",
+        "lateralOffsetToSwitchAxisMm": 3.3903837127205008
+      },
+      "Button_middle_1": {
+        "a": 7.600002775288271,
+        "b": 7.600000128149986,
+        "thickness": 4.76201876729771,
+        "clearanceToOpening": {
+          "a": 0.3999957304127433,
+          "b": 0.4000002518296242
+        },
+        "protrusionMm": 1.801861877988408,
+        "nearestSwitch": "PushBtn <4>",
+        "lateralOffsetToSwitchAxisMm": 3.6577693702511818
+      },
+      "Button_middle_2": {
+        "a": 7.600002825793242,
+        "b": 7.600000128149986,
+        "thickness": 4.76201865216893,
+        "clearanceToOpening": {
+          "a": 0.3999930662610769
+        },
+        "protrusionMm": 1.8466745945943466,
+        "nearestSwitch": "PushBtn <7>",
+        "lateralOffsetToSwitchAxisMm": 3.6668753721972918
+      },
+      "Button_side_1": {
+        "a": 7.600001727994463,
+        "b": 7.600000128149986,
+        "thickness": 4.93785918030658,
+        "clearanceToOpening": {
+          "a": 0.3999977788375775,
+          "b": 5.316541530191898
+        },
+        "protrusionMm": -38.749570574280916,
+        "nearestSwitch": "PushBtn <5>",
+        "lateralOffsetToSwitchAxisMm": 4.169691965761137
+      },
+      "Button_side_2": {
+        "a": 7.600001895293557,
+        "b": 7.600000128149986,
+        "thickness": 4.93785918030658,
+        "clearanceToOpening": {
+          "a": 0.3999976115384829,
+          "b": 5.316541530191898
+        },
+        "protrusionMm": -38.74970290302652,
+        "nearestSwitch": "PushBtn <3>",
+        "lateralOffsetToSwitchAxisMm": 3.252633491521664
+      },
+      "Button_wide_1": {
+        "a": 6.6000021858211975,
+        "b": 9.600000455975534,
+        "thickness": 4.742128680627623,
+        "clearanceToOpening": {
+          "a": 0.39999742115186177,
+          "b": 0.3999995533376932
+        },
+        "protrusionMm": -32.987194145950305,
+        "nearestSwitch": "PushBtn <1>",
+        "lateralOffsetToSwitchAxisMm": 4.556365153657765
+      },
+      "Button_wide_2": {
+        "a": 6.6000021858211975,
+        "b": 9.600000455975534,
+        "thickness": 4.742128680627623,
+        "clearanceToOpening": {
+          "a": 0.39999742115186177,
+          "b": 0.3999995533376932
+        },
+        "protrusionMm": -32.987194145950305,
+        "nearestSwitch": "PushBtn <2>",
+        "lateralOffsetToSwitchAxisMm": 2.812068171308776
+      }
+    },
+    "switches": {
+      "PushBtn <1>": {
+        "seat": [
+          5.170971743311521,
+          -22.73978580920299,
+          52.18215430721976
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          5.171522040758793,
+          -19.475189335419355,
+          55.96929169059156
+        ]
+      },
+      "PushBtn <2>": {
+        "seat": [
+          -11.142512251727679,
+          -22.751378266294022,
+          52.19451772539044
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          -11.141961954280406,
+          -19.48678179251039,
+          55.98165510876224
+        ]
+      },
+      "PushBtn <3>": {
+        "seat": [
+          -13.998462866035991,
+          -13.442944634688397,
+          44.17085633901582
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          -13.997912568588719,
+          -10.178348160904765,
+          47.95799372238762
+        ]
+      },
+      "PushBtn <4>": {
+        "seat": [
+          -2.9984688022911063,
+          -13.435127974603741,
+          44.162519828769035
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          -2.997918504843834,
+          -10.17053150082011,
+          47.949657212140835
+        ]
+      },
+      "PushBtn <5>": {
+        "seat": [
+          8.00152526145378,
+          -13.427311314519095,
+          44.15418331852228
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          8.002075558901053,
+          -10.162714840735463,
+          47.94132070189408
+        ]
+      },
+      "PushBtn <6>": {
+        "seat": [
+          -14.009826487550987,
+          -5.111245970041106,
+          36.98874883288496
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          -14.009276190103714,
+          -1.846649496257474,
+          40.77588621625676
+        ]
+      },
+      "PushBtn <7>": {
+        "seat": [
+          -3.0098324238061007,
+          -5.103429309956449,
+          36.98041232263817
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          -3.0092821263588285,
+          -1.8388328361728168,
+          40.76754970600997
+        ]
+      },
+      "PushBtn <8>": {
+        "seat": [
+          7.990161639938785,
+          -5.095612649871803,
+          36.97207581239141
+        ],
+        "axis": [
+          0.0001100594894544275,
+          0.6529192947567264,
+          0.7574274766743597
+        ],
+        "tip": [
+          7.990711937386057,
+          -1.8310161760881702,
+          40.75921319576321
+        ]
+      }
+    },
+    "pairing": {},
+    "switchAxisSpreadDeg": 8.537736462515939e-07,
+    "switchAxisFromVerticalDeg": 40.76206822051318,
+    "switchGridMinPitchMm": 11.00000000000003
+  },
+  "referenceButton": {
+    "seatPushBtnMm": -5.0,
+    "seatItsMm": -6.0,
+    "seatDeltaMm": 1.0,
+    "pushbtnRearMm": -5.0,
+    "itsRearMm": -6.0,
+    "capThicknessMm": 4.762
+  }
+}

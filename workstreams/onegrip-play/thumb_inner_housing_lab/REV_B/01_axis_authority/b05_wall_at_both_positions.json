@@ -1,0 +1,560 @@
+{
+  "controlPositionsLocalUV": {
+    "ORIGINAL": {
+      "JOY": [
+        -0.02981345600950071,
+        22.384119871050807
+      ],
+      "T1": [
+        10.269231722841981,
+        -18.423978276199627
+      ],
+      "T2": [
+        -0.022129963843262043,
+        -7.992655679875722
+      ],
+      "T3": [
+        -10.309522576259859,
+        -18.434382878607874
+      ],
+      "T4": [
+        10.882947732216445,
+        -7.990108226929737
+      ],
+      "T5": [
+        -0.0025048487714478605,
+        -18.970611999799907
+      ],
+      "T6": [
+        -10.90691898565744,
+        -7.988856217016105
+      ],
+      "T7": [
+        8.110563554391254,
+        4.228789228402391
+      ],
+      "T8": [
+        -8.134277606912642,
+        4.2143889630552005
+      ]
+    },
+    "LOWERED": {
+      "JOY": [
+        -0.0051410696240477465,
+        0.0017474628492250416
+      ],
+      "T1": [
+        10.293851795698917,
+        -40.806140723433494
+      ],
+      "T2": [
+        0.008878015053694793,
+        -30.37479512364417
+      ],
+      "T3": [
+        -10.284902503402922,
+        -40.816545325844125
+      ],
+      "T4": [
+        10.90756780507336,
+        -30.36885032475299
+      ],
+      "T5": [
+        0.02211522408548571,
+        -41.35277444703225
+      ],
+      "T6": [
+        -10.882298912800405,
+        -30.375175690425113
+      ],
+      "T7": [
+        8.135183627248185,
+        -18.153373218828953
+      ],
+      "T8": [
+        -8.109657534055708,
+        -18.16777348417634
+      ]
+    }
+  },
+  "sampleHalfWidthMm": 3.0,
+  "perShell": {
+    "CLEAN": {
+      "JOY": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.0026212404023713,
+          "medianWallMm": 3.0020945852843406,
+          "maxWallMm": 3.0056614332341733,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T1": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.04758930640295048,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.096875491475907,
+          "openFraction": 0.9825,
+          "fullWallFraction": 0.015
+        },
+        "atLowered": null
+      },
+      "T2": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 160,
+          "meanWallMm": 3.023696705449062,
+          "medianWallMm": 3.024083853615619,
+          "maxWallMm": 3.0491873126225446,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T3": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.11814483851304843,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.1099171545638464,
+          "openFraction": 0.9575,
+          "fullWallFraction": 0.0375
+        },
+        "atLowered": null
+      },
+      "T4": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 160,
+          "meanWallMm": 3.1091593335751946,
+          "medianWallMm": 3.0892779473413765,
+          "maxWallMm": 3.24353203969189,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T5": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": null
+      },
+      "T6": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 160,
+          "meanWallMm": 3.1115742196734146,
+          "medianWallMm": 3.1000002157738535,
+          "maxWallMm": 3.2023108051972278,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T7": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 1.0521078670564208,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.0248083329415305,
+          "openFraction": 0.65,
+          "fullWallFraction": 0.35
+        }
+      },
+      "T8": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 0.7518214042566633,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.0252714653307553,
+          "openFraction": 0.75,
+          "fullWallFraction": 0.25
+        }
+      }
+    },
+    "FINGER_V2": {
+      "JOY": {
+        "atOriginal": null,
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.002591311286561,
+          "medianWallMm": 3.002101063645103,
+          "maxWallMm": 3.0056478843745413,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T1": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.07060711337620147,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.0970090632942924,
+          "openFraction": 0.9725,
+          "fullWallFraction": 0.0225
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.1346258916443652,
+          "medianWallMm": 3.147920019126264,
+          "maxWallMm": 3.388277807216312,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T2": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.0276386172624323,
+          "medianWallMm": 3.0272311632068627,
+          "maxWallMm": 3.0706226202248317,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T3": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.1425839939356931,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.0980495174762623,
+          "openFraction": 0.9475,
+          "fullWallFraction": 0.0425
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.2355523815931213,
+          "medianWallMm": 3.2426166939710446,
+          "maxWallMm": 3.394258886530526,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T4": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.008537170411052,
+          "medianWallMm": 2.995194601588321,
+          "maxWallMm": 3.207999248245031,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T5": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.073805652852307,
+          "medianWallMm": 3.078926884343084,
+          "maxWallMm": 3.140151656389291,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T6": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 3.0337027209908087,
+          "medianWallMm": 3.0266851782718094,
+          "maxWallMm": 3.244005113199835,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        }
+      },
+      "T7": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 1.0608042094725327,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.04136029268917,
+          "openFraction": 0.65,
+          "fullWallFraction": 0.35
+        }
+      },
+      "T8": {
+        "atOriginal": {
+          "cells": 301,
+          "meanWallMm": 0.0,
+          "medianWallMm": 0.0,
+          "maxWallMm": 0.0,
+          "openFraction": 1.0,
+          "fullWallFraction": 0.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 0.7575874499513051,
+          "medianWallMm": 0.0,
+          "maxWallMm": 3.0422381339597937,
+          "openFraction": 0.75,
+          "fullWallFraction": 0.25
+        }
+      }
+    },
+    "FROZEN": {
+      "JOY": {
+        "atOriginal": null,
+        "atLowered": {
+          "cells": 99,
+          "meanWallMm": 0.02930639654053577,
+          "medianWallMm": 0.026551835304267968,
+          "maxWallMm": 0.08131424795265296,
+          "openFraction": 0.8383838383838383,
+          "fullWallFraction": 0.0
+        }
+      },
+      "T1": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 2.8513708400950937,
+          "medianWallMm": 3.0010576167533403,
+          "maxWallMm": 3.1099201852157385,
+          "openFraction": 0.0,
+          "fullWallFraction": 0.9775
+        },
+        "atLowered": {
+          "cells": 331,
+          "meanWallMm": 0.7820080947729128,
+          "medianWallMm": 0.26987100077688453,
+          "maxWallMm": 3.04525372722485,
+          "openFraction": 0.459214501510574,
+          "fullWallFraction": 0.16012084592145015
+        }
+      },
+      "T2": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 1.4758912037941962,
+          "medianWallMm": 1.440067707912993,
+          "maxWallMm": 3.0059871068299593,
+          "openFraction": 0.3,
+          "fullWallFraction": 0.43
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 2.04950304185638,
+          "medianWallMm": 2.066113542787324,
+          "maxWallMm": 3.040823271902509,
+          "openFraction": 0.0,
+          "fullWallFraction": 0.5225
+        }
+      },
+      "T3": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 2.8343757432765426,
+          "medianWallMm": 3.0031774931414343,
+          "maxWallMm": 3.111344727728415,
+          "openFraction": 0.0,
+          "fullWallFraction": 0.9625
+        },
+        "atLowered": {
+          "cells": 350,
+          "meanWallMm": 0.6874123672473255,
+          "medianWallMm": 0.018552592737488105,
+          "maxWallMm": 2.969604040828714,
+          "openFraction": 0.5028571428571429,
+          "fullWallFraction": 0.12857142857142856
+        }
+      },
+      "T4": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 3.0253635560719827,
+          "medianWallMm": 3.01745684981842,
+          "maxWallMm": 3.0734068491034243,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 1.4474182860311613,
+          "medianWallMm": 1.3109377144228551,
+          "maxWallMm": 3.0840718483592635,
+          "openFraction": 0.0975,
+          "fullWallFraction": 0.3225
+        }
+      },
+      "T5": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 2.977838663089857,
+          "medianWallMm": 2.9880786967103017,
+          "maxWallMm": 3.0127789465970007,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        },
+        "atLowered": {
+          "cells": 399,
+          "meanWallMm": 0.7414840208280069,
+          "medianWallMm": 0.3222206479614922,
+          "maxWallMm": 2.8023073088921624,
+          "openFraction": 0.41102756892230574,
+          "fullWallFraction": 0.15037593984962405
+        }
+      },
+      "T6": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 3.027963693165324,
+          "medianWallMm": 3.020754694346615,
+          "maxWallMm": 3.073109740045565,
+          "openFraction": 0.0,
+          "fullWallFraction": 1.0
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 1.4141900978613475,
+          "medianWallMm": 1.2628213506077621,
+          "maxWallMm": 3.084326334308095,
+          "openFraction": 0.105,
+          "fullWallFraction": 0.315
+        }
+      },
+      "T7": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 1.7792194148214826,
+          "medianWallMm": 2.9967661857246615,
+          "maxWallMm": 3.0157790292252677,
+          "openFraction": 0.0,
+          "fullWallFraction": 0.55
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 2.8920384888976507,
+          "medianWallMm": 2.997291301154706,
+          "maxWallMm": 3.033776328822057,
+          "openFraction": 0.0,
+          "fullWallFraction": 0.9975
+        }
+      },
+      "T8": {
+        "atOriginal": {
+          "cells": 400,
+          "meanWallMm": 1.7853649872062705,
+          "medianWallMm": 3.0007080858632627,
+          "maxWallMm": 3.0209809425746847,
+          "openFraction": 0.0,
+          "fullWallFraction": 0.55
+        },
+        "atLowered": {
+          "cells": 400,
+          "meanWallMm": 2.882932270044788,
+          "medianWallMm": 2.9978600265658155,
+          "maxWallMm": 3.047973463648905,
+          "openFraction": 0.0,
+          "fullWallFraction": 0.9925
+        }
+      }
+    }
+  },
+  "verdict": {
+    "CLEAN": {
+      "controlsOpenAtOriginal": 9,
+      "controlsOpenAtLowered": 2,
+      "meanWallAtOriginalMm": 0.018414904990666545,
+      "meanWallAtLoweredMm": 2.341830128402188
+    },
+    "FINGER_V2": {
+      "controlsOpenAtOriginal": 8,
+      "controlsOpenAtLowered": 2,
+      "meanWallAtOriginalMm": 0.02664888841398682,
+      "meanWallAtLoweredMm": 2.592760600607165
+    },
+    "FROZEN": {
+      "controlsOpenAtOriginal": 1,
+      "controlsOpenAtLowered": 4,
+      "meanWallAtOriginalMm": 2.4696735126900937,
+      "meanWallAtLoweredMm": 1.4362547848977898
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "c01VolumeMm3": 3375.456967620566,
+  "interference": {
+    "FINGER_V2": 0.002601595154999378,
+    "FROZEN_OLD": 0.0,
+    "RECONCILED": 0.0
+  },
+  "gap": {
+    "FROZEN_OLD": {
+      "plateColumns": 24051,
+      "columnsWithShellAbove": 24051,
+      "columnsWithNoShellAbove": 0,
+      "gapMedianMm": 1.1991386709456737,
+      "gapMinMm": 0.0011357948018577702,
+      "gapMaxMm": 3.5951402688107175,
+      "gapBelow0p40Mm2": 10.375,
+      "gapBelow0p30Fraction": 0.005945698723545799
+    },
+    "RECONCILED": {
+      "plateColumns": 24051,
+      "columnsWithShellAbove": 24051,
+      "columnsWithNoShellAbove": 0,
+      "gapMedianMm": 1.1992370864798225,
+      "gapMinMm": 0.0011432335032814933,
+      "gapMaxMm": 3.5951402688107175,
+      "gapBelow0p40Mm2": 10.375,
+      "gapBelow0p30Fraction": 0.005945698723545799
+    }
+  },
+  "newlyExposedColumns": 0,
+  "apertureAlignment": {
+    "JOY": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T1": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T2": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T3": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T4": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T5": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T6": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T7": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    },
+    "T8": {
+      "c01MaterialInsideOpeningPrismMm3": 0.0
+    }
+  },
+  "memory": [
+    {
+      "stage": "combined FINGER_V2",
+      "rssMb": 411.5,
+      "availMb": 16630.6
+    },
+    {
+      "stage": "combined FROZEN",
+      "rssMb": 442.5,
+      "availMb": 16617.0
+    },
+    {
+      "stage": "shells",
+      "rssMb": 463.3,
+      "availMb": 16595.8
+    },
+    {
+      "stage": "szh",
+      "rssMb": 446.0,
+      "availMb": 16647.4
+    }
+  ]
+}

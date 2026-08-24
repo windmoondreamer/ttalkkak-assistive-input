@@ -1,0 +1,63 @@
+{
+    "error_string": "Success.",
+    "export_time": 1097,
+    "layer_height": 0.20000000298023224,
+    "plate_index": 0,
+    "prepare_time": 69,
+    "return_code": 0,
+    "sliced_plates": [
+        {
+            "feature_type_times": {
+                "Bottom surface": 243.648681640625,
+                "Bridge": 208.58438110351563,
+                "Custom": 1.108544111251831,
+                "Inner wall": 308.0103454589844,
+                "Internal solid infill": 553.401123046875,
+                "Outer wall": 535.1806030273438,
+                "Skirt": 6.857252597808838,
+                "Sparse infill": 101.34815979003906,
+                "Top surface": 240.60032653808594,
+                "Travel": 480.83941650390625,
+                "Undefined": 480.5221862792969
+            },
+            "filament_change_times": 0,
+            "filaments": [
+                {
+                    "filament_id": "",
+                    "id": 1,
+                    "main_used_g": 0.0,
+                    "total_used_g": 0.0
+                }
+            ],
+            "generate_support_material_time": 186,
+            "id": 1,
+            "infill_time": 321,
+            "layer_filament_change": 0,
+            "main_predication": 2678.34814453125,
+            "make_perimeters_time": 371,
+            "obj_cached_cnt": 0,
+            "objects": [
+                {
+                    "bbox": {
+                        "depth": 83.25,
+                        "height": 13.5,
+                        "width": 82.0,
+                        "x": 59.0,
+                        "y": 58.3750114440918,
+                        "z": 0.0
+                    },
+                    "id": 5,
+                    "name": "BUTTON_FDM_TEST_COUPON.stl",
+                    "triangle_count": 45976
+                }
+            ],
+            "sliced_time": 2134,
+            "sliced_time_with_cache": 1190,
+            "total_predication": 2679.139404296875,
+            "triangle_count": 45976,
+            "warning_message": ""
+        }
+    ],
+    "sparse_infill_density": 20.0,
+    "wall_loops": 2
+}

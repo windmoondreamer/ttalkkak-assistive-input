@@ -1,0 +1,106 @@
+{
+  "apertureAlignment": {
+    "JOY": {
+      "shellBlockedFraction": 0.2716049382716049,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 6.962809490250846,
+      "c01RadialClearanceMm": null
+    },
+    "T1": {
+      "shellBlockedFraction": 0.024691358024691357,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.447984227759306,
+      "c01RadialClearanceMm": 0.0
+    },
+    "T2": {
+      "shellBlockedFraction": 0.04938271604938271,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.370414765680134,
+      "c01RadialClearanceMm": 0.0
+    },
+    "T3": {
+      "shellBlockedFraction": 0.06172839506172839,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.4355015210835775,
+      "c01RadialClearanceMm": 0.0
+    },
+    "T4": {
+      "shellBlockedFraction": 0.012345679012345678,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.459256257414533,
+      "c01RadialClearanceMm": 0.0
+    },
+    "T5": {
+      "shellBlockedFraction": 0.037037037037037035,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.3841579525829335,
+      "c01RadialClearanceMm": 0.0
+    },
+    "T6": {
+      "shellBlockedFraction": 0.07407407407407407,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.453917660194719,
+      "c01RadialClearanceMm": 0.0
+    },
+    "T7": {
+      "shellBlockedFraction": 0.037037037037037035,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.879050613738239,
+      "c01RadialClearanceMm": 0.0
+    },
+    "T8": {
+      "shellBlockedFraction": 0.06172839506172839,
+      "c01BlockedFraction": 0.0,
+      "capOuterRadiusMm": 5.854496215940957,
+      "c01RadialClearanceMm": 0.0
+    }
+  },
+  "thin": {
+    "planAreaMm2": 1503.1875,
+    "belowMinWallMm2": 100.125,
+    "interiorThinMm2": 15.125,
+    "minThicknessMm": 0.0004238942949610358
+  },
+  "keepOutInterferenceMm3": {
+    "SZH_pcb": 0.0,
+    "SZH_gimbal": 0.0,
+    "SZH_x_pot": 0.0,
+    "SZH_y_pot": 0.0,
+    "SZH_push_switch": 0.0,
+    "SZH_shaft": 0.0,
+    "SZH_cap": 0.0,
+    "SZH_header": 0.0,
+    "SZH_MOVING_ENVELOPE_25deg": 0.0,
+    "N1_N2_SHARED_CARRIER": 0.0,
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 0.0,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "memory": [
+    {
+      "stage": "approved shell",
+      "rssMb": 416.1,
+      "availMb": 14913.3
+    },
+    {
+      "stage": "loaded",
+      "rssMb": 452.8,
+      "availMb": 15020.2
+    },
+    {
+      "stage": "apertures",
+      "rssMb": 475.7,
+      "availMb": 14998.3
+    },
+    {
+      "stage": "keepouts",
+      "rssMb": 498.2,
+      "availMb": 15372.4
+    },
+    {
+      "stage": "combined LEGACY",
+      "rssMb": 487.0,
+      "availMb": 15302.9
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "zones": {
+    "LEFT": {
+      "footprintCells": 2409,
+      "footprintAreaMm2": 150.5625,
+      "c01MaterialAreaMm2": 40.5,
+      "c01CoverageFraction": 0.26899128268991285,
+      "c01ThicknessP50": 1.759858360493158,
+      "c01GapP50": 1.1899772825658665,
+      "c01GapMin": 0.004266970427634131,
+      "backplateAreaMm2": 138.375,
+      "backplateGapP50": 3.628345415596951,
+      "wallCosP05": 0.14339425871689998,
+      "wallCosP50": 0.7421610966989046,
+      "targetContactMm2": 71.69
+    },
+    "RIGHT": {
+      "footprintCells": 875,
+      "footprintAreaMm2": 54.6875,
+      "c01MaterialAreaMm2": 5.0625,
+      "c01CoverageFraction": 0.09257142857142857,
+      "c01ThicknessP50": 0.4997499659714897,
+      "c01GapP50": 1.1869747583584165,
+      "c01GapMin": 0.018416084482074435,
+      "backplateAreaMm2": 51.25,
+      "backplateGapP50": 2.791963452556401,
+      "wallCosP05": 0.18977251647325816,
+      "wallCosP50": 0.6849989136129326,
+      "targetContactMm2": 23.38
+    }
+  },
+  "pitchMm": 0.25,
+  "memory": [
+    {
+      "stage": "approved shell",
+      "rssMb": 415.6,
+      "availMb": 14987.0
+    },
+    {
+      "stage": "loaded",
+      "rssMb": 437.8,
+      "availMb": 15231.3
+    },
+    {
+      "stage": "maps",
+      "rssMb": 452.8,
+      "availMb": 15333.7
+    },
+    {
+      "stage": "wall normals",
+      "rssMb": 460.9,
+      "availMb": 14965.6
+    }
+  ]
+}

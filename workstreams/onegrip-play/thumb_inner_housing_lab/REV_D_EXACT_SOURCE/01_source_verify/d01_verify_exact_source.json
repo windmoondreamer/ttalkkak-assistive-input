@@ -1,0 +1,177 @@
+{
+  "masterAuthority": {
+    "document": "OneGrip_Play_V1",
+    "did": "a21e64f36bc61df760d4587c",
+    "version": "THUMB_LOWER15_HOUSING_V1",
+    "vid": "50dfe4e752e447375b95493a",
+    "eid": "425d9199b59cfb1efd9ddc35",
+    "configuration": "default",
+    "approvedTransformMm": [
+      0.0,
+      12.25,
+      -21.0
+    ]
+  },
+  "sha256Gate": {
+    "allMatch": true,
+    "files": {
+      "JaD_THUMB_LOWER15_APPROVED.step": {
+        "sha256": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+        "expected": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+        "match": true,
+        "bytes": 817422
+      },
+      "JfD_THUMB_LOWER15_APPROVED.step": {
+        "sha256": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340",
+        "expected": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340",
+        "match": true,
+        "bytes": 1446528
+      },
+      "JaD_THUMB_LOWER15_APPROVED.x_t": {
+        "sha256": "2CFD9CD3D323CF45D57F59B4528EB364B5B5AB1BCEB0A20692B0292A75EB2453",
+        "expected": "2CFD9CD3D323CF45D57F59B4528EB364B5B5AB1BCEB0A20692B0292A75EB2453",
+        "match": true,
+        "bytes": 1049588
+      },
+      "JfD_THUMB_LOWER15_APPROVED.x_t": {
+        "sha256": "5C50F3AA199223F673EEE6A9439E5C42C77A082AD9BAFD9B5BCFCDCDB00155F5",
+        "expected": "5C50F3AA199223F673EEE6A9439E5C42C77A082AD9BAFD9B5BCFCDCDB00155F5",
+        "match": true,
+        "bytes": 1719570
+      }
+    }
+  },
+  "importValidation": {
+    "JAD_APPROVED": {
+      "solidCount": 1,
+      "valid": true,
+      "volumeMm3": 47672.49218231938,
+      "volumeDeltaMm3": -0.4582466806168668,
+      "bboxSizeMm": [
+        38.77977440364755,
+        123.86025862084131,
+        152.13529205266929
+      ],
+      "bboxDeltaMm": [
+        4.03647547386754e-07,
+        -3.7915869199878216e-07,
+        5.266929292702116e-08
+      ],
+      "faces": 189,
+      "shells": 1,
+      "bboxMin": [
+        -4.64930231014386e-06,
+        -61.431944124864756,
+        -73.87850854860079
+      ],
+      "bboxMax": [
+        38.77976975434524,
+        62.42831449597656,
+        78.25678350406848
+      ]
+    },
+    "JFD_APPROVED": {
+      "solidCount": 1,
+      "valid": true,
+      "volumeMm3": 50150.761749482066,
+      "volumeDeltaMm3": 0.2636784820642788,
+      "bboxSizeMm": [
+        38.7797698543591,
+        123.86025861905787,
+        152.1352920526514
+      ],
+      "bboxDeltaMm": [
+        -1.4564089667601365e-07,
+        -3.809421258438306e-07,
+        5.2651415671789437e-08
+      ],
+      "faces": 506,
+      "shells": 1,
+      "bboxMin": [
+        -38.77976975434524,
+        -61.431944124864756,
+        -73.87850854860079
+      ],
+      "bboxMax": [
+        1.0001386535330993e-07,
+        62.42831449419312,
+        78.25678350405062
+      ]
+    }
+  },
+  "shellSplit": {
+    "jadXmin": -4.64930231014386e-06,
+    "jadXmax": 38.77976975434524,
+    "jfdXmin": -38.77976975434524,
+    "jfdXmax": 1.0001386535330993e-07
+  },
+  "throughOpenings": {
+    "JOY": {
+      "tiltDeg": 0.0,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.7346938775510204
+    },
+    "T1": {
+      "tiltDeg": 9.36199934380265,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.9795918367346939
+    },
+    "T2": {
+      "tiltDeg": 3.999999999987366,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.9591836734693877
+    },
+    "T3": {
+      "tiltDeg": 9.37749111258268,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.9387755102040817
+    },
+    "T4": {
+      "tiltDeg": 7.0732196363406,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 1.0
+    },
+    "T5": {
+      "tiltDeg": 3.9999999999816205,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.9591836734693877
+    },
+    "T6": {
+      "tiltDeg": 7.059601161192331,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.9591836734693877
+    },
+    "T7": {
+      "tiltDeg": 1.8392747092420292,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.9795918367346939
+    },
+    "T8": {
+      "tiltDeg": 1.8392747092382637,
+      "fullThroughOpening": true,
+      "materialOutboardMm": null,
+      "footprintOpenFraction": 0.9183673469387755
+    }
+  },
+  "throughOpeningPass": 9,
+  "memory": [
+    {
+      "stage": "import JAD_APPROVED",
+      "rssMb": 391.2,
+      "availMb": 15343.6
+    },
+    {
+      "stage": "import JFD_APPROVED",
+      "rssMb": 399.1,
+      "availMb": 15326.3
+    }
+  ]
+}

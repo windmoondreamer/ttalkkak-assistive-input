@@ -1,0 +1,499 @@
+{
+  "schema": 1,
+  "generated_utc": "2026-08-21T14:02:34.799617+00:00",
+  "units": "mm",
+  "build123d_version": "0.11.1",
+  "onshape_source": {
+    "version_name": "FINGER_SIMPLIFIED_CARRIER_V1",
+    "version_id": "f51e9d9a868db9ef0fcd4b06",
+    "url": "https://cad.onshape.com/documents/a21e64f36bc61df760d4587c/v/f51e9d9a868db9ef0fcd4b06/e/425d9199b59cfb1efd9ddc35"
+  },
+  "button_datums": {
+    "I1": {
+      "center_mm": [
+        -22.224,
+        -17.494,
+        9.0
+      ],
+      "axis": [
+        -0.847667872,
+        -0.506166919,
+        -0.158915794
+      ],
+      "shell_normal": [
+        -0.9291,
+        -0.2385,
+        -0.2828
+      ],
+      "back_node_mm": [
+        -9.932815860262652,
+        -10.154579677045353,
+        11.304279012200862
+      ]
+    },
+    "I2": {
+      "center_mm": [
+        -15.97,
+        -26.208,
+        9.0
+      ],
+      "axis": [
+        -0.387542111,
+        -0.574231284,
+        -0.721158474
+      ],
+      "shell_normal": [
+        -0.4724,
+        -0.7368,
+        -0.4838
+      ],
+      "back_node_mm": [
+        -10.350639390344439,
+        -17.8816463817695,
+        19.456797873289474
+      ]
+    },
+    "I3": {
+      "center_mm": [
+        -5.496,
+        -29.325,
+        9.0
+      ],
+      "axis": [
+        -0.068454195,
+        -0.99760988,
+        0.00941017
+      ],
+      "shell_normal": [
+        -0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "back_node_mm": [
+        -4.503414172890157,
+        -14.8596567456859,
+        8.863552535053634
+      ]
+    },
+    "I4": {
+      "center_mm": [
+        5.496,
+        -29.325,
+        9.0
+      ],
+      "axis": [
+        0.024161,
+        -0.968017,
+        -0.249718
+      ],
+      "shell_normal": [
+        0.0383,
+        -0.9556,
+        -0.2921
+      ],
+      "back_node_mm": [
+        5.145665455460916,
+        -15.288751715529532,
+        12.620911460337366
+      ]
+    },
+    "M1": {
+      "center_mm": [
+        -19.835372272,
+        -0.614991709,
+        -11.125
+      ],
+      "axis": [
+        -0.837518998,
+        -0.499950062,
+        -0.220480981
+      ],
+      "shell_normal": [
+        -0.961658811,
+        -0.158356278,
+        -0.223909849
+      ],
+      "back_node_mm": [
+        -7.691346797887791,
+        6.634284191857808,
+        -7.9280257746806955
+      ]
+    },
+    "M2": {
+      "center_mm": [
+        -12.89941819,
+        -8.744828192,
+        -14.125
+      ],
+      "axis": [
+        -0.601521153,
+        -0.782846337,
+        -0.159134899
+      ],
+      "shell_normal": [
+        -0.486144819,
+        -0.708160212,
+        -0.512027664
+      ],
+      "back_node_mm": [
+        -4.177361475601579,
+        2.606443689162024,
+        -11.817543965585088
+      ]
+    },
+    "M3": {
+      "center_mm": [
+        -3.537874175,
+        -14.41370884,
+        -11.125
+      ],
+      "axis": [
+        0.32042889,
+        -0.733472608,
+        -0.599452466
+      ],
+      "shell_normal": [
+        -0.103551539,
+        -0.791264502,
+        -0.602642155
+      ],
+      "back_node_mm": [
+        -8.184093081797077,
+        -3.7783560198864308,
+        -2.4329392396380616
+      ]
+    },
+    "M4": {
+      "center_mm": [
+        7.44432759,
+        -13.569623472,
+        -11.125
+      ],
+      "axis": [
+        0.224859127,
+        -0.772792774,
+        -0.593489428
+      ],
+      "shell_normal": [
+        0.224859127,
+        -0.772792774,
+        -0.593489428
+      ],
+      "back_node_mm": [
+        4.183870247993952,
+        -2.364128247260819,
+        -2.519403292664343
+      ]
+    }
+  },
+  "external_language": {
+    "middle_pocket_mm": 6.4,
+    "cap_opening_mm": 8.0,
+    "cap_size_mm": 7.6,
+    "cap_exposure_mm": 1.4,
+    "holder_front_trim_mm": 2.2
+  },
+  "models": {
+    "JfD_RWID_carrier_extension": {
+      "retainer_owner": "RWID",
+      "compound": {
+        "valid": true,
+        "volume_mm3": 1032.3408205675212,
+        "solid_count": 10,
+        "bbox_mm": {
+          "min": [
+            -15.966852112097408,
+            -23.2606426912383,
+            -14.51128893434038
+          ],
+          "max": [
+            -1.3260024575148135,
+            8.635393408173567,
+            20.84801580511912
+          ]
+        }
+      },
+      "component_volume_sum_mm3": 1032.3408205675212,
+      "components": {
+        "I1_post": {
+          "valid": true,
+          "volume_mm3": 76.98239999999998,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -15.966852112097408,
+              -14.752071096366628,
+              8.614976502292587
+            ],
+            "max": [
+              -8.594859617679276,
+              -8.361252988011577,
+              13.113188023654464
+            ]
+          }
+        },
+        "I2_post": {
+          "valid": true,
+          "volume_mm3": 76.9824,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -14.793296903480387,
+              -23.2606426912383,
+              14.070361995389225
+            ],
+            "max": [
+              -8.054965172207915,
+              -15.68389138574876,
+              20.84801580511912
+            ]
+          }
+        },
+        "I3_post": {
+          "valid": true,
+          "volume_mm3": 76.98239999999998,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -6.693278095738418,
+              -20.726059031100593,
+              7.0617501989881735
+            ],
+            "max": [
+              -2.6927864901928293,
+              -14.520013193298801,
+              10.7174872128986
+            ]
+          }
+        },
+        "M1_post": {
+          "valid": true,
+          "volume_mm3": 77.24694448368002,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -13.779184582472547,
+              2.0053780445443534,
+              -10.953791441002735
+            ],
+            "max": [
+              -6.260460021973448,
+              8.483261822832423,
+              -6.1282252856412285
+            ]
+          }
+        },
+        "M2_post": {
+          "valid": true,
+          "volume_mm3": 77.24694448368001,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -9.244208648266408,
+              -3.226922834393839,
+              -14.51128893434038
+            ],
+            "max": [
+              -2.455219969141527,
+              4.086861748523885,
+              -10.008654659380745
+            ]
+          }
+        },
+        "M3_post": {
+          "valid": true,
+          "volume_mm3": 77.24694448368002,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -10.329608813907441,
+              -9.71283331911676,
+              -7.326771293016927
+            ],
+            "max": [
+              -4.256860581170634,
+              -1.9222888943480656,
+              -0.8723101025147106
+            ]
+          }
+        },
+        "backbone_1": {
+          "valid": true,
+          "volume_mm3": 207.9570070213073,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -10.423781622056584,
+              -16.029719980613677,
+              -4.090148775691231
+            ],
+            "max": [
+              -2.26372563263065,
+              -2.608292784958648,
+              10.520762071106804
+            ]
+          }
+        },
+        "backbone_2": {
+          "valid": true,
+          "volume_mm3": 135.00271994138092,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -10.039090624282263,
+              -4.5628353391763286,
+              -4.720612369952787
+            ],
+            "max": [
+              -1.3260024575148135,
+              6.198479319289897,
+              1.162673130314726
+            ]
+          }
+        },
+        "backbone_3": {
+          "valid": true,
+          "volume_mm3": 142.0774659721033,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -5.770902400547923,
+              0.6355409825324947,
+              -12.46438288249935
+            ],
+            "max": [
+              -1.5874590750536548,
+              7.38490270662953,
+              -0.4781610830857381
+            ]
+          }
+        },
+        "backbone_4": {
+          "valid": true,
+          "volume_mm3": 84.61559418168957,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              -9.046570965655715,
+              0.6053344728462653,
+              -13.847049743864286
+            ],
+            "max": [
+              -2.822137307833657,
+              8.635393408173567,
+              -5.898519996401498
+            ]
+          }
+        }
+      }
+    },
+    "JaD_RZKD_carrier_extension": {
+      "retainer_owner": "RZKD",
+      "compound": {
+        "valid": true,
+        "volume_mm3": 409.3317942973632,
+        "solid_count": 3,
+        "bbox_mm": {
+          "min": [
+            2.112115332466406,
+            -21.339435218351507,
+            -7.386862356270212
+          ],
+          "max": [
+            7.505934637916927,
+            -0.6809385173320233,
+            14.413828540658688
+          ]
+        }
+      },
+      "component_volume_sum_mm3": 409.3317942973632,
+      "components": {
+        "I4_post": {
+          "valid": true,
+          "volume_mm3": 76.98240000000001,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              3.330178149985337,
+              -21.339435218351507,
+              9.444556484135429
+            ],
+            "max": [
+              7.095004717953496,
+              -14.600883074498354,
+              14.413828540658688
+            ]
+          }
+        },
+        "M4_post": {
+          "valid": true,
+          "volume_mm3": 77.24694448368002,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              2.112115332466406,
+              -8.344364487899075,
+              -7.386862356270212
+            ],
+            "max": [
+              7.505934637916927,
+              -0.6809385173320233,
+              -0.951990194201457
+            ]
+          }
+        },
+        "backbone_1": {
+          "valid": true,
+          "volume_mm3": 255.1024498136832,
+          "solid_count": 1,
+          "bbox_mm": {
+            "min": [
+              2.1221116534302937,
+              -16.506688533815858,
+              -3.6817190811331795
+            ],
+            "max": [
+              7.207424050024576,
+              -1.1461914289744914,
+              13.783227248806199
+            ]
+          }
+        }
+      }
+    }
+  },
+  "reference_meshes": {
+    "JaD_shell": {
+      "path": "exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_1_JaD.stl",
+      "absolute_path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_1_JaD.stl",
+      "exists": true,
+      "bytes": 941984,
+      "sha256": "43cb0a9972e0153afe49341a3e29df130b9e966bbff40a1114cee3919c1b50cb",
+      "role": "mesh reference only; not treated as editable B-rep"
+    },
+    "JfD_shell": {
+      "path": "exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_2_JfD.stl",
+      "absolute_path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\exports\\thumb_lower15_housing_mockup\\OneGrip_lower15_housing_Joystick_2_JfD.stl",
+      "exists": true,
+      "bytes": 987084,
+      "sha256": "29050592a316c16b64211276ed0ce2bbfafd7bb0b833d954db7b305cee677677",
+      "role": "mesh reference only; not treated as editable B-rep"
+    },
+    "RWID_retainer": {
+      "path": "exports\\full_exterior_minimal_mockup\\source_stl\\Joystick - Part 17.stl",
+      "absolute_path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\exports\\full_exterior_minimal_mockup\\source_stl\\Joystick - Part 17.stl",
+      "exists": true,
+      "bytes": 198084,
+      "sha256": "31bfe5a64bfc5737eccd240f69f525d36d17c54448e356f92e87f46f14b29764",
+      "role": "mesh reference only; not treated as editable B-rep"
+    },
+    "RZKD_retainer": {
+      "path": "exports\\full_exterior_minimal_mockup\\source_stl\\Joystick - Part 18.stl",
+      "absolute_path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\exports\\full_exterior_minimal_mockup\\source_stl\\Joystick - Part 18.stl",
+      "exists": true,
+      "bytes": 61084,
+      "sha256": "43ba6feacfd39a59663e479fedc60c66fab802a97ee9652d9322ca5af9dc2619",
+      "role": "mesh reference only; not treated as editable B-rep"
+    }
+  }
+}

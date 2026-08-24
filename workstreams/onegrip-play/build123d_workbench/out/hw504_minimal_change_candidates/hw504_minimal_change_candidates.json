@@ -1,0 +1,504 @@
+{
+  "schema": 1,
+  "generatedUtc": "2026-08-22T12:47:14.872761+00:00",
+  "mode": "LOCAL OCCT EXACT B-REP / ANALYSIS PROTOTYPES ONLY / PRODUCTION WRITE 0 / Onshape 0",
+  "hardFreeze": {
+    "latestFinger8": true,
+    "maximumLoweredThumbExterior": true,
+    "joystickOpening": true,
+    "thumbButtonPositions": true,
+    "gripExterior": true,
+    "fingerGeometryModificationCount": 0,
+    "productionExteriorModificationCount": 0,
+    "sourceOriginalPartOverwriteCount": 0
+  },
+  "sourceSha256": {
+    "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JAD_EXTERIOR_LOWERED_THUMB_V1.step": "b223757ee25fdd5eddf710b8666bcd388d4221235d8d876f620eb0005d5b75b6",
+    "build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JFD_EXTERIOR_LOWERED_THUMB_V1.step": "d1bf68b105dce11374ab1f89981ee503a5591d2ff7fa5175777432171855bf7f",
+    "build123d_workbench\\out\\finger_controls_v2\\FINGER_V2_ASSEMBLY_REFERENCE.step": "c2ce9e0bd180c24c7f2792d4691a53566040bfdce1d1273d014ea33e2dc67fc1",
+    "build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step": "adc870ffaf55a9342d62df89f162827a744bdf1d43060c0fbb69f7c8e8089fe9"
+  },
+  "semanticLimit": "HW504 is an imported fused STEP occurrence without named subcomponents or mates; roles are geometry-based inference and are not BOM/vendor confirmation.",
+  "functionalDatumFreeze": {
+    "NEUTRAL_STICK_AXIS_N": {
+      "pointMm": [
+        -0.21604013507035,
+        -23.14907664213591,
+        40.49617911468703
+      ],
+      "direction": [
+        -0.00018185376875099997,
+        -0.5984933689761269,
+        -0.8011277390159528
+      ],
+      "observedMaximumContactRadiusMm": 3.5,
+      "analysisGuardMm": 0.3,
+      "protectedEnvelopeLengthMm": 34.0,
+      "source": "exact coaxial cylindrical-face extraction from imported HW504 solids"
+    },
+    "PIVOT_AXIS_U": {
+      "pointMm": [
+        -0.21604013507035,
+        -23.14907664213591,
+        40.49617911468703
+      ],
+      "direction": [
+        0.9999994603404404,
+        0.0007106054629440003,
+        -0.0007578645683750003
+      ],
+      "observedMaximumContactRadiusMm": 4.5,
+      "analysisGuardMm": 0.3,
+      "protectedEnvelopeLengthMm": 36.0,
+      "source": "exact coaxial cylindrical-face extraction from imported HW504 solids"
+    },
+    "PIVOT_AXIS_V": {
+      "pointMm": [
+        -0.21604013507035,
+        -23.14907664213591,
+        40.49617911468703
+      ],
+      "direction": [
+        0.0010228626666151036,
+        -0.801127444500238,
+        0.5984929167671774
+      ],
+      "observedMaximumContactRadiusMm": 2.5,
+      "analysisGuardMm": 0.3,
+      "protectedEnvelopeLengthMm": 36.0,
+      "source": "exact coaxial cylindrical-face extraction from imported HW504 solids"
+    }
+  },
+  "kinematicFreeze": {
+    "joystickCenterChangeMm": 0.0,
+    "neutralAxisAngularChangeDeg": 0.0,
+    "pivotAxisUAngularChangeDeg": 0.0,
+    "pivotAxisVAngularChangeDeg": 0.0,
+    "rangeChange": "NOT MODELED; no source motion mates exist",
+    "actuatorStickGeometryChange": 0,
+    "buttonRelativeGeometryChangeMm": 0.0,
+    "bearingContactDatumChangeMm": 0.0,
+    "travelGeometryChange": 0
+  },
+  "functionalDecomposition": {
+    "HW504_A": {
+      "sourceExactSolidVolumeMm3": 1461.11427622721,
+      "bboxMm": {
+        "min": [
+          -15.230075852931297,
+          -43.17075734983449,
+          21.536730123036346
+        ],
+        "max": [
+          11.804562101890257,
+          -8.424152365598976,
+          48.55200001982694
+        ]
+      },
+      "observedGeometry": "1104 faces; dense fixed-body/board/support bulk with N/U/V cylindrical collars and holes",
+      "inferredRole": "primarily fixed sensor/PCB/housing/support body",
+      "motionClass": "FIXED BODY inference; imported STEP contains no mates",
+      "protected": [
+        "N/U/V axis lines",
+        "coaxial collars/holes",
+        "mutual HW504 interface",
+        "original mounting-hole datums"
+      ],
+      "structuralBulk": "large rectangular/irregular body surrounding the three-axis collar cluster",
+      "mountingGeometry": "outer tabs/holes and lower body regions; exact semantic ownership unknown",
+      "removableNonfunctionalRegionRule": "only exact conflict material outside the protected-datum envelope; strength is not implied",
+      "disposition": "KEEP for A; TRIM-CANDIDATE for B; SUPPORT-REDESIGN for C"
+    },
+    "HW504_B": {
+      "sourceExactSolidVolumeMm3": 767.1258104131199,
+      "bboxMm": {
+        "min": [
+          -12.218511287189648,
+          -31.93795759069354,
+          30.390174736411762
+        ],
+        "max": [
+          4.786519320748562,
+          -16.180220345790794,
+          48.86827843666085
+        ]
+      },
+      "observedGeometry": "78 faces; compact tri-axis cylindrical gimbal/stem body touching the Small joystick attachment",
+      "inferredRole": "moving gimbal/stick-side body and bearing/contact counterpart",
+      "motionClass": "MOVING BODY inference; imported STEP contains no mates",
+      "protected": [
+        "neutral shaft axis/r3.5 surface",
+        "U r4.5/r4.25 coaxial faces",
+        "V r2.5/r1.5 coaxial faces",
+        "attachment interface"
+      ],
+      "structuralBulk": "compact material between the intersecting N/U/V cylinders",
+      "mountingGeometry": "pivot journals/contact cylinders; should not be treated as sacrificial mounting tabs",
+      "removableNonfunctionalRegionRule": "none assumed unless exact conflict lies wholly outside protected-datum envelope",
+      "disposition": "KEEP for A; KEEP/limited TRIM for B; SUPPORT-REDESIGN only as last approved option"
+    }
+  },
+  "collisionDecomposition": {
+    "HW504_A": [
+      {
+        "target": "SHELL_JaD",
+        "penetrationVolumeMm3": 32.75313360228138,
+        "centroidMm": [
+          5.902205022927963,
+          -27.273620036861825,
+          31.688998245703857
+        ],
+        "bboxMm": {
+          "min": [
+            -1.0000181898940354e-07,
+            -43.1528507146176,
+            21.540345170525168
+          ],
+          "max": [
+            11.804410145857744,
+            -11.394389359106048,
+            41.83765132088254
+          ]
+        },
+        "protectedDatumOverlapMm3": 0.0,
+        "nonProtectedOverlapMm3": 32.75313360228138,
+        "functionalClassification": "OUTSIDE_PROTECTED_DATUM_ENVELOPE",
+        "shellInternalReliefFeasibility": "EXACT CUT POSSIBLE; exterior-boundary preservation not proven",
+        "localHwTrimFeasibility": "LOCAL TRIM CANDIDATE"
+      },
+      {
+        "target": "SHELL_JfD",
+        "penetrationVolumeMm3": 55.09906419749516,
+        "centroidMm": [
+          -7.61503782646292,
+          -27.283138047494063,
+          31.96280479538129
+        ],
+        "bboxMm": {
+          "min": [
+            -15.230075752931297,
+            -43.17075734983449,
+            21.545650225366714
+          ],
+          "max": [
+            1.0000545696821063e-07,
+            -11.395518745153637,
+            42.37995936539587
+          ]
+        },
+        "protectedDatumOverlapMm3": 0.0,
+        "nonProtectedOverlapMm3": 55.09906419749516,
+        "functionalClassification": "OUTSIDE_PROTECTED_DATUM_ENVELOPE",
+        "shellInternalReliefFeasibility": "EXACT CUT POSSIBLE; exterior-boundary preservation not proven",
+        "localHwTrimFeasibility": "LOCAL TRIM CANDIDATE"
+      },
+      {
+        "target": "FINGER_SWITCH_N1",
+        "penetrationVolumeMm3": 0.696218643334316,
+        "centroidMm": [
+          -10.294413807613962,
+          -28.595865200039235,
+          31.739279074381827
+        ],
+        "bboxMm": {
+          "min": [
+            -14.214423942732438,
+            -29.861142057302043,
+            30.93628909527295
+          ],
+          "max": [
+            -6.374403672495487,
+            -27.330588342776423,
+            32.5422690534907
+          ]
+        },
+        "protectedDatumOverlapMm3": 0.0,
+        "nonProtectedOverlapMm3": 0.696218643334316,
+        "functionalClassification": "OUTSIDE_PROTECTED_DATUM_ENVELOPE",
+        "shellInternalReliefFeasibility": "NOT APPLICABLE",
+        "localHwTrimFeasibility": "LOCAL TRIM CANDIDATE"
+      },
+      {
+        "target": "FINGER_SWITCH_N2",
+        "penetrationVolumeMm3": 0.24330079391565396,
+        "centroidMm": [
+          0.31025048892590124,
+          -27.839444002532428,
+          30.276154984249413
+        ],
+        "bboxMm": {
+          "min": [
+            -3.6140873657526904,
+            -30.06801034572972,
+            28.592825465999454
+          ],
+          "max": [
+            4.234588343604493,
+            -25.610877659335134,
+            31.95948450249937
+          ]
+        },
+        "protectedDatumOverlapMm3": 0.12128659208088512,
+        "nonProtectedOverlapMm3": 0.12201420183476884,
+        "functionalClassification": "PROTECTED_DATUM_OVERLAP",
+        "shellInternalReliefFeasibility": "NOT APPLICABLE",
+        "localHwTrimFeasibility": "NONFUNCTIONAL-ONLY TRIM INSUFFICIENT"
+      },
+      {
+        "target": "FINGER_CARRIER_N1_N2_SHARED",
+        "penetrationVolumeMm3": 45.27289437611084,
+        "centroidMm": [
+          -4.992642957574052,
+          -29.175578764006634,
+          32.052290325190725
+        ],
+        "bboxMm": {
+          "min": [
+            -15.210763573427846,
+            -32.0304134438822,
+            29.138331399808756
+          ],
+          "max": [
+            5.2254776582797415,
+            -26.320744084131064,
+            34.966249250572695
+          ]
+        },
+        "protectedDatumOverlapMm3": 6.207181105378548,
+        "nonProtectedOverlapMm3": 39.065713270732296,
+        "functionalClassification": "PROTECTED_DATUM_OVERLAP",
+        "shellInternalReliefFeasibility": "NOT APPLICABLE",
+        "localHwTrimFeasibility": "NONFUNCTIONAL-ONLY TRIM INSUFFICIENT"
+      }
+    ],
+    "HW504_B": [
+      {
+        "target": "FINGER_SWITCH_N2",
+        "penetrationVolumeMm3": 0.32036972303176653,
+        "centroidMm": [
+          -3.259541167312709,
+          -28.21220329644889,
+          32.19293452502809
+        ],
+        "bboxMm": {
+          "min": [
+            -3.6140873657527157,
+            -28.84120380062959,
+            31.65749781736459
+          ],
+          "max": [
+            -2.9049949688727024,
+            -27.58320279226819,
+            32.7283712326916
+          ]
+        },
+        "protectedDatumOverlapMm3": 0.32036972303176653,
+        "nonProtectedOverlapMm3": 0.0,
+        "functionalClassification": "PROTECTED_DATUM_OVERLAP",
+        "shellInternalReliefFeasibility": "NOT APPLICABLE",
+        "localHwTrimFeasibility": "NONFUNCTIONAL-ONLY TRIM INSUFFICIENT"
+      },
+      {
+        "target": "FINGER_CARRIER_N1_N2_SHARED",
+        "penetrationVolumeMm3": 26.369308781071286,
+        "centroidMm": [
+          -0.21782843495770376,
+          -29.38912760776537,
+          33.34854664628879
+        ],
+        "bboxMm": {
+          "min": [
+            -3.717858614883973,
+            -31.19633142510555,
+            31.561188584043187
+          ],
+          "max": [
+            3.2822017449685656,
+            -27.58192379042519,
+            35.13590470853439
+          ]
+        },
+        "protectedDatumOverlapMm3": 26.369308781071286,
+        "nonProtectedOverlapMm3": 0.0,
+        "functionalClassification": "PROTECTED_DATUM_OVERLAP",
+        "shellInternalReliefFeasibility": "NOT APPLICABLE",
+        "localHwTrimFeasibility": "NONFUNCTIONAL-ONLY TRIM INSUFFICIENT"
+      }
+    ]
+  },
+  "priorityOrderApplied": [
+    "1 shell internal relief analysis",
+    "2 HW nonfunctional-only trim",
+    "3 shell-side Backplate adapter",
+    "4 HW support reform",
+    "5 functional mechanism change forbidden without separate approval"
+  ],
+  "candidates": {
+    "A": {
+      "description": "shell internal relief only; all 20 original parts exact",
+      "exactOriginalPartsRetainedCount": 20,
+      "exactOriginalPartsRetainedRatioPercent": 100.0,
+      "backplateExactAsIs": true,
+      "fingerModificationCount": 0,
+      "exteriorModificationCount": 0,
+      "hwRemovedVolumeMm3": 0.0,
+      "hwAddedVolumeMm3": 0,
+      "protectedDatumMaterialLossMm3": 0.0,
+      "fingerClearance": {
+        "penetrationVolumeMm3": 72.90209231746385,
+        "minimumClearanceMm": 0.0,
+        "intersectingPairCount": 3,
+        "collisions": [
+          {
+            "target": "FINGER_SWITCH_N1",
+            "penetrationVolumeMm3": 0.696218643334316
+          },
+          {
+            "target": "FINGER_SWITCH_N2",
+            "penetrationVolumeMm3": 0.5636705169474205
+          },
+          {
+            "target": "FINGER_CARRIER_N1_N2_SHARED",
+            "penetrationVolumeMm3": 71.64220315718212
+          }
+        ]
+      },
+      "shellClearance": {
+        "penetrationVolumeMm3": 0.0,
+        "minimumClearanceMm": 0.0,
+        "intersectingPairCount": 0,
+        "collisions": []
+      },
+      "minimumNominalNewWallMm": null,
+      "assemblyServicePath": "unchanged original HW insertion; relief boundary has zero nominal clearance",
+      "fdmFeasibility": "shell relief exact-zero-clearance and external-boundary risk: FAIL",
+      "kinematicGeometryChange": "0 at source-part level"
+    },
+    "B": {
+      "description": "shell relief plus HW material trim outside protected datum envelope",
+      "exactOriginalPartsRetainedCount": 18,
+      "exactOriginalPartsRetainedRatioPercent": 90.0,
+      "backplateExactAsIs": true,
+      "fingerModificationCount": 0,
+      "exteriorModificationCount": 0,
+      "hwRemovedVolumeMm3": 1455.4402824988601,
+      "hwAddedVolumeMm3": 0,
+      "protectedDatumMaterialLossMm3": 914.1037538641233,
+      "fingerClearance": {
+        "penetrationVolumeMm3": 26.689678504103053,
+        "minimumClearanceMm": 0.0,
+        "intersectingPairCount": 2,
+        "collisions": [
+          {
+            "target": "FINGER_SWITCH_N2",
+            "penetrationVolumeMm3": 0.32036972303176653
+          },
+          {
+            "target": "FINGER_CARRIER_N1_N2_SHARED",
+            "penetrationVolumeMm3": 26.369308781071286
+          }
+        ]
+      },
+      "shellClearance": {
+        "penetrationVolumeMm3": 0.0,
+        "minimumClearanceMm": 0.0,
+        "intersectingPairCount": 0,
+        "collisions": []
+      },
+      "minimumNominalNewWallMm": null,
+      "assemblyServicePath": "unchanged original HW insertion; trimmed surfaces need finishing/validation",
+      "fdmFeasibility": "trim is manufacturable but protected collision remains if reported above: CONDITIONAL",
+      "kinematicGeometryChange": "NONZERO"
+    },
+    "C": {
+      "description": "all exact conflict material removed plus new planar support bridge; original kinematic datums retained as references",
+      "exactOriginalPartsRetainedCount": 18,
+      "exactOriginalPartsRetainedRatioPercent": 90.0,
+      "backplateExactAsIs": true,
+      "fingerModificationCount": 0,
+      "exteriorModificationCount": 0,
+      "hwRemovedVolumeMm3": 2222.56609291198,
+      "hwAddedVolumeMm3": 703.3850788232583,
+      "protectedDatumMaterialLossMm3": 914.1037538641233,
+      "fingerClearance": {
+        "penetrationVolumeMm3": 0.0,
+        "minimumClearanceMm": 8.057581789761128,
+        "intersectingPairCount": 0,
+        "collisions": []
+      },
+      "shellClearance": {
+        "penetrationVolumeMm3": 0.0,
+        "minimumClearanceMm": 0.0,
+        "intersectingPairCount": 0,
+        "collisions": []
+      },
+      "minimumNominalNewWallMm": 3.2,
+      "assemblyServicePath": "planar rear bridge is seam-loadable; actual bearing retention sequence is not validated",
+      "fdmFeasibility": "new bridge is planar/no-under-cut, but recreated support strength and bearing capture require validation",
+      "kinematicGeometryChange": "NONZERO"
+    }
+  },
+  "backplateAdapter": {
+    "architecture": "ORIGINAL BACKPLATE + NEW INTERNAL SHELL-SIDE SPLIT ADAPTER",
+    "backplateGeometryChanged": false,
+    "adapterLocation": "negative-normal/rear side of exact Backplate; internal comparison reference only",
+    "locating": "42 x 64 mm nominal planar split frame with center service opening",
+    "antiRotation": "single asymmetric 5.2 x 8.0 mm rectangular internal key",
+    "service": "two halves split at X=0; straight pull with no modeled undercut",
+    "fdm": {
+      "minimumNominalWallMm": 2.4,
+      "planarPrintFace": true,
+      "externalBossTubeFlangeCount": 0
+    },
+    "volumeMm3": 2501.344421636757,
+    "backplatePenetrationMm3": 0.0,
+    "protectedDatumPenetrationMm3": 0.0,
+    "status": "CONCEPT FEASIBLE; shell attachment/capture fastener requires a later approved stage"
+  },
+  "decision": {
+    "preferredCandidate": "NONE APPROVED",
+    "reason": "no candidate simultaneously proves zero protected-datum loss, zero frozen-Finger penetration and zero shell penetration while preserving exterior"
+  },
+  "finalFields": {
+    "HW504_A": "KEEP pending approved collision solution",
+    "HW504_B": "KEEP pending approved collision solution",
+    "BACKPLATE": "AS-IS",
+    "NEW_INTERNAL_ADAPTER": "YES - analysis proposal only",
+    "KINEMATICS": "0 datum change; range not dynamically validated",
+    "EXACT_ORIGINAL_PARTS_RETAINED": "20 / 20 in frozen source; no production candidate approved",
+    "ORIGINAL_REUSE_RATIO": "100.0 % in source reference / 0 approved collision-free implementation",
+    "FINGER_MODIFICATION": "0 / NOT REQUIRED BY POLICY; unresolved collision may remain",
+    "EXTERIOR_MODIFICATION": "0 / REQUIRED TO REMAIN 0"
+  },
+  "outputs": {
+    "HW504_FUNCTIONAL_DATUM_REFERENCE.step": {
+      "path": "build123d_workbench\\out\\hw504_minimal_change_candidates\\HW504_FUNCTIONAL_DATUM_REFERENCE.step",
+      "sha256": "2570abb0de51e3ba6d6fe861eb08f81978c92495cbfbc5cb5d2f306d769205c3"
+    },
+    "CURRENT_HW504_COLLISION_MAP.step": {
+      "path": "build123d_workbench\\out\\hw504_minimal_change_candidates\\CURRENT_HW504_COLLISION_MAP.step",
+      "sha256": "0d3a3869e78e69a9a178d4e686afdc1d1bbd19d5073e3d5e67a70401352067be"
+    },
+    "CANDIDATE_A_SHELL_RELIEF_ONLY.step": {
+      "path": "build123d_workbench\\out\\hw504_minimal_change_candidates\\CANDIDATE_A_SHELL_RELIEF_ONLY.step",
+      "sha256": "f4d2abf7a58bdaab7c6a327d2878f8e04ce82d91ec239bba3119a590f1fc4101"
+    },
+    "CANDIDATE_B_SHELL_RELIEF_PLUS_NONFUNCTIONAL_TRIM.step": {
+      "path": "build123d_workbench\\out\\hw504_minimal_change_candidates\\CANDIDATE_B_SHELL_RELIEF_PLUS_NONFUNCTIONAL_TRIM.step",
+      "sha256": "cac42e6e2cb6901c43d2da12db01bf8a0de1e53ab677488afcdb54c6f1eb8f1a"
+    },
+    "CANDIDATE_C_MINIMAL_SUPPORT_REDESIGN.step": {
+      "path": "build123d_workbench\\out\\hw504_minimal_change_candidates\\CANDIDATE_C_MINIMAL_SUPPORT_REDESIGN.step",
+      "sha256": "abc5226c0fa3eae553eec225f8d90ada71153c4ee8e271f3cb131ecaf46ae829"
+    },
+    "BACKPLATE_INTERNAL_SPLIT_ADAPTER_PROPOSAL.step": {
+      "path": "build123d_workbench\\out\\hw504_minimal_change_candidates\\BACKPLATE_INTERNAL_SPLIT_ADAPTER_PROPOSAL.step",
+      "sha256": "f8d438760859b6f3c3de89feea93c00dc1648bc19f1873df46ab6676133d9a8b"
+    },
+    "FULL_COMPARISON_REFERENCE.step": {
+      "path": "build123d_workbench\\out\\hw504_minimal_change_candidates\\FULL_COMPARISON_REFERENCE.step",
+      "sha256": "77db64ba7adff77f795f637b96a18075d245f551da3d0e4150790b3bf04000c6"
+    }
+  },
+  "stop": "STOP AFTER COMPARISON; DO NOT APPLY TO PRODUCTION CAD"
+}

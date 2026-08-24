@@ -1,0 +1,722 @@
+{
+  "pitchMm": 0.25,
+  "minWallMm": 1.2,
+  "edgeBandMm": 1.0,
+  "plateColumns": 24051,
+  "plateAreaMm2": 1503.1875,
+  "thinColumns": 1602,
+  "thinAreaMm2": 100.125,
+  "regionCount": 34,
+  "regions": [
+    {
+      "id": 8,
+      "areaMm2": 46.125,
+      "class": "PLAN_TRIM_EDGE",
+      "minThicknessMm": 0.011943169392765185,
+      "meanThicknessMm": 0.7159354887186686,
+      "fractionWithinEdgeBand": 0.6788617886178862,
+      "fractionInApertureBand": 0.06639566395663957,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -14.25,
+        14.25
+      ],
+      "vRange": [
+        -50.0,
+        -46.0
+      ]
+    },
+    {
+      "id": 28,
+      "areaMm2": 17.1875,
+      "class": "PLAN_TRIM_EDGE",
+      "minThicknessMm": 0.0004238942949610358,
+      "meanThicknessMm": 0.6230669948762135,
+      "fractionWithinEdgeBand": 0.9854545454545455,
+      "fractionInApertureBand": 0.08727272727272728,
+      "fractionInContactBand": 0.02909090909090909,
+      "uRange": [
+        15.75,
+        20.75
+      ],
+      "vRange": [
+        -43.5,
+        -21.25
+      ]
+    },
+    {
+      "id": 2,
+      "areaMm2": 17.0625,
+      "class": "PLAN_TRIM_EDGE",
+      "minThicknessMm": 0.0023394282308313308,
+      "meanThicknessMm": 0.6182579628835134,
+      "fractionWithinEdgeBand": 0.9963369963369964,
+      "fractionInApertureBand": 0.04395604395604396,
+      "fractionInContactBand": 0.02564102564102564,
+      "uRange": [
+        -20.75,
+        -15.75
+      ],
+      "vRange": [
+        -42.75,
+        -16.5
+      ]
+    },
+    {
+      "id": 9,
+      "areaMm2": 2.6875,
+      "class": "BUTTON_APERTURE_EDGE",
+      "minThicknessMm": 0.31983159726174293,
+      "meanThicknessMm": 0.8783627653800774,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -13.5,
+        -3.0
+      ],
+      "vRange": [
+        -14.5,
+        -14.5
+      ]
+    },
+    {
+      "id": 19,
+      "areaMm2": 2.6875,
+      "class": "BUTTON_APERTURE_EDGE",
+      "minThicknessMm": 0.4157086194992736,
+      "meanThicknessMm": 0.9100578664242716,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        3.0,
+        13.5
+      ],
+      "vRange": [
+        -14.5,
+        -14.5
+      ]
+    },
+    {
+      "id": 17,
+      "areaMm2": 2.1875,
+      "class": "BUTTON_APERTURE_EDGE",
+      "minThicknessMm": 0.4720561717621048,
+      "meanThicknessMm": 0.4771022982106275,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -4.25,
+        4.25
+      ],
+      "vRange": [
+        -45.75,
+        -45.75
+      ]
+    },
+    {
+      "id": 18,
+      "areaMm2": 2.1875,
+      "class": "BUTTON_APERTURE_EDGE",
+      "minThicknessMm": 0.5474349008698205,
+      "meanThicknessMm": 0.5548778492917793,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -4.25,
+        4.25
+      ],
+      "vRange": [
+        -26.25,
+        -26.25
+      ]
+    },
+    {
+      "id": 26,
+      "areaMm2": 1.125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.03619287197298959,
+      "meanThicknessMm": 0.28110340412738544,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        6.75,
+        11.0
+      ],
+      "vRange": [
+        -26.25,
+        -26.25
+      ]
+    },
+    {
+      "id": 10,
+      "areaMm2": 1.0625,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.0016905429519891157,
+      "meanThicknessMm": 0.24551585097054976,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -10.75,
+        -6.75
+      ],
+      "vRange": [
+        -26.25,
+        -26.25
+      ]
+    },
+    {
+      "id": 31,
+      "areaMm2": 0.8125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.8821402127657558,
+      "meanThicknessMm": 0.9857880684013587,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        21.0,
+        21.0
+      ],
+      "vRange": [
+        2.0,
+        5.0
+      ]
+    },
+    {
+      "id": 30,
+      "areaMm2": 0.625,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.016173789146562534,
+      "meanThicknessMm": 0.4316915422102445,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        21.0,
+        21.0
+      ],
+      "vRange": [
+        -11.25,
+        -9.0
+      ]
+    },
+    {
+      "id": 13,
+      "areaMm2": 0.4375,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.3297056259620401,
+      "meanThicknessMm": 0.727233790221071,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -6.5,
+        -6.5
+      ],
+      "vRange": [
+        -32.25,
+        -30.75
+      ]
+    },
+    {
+      "id": 25,
+      "areaMm2": 0.4375,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.36383755493685044,
+      "meanThicknessMm": 0.7600287368343368,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        6.5,
+        6.5
+      ],
+      "vRange": [
+        -32.25,
+        -30.75
+      ]
+    },
+    {
+      "id": 4,
+      "areaMm2": 0.375,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.08944691524135706,
+      "meanThicknessMm": 0.3546130598015245,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -19.0,
+        -17.75
+      ],
+      "vRange": [
+        15.0,
+        15.0
+      ]
+    },
+    {
+      "id": 6,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.031395637931157516,
+      "meanThicknessMm": 0.5386078347259217,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -15.5,
+        -15.5
+      ],
+      "vRange": [
+        -34.5,
+        -33.5
+      ]
+    },
+    {
+      "id": 7,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.15177592032470155,
+      "meanThicknessMm": 0.6550477172464324,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -15.5,
+        -15.5
+      ],
+      "vRange": [
+        -29.5,
+        -28.5
+      ]
+    },
+    {
+      "id": 11,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.08715954291901085,
+      "meanThicknessMm": 0.5913412076723799,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -6.5,
+        -6.5
+      ],
+      "vRange": [
+        -45.0,
+        -44.0
+      ]
+    },
+    {
+      "id": 14,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.100557063912035,
+      "meanThicknessMm": 0.6066032131439124,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -4.5,
+        -4.5
+      ],
+      "vRange": [
+        -45.0,
+        -44.0
+      ]
+    },
+    {
+      "id": 15,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.14634927540578424,
+      "meanThicknessMm": 0.658678884714211,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -4.5,
+        -4.5
+      ],
+      "vRange": [
+        -41.0,
+        -40.0
+      ]
+    },
+    {
+      "id": 16,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.5877771323160932,
+      "meanThicknessMm": 0.8688297047714082,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -4.5,
+        -4.5
+      ],
+      "vRange": [
+        -32.0,
+        -31.0
+      ]
+    },
+    {
+      "id": 20,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.14689871926425724,
+      "meanThicknessMm": 0.6524399179865036,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        4.5,
+        4.5
+      ],
+      "vRange": [
+        -45.0,
+        -44.0
+      ]
+    },
+    {
+      "id": 21,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.17074133689545334,
+      "meanThicknessMm": 0.6824850401852188,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        4.5,
+        4.5
+      ],
+      "vRange": [
+        -41.0,
+        -40.0
+      ]
+    },
+    {
+      "id": 22,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.5971349751658135,
+      "meanThicknessMm": 0.8858403218213308,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        4.5,
+        4.5
+      ],
+      "vRange": [
+        -32.0,
+        -31.0
+      ]
+    },
+    {
+      "id": 23,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.14617191487367887,
+      "meanThicknessMm": 0.6494018297675049,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        6.5,
+        6.5
+      ],
+      "vRange": [
+        -45.0,
+        -44.0
+      ]
+    },
+    {
+      "id": 24,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.012236839978529979,
+      "meanThicknessMm": 0.5263876487786018,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        6.5,
+        6.5
+      ],
+      "vRange": [
+        -41.0,
+        -40.0
+      ]
+    },
+    {
+      "id": 27,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.004859731188744831,
+      "meanThicknessMm": 0.5574530090331409,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        15.5,
+        15.5
+      ],
+      "vRange": [
+        -38.5,
+        -37.5
+      ]
+    },
+    {
+      "id": 29,
+      "areaMm2": 0.3125,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.02721747348801884,
+      "meanThicknessMm": 0.4326960387880815,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        21.0,
+        21.0
+      ],
+      "vRange": [
+        -19.75,
+        -18.75
+      ]
+    },
+    {
+      "id": 5,
+      "areaMm2": 0.25,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.1565265048955844,
+      "meanThicknessMm": 0.5763232618062722,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -15.5,
+        -15.5
+      ],
+      "vRange": [
+        -38.0,
+        -37.25
+      ]
+    },
+    {
+      "id": 12,
+      "areaMm2": 0.25,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.2220726813104914,
+      "meanThicknessMm": 0.608426371380794,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 1.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -6.5,
+        -6.5
+      ],
+      "vRange": [
+        -40.75,
+        -40.0
+      ]
+    },
+    {
+      "id": 1,
+      "areaMm2": 0.1875,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.01613206149486146,
+      "meanThicknessMm": 0.04529488323980561,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -21.0,
+        -21.0
+      ],
+      "vRange": [
+        -10.0,
+        -9.5
+      ]
+    },
+    {
+      "id": 33,
+      "areaMm2": 0.1875,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.01009247082020348,
+      "meanThicknessMm": 0.056025066147713964,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        21.0,
+        21.0
+      ],
+      "vRange": [
+        9.25,
+        9.75
+      ]
+    },
+    {
+      "id": 3,
+      "areaMm2": 0.0625,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 1.1853025702380768,
+      "meanThicknessMm": 1.1853025702380768,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        -20.75,
+        -20.75
+      ],
+      "vRange": [
+        14.25,
+        14.25
+      ]
+    },
+    {
+      "id": 32,
+      "areaMm2": 0.0625,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.6471543469656043,
+      "meanThicknessMm": 0.6471543469656043,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        21.0,
+        21.0
+      ],
+      "vRange": [
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "id": 34,
+      "areaMm2": 0.0625,
+      "class": "BOOLEAN_SLIVER",
+      "minThicknessMm": 0.08102022439149525,
+      "meanThicknessMm": 0.08102022439149525,
+      "fractionWithinEdgeBand": 1.0,
+      "fractionInApertureBand": 0.0,
+      "fractionInContactBand": 0.0,
+      "uRange": [
+        21.0,
+        21.0
+      ],
+      "vRange": [
+        13.0,
+        13.0
+      ]
+    }
+  ],
+  "areaByClass": {
+    "BOOLEAN_SLIVER": 10.0,
+    "PLAN_TRIM_EDGE": 80.375,
+    "BUTTON_APERTURE_EDGE": 9.75
+  },
+  "interiorThinAreaMm2": 0.0,
+  "apertureBoxes": {
+    "JOY": {
+      "u": [
+        -6.997473125753511,
+        6.999495324879781
+      ],
+      "v": [
+        -6.980426580263366,
+        6.980426580274322
+      ]
+    },
+    "T1": {
+      "u": [
+        7.20627015022241,
+        14.80363533189121
+      ],
+      "v": [
+        -45.379923635121614,
+        -37.50103701952648
+      ]
+    },
+    "T2": {
+      "u": [
+        -3.794716921456611,
+        3.8052830785514398
+      ],
+      "v": [
+        -34.34068725636163,
+        -26.42727436352839
+      ]
+    },
+    "T3": {
+      "u": [
+        -14.793104359770481,
+        -7.195703993103882
+      ],
+      "v": [
+        -45.37862944893309,
+        -37.501054434142574
+      ]
+    },
+    "T4": {
+      "u": [
+        7.205283078544416,
+        14.805283078552403
+      ],
+      "v": [
+        -34.350982172114854,
+        -26.42732279127224
+      ]
+    },
+    "T5": {
+      "u": [
+        -3.794716921445281,
+        3.805283078562792
+      ],
+      "v": [
+        -45.313891809219626,
+        -37.40047891638638
+      ]
+    },
+    "T6": {
+      "u": [
+        -14.794716921456587,
+        -7.194716921448524
+      ],
+      "v": [
+        -34.34999739670976,
+        -26.427145190978486
+      ]
+    },
+    "T7": {
+      "u": [
+        3.362029477918245,
+        12.962029477925268
+      ],
+      "v": [
+        -21.57742441320292,
+        -14.663715160811194
+      ]
+    },
+    "T8": {
+      "u": [
+        -12.951463320848775,
+        -3.3514633208477296
+      ],
+      "v": [
+        -21.57769690785152,
+        -14.663653876203064
+      ]
+    }
+  }
+}
