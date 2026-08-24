@@ -1,0 +1,84 @@
+{
+  "decision": "side-by-side fixed-base service cassette; old buried tray rejected",
+  "outer_dimensions_mm": [
+    36.0,
+    45.0,
+    14.0
+  ],
+  "board_layout": {
+    "rp2040_center_y_mm": -8.725,
+    "power_board_center_y_mm": 12.575,
+    "power_rotation_deg": 90,
+    "rp2040_pocket_mm": [
+      18.42,
+      24.349999999999998
+    ],
+    "rp2040_clearance_each_side_mm": {
+      "width_x": 0.25,
+      "insertion_y": 0.6
+    },
+    "power_external_connector_opening": "removed per physical fit feedback"
+  },
+  "body": {
+    "valid": true,
+    "solid_count": 1,
+    "bbox_mm": [
+      36.0,
+      45.0,
+      12.0
+    ]
+  },
+  "lid": {
+    "valid": true,
+    "solid_count": 1
+  },
+  "print_together": {
+    "valid": true,
+    "solid_count": 2,
+    "bbox_mm": [
+      77.0,
+      45.0,
+      12.0
+    ],
+    "part_count": 2,
+    "physical_connections": 0,
+    "instruction": "Import once; body and lid remain separate after printing."
+  },
+  "spring_base_integration": {
+    "status": "generated and validated by integrate_stock_spring_base_cassette.py",
+    "source": "cad/stock-cartridge-option-c/source/stock_gimbal_base_source_all_parts.step::Base + Spring_holder",
+    "integration_report": "stock_spring_base_cassette_report.json"
+  },
+  "rp2040_length_fit_coupon": {
+    "clearance_each_end_mm": [
+      0.5,
+      0.6,
+      0.7
+    ],
+    "production_choice_mm": 0.6,
+    "purpose": "verify hand insertion before reprinting the full cassette"
+  },
+  "hard_interference_mm3": {
+    "rp2040_vs_body": 0.0,
+    "power_pcb_vs_body": 0.0,
+    "lid_vs_body_assembled": 0.0
+  },
+  "unresolved_component_map": {
+    "power_underside_full_footprint_envelope_vs_body_mm3": 56.784,
+    "meaning": "Not a hard failure: support pads intentionally occupy corner zones. Measure the real underside component XY footprint before freezing pads."
+  },
+  "assembly_access": {
+    "board_insertion": "top-down, boards independent",
+    "screw_access": "four vertical M3 screws; none beneath a board",
+    "rp_usb": "open -Y wall, 0.4 mm FDM clearance each side",
+    "power_wiring": "closed +Y wall; protected 10 x 3.2 mm divider gate only"
+  },
+  "print_orientation": {
+    "body": "flat base on build plate; no support required",
+    "lid": "outer face on build plate; no support required"
+  },
+  "stop_gate": [
+    "Measure power-board PCB thickness and tallest top component before freezing lid clearance.",
+    "Confirm a 9.7 x 3.8 mm test coupon accepts the actual RP2040 USB connector/cable."
+  ]
+}
