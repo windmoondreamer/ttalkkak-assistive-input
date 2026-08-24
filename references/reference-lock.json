@@ -1,0 +1,50 @@
+{
+  "schema": 1,
+  "captured_on": "2026-08-13",
+  "analysis_baseline": {
+    "source": {
+      "repository": "https://github.com/JesusFreke/lalboard.git",
+      "ref": "v2.5.1",
+      "commit": "1fb8e6bb635c71bbfc0d4a00655aeb42aec14f5a",
+      "local_path": "references/lalboard-v2.5.1"
+    },
+    "matching_output_submodule": {
+      "repository": "https://github.com/JesusFreke/lalboard_stls.git",
+      "ref": "v2.5.1",
+      "commit": "282d61ae3a4d06d4dba2590779023b716da62b45",
+      "local_path": "references/lalboard-v2.5.1/stls"
+    }
+  },
+  "comparison_snapshots": {
+    "source_main": {
+      "repository": "https://github.com/JesusFreke/lalboard.git",
+      "commit": "eddf521062c8e6eb5e67b05d071c60f093652c0a",
+      "local_path": "references/lalboard"
+    },
+    "output_main": {
+      "repository": "https://github.com/JesusFreke/lalboard_stls.git",
+      "commit": "cfd0534cea86e86224ba42f4a193078c626f1d7f",
+      "local_path": "references/lalboard-stls-main"
+    }
+  },
+  "sha256": {
+    "source_v2.5.1": {
+      "lalboard.py": "474c0ded254f2608905cfb24692ea87ca31b1ddff452644c8ea2fa6308f6058e",
+      "parts/cluster/cluster.py": "e3b13446f98406162557e309e390323f45b84390de7d68f7e2f870c32d49deff",
+      "parts/cluster_assembly/cluster_assembly.py": "ca2b645f258f46d695ec8a138a73af9dfaf2d230da4a9c89bee32edfb8f9246c",
+      "parts/cluster_key_center/cluster_key_center.py": "b5aeb44cdbb1fd9a037c4bb52a0eb76b8b39a6ca507673c421b7f492714e3b6b",
+      "parts/cluster_key_short/cluster_key_short.py": "667fed462e40446302b2b16b1a7ab6718450c624ce4c963d511f4fae0a3e3054",
+      "parts/cluster_key_tall/cluster_key_tall.py": "b3cf5a472cdb82002ce3d70ccc453e7001577a347a35e98d5258567217c0ed55",
+      "configs/keys_etc.3mf": "3a28444f21d1d1d182d439acd04f8e08222b7f47cb4e8a50ae99cc69ffe36c67",
+      "configs/clusters.3mf": "ae86c78aae7dcccd6819d0698251d4bb0be66f2a843d40f99a48f3a37d162753"
+    },
+    "output_files_identical_at_282d61a_and_cfd0534": {
+      "cluster.3mf": "cf02042cebdb2d72c885bda499ba4a4f1fc7ba24ee4c929c7dd992271caacf55",
+      "cluster_key_center.3mf": "a9649521d264661b2fcfe2c655d7becf52de8b3d4adb658b75b4c03323f727a4",
+      "cluster_key_short.3mf": "74be7c4f5b2e7cf046d61f493ea1ccc78819f8500b42ca3ed559ba075a06b508",
+      "cluster_key_tall.3mf": "0e7218a2a10a32bb0782aa55c32868015fc342c2dcd633ad27e69576dca3d2c5",
+      "support_base.3mf": "061c57217a14954fe2ff6f0514e249dded58ca6b4930f686ef226d9ee95b283f"
+    }
+  }
+}
+
