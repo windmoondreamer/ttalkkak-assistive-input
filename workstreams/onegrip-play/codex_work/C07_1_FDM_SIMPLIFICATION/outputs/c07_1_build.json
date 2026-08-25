@@ -1,0 +1,151 @@
+{
+  "printUpWorld": [
+    0.0001818537687494954,
+    0.5984933689760226,
+    0.8011277390160307
+  ],
+  "printOrigin": [
+    -0.2205216694149583,
+    -16.6809924599881,
+    49.15574585887973
+  ],
+  "bedHeightZ": -21.669481160789424,
+  "slabBottomZ": -11.447668322196892,
+  "seatPlaneZ": {
+    "T1": -8.846002211750289,
+    "T2": -6.022545342972539,
+    "T3": -8.847668322196892,
+    "T4": -6.712234930172257,
+    "T5": -7.957417522539747,
+    "T6": -6.725346667299472,
+    "T7": -4.262462067395067,
+    "T8": -4.26840026146526
+  },
+  "slabThicknessMm": [
+    2.6,
+    7.185206254801825
+  ],
+  "columnXY": 9.6,
+  "bridgeWidth": 5.6,
+  "reliefXY": 8.6,
+  "deckTopZ": -18.669481160789424,
+  "deckThicknessMm": 3.0,
+  "deckApertureMm": 12.0,
+  "deckRadiusMm": [
+    13.613351723521886,
+    24.806785119858866
+  ],
+  "verticalWalls": 1,
+  "wallThicknessMm": 2.6,
+  "slotsCut": 16,
+  "switchCapReliefMm3": 0.0,
+  "szhRaiseMm": 5.238983096144226,
+  "deckTopAboveSkinMm": -23.993,
+  "deckCavityRadiusMm": {
+    "min": 13.613351723521886,
+    "max": 24.806785119858866
+  },
+  "screwReliefMm3": {
+    "N1_N2_SHARED_CARRIER": 4.414576361176842,
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 0.0,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "droppedFragmentsMm3": [
+    6.8400390405624485
+  ],
+  "candidate": "C07_1_SOURCE_FAITHFUL_THUMB_CORE_SIMPLIFIED",
+  "sourceAuthority": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_inner_housing_lab\\REV_I_SOURCE_FAITHFUL_THUMB_PROTOTYPE\\07_prototype\\C07_SOURCE_FAITHFUL_THUMB_CORE_REFINED.step",
+  "explicitBridgePairs": [
+    [
+      "T1",
+      "T5"
+    ],
+    [
+      "T5",
+      "T3"
+    ],
+    [
+      "T4",
+      "T2"
+    ],
+    [
+      "T2",
+      "T6"
+    ],
+    [
+      "T7",
+      "T8"
+    ],
+    [
+      "T1",
+      "T4"
+    ],
+    [
+      "T5",
+      "T2"
+    ],
+    [
+      "T3",
+      "T6"
+    ],
+    [
+      "T4",
+      "T7"
+    ],
+    [
+      "T6",
+      "T8"
+    ]
+  ],
+  "standoffs": 0,
+  "standoffsSkippedBelowBed": 0,
+  "padXY": 0.0,
+  "padChamferMm": 0.0,
+  "volumeMm3": 6694.168305815259,
+  "faces": 247,
+  "solids": 1,
+  "valid": true,
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 405.9,
+      "availMb": 4812.1
+    },
+    {
+      "stage": "slab",
+      "rssMb": 407.6,
+      "availMb": 4842.6
+    },
+    {
+      "stage": "faced",
+      "rssMb": 407.6,
+      "availMb": 4844.6
+    },
+    {
+      "stage": "deck",
+      "rssMb": 412.8,
+      "availMb": 4823.6
+    },
+    {
+      "stage": "walls",
+      "rssMb": 414.1,
+      "availMb": 4821.8
+    },
+    {
+      "stage": "guard",
+      "rssMb": 545.8,
+      "availMb": 4483.3
+    },
+    {
+      "stage": "pads",
+      "rssMb": 545.8,
+      "availMb": 4483.5
+    },
+    {
+      "stage": "clearance",
+      "rssMb": 546.5,
+      "availMb": 4467.2
+    }
+  ]
+}

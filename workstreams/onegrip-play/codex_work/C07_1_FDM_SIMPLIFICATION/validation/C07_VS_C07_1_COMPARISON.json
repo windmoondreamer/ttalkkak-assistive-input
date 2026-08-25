@@ -1,0 +1,492 @@
+{
+  "candidate": "C:\\Users\\User\\Desktop\\OneGrip-Play\\codex_work\\C07_1_FDM_SIMPLIFICATION\\outputs\\C07_1_SOURCE_FAITHFUL_THUMB_CORE_SIMPLIFIED.step",
+  "authority": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_inner_housing_lab\\REV_I_SOURCE_FAITHFUL_THUMB_PROTOTYPE\\07_prototype\\C07_SOURCE_FAITHFUL_THUMB_CORE_REFINED.step",
+  "hashes": {
+    "C07_STEP": "45BB7E3076692CC162359FC36B9CD30B0CD1A3197E2A99F906CDDA1DAA17E024",
+    "C07_1_STEP": "0A02857CEE5A31ECBC59A4D2D7D67E55FF3DFD9B5FE185D1A80641A01F189116"
+  },
+  "integrity": {
+    "solids": 1,
+    "valid": true,
+    "stlOpenEdges": 0,
+    "stlNonManifoldEdges": 0,
+    "stlSelfIntersections": 0,
+    "stlDegenerateTriangles": 0
+  },
+  "function": {
+    "switchSeatsPrintable": 8,
+    "terminalSlotsPrintable": 16,
+    "T7BearingMm2": 23.400000000000002,
+    "T8BearingMm2": 23.400000000000002,
+    "minimumSlotWidthMm": 1.3000000000000012,
+    "minimumSlotLengthMm": 6.380000000000006,
+    "mechanismIntersection": {
+      "T1": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      },
+      "T2": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      },
+      "T3": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      },
+      "T4": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      },
+      "T5": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      },
+      "T6": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      },
+      "T7": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      },
+      "T8": {
+        "bodyIntersectionMm3": 0.0,
+        "actuatorIntersectionMm3": 0.0
+      }
+    },
+    "capSeatStackAuthority": "same REV_I i06_current_core.json and frozen seat_solids inputs",
+    "capUndersideToSeatMm": 4.759,
+    "joyAxisWorld": [
+      0.0001818537687494954,
+      0.5984933689760226,
+      0.8011277390160307
+    ],
+    "joystickDeckPlaneWorldDotUpMm": 10.727046900842929,
+    "frozenMetadata": {
+      "printUpWorld": {
+        "C07": [
+          0.0001818537687494954,
+          0.5984933689760226,
+          0.8011277390160307
+        ],
+        "C07_1": [
+          0.0001818537687494954,
+          0.5984933689760226,
+          0.8011277390160307
+        ],
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "printOrigin": {
+        "C07": [
+          -0.2205216694149583,
+          -16.6809924599881,
+          49.15574585887973
+        ],
+        "C07_1": [
+          -0.2205216694149583,
+          -16.6809924599881,
+          49.15574585887973
+        ],
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "bedHeightZ": {
+        "C07": -21.669481160789424,
+        "C07_1": -21.669481160789424,
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "slabBottomZ": {
+        "C07": -11.447668322196892,
+        "C07_1": -11.447668322196892,
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "seatPlaneZ": {
+        "C07": {
+          "T1": -8.846002211750289,
+          "T2": -6.022545342972539,
+          "T3": -8.847668322196892,
+          "T4": -6.712234930172257,
+          "T5": -7.957417522539747,
+          "T6": -6.725346667299472,
+          "T7": -4.262462067395067,
+          "T8": -4.26840026146526
+        },
+        "C07_1": {
+          "T1": -8.846002211750289,
+          "T2": -6.022545342972539,
+          "T3": -8.847668322196892,
+          "T4": -6.712234930172257,
+          "T5": -7.957417522539747,
+          "T6": -6.725346667299472,
+          "T7": -4.262462067395067,
+          "T8": -4.26840026146526
+        },
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "deckTopZ": {
+        "C07": -18.669481160789424,
+        "C07_1": -18.669481160789424,
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "deckThicknessMm": {
+        "C07": 3.0,
+        "C07_1": 3.0,
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "deckApertureMm": {
+        "C07": 12.0,
+        "C07_1": 12.0,
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "szhRaiseMm": {
+        "C07": 5.238983096144226,
+        "C07_1": 5.238983096144226,
+        "maximumDelta": 0.0,
+        "unchanged": true
+      },
+      "deckTopAboveSkinMm": {
+        "C07": -23.993,
+        "C07_1": -23.993,
+        "maximumDelta": 0.0,
+        "unchanged": true
+      }
+    },
+    "deckTopUsableArea": {
+      "C07": {
+        "areaMm2": 939.0289294788731,
+        "faces": [
+          {
+            "face": 150,
+            "areaMm2": 938.820609397747
+          },
+          {
+            "face": 151,
+            "areaMm2": 0.20832008112610167
+          }
+        ]
+      },
+      "C07_1": {
+        "areaMm2": 949.8850142603992,
+        "faces": [
+          {
+            "face": 150,
+            "areaMm2": 949.8850142603992
+          }
+        ]
+      }
+    }
+  },
+  "docs101": {
+    "shellInterferenceMm3": {
+      "JaD": 0.0,
+      "JfD": 0.0
+    },
+    "fingerResults": {
+      "N1": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 425.00151902746,
+        "minClearanceMm": 0.5225454728744772,
+        "result": "MINOR LOCAL ADJUSTMENT",
+        "centerMm": [
+          -10.990443464183823,
+          -35.80002827761031,
+          25.0
+        ],
+        "pressAxis": [
+          -0.07646638594200623,
+          -0.8724593951000031,
+          -0.48266706509011453
+        ]
+      },
+      "N2": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 44.45540603501349,
+        "minClearanceMm": 2.3221253142232516,
+        "result": "MINOR LOCAL ADJUSTMENT",
+        "centerMm": [
+          5.3077624785043596e-15,
+          -35.76511909258096,
+          25.0
+        ],
+        "pressAxis": [
+          -0.043167877641508666,
+          -0.8593994790251817,
+          -0.5094792142876627
+        ]
+      },
+      "I2": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 0.0,
+        "minClearanceMm": 8.023218140840903,
+        "result": "PASS",
+        "centerMm": [
+          -15.97116502911469,
+          -26.20981698837403,
+          8.99880711855274
+        ],
+        "pressAxis": [
+          -0.43398514194613513,
+          -0.7569241977430389,
+          -0.48859252495412786
+        ]
+      },
+      "I3": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 0.0,
+        "minClearanceMm": 10.28650594337168,
+        "result": "PASS",
+        "centerMm": [
+          -5.49601708618068,
+          -29.3254261456274,
+          8.999869734286762
+        ],
+        "pressAxis": [
+          -0.08169076783987367,
+          -0.9520228437085347,
+          -0.2949222329815895
+        ]
+      },
+      "I4": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 0.0,
+        "minClearanceMm": 10.315255015620282,
+        "result": "PASS",
+        "centerMm": [
+          5.49601708618068,
+          -29.3254261456274,
+          8.999869734286762
+        ],
+        "pressAxis": [
+          0.03830075338322864,
+          -0.9556187972066135,
+          -0.2921057457765297
+        ]
+      },
+      "M3": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 0.0,
+        "minClearanceMm": 26.086261679454584,
+        "result": "PASS",
+        "centerMm": [
+          -6.890920103853075,
+          -13.71668568786225,
+          -11.11806979342742
+        ],
+        "pressAxis": [
+          -0.22425959856820332,
+          -0.7717941811500879,
+          -0.5950137598349249
+        ]
+      },
+      "M4": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 0.0,
+        "minClearanceMm": 25.919238053794473,
+        "result": "PASS",
+        "centerMm": [
+          7.379332315763718,
+          -13.575227245499876,
+          -11.115547003937289
+        ],
+        "pressAxis": [
+          0.2878365212266233,
+          -0.7441712373021486,
+          -0.6027929218399507
+        ]
+      },
+      "N3": {
+        "pocketMm3": 0.0,
+        "bodyMm3": 0.0,
+        "actuatorMm3": 0.0,
+        "terminalsMm3": 0.0,
+        "serviceCorridorMm3": 0.0,
+        "minClearanceMm": 22.038944558345666,
+        "result": "PASS",
+        "centerMm": [
+          17.48689737236422,
+          -6.664472046607768,
+          -11.125
+        ],
+        "pressAxis": [
+          0.6921593412330116,
+          -0.560207029374328,
+          -0.4550643147770151
+        ]
+      }
+    },
+    "minimumFingerClearanceMm": 0.5225454728744772,
+    "N1ClearanceMm": 0.5225454728744772,
+    "N2ClearanceMm": 2.3221253142232516,
+    "hardCollisions": 0,
+    "assembly": {
+      "sequenceAValid": true,
+      "sequenceBValid": false,
+      "clearPaths": [
+        [
+          "+U",
+          "JfD"
+        ],
+        [
+          "-U",
+          "JaD"
+        ]
+      ],
+      "blockedButtons": [
+        "N1",
+        "N2"
+      ],
+      "result": "PASS"
+    }
+  },
+  "fdm": {
+    "orientation": "JOY_AXIS_UP",
+    "heightMm": 17.624921068311114,
+    "bedContactMm2": 969.5046437146851,
+    "supportRequiredSurfaceMm2": 708.4297555007197,
+    "supportFraction": 0.10474186323461682,
+    "nonRemovableSupportRegions": 0,
+    "nonRemovableSupportAreaMm2": 0.0,
+    "criticalDeckSupportBaseMm2": 0.0,
+    "otherModelSupportBaseMm2": 1.1875,
+    "interiorAreaBelow1p2Mm2": 0.0,
+    "firstLayerComponents": 1,
+    "largestSupportRegionAreaMm2": 669.6335487136669,
+    "largestSupportRegionSpanMm": 31.434373650482534,
+    "worstOverhang": "flat carrier underside; support required but open and removable",
+    "postProcessAccess": "all measured support regions accessible; no trapped region",
+    "explicitBridgeLengths": [
+      {
+        "pair": [
+          "T1",
+          "T5"
+        ],
+        "centreDistanceMm": 10.152453693593987
+      },
+      {
+        "pair": [
+          "T5",
+          "T3"
+        ],
+        "centreDistanceMm": 10.150192841882212
+      },
+      {
+        "pair": [
+          "T4",
+          "T2"
+        ],
+        "centreDistanceMm": 10.851753841146554
+      },
+      {
+        "pair": [
+          "T2",
+          "T6"
+        ],
+        "centreDistanceMm": 10.865725347460044
+      },
+      {
+        "pair": [
+          "T7",
+          "T8"
+        ],
+        "centreDistanceMm": 16.292702220309668
+      },
+      {
+        "pair": [
+          "T1",
+          "T4"
+        ],
+        "centreDistanceMm": 10.50121564029487
+      },
+      {
+        "pair": [
+          "T5",
+          "T2"
+        ],
+        "centreDistanceMm": 11.065406810186111
+      },
+      {
+        "pair": [
+          "T3",
+          "T6"
+        ],
+        "centreDistanceMm": 10.489303475673772
+      },
+      {
+        "pair": [
+          "T4",
+          "T7"
+        ],
+        "centreDistanceMm": 12.682295138383056
+      },
+      {
+        "pair": [
+          "T6",
+          "T8"
+        ],
+        "centreDistanceMm": 12.68438922372806
+      }
+    ],
+    "longestExplicitBridgeCentreDistanceMm": 16.292702220309668
+  },
+  "complexity": {
+    "C07": {
+      "volumeMm3": 7378.019744840352,
+      "faces": 333,
+      "bridges": 16,
+      "deckWalls": 5,
+      "dynamicStandoffs": 3,
+      "edges": 1039,
+      "edgesBelow0p4Mm": 102,
+      "edgesBelow0p8Mm": 195,
+      "minimumEdgeMm": 0.00899052018833757,
+      "facesBelow0p25Mm2": 35,
+      "facesBelow1mm2": 59,
+      "minimumFaceAreaMm2": 5.005562215517206e-05
+    },
+    "C07_1": {
+      "volumeMm3": 6694.168474793864,
+      "faces": 247,
+      "bridges": 10,
+      "deckWalls": 1,
+      "dynamicStandoffs": 0,
+      "edges": 756,
+      "edgesBelow0p4Mm": 45,
+      "edgesBelow0p8Mm": 103,
+      "minimumEdgeMm": 0.00899052018833757,
+      "facesBelow0p25Mm2": 15,
+      "facesBelow1mm2": 32,
+      "minimumFaceAreaMm2": 5.005562216170973e-05
+    },
+    "commonVolumeMm3": 6296.756620672945,
+    "addedVsC07Mm3": 397.41200664555595,
+    "removedVsC07Mm3": 1081.2632731117706
+  }
+}

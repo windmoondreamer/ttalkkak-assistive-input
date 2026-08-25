@@ -1,0 +1,314 @@
+{
+  "seats": {
+    "T1": {
+      "axisWorld": [
+        0.10610574067594872,
+        0.6894150077685794,
+        0.7165532212327693
+      ],
+      "plateTopWorld": [
+        9.838595974837128,
+        10.543379606238103,
+        17.773187957119767
+      ],
+      "capUndersideWorld": [
+        10.343553194713968,
+        13.824305628208773,
+        21.183264736966517
+      ],
+      "axialShiftFromRevHMm": 5.579945647301697,
+      "bodyShellMm3": 0.0003225042063693413,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 27.83947785823909,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    },
+    "T2": {
+      "axisWorld": [
+        0.00011005948943425255,
+        0.6529192947572883,
+        0.7574274766738754
+      ],
+      "plateTopWorld": [
+        -0.2379766428436476,
+        4.055990373605669,
+        26.146320533230806
+      ],
+      "capUndersideWorld": [
+        -0.23745286973343,
+        7.163233297355603,
+        29.75091789472178
+      ],
+      "axialShiftFromRevHMm": 7.220910006019555,
+      "bodyShellMm3": 0.0,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 35.596956249612774,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    },
+    "T3": {
+      "axisWorld": [
+        -0.10610916144120486,
+        0.689444148690552,
+        0.7165246762635635
+      ],
+      "plateTopWorld": [
+        -10.33752079162284,
+        10.523746147511082,
+        17.790355615427526
+      ],
+      "capUndersideWorld": [
+        -10.842494290921534,
+        13.80481085112942,
+        21.200296549765824
+      ],
+      "axialShiftFromRevHMm": 5.57308506619289,
+      "bodyShellMm3": 0.03309403039514205,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 29.470907230349713,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    },
+    "T4": {
+      "axisWorld": [
+        0.0975379415068025,
+        0.6543290010864593,
+        0.7498932646075788
+      ],
+      "plateTopWorld": [
+        10.591614599747889,
+        3.605126223680812,
+        25.619788040846693
+      ],
+      "capUndersideWorld": [
+        11.055797663378762,
+        6.719077939851272,
+        29.18853008711416
+      ],
+      "axialShiftFromRevHMm": 6.893782428248353,
+      "bodyShellMm3": 0.0,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 34.38100307573081,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    },
+    "T5": {
+      "axisWorld": [
+        0.00011005948943406525,
+        0.6529192947572139,
+        0.7574274766739397
+      ],
+      "plateTopWorld": [
+        -0.2514130767777188,
+        11.626208035612006,
+        18.075703959077156
+      ],
+      "capUndersideWorld": [
+        -0.25088930366750206,
+        14.733450959361587,
+        21.680301320568436
+      ],
+      "axialShiftFromRevHMm": 6.0507429572859195,
+      "bodyShellMm3": 0.0,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 36.31503322896204,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    },
+    "T6": {
+      "axisWorld": [
+        -0.09733084977925645,
+        0.6538982607470087,
+        0.7502957885216235
+      ],
+      "plateTopWorld": [
+        -11.080894535921413,
+        3.5861545741401004,
+        25.622514069018806
+      ],
+      "capUndersideWorld": [
+        -11.544092050020895,
+        6.698056397035115,
+        29.193171726593214
+      ],
+      "axialShiftFromRevHMm": 6.882683199876716,
+      "bodyShellMm3": 0.0,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 31.3497022837715,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    },
+    "T7": {
+      "axisWorld": [
+        0.02222463498719436,
+        0.616872395269655,
+        0.7867493333673469
+      ],
+      "plateTopWorld": [
+        7.9150606026389,
+        -4.6637731286527675,
+        34.85569471959739
+      ],
+      "capUndersideWorld": [
+        8.020827640542958,
+        -1.7280773995644787,
+        38.59983479709259
+      ],
+      "axialShiftFromRevHMm": 8.377656691260928,
+      "bodyShellMm3": 0.0,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 11.841061882971534,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    },
+    "T8": {
+      "axisWorld": [
+        -0.021908794082782287,
+        0.616841033796886,
+        0.7867827805476092
+      ],
+      "plateTopWorld": [
+        -8.37763703431566,
+        -4.675049745532799,
+        34.86040517292659
+      ],
+      "capUndersideWorld": [
+        -8.48190098535562,
+        -1.739503265693418,
+        38.60470442555266
+      ],
+      "axialShiftFromRevHMm": 8.372092602820747,
+      "bodyShellMm3": 0.0,
+      "terminalShellMm3": 0.0,
+      "actuatorShellMm3": 0.0,
+      "terminalFreeDepthMm": 11.837028387010967,
+      "terminalNeedMm": 3.654,
+      "plateToShellOnAxisMm": NaN
+    }
+  },
+  "neighbourPairs": {},
+  "worstNeighbourMm3": 0.0,
+  "keepOutHitsByClass": {},
+  "confidentStaticMm3": 0,
+  "provisionalStaticMm3": 0,
+  "provisionalMovingEnvelopeMm3": 0,
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 405.8,
+      "availMb": 20119.4
+    },
+    {
+      "stage": "seat T1",
+      "rssMb": 417.2,
+      "availMb": 20108.4
+    },
+    {
+      "stage": "seat T2",
+      "rssMb": 415.6,
+      "availMb": 20102.9
+    },
+    {
+      "stage": "seat T3",
+      "rssMb": 416.0,
+      "availMb": 20105.9
+    },
+    {
+      "stage": "seat T4",
+      "rssMb": 419.6,
+      "availMb": 20105.9
+    },
+    {
+      "stage": "seat T5",
+      "rssMb": 425.6,
+      "availMb": 20100.7
+    },
+    {
+      "stage": "seat T6",
+      "rssMb": 421.0,
+      "availMb": 20097.5
+    },
+    {
+      "stage": "seat T7",
+      "rssMb": 426.2,
+      "availMb": 20093.2
+    },
+    {
+      "stage": "seat T8",
+      "rssMb": 429.6,
+      "availMb": 20088.0
+    },
+    {
+      "stage": "ko SZH_pcb",
+      "rssMb": 430.1,
+      "availMb": 20037.3
+    },
+    {
+      "stage": "ko SZH_gimbal",
+      "rssMb": 430.1,
+      "availMb": 20005.1
+    },
+    {
+      "stage": "ko SZH_x_pot",
+      "rssMb": 430.1,
+      "availMb": 20005.1
+    },
+    {
+      "stage": "ko SZH_y_pot",
+      "rssMb": 430.1,
+      "availMb": 20000.0
+    },
+    {
+      "stage": "ko SZH_push_switch",
+      "rssMb": 430.1,
+      "availMb": 20002.6
+    },
+    {
+      "stage": "ko SZH_shaft",
+      "rssMb": 430.1,
+      "availMb": 20061.9
+    },
+    {
+      "stage": "ko SZH_cap",
+      "rssMb": 430.1,
+      "availMb": 20071.9
+    },
+    {
+      "stage": "ko SZH_header",
+      "rssMb": 430.1,
+      "availMb": 20070.6
+    },
+    {
+      "stage": "ko SZH_MOVING_ENVELOPE_25deg",
+      "rssMb": 430.1,
+      "availMb": 20070.9
+    },
+    {
+      "stage": "ko N1_N2_SHARED_CARRIER",
+      "rssMb": 430.2,
+      "availMb": 20083.1
+    },
+    {
+      "stage": "ko ORIGINAL_SCREW_1",
+      "rssMb": 430.2,
+      "availMb": 20083.1
+    },
+    {
+      "stage": "ko ORIGINAL_SCREW_2",
+      "rssMb": 430.2,
+      "availMb": 20083.5
+    },
+    {
+      "stage": "ko ORIGINAL_SCREW_3",
+      "rssMb": 430.2,
+      "availMb": 20083.8
+    }
+  ]
+}

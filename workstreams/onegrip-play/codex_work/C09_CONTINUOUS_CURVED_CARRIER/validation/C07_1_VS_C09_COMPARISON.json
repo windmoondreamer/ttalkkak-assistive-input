@@ -1,0 +1,74 @@
+{
+  "onePieceAssembly": {
+    "C07.1": "PASS (+U/JfD or -U/JaD)",
+    "C09": "PASS"
+  },
+  "shellCollisionMm3": {
+    "C07.1": 0.0,
+    "C09": 0.0
+  },
+  "fingerCollisionMm3": {
+    "C07.1": 0.0,
+    "C09": 0.0
+  },
+  "minimumN1ClearanceMm": {
+    "C07.1": 0.522545,
+    "C09": 0.5216447496115673
+  },
+  "volumeMm3": {
+    "C07.1": 6694.168305815259,
+    "C09": 6047.074781840508
+  },
+  "faceCount": {
+    "C07.1": 247,
+    "C09": 372
+  },
+  "majorStructuralMembers": {
+    "C07.1": "10 bridges + slab + deck + wall = 13",
+    "C09": "3 curved rails + 3 cross ties + 8 supports + 2 deck walls = 16"
+  },
+  "supportRequiredAreaMm2": {
+    "C07.1": 708.4297555007197,
+    "C09": 846.3918936651303
+  },
+  "supportFraction": {
+    "C07.1": 0.10474186323461682,
+    "C09": 0.11779629495771658
+  },
+  "trappedSupportRegions": {
+    "C07.1": 0,
+    "C09": 0
+  },
+  "minimumThickness": {
+    "C07.1": "p1 1.298 mm; 0.000 mm2 below 1.20",
+    "C09": {
+      "featureNormalMinimumMm": 1.55,
+      "feature": "terminal-slot outer ligament",
+      "joyAxisDiagonalChordAreaBelow1p2Mm2": 0.8400000000000001,
+      "joyAxisChordPercentilesMm": {
+        "1": 0.6828661584295422,
+        "5": 2.199999587499942,
+        "25": 2.999998706196892,
+        "50": 3.0000001521316637,
+        "75": 3.000001784855347,
+        "95": 5.794569582796072
+      }
+    }
+  },
+  "buttonSeatViability": {
+    "C07.1": "8/8",
+    "C09": "8/8"
+  },
+  "terminalSlotViability": {
+    "C07.1": "16/16",
+    "C09": "16/16"
+  },
+  "joystickCoordination": {
+    "C07.1": "integrated source-faithful deck",
+    "C09": "integrated source-faithful-height deck; axis open"
+  },
+  "loadPath": {
+    "C07.1": "seat -> remote slab/bridges -> wall -> deck",
+    "C09": "seat -> broad support -> continuous curved ladder -> wall -> deck"
+  }
+}

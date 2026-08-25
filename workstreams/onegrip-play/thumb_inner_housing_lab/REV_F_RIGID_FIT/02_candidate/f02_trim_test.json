@@ -1,0 +1,113 @@
+{
+  "trimClearanceMm": 1.0,
+  "originalVolumeMm3": 5899.527828399211,
+  "poses": {
+    "POSE_A_CONTROL_ALIGNED": {
+      "interferenceBeforeTrimMm3": 217.83894919591242,
+      "interferenceFractionOfPlate": 0.036924810854739414,
+      "survivingVolumeMm3": 5396.580849135705,
+      "survivingFraction": 0.914747926631956,
+      "pieceCount": 9,
+      "pieceVolumesMm3": [
+        5383.083041991362,
+        6.277869363507184,
+        2.128740369095715,
+        1.2550438056355246,
+        1.1784754592932818,
+        1.0996409346867813,
+        0.9438062449264821,
+        0.3077613484586367,
+        0.306469618739648
+      ],
+      "planAreaMm2": 1914.1875,
+      "loadZones": {
+        "LEFT": {
+          "survivingAreaMm2": 101.4375,
+          "footprintMm2": 150.5625,
+          "originalTargetMm2": 71.69
+        },
+        "RIGHT": {
+          "survivingAreaMm2": 36.375,
+          "footprintMm2": 54.6875,
+          "originalTargetMm2": 23.38
+        }
+      },
+      "controlSeatCoverage": {
+        "JOY": 0.0,
+        "T1": 0.7792,
+        "T2": 0.6544,
+        "T3": 0.7792,
+        "T4": 0.6544,
+        "T5": 0.64,
+        "T6": 0.6544,
+        "T7": 0.6688,
+        "T8": 0.6688
+      }
+    },
+    "POSE_B_TRANSLATION_ONLY": {
+      "interferenceBeforeTrimMm3": 654.9985071623859,
+      "interferenceFractionOfPlate": 0.11102558140489599,
+      "survivingVolumeMm3": 4834.366649625829,
+      "survivingFraction": 0.8194497577168978,
+      "pieceCount": 10,
+      "pieceVolumesMm3": [
+        4755.385709655371,
+        25.913602751697518,
+        17.049833275239322,
+        14.145562695509945,
+        8.125468824852959,
+        6.968417606646108,
+        4.575690722442614,
+        2.1946507341474475,
+        0.006944300408650527,
+        0.0007690595139007426
+      ],
+      "planAreaMm2": 1704.9375,
+      "loadZones": {
+        "LEFT": {
+          "survivingAreaMm2": 53.9375,
+          "footprintMm2": 150.5625,
+          "originalTargetMm2": 71.69
+        },
+        "RIGHT": {
+          "survivingAreaMm2": 18.875,
+          "footprintMm2": 54.6875,
+          "originalTargetMm2": 23.38
+        }
+      },
+      "controlSeatCoverage": {
+        "JOY": 0.0,
+        "T1": 0.7616,
+        "T2": 0.6544,
+        "T3": 0.7888,
+        "T4": 0.6544,
+        "T5": 0.6544,
+        "T6": 0.6528,
+        "T7": 0.64,
+        "T8": 0.64
+      }
+    }
+  },
+  "memory": [
+    {
+      "stage": "approved shell",
+      "rssMb": 418.6,
+      "availMb": 18820.5
+    },
+    {
+      "stage": "loaded",
+      "rssMb": 426.1,
+      "availMb": 18802.1
+    },
+    {
+      "stage": "trim POSE_A_CONTROL_ALIGNED",
+      "rssMb": 647.9,
+      "availMb": 18410.2
+    },
+    {
+      "stage": "trim POSE_B_TRANSLATION_ONLY",
+      "rssMb": 541.3,
+      "availMb": 19010.6
+    }
+  ]
+}

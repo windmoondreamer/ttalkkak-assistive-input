@@ -1,0 +1,296 @@
+{
+  "radiusMm": 40.0,
+  "fingerKeepMm": 12.0,
+  "method": "exact ray first-hit comparison on the outer skin",
+  "rejectedMethod": "nearest-neighbour between two independent surface samplings -- measures sample spacing, gave p50 0.090 mm even against a shell certified unchanged",
+  "firstHitDeltas": {
+    "docs101_shell": {
+      "probes": 736,
+      "bothHit": 730,
+      "oneSideOnly": 4,
+      "firstHitDeltaMm": {
+        "50": 2.533084852984757e-12,
+        "90": 0.027497290627916036,
+        "99": 10.090814576313477
+      },
+      "firstHitMaxMm": 15.558795314161074,
+      "exactZeroFraction": 0.7287671232876712
+    },
+    "docs101_bare_base": {
+      "probes": 736,
+      "bothHit": 733,
+      "oneSideOnly": 1,
+      "firstHitDeltaMm": {
+        "50": 0.0,
+        "90": 0.019398782299114715,
+        "99": 9.48706378170596
+      },
+      "firstHitMaxMm": 15.557392514911427,
+      "exactZeroFraction": 0.7844474761255116
+    }
+  },
+  "axisBoundaryAttribution": {
+    "JOY": {
+      "movedBoundariesMm": [
+        -31.912,
+        -28.687
+      ],
+      "nearestFinger": [
+        {
+          "button": "N2",
+          "distanceMm": 0.9343054263255447
+        },
+        {
+          "button": "N2",
+          "distanceMm": 2.9895797609812433
+        }
+      ]
+    },
+    "T1": {
+      "movedBoundariesMm": [
+        -39.55,
+        -37.876,
+        -36.619,
+        -29.726
+      ],
+      "nearestFinger": [
+        {
+          "button": "M4",
+          "distanceMm": 3.05700096690578
+        },
+        {
+          "button": "M4",
+          "distanceMm": 3.448594492680037
+        },
+        {
+          "button": "M4",
+          "distanceMm": 4.182106589084016
+        },
+        {
+          "button": "M4",
+          "distanceMm": 10.215740107779487
+        }
+      ]
+    },
+    "T2": {
+      "movedBoundariesMm": [
+        -35.515,
+        -38.566,
+        -38.593,
+        -35.522
+      ],
+      "nearestFinger": [
+        {
+          "button": "M3",
+          "distanceMm": 13.416444271995744
+        },
+        {
+          "button": "M3",
+          "distanceMm": 12.786232654485957
+        },
+        {
+          "button": "M3",
+          "distanceMm": 12.783767703748909
+        },
+        {
+          "button": "M3",
+          "distanceMm": 13.414238036722075
+        }
+      ]
+    },
+    "T3": {
+      "movedBoundariesMm": [
+        -31.547,
+        -31.341,
+        -39.394,
+        -37.604,
+        -36.697,
+        -35.426
+      ],
+      "nearestFinger": [
+        {
+          "button": "M3",
+          "distanceMm": 8.536527259505977
+        },
+        {
+          "button": "M3",
+          "distanceMm": 8.732621364039199
+        },
+        {
+          "button": "M3",
+          "distanceMm": 2.6588493471780588
+        },
+        {
+          "button": "M3",
+          "distanceMm": 3.3522985091403896
+        },
+        {
+          "button": "M3",
+          "distanceMm": 3.9744486117773055
+        },
+        {
+          "button": "M3",
+          "distanceMm": 4.9952158817611965
+        }
+      ]
+    },
+    "T4": {
+      "movedBoundariesMm": [
+        -38.025,
+        -38.016,
+        -34.935,
+        -34.944
+      ],
+      "nearestFinger": [
+        {
+          "button": "M4",
+          "distanceMm": 11.331763622052062
+        },
+        {
+          "button": "M4",
+          "distanceMm": 11.333061812682212
+        },
+        {
+          "button": "M4",
+          "distanceMm": 12.166805007779086
+        },
+        {
+          "button": "M4",
+          "distanceMm": 12.163316276135587
+        }
+      ]
+    },
+    "T5": {
+      "movedBoundariesMm": [
+        -40.492,
+        -37.399,
+        -37.391,
+        -37.815
+      ],
+      "nearestFinger": [
+        {
+          "button": "M3",
+          "distanceMm": 6.6887338946114445
+        },
+        {
+          "button": "M3",
+          "distanceMm": 7.047401886302062
+        },
+        {
+          "button": "M3",
+          "distanceMm": 7.050065547026158
+        },
+        {
+          "button": "M3",
+          "distanceMm": 6.920232083598288
+        }
+      ]
+    },
+    "T6": {
+      "movedBoundariesMm": [
+        -31.924,
+        -34.827
+      ],
+      "nearestFinger": [
+        {
+          "button": "M3",
+          "distanceMm": 13.64506808387704
+        },
+        {
+          "button": "M3",
+          "distanceMm": 12.187180764360168
+        }
+      ]
+    },
+    "T7": {
+      "movedBoundariesMm": [
+        -36.015,
+        -34.283,
+        -24.691,
+        -24.394,
+        -23.325,
+        -21.304
+      ],
+      "nearestFinger": [
+        {
+          "button": "I4",
+          "distanceMm": 4.120590192587596
+        },
+        {
+          "button": "I4",
+          "distanceMm": 3.8371102359344005
+        },
+        {
+          "button": "I4",
+          "distanceMm": 10.528537121398006
+        },
+        {
+          "button": "I4",
+          "distanceMm": 10.805717300562664
+        },
+        {
+          "button": "I4",
+          "distanceMm": 11.811357040457334
+        },
+        {
+          "button": "I4",
+          "distanceMm": 13.738738903245071
+        }
+      ]
+    },
+    "T8": {
+      "movedBoundariesMm": [
+        -35.935,
+        -34.613,
+        -33.131,
+        -29.983,
+        -27.781,
+        -23.566
+      ],
+      "nearestFinger": [
+        {
+          "button": "I3",
+          "distanceMm": 4.2811160935737576
+        },
+        {
+          "button": "I3",
+          "distanceMm": 4.04012826965827
+        },
+        {
+          "button": "I3",
+          "distanceMm": 4.269677350252619
+        },
+        {
+          "button": "I3",
+          "distanceMm": 6.071015630702108
+        },
+        {
+          "button": "I3",
+          "distanceMm": 7.852860859533576
+        },
+        {
+          "button": "I3",
+          "distanceMm": 11.670731735424214
+        }
+      ]
+    }
+  },
+  "registrationConfidence": "LOW",
+  "memory": [
+    {
+      "stage": "tris",
+      "rssMb": 413.1,
+      "availMb": 16390.1
+    },
+    {
+      "stage": "docs101_shell",
+      "rssMb": 422.7,
+      "availMb": 16390.4
+    },
+    {
+      "stage": "docs101_bare_base",
+      "rssMb": 428.1,
+      "availMb": 16365.5
+    }
+  ]
+}

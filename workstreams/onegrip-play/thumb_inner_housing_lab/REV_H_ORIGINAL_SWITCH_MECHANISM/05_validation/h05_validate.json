@@ -1,0 +1,138 @@
+{
+  "solids": 1,
+  "valid": true,
+  "volumeMm3": 1224.9718611014484,
+  "faces": 272,
+  "shellInterferenceMm3": 0.0,
+  "seats": {
+    "T1": {
+      "bearingAreaMm2": 25.530000000000005,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.6998048331213544,
+      "openSlots": 2,
+      "verdict": "OK"
+    },
+    "T2": {
+      "bearingAreaMm2": 25.550000000000004,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.7003530546905838,
+      "openSlots": 2,
+      "verdict": "OK"
+    },
+    "T3": {
+      "bearingAreaMm2": 25.570000000000004,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.7009012762598132,
+      "openSlots": 2,
+      "verdict": "OK"
+    },
+    "T4": {
+      "bearingAreaMm2": 25.660000000000004,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.7033682733213457,
+      "openSlots": 2,
+      "verdict": "OK"
+    },
+    "T5": {
+      "bearingAreaMm2": 25.440000000000005,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.697337836059822,
+      "openSlots": 2,
+      "verdict": "OK"
+    },
+    "T6": {
+      "bearingAreaMm2": 25.610000000000007,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.7019977193982722,
+      "openSlots": 2,
+      "verdict": "OK"
+    },
+    "T7": {
+      "bearingAreaMm2": 0.0,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.0,
+      "openSlots": 2,
+      "verdict": "LOST"
+    },
+    "T8": {
+      "bearingAreaMm2": 0.0,
+      "fullFootprintMm2": 36.4816,
+      "bearingFraction": 0.0,
+      "openSlots": 2,
+      "verdict": "LOST"
+    }
+  },
+  "planAreaMm2": 568.6800000000001,
+  "thicknessPercentiles": {
+    "25": 2.01883098079412,
+    "50": 2.139816656078021,
+    "75": 2.3590922389667552
+  },
+  "areaBelowMinWallMm2": 23.840000000000003,
+  "areaBelowPrefWallMm2": 33.60000000000001,
+  "minThicknessMm": 0.0010717555475685536,
+  "interiorThinMm2": 0.0,
+  "keepOutMm3": {
+    "SZH_pcb": 0.0,
+    "SZH_gimbal": 0.0,
+    "SZH_x_pot": 0.0,
+    "SZH_y_pot": 0.0,
+    "SZH_push_switch": 0.0,
+    "SZH_shaft": 0.0,
+    "SZH_cap": 0.0,
+    "SZH_header": 0.0,
+    "SZH_MOVING_ENVELOPE_25deg": 0.0,
+    "N1_N2_SHARED_CARRIER": 0.0,
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 0.0,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "harnessCorridorMm3": 0.0,
+  "memory": [
+    {
+      "stage": "approved shell",
+      "rssMb": 416.2,
+      "availMb": 19567.8
+    },
+    {
+      "stage": "seat T1",
+      "rssMb": 428.7,
+      "availMb": 19542.8
+    },
+    {
+      "stage": "seat T2",
+      "rssMb": 429.0,
+      "availMb": 19539.8
+    },
+    {
+      "stage": "seat T3",
+      "rssMb": 429.0,
+      "availMb": 19539.0
+    },
+    {
+      "stage": "seat T4",
+      "rssMb": 429.0,
+      "availMb": 19539.0
+    },
+    {
+      "stage": "seat T5",
+      "rssMb": 429.0,
+      "availMb": 19539.2
+    },
+    {
+      "stage": "seat T6",
+      "rssMb": 429.0,
+      "availMb": 19541.9
+    },
+    {
+      "stage": "seat T7",
+      "rssMb": 429.0,
+      "availMb": 19539.3
+    },
+    {
+      "stage": "seat T8",
+      "rssMb": 429.0,
+      "availMb": 19538.6
+    }
+  ]
+}

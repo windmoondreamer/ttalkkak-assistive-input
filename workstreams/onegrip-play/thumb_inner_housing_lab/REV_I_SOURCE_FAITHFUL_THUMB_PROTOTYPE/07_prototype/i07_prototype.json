@@ -1,0 +1,82 @@
+{
+  "islandMm": 9.0,
+  "webWidthMm": 4.0,
+  "webThicknessMm": 2.6,
+  "plateThicknessMm": 2.003,
+  "deckThicknessMm": 2.5,
+  "deckApertureMm": 12.0,
+  "knobEngagementMm": 6.0,
+  "deckCavityRadiusMm": {
+    "min": 13.579446167195794,
+    "median": 19.85020656632048,
+    "max": 24.84422231890783
+  },
+  "szhRaiseMm": 5.238983096144226,
+  "deckTopAboveSkinMm": -23.993059547706267,
+  "provisionalPcbFootprintMm": [
+    35.324282092631194,
+    30.023165483781618
+  ],
+  "provisionalPcbShellOverlapMm3": 175.88128528260722,
+  "webs": 26,
+  "deckLinks": 5,
+  "slotsCut": 16,
+  "switchPocketReliefMm3": 172.00683613407455,
+  "confidentStaticRemovedMm3": {
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 116.55945794275613,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "standoffs": 2,
+  "volumeMm3": 5285.472778177027,
+  "faces": 542,
+  "solids": 1,
+  "valid": true,
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 429.8,
+      "availMb": 18943.3
+    },
+    {
+      "stage": "islands",
+      "rssMb": 430.9,
+      "availMb": 18943.3
+    },
+    {
+      "stage": "webs",
+      "rssMb": 434.9,
+      "availMb": 18951.1
+    },
+    {
+      "stage": "deck",
+      "rssMb": 448.2,
+      "availMb": 18897.9
+    },
+    {
+      "stage": "links",
+      "rssMb": 453.4,
+      "availMb": 18894.1
+    },
+    {
+      "stage": "slots",
+      "rssMb": 456.9,
+      "availMb": 18875.2
+    },
+    {
+      "stage": "pockets",
+      "rssMb": 457.2,
+      "availMb": 18668.5
+    },
+    {
+      "stage": "static ko",
+      "rssMb": 460.7,
+      "availMb": 18512.7
+    },
+    {
+      "stage": "guard",
+      "rssMb": 827.4,
+      "availMb": 18166.0
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "schema": "onegrip-direct-embedded-two-object-print-plate-v1",
+  "generatedAtUtc": "2026-08-25T13:20:32.753593+00:00",
+  "architecture": {
+    "fused": false,
+    "meshObjectCount": 2,
+    "buildItemCount": 2,
+    "independentObjects": [
+      "JaD",
+      "JfD"
+    ],
+    "gapMm": 12.0
+  },
+  "plate": {
+    "bedMm": [
+      256.0,
+      256.0
+    ],
+    "dimensionsMm": [
+      89.54949951171906,
+      123.85934448242188,
+      152.13475036621094
+    ],
+    "bedFit": true,
+    "minimumZMm": 0.0,
+    "maximumZMm": 152.13475036621094,
+    "translationsMm": {
+      "JaD": [
+        6.0000000000001545,
+        -0.4987678527832031,
+        73.87850952148438
+      ],
+      "JfD": [
+        -6.0000000000001545,
+        -0.4978179931640625,
+        73.87850952148438
+      ]
+    }
+  },
+  "threeMfValidation": {
+    "meshObjectCount": 2,
+    "buildItemCount": 2,
+    "unit": "1",
+    "objects": {
+      "JaD": {
+        "objectName": "ONEGRIP_DIRECT_EMBEDDED_JaD",
+        "vertexCount": 15363,
+        "triangleCount": 30758,
+        "manifoldAndOriented": true
+      },
+      "JfD": {
+        "objectName": "ONEGRIP_DIRECT_EMBEDDED_JfD",
+        "vertexCount": 16224,
+        "triangleCount": 32476,
+        "manifoldAndOriented": true
+      }
+    },
+    "separateObjectsConfirmed": true
+  },
+  "stlValidation": {
+    "JaD": {
+      "path": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JaD_PLATE_ORIENTED.stl",
+      "bytes": 1537984,
+      "unit": "millimeter",
+      "triangleCount": 30758,
+      "uniqueVertexCount": 15363,
+      "boundaryEdgeCount": 0,
+      "nonManifoldEdgeCount": 0,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "boundingBoxMm": {
+        "min": [
+          6.0,
+          -61.9287223815918,
+          0.0
+        ],
+        "max": [
+          44.77210998535156,
+          61.9287223815918,
+          152.1339111328125
+        ],
+        "size": [
+          38.77210998535156,
+          123.8574447631836,
+          152.1339111328125
+        ]
+      }
+    },
+    "JfD": {
+      "path": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JfD_PLATE_ORIENTED.stl",
+      "bytes": 1623884,
+      "unit": "millimeter",
+      "triangleCount": 32476,
+      "uniqueVertexCount": 16224,
+      "boundaryEdgeCount": 0,
+      "nonManifoldEdgeCount": 0,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "boundingBoxMm": {
+        "min": [
+          -44.77738952636719,
+          -61.92967224121094,
+          0.0
+        ],
+        "max": [
+          -6.0,
+          61.92967224121094,
+          152.13475036621094
+        ],
+        "size": [
+          38.77738952636719,
+          123.85934448242188,
+          152.13475036621094
+        ]
+      }
+    }
+  },
+  "preservation": {
+    "sourceBefore": {
+      "JaD": "A18A3EC17A212A4F5EB6BBB268B8EAA822331E413B02933019B64E901DD306EB",
+      "JfD": "FDE8EEE1ADAD2DB665668CDEE91B6A236EA9D1BCF0A06B53C745D58713CDE1AB"
+    },
+    "sourceAfter": {
+      "JaD": "A18A3EC17A212A4F5EB6BBB268B8EAA822331E413B02933019B64E901DD306EB",
+      "JfD": "FDE8EEE1ADAD2DB665668CDEE91B6A236EA9D1BCF0A06B53C745D58713CDE1AB"
+    },
+    "sourceUnchanged": true
+  },
+  "outputs": {
+    "twoObject3mf": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JaD_JfD_TWO_OBJECT_PLATE.3mf",
+    "JaDIndependentStl": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JaD_PLATE_ORIENTED.stl",
+    "JfDIndependentStl": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JfD_PLATE_ORIENTED.stl",
+    "preview": "renders/direct_embedded_finger_switch_final_candidate/11_jad_jfd_two_object_print_plate.png",
+    "manifest": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/two_object_print_plate_manifest.json"
+  }
+}

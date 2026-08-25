@@ -1,0 +1,25 @@
+{
+  "coreInsertion": {
+    "core_insert_along -JOY axis (into the cavity)": {
+      "vsFingerSwitchesMm3": 496.58632798220737
+    },
+    "core_insert_along +U (JaD side)": {
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "core_insert_along -U (JfD side)": {
+      "vsFingerSwitchesMm3": 0.0
+    }
+  },
+  "fingerWithdrawalVsCore": {
+    "I2": 0.0,
+    "I3": 0.0,
+    "I4": 0.0,
+    "M3": 0.0,
+    "M4": 0.0,
+    "N1": 425.0015190272811,
+    "N2": 44.45540603501568,
+    "N3": 0.0
+  },
+  "sequenceAValid": false,
+  "sequenceBValid": false
+}

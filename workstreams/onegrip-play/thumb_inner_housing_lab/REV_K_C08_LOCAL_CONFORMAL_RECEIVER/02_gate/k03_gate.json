@@ -1,0 +1,261 @@
+{
+  "gates": [
+    {
+      "gate": "single valid solid",
+      "pass": true,
+      "detail": "1 solid(s), valid=True, vol 698.285 mm3, 39 faces"
+    },
+    {
+      "gate": "frozen centre preserved",
+      "pass": true,
+      "detail": "receiver built on the frozen axis, error 0.0000 mm"
+    },
+    {
+      "gate": "frozen press axis preserved",
+      "pass": true,
+      "detail": "seat plane normal IS the frozen axis, 0.0000 deg"
+    },
+    {
+      "gate": "switch bearing area",
+      "pass": true,
+      "detail": "23.79 mm2 = 65.2% of the 6.04 x 6.04 footprint"
+    },
+    {
+      "gate": "terminal escape",
+      "pass": true,
+      "detail": "2 of 2 slots open, 35.612 mm free below the seat (need 3.654)"
+    },
+    {
+      "gate": "cap protrusion preserved",
+      "pass": true,
+      "detail": "cap column blocked by 0.0000 mm of receiver; protrusion law 1.066 mm unchanged"
+    },
+    {
+      "gate": "shell unintended penetration",
+      "pass": true,
+      "detail": "0.000000 mm3"
+    },
+    {
+      "gate": "docs/101 Finger interference",
+      "pass": true,
+      "detail": "max 0.000000 mm3; nearest Finger I2 at 23.985 mm"
+    },
+    {
+      "gate": "N1 / N2 clearance",
+      "pass": true,
+      "detail": "N1 26.479 mm, N2 26.102 mm"
+    },
+    {
+      "gate": "static provisional SZH interference",
+      "pass": true,
+      "detail": "max 0.000000 mm3 over 8 static parts"
+    },
+    {
+      "gate": "switch installable down its bore",
+      "pass": true,
+      "detail": "0.0000 mm3 obstruction withdrawing 12 mm outward"
+    },
+    {
+      "gate": "receiver placeable into an open half",
+      "pass": true,
+      "detail": "swept 25 mm: +U 2704.2 mm3, -U 2752.6 mm3 against BOTH halves closed"
+    },
+    {
+      "gate": "plausible FDM orientation",
+      "pass": true,
+      "detail": "JOY_AXIS_UP: bed 14.9 mm2, support 113.2 mm2 (12.4% of 917 mm2)"
+    },
+    {
+      "gate": "structural thickness",
+      "pass": true,
+      "detail": "interior p2 2.339  p25 3.961  p50 7.194 mm, 0.0% below 1.20 (raw incl. edges: p2 0.052, 14.6% below)"
+    },
+    {
+      "gate": "single valid solid",
+      "pass": true,
+      "detail": "1 solid(s), valid=True, vol 711.844 mm3, 39 faces"
+    },
+    {
+      "gate": "frozen centre preserved",
+      "pass": true,
+      "detail": "receiver built on the frozen axis, error 0.0000 mm"
+    },
+    {
+      "gate": "frozen press axis preserved",
+      "pass": true,
+      "detail": "seat plane normal IS the frozen axis, 0.0000 deg"
+    },
+    {
+      "gate": "switch bearing area",
+      "pass": true,
+      "detail": "23.79 mm2 = 65.2% of the 6.04 x 6.04 footprint"
+    },
+    {
+      "gate": "terminal escape",
+      "pass": true,
+      "detail": "2 of 2 slots open, 11.837 mm free below the seat (need 3.654)"
+    },
+    {
+      "gate": "cap protrusion preserved",
+      "pass": true,
+      "detail": "cap column blocked by 0.0000 mm of receiver; protrusion law 1.211 mm unchanged"
+    },
+    {
+      "gate": "shell unintended penetration",
+      "pass": true,
+      "detail": "0.000000 mm3"
+    },
+    {
+      "gate": "docs/101 Finger interference",
+      "pass": true,
+      "detail": "max 0.000000 mm3; nearest Finger N1 at 19.047 mm"
+    },
+    {
+      "gate": "N1 / N2 clearance",
+      "pass": true,
+      "detail": "N1 19.047 mm, N2 19.330 mm"
+    },
+    {
+      "gate": "static provisional SZH interference",
+      "pass": true,
+      "detail": "max 0.000000 mm3 over 8 static parts"
+    },
+    {
+      "gate": "switch installable down its bore",
+      "pass": true,
+      "detail": "0.0000 mm3 obstruction withdrawing 12 mm outward"
+    },
+    {
+      "gate": "receiver placeable into an open half",
+      "pass": true,
+      "detail": "swept 25 mm: +U 277.0 mm3, -U 2771.1 mm3 against BOTH halves closed"
+    },
+    {
+      "gate": "plausible FDM orientation",
+      "pass": true,
+      "detail": "JOY_AXIS_UP: bed 58.8 mm2, support 55.1 mm2 (6.1% of 907 mm2)"
+    },
+    {
+      "gate": "structural thickness",
+      "pass": true,
+      "detail": "interior p2 2.176  p25 3.809  p50 6.926 mm, 0.0% below 1.20 (raw incl. edges: p2 0.099, 14.3% below)"
+    }
+  ],
+  "pass": 28,
+  "fail": 0,
+  "receivers": {
+    "T2": {
+      "role": "EASY",
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 35.61238969447609,
+      "shellMm3": 0.0,
+      "fingerMm3": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 0.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "N1": 0.0,
+        "N2": 0.0,
+        "N3": 0.0
+      },
+      "fingerClearanceMm": {
+        "I2": 23.985135130774317,
+        "I3": 24.71865862673379,
+        "I4": 24.786579272182124,
+        "M3": 28.974254924605212,
+        "M4": 28.831666414592455,
+        "N1": 26.479279366295916,
+        "N2": 26.102044253051158,
+        "N3": 27.66190848107478
+      },
+      "szhStaticMm3": {
+        "SZH_pcb": 0.0,
+        "SZH_gimbal": 0.0,
+        "SZH_x_pot": 0.0,
+        "SZH_y_pot": 0.0,
+        "SZH_push_switch": 0.0,
+        "SZH_shaft": 0.0,
+        "SZH_cap": 0.0,
+        "SZH_header": 0.0
+      },
+      "szhProvisionalMm3": {
+        "SZH_MOVING_ENVELOPE_25deg": 0.0
+      },
+      "switchInsertObstructionMm3": 0.0,
+      "supportFraction": 0.12354712312001763,
+      "thicknessP2Mm": 2.3394881264774323,
+      "volumeMm3": 698.2845075331245,
+      "faces": 39
+    },
+    "T8": {
+      "role": "HARD",
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 11.836699620395587,
+      "shellMm3": 0.0,
+      "fingerMm3": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 0.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "N1": 0.0,
+        "N2": 0.0,
+        "N3": 0.0
+      },
+      "fingerClearanceMm": {
+        "I2": 21.827182009623417,
+        "I3": 24.67569345921313,
+        "I4": 25.547953882281043,
+        "M3": 34.36254575224984,
+        "M4": 36.11722190106917,
+        "N1": 19.047075683953924,
+        "N2": 19.329794878247153,
+        "N3": 38.0917155200548
+      },
+      "szhStaticMm3": {
+        "SZH_pcb": 0.0,
+        "SZH_gimbal": 0.0,
+        "SZH_x_pot": 0.0,
+        "SZH_y_pot": 0.0,
+        "SZH_push_switch": 0.0,
+        "SZH_shaft": 0.0,
+        "SZH_cap": 0.0,
+        "SZH_header": 0.0
+      },
+      "szhProvisionalMm3": {
+        "SZH_MOVING_ENVELOPE_25deg": 238.43203833917138
+      },
+      "switchInsertObstructionMm3": 0.0,
+      "supportFraction": 0.06069511032180524,
+      "thicknessP2Mm": 2.175685118779379,
+      "volumeMm3": 711.8440491167443,
+      "faces": 39
+    }
+  },
+  "verdict": "PASS",
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 498.2,
+      "availMb": 10627.1
+    },
+    {
+      "stage": "keepouts",
+      "rssMb": 537.2,
+      "availMb": 10567.3
+    },
+    {
+      "stage": "gate T2",
+      "rssMb": 769.8,
+      "availMb": 10200.1
+    },
+    {
+      "stage": "gate T8",
+      "rssMb": 785.9,
+      "availMb": 11920.1
+    }
+  ]
+}

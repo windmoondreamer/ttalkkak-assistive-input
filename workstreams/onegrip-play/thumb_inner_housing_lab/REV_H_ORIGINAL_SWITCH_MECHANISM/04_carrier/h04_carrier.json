@@ -1,0 +1,63 @@
+{
+  "islandMm": 11.0,
+  "webWidthMm": 4.0,
+  "plateThicknessMm": 2.003,
+  "slotOffsetMm": 2.6,
+  "slotMm": [
+    1.3,
+    6.4
+  ],
+  "slotsCut": 16,
+  "keepOuts": {
+    "SZH_pcb": 0.0,
+    "SZH_gimbal": 0.0,
+    "SZH_x_pot": 0.0,
+    "SZH_y_pot": 0.0,
+    "SZH_push_switch": 0.0,
+    "SZH_shaft": 0.0,
+    "SZH_cap": 0.0,
+    "SZH_header": 0.0,
+    "SZH_MOVING_ENVELOPE_25deg": 504.10103553498396,
+    "N1_N2_SHARED_CARRIER": 0.0,
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 0.0,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "droppedChipsMm3": [
+    43.03754922254999
+  ],
+  "volumeMm3": 1224.971861101715,
+  "faces": 272,
+  "solids": 1,
+  "shellGapPercentiles": {
+    "5": 8.904467870538822,
+    "25": 10.433879306523174,
+    "50": 11.181401896996851,
+    "75": 12.315305062071092,
+    "95": 12.6959077341386
+  },
+  "shellGapMinMm": 7.630073967629549,
+  "connectionRegions": [],
+  "memory": [
+    {
+      "stage": "approved shell",
+      "rssMb": 413.3,
+      "availMb": 19477.0
+    },
+    {
+      "stage": "islands",
+      "rssMb": 420.1,
+      "availMb": 19474.7
+    },
+    {
+      "stage": "webs",
+      "rssMb": 427.5,
+      "availMb": 19449.4
+    },
+    {
+      "stage": "slots",
+      "rssMb": 433.5,
+      "availMb": 19470.5
+    }
+  ]
+}

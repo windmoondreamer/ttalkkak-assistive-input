@@ -1,0 +1,308 @@
+{
+  "capToPlateMm": 4.759,
+  "plateThicknessMm": 2.003,
+  "buttons": {
+    "T1": {
+      "tiltDeg": 9.36199934380265,
+      "axisWorld": [
+        0.10610574067594872,
+        0.6894150077685794,
+        0.7165532212327693
+      ],
+      "capCentreWorld": [
+        10.037608863672407,
+        11.836452642893528,
+        19.117161672898966
+      ],
+      "currentSkinOnAxisMm": 6.4636749690903565,
+      "targetProtrusionMm": 1.3851914328717245,
+      "axialShiftOutwardMm": 5.579945647301697,
+      "newCapTopAboveSkinMm": 1.385191432871725,
+      "newCapUndersideAboveSkinMm": -3.5802840319691827,
+      "newPlateTopAboveSkinMm": -8.339284031969182,
+      "newPlateTopWorld": [
+        9.838595974837126,
+        10.543379606238105,
+        17.773187957119767
+      ],
+      "newCapUndersideWorld": [
+        10.343553194713968,
+        13.824305628208773,
+        21.183264736966517
+      ],
+      "capShellInterferenceMm3": 3.2828073506948225,
+      "freeDepthBelowPlateTopMm": 27.839477858239096
+    },
+    "T2": {
+      "tiltDeg": 3.999999999987366,
+      "axisWorld": [
+        0.00011005948943425255,
+        0.6529192947572883,
+        0.7574274766738754
+      ],
+      "capCentreWorld": [
+        -0.2379850262735322,
+        4.0062563328969825,
+        26.088625915747066
+      ],
+      "currentSkinOnAxisMm": 8.531683098056334,
+      "targetProtrusionMm": 1.0655054484294402,
+      "axialShiftOutwardMm": 7.220910006019555,
+      "newCapTopAboveSkinMm": 1.0655054484294428,
+      "newCapUndersideAboveSkinMm": -3.696511293810339,
+      "newPlateTopAboveSkinMm": -8.45551129381034,
+      "newPlateTopWorld": [
+        -0.2379766428436476,
+        4.055990373605668,
+        26.146320533230806
+      ],
+      "newCapUndersideWorld": [
+        -0.23745286973343,
+        7.163233297355603,
+        29.75091789472178
+      ],
+      "capShellInterferenceMm3": 0.8934870821947698,
+      "freeDepthBelowPlateTopMm": 35.59695624961277
+    },
+    "T3": {
+      "tiltDeg": 9.37749111258268,
+      "axisWorld": [
+        -0.10610916144120486,
+        0.689444148690552,
+        0.7165246762635635
+      ],
+      "capCentreWorld": [
+        -10.536737107884521,
+        11.818153922530653,
+        19.135606153430455
+      ],
+      "currentSkinOnAxisMm": 6.383806569551395,
+      "targetProtrusionMm": 1.4589306709174288,
+      "axialShiftOutwardMm": 5.57308506619289,
+      "newCapTopAboveSkinMm": 1.4589306709174306,
+      "newCapUndersideAboveSkinMm": -3.5022723185580618,
+      "newPlateTopAboveSkinMm": -8.261272318558062,
+      "newPlateTopWorld": [
+        -10.33752079162284,
+        10.523746147511082,
+        17.790355615427526
+      ],
+      "newCapUndersideWorld": [
+        -10.842494290921534,
+        13.80481085112942,
+        21.200296549765824
+      ],
+      "capShellInterferenceMm3": 7.305169073211635,
+      "freeDepthBelowPlateTopMm": 29.470907230349713
+    },
+    "T4": {
+      "tiltDeg": 7.0732196363406,
+      "axisWorld": [
+        0.0975379415068025,
+        0.6543290010864593,
+        0.7498932646075788
+      ],
+      "capCentreWorld": [
+        10.646092285727455,
+        3.9705873898468615,
+        26.03862453827918
+      ],
+      "currentSkinOnAxisMm": 8.026088089218339,
+      "targetProtrusionMm": 1.2909270693328163,
+      "axialShiftOutwardMm": 6.893782428248353,
+      "newCapTopAboveSkinMm": 1.2909270693328168,
+      "newCapUndersideAboveSkinMm": -3.8256162387566164,
+      "newPlateTopAboveSkinMm": -8.584616238756617,
+      "newPlateTopWorld": [
+        10.591614599747889,
+        3.605126223680812,
+        25.61978804084669
+      ],
+      "newCapUndersideWorld": [
+        11.055797663378762,
+        6.719077939851272,
+        29.18853008711416
+      ],
+      "capShellInterferenceMm3": 3.212604413634686,
+      "freeDepthBelowPlateTopMm": 34.38100307573081
+    },
+    "T5": {
+      "tiltDeg": 3.9999999999816205,
+      "axisWorld": [
+        0.00011005948943406525,
+        0.6529192947572139,
+        0.7574274766739397
+      ],
+      "capCentreWorld": [
+        -0.2512927552282622,
+        12.340006197126625,
+        18.903754752906973
+      ],
+      "currentSkinOnAxisMm": 7.262143029067897,
+      "targetProtrusionMm": 1.1656326843865192,
+      "axialShiftOutwardMm": 6.0507429572859195,
+      "newCapTopAboveSkinMm": 1.1656326843865203,
+      "newCapUndersideAboveSkinMm": -3.5963840578539172,
+      "newPlateTopAboveSkinMm": -8.355384057853918,
+      "newPlateTopWorld": [
+        -0.2514130767777188,
+        11.626208035612006,
+        18.075703959077156
+      ],
+      "newCapUndersideWorld": [
+        -0.25088930366750206,
+        14.733450959361587,
+        21.680301320568436
+      ],
+      "capShellInterferenceMm3": 0.9227820999702794,
+      "freeDepthBelowPlateTopMm": 36.31503322896204
+    },
+    "T6": {
+      "tiltDeg": 7.059601161192331,
+      "axisWorld": [
+        -0.09733084977925645,
+        0.6538982607470087,
+        0.7502957885216235
+      ],
+      "capCentreWorld": [
+        -11.136563238341619,
+        3.960153853640616,
+        26.051648234322734
+      ],
+      "currentSkinOnAxisMm": 7.966226493883829,
+      "targetProtrusionMm": 1.3376135613689244,
+      "axialShiftOutwardMm": 6.882683199876716,
+      "newCapTopAboveSkinMm": 1.337613561368924,
+      "newCapUndersideAboveSkinMm": -3.7791798113207964,
+      "newPlateTopAboveSkinMm": -8.538179811320797,
+      "newPlateTopWorld": [
+        -11.080894535921415,
+        3.586154574140101,
+        25.622514069018806
+      ],
+      "newCapUndersideWorld": [
+        -11.544092050020895,
+        6.698056397035115,
+        29.193171726593214
+      ],
+      "capShellInterferenceMm3": 9.465249466315042,
+      "freeDepthBelowPlateTopMm": 31.3497022837715
+    },
+    "T7": {
+      "tiltDeg": 1.8392747092420292,
+      "axisWorld": [
+        0.02222463498719436,
+        0.616872395269655,
+        0.7867493333673469
+      ],
+      "capCentreWorld": [
+        7.8902965353631345,
+        -5.351130626574431,
+        33.97904979688444
+      ],
+      "currentSkinOnAxisMm": 9.52945788620122,
+      "targetProtrusionMm": 1.1995165456317478,
+      "axialShiftOutwardMm": 8.377656691260928,
+      "newCapTopAboveSkinMm": 1.1995165456317505,
+      "newCapUndersideAboveSkinMm": -3.6561958391514437,
+      "newPlateTopAboveSkinMm": -8.415195839151444,
+      "newPlateTopWorld": [
+        7.9150606026389,
+        -4.663773128652767,
+        34.85569471959739
+      ],
+      "newCapUndersideWorld": [
+        8.020827640542958,
+        -1.7280773995644787,
+        38.59983479709259
+      ],
+      "capShellInterferenceMm3": 2.7423676582366587,
+      "freeDepthBelowPlateTopMm": 11.841061882971534
+    },
+    "T8": {
+      "tiltDeg": 1.8392747092382637,
+      "axisWorld": [
+        -0.021908794082782287,
+        0.616841033796886,
+        0.7867827805476092
+      ],
+      "capCentreWorld": [
+        -8.35340160856936,
+        -5.357396980865294,
+        33.990069015473985
+      ],
+      "currentSkinOnAxisMm": 9.510211700656399,
+      "targetProtrusionMm": 1.2107719491881337,
+      "axialShiftOutwardMm": 8.372092602820747,
+      "newCapTopAboveSkinMm": 1.2107719491881337,
+      "newCapUndersideAboveSkinMm": -3.6450154556815875,
+      "newPlateTopAboveSkinMm": -8.404015455681588,
+      "newPlateTopWorld": [
+        -8.37763703431566,
+        -4.675049745532799,
+        34.86040517292659
+      ],
+      "newCapUndersideWorld": [
+        -8.48190098535562,
+        -1.739503265693418,
+        38.60470442555266
+      ],
+      "capShellInterferenceMm3": 6.314419077763554,
+      "freeDepthBelowPlateTopMm": 11.837028387010967
+    }
+  },
+  "shiftStats": {
+    "minMm": 5.57308506619289,
+    "maxMm": 8.377656691260928,
+    "meanMm": 6.868862324875851
+  },
+  "maxCapShellInterferenceMm3": 9.465249466315042,
+  "fits": false,
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 405.2,
+      "availMb": 17505.8
+    },
+    {
+      "stage": "cap T1",
+      "rssMb": 434.6,
+      "availMb": 17512.9
+    },
+    {
+      "stage": "cap T2",
+      "rssMb": 438.2,
+      "availMb": 17508.4
+    },
+    {
+      "stage": "cap T3",
+      "rssMb": 439.2,
+      "availMb": 17500.3
+    },
+    {
+      "stage": "cap T4",
+      "rssMb": 440.8,
+      "availMb": 17493.6
+    },
+    {
+      "stage": "cap T5",
+      "rssMb": 431.5,
+      "availMb": 17511.0
+    },
+    {
+      "stage": "cap T6",
+      "rssMb": 429.8,
+      "availMb": 17501.1
+    },
+    {
+      "stage": "cap T7",
+      "rssMb": 436.9,
+      "availMb": 17510.8
+    },
+    {
+      "stage": "cap T8",
+      "rssMb": 445.4,
+      "availMb": 17504.4
+    }
+  ]
+}

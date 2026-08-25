@@ -1,0 +1,481 @@
+{
+ "build": {
+  "gapMm": 1.3,
+  "carrierThicknessMm": 2.0,
+  "blockHalfMm": 5.6,
+  "buttons": [
+   "T1",
+   "T2",
+   "T3",
+   "T4",
+   "T5",
+   "T6",
+   "T7",
+   "T8"
+  ],
+  "clearanceCuts": 32,
+  "droppedFragmentsMm3": [],
+  "volumeMm3": 7314.873876666197,
+  "faces": 547,
+  "solids": 1,
+  "valid": true
+ },
+ "gates": [
+  {
+   "gate": "single valid solid",
+   "pass": true,
+   "detail": "1 solid(s), valid=True, 547 faces, 7314.9 mm3"
+  },
+  {
+   "gate": "shell interference",
+   "pass": true,
+   "detail": "JaD 0.000000, JfD 0.000000 mm3"
+  },
+  {
+   "gate": "minimum structural thickness",
+   "pass": true,
+   "detail": "interior area below 1.20 mm = 0.00 mm2 (p25/p50 2.606/6.953)"
+  },
+  {
+   "gate": "all eight seats bear",
+   "pass": true,
+   "detail": "min 23.79 mm2 = 65.2%"
+  },
+  {
+   "gate": "all sixteen slots open (exact boolean)",
+   "pass": true,
+   "detail": "16 of 16"
+  },
+  {
+   "gate": "terminal escape depth",
+   "pass": true,
+   "detail": "worst 11.837 mm"
+  },
+  {
+   "gate": "docs/101 Finger interference",
+   "pass": true,
+   "detail": "max 0.000000 mm3; min clearance 18.7887 mm at N1"
+  },
+  {
+   "gate": "JOY column unobstructed",
+   "pass": true,
+   "detail": "0.0000 mm of C09 on the axis"
+  },
+  {
+   "gate": "SZH static package clear",
+   "pass": true,
+   "detail": "max 0.000000 mm3 over 8 parts"
+  },
+  {
+   "gate": "one-piece insertion into an open half",
+   "pass": false,
+   "detail": "viable: none"
+  },
+  {
+   "gate": "switches installable down their bores",
+   "pass": true,
+   "detail": "0.0000 mm3 over 12 mm, all eight"
+  },
+  {
+   "gate": "FDM orientation JOY_AXIS_UP usable",
+   "pass": true,
+   "detail": "C09 bed 0.0 mm2, support 1446.2 mm2 (16.6%), height 20.69 mm"
+  }
+ ],
+ "pass": 11,
+ "fail": 1,
+ "carrierGapMm": 1.3,
+ "carrierThicknessMm": 2.0,
+ "buttons": {
+  "T1": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 35.98928778179619,
+   "protrusionMm": 1.3851914328717245
+  },
+  "T2": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 35.61238969447609,
+   "protrusionMm": 1.0655054484294402
+  },
+  "T3": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 35.73147412398014,
+   "protrusionMm": 1.4589306709174288
+  },
+  "T4": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 34.29244223571244,
+   "protrusionMm": 1.2909270693328163
+  },
+  "T5": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 36.29690820101027,
+   "protrusionMm": 1.1656326843865192
+  },
+  "T6": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 34.1804134878827,
+   "protrusionMm": 1.3376135613689244
+  },
+  "T7": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 11.841344133644254,
+   "protrusionMm": 1.1995165456317478
+  },
+  "T8": {
+   "bearingMm2": 23.79,
+   "openSlots": 2,
+   "terminalFreeMm": 11.836699620395587,
+   "protrusionMm": 1.2107719491881337
+  }
+ },
+ "shell": {
+  "JaD": 0.0,
+  "JfD": 0.0
+ },
+ "fingerCollision": {
+  "N1": 0.0,
+  "N2": 0.0,
+  "I2": 0.0,
+  "I3": 0.0,
+  "I4": 0.0,
+  "M3": 0.0,
+  "M4": 0.0,
+  "N3": 0.0
+ },
+ "fingerClearance": {
+  "N1": 18.788654674846047,
+  "N2": 19.085185795579555,
+  "I2": 20.499555544715992,
+  "I3": 23.91921798555097,
+  "I4": 23.85884663633536,
+  "M3": 26.136349205304395,
+  "M4": 25.94301052177991,
+  "N3": 20.89800027724926
+ },
+ "szhStatic": {
+  "SZH_pcb": 0.0,
+  "SZH_gimbal": 0.0,
+  "SZH_x_pot": 0.0,
+  "SZH_y_pot": 0.0,
+  "SZH_push_switch": 0.0,
+  "SZH_shaft": 0.0,
+  "SZH_cap": 0.0,
+  "SZH_header": 0.0
+ },
+ "szhProvisional": {
+  "SZH_MOVING_ENVELOPE_25deg": 486.3525786344263
+ },
+ "joyAxisMaterialMm": 0,
+ "interiorThinMm2": 0.0,
+ "lift": {
+  "+U": {
+   "JaD": {
+    "totalMm3": 13749.232524910847,
+    "peakMm3": 849.4553511579508,
+    "obstructedSteps": 25,
+    "freeFromMm": null
+   },
+   "JfD": {
+    "totalMm3": 759.4245979328515,
+    "peakMm3": 98.90634142309416,
+    "obstructedSteps": 17,
+    "freeFromMm": 18.0
+   }
+  },
+  "-U": {
+   "JaD": {
+    "totalMm3": 354.04514905038326,
+    "peakMm3": 39.20099161645455,
+    "obstructedSteps": 17,
+    "freeFromMm": 18.0
+   },
+   "JfD": {
+    "totalMm3": 12972.47948031867,
+    "peakMm3": 840.6753016217474,
+    "obstructedSteps": 25,
+    "freeFromMm": null
+   }
+  }
+ },
+ "viablePaths": [],
+ "support": {
+  "C09": {
+   "totalMm2": 8736.93614170013,
+   "bedMm2": 0.0,
+   "supportMm2": 1446.247347606361,
+   "supportFraction": 0.16553255330591604,
+   "heightMm": 20.685827203537947
+  },
+  "C07_1": {
+   "totalMm2": 6763.593121071403,
+   "bedMm2": 993.2382480188904,
+   "supportMm2": 688.4705894041483,
+   "supportFraction": 0.10179065728529357,
+   "heightMm": 17.624917934729663
+  },
+  "C08": {
+   "totalMm2": 6190.899421245813,
+   "bedMm2": 0.0,
+   "supportMm2": 1000.8393665308224,
+   "supportFraction": 0.1616629989329435,
+   "heightMm": 15.907982402788775
+  }
+ },
+ "comparison": {
+  "one-piece assembly": {
+   "C07_1": "PASS (+U/JfD, -U/JaD exact 0.0)",
+   "C08": "FAIL (best 505.2 mm3, blocked throughout)",
+   "C09": "FAIL (no viable path)"
+  },
+  "shell collision mm3": {
+   "C07_1": "0.000000",
+   "C08": "0.000000",
+   "C09": "0.000000"
+  },
+  "docs/101 collision mm3": {
+   "C07_1": "0.000000",
+   "C08": "0.000000",
+   "C09": "0.000000"
+  },
+  "minimum N1 clearance mm": {
+   "C07_1": "0.5225",
+   "C08": "18.8996",
+   "C09": "18.7887"
+  },
+  "volume mm3": {
+   "C07_1": "6694.168",
+   "C08": "4760.872",
+   "C09": "7314.874"
+  },
+  "B-rep faces": {
+   "C07_1": "247",
+   "C08": "315",
+   "C09": "547"
+  },
+  "major structural members": {
+   "C07_1": "1 slab + 10 bridges + 1 deck + 1 chord wall = 13",
+   "C08": "8 receivers + 2 ribs = 10",
+   "C09": "1 carrier band + 8 blocks = 9"
+  },
+  "support-required mm2": {
+   "C07_1": "688.5",
+   "C08": "1000.8",
+   "C09": "1446.2"
+  },
+  "support fraction": {
+   "C07_1": "10.2%",
+   "C08": "16.2%",
+   "C09": "16.6%"
+  },
+  "trapped support": {
+   "C07_1": "0",
+   "C08": "0",
+   "C09": "0"
+  },
+  "min thickness below 1.20": {
+   "C07_1": "0.000 mm2",
+   "C08": "0.44 mm2",
+   "C09": "0.00 mm2"
+  },
+  "button seats": {
+   "C07_1": "8/8",
+   "C08": "8/8",
+   "C09": "8/8"
+  },
+  "terminal slots": {
+   "C07_1": "16/16",
+   "C08": "16/16",
+   "C09": "16/16"
+  },
+  "joystick": {
+   "C07_1": "integrated deck",
+   "C08": "deck carried over",
+   "C09": "deck carried over"
+  },
+  "load path": {
+   "C07_1": "seat -> slab -> chord wall -> deck -> shell",
+   "C08": "seat -> collar -> conformal landing -> shell",
+   "C09": "seat -> short block -> curved carrier -> shell"
+  }
+ },
+ "memory": [
+  {
+   "stage": "load",
+   "rssMb": 479.3,
+   "availMb": 20906.4
+  },
+  {
+   "stage": "band",
+   "rssMb": 617.8,
+   "availMb": 20743.2
+  },
+  {
+   "stage": "block T1",
+   "rssMb": 618.8,
+   "availMb": 20738.7
+  },
+  {
+   "stage": "block T2",
+   "rssMb": 618.9,
+   "availMb": 20735.9
+  },
+  {
+   "stage": "block T3",
+   "rssMb": 616.9,
+   "availMb": 20741.5
+  },
+  {
+   "stage": "block T4",
+   "rssMb": 614.5,
+   "availMb": 20744.2
+  },
+  {
+   "stage": "block T5",
+   "rssMb": 614.5,
+   "availMb": 20737.0
+  },
+  {
+   "stage": "block T6",
+   "rssMb": 614.5,
+   "availMb": 20742.4
+  },
+  {
+   "stage": "block T7",
+   "rssMb": 614.5,
+   "availMb": 20743.2
+  },
+  {
+   "stage": "block T8",
+   "rssMb": 614.5,
+   "availMb": 20745.3
+  },
+  {
+   "stage": "voids T1",
+   "rssMb": 614.5,
+   "availMb": 20744.4
+  },
+  {
+   "stage": "voids T2",
+   "rssMb": 614.5,
+   "availMb": 20742.1
+  },
+  {
+   "stage": "voids T3",
+   "rssMb": 614.6,
+   "availMb": 20744.1
+  },
+  {
+   "stage": "voids T4",
+   "rssMb": 614.6,
+   "availMb": 20743.3
+  },
+  {
+   "stage": "voids T5",
+   "rssMb": 614.6,
+   "availMb": 20719.0
+  },
+  {
+   "stage": "voids T6",
+   "rssMb": 614.6,
+   "availMb": 20719.7
+  },
+  {
+   "stage": "voids T7",
+   "rssMb": 614.6,
+   "availMb": 20716.6
+  },
+  {
+   "stage": "voids T8",
+   "rssMb": 614.6,
+   "availMb": 20702.0
+  },
+  {
+   "stage": "btn T1",
+   "rssMb": 838.7,
+   "availMb": 20506.4
+  },
+  {
+   "stage": "btn T2",
+   "rssMb": 838.8,
+   "availMb": 20499.1
+  },
+  {
+   "stage": "btn T3",
+   "rssMb": 837.8,
+   "availMb": 20491.2
+  },
+  {
+   "stage": "btn T4",
+   "rssMb": 837.8,
+   "availMb": 20512.5
+  },
+  {
+   "stage": "btn T5",
+   "rssMb": 837.8,
+   "availMb": 20478.6
+  },
+  {
+   "stage": "btn T6",
+   "rssMb": 837.8,
+   "availMb": 20471.2
+  },
+  {
+   "stage": "btn T7",
+   "rssMb": 836.7,
+   "availMb": 20464.3
+  },
+  {
+   "stage": "btn T8",
+   "rssMb": 836.7,
+   "availMb": 20464.9
+  },
+  {
+   "stage": "finger N1",
+   "rssMb": 849.9,
+   "availMb": 20381.2
+  },
+  {
+   "stage": "finger N2",
+   "rssMb": 849.9,
+   "availMb": 20385.4
+  },
+  {
+   "stage": "finger I2",
+   "rssMb": 849.8,
+   "availMb": 20396.6
+  },
+  {
+   "stage": "finger I3",
+   "rssMb": 849.8,
+   "availMb": 20323.5
+  },
+  {
+   "stage": "finger I4",
+   "rssMb": 849.8,
+   "availMb": 20175.4
+  },
+  {
+   "stage": "finger M3",
+   "rssMb": 849.8,
+   "availMb": 20190.3
+  },
+  {
+   "stage": "finger M4",
+   "rssMb": 849.8,
+   "availMb": 20073.4
+  },
+  {
+   "stage": "finger N3",
+   "rssMb": 849.8,
+   "availMb": 21614.5
+  }
+ ]
+}

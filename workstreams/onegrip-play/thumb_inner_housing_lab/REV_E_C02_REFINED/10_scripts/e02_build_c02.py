@@ -172,37 +172,7 @@ def main() -> int:
     trim, _ = L.as_single_solid(trim, "PLAN_TRIM")
     plate = (plate & trim).clean()
     plate, _ = L.as_single_solid(plate, "C02")
-    # remove sub-minimum material inside the re-added zone footprints
-    tn2, tnorm2 = normal_thickness_map(plate, cosr, U, V)
-    bad = (tn2 > 1e-6) & (tnorm2 < 1.20)
-    zone_mask = np.zeros_like(bad)
-    for name, zn in ZONES.items():
-        zone_mask |= ((U[:, None] >= zn["u"][0]) & (U[:, None] <= zn["u"][1]) &
-                      (V[None, :] >= zn["v"][0]) & (V[None, :] <= zn["v"][1]))
-    bad &= zone_mask
-    nrun = 0
-    for i, u in enumerate(U):
-        col = bad[i]
-        if not col.any():
-            continue
-        j = 0
-        while j < len(V):
-            if col[j]:
-                k = j
-                while k + 1 < len(V) and col[k + 1]:
-                    k += 1
-                tool = L.local_box((u - PITCH / 2, V[j] - PITCH / 2, BLANK_LO[2] - 3.0),
-                                   (u + PITCH / 2, V[k] + PITCH / 2, BLANK_HI[2] + 3.0),
-                                   "THIN_CUT")
-                if L.inter_vol(plate, tool) > 1e-9:
-                    plate = (plate - tool).clean()
-                    plate, _ = L.as_single_solid(plate, "C02")
-                nrun += 1
-                j = k + 1
-            else:
-                j += 1
-    print("stage 2 plan trim: vol=%.3f  (%d sub-1.20 runs removed in the zones)"
-          % (L.vol(plate), nrun))
+    print("stage 2 plan trim: vol=%.3f" % L.vol(plate))
     L.memory("trim")
     if stage < 3:
         return 0
@@ -230,6 +200,42 @@ def main() -> int:
         plate = (plate + p).clean()
     plate, _ = L.as_single_solid(plate, "C02")
     print("stage 3 with pads: vol=%.3f solids=%d" % (L.vol(plate), len(list(plate.solids()))))
+
+    # Sub-minimum removal runs AFTER the pads, not before.  A pad adds
+    # (CONFORMAL_GAP - PAD_GAP) = 1.10 mm along n on top of the band, so it
+    # thickens exactly the cells that would otherwise be cut; removing them
+    # first (the previous ordering) threw away material the pads would have
+    # saved.  Runs are fused into one tool and subtracted once - a boolean per
+    # run is far too slow on a 500-face plate.
+    tn3, tnorm3 = normal_thickness_map(plate, cosr, U, V)
+    bad = (tn3 > 1e-6) & (tnorm3 < 1.20)
+    runs = []
+    for i, u in enumerate(U):
+        col = bad[i]
+        if not col.any():
+            continue
+        j = 0
+        while j < len(V):
+            if col[j]:
+                k = j
+                while k + 1 < len(V) and col[k + 1]:
+                    k += 1
+                runs.append(L.local_box(
+                    (u - PITCH / 2, V[j] - PITCH / 2, BLANK_LO[2] - 3.0),
+                    (u + PITCH / 2, V[k] + PITCH / 2, BLANK_HI[2] + 3.0), "THIN"))
+                j = k + 1
+            else:
+                j += 1
+    print("   sub-1.20 runs to remove: %d" % len(runs))
+    if runs:
+        tool = runs[0]
+        for r in runs[1:]:
+            tool = (tool + r).clean()
+        tool, _ = L.as_single_solid(tool, "THIN_CUT")
+        before_thin = L.vol(plate)
+        plate = (plate - tool).clean()
+        plate, _ = L.as_single_solid(plate, "C02")
+        print("   sub-1.20 removal took %.4f mm3" % (before_thin - L.vol(plate)))
     del pad_band
     L.memory("pads")
     if stage < 4:

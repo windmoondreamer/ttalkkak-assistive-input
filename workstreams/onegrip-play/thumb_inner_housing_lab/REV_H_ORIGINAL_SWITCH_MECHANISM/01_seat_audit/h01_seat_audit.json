@@ -1,0 +1,609 @@
+{
+  "backplate": {
+    "volumeMm3": 5899.527828399211,
+    "faces": 85
+  },
+  "pushBtnSolidsInStep": 1,
+  "pushBtn": {
+    "volumeMm3": 128.95145229161596,
+    "axisExtentMm": [
+      -5.18549818623727,
+      3.5735704630950034
+    ],
+    "lateralMm": [
+      7.564861079163826,
+      6.142484427168569
+    ],
+    "profile": [
+      {
+        "nMid": -5.0030175893761815,
+        "sizeX": 6.604119925080522,
+        "sizeY": 4.46965570224517
+      },
+      {
+        "nMid": -4.638056395654003,
+        "sizeX": 6.724220567113749,
+        "sizeY": 4.623919574103761
+      },
+      {
+        "nMid": -4.273095201931825,
+        "sizeX": 7.027732307186925,
+        "sizeY": 4.637801477432438
+      },
+      {
+        "nMid": -3.9081340082096463,
+        "sizeX": 7.336194487634433,
+        "sizeY": 4.636826689313335
+      },
+      {
+        "nMid": -3.5431728144874683,
+        "sizeX": 7.5625621065341075,
+        "sizeY": 4.639033531046926
+      },
+      {
+        "nMid": -3.1782116207652904,
+        "sizeX": 7.564237331675235,
+        "sizeY": 4.638291517261765
+      },
+      {
+        "nMid": -2.813250427043112,
+        "sizeX": 7.258919601322855,
+        "sizeY": 4.634766577514054
+      },
+      {
+        "nMid": -2.448289233320934,
+        "sizeX": 6.832715224186526,
+        "sizeY": 4.6302733112841725
+      },
+      {
+        "nMid": -2.083328039598756,
+        "sizeX": 6.416469246274639,
+        "sizeY": 4.635381680230655
+      },
+      {
+        "nMid": -1.718366845876578,
+        "sizeX": 6.319506914161687,
+        "sizeY": 5.336187618618339
+      },
+      {
+        "nMid": -1.3534056521543998,
+        "sizeX": 6.319442466522885,
+        "sizeY": 6.027879800911851
+      },
+      {
+        "nMid": -0.9884444584322218,
+        "sizeX": 6.319441017979337,
+        "sizeY": 6.037038482071958
+      },
+      {
+        "nMid": -0.6234832647100439,
+        "sizeX": 6.312615034125333,
+        "sizeY": 6.037620588539628
+      },
+      {
+        "nMid": -0.2585220709878655,
+        "sizeX": 6.073061857153839,
+        "sizeY": 6.0372731063623615
+      },
+      {
+        "nMid": 0.10643912273431289,
+        "sizeX": 6.019477243450112,
+        "sizeY": 6.0364985162385745
+      },
+      {
+        "nMid": 0.47140031645649083,
+        "sizeX": 6.019473539249187,
+        "sizeY": 6.038149474978539
+      },
+      {
+        "nMid": 0.8363615101786688,
+        "sizeX": 6.019482976083495,
+        "sizeY": 6.036950079299878
+      },
+      {
+        "nMid": 1.2013227039008467,
+        "sizeX": 6.019444619808199,
+        "sizeY": 6.033519627205772
+      },
+      {
+        "nMid": 1.5662838976230251,
+        "sizeX": 6.0144885938160115,
+        "sizeY": 6.017025733598109
+      },
+      {
+        "nMid": 1.9312450913452035,
+        "sizeX": 5.506541129491511,
+        "sizeY": 5.5127184751015506
+      },
+      {
+        "nMid": 2.2962062850673814,
+        "sizeX": 4.504547994884253,
+        "sizeY": 4.522367448004708
+      },
+      {
+        "nMid": 2.6611674787895594,
+        "sizeX": 3.505750250769905,
+        "sizeY": 3.519474122392202
+      },
+      {
+        "nMid": 3.026128672511738,
+        "sizeX": 3.506684364443334,
+        "sizeY": 3.5146389929840707
+      },
+      {
+        "nMid": 3.3910898662339153,
+        "sizeX": 3.5044838366152007,
+        "sizeY": 3.5108129956987852
+      }
+    ]
+  },
+  "buttons": {
+    "JOY": {
+      "tiltFromJoystickAxisDeg": 0.0,
+      "capTopAlongAxisMm": 3.0726458293977665,
+      "capBottomAlongAxisMm": -7.927353003128285,
+      "capThicknessMm": 10.999998832526051,
+      "plateIntervalsOnAxisMm": [],
+      "seatSlabMm": null,
+      "plateThicknessOnAxisMm": null,
+      "capBottomToPlateTopMm": null,
+      "plateThicknessP50Mm": null,
+      "plateAreaInPatchMm2": 0.0,
+      "holeCount": 0,
+      "holes": []
+    },
+    "T1": {
+      "tiltFromJoystickAxisDeg": 9.36199934380261,
+      "capTopAlongAxisMm": 2.2762755778374855,
+      "capBottomAlongAxisMm": -2.6889081054982054,
+      "capThicknessMm": 4.965183683335691,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.278984404694121,
+          -7.264644595297437
+        ]
+      ],
+      "seatSlabMm": [
+        -9.278984404694121,
+        -7.264644595297437
+      ],
+      "plateThicknessOnAxisMm": 2.0143398093966844,
+      "capBottomToPlateTopMm": 4.575736489799231,
+      "plateThicknessP50Mm": 2.01241504785962,
+      "plateAreaInPatchMm2": 302.90000000000003,
+      "holeCount": 3,
+      "holes": [
+        {
+          "areaMm2": 6.710000000000002,
+          "centreXY": [
+            -1.2488822652757354,
+            0.8953800298062242
+          ],
+          "sizeXMm": 1.4999999999999951,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 1.5366887486723027
+        },
+        {
+          "areaMm2": 3.7800000000000007,
+          "centreXY": [
+            3.949999999999954,
+            0.8999999999999648
+          ],
+          "sizeXMm": 0.5999999999999982,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 4.051234379790877
+        },
+        {
+          "areaMm2": 3.150000000000001,
+          "centreXY": [
+            -7.000000000000006,
+            0.8999999999999648
+          ],
+          "sizeXMm": 0.49999999999999856,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 7.057619995437557
+        }
+      ]
+    },
+    "T2": {
+      "tiltFromJoystickAxisDeg": 3.9999999999874567,
+      "capTopAlongAxisMm": 2.377627720056962,
+      "capBottomAlongAxisMm": -2.3843890221828237,
+      "capThicknessMm": 4.762016742239785,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.384389022186651,
+          -7.384389022186979
+        ]
+      ],
+      "seatSlabMm": [
+        -9.384389022186651,
+        -7.384389022186979
+      ],
+      "plateThicknessOnAxisMm": 1.9999999999996723,
+      "capBottomToPlateTopMm": 5.000000000004155,
+      "plateThicknessP50Mm": 2.000493665657551,
+      "plateAreaInPatchMm2": 291.61000000000007,
+      "holeCount": 3,
+      "holes": [
+        {
+          "areaMm2": 6.600000000000001,
+          "centreXY": [
+            -2.550000000000023,
+            0.14999999999996746
+          ],
+          "sizeXMm": 1.1999999999999962,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 2.554407954888981
+        },
+        {
+          "areaMm2": 6.600000000000001,
+          "centreXY": [
+            2.6499999999999586,
+            0.14999999999996746
+          ],
+          "sizeXMm": 1.1999999999999962,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 2.6542418879973564
+        },
+        {
+          "areaMm2": 6.600000000000001,
+          "centreXY": [
+            -8.350000000000001,
+            0.14999999999996746
+          ],
+          "sizeXMm": 1.1999999999999962,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 8.351347196710242
+        }
+      ]
+    },
+    "T3": {
+      "tiltFromJoystickAxisDeg": 9.377491112582721,
+      "capTopAlongAxisMm": 2.2746973187640727,
+      "capBottomAlongAxisMm": -2.690274181420221,
+      "capThicknessMm": 4.964971500184294,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.27914029188355,
+          -7.264747833521833
+        ]
+      ],
+      "seatSlabMm": [
+        -9.27914029188355,
+        -7.264747833521833
+      ],
+      "plateThicknessOnAxisMm": 2.0143924583617174,
+      "capBottomToPlateTopMm": 4.574473652101611,
+      "plateThicknessP50Mm": 2.0140459529584445,
+      "plateAreaInPatchMm2": 302.8500000000001,
+      "holeCount": 3,
+      "holes": [
+        {
+          "areaMm2": 6.700000000000001,
+          "centreXY": [
+            1.2499999999999634,
+            0.8999999999999648
+          ],
+          "sizeXMm": 1.3999999999999955,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 1.540292180074886
+        },
+        {
+          "areaMm2": 3.7800000000000007,
+          "centreXY": [
+            -3.950000000000018,
+            0.8999999999999648
+          ],
+          "sizeXMm": 0.5999999999999982,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 4.05123437979094
+        },
+        {
+          "areaMm2": 3.150000000000001,
+          "centreXY": [
+            6.999999999999944,
+            0.8999999999999648
+          ],
+          "sizeXMm": 0.49999999999999856,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 7.057619995437496
+        }
+      ]
+    },
+    "T4": {
+      "tiltFromJoystickAxisDeg": 7.073219636340651,
+      "capTopAlongAxisMm": 2.4194783051600863,
+      "capBottomAlongAxisMm": -2.6983396740440466,
+      "capThicknessMm": 5.117817979204133,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.372609511046223,
+          -7.363012738109138
+        ]
+      ],
+      "seatSlabMm": [
+        -9.372609511046223,
+        -7.363012738109138
+      ],
+      "plateThicknessOnAxisMm": 2.009596772937085,
+      "capBottomToPlateTopMm": 4.6646730640650915,
+      "plateThicknessP50Mm": 2.0095967729372166,
+      "plateAreaInPatchMm2": 306.61000000000007,
+      "holeCount": 3,
+      "holes": [
+        {
+          "areaMm2": 6.900000000000001,
+          "centreXY": [
+            -1.900000000000025,
+            0.1499999999999675
+          ],
+          "sizeXMm": 1.4999999999999951,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 1.9059118552546142
+        },
+        {
+          "areaMm2": 4.48,
+          "centreXY": [
+            3.2999999999999567,
+            0.1499999999999675
+          ],
+          "sizeXMm": 0.6999999999999978,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 3.303407331831741
+        },
+        {
+          "areaMm2": 3.8400000000000007,
+          "centreXY": [
+            -7.650000000000005,
+            0.1499999999999675
+          ],
+          "sizeXMm": 0.5999999999999982,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 7.6514704469141135
+        }
+      ]
+    },
+    "T5": {
+      "tiltFromJoystickAxisDeg": 3.999999999981712,
+      "capTopAlongAxisMm": 2.3753955043193313,
+      "capBottomAlongAxisMm": -2.3866212379211125,
+      "capThicknessMm": 4.762016742240444,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.386621237924365,
+          -7.386621237924298
+        ]
+      ],
+      "seatSlabMm": [
+        -9.386621237924365,
+        -7.386621237924298
+      ],
+      "plateThicknessOnAxisMm": 2.0000000000000666,
+      "capBottomToPlateTopMm": 5.000000000003185,
+      "plateThicknessP50Mm": 2.0002889559511905,
+      "plateAreaInPatchMm2": 273.88000000000005,
+      "holeCount": 3,
+      "holes": [
+        {
+          "areaMm2": 6.600000000000001,
+          "centreXY": [
+            2.5499999999999594,
+            0.14999999999996746
+          ],
+          "sizeXMm": 1.1999999999999962,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 2.5544079548889176
+        },
+        {
+          "areaMm2": 6.600000000000001,
+          "centreXY": [
+            -2.6500000000000226,
+            0.14999999999996746
+          ],
+          "sizeXMm": 1.1999999999999962,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 2.6542418879974203
+        },
+        {
+          "areaMm2": 6.600000000000001,
+          "centreXY": [
+            8.34999999999994,
+            0.14999999999996746
+          ],
+          "sizeXMm": 1.1999999999999944,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 8.35134719671018
+        }
+      ]
+    },
+    "T6": {
+      "tiltFromJoystickAxisDeg": 7.05960116119228,
+      "capTopAlongAxisMm": 2.413316307421761,
+      "capBottomAlongAxisMm": -2.703161850915446,
+      "capThicknessMm": 5.116478158337207,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.379789789843409,
+          -7.370197452831097
+        ]
+      ],
+      "seatSlabMm": [
+        -9.379789789843409,
+        -7.370197452831097
+      ],
+      "plateThicknessOnAxisMm": 2.009592337012312,
+      "capBottomToPlateTopMm": 4.667035601915652,
+      "plateThicknessP50Mm": 2.009592337012582,
+      "plateAreaInPatchMm2": 307.9200000000001,
+      "holeCount": 3,
+      "holes": [
+        {
+          "areaMm2": 6.900000000000001,
+          "centreXY": [
+            1.8652173913043093,
+            0.18478260869561952
+          ],
+          "sizeXMm": 1.4999999999999951,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 1.8743480277953748
+        },
+        {
+          "areaMm2": 3.8400000000000007,
+          "centreXY": [
+            -3.3500000000000205,
+            0.1499999999999675
+          ],
+          "sizeXMm": 0.5999999999999982,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 3.3533565274214623
+        },
+        {
+          "areaMm2": 3.8400000000000007,
+          "centreXY": [
+            7.649999999999942,
+            0.1499999999999675
+          ],
+          "sizeXMm": 0.6,
+          "sizeYMm": 6.399999999999977,
+          "distanceFromAxisMm": 7.65147044691405
+        }
+      ]
+    },
+    "T7": {
+      "tiltFromJoystickAxisDeg": 1.8392747092422275,
+      "capTopAlongAxisMm": 2.3499394088053536,
+      "capBottomAlongAxisMm": -2.5044862216840857,
+      "capThicknessMm": 4.854425630489439,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.266873145046986,
+          -7.264221429210436
+        ]
+      ],
+      "seatSlabMm": [
+        -9.266873145046986,
+        -7.264221429210436
+      ],
+      "plateThicknessOnAxisMm": 2.00265171583655,
+      "capBottomToPlateTopMm": 4.759735207526351,
+      "plateThicknessP50Mm": 2.0020994750480146,
+      "plateAreaInPatchMm2": 297.55000000000007,
+      "holeCount": 2,
+      "holes": [
+        {
+          "areaMm2": 6.500000000000001,
+          "centreXY": [
+            -2.4500000000000233,
+            -0.3000000000000309
+          ],
+          "sizeXMm": 1.1999999999999962,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 2.4682990094395234
+        },
+        {
+          "areaMm2": 6.300000000000002,
+          "centreXY": [
+            2.7499999999999583,
+            -0.3000000000000309
+          ],
+          "sizeXMm": 0.9999999999999968,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 2.7663152387245726
+        }
+      ]
+    },
+    "T8": {
+      "tiltFromJoystickAxisDeg": 1.8392747092382637,
+      "capTopAlongAxisMm": 2.3489537531726286,
+      "capBottomAlongAxisMm": -2.507692494694241,
+      "capThicknessMm": 4.85664624786687,
+      "plateIntervalsOnAxisMm": [
+        [
+          -9.269010003981936,
+          -7.26635828814539
+        ]
+      ],
+      "seatSlabMm": [
+        -9.269010003981936,
+        -7.26635828814539
+      ],
+      "plateThicknessOnAxisMm": 2.0026517158365467,
+      "capBottomToPlateTopMm": 4.758665793451149,
+      "plateThicknessP50Mm": 2.002220605858479,
+      "plateAreaInPatchMm2": 296.2900000000001,
+      "holeCount": 2,
+      "holes": [
+        {
+          "areaMm2": 6.600000000000001,
+          "centreXY": [
+            2.3999999999999595,
+            -0.3000000000000309
+          ],
+          "sizeXMm": 1.2999999999999958,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 2.4186773244895283
+        },
+        {
+          "areaMm2": 6.400000000000001,
+          "centreXY": [
+            -2.800000000000022,
+            -0.3000000000000309
+          ],
+          "sizeXMm": 1.0999999999999965,
+          "sizeYMm": 6.299999999999978,
+          "distanceFromAxisMm": 2.8160255680657698
+        }
+      ]
+    }
+  },
+  "patchHalfWidthMm": 9.0,
+  "pitchMm": 0.1,
+  "memory": [
+    {
+      "stage": "seat JOY",
+      "rssMb": 411.9,
+      "availMb": 18404.6
+    },
+    {
+      "stage": "seat T1",
+      "rssMb": 413.0,
+      "availMb": 18398.3
+    },
+    {
+      "stage": "seat T2",
+      "rssMb": 414.2,
+      "availMb": 18397.9
+    },
+    {
+      "stage": "seat T3",
+      "rssMb": 415.2,
+      "availMb": 18395.9
+    },
+    {
+      "stage": "seat T4",
+      "rssMb": 416.1,
+      "availMb": 18379.8
+    },
+    {
+      "stage": "seat T5",
+      "rssMb": 416.1,
+      "availMb": 18370.9
+    },
+    {
+      "stage": "seat T6",
+      "rssMb": 416.1,
+      "availMb": 18384.2
+    },
+    {
+      "stage": "seat T7",
+      "rssMb": 417.0,
+      "availMb": 18380.0
+    },
+    {
+      "stage": "seat T8",
+      "rssMb": 417.1,
+      "availMb": 18385.6
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "caseEasy": "T2",
+  "caseHard": "T8",
+  "params": {
+    "capToPlateMm": 4.759,
+    "seatThicknessMm": 2.6,
+    "wallMm": 1.8,
+    "pocketXY": 6.4,
+    "openingXY": 8.0,
+    "landClearanceMm": 0.1,
+    "flareMm": 1.6,
+    "slot": [
+      1.3,
+      6.4,
+      2.6
+    ]
+  },
+  "receivers": {
+    "T2": {
+      "shellCropSolids": 3,
+      "seatTopOnAxis": 0.07785075199459815,
+      "seatBottomOnAxis": -2.5221492480054017,
+      "capUndersideOnAxis": 4.836850751994598,
+      "shellInnerMedianOnAxis": 4.814138186078836,
+      "transitionLengthMm": 4.736287434084238,
+      "seatHalfSizeMm": 5.0,
+      "landingHalfSizeMm": 6.6,
+      "landingWidthMm": 3.3999999999999995,
+      "wallMm": 1.8,
+      "slotsCut": 2,
+      "volumeMm3": 698.2845056408855,
+      "faces": 39,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": [],
+      "role": "EASY",
+      "capCentreWorld": [
+        -0.23737510774202614,
+        4.0030260274179374,
+        26.089193777242127
+      ],
+      "axisWorld": [
+        0.00011005948943425255,
+        0.6529192947572883,
+        0.7574274766738754
+      ]
+    },
+    "T8": {
+      "shellCropSolids": 2,
+      "seatTopOnAxis": 1.1014713456908323,
+      "seatBottomOnAxis": -1.4985286543091678,
+      "capUndersideOnAxis": 5.860471345690833,
+      "shellInnerMedianOnAxis": 5.498236113221006,
+      "transitionLengthMm": 4.396764767530174,
+      "seatHalfSizeMm": 5.0,
+      "landingHalfSizeMm": 6.6,
+      "landingWidthMm": 3.3999999999999995,
+      "wallMm": 1.8,
+      "slotsCut": 2,
+      "volumeMm3": 711.8359225836945,
+      "faces": 39,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": [],
+      "role": "HARD",
+      "capCentreWorld": [
+        -8.343287297442853,
+        -5.344833914141372,
+        33.98650650306115
+      ],
+      "axisWorld": [
+        -0.021908794082782287,
+        0.616841033796886,
+        0.7867827805476092
+      ]
+    }
+  },
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 472.6,
+      "availMb": 9304.4
+    },
+    {
+      "stage": "build T2",
+      "rssMb": 547.3,
+      "availMb": 10549.3
+    },
+    {
+      "stage": "build T8",
+      "rssMb": 640.0,
+      "availMb": 10453.3
+    }
+  ]
+}

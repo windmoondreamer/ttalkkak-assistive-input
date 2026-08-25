@@ -1,0 +1,40 @@
+{
+  "results": {
+    "docs101_shell": {
+      "comparableColumns": 576,
+      "comparableP50Mm": 2.8173019472887972e-12,
+      "comparableP99Mm": 2.891305869474799,
+      "comparableMaxMm": 9.064315459629285,
+      "comparableExactZeroFraction": 0.7135416666666666,
+      "differingColumns": 154,
+      "differingMaxMm": 15.558795314161074
+    },
+    "docs101_bare_base": {
+      "comparableColumns": 589,
+      "comparableP50Mm": 0.0,
+      "comparableP99Mm": 3.336065324187214,
+      "comparableMaxMm": 9.10947358967303,
+      "comparableExactZeroFraction": 0.7928692699490663,
+      "differingColumns": 144,
+      "differingMaxMm": 15.557392514911427
+    }
+  },
+  "registrationConfidence": "HIGH",
+  "memory": [
+    {
+      "stage": "tris",
+      "rssMb": 414.6,
+      "availMb": 17766.4
+    },
+    {
+      "stage": "docs101_shell",
+      "rssMb": 424.0,
+      "availMb": 17722.8
+    },
+    {
+      "stage": "docs101_bare_base",
+      "rssMb": 429.2,
+      "availMb": 18518.9
+    }
+  ]
+}

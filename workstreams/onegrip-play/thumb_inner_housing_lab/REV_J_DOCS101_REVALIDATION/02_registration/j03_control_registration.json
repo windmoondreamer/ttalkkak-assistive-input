@@ -1,0 +1,108 @@
+{
+  "controls": {
+    "JOY": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "docs101SkinMm": 5.116967559153503,
+      "axisErrorDeg": 0.0
+    },
+    "T1": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 6.490488858155155,
+      "protrusionMm": 1.3583775438069265,
+      "originalLawMm": 1.3851914328717245,
+      "deviationMm": -0.02681388906479798,
+      "capUndersideToPlateTopMm": 4.759000000000002,
+      "result": "PASS"
+    },
+    "T2": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 8.544262759155052,
+      "protrusionMm": 1.0529257873307252,
+      "originalLawMm": 1.0655054484294402,
+      "deviationMm": -0.012579661098715,
+      "capUndersideToPlateTopMm": 4.7589999999999995,
+      "result": "PASS"
+    },
+    "T3": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 6.418690317590367,
+      "protrusionMm": 1.4240469228784587,
+      "originalLawMm": 1.4589306709174288,
+      "deviationMm": -0.0348837480389701,
+      "capUndersideToPlateTopMm": 4.759,
+      "result": "PASS"
+    },
+    "T4": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 8.029787870512854,
+      "protrusionMm": 1.2872272880383022,
+      "originalLawMm": 1.2909270693328163,
+      "deviationMm": -0.003699781294514093,
+      "capUndersideToPlateTopMm": 4.758999999999999,
+      "result": "PASS"
+    },
+    "T5": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 7.292872563933417,
+      "protrusionMm": 1.1349031495210005,
+      "originalLawMm": 1.1656326843865192,
+      "deviationMm": -0.03072953486551877,
+      "capUndersideToPlateTopMm": 4.759,
+      "result": "PASS"
+    },
+    "T6": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 7.973555736686454,
+      "protrusionMm": 1.3302843185662985,
+      "originalLawMm": 1.3376135613689244,
+      "deviationMm": -0.007329242802625924,
+      "capUndersideToPlateTopMm": 4.759,
+      "result": "PASS"
+    },
+    "T7": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 9.529293668689066,
+      "protrusionMm": 1.1996807631439044,
+      "originalLawMm": 1.1995165456317478,
+      "deviationMm": 0.00016421751215656144,
+      "capUndersideToPlateTopMm": 4.758999999999999,
+      "result": "PASS"
+    },
+    "T8": {
+      "throughOpening": true,
+      "blockedMm": 0.0,
+      "axisErrorDeg": 0.0,
+      "centreErrorMm": 0.0,
+      "docs101SkinMm": 9.511316973742506,
+      "protrusionMm": 1.2096666761020263,
+      "originalLawMm": 1.2107719491881337,
+      "deviationMm": -0.0011052730861074167,
+      "capUndersideToPlateTopMm": 4.759,
+      "result": "PASS"
+    }
+  },
+  "t1t8Pass": 8,
+  "joyOpen": true
+}

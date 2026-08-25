@@ -1,0 +1,144 @@
+{
+  "directions": 72,
+  "skinMarginMm": 1.0,
+  "handFinishLimitMm": 0.6,
+  "buttons": {
+    "T1": {
+      "minClearanceMm": -1.4171627625794017,
+      "p05ClearanceMm": -1.1451197579647259,
+      "medianClearanceMm": 0.17496614065715121,
+      "maxClearanceMm": 3.204737613279677,
+      "negativeFraction": 0.42431761786600497,
+      "worstDepthBelowSkinMm": 1.831434995251156,
+      "worstAngleDeg": 135.0,
+      "samples": 403,
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T2": {
+      "minClearanceMm": -0.3541543763268651,
+      "p05ClearanceMm": -0.1806351106809143,
+      "medianClearanceMm": 0.17321714490513518,
+      "maxClearanceMm": 0.5293253170804295,
+      "negativeFraction": 0.3370288248337029,
+      "worstDepthBelowSkinMm": 1.0465112938103411,
+      "worstAngleDeg": 305.0,
+      "samples": 451,
+      "classification": "CLASS B - HAND FINISHABLE"
+    },
+    "T3": {
+      "minClearanceMm": -1.7302733618363724,
+      "p05ClearanceMm": -1.164800482324403,
+      "medianClearanceMm": 0.17284828659926488,
+      "maxClearanceMm": 3.80038727656357,
+      "negativeFraction": 0.4381188118811881,
+      "worstDepthBelowSkinMm": 1.761797560325637,
+      "worstAngleDeg": 220.0,
+      "samples": 404,
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T4": {
+      "minClearanceMm": -0.2533376153445097,
+      "p05ClearanceMm": -0.1166633542499166,
+      "medianClearanceMm": 0.18840228495446443,
+      "maxClearanceMm": 11.725953883231824,
+      "negativeFraction": 0.14130434782608695,
+      "worstDepthBelowSkinMm": 1.776683980350044,
+      "worstAngleDeg": 130.0,
+      "samples": 460,
+      "classification": "CLASS B - HAND FINISHABLE"
+    },
+    "T5": {
+      "minClearanceMm": -0.3747538602875693,
+      "p05ClearanceMm": -0.19819838813095852,
+      "medianClearanceMm": 0.10017192036053668,
+      "maxClearanceMm": 0.5460597148527757,
+      "negativeFraction": 0.37343358395989973,
+      "worstDepthBelowSkinMm": 1.246384057853918,
+      "worstAngleDeg": 305.0,
+      "samples": 399,
+      "classification": "CLASS B - HAND FINISHABLE"
+    },
+    "T6": {
+      "minClearanceMm": -1.0806983482140637,
+      "p05ClearanceMm": -0.6227352585185105,
+      "medianClearanceMm": 0.11935302591119701,
+      "maxClearanceMm": 15.56953367795565,
+      "negativeFraction": 0.3841059602649007,
+      "worstDepthBelowSkinMm": 1.1278284638339393,
+      "worstAngleDeg": 310.0,
+      "samples": 453,
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T7": {
+      "minClearanceMm": -0.6778626205660201,
+      "p05ClearanceMm": -0.24585107761655126,
+      "medianClearanceMm": 0.19971269109927348,
+      "maxClearanceMm": 2.5538878040636153,
+      "negativeFraction": 0.21956521739130436,
+      "worstDepthBelowSkinMm": 1.0074565365021524,
+      "worstAngleDeg": 50.0,
+      "samples": 460,
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T8": {
+      "minClearanceMm": -0.6508221715330071,
+      "p05ClearanceMm": -0.3189675143510442,
+      "medianClearanceMm": 0.07125575798797046,
+      "maxClearanceMm": 3.4340906499733155,
+      "negativeFraction": 0.43559718969555034,
+      "worstDepthBelowSkinMm": 1.2960094001213172,
+      "worstAngleDeg": 50.0,
+      "samples": 427,
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    }
+  },
+  "worstClearanceMm": -1.7302733618363724,
+  "verdict": "CAP-SIDE CLEARANCE IS CLASS A - MUST SOLVE IN CAD",
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 402.2,
+      "availMb": 16903.6
+    },
+    {
+      "stage": "clr T1",
+      "rssMb": 427.8,
+      "availMb": 16894.4
+    },
+    {
+      "stage": "clr T2",
+      "rssMb": 429.0,
+      "availMb": 16897.2
+    },
+    {
+      "stage": "clr T3",
+      "rssMb": 428.0,
+      "availMb": 16893.5
+    },
+    {
+      "stage": "clr T4",
+      "rssMb": 429.4,
+      "availMb": 16899.8
+    },
+    {
+      "stage": "clr T5",
+      "rssMb": 429.4,
+      "availMb": 19252.1
+    },
+    {
+      "stage": "clr T6",
+      "rssMb": 429.3,
+      "availMb": 19258.9
+    },
+    {
+      "stage": "clr T7",
+      "rssMb": 429.4,
+      "availMb": 19210.8
+    },
+    {
+      "stage": "clr T8",
+      "rssMb": 429.4,
+      "availMb": 19203.0
+    }
+  ]
+}

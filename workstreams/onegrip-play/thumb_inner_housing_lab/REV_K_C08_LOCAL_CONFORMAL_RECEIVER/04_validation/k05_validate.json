@@ -1,0 +1,356 @@
+{
+  "gates": [
+    {
+      "gate": "single valid solid",
+      "pass": false,
+      "detail": "1 solid(s), valid=False, vol 4760.872 mm3, 315 faces"
+    },
+    {
+      "gate": "shell unintended penetration",
+      "pass": true,
+      "detail": "JaD 0.000000, JfD 0.000000 mm3"
+    },
+    {
+      "gate": "minimum structural thickness",
+      "pass": true,
+      "detail": "interior area below 1.20 mm = 0.44 mm2 (p25/p50 = 3.511/6.689)"
+    },
+    {
+      "gate": "all eight seats bear",
+      "pass": true,
+      "detail": "min 23.79 mm2 = 65.2%"
+    },
+    {
+      "gate": "all sixteen terminal slots open",
+      "pass": false,
+      "detail": "12 of 16"
+    },
+    {
+      "gate": "terminal escape depth",
+      "pass": true,
+      "detail": "worst 11.837 mm against 3.654 needed"
+    },
+    {
+      "gate": "docs/101 Finger interference",
+      "pass": true,
+      "detail": "max 0.000000 mm3; minimum clearance 18.8996 mm at N1"
+    },
+    {
+      "gate": "JOY column unobstructed",
+      "pass": true,
+      "detail": "C08 material on the JOY axis = 0.0000 mm"
+    },
+    {
+      "gate": "SZH static package clear",
+      "pass": true,
+      "detail": "max 0.000000 mm3 over 8 confident-static parts"
+    },
+    {
+      "gate": "C07 joystick deck can be carried over",
+      "pass": true,
+      "detail": "C08 n C07-deck slice (2954.7 mm3) = 0.000000 mm3"
+    },
+    {
+      "gate": "switches installable down their bores",
+      "pass": false,
+      "detail": "341.4467 mm3 obstruction over 12 mm outward, all eight"
+    },
+    {
+      "gate": "core placeable into an open half",
+      "pass": false,
+      "detail": "clear paths: none"
+    },
+    {
+      "gate": "Finger switch corridors",
+      "pass": true,
+      "detail": "blocked for none (total 0.00 mm3) -- Finger switches go in first"
+    },
+    {
+      "gate": "FDM orientation JOY_AXIS_UP usable",
+      "pass": true,
+      "detail": "C08 bed 0.0 mm2, support 1000.8 mm2 (16.2%), height 15.91 mm"
+    }
+  ],
+  "pass": 10,
+  "fail": 4,
+  "buttons": {
+    "T1": {
+      "bearingMm2": 37.21,
+      "openSlots": 0,
+      "terminalFreeMm": 35.98928778179619,
+      "protrusionMm": 1.3851914328717245
+    },
+    "T2": {
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 35.61238969447609,
+      "protrusionMm": 1.0655054484294402
+    },
+    "T3": {
+      "bearingMm2": 37.21,
+      "openSlots": 0,
+      "terminalFreeMm": 35.73147412398014,
+      "protrusionMm": 1.4589306709174288
+    },
+    "T4": {
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 34.29244223571244,
+      "protrusionMm": 1.2909270693328163
+    },
+    "T5": {
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 36.29690820101027,
+      "protrusionMm": 1.1656326843865192
+    },
+    "T6": {
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 34.1804134878827,
+      "protrusionMm": 1.3376135613689244
+    },
+    "T7": {
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 11.841344133644254,
+      "protrusionMm": 1.1995165456317478
+    },
+    "T8": {
+      "bearingMm2": 23.79,
+      "openSlots": 2,
+      "terminalFreeMm": 11.836699620395587,
+      "protrusionMm": 1.2107719491881337
+    }
+  },
+  "fingers": {
+    "N1": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 18.899643950061385
+    },
+    "N2": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 19.17877866828172
+    },
+    "I2": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 20.567377685408115
+    },
+    "I3": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 23.30318512394345
+    },
+    "I4": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 23.246214873617678
+    },
+    "M3": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 26.13634011034234
+    },
+    "M4": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 25.94305227538633
+    },
+    "N3": {
+      "switchMm3": 0.0,
+      "pocketMm3": 0.0,
+      "minClearanceMm": 20.92060973521673
+    }
+  },
+  "minFingerClearanceMm": 18.899643950061385,
+  "szhStatic": {
+    "SZH_pcb": 0.0,
+    "SZH_gimbal": 0.0,
+    "SZH_x_pot": 0.0,
+    "SZH_y_pot": 0.0,
+    "SZH_push_switch": 0.0,
+    "SZH_shaft": 0.0,
+    "SZH_cap": 0.0,
+    "SZH_header": 0.0
+  },
+  "szhProvisional": {
+    "SZH_MOVING_ENVELOPE_25deg": 532.3233365580029
+  },
+  "interiorThinMm2": 0.44000000000000006,
+  "planComponents": 1,
+  "supportC08": {
+    "totalAreaMm2": 6190.899421245813,
+    "bedMm2": 0.0,
+    "supportMm2": 1000.8393665308224,
+    "supportFraction": 0.1616629989329435,
+    "heightMm": 15.907982402788775
+  },
+  "supportC07": {
+    "totalAreaMm2": 7065.725695584835,
+    "bedMm2": 977.4313297025645,
+    "supportMm2": 812.5783440955433,
+    "supportFraction": 0.1150028148705659,
+    "heightMm": 22.893569938123587
+  },
+  "assemblyLift": {
+    "+U vs JaD": 11809.971065939642,
+    "+U vs JfD": 505.2471335948104,
+    "-U vs JaD": 190.36220543810134,
+    "-U vs JfD": 11822.568518792756
+  },
+  "fingerBlocked": [],
+  "comparison": {
+    "T1-T8 functional seats": {
+      "C07": "8 / 8",
+      "C08": "8 / 8"
+    },
+    "terminal openings": {
+      "C07": "16 / 16",
+      "C08": "12 / 16"
+    },
+    "shell collision mm3": {
+      "C07": "0.000000",
+      "C08": "0.000000"
+    },
+    "docs/101 collision mm3": {
+      "C07": "0.000000",
+      "C08": "0.000000"
+    },
+    "N1 minimum clearance mm": {
+      "C07": "0.5217",
+      "C08": "18.8996"
+    },
+    "JOY package": {
+      "C07": "integrated deck",
+      "C08": "deck carried over from C07"
+    },
+    "min structural thickness": {
+      "C07": "0.00 mm2 below 1.20",
+      "C08": "0.44 mm2 below 1.20"
+    },
+    "support-required area mm2": {
+      "C07": "812.6",
+      "C08": "1000.8"
+    },
+    "support fraction": {
+      "C07": "11.5%",
+      "C08": "16.2%"
+    },
+    "total volume mm3": {
+      "C07": "7378.020",
+      "C08": "4760.872"
+    },
+    "B-rep faces": {
+      "C07": "333",
+      "C08": "315"
+    },
+    "major structural members": {
+      "C07": "1 slab + 16 bridges + 1 deck + 5 walls + 3 pads = 26",
+      "C08": "8 local receivers + 2 ribs = 10"
+    },
+    "load path": {
+      "C07": "seat -> slab -> wall -> deck -> standoff -> shell",
+      "C08": "seat -> short collar -> conformal landing -> shell"
+    }
+  },
+  "memory": [
+    {
+      "stage": "load",
+      "rssMb": 478.4,
+      "availMb": 22470.0
+    },
+    {
+      "stage": "btn T1",
+      "rssMb": 543.7,
+      "availMb": 22399.4
+    },
+    {
+      "stage": "btn T2",
+      "rssMb": 544.4,
+      "availMb": 22403.0
+    },
+    {
+      "stage": "btn T3",
+      "rssMb": 544.5,
+      "availMb": 22395.6
+    },
+    {
+      "stage": "btn T4",
+      "rssMb": 544.5,
+      "availMb": 22401.8
+    },
+    {
+      "stage": "btn T5",
+      "rssMb": 544.6,
+      "availMb": 22406.8
+    },
+    {
+      "stage": "btn T6",
+      "rssMb": 544.6,
+      "availMb": 22400.7
+    },
+    {
+      "stage": "btn T7",
+      "rssMb": 544.7,
+      "availMb": 22404.1
+    },
+    {
+      "stage": "btn T8",
+      "rssMb": 544.7,
+      "availMb": 22404.4
+    },
+    {
+      "stage": "fing N1",
+      "rssMb": 587.9,
+      "availMb": 22356.3
+    },
+    {
+      "stage": "fing N2",
+      "rssMb": 589.0,
+      "availMb": 22375.6
+    },
+    {
+      "stage": "fing I2",
+      "rssMb": 589.1,
+      "availMb": 22372.9
+    },
+    {
+      "stage": "fing I3",
+      "rssMb": 589.1,
+      "availMb": 22368.7
+    },
+    {
+      "stage": "fing I4",
+      "rssMb": 589.1,
+      "availMb": 22378.5
+    },
+    {
+      "stage": "fing M3",
+      "rssMb": 589.2,
+      "availMb": 22358.8
+    },
+    {
+      "stage": "fing M4",
+      "rssMb": 589.2,
+      "availMb": 22359.1
+    },
+    {
+      "stage": "fing N3",
+      "rssMb": 589.2,
+      "availMb": 22371.1
+    },
+    {
+      "stage": "lift +U",
+      "rssMb": 810.2,
+      "availMb": 22101.4
+    },
+    {
+      "stage": "lift -U",
+      "rssMb": 850.1,
+      "availMb": 21925.1
+    }
+  ]
+}

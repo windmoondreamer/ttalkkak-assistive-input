@@ -1,0 +1,263 @@
+{
+  "receivers": {
+    "T1": {
+      "topNOnAxis": 5.2404741149534395,
+      "shellCropSolids": 3,
+      "seatTopOnAxis": -1.8682938649953458,
+      "seatBottomOnAxis": -4.468293864995346,
+      "capUndersideOnAxis": 2.8907061350046543,
+      "shellInnerMedianOnAxis": 2.2404741149534395,
+      "transitionLengthMm": 4.1087679799487855,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 407.6681915619172,
+      "faces": 56,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": []
+    },
+    "T2": {
+      "topNOnAxis": 7.8378144279532815,
+      "shellCropSolids": 2,
+      "seatTopOnAxis": 0.07785075199459815,
+      "seatBottomOnAxis": -2.5221492480054017,
+      "capUndersideOnAxis": 4.836850751994598,
+      "shellInnerMedianOnAxis": 4.8378144279532815,
+      "transitionLengthMm": 4.759963675958684,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 611.320331329295,
+      "faces": 39,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": []
+    },
+    "T3": {
+      "topNOnAxis": 4.956840880218946,
+      "shellCropSolids": 3,
+      "seatTopOnAxis": -1.8740775530248075,
+      "seatBottomOnAxis": -4.474077553024808,
+      "capUndersideOnAxis": 2.884922446975193,
+      "shellInnerMedianOnAxis": 1.9568408802189463,
+      "transitionLengthMm": 3.830918433243754,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 650.4682719121395,
+      "faces": 31,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": []
+    },
+    "T4": {
+      "topNOnAxis": 7.0992971651659325,
+      "shellCropSolids": 4,
+      "seatTopOnAxis": -0.5620811574510179,
+      "seatBottomOnAxis": -3.162081157451018,
+      "capUndersideOnAxis": 4.196918842548983,
+      "shellInnerMedianOnAxis": 4.0992971651659325,
+      "transitionLengthMm": 4.66137832261695,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 591.0765718186441,
+      "faces": 30,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": [
+        13.188801568492444
+      ]
+    },
+    "T5": {
+      "topNOnAxis": 5.858854980328731,
+      "shellCropSolids": 2,
+      "seatTopOnAxis": -1.09487828063499,
+      "seatBottomOnAxis": -3.69487828063499,
+      "capUndersideOnAxis": 3.6641217193650104,
+      "shellInnerMedianOnAxis": 2.858854980328731,
+      "transitionLengthMm": 3.953733260963721,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 581.6168377611622,
+      "faces": 35,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": []
+    },
+    "T6": {
+      "topNOnAxis": 6.80454889992637,
+      "shellCropSolids": 2,
+      "seatTopOnAxis": -0.5797228088084065,
+      "seatBottomOnAxis": -3.179722808808407,
+      "capUndersideOnAxis": 4.179277191191594,
+      "shellInnerMedianOnAxis": 3.8045488999263704,
+      "transitionLengthMm": 4.384271708734777,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 583.010011354205,
+      "faces": 32,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": [
+        9.144019095621708
+      ]
+    },
+    "T7": {
+      "topNOnAxis": 8.307273913264021,
+      "shellCropSolids": 2,
+      "seatTopOnAxis": 1.104251016256813,
+      "seatBottomOnAxis": -1.495748983743187,
+      "capUndersideOnAxis": 5.863251016256814,
+      "shellInnerMedianOnAxis": 5.307273913264021,
+      "transitionLengthMm": 4.203022897007208,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 628.7291955939447,
+      "faces": 39,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": []
+    },
+    "T8": {
+      "topNOnAxis": 8.445002562594896,
+      "shellCropSolids": 2,
+      "seatTopOnAxis": 1.1014713456908323,
+      "seatBottomOnAxis": -1.4985286543091678,
+      "capUndersideOnAxis": 5.860471345690833,
+      "shellInnerMedianOnAxis": 5.445002562594896,
+      "transitionLengthMm": 4.343531216904063,
+      "seatHalfSizeMm": 5.35,
+      "landingHalfSizeMm": 5.35,
+      "landingWidthMm": 2.1499999999999995,
+      "wallMm": 2.15,
+      "slotsCut": 2,
+      "volumeMm3": 629.28480421618,
+      "faces": 37,
+      "solids": 1,
+      "valid": true,
+      "droppedFragmentsMm3": []
+    }
+  },
+  "naturalFusePairs": {
+    "T1-T2": 0.6023924188437082,
+    "T1-T4": 14.705511018900042,
+    "T1-T5": 31.952122943789675,
+    "T2-T3": 0.5678926478841575,
+    "T2-T4": 0.25476307161339207,
+    "T2-T6": 0.3198814439611241,
+    "T3-T5": 29.59648841966983,
+    "T3-T6": 14.38166058607207
+  },
+  "componentsBeforeLinks": 1,
+  "componentMembership": {
+    "0": [
+      "T1",
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T8"
+    ],
+    "1": [
+      "T7"
+    ]
+  },
+  "links": [
+    {
+      "from": "T6",
+      "to": "T8",
+      "lengthMm": 12.54258172747435,
+      "componentsAfter": 2
+    },
+    {
+      "from": "T4",
+      "to": "T7",
+      "lengthMm": 12.55098773044079,
+      "componentsAfter": 1
+    }
+  ],
+  "linkWidthMm": 4.0,
+  "linkThicknessMm": 2.4,
+  "droppedFragmentsMm3": [],
+  "volumeMm3": 4760.630713855511,
+  "faces": 316,
+  "solids": 1,
+  "valid": false,
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 473.0,
+      "availMb": 22540.7
+    },
+    {
+      "stage": "build T1",
+      "rssMb": 512.6,
+      "availMb": 22496.3
+    },
+    {
+      "stage": "build T2",
+      "rssMb": 578.1,
+      "availMb": 22427.4
+    },
+    {
+      "stage": "build T3",
+      "rssMb": 568.5,
+      "availMb": 22448.8
+    },
+    {
+      "stage": "build T4",
+      "rssMb": 685.1,
+      "availMb": 22318.7
+    },
+    {
+      "stage": "build T5",
+      "rssMb": 696.9,
+      "availMb": 22304.9
+    },
+    {
+      "stage": "build T6",
+      "rssMb": 704.6,
+      "availMb": 22230.8
+    },
+    {
+      "stage": "build T7",
+      "rssMb": 714.9,
+      "availMb": 22229.8
+    },
+    {
+      "stage": "build T8",
+      "rssMb": 718.7,
+      "availMb": 22180.8
+    },
+    {
+      "stage": "link T6-T8",
+      "rssMb": 720.5,
+      "availMb": 22237.5
+    },
+    {
+      "stage": "link T4-T7",
+      "rssMb": 725.4,
+      "availMb": 22228.2
+    }
+  ]
+}

@@ -1,0 +1,534 @@
+{
+  "joyAxisWorld": [
+    0.00018185376874997678,
+    0.5984933689760241,
+    0.8011277390160295
+  ],
+  "knobCentreWorld": [
+    -0.22113388181685065,
+    -28.929649750498676,
+    70.15434139870011
+  ],
+  "outerSkinReference": {
+    "referenceMm": -4.015142596318695,
+    "p90Mm": -4.015142596318695,
+    "medianMm": -4.110428433708222,
+    "maxMm": -3.9975256726162556,
+    "p10Mm": -24.268622706596027,
+    "throughHoleFraction": 0.18333333333333332,
+    "ringMm": [
+      7.357108625641352,
+      8.607108625641352
+    ],
+    "samples": 720
+  },
+  "parts": {
+    "KNOB": {
+      "volumeMm3": 284.5408887543954,
+      "axialLowAboveSkinMm": -3.3930595477077636,
+      "axialHighAboveSkinMm": 7.606939457694343,
+      "axialLengthMm": 10.999999005402106,
+      "maxRadiusFromAxisMm": 7.007111245265528,
+      "bboxMm": [
+        14.000272757425282,
+        14.454978872956168,
+        14.642415732155378
+      ]
+    },
+    "MODULE": {
+      "volumeMm3": 1461.114207566221,
+      "axialLowAboveSkinMm": -19.043059547709646,
+      "axialHighAboveSkinMm": -4.793059547706774,
+      "axialLengthMm": 14.25000000000287,
+      "maxRadiusFromAxisMm": 23.010933342149496,
+      "bboxMm": [
+        27.034637954821555,
+        34.74660498423552,
+        27.015269896790592
+      ]
+    },
+    "STICK": {
+      "volumeMm3": 767.1258104130646,
+      "axialLowAboveSkinMm": -16.79305954771003,
+      "axialHighAboveSkinMm": 2.2069404522906613,
+      "axialLengthMm": 19.000000000000693,
+      "maxRadiusFromAxisMm": 12.155838832739718,
+      "bboxMm": [
+        17.00503060793821,
+        15.757737244902742,
+        18.47810370024908
+      ]
+    },
+    "BACKPLATE": {
+      "volumeMm3": 5899.527828399208,
+      "axialLowAboveSkinMm": -16.823635312873698,
+      "axialHighAboveSkinMm": -4.486921415140214,
+      "axialLengthMm": 12.336713897733482,
+      "maxRadiusFromAxisMm": 52.75589680189463,
+      "bboxMm": [
+        40.55997394149958,
+        58.463550679044765,
+        44.446318320892175
+      ]
+    }
+  },
+  "externalStack": {
+    "knobTopAboveSkinMm": 7.606939457694343,
+    "knobBaseAboveSkinMm": -3.3930595477077636,
+    "exposedShaftMm": 1.39999999999901,
+    "moduleTopAboveSkinMm": -4.793059547706774,
+    "moduleBottomAboveSkinMm": -19.043059547709646,
+    "internalDepthUsedMm": 19.043059547709646,
+    "joyBoreHalfWidthMm": 7.098876796965906
+  },
+  "openingProfile": [
+    {
+      "aboveSkinMm": -12.000000000000002,
+      "halfWidthMm": 16.681725924905717
+    },
+    {
+      "aboveSkinMm": -11.750000000000002,
+      "halfWidthMm": 16.671841191445356
+    },
+    {
+      "aboveSkinMm": -11.500000000000002,
+      "halfWidthMm": 16.66195645798498
+    },
+    {
+      "aboveSkinMm": -11.250000000000002,
+      "halfWidthMm": 16.652071724524628
+    },
+    {
+      "aboveSkinMm": -11.000000000000002,
+      "halfWidthMm": 16.64218699106426
+    },
+    {
+      "aboveSkinMm": -10.750000000000002,
+      "halfWidthMm": 16.632302257603893
+    },
+    {
+      "aboveSkinMm": -10.500000000000002,
+      "halfWidthMm": 16.62241752414353
+    },
+    {
+      "aboveSkinMm": -10.250000000000002,
+      "halfWidthMm": 16.612532790683158
+    },
+    {
+      "aboveSkinMm": -10.000000000000002,
+      "halfWidthMm": 16.602648057222794
+    },
+    {
+      "aboveSkinMm": -9.750000000000002,
+      "halfWidthMm": 16.592763323762426
+    },
+    {
+      "aboveSkinMm": -9.500000000000002,
+      "halfWidthMm": 16.582878590302062
+    },
+    {
+      "aboveSkinMm": -9.250000000000002,
+      "halfWidthMm": 16.57299385684169
+    },
+    {
+      "aboveSkinMm": -9.000000000000002,
+      "halfWidthMm": 16.563109123381327
+    },
+    {
+      "aboveSkinMm": -8.750000000000002,
+      "halfWidthMm": 16.553224389920963
+    },
+    {
+      "aboveSkinMm": -8.500000000000002,
+      "halfWidthMm": 16.543339656460596
+    },
+    {
+      "aboveSkinMm": -8.250000000000002,
+      "halfWidthMm": 16.53345492300023
+    },
+    {
+      "aboveSkinMm": -8.000000000000002,
+      "halfWidthMm": 16.523570189539868
+    },
+    {
+      "aboveSkinMm": -7.750000000000002,
+      "halfWidthMm": 16.513685456079497
+    },
+    {
+      "aboveSkinMm": -7.500000000000002,
+      "halfWidthMm": 16.503800722619136
+    },
+    {
+      "aboveSkinMm": -7.250000000000002,
+      "halfWidthMm": 16.493915989158765
+    },
+    {
+      "aboveSkinMm": -7.000000000000002,
+      "halfWidthMm": 16.484031255698408
+    },
+    {
+      "aboveSkinMm": -6.750000000000002,
+      "halfWidthMm": 16.47414652223804
+    },
+    {
+      "aboveSkinMm": -6.500000000000002,
+      "halfWidthMm": 16.464261788777673
+    },
+    {
+      "aboveSkinMm": -6.250000000000002,
+      "halfWidthMm": 16.45437705531731
+    },
+    {
+      "aboveSkinMm": -6.000000000000002,
+      "halfWidthMm": 16.44449232185694
+    },
+    {
+      "aboveSkinMm": -5.750000000000002,
+      "halfWidthMm": 16.434607588396574
+    },
+    {
+      "aboveSkinMm": -5.500000000000002,
+      "halfWidthMm": 16.42472285493621
+    },
+    {
+      "aboveSkinMm": -5.250000000000002,
+      "halfWidthMm": 16.414838121475842
+    },
+    {
+      "aboveSkinMm": -5.000000000000002,
+      "halfWidthMm": 16.40495338801547
+    },
+    {
+      "aboveSkinMm": -4.750000000000002,
+      "halfWidthMm": 16.39506865455511
+    },
+    {
+      "aboveSkinMm": -4.500000000000002,
+      "halfWidthMm": 16.385183921094743
+    },
+    {
+      "aboveSkinMm": -4.250000000000002,
+      "halfWidthMm": 16.375299187634376
+    },
+    {
+      "aboveSkinMm": -4.000000000000002,
+      "halfWidthMm": 16.250648062510216
+    },
+    {
+      "aboveSkinMm": -3.7500000000000018,
+      "halfWidthMm": 15.590642055437575
+    },
+    {
+      "aboveSkinMm": -3.5000000000000018,
+      "halfWidthMm": 14.418985084196205
+    },
+    {
+      "aboveSkinMm": -3.2500000000000018,
+      "halfWidthMm": 10.945592616887247
+    },
+    {
+      "aboveSkinMm": -3.0000000000000018,
+      "halfWidthMm": 7.211368742390124
+    },
+    {
+      "aboveSkinMm": -2.7500000000000018,
+      "halfWidthMm": 7.2014955049233205
+    },
+    {
+      "aboveSkinMm": -2.5000000000000018,
+      "halfWidthMm": 7.189670393600827
+    },
+    {
+      "aboveSkinMm": -2.2500000000000018,
+      "halfWidthMm": 7.177450757774822
+    },
+    {
+      "aboveSkinMm": -2.0000000000000018,
+      "halfWidthMm": 7.162658821073465
+    },
+    {
+      "aboveSkinMm": -1.7500000000000018,
+      "halfWidthMm": 7.147866884372113
+    },
+    {
+      "aboveSkinMm": -1.5000000000000018,
+      "halfWidthMm": 7.133074947670761
+    },
+    {
+      "aboveSkinMm": -1.2500000000000018,
+      "halfWidthMm": 7.116050919140494
+    },
+    {
+      "aboveSkinMm": -1.0000000000000018,
+      "halfWidthMm": 7.098876796965906
+    },
+    {
+      "aboveSkinMm": -0.7500000000000018,
+      "halfWidthMm": 7.081702674791322
+    },
+    {
+      "aboveSkinMm": -0.5000000000000018,
+      "halfWidthMm": 7.064528552616723
+    },
+    {
+      "aboveSkinMm": -0.2500000000000018,
+      "halfWidthMm": 7.047354430442137
+    },
+    {
+      "aboveSkinMm": -1.7763568394002505e-15,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": 0.24999999999999822,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": 0.4999999999999982,
+      "halfWidthMm": NaN
+    }
+  ],
+  "capRelationship": {
+    "T1": {
+      "centreDistanceMm": 42.65877120780008,
+      "surfaceGapToJoystickMm": 17.125986960563047,
+      "capTopAboveSkinMm": -0.12519850217267603,
+      "capTopMinusKnobTopMm": -7.7321379598670195
+    },
+    "T2": {
+      "centreDistanceMm": 30.980180720364157,
+      "surfaceGapToJoystickMm": 8.737624527353812,
+      "capTopAboveSkinMm": 0.5518552324292187,
+      "capTopMinusKnobTopMm": -7.055084225265125
+    },
+    "T3": {
+      "centreDistanceMm": 42.66488777064525,
+      "surfaceGapToJoystickMm": 16.877647172959875,
+      "capTopAboveSkinMm": -0.1278317314960642,
+      "capTopMinusKnobTopMm": -7.734771189190408
+    },
+    "T4": {
+      "centreDistanceMm": 32.848107464882,
+      "surfaceGapToJoystickMm": 9.272529731412861,
+      "capTopAboveSkinMm": 0.6931296902621895,
+      "capTopMinusKnobTopMm": -6.913809767432154
+    },
+    "T5": {
+      "centreDistanceMm": 41.91772789955166,
+      "surfaceGapToJoystickMm": 16.73611848244489,
+      "capTopAboveSkinMm": -0.2154659787555797,
+      "capTopMinusKnobTopMm": -7.822405436449923
+    },
+    "T6": {
+      "centreDistanceMm": 32.84095386153958,
+      "surfaceGapToJoystickMm": 8.821038902603531,
+      "capTopAboveSkinMm": 0.6905101415053534,
+      "capTopMinusKnobTopMm": -6.9164293161889905
+    },
+    "T7": {
+      "centreDistanceMm": 20.607958992553055,
+      "surfaceGapToJoystickMm": 6.787832581342761,
+      "capTopAboveSkinMm": 1.0506080784224419,
+      "capTopMinusKnobTopMm": -6.556331379271901
+    },
+    "T8": {
+      "centreDistanceMm": 20.596982192368785,
+      "surfaceGapToJoystickMm": 6.788744190311089,
+      "capTopAboveSkinMm": 1.049935805905886,
+      "capTopMinusKnobTopMm": -6.557003651788458
+    }
+  },
+  "szhWebReference": {
+    "PCB_34P5_X_26_PHOTO_PATTERN": {
+      "volumeMm3": 1389.961065788305,
+      "class": "PROVISIONAL STATIC",
+      "bboxMm": [
+        34.5,
+        26.0,
+        1.6
+      ]
+    },
+    "CENTRAL_GIMBAL_ENVELOPE": {
+      "volumeMm3": 3195.5000000000005,
+      "class": "PROVISIONAL STATIC",
+      "bboxMm": [
+        17.5,
+        16.6,
+        11.0
+      ]
+    },
+    "X_AXIS_POT_HOUSING": {
+      "volumeMm3": 583.4399999999999,
+      "class": "PROVISIONAL STATIC",
+      "bboxMm": [
+        5.199999999999999,
+        13.2,
+        8.5
+      ]
+    },
+    "Y_AXIS_POT_HOUSING": {
+      "volumeMm3": 446.25,
+      "class": "PROVISIONAL STATIC",
+      "bboxMm": [
+        10.5,
+        5.0,
+        8.5
+      ]
+    },
+    "PUSH_SWITCH_HOUSING": {
+      "volumeMm3": 367.49999999999994,
+      "class": "PROVISIONAL STATIC",
+      "bboxMm": [
+        10.5,
+        7.0,
+        5.0
+      ]
+    },
+    "JOYSTICK_SHAFT_INFERRED": {
+      "volumeMm3": 253.33803158548088,
+      "class": "PROVISIONAL MOVING",
+      "bboxMm": [
+        4.8,
+        4.800000000000001,
+        14.0
+      ]
+    },
+    "REMOVABLE_CAP_NOMINAL_ENVELOPE": {
+      "volumeMm3": 4549.068050301946,
+      "class": "REMOVABLE HARDWARE",
+      "bboxMm": [
+        22.0,
+        22.0,
+        21.0
+      ]
+    },
+    "HEADER_INSULATOR": {
+      "volumeMm3": 96.72000000000003,
+      "class": "REMOVABLE HARDWARE",
+      "bboxMm": [
+        2.6000000000000014,
+        12.4,
+        3.0
+      ]
+    },
+    "HEADER_PIN_1": {
+      "volumeMm3": 2.830951972002835,
+      "class": "REMOVABLE HARDWARE",
+      "bboxMm": [
+        8.800000000000002,
+        0.6400000000000006,
+        0.6400000000000008
+      ]
+    },
+    "HEADER_PIN_2": {
+      "volumeMm3": 2.830951972002835,
+      "class": "REMOVABLE HARDWARE",
+      "bboxMm": [
+        8.800000000000002,
+        0.6399999999999997,
+        0.6400000000000008
+      ]
+    },
+    "HEADER_PIN_3": {
+      "volumeMm3": 2.830951972002835,
+      "class": "REMOVABLE HARDWARE",
+      "bboxMm": [
+        8.800000000000002,
+        0.6400000000000001,
+        0.6400000000000008
+      ]
+    },
+    "HEADER_PIN_4": {
+      "volumeMm3": 2.8309519720028358,
+      "class": "REMOVABLE HARDWARE",
+      "bboxMm": [
+        8.800000000000002,
+        0.6399999999999999,
+        0.6400000000000008
+      ]
+    },
+    "HEADER_PIN_5": {
+      "volumeMm3": 2.830951972002835,
+      "class": "REMOVABLE HARDWARE",
+      "bboxMm": [
+        8.800000000000002,
+        0.6400000000000006,
+        0.6400000000000008
+      ]
+    },
+    "STATIC_BASE_BOUND": {
+      "volumeMm3": 16447.079999999998,
+      "class": "PROVISIONAL STATIC",
+      "bboxMm": [
+        40.55,
+        26.0,
+        15.600000000000001
+      ]
+    },
+    "STATIC_NEUTRAL_HANDLE_BOUND": {
+      "volumeMm3": 10073.516843735673,
+      "class": "PROVISIONAL MOVING",
+      "bboxMm": [
+        22.0,
+        22.0,
+        26.5
+      ]
+    },
+    "MOVING_CLEARANCE_ENVELOPE_25DEG_INFERRED": {
+      "volumeMm3": 16960.814710238883,
+      "class": "PROVISIONAL MOVING ENVELOPE",
+      "bboxMm": [
+        38.6,
+        38.6,
+        26.5
+      ]
+    }
+  },
+  "szhQuality": "PROVISIONAL - web model, docs/71 quality LOW",
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 411.6,
+      "availMb": 19246.3
+    },
+    {
+      "stage": "cap T1",
+      "rssMb": 478.5,
+      "availMb": 19128.2
+    },
+    {
+      "stage": "cap T2",
+      "rssMb": 478.5,
+      "availMb": 19127.4
+    },
+    {
+      "stage": "cap T3",
+      "rssMb": 478.5,
+      "availMb": 19130.1
+    },
+    {
+      "stage": "cap T4",
+      "rssMb": 478.5,
+      "availMb": 19127.9
+    },
+    {
+      "stage": "cap T5",
+      "rssMb": 478.5,
+      "availMb": 19127.9
+    },
+    {
+      "stage": "cap T6",
+      "rssMb": 478.5,
+      "availMb": 19128.3
+    },
+    {
+      "stage": "cap T7",
+      "rssMb": 478.5,
+      "availMb": 19091.0
+    },
+    {
+      "stage": "cap T8",
+      "rssMb": 478.5,
+      "availMb": 19094.3
+    }
+  ]
+}

@@ -1,0 +1,1462 @@
+{
+  "schema": "onegrip-i3-n2-combined-diagnostic-audit-v1",
+  "generatedUtc": "2026-08-24T18:49:23.137697+00:00",
+  "authority": {
+    "i3Latest": "docs/93_i3_i4_local_hybrid_support_validation.md",
+    "i3SourceJson": "build123d_workbench/out/i3_i4_local_hybrid_support_validation/i3_i4_local_hybrid_support_validation.json",
+    "n2FailureMode": "docs/92_six_failed_leg_shell_landing_failure_mode_diagnostic_audit.md",
+    "n2SourceJson": "build123d_workbench/out/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/six_failed_leg_shell_landing_failure_mode_diagnostic_audit.json"
+  },
+  "scope": {
+    "diagnosticOnly": true,
+    "solutionGeometryGenerated": false,
+    "geometryModificationCount": 0,
+    "productionModificationCount": 0,
+    "optimizerCount": 0,
+    "candidateGenerationLoopCount": 0,
+    "frozenButtons": [
+      "N1",
+      "I2",
+      "M3",
+      "M4",
+      "N3",
+      "I4"
+    ]
+  },
+  "i3": {
+    "logicalPartitionRule": "shared root material belongs to central seat; remaining source regions are disjoint",
+    "harnessCollision": {
+      "exactTotalMm3": 7.2297631076878295,
+      "byI3RegionMm3": {
+        "central seat": 1.6746311443292528,
+        "+U foot": 0.0,
+        "+U leg": 0.0,
+        "-U leg": 5.555131963356749,
+        "+V leg": 0.0,
+        "-V leg": 0.0
+      },
+      "unassignedResidualMm3": 0.0,
+      "primaryLimitingI3Region": "-U leg",
+      "existsAtFullSeat": true,
+      "existsOnlyDuringInsertion": false
+    },
+    "detailedPushBtnCollision": {
+      "exactPairwiseTotalMm3": 0.0732478276766663,
+      "matrixMm3": {
+        "central seat": {
+          "main body": 0.0111833251525316,
+          "T1": 0.0,
+          "T2": 0.0,
+          "T3": 0.06202627406783164,
+          "T4": 0.0,
+          "corner features": 0.0,
+          "actuator": 0.0
+        },
+        "+U foot": {
+          "main body": 0.0,
+          "T1": 0.0,
+          "T2": 0.0,
+          "T3": 0.0,
+          "T4": 0.0,
+          "corner features": 0.0,
+          "actuator": 0.0
+        },
+        "+U leg": {
+          "main body": 0.0,
+          "T1": 0.0,
+          "T2": 0.0,
+          "T3": 0.0,
+          "T4": 0.0,
+          "corner features": 0.0,
+          "actuator": 0.0
+        },
+        "-U leg": {
+          "main body": 3.822845630305784e-05,
+          "T1": 0.0,
+          "T2": 0.0,
+          "T3": 0.0,
+          "T4": 0.0,
+          "corner features": 0.0,
+          "actuator": 0.0
+        },
+        "+V leg": {
+          "main body": 0.0,
+          "T1": 0.0,
+          "T2": 0.0,
+          "T3": 0.0,
+          "T4": 0.0,
+          "corner features": 0.0,
+          "actuator": 0.0
+        },
+        "-V leg": {
+          "main body": 0.0,
+          "T1": 0.0,
+          "T2": 0.0,
+          "T3": 0.0,
+          "T4": 0.0,
+          "corner features": 0.0,
+          "actuator": 0.0
+        }
+      },
+      "primaryPair": "I3 central seat ↔ I2 T3",
+      "primaryPairPenetrationMm3": 0.06202627406783164,
+      "existsAtFullSeat": true,
+      "existsOnlyDuringInsertion": false
+    },
+    "earlyShellContact": {
+      "states": [
+        {
+          "state": "START",
+          "+U foot": 0.0,
+          "+U leg": 0.0,
+          "seat": 0.0,
+          "other legs": 0.0,
+          "partitionSumMm3": 0.0,
+          "exactTotalMm3": 0.0
+        },
+        {
+          "state": "25%",
+          "+U foot": 0.00014046324052117601,
+          "+U leg": 0.0,
+          "seat": 0.0,
+          "other legs": 0.0,
+          "partitionSumMm3": 0.00014046324052117601,
+          "exactTotalMm3": 0.00014046324052120995
+        },
+        {
+          "state": "50%",
+          "+U foot": 0.004949601669869666,
+          "+U leg": 0.0,
+          "seat": 0.0,
+          "other legs": 0.0,
+          "partitionSumMm3": 0.004949601669869666,
+          "exactTotalMm3": 0.004949601669869655
+        },
+        {
+          "state": "75%",
+          "+U foot": 0.007011562545578021,
+          "+U leg": 0.0,
+          "seat": 0.0,
+          "other legs": 0.0,
+          "partitionSumMm3": 0.007011562545578021,
+          "exactTotalMm3": 0.007011562545576763
+        },
+        {
+          "state": "FULL SEAT",
+          "+U foot": 0.0,
+          "+U leg": 0.0,
+          "seat": 0.0,
+          "other legs": 0.0,
+          "partitionSumMm3": 0.0,
+          "exactTotalMm3": 0.0
+        }
+      ],
+      "causedOnlyByPlusUFoot": true,
+      "existsAtFullSeatAsUnintendedCollision": false,
+      "existsOnlyDuringInsertion": true
+    },
+    "minimumLocalCorrectionMeasurements": {
+      "I3-I2 harness primary": {
+        "region": "-U leg",
+        "sizesLocalUVWmm": [
+          2.5093870946367014,
+          0.8685444758547719,
+          7.766425215948883
+        ],
+        "minimumEnvelopeRemovalMm": 0.8685444758547719,
+        "minimumEnvelopeAxis": "V",
+        "directionLocal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "method": "exact collision-solid local bounding-envelope thickness; diagnostic trim bound"
+      },
+      "I3-I2 detailed primary": {
+        "pair": "I3 central seat ↔ I2 T3",
+        "sizesLocalUVWmm": [
+          1.3264567932787426,
+          0.4968736902532838,
+          1.4295022544797469
+        ],
+        "minimumEnvelopeRemovalMm": 0.4968736902532838,
+        "minimumEnvelopeAxis": "V",
+        "directionLocal": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "method": "exact collision-solid local bounding-envelope thickness; diagnostic trim bound"
+      },
+      "early shell lead-in": {
+        "state": "75%",
+        "sizesLocalUVWmm": [
+          0.05186447509816006,
+          1.75686657865122,
+          0.8129464668463422
+        ],
+        "minimumEnvelopeRemovalMm": 0.05186447509816006,
+        "minimumEnvelopeAxis": "U",
+        "directionLocal": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "method": "exact collision-solid local bounding-envelope thickness; diagnostic trim bound"
+      }
+    },
+    "architectureVerdict": "I3-B — MULTIPLE LOCAL CORRECTIONS REQUIRED",
+    "canRemainThreeSlotOneContact": "LIKELY WITH LOCAL CORRECTION"
+  },
+  "n2": {
+    "minusU": {
+      "currentState": "valid slot",
+      "localSupportExists": true,
+      "sameHalf": true,
+      "seamInvolved": false,
+      "likelySupportType": "mechanical slot"
+    },
+    "minusV": {
+      "canBecomeNormalMechanicalBlindSlotWithMicroLocalThickening": true,
+      "originalRemainingShellMm": 1.0796416567294704,
+      "minimumRequiredInwardThickeningMm": 0.12035834327052952,
+      "minimumPadFootprintMm": [
+        3.0999999999999996,
+        2.8
+      ],
+      "minimumAddedVolumeMm3": 1.044710419588196,
+      "outerExteriorChangeMm": 0.0
+    },
+    "plusU": {
+      "naturalFootprintOwningHalfCoverage": 0,
+      "naturalFootprintOppositeHalfCoverage": 3,
+      "naturalFootprintOpeningVoidCount": 6,
+      "assembledShellHasValidLocalJaDReactionSurface": true,
+      "nearestJaDLocalLandShiftMm": 1.05,
+      "jaDCenterLocalUVmm": [
+        5.035,
+        0.0
+      ],
+      "jaDFootprintCoverage": 9,
+      "jaDMinimumRemainingShellMm": 1.7309392423455607,
+      "wouldCrossPhysicalSeam": true,
+      "wouldMechanicallyBridgeShellHalvesIfSlotted": true,
+      "blindSlotAssemblyCompatible": false,
+      "contactOnlyAssemblyCompatible": true,
+      "classification": "N2+U-2 — JaD LOCAL SEAM-SIDE SUPPORT POSSIBLE",
+      "headlineClass": "ASSEMBLY-LIMITED"
+    },
+    "plusV": {
+      "centerLocalUVmm": [
+        -0.8777001953125002,
+        5.0
+      ],
+      "footprintDimensionsMm": [
+        1.6,
+        1.3
+      ],
+      "rayCoverage": 25,
+      "rayCount": 25,
+      "samples": [
+        {
+          "originLocalUVWmm": [
+            -1.6777001953125001,
+            4.35,
+            0.06
+          ],
+          "hitsMm": [
+            5.48669164325712,
+            8.49381596211534
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.6777001953125001,
+            4.675,
+            0.06
+          ],
+          "hitsMm": [
+            5.497212352480764,
+            8.504351087288935
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.6777001953125001,
+            5.0,
+            0.06
+          ],
+          "hitsMm": [
+            5.508348904631501,
+            8.515515560795226
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.6777001953125001,
+            5.325,
+            0.06
+          ],
+          "hitsMm": [
+            5.520088715747193,
+            8.527296104296422
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.6777001953125001,
+            5.65,
+            0.06
+          ],
+          "hitsMm": [
+            5.532419601476241,
+            8.539679895881898
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.2777001953125002,
+            4.35,
+            0.06
+          ],
+          "hitsMm": [
+            5.4625134603380925,
+            8.46973718317884
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.2777001953125002,
+            4.675,
+            0.06
+          ],
+          "hitsMm": [
+            5.47340606617095,
+            8.480640152718275
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.2777001953125002,
+            5.0,
+            0.06
+          ],
+          "hitsMm": [
+            5.484903391227146,
+            8.492161322766442
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.2777001953125002,
+            5.325,
+            0.06
+          ],
+          "hitsMm": [
+            5.4969930999932695,
+            8.504287680262967
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -1.2777001953125002,
+            5.65,
+            0.06
+          ],
+          "hitsMm": [
+            5.509663248718229,
+            8.517006659212036
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.8777001953125002,
+            4.35,
+            0.06
+          ],
+          "hitsMm": [
+            5.438426880628876,
+            8.445695848685643
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.8777001953125002,
+            4.675,
+            0.06
+          ],
+          "hitsMm": [
+            5.449705721437924,
+            8.45698215498219
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.8777001953125002,
+            5.0,
+            0.06
+          ],
+          "hitsMm": [
+            5.461577994494405,
+            8.468875337344636
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.8777001953125002,
+            5.325,
+            0.06
+          ],
+          "hitsMm": [
+            5.474031618065197,
+            8.481362652990468
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.8777001953125002,
+            5.65,
+            0.06
+          ],
+          "hitsMm": [
+            5.487054893989456,
+            8.494431796501308
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.4777001953125001,
+            4.35,
+            0.06
+          ],
+          "hitsMm": [
+            5.414570749726842,
+            8.421831348472898
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.4777001953125001,
+            4.675,
+            0.06
+          ],
+          "hitsMm": [
+            5.42625034422508,
+            8.433516628204044
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.4777001953125001,
+            5.0,
+            0.06
+          ],
+          "hitsMm": [
+            5.438511936661815,
+            8.44579729017638
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.4777001953125001,
+            5.325,
+            0.06
+          ],
+          "hitsMm": [
+            5.451343702898397,
+            8.4586608663109
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.4777001953125001,
+            5.65,
+            0.06
+          ],
+          "hitsMm": [
+            5.464734193909376,
+            8.472095315896741
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.07770019531250016,
+            4.35,
+            0.06
+          ],
+          "hitsMm": [
+            6.501723828629127,
+            8.398285184314402
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.07770019531250016,
+            4.675,
+            0.06
+          ],
+          "hitsMm": [
+            6.501723828629127,
+            8.410385240217986
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.07770019531250016,
+            5.0,
+            0.06
+          ],
+          "hitsMm": [
+            6.501723828629127,
+            8.423069021753681
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.07770019531250016,
+            5.325,
+            0.06
+          ],
+          "hitsMm": [
+            6.501723828629127,
+            8.436324339431945
+          ],
+          "paired": true
+        },
+        {
+          "originLocalUVWmm": [
+            -0.07770019531250016,
+            5.65,
+            0.06
+          ],
+          "hitsMm": [
+            6.501723828629127,
+            8.450139420879111
+          ],
+          "paired": true
+        }
+      ],
+      "availableContactAreaMm2": 2.084954656360297,
+      "estimatedSimpleFootContactAreaMm2": 2.08,
+      "localShellNormal": [
+        0.057903287899260664,
+        -0.037340773616188275,
+        0.9976236143336823
+      ],
+      "fullFinitePatch": true,
+      "minimumShellThicknessMm": 1.8965613556852743,
+      "naturalCenterLocalUVmm": [
+        -0.5,
+        5.0
+      ],
+      "supportEndpointDistanceFromNaturalRegionMm": 0.3777001953125002,
+      "measuredLimitingShellEdgeUMm": 0.0031738281250000278,
+      "edgeOnlyCenterLocalUVmm": [
+        -0.8268261718750001,
+        5.0
+      ],
+      "edgeOnlyMinimumShellThicknessMm": 0.7161795752245075,
+      "requiredSupportingShellThicknessMm": 1.2,
+      "edgeClearanceMm": 0.03,
+      "edgeBoundaryByV": [
+        {
+          "vMm": 4.35,
+          "lastMaterialUMm": 0.0031738281250000278,
+          "firstVoidUMm": 0.003186035156250028
+        },
+        {
+          "vMm": 4.675,
+          "lastMaterialUMm": 0.0036987304687500274,
+          "firstVoidUMm": 0.0037109375000000276
+        },
+        {
+          "vMm": 5.0,
+          "lastMaterialUMm": 0.004248046875000028,
+          "firstVoidUMm": 0.0042602539062500284
+        },
+        {
+          "vMm": 5.325,
+          "lastMaterialUMm": 0.004821777343750029,
+          "firstVoidUMm": 0.004833984375000029
+        },
+        {
+          "vMm": 5.65,
+          "lastMaterialUMm": 0.0054199218750000284,
+          "firstVoidUMm": 0.005432128906250029
+        }
+      ],
+      "method": "five fixed V sections plus one-dimensional exact-ray structural-thickness boundary measurement; no root/angle/candidate search",
+      "originalOnePointSixByOnePointThreeEnvelope": {
+        "centerLocalUVmm": [
+          -0.5,
+          5.0
+        ],
+        "footprintDimensionsMm": [
+          1.6,
+          1.3
+        ],
+        "rayCoverage": 20,
+        "rayCount": 25,
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              -1.3,
+              4.35,
+              0.06
+            ],
+            "hitsMm": [
+              5.463860249589779,
+              8.471079860200394
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.3,
+              4.675,
+              0.06
+            ],
+            "hitsMm": [
+              5.474731745748335,
+              8.481961916064355
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.3,
+              5.0,
+              0.06
+            ],
+            "hitsMm": [
+              5.486208585517359,
+              8.493462798641643
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.3,
+              5.325,
+              0.06
+            ],
+            "hitsMm": [
+              5.498278419396776,
+              8.50556947994572
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.3,
+              5.65,
+              0.06
+            ],
+            "hitsMm": [
+              5.510929290095154,
+              8.51826937958579
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.9,
+              4.35,
+              0.06
+            ],
+            "hitsMm": [
+              5.439764905377356,
+              8.447032786705318
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.9,
+              4.675,
+              0.06
+            ],
+            "hitsMm": [
+              5.4510218315012215,
+              8.458297312025827
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.9,
+              5.0,
+              0.06
+            ],
+            "hitsMm": [
+              5.462872823540019,
+              8.470169349266792
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.9,
+              5.325,
+              0.06
+            ],
+            "hitsMm": [
+              5.475305785475655,
+              8.482636140456169
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.9,
+              5.65,
+              0.06
+            ],
+            "hitsMm": [
+              5.488309005327093,
+              8.49568536553503
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.5,
+              4.35,
+              0.06
+            ],
+            "hitsMm": [
+              5.415892395825473,
+              8.423154725309804
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.5,
+              4.675,
+              0.06
+            ],
+            "hitsMm": [
+              5.427549284513615,
+              8.434817348169409
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.5,
+              5.0,
+              0.06
+            ],
+            "hitsMm": [
+              5.439788811477111,
+              8.447075998388208
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.5,
+              5.325,
+              0.06
+            ],
+            "hitsMm": [
+              5.452599137960436,
+              8.459918192465471
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.5,
+              5.65,
+              0.06
+            ],
+            "hitsMm": [
+              5.465968800811212,
+              8.473331874832983
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.09999999999999987,
+              4.35,
+              0.06
+            ],
+            "hitsMm": [
+              5.985622070654439,
+              8.399587047651854
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.09999999999999987,
+              4.675,
+              0.06
+            ],
+            "hitsMm": [
+              5.985622070654439,
+              8.411663560916317
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.09999999999999987,
+              5.0,
+              0.06
+            ],
+            "hitsMm": [
+              5.985622070654439,
+              8.424324453843077
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.09999999999999987,
+              5.325,
+              0.06
+            ],
+            "hitsMm": [
+              5.985622070654439,
+              8.437557521317913
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.09999999999999987,
+              5.65,
+              0.06
+            ],
+            "hitsMm": [
+              5.985622070654439,
+              8.451350975920064
+            ],
+            "paired": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.30000000000000004,
+              4.35,
+              0.06
+            ],
+            "hitsMm": [],
+            "paired": false
+          },
+          {
+            "originLocalUVWmm": [
+              0.30000000000000004,
+              4.675,
+              0.06
+            ],
+            "hitsMm": [],
+            "paired": false
+          },
+          {
+            "originLocalUVWmm": [
+              0.30000000000000004,
+              5.0,
+              0.06
+            ],
+            "hitsMm": [],
+            "paired": false
+          },
+          {
+            "originLocalUVWmm": [
+              0.30000000000000004,
+              5.325,
+              0.06
+            ],
+            "hitsMm": [],
+            "paired": false
+          },
+          {
+            "originLocalUVWmm": [
+              0.30000000000000004,
+              5.65,
+              0.06
+            ],
+            "hitsMm": [],
+            "paired": false
+          }
+        ],
+        "availableContactAreaMm2": 1.667961024715723,
+        "estimatedSimpleFootContactAreaMm2": 1.6640000000000001,
+        "localShellNormal": [
+          0.05714329157847958,
+          -0.0384518632480216,
+          0.9976252294525897
+        ],
+        "fullFinitePatch": false,
+        "minimumShellThicknessMm": 2.4139649769974154
+      },
+      "nearestValidLocalPatchDistanceFromNaturalTargetMm": 0.3777001953125002,
+      "rootToPatchCenterUVDistanceMm": 1.7290872705278937,
+      "sideIdentityPreserved": true,
+      "remoteOrThumbWallRequired": false,
+      "straightLegReactionDirectionLocal": [
+        -0.22384451426988805,
+        0.20410019508577928,
+        0.9530145559209601
+      ],
+      "legAxisToLocalShellNormalDeg": 21.539101398223067,
+      "bondlessPressLoadSupportPossible": true,
+      "classification": "N2+V-3 — LOCAL CONTACT ONLY POSSIBLE"
+    },
+    "assemblySequences": {
+      "A — harness before JaD closure": {
+        "geometricallyPlausible": "YES, CONTACT-ONLY",
+        "shellHalvesCanClose": "YES",
+        "harnessRemovable": "YES, AFTER JaD REOPENING",
+        "reason": "JaD closure can establish local compression contact; a JaD blind slot would not accept the frozen harness by this closure motion."
+      },
+      "B — harness after partial shell assembly": {
+        "geometricallyPlausible": "NO",
+        "shellHalvesCanClose": "NOT APPLICABLE",
+        "harnessRemovable": "NO DIRECT REAR PATH",
+        "reason": "simultaneous access to JfD slots and a JaD seam-side blind engagement is not available after partial closure."
+      },
+      "C — JaD closure creates support": {
+        "geometricallyPlausible": "YES, CONTACT-ONLY",
+        "shellHalvesCanClose": "YES",
+        "harnessRemovable": "YES, AFTER SHELL OPENING",
+        "reason": "closure may create a non-captive +U compression reaction; it must not be modeled as a cross-seam blind slot or captive bridge."
+      }
+    },
+    "architectures": {
+      "N2-A — +U JaD mechanical/seam bridge": {
+        "grade": "INVALID",
+        "translationRestraint": "GOOD",
+        "rotationRestraint": "GOOD",
+        "rockingUnderPressAxis": "ABSENT",
+        "reason": "restraint is geometrically strong, but a captive cross-seam blind support blocks ordinary shell service."
+      },
+      "N2-B — -U/-V slots + +U/+V contacts": {
+        "grade": "PLAUSIBLE",
+        "translationRestraint": "PLAUSIBLE",
+        "rotationRestraint": "PLAUSIBLE",
+        "rockingUnderPressAxis": "ABSENT IF BOTH CONTACTS CLOSE UNDER PRESS",
+        "reason": "two non-collinear blind slots retain the harness; two opposite-side local compression contacts close the press-load support polygon."
+      }
+    },
+    "viableMechanicalSlotCount": 2,
+    "plausibleLocalContactSupportCount": 2,
+    "remoteOrThumbWallSupportRequired": false,
+    "requiresFundamentallyNewArchitecture": true,
+    "recommendedArchitectureDirection": "2 local mechanical slots + 2 local compression contacts; +U contact established by JaD closure"
+  },
+  "summary": {
+    "i3Architecture": "I3-B — MULTIPLE LOCAL CORRECTIONS REQUIRED",
+    "i3PrimaryFailure": "-U leg ↔ I2 harness",
+    "i3LocalOnlyCorrectionPlausible": true,
+    "n2ViableMechanicalSlots": 2,
+    "n2PlausibleLocalContacts": 2,
+    "n2PlusUJaD": "ASSEMBLY-LIMITED",
+    "n2PlusVContact": "POSSIBLE",
+    "remoteOrThumbWallSupportRequired": false
+  },
+  "outputs": {
+    "renders": [
+      "renders/i3_n2_combined_diagnostic_audit/01_i3_i2_harness_limiting_collision.png",
+      "renders/i3_n2_combined_diagnostic_audit/02_i3_i2_detailed_pushbtn_limiting_collision.png",
+      "renders/i3_n2_combined_diagnostic_audit/03_i3_early_plus_u_foot_shell_contact.png",
+      "renders/i3_n2_combined_diagnostic_audit/04_i3_full_seat_context.png",
+      "renders/i3_n2_combined_diagnostic_audit/05_n2_jad_jfd_seam_plus_u_natural_support.png",
+      "renders/i3_n2_combined_diagnostic_audit/06_n2_plus_v_local_contact_region_section.png",
+      "renders/i3_n2_combined_diagnostic_audit/07_n2_minus_v_shell_thickness_section.png",
+      "renders/i3_n2_combined_diagnostic_audit/08_n2_complete_local_support_map.png"
+    ],
+    "report": "docs/94_i3_n2_combined_diagnostic_audit.md",
+    "json": "build123d_workbench/out/i3_n2_combined_diagnostic_audit/i3_n2_combined_diagnostic_audit.json",
+    "solutionStepArtifactCount": 0
+  },
+  "preservation": {
+    "protectedFilesUnchanged": true,
+    "protectedFileCount": 227,
+    "hashesBefore": {
+      "build123d_workbench/eight_button_four_edge_batch_propagation_screening.py": "14195D0514B25CC63B8F0DD9CE17B44839F0938F9673356FAC01B2FD2A83CE5C",
+      "build123d_workbench/finger_controls_v2.py": "AB902A423C2932A08864B5AAAE5F3B03D92902BA8D8707FB546E28B6EE5466F3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "DB15C811E1E47CF3533EFD7AF5818DCF03F41BF4A0C9B7CA404231A1B3BADFB9",
+      "build123d_workbench/i2_assembly_sequence_only_audit.py": "4F29B8B3CA601EE98DB2AD8FA8B8F929CD13B3D4D4E8C354C3D86487000877EB",
+      "build123d_workbench/i2_detailed_pushbtn_manufacturing_robust_audit.py": "3D44A58E56FF683B522EBCAC53426D4888711277EF160195EA8A9EDEB41D8646",
+      "build123d_workbench/i2_final_local_clearance_balancing_audit.py": "0DD5B59B8F2ABC6679C2BB3C9904A2442A6521ED4B8EE460D8EF3355390F757F",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "D62577FD138F85EFB9CA096999825C727979F91D9511D40FC16B62055FE96342",
+      "build123d_workbench/i2_local_manufacturing_clearance_hardening_audit.py": "DE0278AE9D824926BF21F4601054172FEB7F3B6D726D1ECDF04B11969CB28D37",
+      "build123d_workbench/i2_manufacturing_harness_rebase_audit.py": "B8CC0F03601136B250DA3F80098F07EF266E05C4C4C8C7DA5B67FD8A36451744",
+      "build123d_workbench/i2_minimum_angle_direct_shell_assembly_audit.py": "B529734126741EF2246DD00A607659F0971088371F66B284DCEF3C63ACF71A65",
+      "build123d_workbench/i2_user_intended_rear_harness_sanity_check.py": "A103CC6DCB981D073B85EF4DE876FCFA9837F9663357AB4D62829FE868C434DB",
+      "build123d_workbench/i3_i4_local_hybrid_support_validation.py": "57B5992C6029744C76274D1260CC180A6788A2A281B98D4B6162FD3141C6BC9D",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "C6BFD2509133D17A1380D576328128DEC6B3ED077D81A14765A2EE1B4F9FBCD8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "F583CCF6B5F488F458D2BDA6DA519BFDB1A0CEFD3270116A8AAA7E3F8A820F2D",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815CEB40DF97F177485474014EDC866925CC9883AE72202DECCB4C3BC383126B",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848C98DD1883F50ABE096EACBF76F023558E0D9E9C44BFA576A8E59F9038",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/direct_shell_four_edge_i2_simplification_audit.json": "8F7BB015F7A6D0B42E8611E43F5D121166070B536CC5960602B860B1208EC740",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5C0ADBBA04089EB2D9F3C0637C1AC1F91D211B5517F428C39A541443BBA4FF47",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_LOCAL_CROP_WITH_BLIND_SLOTS_AUDIT_ONLY.step": "247D9EAFC8BF0324AAA21167626CF34DC437D7F921F1A516A48B0C18D9AF1C65",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_SIMPLIFIED_FULL_ASSEMBLY_AUDIT_ONLY.step": "C4E2805DB4502EA40BAB27BE7D3B8A16C573741538E699ADA6B4B27633A549E1",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_DIRECT_SHELL_SLOT_CROPS_AUDIT_ONLY.step": "9E6C1B585D9EF1B67ECBF4AE69EF64ED8E0CE6E3F400003CF85353E5AB096F37",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_SELECTED_FOUR_EDGE_HARNESSES_AUDIT_ONLY.step": "8242905BE433F1126C815B4B2DD7DA848EAB7FCD4CEB751E1F6FB2E439466BD5",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/eight_button_four_edge_batch_propagation_screening.json": "DF3BB31B8D2EBD4B4BC62B4CF6D7E2E14AB367ADFA16DA230AE000ADCB751EFE",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M3_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CE62E216BEBCB7FEED084EA3AF7A83D84D0DE1F69052ECA12B172A49A66BCAEF",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M4_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "B15F5CBB9A52C6E44CA9A8DE77EB73C245028AFBA369D04720A227653360A346",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/N1_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "7D20863518E0D0D0BF0A87CD042B28635D453E6F7C8654DD74567559D0A8D94B",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7DC5C5F5F2C01445F86B60CC56FE4FE271D7E50793394130DB127EEA48317B2E",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744B39AB532AD767AFB36DDFD89A37EA13126DED9F9484246D54991ACDE1FA",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "C50194CD7AB892FC2C0BBE7991E78EEE9645C1B1DF1BD613364B97A2C3D17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9CBA1CFA8E9B01D36308983FC0CF163326925817534A22CCB554B85D4A93521A",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72C15567C6C2C7F57667F28F4190BD5E584F7572D4DE36886E37E7890ABBC1E0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "BDB77197E59EA22FFBB4AA55E61B7B5382EEE75E8399F9DDAE1339F2EB5CA752",
+      "build123d_workbench/out/i2_assembly_sequence_only_audit/i2_assembly_sequence_only_audit.json": "BFA4B4B924653C2E90CEABB35CA4248F41C24045B3CC774790F300294C1486A7",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/i2_detailed_pushbtn_manufacturing_robust_audit.json": "5870D8B6B040CF5A0D9387C3ED5511FAF83A84E177E219EF5E2790662F0D2570",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CF5C01C4789B9365026EF7E273645217F3F4C60E6A69EDE73C714C73D4987726",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FULL_ASSEMBLY_AUDIT_ONLY.step": "BD25F381E8C433D8E57DF66D5D8189868DF710B3625A9FB590597227B0A723E4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ORIGINAL_PUSHBTN_MEASURED_ACTUATOR_HYBRID_AUDIT_ONLY.step": "CAFE8E1EB8F5DBDFABB06A688031DD47661F61418532CF786DA9A55694CB9EA4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ROBUST_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "77868C8BCCC353F680A9ADFF252B87CA17CC8F3AEEC9E8D5F9F7C39F4E0F7EAB",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/ORIGINAL_ONEGRIP_PUSHBTN_3530_FACET_REFERENCE_AUDIT_ONLY.step": "D5C756A44095DD0EE425713875D1AA2445EF52684EF2761C9EF6F49AD5C124F2",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/I2_FINAL_BALANCED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "CABCE30A0D521289C17C26FFE571DC400FD0A50EA744FB937AACE8B4385F50E8",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/i2_final_local_clearance_balancing_audit.json": "9D096B8D3979398BB4E69F34D6975332C1A11373BE318D06B2DA9D3263D8C4BE",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/I2_LOCAL_HARDENED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "7DAD735A530A9F0FE427C3FF803B2AB90789CAEA966D98145ED11D331846A1B8",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/i2_local_manufacturing_clearance_hardening_audit.json": "58FCC22EE27359A438C52525605060C834753FAA1B3650EBE8DA47B8C44C9766",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "98FF73FAAC30E50205734A4E77700ABC8D3013B283B9A27261C095D9D3A8848B",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "E9EF156E96A0B148F11D908B0D5F18EFC7CA3F5484E3B419AF658B93D4DC1E44",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/i2_manufacturing_harness_rebase_audit.json": "983EEA2F133C7364E23705B4FE72AC3657A3993314CC9880CB2E49C7DE32A6C0",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/i2_minimum_angle_direct_shell_assembly_audit.json": "D9E17A1F875339AD250D71700E669AE5492E3F85AD953F0EB60BEC055FE1037D",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "4D77E4CA9C148AF51C073AD96FEE25DA45189E87EC90650FC7F3E0AA172EB231",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_SLOT_SHELL_CROP_AUDIT_ONLY.step": "CD8DB817B5988F8AF40CB54294A6F7C7336085B96814BDCE639768118792C67E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FULL_SEATED_ASSEMBLY_AUDIT_ONLY.step": "C8D9595D66DABEF276099E58CDB6B21291437B1D84D9128E43F16295E002151E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/minimum_angle_search_cache.json": "D50851B1BCA8CC0D520C2493285A97DC2F36648258C8F1E7DAC70D402DFF9E5A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_MINUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "ED7DEA16202D618590862E660C86F770EE601D6F5B5EDE34B5D43581A11AFB4A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/i2_parallel_w_four_edge_leg_revalidation_audit.json": "478B23FB308C3202276DF038FE061AE91C283504A03DB16E4A1098B8A397FD57",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_PLUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "9EB24AAF59BDC27D767697DA477C4ECC80F7A476471DCF02AC829F7F88F9BA42",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/I2_PARALLEL_W_ROOT_SLIDE_BEST_FAILURE_PROBES_AUDIT_ONLY.step": "134D79340A6CB7AAC2C1B5BFE75446454D1FBA2D98664FC6FE739B5A831DB858",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/i2_parallel_w_root_slide_simplification_audit.json": "96E26A8CB93FD7136BC230F27E3AFDAC634F72BFEAA5888B7BC868204647770F",
+      "build123d_workbench/out/i2_user_intended_rear_harness_sanity_check/i2_user_intended_rear_harness_sanity_check.json": "8D0DE73DBBCD4DEAC3DB07BF109C7AEE8F6F883419757E467BD9F91CEE114870",
+      "build123d_workbench/out/i3_i4_local_hybrid_support_validation/I3_COMPLETE_3SLOT_1LOCAL_FOOT_HARNESS_AUDIT_ONLY.step": "F5B97CFE405BA94EBC950209D51E8C7BA252AB743F00B7D02BCC4EDD405ECA6B",
+      "build123d_workbench/out/i3_i4_local_hybrid_support_validation/i3_i4_local_hybrid_support_validation.json": "FA7651D62B42B6A68A206F17DA640E08BE7EE69AD4777CF3C9DF9693FD5B47DD",
+      "build123d_workbench/out/i3_i4_local_hybrid_support_validation/I4_COMPLETE_3SLOT_1LOCAL_FOOT_HARNESS_AUDIT_ONLY.step": "D3E3D22121B313B648069C000F086E5012263A699096EF0F88191125893BB781",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "B223757EE25FDD5EDDF710B8666BCD388D4221235D8D876F620EB0005D5B75B6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "D1BF68B105DCE11374AB1F89981EE503A5591D2FF7FA5175777432171855BF7F",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/N3_RESCUED_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5DA34C85A3B4F59A9195FA2297AB44BCA7A14B5044B1ADC5DB0D5F9FE719E358",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/seven_unresolved_leg_root_shell_target_rescue_audit.json": "3DC48CBCF290F10753756617363A3A6E369D33BFD4375C7FE389A1F0CB6314DA",
+      "build123d_workbench/out/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/six_failed_leg_shell_landing_failure_mode_diagnostic_audit.json": "A53EAF43E46970BFC88B03B6505B809298B2563E5226660A70916258515E8AB8",
+      "build123d_workbench/seven_unresolved_leg_root_shell_target_rescue_audit.py": "1B4CD0ABDEF42D39B568A85548E7735C3B25031DDDA6F9DE0B973DE49B23804F",
+      "build123d_workbench/six_failed_leg_shell_landing_failure_mode_diagnostic_audit.py": "5583BE80AE84E6FA77447D95BEDF9FF96FEEA8F146C8057A4FEF11D19A9A2475",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "A42634C3A617F900F51650D7820CAD177DE623EA568F5F9948DC96BFC8DE54C3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069E535B5F5CAC9C5D8696FE23719959A95B3DAEFB064086DAB899993CDB1A64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "AF0EA969CC11C62D9CE1CDA4EE6C117372F83BAA0207E2742544CFE08D2E2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568A6DFEE254585B8CDFD83D86141C1554CDCE3274ED0148F22DE576FB0",
+      "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md": "97EB813D7F69573B983A0339D83793B9A365CA5A0742B5B1D5BC9FA4898E0897",
+      "docs/84_i2_detailed_pushbtn_manufacturing_robust_audit.md": "2A7BFC9573066072641B59FE22607C86183982A99D6DCCCC8229F60737B0D501",
+      "docs/85_i2_assembly_sequence_only_audit.md": "2F56970AB0A3DA56B2C58B2827FE8617FEDCFE1DE3B3C237DC336E61D5AC5F9D",
+      "docs/86_i2_manufacturing_harness_rebase_audit.md": "CA0D56D081DB76A05A7B93DB2CAD47661FE40C47F842E6E21CE86A90D3D4FFA6",
+      "docs/87_i2_user_intended_rear_harness_assembly_sanity_check.md": "017C910CAAB36017C7148805AC9241A3494276C2CC23B85C21D1E1E470DEDBF4",
+      "docs/88_i2_local_manufacturing_clearance_hardening_audit.md": "FB84748FD52127BF378E35B85E6372A40F64D9853FD3E0BE9C6796AA2CEB7CDB",
+      "docs/89_i2_final_local_clearance_balancing_audit.md": "20428B63BCE5D31FCD9D107EE6E22E65B3D6789A44F114E479622C09DAF3FF9E",
+      "docs/90_eight_button_four_edge_batch_propagation_screening.md": "2878CE20DA38C4F78A90035FEA85BD8E9069B5FBCB3E0F6FD56BD86EE8F623DB",
+      "docs/91_seven_unresolved_leg_root_shell_target_rescue_audit.md": "06D254D43F5545926CC476DF20BD84DD362EFC76EB8D30A558D083FB3DD799AD",
+      "docs/92_six_failed_leg_shell_landing_failure_mode_diagnostic_audit.md": "03A143E8CBD1A0060C5CD01F2F734259A397B005CC83341B60AFC1CB114D0793",
+      "docs/93_i3_i4_local_hybrid_support_validation.md": "2D49B8AF4CD03691722ECBBC44A5B6B960B68FF7A1E1986E10E27576C458BD02",
+      "renders/direct_shell_four_edge_i2_simplification_audit/01_current_docs79_i2_full_stack_exploded_named.png": "CAF5CE4982298EC7D5ACDC76C06BA9F39C3A24D4C7F873900D56DE64E5668B35",
+      "renders/direct_shell_four_edge_i2_simplification_audit/02_current_receiver_panel_strut_closeup.png": "BDC894AE77D34C8987EF9F01D5D3C26D8EEE8C35D2ED7A8B6D5F18E5B1CD7C04",
+      "renders/direct_shell_four_edge_i2_simplification_audit/03_simplified_direct_shell_candidate_top.png": "BFA9787EF3995EFF923EF420AFFFCD3F69BF607AB772F1942BC5DCA42D0167DC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/04_simplified_candidate_isometric.png": "D96824137BE24E0940FE5B5C10DE4988AD420FC23A835E1199BBF75500D7E31C",
+      "renders/direct_shell_four_edge_i2_simplification_audit/05_section_plus_u_minus_u_legs.png": "3B0911318CD4C67FA5409B39E890FE58C36B3263B72E5D002CAB20421AF8A46D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/06_section_plus_v_minus_v_legs.png": "033AFC3AB2F97C276DD74E78F00EF54D1824992BC18BB8AE6430E6CB35DE948D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/07_four_shell_blind_slots_only.png": "83E219A77ED59503B165BCCD6DFC166D5518D29E3B742B96C6B23DF4DA195917",
+      "renders/direct_shell_four_edge_i2_simplification_audit/08_its_harness_four_legs_only.png": "3EC2F8A1CFBBDB056E1FABE826CC4A386C636C097DF832698770EFA9FCF8EBBC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/09_full_simplified_assembly.png": "16DEF17EC662267C0D0DB84680FFA42ACF6E770E1F284FC022937F8B91314F33",
+      "renders/direct_shell_four_edge_i2_simplification_audit/10_current_vs_simplified_comparison.png": "EDFD6780829726C0C7DA4FDFE7AFD3ED5803323AAE26DD75CD3B055E1A2E9B1E",
+      "renders/eight_button_four_edge_batch_propagation_screening/01_all8_exterior_context_overview.png": "F6199A4565F7994C4D99EF423E926A2487050A6566F1B818A6ABDE3C169DC9BE",
+      "renders/eight_button_four_edge_batch_propagation_screening/02_all8_shell_interior_harness_overview.png": "673D16DEB5EA78A36A69B1FB3CBAC930F7A97839C6A01C6F4780CB1C935CFD7B",
+      "renders/eight_button_four_edge_batch_propagation_screening/03_all8_top_local_axis_overview.png": "30671A7CCDA7B51DAC5D4E7838FFA9E73E42EE8689F1CEBD1D90161A0169006B",
+      "renders/eight_button_four_edge_batch_propagation_screening/04_all32_legs_angle_visualization.png": "5EBB3E029F1863F715958D0B95FC340905420C4F62E16A8DD0BF5BD3B39EABC6",
+      "renders/eight_button_four_edge_batch_propagation_screening/05_tightest_neighboring_pair_closeup.png": "AD89C59DC099968D35B455AE75319FEF5C2598005FA7455D37998823AA373A83",
+      "renders/eight_button_four_edge_batch_propagation_screening/06_worst_shell_footprint_closeup.png": "2E1766171842DC6D26D441646D092C7A5A071914C4A0684956013F2B659C8026",
+      "renders/eight_button_four_edge_batch_propagation_screening/07_n2_seam_closeup.png": "BE6B6E67FFD92D4EE4DE4A591F528B423C427AFE249E9B05CC103ADAC2681510",
+      "renders/eight_button_four_edge_batch_propagation_screening/08_i2_reference_closeup.png": "2898C00368A651B33BC3402339787733171C9798AAD86378F33A0E8F1901D008",
+      "renders/eight_button_four_edge_batch_propagation_screening/09_worst_local_variant_closeup.png": "8C7385F33DB0681A1829F75B9382A414C9B6606FA4A855BD16CB9B9E251474B3",
+      "renders/eight_button_four_edge_batch_propagation_screening/10_fail_closeup.png": "73BC76E81F4DFAC56AB945EF851F837348EC0EE224FCC5AC2F99AF55A86921F5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9A7ECFF9562A2FEFE255AD5C8705128E929CE0FF81B8E83FF83D49DF7C7371D5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28B9F704BFC64B8FF22F1B9CD3164CCC319EE2AAA5711AF2F3404CC8D0F09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5D7075D2B6BB2524B0EBCF8DC0DD782AFCD8248C3F25319248C0556B2E72D0CE",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2A4F286F6D1A456132E8CD76EB254E8F6CFE0B1A6F2A3590BA7B94CC88CFCD9F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "F2154C55A194FC26B75DDFBDB24C250B285C62D6D6C9ED471BA544864DA28F96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "EF0FF029D1B6DBEA6907C2EA11124F42B5FFE0B9F63F735019EB8B6376ADE54E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "FB46FDBF211571434689DD4E5C2FA6AB407E79FE00B3593664196B54C09ACC25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "B39E30FB31D6A5944E8F3445535E93F4ACE74939879A9FDBA87DBAE74DD552CB",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "C2C5D2B635CE5421B0F4010E2EE6DC26F643135F9F1AEE75024C8CB34A2EDEBF",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "F53B684898C0DE0D786C324BBC8285AFCBAC607318C9397A9A8ACFFC3899BD2F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718D09E0F411F98BB8E8A4A11723115A0C2449C3C4825DC0F27611E9F52531CA",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5A30592C3EBB92EAFE8542A1EADCC6922F03D8950262415FF984B7898099BA95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ED937CF499C3EC5D0C1A15EBAB115672407802901C323DB74078F4F5DFA2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16D6D796D6DC8799635EE16FE806599B1E9E213816B56A18C065CE30217CC5F0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006EFF308701A5DFCB16172A3D0255DE7C872449A76890C04CF28EA36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "C7441BDF1339677768308C9C984A15E4B553B05E401AF9F3CE1320C8242B0FD9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "E4B687BBEEAC298301CEEFA70D018DEF4F5C9E38A6D2E6EB7A3991AA9F94763E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "EB5D37680E460DCEDE1CF9FF886CFC96B60C6718220CD366F97B7410FBAB80BC",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832EB2AED99CC37130A0CD1B7EE4DAF0E5E459A87ECFF2F2EEB0E46B17E1DFEA",
+      "renders/i2_assembly_sequence_only_audit/01_sequence_a_i2_harness_start.png": "82CEC57D71460DFEE57B67747E7F69F04DD1B261E5A217C74A67E007F06F8AAD",
+      "renders/i2_assembly_sequence_only_audit/02_sequence_a_i2_harness_partial.png": "B0410AC9907DD23EE0FB2E974B122B90093A88C8E0962752B9C51B1CC7A5ECB9",
+      "renders/i2_assembly_sequence_only_audit/03_sequence_a_i2_harness_full_seat.png": "136C57DCA9043D73A52C6BF582B957D8DAF3B2164DD2352DF3F1D65CAD0AC74A",
+      "renders/i2_assembly_sequence_only_audit/04_sequence_b_detailed_i2_pushbtn_start.png": "0BB556E422E6933D4809891C0939F5A811DA30634269D1E88F6BEF12C5B6905D",
+      "renders/i2_assembly_sequence_only_audit/05_sequence_b_detailed_i2_pushbtn_full_seat.png": "7C84878977898BEE9AB027432D0AC73AB6C13CE8823CF5F9E7866D2548604D61",
+      "renders/i2_assembly_sequence_only_audit/06_sequence_b_limiting_body_harness_collision.png": "8FCD66AA558CB4713077241AA351DF43D16AFAA3E7B0EF2CDB1CE896462E263B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/01_original_detailed_onegrip_pushbtn_alone.png": "DB723F7D0C0A986F22CA4CEC1920774E224AC1D34843A4B9E236313079D02957",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/02_original_pushbtn_detailed_terminal_view.png": "9B8228BFDCB578096541DE1BA4DFB4D9C7CDDE91ADA8F06516705BA99B368258",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/03_original_pushbtn_corner_feature_closeup.png": "9B730ECE2CC2A27CB592D58165BAF785D4A3188A2681C36CF544EB6B74BE6847",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/04_original_vs_measured_actuator_overlay.png": "3E8A1469F9BCDFB2340744968EBBA5BD61472EE0FC49644C5768A16228184610",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/05_measured_actuator_rebase.png": "689DD8B2B4FEB610A8324E041CE7436AEC3F6778EB8D59E9BF7B4395AF7D664E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/06_detailed_pushbtn_inserted_in_harness.png": "8B8B7D15E678A860F86A0E5D0C33CFD4CB883FFBA730B097DA78BAA297BB331D",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/07_four_edge_harness_top_view.png": "24677D45D5CB1BD15FAF7D891AB666573606FB28F75D982C4F547023B0EC4317",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/08_four_straight_final_legs.png": "3FFFB4704BBA82238E6FD512D0F224C84A491C6504BAD6BFE40E958CC50BAA18",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/09_four_direct_shell_slots.png": "EE7E3A2826D46902F5E58C533A5C0839A99D9F8AE9236C8EBC1FF8BCF9DB2EDF",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/10_worst_detailed_terminal_clearance.png": "38EC04D024F3A30B7B4E35683B9BB758E20AC8568D0669C1073468C29A95EBE4",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/11_worst_original_corner_feature_clearance.png": "CABA51F50C71FF0D677CAE85F049A2D86AD7E19AFF8A0C7EB7A0CFF43B6CAFE9",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/12_detailed_i3_clearance.png": "B71F91DB50B68D53DDEDFC68E1459C3CA7E2F7A2227321708DCDE7D040DD302E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/13_minimum_remaining_shell_section.png": "7D55F85F0E14B0470610643495704A3EB6B8BCFF0FEA281775EB52213DCAD130",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/14_minimum_effective_structural_section.png": "722568C645B391E41D9E45852CAE0CA339D25586F4BD98AA5F97F803DA68E88B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/15_assembly_start.png": "2D43241D35958FBB000EC5ED8AB30D52645CE209D9393A8E8F5E5E5B410316EA",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/16_assembly_partial.png": "69DBF8393AA314B818A23E29926A88C477D69E61C9F2CC3101F5692A7C5A28BC",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/17_assembly_full_seat.png": "E5E9DF079E6C9CBCC3072A6F1EE77D4021FC1E336BBEA76FC0E1C59C04B80415",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/18_swept_envelope_diagnostic.png": "4550187FA0D251EA261F0AE2BC90103AA80595A907CC28F6D6FEEDE484760953",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/19_proposed_fdm_orientation.png": "F2099BE87D19A51C772EF552A063221206ADD3A1DCA382CCC61AD0A9EB9C7462",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/20_docs83_proxy_vs_detailed_robust.png": "F4B2ED8AB60CB9585FB3CBE4214573AF36E5B0E81841DBE4B26FC949C469004D",
+      "renders/i2_final_local_clearance_balancing_audit/01_docs88_d_three_way_closeup.png": "E102C69D0213B8C8596BB1887B6AF162530EB7DA31E395D31C0946D82545D356",
+      "renders/i2_final_local_clearance_balancing_audit/02_final_balanced_three_way_closeup.png": "51351476B755529D093D4D07EB35E2C11FCAAB05C70CC0305BEB814E904CA89F",
+      "renders/i2_final_local_clearance_balancing_audit/03_i2_body_minimum_clearance.png": "437DDAC843C87B1B6266A50DC5E7EC4C73CE896A38067CDBA59D6C242A3AAA6B",
+      "renders/i2_final_local_clearance_balancing_audit/04_i3_minimum_clearance.png": "52EAB6B3905487A6C2B1672F3F447BBA7E23308CC8DA00D8DFFF6516CC3CD981",
+      "renders/i2_final_local_clearance_balancing_audit/05_terminal_minimum_clearance.png": "304D611A1B941E052115D54B20BE4332F1BB7E820E635287516D45BB226BE9E8",
+      "renders/i2_final_local_clearance_balancing_audit/06_rear_harness_full_seat.png": "715A573FDD663F1FABF80E1E58390FD29EC3A63ACDD6D6A157445A532CD12A0E",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/01_baseline_plus_u_t4_i3_closeup.png": "3760B3B9657DA2C92B7722F0944028A83E381D77DC71C8346437F5218077EE4D",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/02_best_candidate_plus_u_closeup.png": "ADC700E64FD40FE362266AD3B78E24D262AF0540D41D7B2B4CB9DCB91A3BBC6F",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/03_t4_minimum_clearance_section.png": "89CCDFE9B60ADDBD4784E01F033DC350BDC92E8743FB4788B50CC27057AC90FE",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/04_i3_minimum_clearance_section.png": "52394DA3A3520F64FF5FC79733E263F5CDADB19CE48C1A48BC11E7BC43E169C1",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/05_hardened_manufacturing_harness_isometric.png": "3731E9EFF2889B4B52B9D8B13936CB88D2FFE223BD9007814B2143ACC77EC8AC",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/06_rear_harness_full_seat.png": "50D4676BE9CFE9EA9ED01EEDDFCAA61B6F684F35F73EEDB8B1CA5DDACA04654A",
+      "renders/i2_manufacturing_harness_rebase_audit/01_current_docs84_harness_isometric.png": "E6F8DE884EB57AE17F9E78197D532795836D90669249C9A5573A3C06B2DA5C1B",
+      "renders/i2_manufacturing_harness_rebase_audit/02_current_harness_with_detailed_pushbtn.png": "9D867A63688ADEB09487AEABAF61016A8FF24A4035C52811E4538480F0A81879",
+      "renders/i2_manufacturing_harness_rebase_audit/03_new_manufacturing_harness_isometric.png": "AAC31C5081D843A5E5219883498D45E63A255BAD8A761EFCB9620056EC29BE12",
+      "renders/i2_manufacturing_harness_rebase_audit/04_new_harness_top_with_detailed_pushbtn.png": "7AEB69D7C6C78D4BC3A6863E018CAB6DF54DF949D9180181F8F514DA18C5A963",
+      "renders/i2_manufacturing_harness_rebase_audit/05_plusU_root_closeup.png": "82D14B3B374C6C927378C3B9716AA14089D766B0EDDAED0EE8A10519852F7159",
+      "renders/i2_manufacturing_harness_rebase_audit/06_minusU_root_closeup.png": "A15B5E09CB3473A5EC45C7B025EE7F01EC58119150F11D3C00A3A6CB75BA9EE4",
+      "renders/i2_manufacturing_harness_rebase_audit/07_plusV_root_closeup.png": "6D5911041566F6E619CB4C76A8DA9AB7CBBF8FB0BF43DF950BA2088B9A8F1E8A",
+      "renders/i2_manufacturing_harness_rebase_audit/08_minusV_root_closeup.png": "1920446AF772785056CDDC0B02CF78B6AB99FFD2BB4063AE3706AD80C1911638",
+      "renders/i2_manufacturing_harness_rebase_audit/09_main_body_bottom_seating_region.png": "5FCEC2A4ECA1813CC7C82BD8B63BC30257220DFD2D5B4C5ADC8E6B00FDBBBE31",
+      "renders/i2_manufacturing_harness_rebase_audit/10_detailed_pushbtn_insertion_corridor.png": "CE1EA9DEBA039555383E338507C6EB9B64C807543A321326F794F6C6B6057BE2",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/01_i2_exterior_its_frozen_orientation.png": "89D44D1115D25D76F749BD066D18AA148767CE90C6AC07748420D61CDA7A7087",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/02_four_roots_top_view.png": "2971373E8E968723239112AB6A5CABDCECBA2D029E7C1BD68EEAB7C0EE3097E6",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/03_plus_U_minimum_angle.png": "CF15034A4F8CB4D045F85EC42430905A45C3B11FDEAC3FC4325E6C6BCE895C3B",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/04_minus_U_minimum_angle.png": "DA4BFBFB19953A759FBDE726EC5827555E2DD2D5B1E7F10F2419C5A5372A7A6C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/05_plus_V_minimum_angle.png": "B41EA5F2656D2D6A776EAFA278FAB66CD88360CDBBFDB03A56A10794CD4BEB3F",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/06_minus_V_minimum_angle.png": "13FA9B7A99C529792AB7A82893C1F3B5F91FC97464039399D28077E9FF1E562E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/07_four_minimum_angle_legs_only.png": "CF0AAE5810B3E8A4781EACE91DE2BB78716A2A2539BD87E03C38130B999135A9",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/08_four_direct_shell_slots_only.png": "95B26F72A072C6571F3283A08C12170CF76B3178B2F434C8675AE0333EC2852E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/09_leg_slot_sectional_view.png": "A4E9F8B883A8DD4788EBCBC479A3ECACA8436C9A5002A4DD6595D9A516223583",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/10_full_seated_assembly.png": "C25602D43186DFAB3D80005888F6C9EA1CC41B2D4B4096D1D433506E28C0EF1C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/11_assembly_start.png": "1406FE9FF1079477D8BE7AA47C5D91F1CD4DBDC5D201F2F6D37E58C8DD1748DD",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/12_assembly_partial_insert.png": "F986C1EDF0F679DEB16378C08E53D9AE3B14C2DE91E6BC51F1DE8E19CD41D09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/13_assembly_full_seat.png": "77DF0CC1E5888AF0F589422E1A33A4B74411687ECB59E9EDB5DE1AA9FC99D7D4",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/14_assembly_swept_collision_diagnostic.png": "8433D5071F9D6DB846B37CE94696B0053E5FC59C64B50C82B25EEB3C29BFD09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/15_harness_fdm_print_orientation.png": "38F62C8F1750A0B1B073ED1BE3831C27792A375DD1E9E3CA819AD8835097DCAA",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/16_docs80_vs_new_minimum_angle.png": "E876FEE7FACC6C2F25EF909CB2AD003ED5BFDE78BB3AFDE2879C349FEE0ABC8E",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/01_current_i2_direction_revalidation.png": "E2191EDB7568EE4EEA017413AB6A05AD3594ACD31A96D25F3C8EDAFAC57512C0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/02_+w_parallel_fixed_root_probes.png": "D8083E7F286E4ABE0E68B5327B3EFD7400B6F16220DC5EF097354C364502DCB9",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/03_-w_parallel_fixed_root_probes.png": "67A3D4A51360B01EEEAC2AC7636CCF72BAC03D8A514C35DDDBB2521040927FD0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/04_+w_footprint_36_ray_coverage.png": "458D888EC6C4CD1732675A7223F0EFF087A002BC5E00DE332C3EDDFD0C761E3C",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/05_-w_footprint_36_ray_coverage.png": "6638E8AC05B66BA7FBFC25902081149921410847CDBAD98AFE9A337E448F815F",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/06_minus_w_plus_v_planar_floor_breakthrough.png": "36B1F70535C3A0E405C9C731286F6D95720C8E886282A6D40AD90DB12894C5DB",
+      "renders/i2_parallel_w_root_slide_simplification_audit/01_docs81_fixed_roots_top.png": "276A1A3859DD274DCD721CE1E35988E579B6F05BEEDC64F0B734D65CDC654194",
+      "renders/i2_parallel_w_root_slide_simplification_audit/02_feasible_root_regions_four_sides.png": "F4F565FE6F2FBFBC842E3028EDAECD7C985C799AAEAA8BB5852025A9BE327E19",
+      "renders/i2_parallel_w_root_slide_simplification_audit/03_best_new_roots_top_failure_diagnostic.png": "CBBDAA9484FABC0E32C30526D114C456E764A2AA6C6A2EAA708317F74321E024",
+      "renders/i2_parallel_w_root_slide_simplification_audit/04_90deg_parallel_legs_only_failure_probes.png": "F07C705C9FC17B37B86D94330BB5592E89F5179D55435729F5FA272AEDE9C5B9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/05_plus_u_minus_u_sections.png": "A5923B035E2EEE3C0371BDD5A6616C9D1461616E53C1CA3822C2C05CF615154D",
+      "renders/i2_parallel_w_root_slide_simplification_audit/06_plus_v_minus_v_sections.png": "90950D842A3F5C3EF4B2FAAACBA4F8C1BB4B961F18C52BCE444243695F56BACF",
+      "renders/i2_parallel_w_root_slide_simplification_audit/07_shell_blind_slot_footprint_ray_proof.png": "7C4343D6677E1A291EA7259C2E1F791C56856CC57FF082519DBC473D00B94EA9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/08_pusher_clearance_closeup.png": "EA803B82A538B3306023FA8C45E9110240D9400428A879232B914546B88FD637",
+      "renders/i2_parallel_w_root_slide_simplification_audit/09_i3_clearance_closeup.png": "64F745055EA47B5C5D433B5B49967275969A3E4EE971F026B3887A56824D05BC",
+      "renders/i2_parallel_w_root_slide_simplification_audit/10_full_simplified_failure_combination.png": "4C08DE42122758F4F4D3BF1C2E53219CF7A17B91617333D9C18DA84472E95307",
+      "renders/i2_parallel_w_root_slide_simplification_audit/11_docs80_angled_vs_parallel_root_slide.png": "651A74717631A253A72627A733038EB087B60E137AE4351E86BA3D48486A417C",
+      "renders/i2_user_intended_rear_harness_sanity_check/01_rear_harness_start.png": "43A7311A8984BC534DB7CAB317380912ADB52192407A61561FBB96065CB22250",
+      "renders/i2_user_intended_rear_harness_sanity_check/02_rear_harness_50_percent.png": "564A91197EC28886A1759652DA0F716D0073A890327FC3FA491731DD22D8AC8C",
+      "renders/i2_user_intended_rear_harness_sanity_check/03_rear_harness_75_percent.png": "A2A2EB0801BAEB384860FC039312EB3C12D4F6B60F08C8857058711C5E3D7536",
+      "renders/i2_user_intended_rear_harness_sanity_check/04_rear_harness_full_seat.png": "BBE04DBC4804B4B7AA39D38DF059436F148F570ED85B8D10F6A30A0D8F45380F",
+      "renders/i3_i4_local_hybrid_support_validation/01_i4_plus_u_local_contact_region_before.png": "3F2D2ED597B70B32B7CE198AD493CB888ADF64C86F6459F52AEFBFF6FE03446F",
+      "renders/i3_i4_local_hybrid_support_validation/02_i4_complete_three_slot_one_foot_harness.png": "F45006DEA38162E8FA13004DC5B6071C30E5C66CBE9D6F8BC790D0A4A67A8D20",
+      "renders/i3_i4_local_hybrid_support_validation/03_i4_foot_shell_contact_closeup.png": "6165ACF05B0EC0CFD1841F741EDCC9AF80C8AFB1B838BCB6887E91EF6814E47D",
+      "renders/i3_i4_local_hybrid_support_validation/04_i3_plus_u_local_contact_region_before.png": "4CCC4B0D56FF4D1EE9221777E2FAE9DF06C8B8BCC63EB3D0739A726E75826C77",
+      "renders/i3_i4_local_hybrid_support_validation/05_i3_minus_u_micro_thickened_slot_section.png": "31654CBF9A899081F9E72CB31F9F206979D61DB3455C1C143004B74C52F67167",
+      "renders/i3_i4_local_hybrid_support_validation/06_i3_complete_three_slot_one_foot_harness.png": "3DEA09EDF197D4951A652F8650A7C7966CD627059B80E3C2AFAE8B6379BABB27",
+      "renders/i3_i4_local_hybrid_support_validation/07_i3_foot_shell_contact_closeup.png": "EDAB0F0A1840FEBB12BF3D9C3A25C45A3E90D9B2E864EA77D102A341C17B01FB",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/01_all7_unresolved_locations_overview.png": "6144CADBA7C00DAB3DCB35D63951A171CF4592ABE05D542E1862AF481CFFF763",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/02_n2_rescue_geometry.png": "317AB6877F4620F1E54EA0974FC54DDC26608917701890AC4F02E89282EF6BDF",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/03_i3_rescue_geometry.png": "3BF83F05594D3268F273412D1D74F6DFC4FB8BC701E34E682D263F00DB615585",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/04_i4_rescue_geometry.png": "CC93942B20D84B90E604C5AEDFCB4D3E8F4968B400A05EEB4284592503436A1F",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/05_n3_rescue_geometry.png": "E47E96A8534D09A7C7A6B32A90B9D602C6874789F9F61D6CD57921F8C731D930",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/06_tightest_rescued_clearance.png": "32560B9A205192AE94114B90AF212A94D2B47BB4FB0480F3CE2A957B79884D96",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/07_worst_shell_landing.png": "B099B206F632A6565C9AE00EC0F0C6520AE23058F699A901AC953DF0930F239A",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/01_n2_plus_usection.png": "402F8650F9D22ED917C60E0480C494689A87C4C665464AB8C60CCC76F4211802",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/02_n2_plus_vsection.png": "1E80AA7AFF0CBC9CAF6AFE4E258B591FE7F4A4DE4E0A532AFCA116AD8E55F3AF",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/03_n2_minus_vsection.png": "4D9E916D3F5AEAF169AE1C1DE010DD8BC37C9B403F6220B1FB55D6374D899B8C",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/04_i3_plus_usection.png": "59315C6EDFD96AF018FA3785DCF3605B124407AB4EBC3BEF38C68B965C141C0B",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/05_i3_minus_usection.png": "4C0F653264F143763A90B7AA304A338B812220C3A9E9331234DB9078FB0B64C6",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/06_i4_plus_usection.png": "510D9BD2E9712F1BD23482D2315DE264BCAFE1CA5FCD5ADE82DDBBB51044D2CE"
+    },
+    "hashesAfter": {
+      "build123d_workbench/eight_button_four_edge_batch_propagation_screening.py": "14195D0514B25CC63B8F0DD9CE17B44839F0938F9673356FAC01B2FD2A83CE5C",
+      "build123d_workbench/finger_controls_v2.py": "AB902A423C2932A08864B5AAAE5F3B03D92902BA8D8707FB546E28B6EE5466F3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "DB15C811E1E47CF3533EFD7AF5818DCF03F41BF4A0C9B7CA404231A1B3BADFB9",
+      "build123d_workbench/i2_assembly_sequence_only_audit.py": "4F29B8B3CA601EE98DB2AD8FA8B8F929CD13B3D4D4E8C354C3D86487000877EB",
+      "build123d_workbench/i2_detailed_pushbtn_manufacturing_robust_audit.py": "3D44A58E56FF683B522EBCAC53426D4888711277EF160195EA8A9EDEB41D8646",
+      "build123d_workbench/i2_final_local_clearance_balancing_audit.py": "0DD5B59B8F2ABC6679C2BB3C9904A2442A6521ED4B8EE460D8EF3355390F757F",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "D62577FD138F85EFB9CA096999825C727979F91D9511D40FC16B62055FE96342",
+      "build123d_workbench/i2_local_manufacturing_clearance_hardening_audit.py": "DE0278AE9D824926BF21F4601054172FEB7F3B6D726D1ECDF04B11969CB28D37",
+      "build123d_workbench/i2_manufacturing_harness_rebase_audit.py": "B8CC0F03601136B250DA3F80098F07EF266E05C4C4C8C7DA5B67FD8A36451744",
+      "build123d_workbench/i2_minimum_angle_direct_shell_assembly_audit.py": "B529734126741EF2246DD00A607659F0971088371F66B284DCEF3C63ACF71A65",
+      "build123d_workbench/i2_user_intended_rear_harness_sanity_check.py": "A103CC6DCB981D073B85EF4DE876FCFA9837F9663357AB4D62829FE868C434DB",
+      "build123d_workbench/i3_i4_local_hybrid_support_validation.py": "57B5992C6029744C76274D1260CC180A6788A2A281B98D4B6162FD3141C6BC9D",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "C6BFD2509133D17A1380D576328128DEC6B3ED077D81A14765A2EE1B4F9FBCD8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "F583CCF6B5F488F458D2BDA6DA519BFDB1A0CEFD3270116A8AAA7E3F8A820F2D",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815CEB40DF97F177485474014EDC866925CC9883AE72202DECCB4C3BC383126B",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848C98DD1883F50ABE096EACBF76F023558E0D9E9C44BFA576A8E59F9038",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/direct_shell_four_edge_i2_simplification_audit.json": "8F7BB015F7A6D0B42E8611E43F5D121166070B536CC5960602B860B1208EC740",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5C0ADBBA04089EB2D9F3C0637C1AC1F91D211B5517F428C39A541443BBA4FF47",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_LOCAL_CROP_WITH_BLIND_SLOTS_AUDIT_ONLY.step": "247D9EAFC8BF0324AAA21167626CF34DC437D7F921F1A516A48B0C18D9AF1C65",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_SIMPLIFIED_FULL_ASSEMBLY_AUDIT_ONLY.step": "C4E2805DB4502EA40BAB27BE7D3B8A16C573741538E699ADA6B4B27633A549E1",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_DIRECT_SHELL_SLOT_CROPS_AUDIT_ONLY.step": "9E6C1B585D9EF1B67ECBF4AE69EF64ED8E0CE6E3F400003CF85353E5AB096F37",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_SELECTED_FOUR_EDGE_HARNESSES_AUDIT_ONLY.step": "8242905BE433F1126C815B4B2DD7DA848EAB7FCD4CEB751E1F6FB2E439466BD5",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/eight_button_four_edge_batch_propagation_screening.json": "DF3BB31B8D2EBD4B4BC62B4CF6D7E2E14AB367ADFA16DA230AE000ADCB751EFE",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M3_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CE62E216BEBCB7FEED084EA3AF7A83D84D0DE1F69052ECA12B172A49A66BCAEF",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M4_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "B15F5CBB9A52C6E44CA9A8DE77EB73C245028AFBA369D04720A227653360A346",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/N1_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "7D20863518E0D0D0BF0A87CD042B28635D453E6F7C8654DD74567559D0A8D94B",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7DC5C5F5F2C01445F86B60CC56FE4FE271D7E50793394130DB127EEA48317B2E",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744B39AB532AD767AFB36DDFD89A37EA13126DED9F9484246D54991ACDE1FA",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "C50194CD7AB892FC2C0BBE7991E78EEE9645C1B1DF1BD613364B97A2C3D17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9CBA1CFA8E9B01D36308983FC0CF163326925817534A22CCB554B85D4A93521A",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72C15567C6C2C7F57667F28F4190BD5E584F7572D4DE36886E37E7890ABBC1E0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "BDB77197E59EA22FFBB4AA55E61B7B5382EEE75E8399F9DDAE1339F2EB5CA752",
+      "build123d_workbench/out/i2_assembly_sequence_only_audit/i2_assembly_sequence_only_audit.json": "BFA4B4B924653C2E90CEABB35CA4248F41C24045B3CC774790F300294C1486A7",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/i2_detailed_pushbtn_manufacturing_robust_audit.json": "5870D8B6B040CF5A0D9387C3ED5511FAF83A84E177E219EF5E2790662F0D2570",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CF5C01C4789B9365026EF7E273645217F3F4C60E6A69EDE73C714C73D4987726",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FULL_ASSEMBLY_AUDIT_ONLY.step": "BD25F381E8C433D8E57DF66D5D8189868DF710B3625A9FB590597227B0A723E4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ORIGINAL_PUSHBTN_MEASURED_ACTUATOR_HYBRID_AUDIT_ONLY.step": "CAFE8E1EB8F5DBDFABB06A688031DD47661F61418532CF786DA9A55694CB9EA4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ROBUST_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "77868C8BCCC353F680A9ADFF252B87CA17CC8F3AEEC9E8D5F9F7C39F4E0F7EAB",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/ORIGINAL_ONEGRIP_PUSHBTN_3530_FACET_REFERENCE_AUDIT_ONLY.step": "D5C756A44095DD0EE425713875D1AA2445EF52684EF2761C9EF6F49AD5C124F2",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/I2_FINAL_BALANCED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "CABCE30A0D521289C17C26FFE571DC400FD0A50EA744FB937AACE8B4385F50E8",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/i2_final_local_clearance_balancing_audit.json": "9D096B8D3979398BB4E69F34D6975332C1A11373BE318D06B2DA9D3263D8C4BE",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/I2_LOCAL_HARDENED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "7DAD735A530A9F0FE427C3FF803B2AB90789CAEA966D98145ED11D331846A1B8",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/i2_local_manufacturing_clearance_hardening_audit.json": "58FCC22EE27359A438C52525605060C834753FAA1B3650EBE8DA47B8C44C9766",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "98FF73FAAC30E50205734A4E77700ABC8D3013B283B9A27261C095D9D3A8848B",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "E9EF156E96A0B148F11D908B0D5F18EFC7CA3F5484E3B419AF658B93D4DC1E44",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/i2_manufacturing_harness_rebase_audit.json": "983EEA2F133C7364E23705B4FE72AC3657A3993314CC9880CB2E49C7DE32A6C0",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/i2_minimum_angle_direct_shell_assembly_audit.json": "D9E17A1F875339AD250D71700E669AE5492E3F85AD953F0EB60BEC055FE1037D",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "4D77E4CA9C148AF51C073AD96FEE25DA45189E87EC90650FC7F3E0AA172EB231",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_SLOT_SHELL_CROP_AUDIT_ONLY.step": "CD8DB817B5988F8AF40CB54294A6F7C7336085B96814BDCE639768118792C67E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FULL_SEATED_ASSEMBLY_AUDIT_ONLY.step": "C8D9595D66DABEF276099E58CDB6B21291437B1D84D9128E43F16295E002151E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/minimum_angle_search_cache.json": "D50851B1BCA8CC0D520C2493285A97DC2F36648258C8F1E7DAC70D402DFF9E5A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_MINUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "ED7DEA16202D618590862E660C86F770EE601D6F5B5EDE34B5D43581A11AFB4A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/i2_parallel_w_four_edge_leg_revalidation_audit.json": "478B23FB308C3202276DF038FE061AE91C283504A03DB16E4A1098B8A397FD57",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_PLUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "9EB24AAF59BDC27D767697DA477C4ECC80F7A476471DCF02AC829F7F88F9BA42",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/I2_PARALLEL_W_ROOT_SLIDE_BEST_FAILURE_PROBES_AUDIT_ONLY.step": "134D79340A6CB7AAC2C1B5BFE75446454D1FBA2D98664FC6FE739B5A831DB858",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/i2_parallel_w_root_slide_simplification_audit.json": "96E26A8CB93FD7136BC230F27E3AFDAC634F72BFEAA5888B7BC868204647770F",
+      "build123d_workbench/out/i2_user_intended_rear_harness_sanity_check/i2_user_intended_rear_harness_sanity_check.json": "8D0DE73DBBCD4DEAC3DB07BF109C7AEE8F6F883419757E467BD9F91CEE114870",
+      "build123d_workbench/out/i3_i4_local_hybrid_support_validation/I3_COMPLETE_3SLOT_1LOCAL_FOOT_HARNESS_AUDIT_ONLY.step": "F5B97CFE405BA94EBC950209D51E8C7BA252AB743F00B7D02BCC4EDD405ECA6B",
+      "build123d_workbench/out/i3_i4_local_hybrid_support_validation/i3_i4_local_hybrid_support_validation.json": "FA7651D62B42B6A68A206F17DA640E08BE7EE69AD4777CF3C9DF9693FD5B47DD",
+      "build123d_workbench/out/i3_i4_local_hybrid_support_validation/I4_COMPLETE_3SLOT_1LOCAL_FOOT_HARNESS_AUDIT_ONLY.step": "D3E3D22121B313B648069C000F086E5012263A699096EF0F88191125893BB781",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "B223757EE25FDD5EDDF710B8666BCD388D4221235D8D876F620EB0005D5B75B6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "D1BF68B105DCE11374AB1F89981EE503A5591D2FF7FA5175777432171855BF7F",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/N3_RESCUED_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5DA34C85A3B4F59A9195FA2297AB44BCA7A14B5044B1ADC5DB0D5F9FE719E358",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/seven_unresolved_leg_root_shell_target_rescue_audit.json": "3DC48CBCF290F10753756617363A3A6E369D33BFD4375C7FE389A1F0CB6314DA",
+      "build123d_workbench/out/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/six_failed_leg_shell_landing_failure_mode_diagnostic_audit.json": "A53EAF43E46970BFC88B03B6505B809298B2563E5226660A70916258515E8AB8",
+      "build123d_workbench/seven_unresolved_leg_root_shell_target_rescue_audit.py": "1B4CD0ABDEF42D39B568A85548E7735C3B25031DDDA6F9DE0B973DE49B23804F",
+      "build123d_workbench/six_failed_leg_shell_landing_failure_mode_diagnostic_audit.py": "5583BE80AE84E6FA77447D95BEDF9FF96FEEA8F146C8057A4FEF11D19A9A2475",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "A42634C3A617F900F51650D7820CAD177DE623EA568F5F9948DC96BFC8DE54C3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069E535B5F5CAC9C5D8696FE23719959A95B3DAEFB064086DAB899993CDB1A64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "AF0EA969CC11C62D9CE1CDA4EE6C117372F83BAA0207E2742544CFE08D2E2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568A6DFEE254585B8CDFD83D86141C1554CDCE3274ED0148F22DE576FB0",
+      "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md": "97EB813D7F69573B983A0339D83793B9A365CA5A0742B5B1D5BC9FA4898E0897",
+      "docs/84_i2_detailed_pushbtn_manufacturing_robust_audit.md": "2A7BFC9573066072641B59FE22607C86183982A99D6DCCCC8229F60737B0D501",
+      "docs/85_i2_assembly_sequence_only_audit.md": "2F56970AB0A3DA56B2C58B2827FE8617FEDCFE1DE3B3C237DC336E61D5AC5F9D",
+      "docs/86_i2_manufacturing_harness_rebase_audit.md": "CA0D56D081DB76A05A7B93DB2CAD47661FE40C47F842E6E21CE86A90D3D4FFA6",
+      "docs/87_i2_user_intended_rear_harness_assembly_sanity_check.md": "017C910CAAB36017C7148805AC9241A3494276C2CC23B85C21D1E1E470DEDBF4",
+      "docs/88_i2_local_manufacturing_clearance_hardening_audit.md": "FB84748FD52127BF378E35B85E6372A40F64D9853FD3E0BE9C6796AA2CEB7CDB",
+      "docs/89_i2_final_local_clearance_balancing_audit.md": "20428B63BCE5D31FCD9D107EE6E22E65B3D6789A44F114E479622C09DAF3FF9E",
+      "docs/90_eight_button_four_edge_batch_propagation_screening.md": "2878CE20DA38C4F78A90035FEA85BD8E9069B5FBCB3E0F6FD56BD86EE8F623DB",
+      "docs/91_seven_unresolved_leg_root_shell_target_rescue_audit.md": "06D254D43F5545926CC476DF20BD84DD362EFC76EB8D30A558D083FB3DD799AD",
+      "docs/92_six_failed_leg_shell_landing_failure_mode_diagnostic_audit.md": "03A143E8CBD1A0060C5CD01F2F734259A397B005CC83341B60AFC1CB114D0793",
+      "docs/93_i3_i4_local_hybrid_support_validation.md": "2D49B8AF4CD03691722ECBBC44A5B6B960B68FF7A1E1986E10E27576C458BD02",
+      "renders/direct_shell_four_edge_i2_simplification_audit/01_current_docs79_i2_full_stack_exploded_named.png": "CAF5CE4982298EC7D5ACDC76C06BA9F39C3A24D4C7F873900D56DE64E5668B35",
+      "renders/direct_shell_four_edge_i2_simplification_audit/02_current_receiver_panel_strut_closeup.png": "BDC894AE77D34C8987EF9F01D5D3C26D8EEE8C35D2ED7A8B6D5F18E5B1CD7C04",
+      "renders/direct_shell_four_edge_i2_simplification_audit/03_simplified_direct_shell_candidate_top.png": "BFA9787EF3995EFF923EF420AFFFCD3F69BF607AB772F1942BC5DCA42D0167DC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/04_simplified_candidate_isometric.png": "D96824137BE24E0940FE5B5C10DE4988AD420FC23A835E1199BBF75500D7E31C",
+      "renders/direct_shell_four_edge_i2_simplification_audit/05_section_plus_u_minus_u_legs.png": "3B0911318CD4C67FA5409B39E890FE58C36B3263B72E5D002CAB20421AF8A46D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/06_section_plus_v_minus_v_legs.png": "033AFC3AB2F97C276DD74E78F00EF54D1824992BC18BB8AE6430E6CB35DE948D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/07_four_shell_blind_slots_only.png": "83E219A77ED59503B165BCCD6DFC166D5518D29E3B742B96C6B23DF4DA195917",
+      "renders/direct_shell_four_edge_i2_simplification_audit/08_its_harness_four_legs_only.png": "3EC2F8A1CFBBDB056E1FABE826CC4A386C636C097DF832698770EFA9FCF8EBBC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/09_full_simplified_assembly.png": "16DEF17EC662267C0D0DB84680FFA42ACF6E770E1F284FC022937F8B91314F33",
+      "renders/direct_shell_four_edge_i2_simplification_audit/10_current_vs_simplified_comparison.png": "EDFD6780829726C0C7DA4FDFE7AFD3ED5803323AAE26DD75CD3B055E1A2E9B1E",
+      "renders/eight_button_four_edge_batch_propagation_screening/01_all8_exterior_context_overview.png": "F6199A4565F7994C4D99EF423E926A2487050A6566F1B818A6ABDE3C169DC9BE",
+      "renders/eight_button_four_edge_batch_propagation_screening/02_all8_shell_interior_harness_overview.png": "673D16DEB5EA78A36A69B1FB3CBAC930F7A97839C6A01C6F4780CB1C935CFD7B",
+      "renders/eight_button_four_edge_batch_propagation_screening/03_all8_top_local_axis_overview.png": "30671A7CCDA7B51DAC5D4E7838FFA9E73E42EE8689F1CEBD1D90161A0169006B",
+      "renders/eight_button_four_edge_batch_propagation_screening/04_all32_legs_angle_visualization.png": "5EBB3E029F1863F715958D0B95FC340905420C4F62E16A8DD0BF5BD3B39EABC6",
+      "renders/eight_button_four_edge_batch_propagation_screening/05_tightest_neighboring_pair_closeup.png": "AD89C59DC099968D35B455AE75319FEF5C2598005FA7455D37998823AA373A83",
+      "renders/eight_button_four_edge_batch_propagation_screening/06_worst_shell_footprint_closeup.png": "2E1766171842DC6D26D441646D092C7A5A071914C4A0684956013F2B659C8026",
+      "renders/eight_button_four_edge_batch_propagation_screening/07_n2_seam_closeup.png": "BE6B6E67FFD92D4EE4DE4A591F528B423C427AFE249E9B05CC103ADAC2681510",
+      "renders/eight_button_four_edge_batch_propagation_screening/08_i2_reference_closeup.png": "2898C00368A651B33BC3402339787733171C9798AAD86378F33A0E8F1901D008",
+      "renders/eight_button_four_edge_batch_propagation_screening/09_worst_local_variant_closeup.png": "8C7385F33DB0681A1829F75B9382A414C9B6606FA4A855BD16CB9B9E251474B3",
+      "renders/eight_button_four_edge_batch_propagation_screening/10_fail_closeup.png": "73BC76E81F4DFAC56AB945EF851F837348EC0EE224FCC5AC2F99AF55A86921F5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9A7ECFF9562A2FEFE255AD5C8705128E929CE0FF81B8E83FF83D49DF7C7371D5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28B9F704BFC64B8FF22F1B9CD3164CCC319EE2AAA5711AF2F3404CC8D0F09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5D7075D2B6BB2524B0EBCF8DC0DD782AFCD8248C3F25319248C0556B2E72D0CE",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2A4F286F6D1A456132E8CD76EB254E8F6CFE0B1A6F2A3590BA7B94CC88CFCD9F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "F2154C55A194FC26B75DDFBDB24C250B285C62D6D6C9ED471BA544864DA28F96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "EF0FF029D1B6DBEA6907C2EA11124F42B5FFE0B9F63F735019EB8B6376ADE54E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "FB46FDBF211571434689DD4E5C2FA6AB407E79FE00B3593664196B54C09ACC25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "B39E30FB31D6A5944E8F3445535E93F4ACE74939879A9FDBA87DBAE74DD552CB",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "C2C5D2B635CE5421B0F4010E2EE6DC26F643135F9F1AEE75024C8CB34A2EDEBF",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "F53B684898C0DE0D786C324BBC8285AFCBAC607318C9397A9A8ACFFC3899BD2F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718D09E0F411F98BB8E8A4A11723115A0C2449C3C4825DC0F27611E9F52531CA",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5A30592C3EBB92EAFE8542A1EADCC6922F03D8950262415FF984B7898099BA95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ED937CF499C3EC5D0C1A15EBAB115672407802901C323DB74078F4F5DFA2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16D6D796D6DC8799635EE16FE806599B1E9E213816B56A18C065CE30217CC5F0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006EFF308701A5DFCB16172A3D0255DE7C872449A76890C04CF28EA36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "C7441BDF1339677768308C9C984A15E4B553B05E401AF9F3CE1320C8242B0FD9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "E4B687BBEEAC298301CEEFA70D018DEF4F5C9E38A6D2E6EB7A3991AA9F94763E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "EB5D37680E460DCEDE1CF9FF886CFC96B60C6718220CD366F97B7410FBAB80BC",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832EB2AED99CC37130A0CD1B7EE4DAF0E5E459A87ECFF2F2EEB0E46B17E1DFEA",
+      "renders/i2_assembly_sequence_only_audit/01_sequence_a_i2_harness_start.png": "82CEC57D71460DFEE57B67747E7F69F04DD1B261E5A217C74A67E007F06F8AAD",
+      "renders/i2_assembly_sequence_only_audit/02_sequence_a_i2_harness_partial.png": "B0410AC9907DD23EE0FB2E974B122B90093A88C8E0962752B9C51B1CC7A5ECB9",
+      "renders/i2_assembly_sequence_only_audit/03_sequence_a_i2_harness_full_seat.png": "136C57DCA9043D73A52C6BF582B957D8DAF3B2164DD2352DF3F1D65CAD0AC74A",
+      "renders/i2_assembly_sequence_only_audit/04_sequence_b_detailed_i2_pushbtn_start.png": "0BB556E422E6933D4809891C0939F5A811DA30634269D1E88F6BEF12C5B6905D",
+      "renders/i2_assembly_sequence_only_audit/05_sequence_b_detailed_i2_pushbtn_full_seat.png": "7C84878977898BEE9AB027432D0AC73AB6C13CE8823CF5F9E7866D2548604D61",
+      "renders/i2_assembly_sequence_only_audit/06_sequence_b_limiting_body_harness_collision.png": "8FCD66AA558CB4713077241AA351DF43D16AFAA3E7B0EF2CDB1CE896462E263B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/01_original_detailed_onegrip_pushbtn_alone.png": "DB723F7D0C0A986F22CA4CEC1920774E224AC1D34843A4B9E236313079D02957",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/02_original_pushbtn_detailed_terminal_view.png": "9B8228BFDCB578096541DE1BA4DFB4D9C7CDDE91ADA8F06516705BA99B368258",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/03_original_pushbtn_corner_feature_closeup.png": "9B730ECE2CC2A27CB592D58165BAF785D4A3188A2681C36CF544EB6B74BE6847",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/04_original_vs_measured_actuator_overlay.png": "3E8A1469F9BCDFB2340744968EBBA5BD61472EE0FC49644C5768A16228184610",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/05_measured_actuator_rebase.png": "689DD8B2B4FEB610A8324E041CE7436AEC3F6778EB8D59E9BF7B4395AF7D664E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/06_detailed_pushbtn_inserted_in_harness.png": "8B8B7D15E678A860F86A0E5D0C33CFD4CB883FFBA730B097DA78BAA297BB331D",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/07_four_edge_harness_top_view.png": "24677D45D5CB1BD15FAF7D891AB666573606FB28F75D982C4F547023B0EC4317",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/08_four_straight_final_legs.png": "3FFFB4704BBA82238E6FD512D0F224C84A491C6504BAD6BFE40E958CC50BAA18",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/09_four_direct_shell_slots.png": "EE7E3A2826D46902F5E58C533A5C0839A99D9F8AE9236C8EBC1FF8BCF9DB2EDF",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/10_worst_detailed_terminal_clearance.png": "38EC04D024F3A30B7B4E35683B9BB758E20AC8568D0669C1073468C29A95EBE4",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/11_worst_original_corner_feature_clearance.png": "CABA51F50C71FF0D677CAE85F049A2D86AD7E19AFF8A0C7EB7A0CFF43B6CAFE9",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/12_detailed_i3_clearance.png": "B71F91DB50B68D53DDEDFC68E1459C3CA7E2F7A2227321708DCDE7D040DD302E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/13_minimum_remaining_shell_section.png": "7D55F85F0E14B0470610643495704A3EB6B8BCFF0FEA281775EB52213DCAD130",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/14_minimum_effective_structural_section.png": "722568C645B391E41D9E45852CAE0CA339D25586F4BD98AA5F97F803DA68E88B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/15_assembly_start.png": "2D43241D35958FBB000EC5ED8AB30D52645CE209D9393A8E8F5E5E5B410316EA",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/16_assembly_partial.png": "69DBF8393AA314B818A23E29926A88C477D69E61C9F2CC3101F5692A7C5A28BC",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/17_assembly_full_seat.png": "E5E9DF079E6C9CBCC3072A6F1EE77D4021FC1E336BBEA76FC0E1C59C04B80415",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/18_swept_envelope_diagnostic.png": "4550187FA0D251EA261F0AE2BC90103AA80595A907CC28F6D6FEEDE484760953",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/19_proposed_fdm_orientation.png": "F2099BE87D19A51C772EF552A063221206ADD3A1DCA382CCC61AD0A9EB9C7462",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/20_docs83_proxy_vs_detailed_robust.png": "F4B2ED8AB60CB9585FB3CBE4214573AF36E5B0E81841DBE4B26FC949C469004D",
+      "renders/i2_final_local_clearance_balancing_audit/01_docs88_d_three_way_closeup.png": "E102C69D0213B8C8596BB1887B6AF162530EB7DA31E395D31C0946D82545D356",
+      "renders/i2_final_local_clearance_balancing_audit/02_final_balanced_three_way_closeup.png": "51351476B755529D093D4D07EB35E2C11FCAAB05C70CC0305BEB814E904CA89F",
+      "renders/i2_final_local_clearance_balancing_audit/03_i2_body_minimum_clearance.png": "437DDAC843C87B1B6266A50DC5E7EC4C73CE896A38067CDBA59D6C242A3AAA6B",
+      "renders/i2_final_local_clearance_balancing_audit/04_i3_minimum_clearance.png": "52EAB6B3905487A6C2B1672F3F447BBA7E23308CC8DA00D8DFFF6516CC3CD981",
+      "renders/i2_final_local_clearance_balancing_audit/05_terminal_minimum_clearance.png": "304D611A1B941E052115D54B20BE4332F1BB7E820E635287516D45BB226BE9E8",
+      "renders/i2_final_local_clearance_balancing_audit/06_rear_harness_full_seat.png": "715A573FDD663F1FABF80E1E58390FD29EC3A63ACDD6D6A157445A532CD12A0E",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/01_baseline_plus_u_t4_i3_closeup.png": "3760B3B9657DA2C92B7722F0944028A83E381D77DC71C8346437F5218077EE4D",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/02_best_candidate_plus_u_closeup.png": "ADC700E64FD40FE362266AD3B78E24D262AF0540D41D7B2B4CB9DCB91A3BBC6F",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/03_t4_minimum_clearance_section.png": "89CCDFE9B60ADDBD4784E01F033DC350BDC92E8743FB4788B50CC27057AC90FE",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/04_i3_minimum_clearance_section.png": "52394DA3A3520F64FF5FC79733E263F5CDADB19CE48C1A48BC11E7BC43E169C1",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/05_hardened_manufacturing_harness_isometric.png": "3731E9EFF2889B4B52B9D8B13936CB88D2FFE223BD9007814B2143ACC77EC8AC",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/06_rear_harness_full_seat.png": "50D4676BE9CFE9EA9ED01EEDDFCAA61B6F684F35F73EEDB8B1CA5DDACA04654A",
+      "renders/i2_manufacturing_harness_rebase_audit/01_current_docs84_harness_isometric.png": "E6F8DE884EB57AE17F9E78197D532795836D90669249C9A5573A3C06B2DA5C1B",
+      "renders/i2_manufacturing_harness_rebase_audit/02_current_harness_with_detailed_pushbtn.png": "9D867A63688ADEB09487AEABAF61016A8FF24A4035C52811E4538480F0A81879",
+      "renders/i2_manufacturing_harness_rebase_audit/03_new_manufacturing_harness_isometric.png": "AAC31C5081D843A5E5219883498D45E63A255BAD8A761EFCB9620056EC29BE12",
+      "renders/i2_manufacturing_harness_rebase_audit/04_new_harness_top_with_detailed_pushbtn.png": "7AEB69D7C6C78D4BC3A6863E018CAB6DF54DF949D9180181F8F514DA18C5A963",
+      "renders/i2_manufacturing_harness_rebase_audit/05_plusU_root_closeup.png": "82D14B3B374C6C927378C3B9716AA14089D766B0EDDAED0EE8A10519852F7159",
+      "renders/i2_manufacturing_harness_rebase_audit/06_minusU_root_closeup.png": "A15B5E09CB3473A5EC45C7B025EE7F01EC58119150F11D3C00A3A6CB75BA9EE4",
+      "renders/i2_manufacturing_harness_rebase_audit/07_plusV_root_closeup.png": "6D5911041566F6E619CB4C76A8DA9AB7CBBF8FB0BF43DF950BA2088B9A8F1E8A",
+      "renders/i2_manufacturing_harness_rebase_audit/08_minusV_root_closeup.png": "1920446AF772785056CDDC0B02CF78B6AB99FFD2BB4063AE3706AD80C1911638",
+      "renders/i2_manufacturing_harness_rebase_audit/09_main_body_bottom_seating_region.png": "5FCEC2A4ECA1813CC7C82BD8B63BC30257220DFD2D5B4C5ADC8E6B00FDBBBE31",
+      "renders/i2_manufacturing_harness_rebase_audit/10_detailed_pushbtn_insertion_corridor.png": "CE1EA9DEBA039555383E338507C6EB9B64C807543A321326F794F6C6B6057BE2",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/01_i2_exterior_its_frozen_orientation.png": "89D44D1115D25D76F749BD066D18AA148767CE90C6AC07748420D61CDA7A7087",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/02_four_roots_top_view.png": "2971373E8E968723239112AB6A5CABDCECBA2D029E7C1BD68EEAB7C0EE3097E6",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/03_plus_U_minimum_angle.png": "CF15034A4F8CB4D045F85EC42430905A45C3B11FDEAC3FC4325E6C6BCE895C3B",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/04_minus_U_minimum_angle.png": "DA4BFBFB19953A759FBDE726EC5827555E2DD2D5B1E7F10F2419C5A5372A7A6C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/05_plus_V_minimum_angle.png": "B41EA5F2656D2D6A776EAFA278FAB66CD88360CDBBFDB03A56A10794CD4BEB3F",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/06_minus_V_minimum_angle.png": "13FA9B7A99C529792AB7A82893C1F3B5F91FC97464039399D28077E9FF1E562E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/07_four_minimum_angle_legs_only.png": "CF0AAE5810B3E8A4781EACE91DE2BB78716A2A2539BD87E03C38130B999135A9",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/08_four_direct_shell_slots_only.png": "95B26F72A072C6571F3283A08C12170CF76B3178B2F434C8675AE0333EC2852E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/09_leg_slot_sectional_view.png": "A4E9F8B883A8DD4788EBCBC479A3ECACA8436C9A5002A4DD6595D9A516223583",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/10_full_seated_assembly.png": "C25602D43186DFAB3D80005888F6C9EA1CC41B2D4B4096D1D433506E28C0EF1C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/11_assembly_start.png": "1406FE9FF1079477D8BE7AA47C5D91F1CD4DBDC5D201F2F6D37E58C8DD1748DD",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/12_assembly_partial_insert.png": "F986C1EDF0F679DEB16378C08E53D9AE3B14C2DE91E6BC51F1DE8E19CD41D09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/13_assembly_full_seat.png": "77DF0CC1E5888AF0F589422E1A33A4B74411687ECB59E9EDB5DE1AA9FC99D7D4",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/14_assembly_swept_collision_diagnostic.png": "8433D5071F9D6DB846B37CE94696B0053E5FC59C64B50C82B25EEB3C29BFD09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/15_harness_fdm_print_orientation.png": "38F62C8F1750A0B1B073ED1BE3831C27792A375DD1E9E3CA819AD8835097DCAA",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/16_docs80_vs_new_minimum_angle.png": "E876FEE7FACC6C2F25EF909CB2AD003ED5BFDE78BB3AFDE2879C349FEE0ABC8E",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/01_current_i2_direction_revalidation.png": "E2191EDB7568EE4EEA017413AB6A05AD3594ACD31A96D25F3C8EDAFAC57512C0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/02_+w_parallel_fixed_root_probes.png": "D8083E7F286E4ABE0E68B5327B3EFD7400B6F16220DC5EF097354C364502DCB9",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/03_-w_parallel_fixed_root_probes.png": "67A3D4A51360B01EEEAC2AC7636CCF72BAC03D8A514C35DDDBB2521040927FD0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/04_+w_footprint_36_ray_coverage.png": "458D888EC6C4CD1732675A7223F0EFF087A002BC5E00DE332C3EDDFD0C761E3C",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/05_-w_footprint_36_ray_coverage.png": "6638E8AC05B66BA7FBFC25902081149921410847CDBAD98AFE9A337E448F815F",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/06_minus_w_plus_v_planar_floor_breakthrough.png": "36B1F70535C3A0E405C9C731286F6D95720C8E886282A6D40AD90DB12894C5DB",
+      "renders/i2_parallel_w_root_slide_simplification_audit/01_docs81_fixed_roots_top.png": "276A1A3859DD274DCD721CE1E35988E579B6F05BEEDC64F0B734D65CDC654194",
+      "renders/i2_parallel_w_root_slide_simplification_audit/02_feasible_root_regions_four_sides.png": "F4F565FE6F2FBFBC842E3028EDAECD7C985C799AAEAA8BB5852025A9BE327E19",
+      "renders/i2_parallel_w_root_slide_simplification_audit/03_best_new_roots_top_failure_diagnostic.png": "CBBDAA9484FABC0E32C30526D114C456E764A2AA6C6A2EAA708317F74321E024",
+      "renders/i2_parallel_w_root_slide_simplification_audit/04_90deg_parallel_legs_only_failure_probes.png": "F07C705C9FC17B37B86D94330BB5592E89F5179D55435729F5FA272AEDE9C5B9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/05_plus_u_minus_u_sections.png": "A5923B035E2EEE3C0371BDD5A6616C9D1461616E53C1CA3822C2C05CF615154D",
+      "renders/i2_parallel_w_root_slide_simplification_audit/06_plus_v_minus_v_sections.png": "90950D842A3F5C3EF4B2FAAACBA4F8C1BB4B961F18C52BCE444243695F56BACF",
+      "renders/i2_parallel_w_root_slide_simplification_audit/07_shell_blind_slot_footprint_ray_proof.png": "7C4343D6677E1A291EA7259C2E1F791C56856CC57FF082519DBC473D00B94EA9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/08_pusher_clearance_closeup.png": "EA803B82A538B3306023FA8C45E9110240D9400428A879232B914546B88FD637",
+      "renders/i2_parallel_w_root_slide_simplification_audit/09_i3_clearance_closeup.png": "64F745055EA47B5C5D433B5B49967275969A3E4EE971F026B3887A56824D05BC",
+      "renders/i2_parallel_w_root_slide_simplification_audit/10_full_simplified_failure_combination.png": "4C08DE42122758F4F4D3BF1C2E53219CF7A17B91617333D9C18DA84472E95307",
+      "renders/i2_parallel_w_root_slide_simplification_audit/11_docs80_angled_vs_parallel_root_slide.png": "651A74717631A253A72627A733038EB087B60E137AE4351E86BA3D48486A417C",
+      "renders/i2_user_intended_rear_harness_sanity_check/01_rear_harness_start.png": "43A7311A8984BC534DB7CAB317380912ADB52192407A61561FBB96065CB22250",
+      "renders/i2_user_intended_rear_harness_sanity_check/02_rear_harness_50_percent.png": "564A91197EC28886A1759652DA0F716D0073A890327FC3FA491731DD22D8AC8C",
+      "renders/i2_user_intended_rear_harness_sanity_check/03_rear_harness_75_percent.png": "A2A2EB0801BAEB384860FC039312EB3C12D4F6B60F08C8857058711C5E3D7536",
+      "renders/i2_user_intended_rear_harness_sanity_check/04_rear_harness_full_seat.png": "BBE04DBC4804B4B7AA39D38DF059436F148F570ED85B8D10F6A30A0D8F45380F",
+      "renders/i3_i4_local_hybrid_support_validation/01_i4_plus_u_local_contact_region_before.png": "3F2D2ED597B70B32B7CE198AD493CB888ADF64C86F6459F52AEFBFF6FE03446F",
+      "renders/i3_i4_local_hybrid_support_validation/02_i4_complete_three_slot_one_foot_harness.png": "F45006DEA38162E8FA13004DC5B6071C30E5C66CBE9D6F8BC790D0A4A67A8D20",
+      "renders/i3_i4_local_hybrid_support_validation/03_i4_foot_shell_contact_closeup.png": "6165ACF05B0EC0CFD1841F741EDCC9AF80C8AFB1B838BCB6887E91EF6814E47D",
+      "renders/i3_i4_local_hybrid_support_validation/04_i3_plus_u_local_contact_region_before.png": "4CCC4B0D56FF4D1EE9221777E2FAE9DF06C8B8BCC63EB3D0739A726E75826C77",
+      "renders/i3_i4_local_hybrid_support_validation/05_i3_minus_u_micro_thickened_slot_section.png": "31654CBF9A899081F9E72CB31F9F206979D61DB3455C1C143004B74C52F67167",
+      "renders/i3_i4_local_hybrid_support_validation/06_i3_complete_three_slot_one_foot_harness.png": "3DEA09EDF197D4951A652F8650A7C7966CD627059B80E3C2AFAE8B6379BABB27",
+      "renders/i3_i4_local_hybrid_support_validation/07_i3_foot_shell_contact_closeup.png": "EDAB0F0A1840FEBB12BF3D9C3A25C45A3E90D9B2E864EA77D102A341C17B01FB",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/01_all7_unresolved_locations_overview.png": "6144CADBA7C00DAB3DCB35D63951A171CF4592ABE05D542E1862AF481CFFF763",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/02_n2_rescue_geometry.png": "317AB6877F4620F1E54EA0974FC54DDC26608917701890AC4F02E89282EF6BDF",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/03_i3_rescue_geometry.png": "3BF83F05594D3268F273412D1D74F6DFC4FB8BC701E34E682D263F00DB615585",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/04_i4_rescue_geometry.png": "CC93942B20D84B90E604C5AEDFCB4D3E8F4968B400A05EEB4284592503436A1F",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/05_n3_rescue_geometry.png": "E47E96A8534D09A7C7A6B32A90B9D602C6874789F9F61D6CD57921F8C731D930",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/06_tightest_rescued_clearance.png": "32560B9A205192AE94114B90AF212A94D2B47BB4FB0480F3CE2A957B79884D96",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/07_worst_shell_landing.png": "B099B206F632A6565C9AE00EC0F0C6520AE23058F699A901AC953DF0930F239A",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/01_n2_plus_usection.png": "402F8650F9D22ED917C60E0480C494689A87C4C665464AB8C60CCC76F4211802",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/02_n2_plus_vsection.png": "1E80AA7AFF0CBC9CAF6AFE4E258B591FE7F4A4DE4E0A532AFCA116AD8E55F3AF",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/03_n2_minus_vsection.png": "4D9E916D3F5AEAF169AE1C1DE010DD8BC37C9B403F6220B1FB55D6374D899B8C",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/04_i3_plus_usection.png": "59315C6EDFD96AF018FA3785DCF3605B124407AB4EBC3BEF38C68B965C141C0B",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/05_i3_minus_usection.png": "4C0F653264F143763A90B7AA304A338B812220C3A9E9331234DB9078FB0B64C6",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/06_i4_plus_usection.png": "510D9BD2E9712F1BD23482D2315DE264BCAFE1CA5FCD5ADE82DDBBB51044D2CE"
+    }
+  }
+}

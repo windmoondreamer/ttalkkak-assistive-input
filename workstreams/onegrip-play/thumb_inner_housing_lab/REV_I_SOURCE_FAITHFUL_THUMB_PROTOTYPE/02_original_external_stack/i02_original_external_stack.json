@@ -1,0 +1,919 @@
+{
+  "ringOffsetMm": [
+    0.35,
+    1.6
+  ],
+  "actuatorEngagementMm": 0.345,
+  "assumedSwitchTravelMm": 0.25,
+  "assumedSwitchTravelQuality": "PROVISIONAL - datasheet class, not measured",
+  "ORIGINAL": {
+    "buttons": {
+      "T1": {
+        "tiltDeg": 9.36199934380261,
+        "axisWorld": [
+          0.10610574067594856,
+          0.6894150077685797,
+          0.7165532212327691
+        ],
+        "capCentreWorld": [
+          10.037608863672405,
+          -0.413547357100579,
+          40.11716167289886
+        ],
+        "capOuterRadiusMm": 5.612484203362206,
+        "outerSkinReference": {
+          "referenceMm": 0.8837293217888131,
+          "p90Mm": 0.8837293217888131,
+          "medianMm": 0.7001789189140695,
+          "maxMm": 0.9537037016005172,
+          "p10Mm": -19.389495708316854,
+          "throughHoleFraction": 0.11585365853658537,
+          "ringMm": [
+            5.962484203362206,
+            7.212484203362207
+          ],
+          "samples": 492
+        },
+        "shellToCapTopMm": 1.3851914328717245,
+        "shellToCapUndersideMm": -3.5802840319691898,
+        "shellToActuatorTipMm": -3.23528403196919,
+        "unpressedProtrusionMm": 1.3851914328717245,
+        "pressedProtrusionMm": 1.1351914328717245,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.3851914328717245,
+        "capSkirtInsertionDepthMm": 3.5802840319691898,
+        "capHeightMm": 4.965475464840914,
+        "lateralClearanceToOpening": {
+          "minMm": 0.01174934583716365,
+          "p10Mm": 0.10814338452458594,
+          "medianMm": 0.3201487402255841,
+          "samples": 31899
+        }
+      },
+      "T2": {
+        "tiltDeg": 3.9999999999874567,
+        "axisWorld": [
+          0.0001100594894338144,
+          0.6529192947572886,
+          0.7574274766738752
+        ],
+        "capCentreWorld": [
+          -0.23538119343090805,
+          -8.243959134360749,
+          47.0883718402826
+        ],
+        "capOuterRadiusMm": 5.382270475931458,
+        "outerSkinReference": {
+          "referenceMm": 1.3111059319333904,
+          "p90Mm": 1.3111059319333904,
+          "medianMm": 1.2821285950533792,
+          "maxMm": 1.3229603940563806,
+          "p10Mm": 1.1426487692806262,
+          "throughHoleFraction": 0.016638935108153077,
+          "ringMm": [
+            5.7322704759314576,
+            6.9822704759314576
+          ],
+          "samples": 601
+        },
+        "shellToCapTopMm": 1.0655054484294402,
+        "shellToCapUndersideMm": -3.696511293810345,
+        "shellToActuatorTipMm": -3.3515112938103453,
+        "unpressedProtrusionMm": 1.0655054484294402,
+        "pressedProtrusionMm": 0.8155054484294402,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.0655054484294402,
+        "capSkirtInsertionDepthMm": 3.696511293810345,
+        "capHeightMm": 4.762016742239785,
+        "lateralClearanceToOpening": {
+          "minMm": 0.013932225364911394,
+          "p10Mm": 0.09588255742274003,
+          "medianMm": 0.25809732004361186,
+          "samples": 21630
+        }
+      },
+      "T3": {
+        "tiltDeg": 9.377491112582721,
+        "axisWorld": [
+          -0.10610916144120461,
+          0.6894441486905521,
+          0.7165246762635634
+        ],
+        "capCentreWorld": [
+          -10.536737107884527,
+          -0.4318460774664297,
+          40.135606153431226
+        ],
+        "capOuterRadiusMm": 5.62332142625587,
+        "outerSkinReference": {
+          "referenceMm": 0.810721503358009,
+          "p90Mm": 0.810721503358009,
+          "medianMm": 0.645913541525033,
+          "maxMm": 0.8972856795029571,
+          "p10Mm": -19.400968969662145,
+          "throughHoleFraction": 0.10633946830265849,
+          "ringMm": [
+            5.97332142625587,
+            7.22332142625587
+          ],
+          "samples": 489
+        },
+        "shellToCapTopMm": 1.4589306709174288,
+        "shellToCapUndersideMm": -3.5022723185580684,
+        "shellToActuatorTipMm": -3.1572723185580682,
+        "unpressedProtrusionMm": 1.4589306709174288,
+        "pressedProtrusionMm": 1.2089306709174288,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.4589306709174288,
+        "capSkirtInsertionDepthMm": 3.5022723185580684,
+        "capHeightMm": 4.961202989475497,
+        "lateralClearanceToOpening": {
+          "minMm": 0.009277633807049553,
+          "p10Mm": 0.09795907769904919,
+          "medianMm": 0.35600224532694713,
+          "samples": 31115
+        }
+      },
+      "T4": {
+        "tiltDeg": 7.073219636340651,
+        "axisWorld": [
+          0.09753794150680278,
+          0.6543290010864592,
+          0.7498932646075788
+        ],
+        "capCentreWorld": [
+          10.646092612641453,
+          -8.279652300334018,
+          47.038831156494254
+        ],
+        "capOuterRadiusMm": 5.61620871608919,
+        "outerSkinReference": {
+          "referenceMm": 1.1323075237174969,
+          "p90Mm": 1.1323075237174969,
+          "medianMm": 0.8178427071918541,
+          "maxMm": 1.1730839941656015,
+          "p10Mm": 0.5451380541987056,
+          "throughHoleFraction": 0.02120141342756184,
+          "ringMm": [
+            5.96620871608919,
+            7.21620871608919
+          ],
+          "samples": 566
+        },
+        "shellToCapTopMm": 1.2909270693328163,
+        "shellToCapUndersideMm": -3.825449302487976,
+        "shellToActuatorTipMm": -3.480449302487976,
+        "unpressedProtrusionMm": 1.2909270693328163,
+        "pressedProtrusionMm": 1.0409270693328163,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.2909270693328163,
+        "capSkirtInsertionDepthMm": 3.825449302487976,
+        "capHeightMm": 5.116376371820792,
+        "lateralClearanceToOpening": {
+          "minMm": 0.016372764494913348,
+          "p10Mm": 0.11131876785843636,
+          "medianMm": 0.2962278302413113,
+          "samples": 30189
+        }
+      },
+      "T5": {
+        "tiltDeg": 3.999999999981712,
+        "axisWorld": [
+          0.00011005948943456381,
+          0.6529192947572132,
+          0.7574274766739403
+        ],
+        "capCentreWorld": [
+          -0.25129275522826205,
+          0.09000619713459015,
+          39.903754752907254
+        ],
+        "capOuterRadiusMm": 5.376958345547916,
+        "outerSkinReference": {
+          "referenceMm": 1.2114000717817939,
+          "p90Mm": 1.2114000717817939,
+          "medianMm": 0.8087431022646392,
+          "maxMm": 1.2574780951968236,
+          "p10Mm": 0.575902138314882,
+          "throughHoleFraction": 0.022821576763485476,
+          "ringMm": [
+            5.726958345547915,
+            6.976958345547915
+          ],
+          "samples": 482
+        },
+        "shellToCapTopMm": 1.1656326843865192,
+        "shellToCapUndersideMm": -3.596384057853925,
+        "shellToActuatorTipMm": -3.251384057853925,
+        "unpressedProtrusionMm": 1.1656326843865192,
+        "pressedProtrusionMm": 0.9156326843865192,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.1656326843865192,
+        "capSkirtInsertionDepthMm": 3.596384057853925,
+        "capHeightMm": 4.762016742240444,
+        "lateralClearanceToOpening": {
+          "minMm": 0.004148788272903675,
+          "p10Mm": 0.094497737196221,
+          "medianMm": 0.25215153312102223,
+          "samples": 20999
+        }
+      },
+      "T6": {
+        "tiltDeg": 7.05960116119228,
+        "axisWorld": [
+          -0.09733084977925645,
+          0.6538982607470086,
+          0.7502957885216236
+        ],
+        "capCentreWorld": [
+          -11.136563608863248,
+          -8.289574483392586,
+          47.051414054876524
+        ],
+        "capOuterRadiusMm": 5.591543842780704,
+        "outerSkinReference": {
+          "referenceMm": 1.0835413218599115,
+          "p90Mm": 1.0835413218599115,
+          "medianMm": 0.7929722291172148,
+          "maxMm": 1.1224318017587933,
+          "p10Mm": 0.4225595163188771,
+          "throughHoleFraction": 0.0,
+          "ringMm": [
+            5.941543842780703,
+            7.191543842780703
+          ],
+          "samples": 576
+        },
+        "shellToCapTopMm": 1.3376135613689244,
+        "shellToCapUndersideMm": -3.7791490623522948,
+        "shellToActuatorTipMm": -3.4341490623522946,
+        "unpressedProtrusionMm": 1.3376135613689244,
+        "pressedProtrusionMm": 1.0876135613689244,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.3376135613689244,
+        "capSkirtInsertionDepthMm": 3.7791490623522948,
+        "capHeightMm": 5.116762623721219,
+        "lateralClearanceToOpening": {
+          "minMm": 0.002343229775168175,
+          "p10Mm": 0.11326168049090246,
+          "medianMm": 0.30852713310332264,
+          "samples": 29881
+        }
+      },
+      "T7": {
+        "tiltDeg": 1.8392747092422275,
+        "axisWorld": [
+          0.022224634987194566,
+          0.616872395269655,
+          0.7867493333673468
+        ],
+        "capCentreWorld": [
+          7.890296535361905,
+          -17.601130626565578,
+          54.979049796884624
+        ],
+        "capOuterRadiusMm": 5.963912498665023,
+        "outerSkinReference": {
+          "referenceMm": 1.1518011949402087,
+          "p90Mm": 1.1518011949402087,
+          "medianMm": 0.9886823290312563,
+          "maxMm": 1.2041657938365162,
+          "p10Mm": 0.7941138217657553,
+          "throughHoleFraction": 0.0,
+          "ringMm": [
+            6.313912498665022,
+            7.563912498665022
+          ],
+          "samples": 716
+        },
+        "shellToCapTopMm": 1.1995165456317478,
+        "shellToCapUndersideMm": -3.6561958391513962,
+        "shellToActuatorTipMm": -3.311195839151396,
+        "unpressedProtrusionMm": 1.1995165456317478,
+        "pressedProtrusionMm": 0.9495165456317478,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.1995165456317478,
+        "capSkirtInsertionDepthMm": 3.6561958391513962,
+        "capHeightMm": 4.8557123847831445,
+        "lateralClearanceToOpening": {
+          "minMm": 0.004054243316235894,
+          "p10Mm": 0.07313101864895319,
+          "medianMm": 0.37169594528100286,
+          "samples": 26551
+        }
+      },
+      "T8": {
+        "tiltDeg": 1.8392747092382637,
+        "axisWorld": [
+          -0.021908794082781263,
+          0.6168410337968857,
+          0.7867827805476094
+        ],
+        "capCentreWorld": [
+          -8.353401608568639,
+          -17.607396980856322,
+          54.99006901547472
+        ],
+        "capOuterRadiusMm": 5.9636325009887505,
+        "outerSkinReference": {
+          "referenceMm": 1.1381190978350788,
+          "p90Mm": 1.1381190978350788,
+          "medianMm": 0.9761486030709818,
+          "maxMm": 1.1885045825800162,
+          "p10Mm": 0.7163870732537397,
+          "throughHoleFraction": 0.0,
+          "ringMm": [
+            6.31363250098875,
+            7.563632500988751
+          ],
+          "samples": 720
+        },
+        "shellToCapTopMm": 1.2107719491881337,
+        "shellToCapUndersideMm": -3.645015455681562,
+        "shellToActuatorTipMm": -3.3000154556815624,
+        "unpressedProtrusionMm": 1.2107719491881337,
+        "pressedProtrusionMm": 0.9607719491881337,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": 1.2107719491881337,
+        "capSkirtInsertionDepthMm": 3.645015455681562,
+        "capHeightMm": 4.855787404869696,
+        "lateralClearanceToOpening": {
+          "minMm": 0.016926819531206796,
+          "p10Mm": 0.07925943179269494,
+          "medianMm": 0.3540082802211276,
+          "samples": 26538
+        }
+      }
+    },
+    "protrusionLaw": "ONE COMMON PROTRUSION LAW",
+    "protrusionStats": {
+      "minMm": 1.0655054484294402,
+      "maxMm": 1.4589306709174288,
+      "spreadMm": 0.3934252224879886,
+      "meanMm": 1.2642611702658417,
+      "sdMm": 0.11984175228792451
+    },
+    "insertionStats": {
+      "minMm": 3.5022723185580684,
+      "maxMm": 3.825449302487976,
+      "spreadMm": 0.32317698392990746,
+      "meanMm": 3.6601576702330947
+    },
+    "tiltProtrusionCorrelation": 0.818897206470974,
+    "lateralClearanceMedianMm": 0.31433793666445337,
+    "neighbourSpacingMm": {
+      "T1-T2": 14.678128099748712,
+      "T1-T4": 10.495492741689487,
+      "T1-T5": 10.303426867741623,
+      "T2-T3": 14.6795093510037,
+      "T2-T4": 10.881645117981305,
+      "T2-T5": 11.003361032728627,
+      "T2-T6": 10.901340499796374,
+      "T2-T7": 14.691701586321967,
+      "T2-T8": 14.697382148335729,
+      "T3-T5": 10.301283919979094,
+      "T3-T6": 10.48485033094266,
+      "T4-T5": 15.482684085943673,
+      "T4-T7": 12.551153025246595,
+      "T5-T6": 15.48533265498315,
+      "T6-T8": 12.553487539228113,
+      "T7-T8": 16.243703090167187
+    }
+  },
+  "CURRENT_FROZEN": {
+    "buttons": {
+      "T1": {
+        "tiltDeg": 9.36199934380265,
+        "axisWorld": [
+          0.10610574067594872,
+          0.6894150077685794,
+          0.7165532212327693
+        ],
+        "capCentreWorld": [
+          10.037608863672407,
+          11.836452642893528,
+          19.117161672898966
+        ],
+        "capOuterRadiusMm": 5.612484203362223,
+        "outerSkinReference": {
+          "referenceMm": 6.461981801124901,
+          "p90Mm": 6.461981801124901,
+          "medianMm": 4.4788163827424015,
+          "maxMm": 6.629045108925666,
+          "p10Mm": 3.165982776773345,
+          "throughHoleFraction": 0.5630397236614854,
+          "ringMm": [
+            5.962484203362223,
+            7.212484203362223
+          ],
+          "samples": 579
+        },
+        "shellToCapTopMm": -4.193061046464518,
+        "shellToCapUndersideMm": -9.158536511305424,
+        "shellToActuatorTipMm": -8.813536511305426,
+        "unpressedProtrusionMm": -4.193061046464518,
+        "pressedProtrusionMm": -4.443061046464518,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -4.193061046464518,
+        "capSkirtInsertionDepthMm": 9.158536511305424,
+        "capHeightMm": 4.965475464840907,
+        "lateralClearanceToOpening": {
+          "minMm": 0.010132144204764831,
+          "p10Mm": 0.6088607691062099,
+          "medianMm": 2.2617936298196666,
+          "samples": 57343
+        }
+      },
+      "T2": {
+        "tiltDeg": 3.999999999987366,
+        "axisWorld": [
+          0.00011005948943425255,
+          0.6529192947572883,
+          0.7574274766738754
+        ],
+        "capCentreWorld": [
+          -0.2379850262735322,
+          4.0062563328969825,
+          26.088625915747066
+        ],
+        "capOuterRadiusMm": 5.380429696395208,
+        "outerSkinReference": {
+          "referenceMm": 8.527883387048513,
+          "p90Mm": 8.527883387048513,
+          "medianMm": 7.753321662407597,
+          "maxMm": 8.605724982389344,
+          "p10Mm": 7.071720032573792,
+          "throughHoleFraction": 0.0625,
+          "ringMm": [
+            5.730429696395207,
+            6.980429696395207
+          ],
+          "samples": 720
+        },
+        "shellToCapTopMm": -6.151604846582293,
+        "shellToCapUndersideMm": -10.913621588822071,
+        "shellToActuatorTipMm": -10.568621588822072,
+        "unpressedProtrusionMm": -6.151604846582293,
+        "pressedProtrusionMm": -6.401604846582293,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -6.151604846582293,
+        "capSkirtInsertionDepthMm": 10.913621588822071,
+        "capHeightMm": 4.762016742239778,
+        "lateralClearanceToOpening": {
+          "minMm": 1.9602918327686496,
+          "p10Mm": 2.508084165204055,
+          "medianMm": 3.882748114353578,
+          "samples": 44607
+        }
+      },
+      "T3": {
+        "tiltDeg": 9.37749111258268,
+        "axisWorld": [
+          -0.10610916144120486,
+          0.689444148690552,
+          0.7165246762635635
+        ],
+        "capCentreWorld": [
+          -10.536737107884521,
+          11.818153922530653,
+          19.135606153430455
+        ],
+        "capOuterRadiusMm": 5.623321426256155,
+        "outerSkinReference": {
+          "referenceMm": 6.385889280509716,
+          "p90Mm": 6.385889280509716,
+          "medianMm": 4.561618070196207,
+          "maxMm": 6.560115030424932,
+          "p10Mm": 3.129501411364714,
+          "throughHoleFraction": 0.5838926174496645,
+          "ringMm": [
+            5.973321426256154,
+            7.223321426256154
+          ],
+          "samples": 596
+        },
+        "shellToCapTopMm": -4.116237106233782,
+        "shellToCapUndersideMm": -9.077440095709274,
+        "shellToActuatorTipMm": -8.732440095709276,
+        "unpressedProtrusionMm": -4.116237106233782,
+        "pressedProtrusionMm": -4.366237106233782,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -4.116237106233782,
+        "capSkirtInsertionDepthMm": 9.077440095709274,
+        "capHeightMm": 4.961202989475494,
+        "lateralClearanceToOpening": {
+          "minMm": 0.009213183655762574,
+          "p10Mm": 0.5137058780987083,
+          "medianMm": 2.1717061833751967,
+          "samples": 57219
+        }
+      },
+      "T4": {
+        "tiltDeg": 7.0732196363406,
+        "axisWorld": [
+          0.0975379415068025,
+          0.6543290010864593,
+          0.7498932646075788
+        ],
+        "capCentreWorld": [
+          10.646092285727455,
+          3.9705873898468615,
+          26.03862453827918
+        ],
+        "capOuterRadiusMm": 5.615993590279193,
+        "outerSkinReference": {
+          "referenceMm": 8.026110231142246,
+          "p90Mm": 8.026110231142246,
+          "medianMm": 6.8231001441784755,
+          "maxMm": 8.19327535928037,
+          "p10Mm": 5.654039796481328,
+          "throughHoleFraction": 0.40594059405940597,
+          "ringMm": [
+            5.965993590279193,
+            7.215993590279194
+          ],
+          "samples": 707
+        },
+        "shellToCapTopMm": -5.602877500839443,
+        "shellToCapUndersideMm": -10.719420808928877,
+        "shellToActuatorTipMm": -10.374420808928878,
+        "unpressedProtrusionMm": -5.602877500839443,
+        "pressedProtrusionMm": -5.852877500839443,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -5.602877500839443,
+        "capSkirtInsertionDepthMm": 10.719420808928877,
+        "capHeightMm": 5.116543308089435,
+        "lateralClearanceToOpening": {
+          "minMm": 0.8005923774230899,
+          "p10Mm": 1.8493525088366263,
+          "medianMm": 3.6397341042697318,
+          "samples": 54171
+        }
+      },
+      "T5": {
+        "tiltDeg": 3.9999999999816205,
+        "axisWorld": [
+          0.00011005948943406525,
+          0.6529192947572139,
+          0.7574274766739397
+        ],
+        "capCentreWorld": [
+          -0.2512927552282622,
+          12.340006197126625,
+          18.903754752906973
+        ],
+        "capOuterRadiusMm": 5.376958345547762,
+        "outerSkinReference": {
+          "referenceMm": 7.262143029067897,
+          "p90Mm": 7.262143029067897,
+          "medianMm": 6.45531889483015,
+          "maxMm": 7.391089308800659,
+          "p10Mm": 5.218349615667142,
+          "throughHoleFraction": 0.2868369351669941,
+          "ringMm": [
+            5.726958345547762,
+            6.976958345547763
+          ],
+          "samples": 509
+        },
+        "shellToCapTopMm": -4.885110272899402,
+        "shellToCapUndersideMm": -9.647127015139837,
+        "shellToActuatorTipMm": -9.302127015139838,
+        "unpressedProtrusionMm": -4.885110272899402,
+        "pressedProtrusionMm": -5.135110272899402,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -4.885110272899402,
+        "capSkirtInsertionDepthMm": 9.647127015139837,
+        "capHeightMm": 4.762016742240437,
+        "lateralClearanceToOpening": {
+          "minMm": 0.018588586732540185,
+          "p10Mm": 0.7667874093351973,
+          "medianMm": 2.300261881988023,
+          "samples": 44625
+        }
+      },
+      "T6": {
+        "tiltDeg": 7.059601161192331,
+        "axisWorld": [
+          -0.09733084977925645,
+          0.6538982607470087,
+          0.7502957885216235
+        ],
+        "capCentreWorld": [
+          -11.136563238341619,
+          3.960153853640616,
+          26.051648234322734
+        ],
+        "capOuterRadiusMm": 5.591786986179431,
+        "outerSkinReference": {
+          "referenceMm": 7.96622803977029,
+          "p90Mm": 7.96622803977029,
+          "medianMm": 6.746482409919103,
+          "maxMm": 8.142096251706132,
+          "p10Mm": 5.412064561143511,
+          "throughHoleFraction": 0.4111111111111111,
+          "ringMm": [
+            5.941786986179431,
+            7.191786986179432
+          ],
+          "samples": 720
+        },
+        "shellToCapTopMm": -5.545071184394255,
+        "shellToCapUndersideMm": -10.661864557083973,
+        "shellToActuatorTipMm": -10.316864557083973,
+        "unpressedProtrusionMm": -5.545071184394255,
+        "pressedProtrusionMm": -5.795071184394255,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -5.545071184394255,
+        "capSkirtInsertionDepthMm": 10.661864557083973,
+        "capHeightMm": 5.116793372689719,
+        "lateralClearanceToOpening": {
+          "minMm": 0.5572066472924327,
+          "p10Mm": 1.6778489180065057,
+          "medianMm": 3.5357683877429773,
+          "samples": 54196
+        }
+      },
+      "T7": {
+        "tiltDeg": 1.8392747092420292,
+        "axisWorld": [
+          0.02222463498719436,
+          0.616872395269655,
+          0.7867493333673469
+        ],
+        "capCentreWorld": [
+          7.8902965353631345,
+          -5.351130626574431,
+          33.97904979688444
+        ],
+        "capOuterRadiusMm": 5.963912498664145,
+        "outerSkinReference": {
+          "referenceMm": 9.530073175719686,
+          "p90Mm": 9.530073175719686,
+          "medianMm": 8.620506290949123,
+          "maxMm": 9.634792240416346,
+          "p10Mm": 7.945258355476105,
+          "throughHoleFraction": 0.16857142857142857,
+          "ringMm": [
+            6.313912498664145,
+            7.563912498664145
+          ],
+          "samples": 700
+        },
+        "shellToCapTopMm": -7.178755435147647,
+        "shellToCapUndersideMm": -12.034467819930839,
+        "shellToActuatorTipMm": -11.68946781993084,
+        "unpressedProtrusionMm": -7.178755435147647,
+        "pressedProtrusionMm": -7.428755435147647,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -7.178755435147647,
+        "capSkirtInsertionDepthMm": 12.034467819930839,
+        "capHeightMm": 4.855712384783193,
+        "lateralClearanceToOpening": {
+          "minMm": 2.847321881060442,
+          "p10Mm": 3.5966225494761392,
+          "medianMm": 5.104170267959233,
+          "samples": 50426
+        }
+      },
+      "T8": {
+        "tiltDeg": 1.8392747092382637,
+        "axisWorld": [
+          -0.021908794082782287,
+          0.616841033796886,
+          0.7867827805476092
+        ],
+        "capCentreWorld": [
+          -8.35340160856936,
+          -5.357396980865294,
+          33.990069015473985
+        ],
+        "capOuterRadiusMm": 5.963632500988426,
+        "outerSkinReference": {
+          "referenceMm": 9.510951612913424,
+          "p90Mm": 9.510951612913424,
+          "medianMm": 8.618933933922545,
+          "maxMm": 9.612613360639429,
+          "p10Mm": 7.836453749826033,
+          "throughHoleFraction": 0.2217573221757322,
+          "ringMm": [
+            6.313632500988426,
+            7.563632500988426
+          ],
+          "samples": 717
+        },
+        "shellToCapTopMm": -7.162060565889639,
+        "shellToCapUndersideMm": -12.017847970759362,
+        "shellToActuatorTipMm": -11.672847970759364,
+        "unpressedProtrusionMm": -7.162060565889639,
+        "pressedProtrusionMm": -7.412060565889639,
+        "assumedSwitchTravelMm": 0.25,
+        "capTopReachesSkinAtMm": -7.162060565889639,
+        "capSkirtInsertionDepthMm": 12.017847970759362,
+        "capHeightMm": 4.855787404869725,
+        "lateralClearanceToOpening": {
+          "minMm": 2.7122017624087986,
+          "p10Mm": 3.5122077171065165,
+          "medianMm": 5.063098936344348,
+          "samples": 50500
+        }
+      }
+    },
+    "protrusionLaw": "TWO OR MORE PROTRUSION VARIANTS",
+    "protrusionStats": {
+      "minMm": -7.178755435147647,
+      "maxMm": -4.116237106233782,
+      "spreadMm": 3.062518328913865,
+      "meanMm": -5.604347244806372,
+      "sdMm": 1.1142116593466114
+    },
+    "insertionStats": {
+      "minMm": 9.077440095709274,
+      "maxMm": 12.034467819930839,
+      "spreadMm": 2.9570277242215646,
+      "meanMm": 10.528790795959956
+    },
+    "tiltProtrusionCorrelation": 0.8789129826534037,
+    "lateralClearanceMedianMm": 3.5877512460063548,
+    "neighbourSpacingMm": {
+      "T1-T2": 14.679956326007495,
+      "T1-T4": 10.495176818464756,
+      "T1-T5": 10.30342686774153,
+      "T2-T3": 14.677687903909675,
+      "T2-T4": 10.884250610164287,
+      "T2-T5": 11.003360283195704,
+      "T2-T6": 10.898738451402636,
+      "T2-T7": 14.693142648138663,
+      "T2-T8": 14.69594477203679,
+      "T3-T5": 10.301283919978822,
+      "T3-T6": 10.48520836865571,
+      "T4-T5": 15.482459066850812,
+      "T4-T7": 12.55146167913904,
+      "T5-T6": 15.485587493241347,
+      "T6-T8": 12.553137723678985,
+      "T7-T8": 16.243703090169138
+    }
+  },
+  "protrusionDeviation": {
+    "T1": {
+      "originalMm": 1.3851914328717245,
+      "currentMm": -4.193061046464518,
+      "deltaMm": -5.578252479336243,
+      "originalInsertionMm": 3.5802840319691898,
+      "currentInsertionMm": 9.158536511305424
+    },
+    "T2": {
+      "originalMm": 1.0655054484294402,
+      "currentMm": -6.151604846582293,
+      "deltaMm": -7.217110295011733,
+      "originalInsertionMm": 3.696511293810345,
+      "currentInsertionMm": 10.913621588822071
+    },
+    "T3": {
+      "originalMm": 1.4589306709174288,
+      "currentMm": -4.116237106233782,
+      "deltaMm": -5.5751677771512105,
+      "originalInsertionMm": 3.5022723185580684,
+      "currentInsertionMm": 9.077440095709274
+    },
+    "T4": {
+      "originalMm": 1.2909270693328163,
+      "currentMm": -5.602877500839443,
+      "deltaMm": -6.893804570172259,
+      "originalInsertionMm": 3.825449302487976,
+      "currentInsertionMm": 10.719420808928877
+    },
+    "T5": {
+      "originalMm": 1.1656326843865192,
+      "currentMm": -4.885110272899402,
+      "deltaMm": -6.050742957285921,
+      "originalInsertionMm": 3.596384057853925,
+      "currentInsertionMm": 9.647127015139837
+    },
+    "T6": {
+      "originalMm": 1.3376135613689244,
+      "currentMm": -5.545071184394255,
+      "deltaMm": -6.882684745763179,
+      "originalInsertionMm": 3.7791490623522948,
+      "currentInsertionMm": 10.661864557083973
+    },
+    "T7": {
+      "originalMm": 1.1995165456317478,
+      "currentMm": -7.178755435147647,
+      "deltaMm": -8.378271980779395,
+      "originalInsertionMm": 3.6561958391513962,
+      "currentInsertionMm": 12.034467819930839
+    },
+    "T8": {
+      "originalMm": 1.2107719491881337,
+      "currentMm": -7.162060565889639,
+      "deltaMm": -8.372832515077771,
+      "originalInsertionMm": 3.645015455681562,
+      "currentInsertionMm": 12.017847970759362
+    }
+  },
+  "protrusionDeviationStats": {
+    "minMm": -8.378271980779395,
+    "maxMm": -5.5751677771512105,
+    "meanMm": -6.868608415072214,
+    "maxAbsMm": 8.378271980779395
+  },
+  "protrusionVerdict": "CURRENT PROTRUSION DEVIATES FROM THE ORIGINAL LAW",
+  "memory": [
+    {
+      "stage": "ORIGINAL shell",
+      "rssMb": 415.6,
+      "availMb": 17252.6
+    },
+    {
+      "stage": "ORIGINAL cap T1",
+      "rssMb": 433.5,
+      "availMb": 17213.7
+    },
+    {
+      "stage": "ORIGINAL cap T2",
+      "rssMb": 435.7,
+      "availMb": 17199.4
+    },
+    {
+      "stage": "ORIGINAL cap T3",
+      "rssMb": 436.8,
+      "availMb": 17192.6
+    },
+    {
+      "stage": "ORIGINAL cap T4",
+      "rssMb": 437.6,
+      "availMb": 17196.5
+    },
+    {
+      "stage": "ORIGINAL cap T5",
+      "rssMb": 437.6,
+      "availMb": 17195.1
+    },
+    {
+      "stage": "ORIGINAL cap T6",
+      "rssMb": 437.7,
+      "availMb": 17199.3
+    },
+    {
+      "stage": "ORIGINAL cap T7",
+      "rssMb": 438.0,
+      "availMb": 17202.8
+    },
+    {
+      "stage": "ORIGINAL cap T8",
+      "rssMb": 438.0,
+      "availMb": 17205.6
+    },
+    {
+      "stage": "original done",
+      "rssMb": 399.5,
+      "availMb": 17241.9
+    },
+    {
+      "stage": "CURRENT shell",
+      "rssMb": 424.4,
+      "availMb": 17229.7
+    },
+    {
+      "stage": "CURRENT FROZEN cap T1",
+      "rssMb": 442.4,
+      "availMb": 17219.9
+    },
+    {
+      "stage": "CURRENT FROZEN cap T2",
+      "rssMb": 444.2,
+      "availMb": 17207.4
+    },
+    {
+      "stage": "CURRENT FROZEN cap T3",
+      "rssMb": 444.3,
+      "availMb": 17209.0
+    },
+    {
+      "stage": "CURRENT FROZEN cap T4",
+      "rssMb": 445.0,
+      "availMb": 17209.3
+    },
+    {
+      "stage": "CURRENT FROZEN cap T5",
+      "rssMb": 445.0,
+      "availMb": 17196.0
+    },
+    {
+      "stage": "CURRENT FROZEN cap T6",
+      "rssMb": 445.0,
+      "availMb": 17195.4
+    },
+    {
+      "stage": "CURRENT FROZEN cap T7",
+      "rssMb": 446.3,
+      "availMb": 17194.7
+    },
+    {
+      "stage": "CURRENT FROZEN cap T8",
+      "rssMb": 446.4,
+      "availMb": 17195.7
+    }
+  ]
+}

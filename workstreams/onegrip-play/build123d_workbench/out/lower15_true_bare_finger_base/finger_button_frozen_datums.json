@@ -1,0 +1,129 @@
+{
+  "schema": "onegrip-finger-button-frozen-datums-v1",
+  "source": "build123d_workbench/out/finger_controls_v2/finger_controls_v2_source_manifest.json",
+  "geometryTransferred": false,
+  "buttonOrder": [
+    "I2",
+    "I3",
+    "I4",
+    "M3",
+    "M4",
+    "N1",
+    "N2",
+    "N3"
+  ],
+  "controls": {
+    "I2": {
+      "centerMm": [
+        -15.97116502911469,
+        -26.20981698837403,
+        8.99880711855274
+      ],
+      "pressAxis": [
+        -0.43398514194613513,
+        -0.7569241977430389,
+        -0.48859252495412786
+      ],
+      "owner": "JfD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    },
+    "I3": {
+      "centerMm": [
+        -5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "pressAxis": [
+        -0.08169076783987367,
+        -0.9520228437085347,
+        -0.2949222329815895
+      ],
+      "owner": "JfD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    },
+    "I4": {
+      "centerMm": [
+        5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "pressAxis": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "owner": "JaD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    },
+    "M3": {
+      "centerMm": [
+        -6.890920103853075,
+        -13.71668568786225,
+        -11.11806979342742
+      ],
+      "pressAxis": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "owner": "JfD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    },
+    "M4": {
+      "centerMm": [
+        7.379332315763718,
+        -13.575227245499876,
+        -11.115547003937289
+      ],
+      "pressAxis": [
+        0.2878365212266233,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "owner": "JaD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    },
+    "N1": {
+      "centerMm": [
+        -10.990443464183823,
+        -35.80002827761031,
+        25.0
+      ],
+      "pressAxis": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "owner": "JfD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    },
+    "N2": {
+      "centerMm": [
+        5.3077624785043596e-15,
+        -35.76511909258096,
+        25.0
+      ],
+      "pressAxis": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "owner": "JfD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    },
+    "N3": {
+      "centerMm": [
+        17.48689737236422,
+        -6.664472046607768,
+        -11.125
+      ],
+      "pressAxis": [
+        0.6921593412330116,
+        -0.560207029374328,
+        -0.4550643147770151
+      ],
+      "owner": "JaD",
+      "sourceReference": "Finger V2 approved/frozen ergonomic datum"
+    }
+  }
+}

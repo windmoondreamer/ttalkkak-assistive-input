@@ -1,0 +1,105 @@
+{
+  "printUpWorld": [
+    0.0001818537687494954,
+    0.5984933689760226,
+    0.8011277390160307
+  ],
+  "printOrigin": [
+    -0.2205216694149583,
+    -16.6809924599881,
+    49.15574585887973
+  ],
+  "bedHeightZ": -21.669481160789424,
+  "slabBottomZ": -11.447668322196892,
+  "seatPlaneZ": {
+    "T1": -8.846002211750289,
+    "T2": -6.022545342972539,
+    "T3": -8.847668322196892,
+    "T4": -6.712234930172257,
+    "T5": -7.957417522539747,
+    "T6": -6.725346667299472,
+    "T7": -4.262462067395067,
+    "T8": -4.26840026146526
+  },
+  "slabThicknessMm": [
+    2.6,
+    7.185206254801825
+  ],
+  "columnXY": 9.6,
+  "bridgeWidth": 5.6,
+  "reliefXY": 8.6,
+  "deckTopZ": -18.669481160789424,
+  "deckThicknessMm": 3.0,
+  "deckApertureMm": 12.0,
+  "deckRadiusMm": [
+    13.613351723521886,
+    24.806785119858866
+  ],
+  "verticalWalls": 5,
+  "wallThicknessMm": 2.6,
+  "slotsCut": 16,
+  "switchCapReliefMm3": 188.46224981385694,
+  "szhRaiseMm": 5.238983096144226,
+  "deckTopAboveSkinMm": -23.993,
+  "deckCavityRadiusMm": {
+    "min": 13.613351723521886,
+    "max": 24.806785119858866
+  },
+  "screwReliefMm3": {
+    "N1_N2_SHARED_CARRIER": 4.4145954152245395,
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 0.0,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "droppedFragmentsMm3": [],
+  "standoffs": 3,
+  "standoffsSkippedBelowBed": 72792,
+  "padXY": 5.0,
+  "padChamferMm": 1.2,
+  "volumeMm3": 7378.019590586305,
+  "faces": 333,
+  "solids": 1,
+  "valid": true,
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 406.2,
+      "availMb": 18375.6
+    },
+    {
+      "stage": "slab",
+      "rssMb": 408.1,
+      "availMb": 18364.5
+    },
+    {
+      "stage": "faced",
+      "rssMb": 408.4,
+      "availMb": 18370.3
+    },
+    {
+      "stage": "deck",
+      "rssMb": 413.7,
+      "availMb": 18355.5
+    },
+    {
+      "stage": "walls",
+      "rssMb": 415.8,
+      "availMb": 18356.2
+    },
+    {
+      "stage": "guard",
+      "rssMb": 584.8,
+      "availMb": 18186.6
+    },
+    {
+      "stage": "pads",
+      "rssMb": 653.6,
+      "availMb": 18119.0
+    },
+    {
+      "stage": "clearance",
+      "rssMb": 653.4,
+      "availMb": 18097.2
+    }
+  ]
+}

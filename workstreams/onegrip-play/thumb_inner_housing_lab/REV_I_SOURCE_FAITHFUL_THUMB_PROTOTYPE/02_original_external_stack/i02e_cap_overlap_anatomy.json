@@ -1,0 +1,159 @@
+{
+  "handFinishLimitMm": 0.6,
+  "buttons": {
+    "T1": {
+      "overlapVolumeMm3": 3.2828073506948225,
+      "pieces": 1,
+      "radialBiteMm": 2.6956416629737006,
+      "axialExtentMm": 2.0409951778681994,
+      "overlapTopBelowSkinMm": 1.1364387093024693,
+      "overlapBottomBelowSkinMm": 3.1774338871706687,
+      "radiusRangeMm": [
+        2.9251833682425405,
+        5.620825031216241
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T2": {
+      "overlapVolumeMm3": 0.8934870821947698,
+      "pieces": 1,
+      "radialBiteMm": 1.618144218683717,
+      "axialExtentMm": 3.517528533686378,
+      "overlapTopBelowSkinMm": 0.17898276012417114,
+      "overlapBottomBelowSkinMm": 3.6965112938105493,
+      "radiusRangeMm": [
+        3.76257210235658,
+        5.380716321040297
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T3": {
+      "overlapVolumeMm3": 7.305169073211635,
+      "pieces": 1,
+      "radialBiteMm": 3.0425327558834545,
+      "axialExtentMm": 2.0024474449402097,
+      "overlapTopBelowSkinMm": 1.1023389833116974,
+      "overlapBottomBelowSkinMm": 3.104786428251907,
+      "radiusRangeMm": [
+        2.579422581411611,
+        5.6219553372950655
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T4": {
+      "overlapVolumeMm3": 3.212604413634686,
+      "pieces": 1,
+      "radialBiteMm": 1.9043991949465915,
+      "axialExtentMm": 2.4463083653832456,
+      "overlapTopBelowSkinMm": 0.663798809929137,
+      "overlapBottomBelowSkinMm": 3.1101071753123826,
+      "radiusRangeMm": [
+        3.712939874987135,
+        5.617339069933727
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T5": {
+      "overlapVolumeMm3": 0.9227820999702794,
+      "pieces": 1,
+      "radialBiteMm": 1.627489753302099,
+      "axialExtentMm": 3.151151623467831,
+      "overlapTopBelowSkinMm": 0.44523243438873905,
+      "overlapBottomBelowSkinMm": 3.5963840578565702,
+      "radiusRangeMm": [
+        3.7491235675172336,
+        5.376613320819333
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T6": {
+      "overlapVolumeMm3": 9.465249466315042,
+      "pieces": 1,
+      "radialBiteMm": 2.3778485138694236,
+      "axialExtentMm": 2.4560980814141447,
+      "overlapTopBelowSkinMm": 0.6513201315642094,
+      "overlapBottomBelowSkinMm": 3.107418212978354,
+      "radiusRangeMm": [
+        3.22730867852012,
+        5.605157192389544
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T7": {
+      "overlapVolumeMm3": 2.7423676582366587,
+      "pieces": 1,
+      "radialBiteMm": 2.7799034515907626,
+      "axialExtentMm": 3.0401642426237006,
+      "overlapTopBelowSkinMm": 0.19066834487398943,
+      "overlapBottomBelowSkinMm": 3.23083258749769,
+      "radiusRangeMm": [
+        3.186862237656117,
+        5.96676568924688
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    },
+    "T8": {
+      "overlapVolumeMm3": 6.314419077763554,
+      "pieces": 1,
+      "radialBiteMm": 2.783642999275262,
+      "axialExtentMm": 3.2396548026517857,
+      "overlapTopBelowSkinMm": 0.19743040059664096,
+      "overlapBottomBelowSkinMm": 3.4370852032484267,
+      "radiusRangeMm": [
+        3.177714534589991,
+        5.961357533865253
+      ],
+      "classification": "CLASS A - MUST SOLVE IN CAD"
+    }
+  },
+  "totalOverlapMm3": 34.13888622202145,
+  "worstRadialBiteMm": 3.0425327558834545,
+  "verdict": "CAP-SIDE FIT IS CLASS A - MUST SOLVE IN CAD",
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 397.0,
+      "availMb": 19247.1
+    },
+    {
+      "stage": "overlap T1",
+      "rssMb": 417.8,
+      "availMb": 19220.4
+    },
+    {
+      "stage": "overlap T2",
+      "rssMb": 424.0,
+      "availMb": 19215.0
+    },
+    {
+      "stage": "overlap T3",
+      "rssMb": 424.4,
+      "availMb": 19175.1
+    },
+    {
+      "stage": "overlap T4",
+      "rssMb": 416.2,
+      "availMb": 19215.1
+    },
+    {
+      "stage": "overlap T5",
+      "rssMb": 424.4,
+      "availMb": 19140.7
+    },
+    {
+      "stage": "overlap T6",
+      "rssMb": 431.1,
+      "availMb": 19206.1
+    },
+    {
+      "stage": "overlap T7",
+      "rssMb": 428.9,
+      "availMb": 19206.4
+    },
+    {
+      "stage": "overlap T8",
+      "rssMb": 434.4,
+      "availMb": 19204.7
+    }
+  ]
+}

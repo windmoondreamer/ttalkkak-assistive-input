@@ -1,0 +1,368 @@
+{
+  "currentSkinOnAxisMm": 5.323518839210576,
+  "joyAxisWorld": [
+    0.0001818537687494954,
+    0.5984933689760226,
+    0.8011277390160307
+  ],
+  "knobCentreWorld": [
+    -0.2205216694149583,
+    -16.6809924599881,
+    49.15574585887973
+  ],
+  "currentJoyBoreHalfWidthMm": 6.555232458716103,
+  "originalJoyBoreHalfWidthMm": 7.098876796965906,
+  "inheritedKnobMaxRadiusMm": 7.00651334925839,
+  "inheritedKnobTopAboveSkinMm": -1.7320476892778083,
+  "inheritedKnobBaseAboveSkinMm": -12.732042643855507,
+  "originalKnobTopAboveSkinMm": 7.606939457694343,
+  "seatPlaneBelowSkinMm": 12.04230963794644,
+  "buttonPlatePlaneRangeMm": [
+    -14.171187161407467,
+    -9.585980906605641
+  ],
+  "szhParts": {
+    "SZH_pcb": {
+      "lowAboveSkinMm": -29.23204264385049,
+      "highAboveSkinMm": -27.63204264385043,
+      "maxRadiusMm": 23.14846196016642,
+      "class": "PROVISIONAL STATIC"
+    },
+    "SZH_gimbal": {
+      "lowAboveSkinMm": -27.632042643851694,
+      "highAboveSkinMm": -16.632042643851655,
+      "maxRadiusMm": 12.06456779012697,
+      "class": "PROVISIONAL STATIC"
+    },
+    "SZH_x_pot": {
+      "lowAboveSkinMm": -27.63204264384806,
+      "highAboveSkinMm": -19.132042643848024,
+      "maxRadiusMm": 14.849044436648771,
+      "class": "PROVISIONAL STATIC"
+    },
+    "SZH_y_pot": {
+      "lowAboveSkinMm": -27.632042643853943,
+      "highAboveSkinMm": -19.132042643853918,
+      "maxRadiusMm": 12.326800512227823,
+      "class": "PROVISIONAL STATIC"
+    },
+    "SZH_push_switch": {
+      "lowAboveSkinMm": -27.632042643854522,
+      "highAboveSkinMm": -22.632042643854493,
+      "maxRadiusMm": 15.636496839650977,
+      "class": "PROVISIONAL STATIC"
+    },
+    "SZH_shaft": {
+      "lowAboveSkinMm": -16.63204264385202,
+      "highAboveSkinMm": -2.6320426438519897,
+      "maxRadiusMm": 2.4064858794597126,
+      "class": "PROVISIONAL MOVING"
+    },
+    "SZH_cap": {
+      "lowAboveSkinMm": -10.63204264385049,
+      "highAboveSkinMm": 10.36493277729435,
+      "maxRadiusMm": 11.002497219670593,
+      "class": "REMOVABLE HARDWARE"
+    },
+    "SZH_header": {
+      "lowAboveSkinMm": -27.632042643856455,
+      "highAboveSkinMm": -24.63204264385543,
+      "maxRadiusMm": 24.800052009582267,
+      "class": "REMOVABLE HARDWARE"
+    },
+    "SZH_MOVING_ENVELOPE_25deg": {
+      "lowAboveSkinMm": -30.43204264385585,
+      "highAboveSkinMm": 10.36795735614768,
+      "maxRadiusMm": 28.04328368168707,
+      "class": "PROVISIONAL MOVING ENVELOPE"
+    }
+  },
+  "openingProfile": [
+    {
+      "aboveSkinMm": -14.0,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -13.75,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -13.5,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -13.25,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -13.0,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -12.75,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -12.5,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -12.25,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -12.0,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -11.75,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -11.5,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -11.25,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -11.0,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -10.75,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -10.5,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -10.25,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -10.0,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -9.75,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -9.5,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -9.25,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -9.0,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -8.75,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -8.5,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -8.25,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -8.0,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -7.750000000000001,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -7.500000000000001,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -7.250000000000001,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -7.000000000000001,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -6.750000000000001,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -6.500000000000001,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -6.250000000000001,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -6.000000000000001,
+      "halfWidthMm": 19.26044936172666
+    },
+    {
+      "aboveSkinMm": -5.750000000000001,
+      "halfWidthMm": 18.969055118156078
+    },
+    {
+      "aboveSkinMm": -5.500000000000001,
+      "halfWidthMm": 18.61443853984396
+    },
+    {
+      "aboveSkinMm": -5.250000000000001,
+      "halfWidthMm": 18.233985772802278
+    },
+    {
+      "aboveSkinMm": -5.000000000000001,
+      "halfWidthMm": 17.74680129069335
+    },
+    {
+      "aboveSkinMm": -4.750000000000001,
+      "halfWidthMm": 17.157976061761772
+    },
+    {
+      "aboveSkinMm": -4.500000000000001,
+      "halfWidthMm": 16.246166052785
+    },
+    {
+      "aboveSkinMm": -4.250000000000001,
+      "halfWidthMm": 14.22665775423694
+    },
+    {
+      "aboveSkinMm": -4.000000000000001,
+      "halfWidthMm": 11.268353022912219
+    },
+    {
+      "aboveSkinMm": -3.750000000000001,
+      "halfWidthMm": 8.380905155938255
+    },
+    {
+      "aboveSkinMm": -3.500000000000001,
+      "halfWidthMm": 8.140333406669203
+    },
+    {
+      "aboveSkinMm": -3.250000000000001,
+      "halfWidthMm": 7.5444679158405465
+    },
+    {
+      "aboveSkinMm": -3.000000000000001,
+      "halfWidthMm": 6.570390694008194
+    },
+    {
+      "aboveSkinMm": -2.750000000000001,
+      "halfWidthMm": 6.712510135179442
+    },
+    {
+      "aboveSkinMm": -2.500000000000001,
+      "halfWidthMm": 6.699013730351681
+    },
+    {
+      "aboveSkinMm": -2.250000000000001,
+      "halfWidthMm": 6.685517325523917
+    },
+    {
+      "aboveSkinMm": -2.000000000000001,
+      "halfWidthMm": 6.672020920696153
+    },
+    {
+      "aboveSkinMm": -1.7500000000000009,
+      "halfWidthMm": 6.570855551370424
+    },
+    {
+      "aboveSkinMm": -1.5000000000000009,
+      "halfWidthMm": 6.555232458716103
+    },
+    {
+      "aboveSkinMm": -1.2500000000000009,
+      "halfWidthMm": 6.539609366061783
+    },
+    {
+      "aboveSkinMm": -1.0000000000000009,
+      "halfWidthMm": 6.523986273407463
+    },
+    {
+      "aboveSkinMm": -0.7500000000000009,
+      "halfWidthMm": 6.508363180753146
+    },
+    {
+      "aboveSkinMm": -0.5000000000000009,
+      "halfWidthMm": 6.492740088098825
+    },
+    {
+      "aboveSkinMm": -0.2500000000000009,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": -8.881784197001252e-16,
+      "halfWidthMm": NaN
+    },
+    {
+      "aboveSkinMm": 0.2499999999999991,
+      "halfWidthMm": NaN
+    }
+  ],
+  "knobAdapterReachMm": 10.238982101546334,
+  "szhBaseVsSeatPlaneMm": -17.189733005904053,
+  "memory": [
+    {
+      "stage": "shell",
+      "rssMb": 401.6,
+      "availMb": 19290.4
+    },
+    {
+      "stage": "szh SZH_pcb",
+      "rssMb": 433.2,
+      "availMb": 19274.8
+    },
+    {
+      "stage": "szh SZH_gimbal",
+      "rssMb": 433.3,
+      "availMb": 19275.2
+    },
+    {
+      "stage": "szh SZH_x_pot",
+      "rssMb": 433.3,
+      "availMb": 19276.1
+    },
+    {
+      "stage": "szh SZH_y_pot",
+      "rssMb": 433.3,
+      "availMb": 19275.1
+    },
+    {
+      "stage": "szh SZH_push_switch",
+      "rssMb": 433.3,
+      "availMb": 19278.2
+    },
+    {
+      "stage": "szh SZH_shaft",
+      "rssMb": 433.3,
+      "availMb": 19277.1
+    },
+    {
+      "stage": "szh SZH_cap",
+      "rssMb": 433.3,
+      "availMb": 19278.5
+    },
+    {
+      "stage": "szh SZH_header",
+      "rssMb": 433.4,
+      "availMb": 19276.0
+    },
+    {
+      "stage": "szh SZH_MOVING_ENVELOPE_25deg",
+      "rssMb": 433.4,
+      "availMb": 19276.2
+    }
+  ]
+}

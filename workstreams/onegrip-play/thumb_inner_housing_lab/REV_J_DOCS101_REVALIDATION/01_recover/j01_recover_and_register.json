@@ -1,0 +1,307 @@
+{
+  "candidates": [
+    {
+      "name": "C07_SOURCE_FAITHFUL_THUMB_CORE_REFINED.step",
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_inner_housing_lab\\REV_I_SOURCE_FAITHFUL_THUMB_PROTOTYPE\\07_prototype\\C07_SOURCE_FAITHFUL_THUMB_CORE_REFINED.step",
+      "sha256": "45BB7E3076692CC162359FC36B9CD30B0CD1A3197E2A99F906CDDA1DAA17E024",
+      "mtime": 1787623073.7882192,
+      "bytes": 1982089
+    },
+    {
+      "name": "C06_SOURCE_FAITHFUL_THUMB_CORE.step",
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_inner_housing_lab\\REV_I_SOURCE_FAITHFUL_THUMB_PROTOTYPE\\07_prototype\\C06_SOURCE_FAITHFUL_THUMB_CORE.step",
+      "sha256": "83B7BF42BE5234CF61FC35CE1A9777AAF0ABD8F96C5E2A01C61B541112E47A5F",
+      "mtime": 1787598158.8856113,
+      "bytes": 3014467
+    }
+  ],
+  "latest": {
+    "name": "C07_SOURCE_FAITHFUL_THUMB_CORE_REFINED.step",
+    "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_inner_housing_lab\\REV_I_SOURCE_FAITHFUL_THUMB_PROTOTYPE\\07_prototype\\C07_SOURCE_FAITHFUL_THUMB_CORE_REFINED.step",
+    "sha256": "45BB7E3076692CC162359FC36B9CD30B0CD1A3197E2A99F906CDDA1DAA17E024",
+    "mtime": 1787623073.7882192,
+    "bytes": 1982089
+  },
+  "latestValidation": {
+    "pass": 27,
+    "fail": 0,
+    "volumeMm3": 7378.019590586305,
+    "faces": 333,
+    "solids": 1,
+    "valid": true
+  },
+  "provenance": {
+    "JAD_APPROVED": {
+      "sha256": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "matchesRevD": true
+    },
+    "JFD_APPROVED": {
+      "sha256": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340",
+      "matchesRevD": true
+    },
+    "LOWER15_TRUE_BARE_JaD": {
+      "sha256": "900747604044AC3510BF5E9962AC0C66799ECBBF0FF10492117B7EBF891FB8DA",
+      "matchesDocs101Authority": true
+    },
+    "LOWER15_TRUE_BARE_JfD": {
+      "sha256": "CD70562A68DE3C9C37D67405F58BE308DFAAF2F60EF3D0F759C7F5AC6F070F64",
+      "matchesDocs101Authority": true
+    }
+  },
+  "chainOk": true,
+  "docs101ThumbAfterCutPass": 9,
+  "controls": {
+    "JOY": {
+      "skinAuthorityMm": 4.802158194617883,
+      "skinDocs101Mm": 4.802158194620196,
+      "skinDeltaMm": 2.312816604899126e-12,
+      "axisIntervalsAuthority": [
+        [
+          -31.65620580140857,
+          -28.431574600855782
+        ]
+      ],
+      "axisIntervalsDocs101": [],
+      "axisIntervalsIdentical": false
+    },
+    "T1": {
+      "skinAuthorityMm": 6.471539420274488,
+      "skinDocs101Mm": 6.496274730307441,
+      "skinDeltaMm": 0.024735310032952817,
+      "axisIntervalsAuthority": [
+        [
+          -36.600214189991206,
+          -29.70693029802525
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -39.53142331036381,
+          -37.85689195215638
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    },
+    "T2": {
+      "skinAuthorityMm": 8.53376278237807,
+      "skinDocs101Mm": 8.533762782378256,
+      "skinDeltaMm": 1.865174681370263e-13,
+      "axisIntervalsAuthority": [
+        [
+          -38.56909098521511,
+          -35.518865866764365
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -38.59670086337526,
+          -35.525134929626454
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    },
+    "T3": {
+      "skinAuthorityMm": 6.385374957437142,
+      "skinDocs101Mm": 6.419564009946434,
+      "skinDeltaMm": 0.034189052509292495,
+      "axisIntervalsAuthority": [
+        [
+          -36.69970955434402,
+          -35.43312657399245
+        ],
+        [
+          -31.55368365971077,
+          -31.347330313206463
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -39.3950019829616,
+          -37.604997401211925
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    },
+    "T4": {
+      "skinAuthorityMm": 8.021361704303194,
+      "skinDocs101Mm": 8.021361704302873,
+      "skinDeltaMm": 3.2152058793144533e-13,
+      "axisIntervalsAuthority": [
+        [
+          -38.02943318059852,
+          -34.939471220730795
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -38.0196831034085,
+          -34.94895671692792
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    },
+    "T5": {
+      "skinAuthorityMm": 7.262287619330851,
+      "skinDocs101Mm": 7.285152746060564,
+      "skinDeltaMm": 0.022865126729712415,
+      "axisIntervalsAuthority": [
+        [
+          -37.8265934054349,
+          -37.40966998557026
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -40.50302487907043,
+          -37.401595755687964
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    },
+    "T6": {
+      "skinAuthorityMm": 7.960318313221052,
+      "skinDocs101Mm": 7.960318313220858,
+      "skinDeltaMm": 1.936228954946273e-13,
+      "axisIntervalsAuthority": [
+        [
+          -37.927908810562144,
+          -31.91770041631741
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -37.92790881056001,
+          -34.836647079759345
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    },
+    "T7": {
+      "skinAuthorityMm": 9.517530991310512,
+      "skinDocs101Mm": 9.516258345226879,
+      "skinDeltaMm": 0.0012726460836329778,
+      "axisIntervalsAuthority": [
+        [
+          -24.70814376296336,
+          -24.422346583089197
+        ],
+        [
+          -23.342936486491006,
+          -21.304542066708823
+        ],
+        [
+          -17.68503553762502,
+          -17.181745603671427
+        ],
+        [
+          -11.242141065339734,
+          -10.736867363545816
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -36.01774332409918,
+          -34.28428518830056
+        ],
+        [
+          -17.68503553762187,
+          -17.1817456036674
+        ],
+        [
+          -11.242141065334074,
+          -10.736867363540732
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    },
+    "T8": {
+      "skinAuthorityMm": 9.505287954674138,
+      "skinDocs101Mm": 9.5052879546739,
+      "skinDeltaMm": 2.3803181647963356e-13,
+      "axisIntervalsAuthority": [
+        [
+          -33.13817463275479,
+          -29.998216778343703
+        ],
+        [
+          -27.770353988694385,
+          -23.53718486465755
+        ],
+        [
+          -17.685623196246578,
+          -15.494751749984811
+        ],
+        [
+          -12.928509393024102,
+          -10.737153409590228
+        ]
+      ],
+      "axisIntervalsDocs101": [
+        [
+          -35.94070299834084,
+          -34.587001500197026
+        ],
+        [
+          -17.685623196242663,
+          -15.494751749982012
+        ],
+        [
+          -12.928509393017494,
+          -10.737153409585389
+        ]
+      ],
+      "axisIntervalsIdentical": false
+    }
+  },
+  "worstSkinDeltaMm": 0.034189052509292495,
+  "thumbRegionBboxDeltaMm": 8.259171124791465e-12,
+  "transformApplied": "IDENTITY",
+  "registrationConfidence": "MEDIUM",
+  "memory": [
+    {
+      "stage": "reg JOY",
+      "rssMb": 444.8,
+      "availMb": 17313.2
+    },
+    {
+      "stage": "reg T1",
+      "rssMb": 448.0,
+      "availMb": 17310.3
+    },
+    {
+      "stage": "reg T2",
+      "rssMb": 448.9,
+      "availMb": 17291.9
+    },
+    {
+      "stage": "reg T3",
+      "rssMb": 448.9,
+      "availMb": 17842.0
+    },
+    {
+      "stage": "reg T4",
+      "rssMb": 449.0,
+      "availMb": 17593.8
+    },
+    {
+      "stage": "reg T5",
+      "rssMb": 449.0,
+      "availMb": 17360.1
+    },
+    {
+      "stage": "reg T6",
+      "rssMb": 448.9,
+      "availMb": 16788.5
+    },
+    {
+      "stage": "reg T7",
+      "rssMb": 448.9,
+      "availMb": 16546.8
+    },
+    {
+      "stage": "reg T8",
+      "rssMb": 448.9,
+      "availMb": 16572.7
+    }
+  ]
+}

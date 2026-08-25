@@ -1,0 +1,212 @@
+{
+  "travelMm": 30.0,
+  "insertionMm": 12.0,
+  "owner": {
+    "I2": "JfD",
+    "I3": "JfD",
+    "I4": "JaD",
+    "M3": "JfD",
+    "M4": "JaD",
+    "N1": "JfD",
+    "N2": "BOTH",
+    "N3": "JaD"
+  },
+  "corePlacement": {
+    "+U": {
+      "JaD": {
+        "shellMm3": 17802.956026595548,
+        "switchesMm3": 0.0
+      },
+      "JfD": {
+        "shellMm3": 0.0,
+        "switchesMm3": 0.0
+      }
+    },
+    "-U": {
+      "JaD": {
+        "shellMm3": 0.0,
+        "switchesMm3": 0.0
+      },
+      "JfD": {
+        "shellMm3": 18538.63098551719,
+        "switchesMm3": 0.0
+      }
+    },
+    "+N (outward)": {
+      "JaD": {
+        "shellMm3": 7268.198732761677,
+        "switchesMm3": 0.0
+      },
+      "JfD": {
+        "shellMm3": 8569.098404460248,
+        "switchesMm3": 0.0
+      }
+    },
+    "-N (inward)": {
+      "JaD": {
+        "shellMm3": 8653.076423305025,
+        "switchesMm3": 687.6771222265415
+      },
+      "JfD": {
+        "shellMm3": 9295.994801525294,
+        "switchesMm3": 1118.527682709874
+      }
+    },
+    "+V": {
+      "JaD": {
+        "shellMm3": 12604.656434759378,
+        "switchesMm3": 0.0
+      },
+      "JfD": {
+        "shellMm3": 15660.882847080658,
+        "switchesMm3": 0.0
+      }
+    },
+    "-V": {
+      "JaD": {
+        "shellMm3": 10692.213094052802,
+        "switchesMm3": 0.0
+      },
+      "JfD": {
+        "shellMm3": 16843.728819218904,
+        "switchesMm3": 0.0
+      }
+    }
+  },
+  "clearPaths": [
+    [
+      "+U",
+      "JfD"
+    ],
+    [
+      "-U",
+      "JaD"
+    ]
+  ],
+  "fingerInsertion": {
+    "I2": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JfD"
+    },
+    "I3": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JfD"
+    },
+    "I4": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JaD"
+    },
+    "M3": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JfD"
+    },
+    "M4": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JaD"
+    },
+    "N1": {
+      "corridorObstructionMm3": 425.0015190272811,
+      "firstBlockAtMm": 1.0,
+      "owner": "JfD"
+    },
+    "N2": {
+      "corridorObstructionMm3": 44.45540603501568,
+      "firstBlockAtMm": 5.0,
+      "owner": "BOTH"
+    },
+    "N3": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JaD"
+    }
+  },
+  "blockedButtons": [
+    "N1",
+    "N2"
+  ],
+  "sequenceAValid": true,
+  "sequenceBValid": false,
+  "assembly": "PASS",
+  "memory": [
+    {
+      "stage": "load",
+      "rssMb": 446.6,
+      "availMb": 18125.8
+    },
+    {
+      "stage": "place +U",
+      "rssMb": 704.3,
+      "availMb": 17428.6
+    },
+    {
+      "stage": "place -U",
+      "rssMb": 572.4,
+      "availMb": 17873.8
+    },
+    {
+      "stage": "place +N (outward)",
+      "rssMb": 550.2,
+      "availMb": 17646.1
+    },
+    {
+      "stage": "place -N (inward)",
+      "rssMb": 563.3,
+      "availMb": 18023.9
+    },
+    {
+      "stage": "place +V",
+      "rssMb": 782.7,
+      "availMb": 17784.5
+    },
+    {
+      "stage": "place -V",
+      "rssMb": 752.1,
+      "availMb": 18021.9
+    },
+    {
+      "stage": "ins I2",
+      "rssMb": 752.3,
+      "availMb": 18021.7
+    },
+    {
+      "stage": "ins I3",
+      "rssMb": 752.3,
+      "availMb": 18022.6
+    },
+    {
+      "stage": "ins I4",
+      "rssMb": 752.3,
+      "availMb": 18021.0
+    },
+    {
+      "stage": "ins M3",
+      "rssMb": 752.3,
+      "availMb": 18023.2
+    },
+    {
+      "stage": "ins M4",
+      "rssMb": 752.4,
+      "availMb": 18017.0
+    },
+    {
+      "stage": "ins N1",
+      "rssMb": 753.3,
+      "availMb": 18011.8
+    },
+    {
+      "stage": "ins N2",
+      "rssMb": 753.6,
+      "availMb": 18024.6
+    },
+    {
+      "stage": "ins N3",
+      "rssMb": 753.6,
+      "availMb": 18024.9
+    }
+  ]
+}

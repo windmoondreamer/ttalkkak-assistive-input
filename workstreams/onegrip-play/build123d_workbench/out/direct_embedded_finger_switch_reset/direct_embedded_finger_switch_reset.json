@@ -1,0 +1,1063 @@
+{
+  "schema": "onegrip-direct-embedded-finger-switch-reset-v1",
+  "generatedAtUtc": "2026-08-25T07:43:47.775311+00:00",
+  "sources": {
+    "clean": {
+      "JaD": {
+        "path": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.step",
+        "sha256": "C67C82B6C85AAADC85AD05719CEB5BF9C1A0C9DA3190CDD2425CB665CB94A9F5"
+      },
+      "JfD": {
+        "path": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.step",
+        "sha256": "7204B7EDB59123C8203D81FA27C139C156A1B41D61CC97767D259C0169604450"
+      }
+    },
+    "intactExteriorFillAuthority": {
+      "JaD": {
+        "path": "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step",
+        "sha256": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86"
+      },
+      "JfD": {
+        "path": "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step",
+        "sha256": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+      }
+    },
+    "detailedPushBtn": "cad_dump/mesh_PushBtn.json",
+    "facetCount": 3530
+  },
+  "architecture": {
+    "harnessParts": 0,
+    "structuralLegs": 0,
+    "blindLegSlots": 0,
+    "pushers": 0,
+    "externalPrintedCaps": 0,
+    "remoteThumbWallSupport": 0,
+    "epoxyFixationAllowed": true,
+    "actuatorHoleDiameterMm": 3.65,
+    "bodySocketClearancePerSideMm": 0.2
+  },
+  "summary": {
+    "verdict": "C — DIRECT EMBEDDED ARCHITECTURE FAILS AT SPECIFIC POSITIONS",
+    "directEmbeddedSockets": 3,
+    "actuatorOnlyExposure": 3,
+    "buttonCenterChanges": 0,
+    "pressAxisChanges": 0,
+    "projectionRangeMm": [
+      0.0014472392837880932,
+      44.833512332223535
+    ]
+  },
+  "validation": {
+    "buttons": {
+      "I2": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "FAIL",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 11.072973699803757,
+        "switchTopToLocalExteriorMm": -8.632973699803758,
+        "minimumSurroundingShellRimMm": 1.1335050414026036,
+        "bodyVisibleOutside": true,
+        "terminalAccess": {
+          "T2": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": false,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "NONE",
+        "holeCutVolumeMm3": 30.056295759444765,
+        "cavityCutVolumeMm3": 164.3337720269701,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": true,
+        "failureReasons": [
+          "body top is 8.633 mm outside local shell",
+          "minimum surrounding rim 1.134 mm < 1.20 mm"
+        ],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JfD"
+      },
+      "I3": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "FAIL",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 10.530239389752282,
+        "switchTopToLocalExteriorMm": -8.090239389752282,
+        "minimumSurroundingShellRimMm": 0.9642855162947264,
+        "bodyVisibleOutside": true,
+        "terminalAccess": {
+          "T2": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": false,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "NONE",
+        "holeCutVolumeMm3": 34.044577301880054,
+        "cavityCutVolumeMm3": 162.62093687271408,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": true,
+        "failureReasons": [
+          "body top is 8.090 mm outside local shell",
+          "minimum surrounding rim 0.964 mm < 1.20 mm"
+        ],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JfD"
+      },
+      "I4": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "FAIL",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 44.833512332223535,
+        "switchTopToLocalExteriorMm": -42.39351233222354,
+        "minimumSurroundingShellRimMm": 1.377636903923129,
+        "bodyVisibleOutside": true,
+        "terminalAccess": {
+          "T2": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": false,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "NONE",
+        "holeCutVolumeMm3": 0.4582463144470239,
+        "cavityCutVolumeMm3": 105.1114850412996,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": false,
+        "failureReasons": [
+          "approved centerline has no local direct shell intersection; nearest-ring/opposite-wall depth proxy is 44.834 mm",
+          "body top is 42.394 mm outside the depth proxy"
+        ],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JaD"
+      },
+      "M3": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "FAIL",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 8.755033962642216,
+        "switchTopToLocalExteriorMm": -6.315033962642216,
+        "minimumSurroundingShellRimMm": 1.0395780588065087,
+        "bodyVisibleOutside": true,
+        "terminalAccess": {
+          "T2": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": false,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "NONE",
+        "holeCutVolumeMm3": 23.542166351762717,
+        "cavityCutVolumeMm3": 90.77161383884231,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": true,
+        "failureReasons": [
+          "body top is 6.315 mm outside local shell",
+          "minimum surrounding rim 1.040 mm < 1.20 mm"
+        ],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JfD"
+      },
+      "M4": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "FAIL",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 9.045728078068784,
+        "switchTopToLocalExteriorMm": -6.605728078068784,
+        "minimumSurroundingShellRimMm": 0.8399729599862553,
+        "bodyVisibleOutside": true,
+        "terminalAccess": {
+          "T2": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": false,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": false,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "NONE",
+        "holeCutVolumeMm3": 5.343667395442026,
+        "cavityCutVolumeMm3": 112.13078364647663,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": true,
+        "failureReasons": [
+          "body top is 6.606 mm outside local shell",
+          "minimum surrounding rim 0.840 mm < 1.20 mm"
+        ],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JaD"
+      },
+      "N1": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "PASS",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 0.06947843615188454,
+        "switchTopToLocalExteriorMm": 2.3705215638481154,
+        "minimumSurroundingShellRimMm": 3.000133651176803,
+        "bodyVisibleOutside": false,
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "NONE",
+        "holeCutVolumeMm3": 31.42019530935795,
+        "cavityCutVolumeMm3": 15.174702311793226,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": true,
+        "failureReasons": [],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JfD"
+      },
+      "N2": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "PASS",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 0.0063100869673178295,
+        "switchTopToLocalExteriorMm": 2.433689913032682,
+        "minimumSurroundingShellRimMm": 3.0002631588809123,
+        "bodyVisibleOutside": false,
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "SIMPLE SPLIT POCKET",
+        "holeCutVolumeMm3": 31.075411288271425,
+        "cavityCutVolumeMm3": 14.435622921824688,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": true,
+        "failureReasons": [],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JaD/JfD split"
+      },
+      "N3": {
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "socketFit": "PASS",
+        "actuatorHoleDiameterMm": 3.65,
+        "externalProjectionMm": 0.0014472392837880932,
+        "switchTopToLocalExteriorMm": 2.438552760716212,
+        "minimumSurroundingShellRimMm": 2.9999969356336926,
+        "bodyVisibleOutside": false,
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "shellPenetrationMm3": 0.0,
+            "channelWidthMm": 1.3,
+            "minimumChannelSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchShellPenetrationMm3": {
+          "JaD": 0.0,
+          "JfD": 0.0
+        },
+        "seamIssue": "NONE",
+        "holeCutVolumeMm3": 31.647391045269615,
+        "cavityCutVolumeMm3": 14.309658537109499,
+        "actuatorTipDatumErrorMm": 0.0,
+        "centerDepthDirectlyMeasured": true,
+        "failureReasons": [],
+        "epoxyAccess": "YES — rear-open mouth and 0.20 mm body-side clearance",
+        "clearanceProof": "constructive cutter containment + positive shell cut volume",
+        "owner": "JaD"
+      }
+    },
+    "pairChecks": [
+      {
+        "pair": "I2-I3",
+        "switchDistanceMm": 0.3088616709202796,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 0.0,
+        "socketDistanceBasis": "exact BRep",
+        "socketOverlapMm3": 4.115334404182351
+      },
+      {
+        "pair": "I2-I4",
+        "switchDistanceMm": 10.356631767315037,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 8.068083944060357,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I2-M3",
+        "switchDistanceMm": 10.902461344506577,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 8.096495994329942,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I2-M4",
+        "switchDistanceMm": 14.985734759380048,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 10.638679772000723,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I2-N1",
+        "switchDistanceMm": 7.349497240258334,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 5.171700247125887,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I2-N2",
+        "switchDistanceMm": 9.197638038350606,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 6.2359919792852265,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I2-N3",
+        "switchDistanceMm": 22.38778805189934,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 16.95916879733965,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I3-I4",
+        "switchDistanceMm": 2.5074579467196054,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 1.430921416877633,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I3-M3",
+        "switchDistanceMm": 11.351624351726423,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 8.156433698028891,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I3-M4",
+        "switchDistanceMm": 11.51874219033955,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 7.953727775309778,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I3-N1",
+        "switchDistanceMm": 9.552580730288785,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 7.834490883591899,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I3-N2",
+        "switchDistanceMm": 9.578243330761957,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 7.985947208874345,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I3-N3",
+        "switchDistanceMm": 18.21961865499106,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 13.523967619957176,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I4-M3",
+        "switchDistanceMm": 11.772163418329688,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 8.301005485533524,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I4-M4",
+        "switchDistanceMm": 11.285426951487471,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 7.99498172435342,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I4-N1",
+        "switchDistanceMm": 12.53697702697342,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 10.55225662627006,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I4-N2",
+        "switchDistanceMm": 9.644296315697964,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 8.059741637858904,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "I4-N3",
+        "switchDistanceMm": 15.52013352290066,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 11.83598372822763,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "M3-M4",
+        "switchDistanceMm": 2.973304999170134,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 0.26313434070274144,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "M3-N1",
+        "switchDistanceMm": 29.31704107555848,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 26.270961297077005,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "M3-N2",
+        "switchDistanceMm": 29.393529988795258,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 26.462439962843,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "M3-N3",
+        "switchDistanceMm": 10.060214143107547,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 6.478820713957834,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "M4-N1",
+        "switchDistanceMm": 30.29544809096276,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 26.744111175948316,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "M4-N2",
+        "switchDistanceMm": 29.258920273923366,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 26.243523260629743,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "M4-N3",
+        "switchDistanceMm": 0.49837030595563003,
+        "switchDistanceBasis": "exact BRep",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 0.0,
+        "socketDistanceBasis": "exact BRep",
+        "socketOverlapMm3": 5.797744245144731
+      },
+      {
+        "pair": "N1-N2",
+        "switchDistanceMm": 3.1801448884221175,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 2.166592790307459,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "N1-N3",
+        "switchDistanceMm": 36.06045523266962,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 31.816701258092873,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      },
+      {
+        "pair": "N2-N3",
+        "switchDistanceMm": 33.089283322271946,
+        "switchDistanceBasis": "conservative AABB lower bound",
+        "switchPenetrationMm3": 0.0,
+        "socketDistanceMm": 29.607496142556638,
+        "socketDistanceBasis": "conservative AABB lower bound",
+        "socketOverlapMm3": 0.0
+      }
+    ],
+    "tightestPair": {
+      "pair": "I2-I3",
+      "switchDistanceMm": 0.3088616709202796,
+      "switchDistanceBasis": "conservative AABB lower bound",
+      "switchPenetrationMm3": 0.0,
+      "socketDistanceMm": 0.0,
+      "socketDistanceBasis": "exact BRep",
+      "socketOverlapMm3": 4.115334404182351
+    },
+    "allSwitchPairsClear": true,
+    "allSocketPairsClear": false,
+    "shellCut": {
+      "cutVolumeByButtonAndHalfMm3": {
+        "JaD": {
+          "I2": 0.0,
+          "I3": 0.0,
+          "I4": 105.56973135574663,
+          "M3": 0.0,
+          "M4": 117.47445104191866,
+          "N1": 0.0,
+          "N2": 26.034868420276325,
+          "N3": 45.95704958237911
+        },
+        "JfD": {
+          "I2": 194.39006778641487,
+          "I3": 196.66551417459414,
+          "I4": 0.0,
+          "M3": 114.31378019060503,
+          "M4": 0.0,
+          "N1": 46.594897621151176,
+          "N2": 19.476165789819788,
+          "N3": 0.0
+        }
+      },
+      "holeCutVolumeByButtonAndHalfMm3": {
+        "JaD": {
+          "I2": 0.0,
+          "I3": 0.0,
+          "I4": 0.4582463144470239,
+          "M3": 0.0,
+          "M4": 5.343667395442026,
+          "N1": 0.0,
+          "N2": 15.7635605266114,
+          "N3": 31.647391045269615
+        },
+        "JfD": {
+          "I2": 30.056295759444765,
+          "I3": 34.044577301880054,
+          "I4": 0.0,
+          "M3": 23.542166351762717,
+          "M4": 0.0,
+          "N1": 31.42019530935795,
+          "N2": 15.311850761660025,
+          "N3": 0.0
+        }
+      },
+      "cavityCutVolumeByButtonAndHalfMm3": {
+        "JaD": {
+          "I2": 0.0,
+          "I3": 0.0,
+          "I4": 105.1114850412996,
+          "M3": 0.0,
+          "M4": 112.13078364647663,
+          "N1": 0.0,
+          "N2": 10.271307893664925,
+          "N3": 14.309658537109499
+        },
+        "JfD": {
+          "I2": 164.3337720269701,
+          "I3": 162.62093687271408,
+          "I4": 0.0,
+          "M3": 90.77161383884231,
+          "M4": 0.0,
+          "N1": 15.174702311793226,
+          "N2": 4.164315028159763,
+          "N3": 0.0
+        }
+      },
+      "discardedCutSlugsMm3": {
+        "JaD": [],
+        "JfD": [
+          0.005223511747925024,
+          0.000511967471316757,
+          5.079250977222807e-07
+        ]
+      }
+    }
+  },
+  "manufacturing": {
+    "native": {
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 1659,
+        "edgeCount": 4935,
+        "vertexCount": 3290,
+        "volumeMm3": 47377.914328233506,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -1.500503644940855e-05,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            38.77976975434524,
+            62.42831449597656,
+            78.25678350406848
+          ],
+          "size": [
+            38.77978475938169,
+            123.86025862084131,
+            152.13529205266929
+          ]
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2296,
+        "edgeCount": 6926,
+        "vertexCount": 4618,
+        "volumeMm3": 49579.051909164365,
+        "zeroAreaFaceCount": 1,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -38.77976975434524,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            5.5393962316183e-05,
+            62.42831449419312,
+            78.2567835040506
+          ],
+          "size": [
+            38.77982514830755,
+            123.86025861905787,
+            152.13529205265138
+          ]
+        }
+      }
+    },
+    "reimport": {
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 1659,
+        "edgeCount": 4935,
+        "vertexCount": 3290,
+        "volumeMm3": 47377.91045988877,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -0.00011936158682595833,
+            -61.43194412485939,
+            -73.8785085486
+          ],
+          "max": [
+            38.77976975434534,
+            62.428314495976885,
+            78.25678350406861
+          ],
+          "size": [
+            38.779889115932164,
+            123.86025862083628,
+            152.1352920526686
+          ]
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2296,
+        "edgeCount": 6926,
+        "vertexCount": 4618,
+        "volumeMm3": 49579.049916225784,
+        "zeroAreaFaceCount": 1,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -38.77976975433841,
+            -61.4319441248594,
+            -73.8785085486
+          ],
+          "max": [
+            1.5624439304193115e-05,
+            62.42831449420142,
+            78.2567835040506
+          ],
+          "size": [
+            38.77978537877772,
+            123.86025861906083,
+            152.13529205265058
+          ]
+        }
+      }
+    },
+    "stl": {
+      "JaD": {
+        "path": "build123d_workbench/out/direct_embedded_finger_switch_reset/DIRECT_EMBEDDED_SWITCH_JaD_AUDIT.stl",
+        "bytes": 1441884,
+        "unit": "millimeter",
+        "triangleCount": 28836,
+        "uniqueVertexCount": 14382,
+        "boundaryEdgeCount": 0,
+        "nonManifoldEdgeCount": 0,
+        "connectedComponentCount": 1,
+        "watertight": true,
+        "boundingBoxMm": {
+          "min": [
+            -8.828827019512556e-14,
+            -61.429954528808594,
+            -73.87850952148438
+          ],
+          "max": [
+            38.77210998535156,
+            62.427490234375,
+            78.2553939819336
+          ],
+          "size": [
+            38.77210998535165,
+            123.8574447631836,
+            152.13390350341797
+          ]
+        }
+      },
+      "JfD": {
+        "path": "build123d_workbench/out/direct_embedded_finger_switch_reset/DIRECT_EMBEDDED_SWITCH_JfD_AUDIT.stl",
+        "bytes": 1584784,
+        "unit": "millimeter",
+        "triangleCount": 31694,
+        "uniqueVertexCount": 15763,
+        "boundaryEdgeCount": 0,
+        "nonManifoldEdgeCount": 0,
+        "connectedComponentCount": 1,
+        "watertight": true,
+        "boundingBoxMm": {
+          "min": [
+            -38.777408599853516,
+            -61.431854248046875,
+            -73.87850952148438
+          ],
+          "max": [
+            2.1425528994208076e-13,
+            62.427490234375,
+            78.25624084472656
+          ],
+          "size": [
+            38.77740859985373,
+            123.85934448242188,
+            152.13475036621094
+          ]
+        }
+      }
+    },
+    "pass": true
+  },
+  "preservation": {
+    "protectedFileCount": 23,
+    "before": {
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.step": "C67C82B6C85AAADC85AD05719CEB5BF9C1A0C9DA3190CDD2425CB665CB94A9F5",
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.step": "7204B7EDB59123C8203D81FA27C139C156A1B41D61CC97767D259C0169604450",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "A42634C3A617F900F51650D7820CAD177DE623EA568F5F9948DC96BFC8DE54C3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069E535B5F5CAC9C5D8696FE23719959A95B3DAEFB064086DAB899993CDB1A64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "AF0EA969CC11C62D9CE1CDA4EE6C117372F83BAA0207E2742544CFE08D2E2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568A6DFEE254585B8CDFD83D86141C1554CDCE3274ED0148F22DE576FB0",
+      "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md": "97EB813D7F69573B983A0339D83793B9A365CA5A0742B5B1D5BC9FA4898E0897",
+      "docs/84_i2_detailed_pushbtn_manufacturing_robust_audit.md": "2A7BFC9573066072641B59FE22607C86183982A99D6DCCCC8229F60737B0D501",
+      "docs/85_i2_assembly_sequence_only_audit.md": "2F56970AB0A3DA56B2C58B2827FE8617FEDCFE1DE3B3C237DC336E61D5AC5F9D",
+      "docs/86_i2_manufacturing_harness_rebase_audit.md": "CA0D56D081DB76A05A7B93DB2CAD47661FE40C47F842E6E21CE86A90D3D4FFA6",
+      "docs/87_i2_user_intended_rear_harness_assembly_sanity_check.md": "017C910CAAB36017C7148805AC9241A3494276C2CC23B85C21D1E1E470DEDBF4",
+      "docs/88_i2_local_manufacturing_clearance_hardening_audit.md": "FB84748FD52127BF378E35B85E6372A40F64D9853FD3E0BE9C6796AA2CEB7CDB",
+      "docs/89_i2_final_local_clearance_balancing_audit.md": "20428B63BCE5D31FCD9D107EE6E22E65B3D6789A44F114E479622C09DAF3FF9E",
+      "docs/90_eight_button_four_edge_batch_propagation_screening.md": "2878CE20DA38C4F78A90035FEA85BD8E9069B5FBCB3E0F6FD56BD86EE8F623DB",
+      "docs/91_seven_unresolved_leg_root_shell_target_rescue_audit.md": "06D254D43F5545926CC476DF20BD84DD362EFC76EB8D30A558D083FB3DD799AD",
+      "docs/92_six_failed_leg_shell_landing_failure_mode_diagnostic_audit.md": "03A143E8CBD1A0060C5CD01F2F734259A397B005CC83341B60AFC1CB114D0793",
+      "docs/93_i3_i4_local_hybrid_support_validation.md": "2D49B8AF4CD03691722ECBBC44A5B6B960B68FF7A1E1986E10E27576C458BD02",
+      "docs/94_i3_n2_combined_diagnostic_audit.md": "9C0224A19618C732A2203BAAAE707C2F95B0448658A0CD2618A1D5A8F4C35B14",
+      "docs/95_i3_n2_bounded_manufacturing_candidate_validation.md": "4D254FC2F3494F88181ABBDC4D15985AEDD839A8689C646A6CA01F0B69E0113C",
+      "docs/96_print_ready_frozen_exterior_recovery_export.md": "9F1A9B2B917F02C31146D0B6731E81BC79E5B9F3F3755D9430EC79F9376926DF",
+      "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+    },
+    "after": {
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.step": "C67C82B6C85AAADC85AD05719CEB5BF9C1A0C9DA3190CDD2425CB665CB94A9F5",
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.step": "7204B7EDB59123C8203D81FA27C139C156A1B41D61CC97767D259C0169604450",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "A42634C3A617F900F51650D7820CAD177DE623EA568F5F9948DC96BFC8DE54C3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069E535B5F5CAC9C5D8696FE23719959A95B3DAEFB064086DAB899993CDB1A64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "AF0EA969CC11C62D9CE1CDA4EE6C117372F83BAA0207E2742544CFE08D2E2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568A6DFEE254585B8CDFD83D86141C1554CDCE3274ED0148F22DE576FB0",
+      "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md": "97EB813D7F69573B983A0339D83793B9A365CA5A0742B5B1D5BC9FA4898E0897",
+      "docs/84_i2_detailed_pushbtn_manufacturing_robust_audit.md": "2A7BFC9573066072641B59FE22607C86183982A99D6DCCCC8229F60737B0D501",
+      "docs/85_i2_assembly_sequence_only_audit.md": "2F56970AB0A3DA56B2C58B2827FE8617FEDCFE1DE3B3C237DC336E61D5AC5F9D",
+      "docs/86_i2_manufacturing_harness_rebase_audit.md": "CA0D56D081DB76A05A7B93DB2CAD47661FE40C47F842E6E21CE86A90D3D4FFA6",
+      "docs/87_i2_user_intended_rear_harness_assembly_sanity_check.md": "017C910CAAB36017C7148805AC9241A3494276C2CC23B85C21D1E1E470DEDBF4",
+      "docs/88_i2_local_manufacturing_clearance_hardening_audit.md": "FB84748FD52127BF378E35B85E6372A40F64D9853FD3E0BE9C6796AA2CEB7CDB",
+      "docs/89_i2_final_local_clearance_balancing_audit.md": "20428B63BCE5D31FCD9D107EE6E22E65B3D6789A44F114E479622C09DAF3FF9E",
+      "docs/90_eight_button_four_edge_batch_propagation_screening.md": "2878CE20DA38C4F78A90035FEA85BD8E9069B5FBCB3E0F6FD56BD86EE8F623DB",
+      "docs/91_seven_unresolved_leg_root_shell_target_rescue_audit.md": "06D254D43F5545926CC476DF20BD84DD362EFC76EB8D30A558D083FB3DD799AD",
+      "docs/92_six_failed_leg_shell_landing_failure_mode_diagnostic_audit.md": "03A143E8CBD1A0060C5CD01F2F734259A397B005CC83341B60AFC1CB114D0793",
+      "docs/93_i3_i4_local_hybrid_support_validation.md": "2D49B8AF4CD03691722ECBBC44A5B6B960B68FF7A1E1986E10E27576C458BD02",
+      "docs/94_i3_n2_combined_diagnostic_audit.md": "9C0224A19618C732A2203BAAAE707C2F95B0448658A0CD2618A1D5A8F4C35B14",
+      "docs/95_i3_n2_bounded_manufacturing_candidate_validation.md": "4D254FC2F3494F88181ABBDC4D15985AEDD839A8689C646A6CA01F0B69E0113C",
+      "docs/96_print_ready_frozen_exterior_recovery_export.md": "9F1A9B2B917F02C31146D0B6731E81BC79E5B9F3F3755D9430EC79F9376926DF",
+      "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+    },
+    "unchanged": true
+  },
+  "outputs": {
+    "JaDStep": "build123d_workbench/out/direct_embedded_finger_switch_reset/DIRECT_EMBEDDED_SWITCH_JaD_AUDIT.step",
+    "JfDStep": "build123d_workbench/out/direct_embedded_finger_switch_reset/DIRECT_EMBEDDED_SWITCH_JfD_AUDIT.step",
+    "referenceStep": "build123d_workbench/out/direct_embedded_finger_switch_reset/ALL8_DIRECT_EMBEDDED_SWITCH_REFERENCE.step",
+    "JaDStl": "build123d_workbench/out/direct_embedded_finger_switch_reset/DIRECT_EMBEDDED_SWITCH_JaD_AUDIT.stl",
+    "JfDStl": "build123d_workbench/out/direct_embedded_finger_switch_reset/DIRECT_EMBEDDED_SWITCH_JfD_AUDIT.stl",
+    "json": "build123d_workbench/out/direct_embedded_finger_switch_reset/direct_embedded_finger_switch_reset.json",
+    "report": "docs/97_direct_embedded_finger_switch_reset.md",
+    "renders": [
+      "renders/direct_embedded_finger_switch_reset/01_clean_pre_harness_source.png",
+      "renders/direct_embedded_finger_switch_reset/02_all8_exterior_actuator_only.png",
+      "renders/direct_embedded_finger_switch_reset/03_all8_interior_switch_overview.png",
+      "renders/direct_embedded_finger_switch_reset/04_detailed_pushbtn_measured_actuator.png",
+      "renders/direct_embedded_finger_switch_reset/05_representative_embedded_socket.png",
+      "renders/direct_embedded_finger_switch_reset/06_four_corner_feature_cavity.png",
+      "renders/direct_embedded_finger_switch_reset/07_tightest_neighboring_switch_pair.png",
+      "renders/direct_embedded_finger_switch_reset/08_n2_vertical_seam_socket.png",
+      "renders/direct_embedded_finger_switch_reset/09_terminal_access_interior.png",
+      "renders/direct_embedded_finger_switch_reset/10_assembled_jad_jfd_overview.png"
+    ],
+    "productionOverwriteCount": 0
+  }
+}

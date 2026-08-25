@@ -1,0 +1,1363 @@
+{
+  "revisions": {
+    "REV_A": {
+      "fileCount": 80,
+      "geometry": [
+        {
+          "path": "02_reference_copies/COMBINED_CLEAN_THUMB_CROP.step",
+          "bytes": 2295645,
+          "sha256": "443CB9296D2D93F4FEB324A14567589BE4ACCC2D162AE6FAD981E441C6F9D79F"
+        },
+        {
+          "path": "02_reference_copies/COMBINED_FINGER_V2_THUMB_CROP.step",
+          "bytes": 2948513,
+          "sha256": "8B7D0A2A05F1FC63AD9064BB5E037B94DEB9E89520148808D179BD3328BE9B2C"
+        },
+        {
+          "path": "02_reference_copies/COMBINED_FROZEN_THUMB_CROP.step",
+          "bytes": 7866428,
+          "sha256": "6C1D9D752A86DC3899E41D87F56113AC218C92A231D419128816413196E7BD30"
+        },
+        {
+          "path": "02_reference_copies/FROZEN_THUMB_INNER_SURFACE_PATCH.step",
+          "bytes": 2762301,
+          "sha256": "BC0C7CA5E1CE18745440626571209B2D5425610781595B18317CFC53254E3BCB"
+        },
+        {
+          "path": "02_reference_copies/FROZEN_THUMB_LOCAL_CROP_SOLID.step",
+          "bytes": 7866428,
+          "sha256": "71F4FDA3858CE36F2A0DE2F187251A3F0E86D0BED8F11D8E576E590C7952D2EE"
+        },
+        {
+          "path": "02_reference_copies/JAD_CLEAN_THUMB_CROP.step",
+          "bytes": 1244248,
+          "sha256": "DDF5EE594F72CBE87AD3D9A646DB49DC7370427C21FB16565E193C281AECC1E4"
+        },
+        {
+          "path": "02_reference_copies/JAD_FROZEN_THUMB_CROP.step",
+          "bytes": 3555621,
+          "sha256": "80D92F9E574871BF8C411B52D4716F2C0DB689349D73F6384597914C476DBBBE"
+        },
+        {
+          "path": "02_reference_copies/JAD_FV2_THUMB_CROP.step",
+          "bytes": 1532129,
+          "sha256": "38ADD5EF2FE48C30E6E4D4A1A0242DA3A4CBAA92E6BAFF16650D91C9696EDF83"
+        },
+        {
+          "path": "02_reference_copies/JFD_CLEAN_THUMB_CROP.step",
+          "bytes": 1207522,
+          "sha256": "C88944D86F96A63D42E55B8446875E9C81CCD02329E72C5FF572616F4A0383BD"
+        },
+        {
+          "path": "02_reference_copies/JFD_FROZEN_THUMB_CROP.step",
+          "bytes": 3852214,
+          "sha256": "59C36E8E25D7B663A9C2548030BEABFEF1845E962FEBA0D262EC372E25128B8F"
+        },
+        {
+          "path": "02_reference_copies/JFD_FV2_THUMB_CROP.step",
+          "bytes": 1653354,
+          "sha256": "9F0658611518762A6BE20CDE9BC351FDF993E106F33F737A133220374D2B559F"
+        },
+        {
+          "path": "02_reference_copies/LOWERED_ORIGINAL_THUMB_BACKPLATE.step",
+          "bytes": 882534,
+          "sha256": "E7FE12E49BD563448C268AF149AE1977A28862222F2E4381D0F49279232F0C52"
+        },
+        {
+          "path": "02_reference_copies/ORIGINAL_THUMB_BACKPLATE.step",
+          "bytes": 882535,
+          "sha256": "39C6647D68CCFB5D9EBE0FB93B1F6641CCFE737A6E4614A580F585EDFB4630FF"
+        },
+        {
+          "path": "02_reference_copies/THUMB_LOCAL_CROP_BOX.step",
+          "bytes": 17060,
+          "sha256": "E500ECF64F9AAF86BB6739755E6A97579500CA0C708106A672133B5AE4A1F024"
+        },
+        {
+          "path": "06_keepouts/THUMB_KEEPOUT_ASSEMBLY.step",
+          "bytes": 1455933,
+          "sha256": "88F370D332EBE72BBE995313AE146782066D5086F9D4D6262F0A6D37144A547D"
+        },
+        {
+          "path": "07_candidates/C01_stage1_cleared_gap.step",
+          "bytes": 26020816,
+          "sha256": "C4AE8BAF09E7EC9836F9B6BF040600D720F877A38452AA8D12F3E4E6C371ACAF"
+        },
+        {
+          "path": "07_candidates/C01_stage3_conformal_plate.step",
+          "bytes": 14285557,
+          "sha256": "F966FBB0A9850C66D50050C6DC6DE12FDBAD4EE8BC9100109D856A6D77A8F950"
+        },
+        {
+          "path": "09_exports/C01_SOURCE_FAITHFUL_REBASE.step",
+          "bytes": 22400960,
+          "sha256": "396D70C7F6B275B516C4616CBC47FC8347395A562D2313BBC27E7B25FED62E25"
+        },
+        {
+          "path": "09_exports/C01_SOURCE_FAITHFUL_REBASE.stl",
+          "bytes": 252884,
+          "sha256": "89E5D841E6A2D30533268DD80686191C06E6A277CF72E065CF1F1ACF4CFDEC48"
+        }
+      ],
+      "data": [
+        {
+          "path": "00_admin/a16_source_check.json",
+          "bytes": 3900
+        },
+        {
+          "path": "00_admin/SOURCE_BASELINE.json",
+          "bytes": 49412
+        },
+        {
+          "path": "01_source_map/a01_shell_identity.json",
+          "bytes": 7199
+        },
+        {
+          "path": "01_source_map/a03_shell_authority.json",
+          "bytes": 14336
+        },
+        {
+          "path": "01_source_map/a04_datum_probe.json",
+          "bytes": 4389
+        },
+        {
+          "path": "03_original_thumb_analysis/a07_original_gap.npz",
+          "bytes": 300604
+        },
+        {
+          "path": "03_original_thumb_analysis/a11_backplate_anatomy.npz",
+          "bytes": 232596
+        },
+        {
+          "path": "03_original_thumb_analysis/a11_original_backplate_anatomy.json",
+          "bytes": 1602
+        },
+        {
+          "path": "04_current_thumb_analysis/a02_occupancy.npz",
+          "bytes": 43916
+        },
+        {
+          "path": "04_current_thumb_analysis/a02_thumb_region_diff.json",
+          "bytes": 8352
+        },
+        {
+          "path": "04_current_thumb_analysis/a05_thumb_wall_map.json",
+          "bytes": 12322
+        },
+        {
+          "path": "04_current_thumb_analysis/a06_combined_wall_map.json",
+          "bytes": 16970
+        },
+        {
+          "path": "04_current_thumb_analysis/a07_conformity_map.json",
+          "bytes": 2079
+        },
+        {
+          "path": "04_current_thumb_analysis/a07_current_gap.npz",
+          "bytes": 333008
+        },
+        {
+          "path": "05_sections/a08_opening_map.json",
+          "bytes": 4998
+        },
+        {
+          "path": "05_sections/a08_opening_map.npz",
+          "bytes": 1143315
+        },
+        {
+          "path": "05_sections/a09_cap_axis_exposure.json",
+          "bytes": 6873
+        },
+        {
+          "path": "05_sections/a10_inner_surface_patch.json",
+          "bytes": 22530
+        },
+        {
+          "path": "06_keepouts/a12_keepouts.json",
+          "bytes": 12831
+        },
+        {
+          "path": "07_candidates/c01_build.json",
+          "bytes": 2008
+        },
+        {
+          "path": "07_candidates/c01_conformal_check.npz",
+          "bytes": 83188
+        },
+        {
+          "path": "07_candidates/c01_evaluation.json",
+          "bytes": 3661
+        },
+        {
+          "path": "07_candidates/c01_final_check.npz",
+          "bytes": 73861
+        }
+      ],
+      "reports": [
+        {
+          "path": "00_admin/SOURCE_BASELINE.md",
+          "bytes": 4075
+        },
+        {
+          "path": "01_source_map/SOURCE_MAP.md",
+          "bytes": 5711
+        },
+        {
+          "path": "03_original_thumb_analysis/ORIGINAL_THUMB_ANALYSIS.md",
+          "bytes": 3579
+        },
+        {
+          "path": "04_current_thumb_analysis/CURRENT_THUMB_ANALYSIS.md",
+          "bytes": 5713
+        },
+        {
+          "path": "06_keepouts/KEEPOUT_DEFINITION.md",
+          "bytes": 4616
+        },
+        {
+          "path": "11_reports/CANDIDATE_C01_REPORT.md",
+          "bytes": 5481
+        },
+        {
+          "path": "11_reports/CONFORMITY_FAILURE_ANALYSIS.md",
+          "bytes": 6703
+        },
+        {
+          "path": "11_reports/FINAL_AUDIT_SUMMARY.md",
+          "bytes": 7455
+        }
+      ],
+      "scripts": [
+        {
+          "path": "10_scripts/a01_shell_identity.py",
+          "bytes": 2898
+        },
+        {
+          "path": "10_scripts/a02_thumb_region_diff.py",
+          "bytes": 5259
+        },
+        {
+          "path": "10_scripts/a03_shell_authority.py",
+          "bytes": 3596
+        },
+        {
+          "path": "10_scripts/a04_datum_probe.py",
+          "bytes": 4488
+        },
+        {
+          "path": "10_scripts/a05_thumb_wall_map.py",
+          "bytes": 2857
+        },
+        {
+          "path": "10_scripts/a06_combined_wall_map.py",
+          "bytes": 4558
+        },
+        {
+          "path": "10_scripts/a07_conformity_map.py",
+          "bytes": 8998
+        },
+        {
+          "path": "10_scripts/a08_opening_map.py",
+          "bytes": 4794
+        },
+        {
+          "path": "10_scripts/a09_cap_axis_exposure.py",
+          "bytes": 6206
+        },
+        {
+          "path": "10_scripts/a10_inner_surface_patch.py",
+          "bytes": 6251
+        },
+        {
+          "path": "10_scripts/a11_original_backplate_anatomy.py",
+          "bytes": 5497
+        },
+        {
+          "path": "10_scripts/a12_keepouts.py",
+          "bytes": 6039
+        },
+        {
+          "path": "10_scripts/a13_c01_build.py",
+          "bytes": 9913
+        },
+        {
+          "path": "10_scripts/a14_c01_finalise.py",
+          "bytes": 9461
+        },
+        {
+          "path": "10_scripts/a15_renders.py",
+          "bytes": 8989
+        },
+        {
+          "path": "10_scripts/a16_source_check.py",
+          "bytes": 2670
+        },
+        {
+          "path": "10_scripts/a17_clean_exports.py",
+          "bytes": 3176
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 4344
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 13692
+        },
+        {
+          "path": "10_scripts/make_baseline.py",
+          "bytes": 2755
+        }
+      ],
+      "renders": [
+        {
+          "path": "08_renders/01_ORIGINAL_section.png",
+          "bytes": 158709
+        },
+        {
+          "path": "08_renders/02_CURRENT_section.png",
+          "bytes": 202336
+        },
+        {
+          "path": "08_renders/03_CANDIDATE_C01_section.png",
+          "bytes": 214375
+        },
+        {
+          "path": "08_renders/04_ORIGINAL_button_row.png",
+          "bytes": 100629
+        },
+        {
+          "path": "08_renders/05_CURRENT_button_row.png",
+          "bytes": 110749
+        },
+        {
+          "path": "08_renders/06_CANDIDATE_C01_button_row.png",
+          "bytes": 108098
+        },
+        {
+          "path": "08_renders/07_C01_with_keepouts_section.png",
+          "bytes": 283794
+        },
+        {
+          "path": "08_renders/08_C01_transparent_shell_iso.png",
+          "bytes": 419280
+        },
+        {
+          "path": "08_renders/09_frozen_exterior_sealed_buttons.png",
+          "bytes": 110696
+        },
+        {
+          "path": "08_renders/10_original_exterior_reference.png",
+          "bytes": 100331
+        }
+      ]
+    },
+    "REV_B": {
+      "fileCount": 39,
+      "geometry": [],
+      "data": [
+        {
+          "path": "00_admin/b11_source_check.json",
+          "bytes": 4348
+        },
+        {
+          "path": "01_axis_authority/b01_true_axes.json",
+          "bytes": 5207
+        },
+        {
+          "path": "01_axis_authority/b02_cap_anatomy.json",
+          "bytes": 16256
+        },
+        {
+          "path": "01_axis_authority/b03_axis_authority.json",
+          "bytes": 37023
+        },
+        {
+          "path": "01_axis_authority/b03_wallmap_CLEAN.npz",
+          "bytes": 204114
+        },
+        {
+          "path": "01_axis_authority/b03_wallmap_FINGER_V2.npz",
+          "bytes": 224521
+        },
+        {
+          "path": "01_axis_authority/b03_wallmap_FROZEN.npz",
+          "bytes": 248834
+        },
+        {
+          "path": "01_axis_authority/b04_true_axis_matrix.json",
+          "bytes": 37449
+        },
+        {
+          "path": "01_axis_authority/b05_wall_at_both_positions.json",
+          "bytes": 15517
+        },
+        {
+          "path": "02_docs71_recheck/b06_docs71_recheck.json",
+          "bytes": 1920
+        },
+        {
+          "path": "03_lineage/b07_lineage_and_visual.json",
+          "bytes": 9558
+        },
+        {
+          "path": "03_lineage/b07_maps.npz",
+          "bytes": 343524
+        },
+        {
+          "path": "03_lineage/b08_lower15_vs_exact.json",
+          "bytes": 12409
+        },
+        {
+          "path": "04_cap_position_audit/b06_cap_position_audit.json",
+          "bytes": 15419
+        },
+        {
+          "path": "05_c01_wall_audit/b09_c01_maps.npz",
+          "bytes": 317484
+        },
+        {
+          "path": "05_c01_wall_audit/b09_c01_wall_audit.json",
+          "bytes": 16268
+        },
+        {
+          "path": "06_c01_gap_audit/b09_c01_gap_audit.json",
+          "bytes": 3160
+        }
+      ],
+      "reports": [
+        {
+          "path": "11_reports/REV_B_AUDIT.md",
+          "bytes": 14715
+        }
+      ],
+      "scripts": [
+        {
+          "path": "10_scripts/b01_true_axes.py",
+          "bytes": 8093
+        },
+        {
+          "path": "10_scripts/b02_cap_anatomy.py",
+          "bytes": 1998
+        },
+        {
+          "path": "10_scripts/b03_axis_authority.py",
+          "bytes": 13687
+        },
+        {
+          "path": "10_scripts/b04_true_axis_matrix.py",
+          "bytes": 6357
+        },
+        {
+          "path": "10_scripts/b05_wall_at_both_positions.py",
+          "bytes": 5018
+        },
+        {
+          "path": "10_scripts/b06_docs71_and_caps.py",
+          "bytes": 7527
+        },
+        {
+          "path": "10_scripts/b07_lineage_and_visual.py",
+          "bytes": 6355
+        },
+        {
+          "path": "10_scripts/b08_lower15_vs_exact.py",
+          "bytes": 6570
+        },
+        {
+          "path": "10_scripts/b09_c01_audit.py",
+          "bytes": 11858
+        },
+        {
+          "path": "10_scripts/b10_renders.py",
+          "bytes": 9523
+        },
+        {
+          "path": "10_scripts/b11_source_check.py",
+          "bytes": 3017
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 5611
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 14288
+        },
+        {
+          "path": "10_scripts/make_baseline.py",
+          "bytes": 2755
+        }
+      ],
+      "renders": [
+        {
+          "path": "08_renders/01_frozen_exterior_with_axes.png",
+          "bytes": 111742
+        },
+        {
+          "path": "08_renders/02_section_JOY.png",
+          "bytes": 223380
+        },
+        {
+          "path": "08_renders/03_section_T2.png",
+          "bytes": 309168
+        },
+        {
+          "path": "08_renders/04_section_T7.png",
+          "bytes": 346130
+        },
+        {
+          "path": "08_renders/05_section_T4.png",
+          "bytes": 395566
+        },
+        {
+          "path": "08_renders/06_c01_thin_wall_heatmap.png",
+          "bytes": 36078
+        },
+        {
+          "path": "08_renders/07_c01_shell_gap_heatmap.png",
+          "bytes": 35946
+        }
+      ]
+    },
+    "REV_C": {
+      "fileCount": 50,
+      "geometry": [
+        {
+          "path": "02_failure_trace/USER_SIDE_SLAB.step",
+          "bytes": 17189,
+          "sha256": "00E942304462ECC9019F682B081944913CE7B71446235656E889371F640C1706"
+        },
+        {
+          "path": "03_reconciled/FROZEN_THUMB_EXTERIOR_RECONCILED_REFERENCE.step",
+          "bytes": 9774982,
+          "sha256": "74ADCB137F4AB5263F97FE1D87BB6E5A64270AACD44051C1712CEF91E67331F5"
+        },
+        {
+          "path": "03_reconciled/JAD_THUMB_EXTERIOR_RECONCILED_REFERENCE.step",
+          "bytes": 4963747,
+          "sha256": "A4C43259E84544ADA8006E107D68D421D6C18C720DE225F13E32614E90958C9A"
+        },
+        {
+          "path": "03_reconciled/JFD_THUMB_EXTERIOR_RECONCILED_REFERENCE.step",
+          "bytes": 5208797,
+          "sha256": "B9642E4377894678A3204F4E7128D86C063B2864D9F418ABDF9F817374BF4465"
+        },
+        {
+          "path": "07_c01r/C01R_RECONCILED_SOURCE_FAITHFUL.step",
+          "bytes": 24850235,
+          "sha256": "A774DBFBA612D0284F719E35582BA20469599B2F9B1F1A867301D04962DA294D"
+        },
+        {
+          "path": "07_c01r/C01R_RECONCILED_SOURCE_FAITHFUL.stl",
+          "bytes": 281134,
+          "sha256": "890D37D3F6873356FA2BF0FEBB5667558E506F5411B68AB27BC4D792D4896AF3"
+        }
+      ],
+      "data": [
+        {
+          "path": "01_approved_openings/c01_approved_openings.json",
+          "bytes": 79899
+        },
+        {
+          "path": "02_failure_trace/c02_failure_trace.json",
+          "bytes": 7423
+        },
+        {
+          "path": "03_reconciled/c03_reconcile.json",
+          "bytes": 24844
+        },
+        {
+          "path": "04_validation/c04_validate.json",
+          "bytes": 7340
+        },
+        {
+          "path": "04_validation/c05_validate2.json",
+          "bytes": 5175
+        },
+        {
+          "path": "04_validation/c06_containment_attribution.json",
+          "bytes": 3061
+        },
+        {
+          "path": "05_docs71/c07_docs71_three_shells.json",
+          "bytes": 1218
+        },
+        {
+          "path": "06_c01_recheck/c07_c01_recheck.json",
+          "bytes": 1931
+        },
+        {
+          "path": "06_c01_recheck/c07_gap_FROZEN_OLD.npz",
+          "bytes": 163206
+        },
+        {
+          "path": "06_c01_recheck/c07_gap_RECONCILED.npz",
+          "bytes": 162759
+        },
+        {
+          "path": "07_c01r/c08_contact_band_study.json",
+          "bytes": 2185
+        },
+        {
+          "path": "07_c01r/c09_c01r_build.json",
+          "bytes": 15669
+        },
+        {
+          "path": "07_c01r/c10_c01r_maps.npz",
+          "bytes": 259871
+        },
+        {
+          "path": "07_c01r/c10_c01r_validate.json",
+          "bytes": 3726
+        }
+      ],
+      "reports": [
+        {
+          "path": "11_reports/REV_C_RECONCILIATION.md",
+          "bytes": 13713
+        }
+      ],
+      "scripts": [
+        {
+          "path": "10_scripts/b01_true_axes.py",
+          "bytes": 8093
+        },
+        {
+          "path": "10_scripts/b03_axis_authority.py",
+          "bytes": 13687
+        },
+        {
+          "path": "10_scripts/b07_lineage_and_visual.py",
+          "bytes": 6355
+        },
+        {
+          "path": "10_scripts/c01_approved_openings.py",
+          "bytes": 10888
+        },
+        {
+          "path": "10_scripts/c02_failure_trace.py",
+          "bytes": 8869
+        },
+        {
+          "path": "10_scripts/c03_reconcile.py",
+          "bytes": 10701
+        },
+        {
+          "path": "10_scripts/c04_validate.py",
+          "bytes": 8191
+        },
+        {
+          "path": "10_scripts/c05_validate2.py",
+          "bytes": 7462
+        },
+        {
+          "path": "10_scripts/c06_containment_attribution.py",
+          "bytes": 7127
+        },
+        {
+          "path": "10_scripts/c07_docs71_and_c01.py",
+          "bytes": 9643
+        },
+        {
+          "path": "10_scripts/c08_contact_band_study.py",
+          "bytes": 3981
+        },
+        {
+          "path": "10_scripts/c09_c01r.py",
+          "bytes": 14359
+        },
+        {
+          "path": "10_scripts/c10_c01r_validate.py",
+          "bytes": 7857
+        },
+        {
+          "path": "10_scripts/c11_renders.py",
+          "bytes": 8584
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 6707
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 14293
+        }
+      ],
+      "renders": [
+        {
+          "path": "08_renders/01_APPROVED_LOWER15.png",
+          "bytes": 137908
+        },
+        {
+          "path": "08_renders/02_OLD_EXACT_FROZEN_STEP.png",
+          "bytes": 104931
+        },
+        {
+          "path": "08_renders/03_RECONCILED_REFERENCE.png",
+          "bytes": 120745
+        },
+        {
+          "path": "08_renders/04_section_JOY.png",
+          "bytes": 249227
+        },
+        {
+          "path": "08_renders/05_section_T2.png",
+          "bytes": 336765
+        },
+        {
+          "path": "08_renders/06_section_T4.png",
+          "bytes": 430798
+        },
+        {
+          "path": "08_renders/07_section_T6.png",
+          "bytes": 422712
+        },
+        {
+          "path": "08_renders/08_section_T7.png",
+          "bytes": 376717
+        },
+        {
+          "path": "08_renders/09_section_T8.png",
+          "bytes": 374894
+        },
+        {
+          "path": "08_renders/10_housing_ORIGINAL.png",
+          "bytes": 115820
+        },
+        {
+          "path": "08_renders/11_housing_C01.png",
+          "bytes": 111371
+        },
+        {
+          "path": "08_renders/12_housing_C01R.png",
+          "bytes": 118622
+        },
+        {
+          "path": "08_renders/_smoke.png",
+          "bytes": 508022
+        }
+      ]
+    },
+    "REV_D_EXACT_SOURCE": {
+      "fileCount": 34,
+      "geometry": [],
+      "data": [
+        {
+          "path": "00_admin/d05_source_check.json",
+          "bytes": 5309
+        },
+        {
+          "path": "01_source_verify/d01_verify_exact_source.json",
+          "bytes": 4967
+        },
+        {
+          "path": "02_original_housing/d02_housing_vs_exact.json",
+          "bytes": 8900
+        },
+        {
+          "path": "02_original_housing/d02_maps.npz",
+          "bytes": 1084015
+        },
+        {
+          "path": "03_c01_recheck/d03_c01_vs_exact.json",
+          "bytes": 2772
+        },
+        {
+          "path": "05_szh/d03_szh_vs_exact.json",
+          "bytes": 1380
+        }
+      ],
+      "reports": [
+        {
+          "path": "11_reports/REV_D_EXACT_SOURCE_AUDIT.md",
+          "bytes": 12249
+        }
+      ],
+      "scripts": [
+        {
+          "path": "10_scripts/b01_true_axes.py",
+          "bytes": 8093
+        },
+        {
+          "path": "10_scripts/b03_axis_authority.py",
+          "bytes": 13687
+        },
+        {
+          "path": "10_scripts/b07_lineage_and_visual.py",
+          "bytes": 6355
+        },
+        {
+          "path": "10_scripts/c01_approved_openings.py",
+          "bytes": 10888
+        },
+        {
+          "path": "10_scripts/c07_docs71_and_c01.py",
+          "bytes": 9643
+        },
+        {
+          "path": "10_scripts/d01_verify_exact_source.py",
+          "bytes": 7073
+        },
+        {
+          "path": "10_scripts/d02_housing_vs_exact.py",
+          "bytes": 11030
+        },
+        {
+          "path": "10_scripts/d03_c01_keepouts_szh.py",
+          "bytes": 8151
+        },
+        {
+          "path": "10_scripts/d04_renders.py",
+          "bytes": 3910
+        },
+        {
+          "path": "10_scripts/d05_source_check.py",
+          "bytes": 3017
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 6707
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 14863
+        }
+      ],
+      "renders": [
+        {
+          "path": "08_renders/S1_JOY_A.png",
+          "bytes": 140328
+        },
+        {
+          "path": "08_renders/S1_JOY_B.png",
+          "bytes": 196331
+        },
+        {
+          "path": "08_renders/S1_JOY_C.png",
+          "bytes": 200016
+        },
+        {
+          "path": "08_renders/S2_BUTTON_ROW_A.png",
+          "bytes": 115692
+        },
+        {
+          "path": "08_renders/S2_BUTTON_ROW_B.png",
+          "bytes": 141377
+        },
+        {
+          "path": "08_renders/S2_BUTTON_ROW_C.png",
+          "bytes": 136968
+        },
+        {
+          "path": "08_renders/S3_T1_T3_A.png",
+          "bytes": 98514
+        },
+        {
+          "path": "08_renders/S3_T1_T3_B.png",
+          "bytes": 116286
+        },
+        {
+          "path": "08_renders/S3_T1_T3_C.png",
+          "bytes": 108846
+        },
+        {
+          "path": "08_renders/S4_N1_ADJACENT_A.png",
+          "bytes": 135413
+        },
+        {
+          "path": "08_renders/S4_N1_ADJACENT_B.png",
+          "bytes": 229369
+        },
+        {
+          "path": "08_renders/S4_N1_ADJACENT_C.png",
+          "bytes": 233804
+        },
+        {
+          "path": "08_renders/S5_N2_ADJACENT_A.png",
+          "bytes": 150979
+        },
+        {
+          "path": "08_renders/S5_N2_ADJACENT_B.png",
+          "bytes": 245710
+        },
+        {
+          "path": "08_renders/S5_N2_ADJACENT_C.png",
+          "bytes": 253472
+        }
+      ]
+    },
+    "REV_E_C02_REFINED": {
+      "fileCount": 15,
+      "geometry": [
+        {
+          "path": "02_candidate/C02_C01_EXACT_REFINED.step",
+          "bytes": 10981062,
+          "sha256": "E1E5A3B1ABD3295E856D6154ACA3C87E74893E920921AABA024806FE7E08E007"
+        },
+        {
+          "path": "02_candidate/C02_C01_EXACT_REFINED.stl",
+          "bytes": 234884,
+          "sha256": "9C0F32FEF0461631B606E2F39C64BBB6E2F7EDFB3551B62491D4A6354D4CF1AC"
+        }
+      ],
+      "data": [
+        {
+          "path": "01_probe/e01_maps.npz",
+          "bytes": 1114757
+        },
+        {
+          "path": "01_probe/e01_probe.json",
+          "bytes": 1436
+        },
+        {
+          "path": "02_candidate/e02_build.json",
+          "bytes": 19891
+        },
+        {
+          "path": "03_validation/e03_maps.npz",
+          "bytes": 434371
+        },
+        {
+          "path": "03_validation/e03_validate.json",
+          "bytes": 2886
+        }
+      ],
+      "reports": [],
+      "scripts": [
+        {
+          "path": "10_scripts/b01_true_axes.py",
+          "bytes": 8093
+        },
+        {
+          "path": "10_scripts/b03_axis_authority.py",
+          "bytes": 13687
+        },
+        {
+          "path": "10_scripts/d02_housing_vs_exact.py",
+          "bytes": 11030
+        },
+        {
+          "path": "10_scripts/e01_probe.py",
+          "bytes": 8216
+        },
+        {
+          "path": "10_scripts/e02_build_c02.py",
+          "bytes": 14868
+        },
+        {
+          "path": "10_scripts/e03_validate.py",
+          "bytes": 8992
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 6707
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 14942
+        }
+      ],
+      "renders": []
+    },
+    "REV_F_RIGID_FIT": {
+      "fileCount": 15,
+      "geometry": [
+        {
+          "path": "02_candidate/C03_ORIGINAL_BACKPLATE_RIGID_FIT_TRIM.step",
+          "bytes": 1532680,
+          "sha256": "28246E902E267EC3EF38D1DD9ADC3ABD7B5C0F5249BAB835DC7CB137504A2044"
+        },
+        {
+          "path": "02_candidate/C03_ORIGINAL_BACKPLATE_RIGID_FIT_TRIM.stl",
+          "bytes": 76384,
+          "sha256": "30628392D2FAEFE92539EF9D9DD5848AD8BC32676CAE9A2EB768FB60189C273A"
+        },
+        {
+          "path": "02_candidate/C03_POSE_A_CONTROL_ALIGNED_TRIMMED.step",
+          "bytes": 1704193,
+          "sha256": "BEDFE38942B3CC3B543367C4B5921F823DC54D32F36454F84029B5FFB36603A2"
+        },
+        {
+          "path": "02_candidate/C03_POSE_B_TRANSLATION_ONLY_TRIMMED.step",
+          "bytes": 8871567,
+          "sha256": "6575F8EB1A9EC2B77DCAE8F33A95DD23E76CB2EFC4FE2FACD18512916D09756B"
+        }
+      ],
+      "data": [
+        {
+          "path": "01_rigidfit/f01_rigid_fit.json",
+          "bytes": 13340
+        },
+        {
+          "path": "02_candidate/f02_trim_test.json",
+          "bytes": 2893
+        }
+      ],
+      "reports": [
+        {
+          "path": "11_reports/REV_F_RIGID_FIT_AUDIT.md",
+          "bytes": 7696
+        }
+      ],
+      "scripts": [
+        {
+          "path": "10_scripts/b01_true_axes.py",
+          "bytes": 8093
+        },
+        {
+          "path": "10_scripts/b03_axis_authority.py",
+          "bytes": 13687
+        },
+        {
+          "path": "10_scripts/d02_housing_vs_exact.py",
+          "bytes": 11030
+        },
+        {
+          "path": "10_scripts/e01_probe.py",
+          "bytes": 8216
+        },
+        {
+          "path": "10_scripts/f01_rigid_fit.py",
+          "bytes": 12744
+        },
+        {
+          "path": "10_scripts/f02_trim_test.py",
+          "bytes": 6735
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 6707
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 14993
+        }
+      ],
+      "renders": []
+    },
+    "REV_G_BACKPLATE_DRIVEN_FREEZE": {
+      "fileCount": 19,
+      "geometry": [],
+      "data": [
+        {
+          "path": "01_pose/g01_solve_pose.json",
+          "bytes": 11696
+        },
+        {
+          "path": "01_pose/g02_tradeoff.json",
+          "bytes": 8520
+        }
+      ],
+      "reports": [
+        {
+          "path": "11_reports/REV_G_BACKPLATE_DRIVEN_AUDIT.md",
+          "bytes": 7241
+        }
+      ],
+      "scripts": [
+        {
+          "path": "10_scripts/b01_true_axes.py",
+          "bytes": 8093
+        },
+        {
+          "path": "10_scripts/b03_axis_authority.py",
+          "bytes": 13687
+        },
+        {
+          "path": "10_scripts/d02_housing_vs_exact.py",
+          "bytes": 11030
+        },
+        {
+          "path": "10_scripts/e01_probe.py",
+          "bytes": 8216
+        },
+        {
+          "path": "10_scripts/f01_rigid_fit.py",
+          "bytes": 12744
+        },
+        {
+          "path": "10_scripts/g01_solve_pose.py",
+          "bytes": 10588
+        },
+        {
+          "path": "10_scripts/g02_tradeoff.py",
+          "bytes": 6652
+        },
+        {
+          "path": "10_scripts/g03_renders.py",
+          "bytes": 5053
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 6707
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 15109
+        }
+      ],
+      "renders": [
+        {
+          "path": "08_renders/01_EXTERNAL_OLD_layout.png",
+          "bytes": 106711
+        },
+        {
+          "path": "08_renders/02_EXTERNAL_NEW_layout.png",
+          "bytes": 131969
+        },
+        {
+          "path": "08_renders/03_EXTERNAL_OVERLAY.png",
+          "bytes": 191968
+        },
+        {
+          "path": "08_renders/04_SECTION_backplate_OLD_pose.png",
+          "bytes": 237838
+        },
+        {
+          "path": "08_renders/05_SECTION_backplate_NEW_pose.png",
+          "bytes": 240009
+        },
+        {
+          "path": "08_renders/06_INTERNAL_transparent_both_poses.png",
+          "bytes": 309870
+        }
+      ]
+    },
+    "REV_H_ORIGINAL_SWITCH_MECHANISM": {
+      "fileCount": 27,
+      "geometry": [
+        {
+          "path": "03_placement/H03_SEAT_UNITS_PLACED.step",
+          "bytes": 445568,
+          "sha256": "27A3F2EF4F67311529E04F87E3E1C1A4589C36BF9F109A548B72354C96993773"
+        },
+        {
+          "path": "04_carrier/C05_SEAT_FIRST_CARRIER.step",
+          "bytes": 1281298,
+          "sha256": "E66B996599BE5FFA91A3F23FE5B0C132CD13252FE126F206CBE8C049CDE39221"
+        },
+        {
+          "path": "04_carrier/C05_SEAT_FIRST_CARRIER.stl",
+          "bytes": 58284,
+          "sha256": "68D49493F8CAFB2D0346D6A89B9D10C6B539D5DDA60BC0B1C8E463C9560DD35A"
+        }
+      ],
+      "data": [
+        {
+          "path": "01_seat_audit/h01_seat_audit.json",
+          "bytes": 16970
+        },
+        {
+          "path": "01_seat_audit/h02_stack.json",
+          "bytes": 5619
+        },
+        {
+          "path": "03_placement/h03_placement.json",
+          "bytes": 8336
+        },
+        {
+          "path": "04_carrier/h04_carrier.json",
+          "bytes": 1305
+        },
+        {
+          "path": "05_validation/h05_validate.json",
+          "bytes": 3211
+        }
+      ],
+      "reports": [
+        {
+          "path": "11_reports/REV_H_SEAT_FIRST_AUDIT.md",
+          "bytes": 11141
+        }
+      ],
+      "scripts": [
+        {
+          "path": "10_scripts/b01_true_axes.py",
+          "bytes": 8093
+        },
+        {
+          "path": "10_scripts/b03_axis_authority.py",
+          "bytes": 13687
+        },
+        {
+          "path": "10_scripts/d02_housing_vs_exact.py",
+          "bytes": 11030
+        },
+        {
+          "path": "10_scripts/e01_probe.py",
+          "bytes": 8216
+        },
+        {
+          "path": "10_scripts/h01_seat_audit.py",
+          "bytes": 8579
+        },
+        {
+          "path": "10_scripts/h02_stack.py",
+          "bytes": 6218
+        },
+        {
+          "path": "10_scripts/h03_placement.py",
+          "bytes": 8920
+        },
+        {
+          "path": "10_scripts/h04_carrier.py",
+          "bytes": 9805
+        },
+        {
+          "path": "10_scripts/h05_validate.py",
+          "bytes": 6550
+        },
+        {
+          "path": "10_scripts/h06_renders.py",
+          "bytes": 7765
+        },
+        {
+          "path": "10_scripts/labrender.py",
+          "bytes": 6707
+        },
+        {
+          "path": "10_scripts/labutil.py",
+          "bytes": 15192
+        }
+      ],
+      "renders": [
+        {
+          "path": "08_renders/A_ORIGINAL_MECHANISM_section.png",
+          "bytes": 73287
+        },
+        {
+          "path": "08_renders/B_B1_central_T2.png",
+          "bytes": 170206
+        },
+        {
+          "path": "08_renders/B_B2_edge_T1.png",
+          "bytes": 220000
+        },
+        {
+          "path": "08_renders/B_B3_tightest_T7.png",
+          "bytes": 191192
+        },
+        {
+          "path": "08_renders/C_FULL_SEAT_ARRAY.png",
+          "bytes": 365950
+        },
+        {
+          "path": "08_renders/D_N1_N2_adjacent.png",
+          "bytes": 355282
+        }
+      ]
+    }
+  },
+  "shellAuthorityGate": {
+    "pass": true,
+    "hashes": {
+      "JAD_APPROVED": {
+        "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JaD_THUMB_LOWER15_APPROVED.step",
+        "sha256": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+        "bytes": 817422
+      },
+      "JFD_APPROVED": {
+        "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JfD_THUMB_LOWER15_APPROVED.step",
+        "sha256": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340",
+        "bytes": 1446528
+      }
+    },
+    "baseline": {
+      "JAD_APPROVED": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "JFD_APPROVED": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+    }
+  },
+  "upstreamSources": {
+    "JAD_APPROVED": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JaD_THUMB_LOWER15_APPROVED.step",
+      "exists": true,
+      "bytes": 817422,
+      "sha256": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86"
+    },
+    "JFD_APPROVED": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\thumb_exact_onshape_source\\JfD_THUMB_LOWER15_APPROVED.step",
+      "exists": true,
+      "bytes": 1446528,
+      "sha256": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+    },
+    "JAD_LOWERED_THUMB": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JAD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "exists": true,
+      "bytes": 4056249,
+      "sha256": "B223757EE25FDD5EDDF710B8666BCD388D4221235D8D876F620EB0005D5B75B6"
+    },
+    "JFD_LOWERED_THUMB": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\integrated_exterior_lowered_thumb_v1\\JFD_EXTERIOR_LOWERED_THUMB_V1.step",
+      "exists": true,
+      "bytes": 4093002,
+      "sha256": "D1BF68B105DCE11374AB1F89981EE503A5591D2FF7FA5175777432171855BF7F"
+    },
+    "JAD_FINGER_V2": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\finger_controls_v2\\JAD_FINGER_V2.step",
+      "exists": true,
+      "bytes": 1388347,
+      "sha256": "A477AA79E55DDB21FB2A45C7F616544F6EB4844B593F61CF7D45303476C5A762"
+    },
+    "JFD_FINGER_V2": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\finger_controls_v2\\JFD_FINGER_V2.step",
+      "exists": true,
+      "bytes": 1401989,
+      "sha256": "D457D5D9B305A4C7D77E21AAB3CB7D33336D672D4D8BF031E6158DE44C26AD50"
+    },
+    "JAD_CLEAN_PRE_FINGER": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\local_cad\\reference\\JAD_CLEAN_PRE_FINGER.step",
+      "exists": true,
+      "bytes": 612629,
+      "sha256": "01F5708A29CA46B0F9F13B5C63B5F4D9B7B46BCF04FC8B0A55B806085F1FF4F0"
+    },
+    "JFD_CLEAN_PRE_FINGER": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\local_cad\\reference\\JFD_CLEAN_PRE_FINGER.step",
+      "exists": true,
+      "bytes": 610677,
+      "sha256": "8D290891DD93F16F50789F24EF7D27C754B27B4250CAA1EBB3CB587648475792"
+    },
+    "THUMB_TARGET_EXACT_MODULE": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\finger_thumb_joint_feasibility\\THUMB_TARGET_EXACT_MODULE.step",
+      "exists": true,
+      "bytes": 8758440,
+      "sha256": "ADC870FFAF55A9342D62DF89F162827A744BDF1D43060C0FBB69F7C8E8089FE9"
+    },
+    "ORIGINAL_THUMB_CARTRIDGE": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\original_thumb_module_reuse_audit\\ORIGINAL_THUMB_CARTRIDGE.step",
+      "exists": true,
+      "bytes": 8714634,
+      "sha256": "EE6ED6848E7C0481A2C73639C85FC39BF63AC837514CA13B16BDC1BC6E075527"
+    },
+    "LOWERED_ORIGINAL_THUMB_CARTRIDGE": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\original_thumb_module_reuse_audit\\LOWERED_ORIGINAL_THUMB_CARTRIDGE.step",
+      "exists": true,
+      "bytes": 8714659,
+      "sha256": "F7A7CEA568B08FF1565B90C886DE955CCCF246BF88B7F4A46A00CA61F35C4BC2"
+    },
+    "THUMB_ORIGINAL_PRE_FINGER": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\local_cad\\reference\\THUMB_ORIGINAL_PRE_FINGER_REFERENCE.step",
+      "exists": true,
+      "bytes": 442747,
+      "sha256": "C80A6E44DAB38B88791D6167D9A7E5D3E800F48DB316E5CBE988EB997D99D21D"
+    },
+    "N1_N2_CARRIER": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\n1_production_intent_mechanism\\N1_N2_SHARED_CARRIER_N1_LOCAL.step",
+      "exists": true,
+      "bytes": 783512,
+      "sha256": "2485E34F8716395459F1F7B10384FD73A33695472F9AAE689CF321D583830756"
+    },
+    "SZH_WEB_REFERENCE": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\local_cad\\reference\\SZH_EK056_WEB_REFERENCE.step",
+      "exists": true,
+      "bytes": 196958,
+      "sha256": "39FC7E19C36844E6F0EAB4DA88D519D6DEBCCF41B8D5F5BC3F244AFBCE5EC4C5"
+    },
+    "ORIGINAL_FASTENING": {
+      "path": "C:\\Users\\User\\Desktop\\OneGrip-Play\\build123d_workbench\\out\\original_thumb_module_reuse_audit\\ORIGINAL_FASTENING_REFERENCE.step",
+      "exists": true,
+      "bytes": 75107,
+      "sha256": "540D8E36712E2F20E59D449C9A74FD6BF4265DB18A1DAF7B3EE28F92611D8068"
+    }
+  }
+}

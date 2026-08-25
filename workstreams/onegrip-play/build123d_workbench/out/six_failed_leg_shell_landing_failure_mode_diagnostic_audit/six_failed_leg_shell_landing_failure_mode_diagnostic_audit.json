@@ -1,0 +1,2697 @@
+{
+  "schema": "onegrip-six-failed-leg-shell-landing-failure-mode-diagnostic-v1",
+  "generatedUtc": "2026-08-24T17:22:19.608248+00:00",
+  "authority": {
+    "latest": "docs/91_seven_unresolved_leg_root_shell_target_rescue_audit.md",
+    "sourceJson": "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/seven_unresolved_leg_root_shell_target_rescue_audit.json"
+  },
+  "scope": {
+    "diagnosticOnly": true,
+    "solutionGeometryGenerated": false,
+    "optimizerOrEndpointSearch": false,
+    "assemblyAudit": false,
+    "productionModificationCount": 0,
+    "targetLegs": [
+      "N2 +U",
+      "N2 +V",
+      "N2 -V",
+      "I3 +U",
+      "I3 -U",
+      "I4 +U"
+    ]
+  },
+  "summary": {
+    "categories": {
+      "A": [
+        "N2 +U",
+        "I3 +U"
+      ],
+      "B": [
+        "N2 -V",
+        "I3 -U"
+      ],
+      "C": [],
+      "D": [
+        "N2 +V",
+        "I4 +U"
+      ]
+    },
+    "noUsableLandCount": 2,
+    "microSmallThicknessCount": 2,
+    "majorLocalThicknessCount": 0,
+    "nonlocalArchitectureCount": 2
+  },
+  "legs": {
+    "N2 +U": {
+      "button": "N2",
+      "edge": "+U",
+      "shellOwner": "JfD",
+      "docs91SearchResult": "FAIL — NO USABLE SIDE-REGION SHELL LANDING",
+      "docs91TargetMapCount": 0,
+      "docs91ExactEvaluationCount": 0,
+      "docs91BestFailure": null,
+      "missingFootprintOccupancy": {
+        "samples": [
+          {
+            "sample": 1,
+            "originLocalUVWmm": [
+              4.785,
+              -0.95,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [
+              5.233713900211253,
+              8.235310547853826
+            ],
+            "openingCutterHitsMm": [],
+            "category": "opposite shell half",
+            "ownerPair": false
+          },
+          {
+            "sample": 2,
+            "originLocalUVWmm": [
+              3.1849999999999996,
+              -0.95,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              10.299999999999997
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 3,
+            "originLocalUVWmm": [
+              4.785,
+              0.95,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [
+              5.212796043391602,
+              8.214406357259609
+            ],
+            "openingCutterHitsMm": [],
+            "category": "opposite shell half",
+            "ownerPair": false
+          },
+          {
+            "sample": 4,
+            "originLocalUVWmm": [
+              3.1849999999999996,
+              0.95,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              10.299999999999997
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 5,
+            "originLocalUVWmm": [
+              3.985,
+              -0.95,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              10.299999999999997
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 6,
+            "originLocalUVWmm": [
+              3.985,
+              0.95,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              10.299999999999997
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 7,
+            "originLocalUVWmm": [
+              4.785,
+              0.0,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [
+              5.219111975564114,
+              8.220589345994876
+            ],
+            "openingCutterHitsMm": [],
+            "category": "opposite shell half",
+            "ownerPair": false
+          },
+          {
+            "sample": 8,
+            "originLocalUVWmm": [
+              3.1849999999999996,
+              0.0,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              10.299999999999995
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 9,
+            "originLocalUVWmm": [
+              3.985,
+              0.0,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              10.299999999999995
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          }
+        ],
+        "counts": {
+          "opposite shell half": 3,
+          "button-opening void": 6
+        },
+        "ownerCoverageCount": 0,
+        "ownerCoveragePercent": 0.0,
+        "missingCount": 9,
+        "missingPercent": 100.0
+      },
+      "nearestLandMeasurement": {
+        "owningHalf": {
+          "referenceCenterLocalUVmm": [
+            3.985,
+            0.0
+          ],
+          "grid": {
+            "coarseStepMm": 0.25,
+            "refinementStepMm": 0.05,
+            "maximumRadiusMm": 7.0,
+            "evaluatedUniqueCenters": 2453
+          },
+          "nearestContinuousFullFootprint": null,
+          "nearestUsableBlindSlotLand": null
+        },
+        "oppositeHalf": {
+          "referenceCenterLocalUVmm": [
+            3.985,
+            0.0
+          ],
+          "grid": {
+            "coarseStepMm": 0.25,
+            "refinementStepMm": 0.05,
+            "maximumRadiusMm": 7.0,
+            "evaluatedUniqueCenters": 137
+          },
+          "nearestContinuousFullFootprint": {
+            "shellHalf": "JaD",
+            "distanceMm": 1.05,
+            "shiftLocalUVmm": [
+              1.05,
+              0.0
+            ],
+            "centerLocalUVmm": [
+              5.035,
+              0.0
+            ],
+            "fullFootprint": true,
+            "coverageCount": 9,
+            "minimumRemainingShellMm": 1.7309392423455607,
+            "shellThicknessRangeMm": [
+              3.0010985484345722,
+              3.00276323338466
+            ],
+            "usableBlindSlot": true,
+            "samples": [
+              {
+                "originLocalUVWmm": [
+                  4.235,
+                  -0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.246418611719408,
+                  8.247610527400395
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.835,
+                  -0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.20117089566132,
+                  8.20393412904598
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.235,
+                  0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.228752047542859,
+                  8.23000125393243
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.835,
+                  0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.174659517379373,
+                  8.177357854064969
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.035,
+                  -0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.227017482169501,
+                  8.228839861399397
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.035,
+                  0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.2046937467067,
+                  8.206510639306803
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.235,
+                  0.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.233515745266701,
+                  8.234614293701274
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.835,
+                  0.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.183644414847721,
+                  8.186242410194685
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.035,
+                  0.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.211680645562993,
+                  8.213372339881508
+                ],
+                "paired": true
+              }
+            ],
+            "assignedSideIdentityPreserved": true,
+            "assignedSideTangentCoordinateMm": 0.0
+          },
+          "nearestUsableBlindSlotLand": {
+            "shellHalf": "JaD",
+            "distanceMm": 1.05,
+            "shiftLocalUVmm": [
+              1.05,
+              0.0
+            ],
+            "centerLocalUVmm": [
+              5.035,
+              0.0
+            ],
+            "fullFootprint": true,
+            "coverageCount": 9,
+            "minimumRemainingShellMm": 1.7309392423455607,
+            "shellThicknessRangeMm": [
+              3.0010985484345722,
+              3.00276323338466
+            ],
+            "usableBlindSlot": true,
+            "samples": [
+              {
+                "originLocalUVWmm": [
+                  4.235,
+                  -0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.246418611719408,
+                  8.247610527400395
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.835,
+                  -0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.20117089566132,
+                  8.20393412904598
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.235,
+                  0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.228752047542859,
+                  8.23000125393243
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.835,
+                  0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.174659517379373,
+                  8.177357854064969
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.035,
+                  -0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.227017482169501,
+                  8.228839861399397
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.035,
+                  0.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.2046937467067,
+                  8.206510639306803
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.235,
+                  0.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.233515745266701,
+                  8.234614293701274
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.835,
+                  0.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.183644414847721,
+                  8.186242410194685
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.035,
+                  0.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.211680645562993,
+                  8.213372339881508
+                ],
+                "paired": true
+              }
+            ],
+            "assignedSideIdentityPreserved": true,
+            "assignedSideTangentCoordinateMm": 0.0
+          }
+        }
+      },
+      "classification": {
+        "category": "A",
+        "interpretation": "no usable land / incomplete footprint"
+      },
+      "loadPathIfMaterialExisted": "CONDITIONAL ONLY: the straight member is structurally direct, but the current endpoint has no continuous reaction land."
+    },
+    "N2 +V": {
+      "button": "N2",
+      "edge": "+V",
+      "shellOwner": "JfD",
+      "docs91SearchResult": "FAIL — NO USABLE SIDE-REGION SHELL LANDING",
+      "docs91TargetMapCount": 56,
+      "docs91ExactEvaluationCount": 280,
+      "docs91BestFailure": {
+        "edge": "+V",
+        "rootTangentCoordinateMm": 0.4,
+        "rootLocalUVWmm": [
+          0.4,
+          3.835,
+          0.06000000000000005
+        ],
+        "directionLocal": [
+          -0.15970272691084392,
+          0.20672630761237015,
+          0.9652767855688834
+        ],
+        "tiltFromWDeg": 15.143014693806663,
+        "tiltAzimuthDeg": 127.68724122661735,
+        "legThicknessMm": 1.3,
+        "effectiveFdmThicknessMm": 1.2548598212395485,
+        "legTangentWidthMm": 1.6,
+        "footprintPairCoverage": 9,
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              -0.5378068952151395,
+              3.020966559469836,
+              0.0791777210732724
+            ],
+            "hitsMm": [
+              5.643936349254941,
+              8.812556484189132
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.5378068952151395,
+              4.585489833451643,
+              -0.25588484796309363
+            ],
+            "hitsMm": [
+              6.056220073386066,
+              9.229145098768486
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              1.3378068952151394,
+              3.0845101665483576,
+              0.37588484796309374
+            ],
+            "hitsMm": [
+              8.355002908877118,
+              8.386927468269386
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              1.3378068952151394,
+              4.6490334405301645,
+              0.04082227892672771
+            ],
+            "hitsMm": [
+              8.426883130447363,
+              8.812184171774055
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.5378068952151395,
+              3.803228196460739,
+              -0.0883535634449106
+            ],
+            "hitsMm": [
+              5.848127670509884,
+              9.018887143667927
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              1.3378068952151394,
+              3.866771803539261,
+              0.2083535634449107
+            ],
+            "hitsMm": [
+              8.390943019662242,
+              8.59777415636867
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.4,
+              3.0527383630090967,
+              0.22753128451818305
+            ],
+            "hitsMm": [
+              5.4971541853361305,
+              8.599257679333066
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.4,
+              4.617261636990904,
+              -0.10753128451818295
+            ],
+            "hitsMm": [
+              5.845788628846121,
+              9.020009013242417
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.4,
+              3.835,
+              0.06000000000000005
+            ],
+            "hitsMm": [
+              5.63547046070437,
+              8.807758513795259
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "feasible": false,
+        "failure": "INSUFFICIENT_REMAINING_SHELL",
+        "missingFootprintPairs": 0,
+        "legLengthMm": 11.026883130447363,
+        "functionalLengthMm": 9.626883130447363,
+        "floorPointLocalUVWmm": [
+          -1.1374394875844454,
+          5.825130003373198,
+          9.352606803205541
+        ],
+        "tangentLocal": [
+          0.9871651528580415,
+          0.03344400372553783,
+          0.1561616457314849
+        ],
+        "structuralLocal": [
+          0.0,
+          0.977827046238629,
+          -0.20941410564772872
+        ],
+        "minimumRemainingShellMm": -1.2399556621779766,
+        "shellThicknessFootprintRangeMm": [
+          0.03192455939226768,
+          3.174220384396296
+        ],
+        "minimumBlindInsertionDepthMm": 1.2,
+        "targetSeedLocalUVmm": [
+          -0.5,
+          5.0
+        ],
+        "targetSeedInnerLocalWmm": 5.4997888114771145,
+        "targetSeedNormalShellThicknessMm": 3.0072871869110918,
+        "searchBand": "<=30"
+      },
+      "thicknessDiagnostic": {
+        "rayCount": 9,
+        "floorDistanceFromRootMm": 9.626883130447363,
+        "innerHitRangeMm": [
+          5.4971541853361305,
+          8.426883130447363
+        ],
+        "innerSurfaceDepthSpanMm": 2.9297289451112327,
+        "outerHitRangeMm": [
+          8.386927468269386,
+          9.229145098768486
+        ],
+        "shellThicknessMm": {
+          "minimum": 0.03192455939226768,
+          "maximum": 3.174220384396296,
+          "mean": 2.1761081447093513,
+          "median": 3.1686201349341916,
+          "values": [
+            3.1686201349341916,
+            3.17292502538242,
+            0.03192455939226768,
+            0.3853010413266915,
+            3.170759473158043,
+            0.2068311367064286,
+            3.1021034939969354,
+            3.174220384396296,
+            3.172288053090888
+          ]
+        },
+        "remainingShellAfterCommonFloorMm": {
+          "minimum": -1.2399556621779766,
+          "maximum": -0.3977380316788768,
+          "mean": -0.8174942716242073,
+          "values": [
+            -0.8143266462582304,
+            -0.3977380316788768,
+            -1.2399556621779766,
+            -0.8146989586733078,
+            -0.6079959867794358,
+            -1.0291089740786923,
+            -1.0276254511142966,
+            -0.6068741172049457,
+            -0.819124616652104
+          ]
+        },
+        "criticalSample": 3,
+        "criticalOriginLocalUVWmm": [
+          1.3378068952151394,
+          3.0845101665483576,
+          0.37588484796309374
+        ],
+        "criticalInnerOuterHitsMm": [
+          8.355002908877118,
+          8.386927468269386
+        ],
+        "criticalRayIntersectsOpeningCutter": true,
+        "grazingSliverRayCountBelow0p50mm": 3,
+        "uniformContinuousWall": false,
+        "cause": "footprint straddles an opening/shell edge; short hit pairs are grazing shell slivers",
+        "requiredMinimumInwardThickeningMm": 2.4399556621779768,
+        "reinforcementOnlyDiagnosticEstimate": {
+          "assumption": "full 1.90 x 1.60 mm slot footprint plus 0.60 mm structural margin on every side",
+          "minimumFootprintDimensionsMm": [
+            3.0999999999999996,
+            2.8
+          ],
+          "minimumFootprintAreaMm2": 8.679999999999998,
+          "minimumAddedVolumeMm3": 21.17881514770483,
+          "withinRequested2p5mmSweep": true
+        }
+      },
+      "classification": {
+        "category": "D",
+        "interpretation": "opening/edge-straddling or architecture-level landing"
+      },
+      "loadPathIfMaterialExisted": "CONDITIONAL ONLY: the straight member is structurally direct, but the current endpoint has no continuous reaction land."
+    },
+    "N2 -V": {
+      "button": "N2",
+      "edge": "-V",
+      "shellOwner": "JfD",
+      "docs91SearchResult": "FAIL — NO USABLE SIDE-REGION SHELL LANDING",
+      "docs91TargetMapCount": 56,
+      "docs91ExactEvaluationCount": 280,
+      "docs91BestFailure": {
+        "edge": "-V",
+        "rootTangentCoordinateMm": -0.4,
+        "rootLocalUVWmm": [
+          -0.4,
+          -3.835,
+          0.06000000000000005
+        ],
+        "directionLocal": [
+          -0.10699520925549004,
+          -0.20774903130440991,
+          0.9723128946941171
+        ],
+        "tiltFromWDeg": 13.513989018932339,
+        "tiltAzimuthDeg": -117.24943920038132,
+        "legThicknessMm": 1.3,
+        "effectiveFdmThicknessMm": 1.2640067631023522,
+        "legTangentWidthMm": 1.6,
+        "footprintPairCoverage": 9,
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              -1.3445465593287222,
+              -4.59610265451754,
+              -0.2065605870090821
+            ],
+            "hitsMm": [
+              6.035603018536977,
+              9.23251467371189
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.3445465593287222,
+              -3.031420018877647,
+              0.12775700111184973
+            ],
+            "hitsMm": [
+              5.874633142371856,
+              8.769317756140909
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.5445465593287223,
+              -4.638579981122353,
+              -0.007757001111849626
+            ],
+            "hitsMm": [
+              6.080932861652817,
+              8.798691857094983
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.5445465593287223,
+              -3.07389734548246,
+              0.3265605870090822
+            ],
+            "hitsMm": [
+              5.983989491518738,
+              8.360574518382288
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -1.3445465593287222,
+              -3.8137613366975933,
+              -0.03940179294861618
+            ],
+            "hitsMm": [
+              5.8130827604349316,
+              8.995356710861524
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              0.5445465593287223,
+              -3.8562386633024066,
+              0.15940179294861628
+            ],
+            "hitsMm": [
+              6.0324611765857785,
+              8.574579169653736
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.4,
+              -4.617341317819947,
+              -0.10715879406046586
+            ],
+            "hitsMm": [
+              5.8243219624346985,
+              9.017595115886232
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.4,
+              -3.0526586821800534,
+              0.22715879406046596
+            ],
+            "hitsMm": [
+              5.6531286964276335,
+              8.566436193531029
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -0.4,
+              -3.835,
+              0.06000000000000005
+            ],
+            "hitsMm": [
+              5.607727712063086,
+              8.78669504137583
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "feasible": false,
+        "failure": "INSUFFICIENT_REMAINING_SHELL",
+        "missingFootprintPairs": 0,
+        "legLengthMm": 8.680932861652817,
+        "functionalLengthMm": 7.2809328616528175,
+        "floorPointLocalUVWmm": [
+          -1.179024935107717,
+          -5.347606749000818,
+          7.139344906787173
+        ],
+        "tangentLocal": [
+          0.9942595361354971,
+          -0.022356487686743646,
+          0.10463346626170128
+        ],
+        "structuralLocal": [
+          3.469446951953614e-18,
+          0.9779266472749333,
+          0.20894849257558237
+        ],
+        "minimumRemainingShellMm": 1.0796416567294704,
+        "shellThicknessFootprintRangeMm": [
+          2.37658502686355,
+          3.1969116551749126
+        ],
+        "minimumBlindInsertionDepthMm": 1.2,
+        "targetSeedLocalUVmm": [
+          -1.0,
+          -5.0
+        ],
+        "targetSeedInnerLocalWmm": 5.512465964372478,
+        "targetSeedNormalShellThicknessMm": 3.0193786621352086,
+        "searchBand": "<=30"
+      },
+      "thicknessDiagnostic": {
+        "rayCount": 9,
+        "floorDistanceFromRootMm": 7.2809328616528175,
+        "innerHitRangeMm": [
+          5.607727712063086,
+          6.080932861652817
+        ],
+        "innerSurfaceDepthSpanMm": 0.4732051495897309,
+        "outerHitRangeMm": [
+          8.360574518382288,
+          9.23251467371189
+        ],
+        "shellThicknessMm": {
+          "minimum": 2.37658502686355,
+          "maximum": 3.1969116551749126,
+          "mean": 2.910653357179101,
+          "median": 2.9133074971033954,
+          "values": [
+            3.1969116551749126,
+            2.894684613769053,
+            2.717758995442166,
+            2.37658502686355,
+            3.182273950426592,
+            2.542117993067958,
+            3.1932731534515337,
+            2.9133074971033954,
+            3.1789673293127443
+          ]
+        },
+        "remainingShellAfterCommonFloorMm": {
+          "minimum": 1.0796416567294704,
+          "maximum": 1.9515818120590724,
+          "mean": 1.5081516979736738,
+          "values": [
+            1.9515818120590724,
+            1.4883848944880915,
+            1.5177589954421657,
+            1.0796416567294704,
+            1.714423849208706,
+            1.2936463080009188,
+            1.7366622542334147,
+            1.2855033318782114,
+            1.5057621797230132
+          ]
+        },
+        "criticalSample": 4,
+        "criticalOriginLocalUVWmm": [
+          0.5445465593287223,
+          -3.07389734548246,
+          0.3265605870090822
+        ],
+        "criticalInnerOuterHitsMm": [
+          5.983989491518738,
+          8.360574518382288
+        ],
+        "criticalRayIntersectsOpeningCutter": true,
+        "grazingSliverRayCountBelow0p50mm": 0,
+        "uniformContinuousWall": true,
+        "cause": "continuous local wall; common-floor curvature/thickness deficit",
+        "requiredMinimumInwardThickeningMm": 0.12035834327052952,
+        "reinforcementOnlyDiagnosticEstimate": {
+          "assumption": "full 1.90 x 1.60 mm slot footprint plus 0.60 mm structural margin on every side",
+          "minimumFootprintDimensionsMm": [
+            3.0999999999999996,
+            2.8
+          ],
+          "minimumFootprintAreaMm2": 8.679999999999998,
+          "minimumAddedVolumeMm3": 1.044710419588196,
+          "withinRequested2p5mmSweep": true
+        }
+      },
+      "classification": {
+        "category": "B",
+        "interpretation": "micro/small local shell-thickness deficit"
+      },
+      "loadPathIfMaterialExisted": "YES, conditional on sufficient continuous shell material; the straight leg axis itself is not the failure."
+    },
+    "I3 +U": {
+      "button": "I3",
+      "edge": "+U",
+      "shellOwner": "JfD",
+      "docs91SearchResult": "FAIL — NO USABLE SIDE-REGION SHELL LANDING",
+      "docs91TargetMapCount": 32,
+      "docs91ExactEvaluationCount": 160,
+      "docs91BestFailure": {
+        "edge": "+U",
+        "rootTangentCoordinateMm": 0.4,
+        "rootLocalUVWmm": [
+          3.985,
+          0.4,
+          0.06000000000000005
+        ],
+        "directionLocal": [
+          0.002657013327176359,
+          0.01771342218117557,
+          0.9998395746092523
+        ],
+        "tiltFromWDeg": 1.0263133763818324,
+        "tiltAzimuthDeg": 81.4692343900518,
+        "legThicknessMm": 1.3,
+        "effectiveFdmThicknessMm": 1.299791446992028,
+        "legTangentWidthMm": 1.6,
+        "footprintPairCoverage": 1,
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              4.785041893795753,
+              -0.5498509497778348,
+              0.07470174744206878
+            ],
+            "hitsMm": [
+              5.57042266314936,
+              8.685517930569423
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.185047543354216,
+              -0.5498509497778348,
+              0.07895363586546056
+            ],
+            "hitsMm": [],
+            "hasInnerOuterPair": false
+          }
+        ],
+        "feasible": false,
+        "failure": "INCOMPLETE_SLOT_FOOTPRINT",
+        "missingFootprintPairs": 8,
+        "targetSeedLocalUVmm": [
+          4.0,
+          0.5
+        ],
+        "targetSeedInnerLocalWmm": 5.704530821784896,
+        "targetSeedNormalShellThicknessMm": 3.101412607883062,
+        "searchBand": "<=30"
+      },
+      "missingFootprintOccupancy": {
+        "samples": [
+          {
+            "sample": 1,
+            "originLocalUVWmm": [
+              4.785041893795753,
+              -0.5498509497778347,
+              0.07470174744206877
+            ],
+            "ownerHitsMm": [
+              5.57042266314936,
+              8.685517930569423
+            ],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [],
+            "category": "owning-shell material",
+            "ownerPair": true
+          },
+          {
+            "sample": 2,
+            "originLocalUVWmm": [
+              3.185047543354216,
+              -0.5498509497778347,
+              0.07895363586546054
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              11.282856420784602
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 3,
+            "originLocalUVWmm": [
+              4.784952456645784,
+              1.3498509497778346,
+              0.04104636413453955
+            ],
+            "ownerHitsMm": [
+              5.355293456165456,
+              8.458722573151638
+            ],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [],
+            "category": "owning-shell material",
+            "ownerPair": true
+          },
+          {
+            "sample": 4,
+            "originLocalUVWmm": [
+              3.184958106204247,
+              1.3498509497778346,
+              0.04529825255793134
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              11.316517204136453
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 5,
+            "originLocalUVWmm": [
+              3.985044718574984,
+              -0.5498509497778347,
+              0.07682769165376466
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              9.709515828957114
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 6,
+            "originLocalUVWmm": [
+              3.9849552814250155,
+              1.3498509497778346,
+              0.04317230834623544
+            ],
+            "ownerHitsMm": [
+              5.556381648418882,
+              8.645435845783693
+            ],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [],
+            "category": "owning-shell material",
+            "ownerPair": true
+          },
+          {
+            "sample": 7,
+            "originLocalUVWmm": [
+              4.784997175220768,
+              0.4,
+              0.05787405578830416
+            ],
+            "ownerHitsMm": [
+              5.444336988993365,
+              8.558441697961467
+            ],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [],
+            "category": "owning-shell material",
+            "ownerPair": true
+          },
+          {
+            "sample": 8,
+            "originLocalUVWmm": [
+              3.1850028247792315,
+              0.4,
+              0.06212594421169595
+            ],
+            "ownerHitsMm": [],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              11.299686812460525
+            ],
+            "category": "button-opening void",
+            "ownerPair": false
+          },
+          {
+            "sample": 9,
+            "originLocalUVWmm": [
+              3.985,
+              0.4,
+              0.06000000000000005
+            ],
+            "ownerHitsMm": [
+              5.6454364931402425,
+              8.738536591409796
+            ],
+            "oppositeHitsMm": [],
+            "openingCutterHitsMm": [
+              1.983079324225502
+            ],
+            "category": "owning-shell material",
+            "ownerPair": true
+          }
+        ],
+        "counts": {
+          "owning-shell material": 5,
+          "button-opening void": 4
+        },
+        "ownerCoverageCount": 5,
+        "ownerCoveragePercent": 55.55555555555556,
+        "missingCount": 4,
+        "missingPercent": 44.44444444444444
+      },
+      "nearestLandMeasurement": {
+        "owningHalf": {
+          "referenceCenterLocalUVmm": [
+            4.0,
+            0.5
+          ],
+          "grid": {
+            "coarseStepMm": 0.25,
+            "refinementStepMm": 0.05,
+            "maximumRadiusMm": 7.0,
+            "evaluatedUniqueCenters": 1313
+          },
+          "nearestContinuousFullFootprint": {
+            "shellHalf": "JfD",
+            "distanceMm": 4.55,
+            "shiftLocalUVmm": [
+              0.0,
+              4.55
+            ],
+            "centerLocalUVmm": [
+              4.0,
+              5.05
+            ],
+            "fullFootprint": true,
+            "coverageCount": 9,
+            "minimumRemainingShellMm": 1.4686499928310495,
+            "shellThicknessRangeMm": [
+              3.0588374846228508,
+              3.0788586439642716
+            ],
+            "usableBlindSlot": true,
+            "samples": [
+              {
+                "originLocalUVWmm": [
+                  3.2,
+                  4.1,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.600031352551516,
+                  8.663774525706769
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.8,
+                  4.1,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.240120808434459,
+                  8.31897945239873
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  3.2,
+                  6.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.650329459567681,
+                  8.709166944190532
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.8,
+                  6.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.322375281082329,
+                  8.3939352200912
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.0,
+                  4.1,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.4245758776129485,
+                  8.496339475570808
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.0,
+                  6.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.4894476419044,
+                  8.554913055024507
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  3.2,
+                  5.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.611951539805396,
+                  8.672164623993202
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.8,
+                  5.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.267792359519557,
+                  8.341654410966775
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.0,
+                  5.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.443590492684635,
+                  8.510955006094763
+                ],
+                "paired": true
+              }
+            ],
+            "assignedSideIdentityPreserved": false,
+            "assignedSideTangentCoordinateMm": 5.05
+          },
+          "nearestUsableBlindSlotLand": {
+            "shellHalf": "JfD",
+            "distanceMm": 4.55,
+            "shiftLocalUVmm": [
+              0.0,
+              4.55
+            ],
+            "centerLocalUVmm": [
+              4.0,
+              5.05
+            ],
+            "fullFootprint": true,
+            "coverageCount": 9,
+            "minimumRemainingShellMm": 1.4686499928310495,
+            "shellThicknessRangeMm": [
+              3.0588374846228508,
+              3.0788586439642716
+            ],
+            "usableBlindSlot": true,
+            "samples": [
+              {
+                "originLocalUVWmm": [
+                  3.2,
+                  4.1,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.600031352551516,
+                  8.663774525706769
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.8,
+                  4.1,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.240120808434459,
+                  8.31897945239873
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  3.2,
+                  6.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.650329459567681,
+                  8.709166944190532
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.8,
+                  6.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.322375281082329,
+                  8.3939352200912
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.0,
+                  4.1,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.4245758776129485,
+                  8.496339475570808
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.0,
+                  6.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.4894476419044,
+                  8.554913055024507
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  3.2,
+                  5.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.611951539805396,
+                  8.672164623993202
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.8,
+                  5.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.267792359519557,
+                  8.341654410966775
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  4.0,
+                  5.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.443590492684635,
+                  8.510955006094763
+                ],
+                "paired": true
+              }
+            ],
+            "assignedSideIdentityPreserved": false,
+            "assignedSideTangentCoordinateMm": 5.05
+          }
+        },
+        "oppositeHalf": {
+          "referenceCenterLocalUVmm": [
+            4.0,
+            0.5
+          ],
+          "grid": {
+            "coarseStepMm": 0.25,
+            "refinementStepMm": 0.05,
+            "maximumRadiusMm": 7.0,
+            "evaluatedUniqueCenters": 1465
+          },
+          "nearestContinuousFullFootprint": {
+            "shellHalf": "JaD",
+            "distanceMm": 2.0155644370746373,
+            "shiftLocalUVmm": [
+              2.0,
+              0.25
+            ],
+            "centerLocalUVmm": [
+              6.0,
+              0.75
+            ],
+            "fullFootprint": true,
+            "coverageCount": 9,
+            "minimumRemainingShellMm": -3.113559364376165,
+            "shellThicknessRangeMm": [
+              0.025595822589184358,
+              3.043369003463444
+            ],
+            "usableBlindSlot": false,
+            "samples": [
+              {
+                "originLocalUVWmm": [
+                  5.2,
+                  -0.19999999999999996,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.4380230219312855,
+                  5.46361884452047
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.8,
+                  -0.19999999999999996,
+                  0.06
+                ],
+                "hitsMm": [
+                  7.377178208896635,
+                  8.594175229948457
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.2,
+                  1.7,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.216423312316803,
+                  5.46361884452047
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.8,
+                  1.7,
+                  0.06
+                ],
+                "hitsMm": [
+                  7.189156019997705,
+                  8.366609450503812
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.0,
+                  -0.19999999999999996,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.511208866783975,
+                  8.55457787024742
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.0,
+                  1.7,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.28850918597265,
+                  8.309762489679413
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.2,
+                  0.75,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.307128579346202,
+                  5.46361884452047
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.8,
+                  0.75,
+                  0.06
+                ],
+                "hitsMm": [
+                  7.2831671144471715,
+                  8.469555400178745
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.0,
+                  0.75,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.382832178650294,
+                  8.416249693557694
+                ],
+                "paired": true
+              }
+            ],
+            "assignedSideIdentityPreserved": true,
+            "assignedSideTangentCoordinateMm": 0.75
+          },
+          "nearestUsableBlindSlotLand": {
+            "shellHalf": "JaD",
+            "distanceMm": 5.008991914547277,
+            "shiftLocalUVmm": [
+              2.2,
+              4.5
+            ],
+            "centerLocalUVmm": [
+              6.2,
+              5.0
+            ],
+            "fullFootprint": true,
+            "coverageCount": 9,
+            "minimumRemainingShellMm": 1.390666326748324,
+            "shellThicknessRangeMm": [
+              2.6558250629289484,
+              3.0081309289985603
+            ],
+            "usableBlindSlot": true,
+            "samples": [
+              {
+                "originLocalUVWmm": [
+                  5.4,
+                  4.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.166673886591122,
+                  7.903693164236579
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  7.0,
+                  4.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.263274285483142,
+                  8.266504380273721
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.4,
+                  5.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.24786810130763,
+                  7.903693164236579
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  7.0,
+                  5.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.3130268374882546,
+                  8.318830653669954
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.2,
+                  4.05,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.218869497609848,
+                  8.223804962973533
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.2,
+                  5.95,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.283134520943697,
+                  8.291265449942257
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  5.4,
+                  5.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.193971807278958,
+                  7.903693164236579
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  7.0,
+                  5.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.2750277213412025,
+                  8.278201970322003
+                ],
+                "paired": true
+              },
+              {
+                "originLocalUVWmm": [
+                  6.2,
+                  5.0,
+                  0.06
+                ],
+                "hitsMm": [
+                  5.237725536903246,
+                  8.24289448154932
+                ],
+                "paired": true
+              }
+            ],
+            "assignedSideIdentityPreserved": false,
+            "assignedSideTangentCoordinateMm": 5.0
+          }
+        }
+      },
+      "classification": {
+        "category": "A",
+        "interpretation": "no usable land / incomplete footprint"
+      },
+      "loadPathIfMaterialExisted": "CONDITIONAL ONLY: the straight member is structurally direct, but the current endpoint has no continuous reaction land."
+    },
+    "I3 -U": {
+      "button": "I3",
+      "edge": "-U",
+      "shellOwner": "JfD",
+      "docs91SearchResult": "FAIL — NO USABLE SIDE-REGION SHELL LANDING",
+      "docs91TargetMapCount": 78,
+      "docs91ExactEvaluationCount": 390,
+      "docs91BestFailure": {
+        "edge": "-U",
+        "rootTangentCoordinateMm": 0.0,
+        "rootLocalUVWmm": [
+          -3.985,
+          0.0,
+          0.06000000000000005
+        ],
+        "directionLocal": [
+          -0.16783736433978003,
+          2.0554149101603972e-17,
+          0.9858146981717588
+        ],
+        "tiltFromWDeg": 9.662102586887702,
+        "tiltAzimuthDeg": 180.0,
+        "legThicknessMm": 1.3,
+        "effectiveFdmThicknessMm": 1.2815591076232864,
+        "legTangentWidthMm": 1.6,
+        "footprintPairCoverage": 9,
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              -3.1963482414625926,
+              -0.9500000000000001,
+              0.1942698914718241
+            ],
+            "hitsMm": [
+              5.887322514029994,
+              8.932403610541956
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -4.773651758537407,
+              -0.9500000000000001,
+              -0.07426989147182395
+            ],
+            "hitsMm": [
+              6.580073078242685,
+              8.899739729876696
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.1963482414625926,
+              0.9500000000000001,
+              0.19426989147182405
+            ],
+            "hitsMm": [
+              6.162070493370985,
+              9.182802442472157
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -4.773651758537407,
+              0.9500000000000001,
+              -0.074269891471824
+            ],
+            "hitsMm": [
+              6.182971609125135,
+              9.215510768147848
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.985,
+              -0.9500000000000001,
+              0.060000000000000074
+            ],
+            "hitsMm": [
+              5.873189424377212,
+              8.928247214391833
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.985,
+              0.9500000000000001,
+              0.06000000000000003
+            ],
+            "hitsMm": [
+              6.1881475536487835,
+              9.212483562457317
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.1963482414625926,
+              -3.0814879110195775e-34,
+              0.19426989147182408
+            ],
+            "hitsMm": [
+              6.043072845486323,
+              9.072210475995954
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -4.773651758537407,
+              3.0814879110195775e-34,
+              -0.07426989147182397
+            ],
+            "hitsMm": [
+              6.022654783171946,
+              9.070568613450387
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              -3.985,
+              0.0,
+              0.06000000000000005
+            ],
+            "hitsMm": [
+              6.047521086813381,
+              9.084149030622582
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "feasible": false,
+        "failure": "INSUFFICIENT_REMAINING_SHELL",
+        "missingFootprintPairs": 0,
+        "legLengthMm": 9.180073078242685,
+        "functionalLengthMm": 7.780073078242685,
+        "floorPointLocalUVWmm": [
+          -5.290786959823132,
+          1.5991278207157513e-16,
+          7.729710393382039
+        ],
+        "tangentLocal": [
+          3.4497542114600683e-18,
+          1.0,
+          -2.0262582292775046e-17
+        ],
+        "structuralLocal": [
+          -0.9858146981717588,
+          3.851859888774472e-34,
+          -0.16783736433978003
+        ],
+        "minimumRemainingShellMm": 1.1196666516340112,
+        "shellThicknessFootprintRangeMm": [
+          2.3196666516340114,
+          3.0550577900146214
+        ],
+        "minimumBlindInsertionDepthMm": 1.2,
+        "targetSeedLocalUVmm": [
+          -5.0,
+          0.0
+        ],
+        "targetSeedInnerLocalWmm": 6.021735174884277,
+        "targetSeedNormalShellThicknessMm": 3.075439587628723,
+        "searchBand": "<=30"
+      },
+      "thicknessDiagnostic": {
+        "rayCount": 9,
+        "floorDistanceFromRootMm": 7.780073078242685,
+        "innerHitRangeMm": [
+          5.873189424377212,
+          6.580073078242685
+        ],
+        "innerSurfaceDepthSpanMm": 0.7068836538654732,
+        "outerHitRangeMm": [
+          8.899739729876696,
+          9.215510768147848
+        ],
+        "shellThicknessMm": {
+          "minimum": 2.3196666516340114,
+          "maximum": 3.0550577900146214,
+          "mean": 2.956788006632254,
+          "median": 3.032539159022712,
+          "values": [
+            3.0450810965119617,
+            2.3196666516340114,
+            3.0207319491011724,
+            3.032539159022712,
+            3.0550577900146214,
+            3.0243360088085334,
+            3.0291376305096307,
+            3.047913830278441,
+            3.0366279438092008
+          ]
+        },
+        "remainingShellAfterCommonFloorMm": {
+          "minimum": 1.1196666516340112,
+          "maximum": 1.4354376899051626,
+          "mean": 1.2863841937525071,
+          "values": [
+            1.1523305322992705,
+            1.1196666516340112,
+            1.4027293642294723,
+            1.4354376899051626,
+            1.148174136149148,
+            1.432410484214632,
+            1.2921373977532689,
+            1.290495535207702,
+            1.3040759523798968
+          ]
+        },
+        "criticalSample": 2,
+        "criticalOriginLocalUVWmm": [
+          -4.773651758537407,
+          -0.9500000000000001,
+          -0.07426989147182395
+        ],
+        "criticalInnerOuterHitsMm": [
+          6.580073078242685,
+          8.899739729876696
+        ],
+        "criticalRayIntersectsOpeningCutter": false,
+        "grazingSliverRayCountBelow0p50mm": 0,
+        "uniformContinuousWall": true,
+        "cause": "continuous local wall; common-floor curvature/thickness deficit",
+        "requiredMinimumInwardThickeningMm": 0.08033334836598871,
+        "reinforcementOnlyDiagnosticEstimate": {
+          "assumption": "full 1.90 x 1.60 mm slot footprint plus 0.60 mm structural margin on every side",
+          "minimumFootprintDimensionsMm": [
+            3.0999999999999996,
+            2.8
+          ],
+          "minimumFootprintAreaMm2": 8.679999999999998,
+          "minimumAddedVolumeMm3": 0.6972934638167818,
+          "withinRequested2p5mmSweep": true
+        }
+      },
+      "classification": {
+        "category": "B",
+        "interpretation": "micro/small local shell-thickness deficit"
+      },
+      "loadPathIfMaterialExisted": "YES, conditional on sufficient continuous shell material; the straight leg axis itself is not the failure."
+    },
+    "I4 +U": {
+      "button": "I4",
+      "edge": "+U",
+      "shellOwner": "JaD",
+      "docs91SearchResult": "FAIL — NO USABLE SIDE-REGION SHELL LANDING",
+      "docs91TargetMapCount": 32,
+      "docs91ExactEvaluationCount": 160,
+      "docs91BestFailure": {
+        "edge": "+U",
+        "rootTangentCoordinateMm": -0.4,
+        "rootLocalUVWmm": [
+          3.985,
+          -0.4,
+          0.06000000000000005
+        ],
+        "directionLocal": [
+          0.08913137230343238,
+          -0.19037768841509822,
+          0.9776563477137714
+        ],
+        "tiltFromWDeg": 12.134634203109158,
+        "tiltAzimuthDeg": -64.91186087407301,
+        "legThicknessMm": 1.3,
+        "effectiveFdmThicknessMm": 1.2709532520279028,
+        "legTangentWidthMm": 1.6,
+        "footprintPairCoverage": 9,
+        "samples": [
+          {
+            "originLocalUVWmm": [
+              4.765275401916705,
+              -1.3326253765675347,
+              -0.19274533456819415
+            ],
+            "hitsMm": [
+              5.806561726251683,
+              7.135871878251807
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.171883579367125,
+              -1.3326253765675347,
+              -0.047478339582660775
+            ],
+            "hitsMm": [
+              8.896530174883045,
+              9.0231418766664
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              4.7981164206328755,
+              0.5326253765675346,
+              0.1674783395826609
+            ],
+            "hitsMm": [
+              5.596340456038159,
+              6.767415543883152
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.2047245980832946,
+              0.5326253765675346,
+              0.31274533456819426
+            ],
+            "hitsMm": [
+              8.776087507197781,
+              8.796556988931496
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.968579490641915,
+              -1.3326253765675347,
+              -0.12011183707542747
+            ],
+            "hitsMm": [
+              5.897654575343628,
+              8.948624883247394
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              4.001420509358085,
+              0.5326253765675346,
+              0.24011183707542758
+            ],
+            "hitsMm": [
+              5.694495937258843,
+              8.7207336981024
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              4.78169591127479,
+              -0.4,
+              -0.01263349749276664
+            ],
+            "hitsMm": [
+              5.681309293211244,
+              6.951643711067497
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.18830408872521,
+              -0.4,
+              0.13263349749276676
+            ],
+            "hitsMm": [
+              8.836308841040413,
+              8.89283387681912
+            ],
+            "hasInnerOuterPair": true
+          },
+          {
+            "originLocalUVWmm": [
+              3.985,
+              -0.4,
+              0.06000000000000005
+            ],
+            "hitsMm": [
+              5.777988004568932,
+              8.81510773523202
+            ],
+            "hasInnerOuterPair": true
+          }
+        ],
+        "feasible": false,
+        "failure": "INSUFFICIENT_REMAINING_SHELL",
+        "missingFootprintPairs": 0,
+        "legLengthMm": 11.496530174883045,
+        "functionalLengthMm": 10.096530174883044,
+        "floorPointLocalUVWmm": [
+          4.88491758999034,
+          -2.3221540757075214,
+          9.930936815358043
+        ],
+        "tangentLocal": [
+          0.017284746692720943,
+          0.981710922702668,
+          0.18959140744781844
+        ],
+        "structuralLocal": [
+          -0.9958698890934877,
+          0.0,
+          0.09079187186595836
+        ],
+        "minimumRemainingShellMm": -3.329114630999893,
+        "shellThicknessFootprintRangeMm": [
+          0.020469481733714545,
+          3.050970307903766
+        ],
+        "minimumBlindInsertionDepthMm": 1.2,
+        "targetSeedLocalUVmm": [
+          4.5,
+          -1.5
+        ],
+        "targetSeedInnerLocalWmm": 5.708886649680842,
+        "targetSeedNormalShellThicknessMm": 3.0722155074396564,
+        "searchBand": "<=30"
+      },
+      "thicknessDiagnostic": {
+        "rayCount": 9,
+        "floorDistanceFromRootMm": 10.096530174883044,
+        "innerHitRangeMm": [
+          5.596340456038159,
+          8.896530174883045
+        ],
+        "innerSurfaceDepthSpanMm": 3.3001897188448863,
+        "outerHitRangeMm": [
+          6.767415543883152,
+          9.0231418766664
+        ],
+        "shellThicknessMm": {
+          "minimum": 0.020469481733714545,
+          "maximum": 3.050970307903766,
+          "mean": 1.4542948529341733,
+          "median": 1.2703344178562528,
+          "values": [
+            1.329310152000124,
+            0.12661170178335546,
+            1.1710750878449927,
+            0.020469481733714545,
+            3.050970307903766,
+            3.026237760843557,
+            1.2703344178562528,
+            0.05652503577870682,
+            3.037119730663089
+          ]
+        },
+        "remainingShellAfterCommonFloorMm": {
+          "minimum": -3.329114630999893,
+          "maximum": -1.0733882982166438,
+          "mean": -1.868537931305124,
+          "values": [
+            -2.9606582966312374,
+            -1.0733882982166438,
+            -3.329114630999893,
+            -1.2999731859515489,
+            -1.1479052916356505,
+            -1.3757964767806445,
+            -3.1448864638155474,
+            -1.2036962980639245,
+            -1.281422439651024
+          ]
+        },
+        "criticalSample": 3,
+        "criticalOriginLocalUVWmm": [
+          4.7981164206328755,
+          0.5326253765675346,
+          0.1674783395826609
+        ],
+        "criticalInnerOuterHitsMm": [
+          5.596340456038159,
+          6.767415543883152
+        ],
+        "criticalRayIntersectsOpeningCutter": false,
+        "grazingSliverRayCountBelow0p50mm": 3,
+        "uniformContinuousWall": false,
+        "cause": "footprint straddles an opening/shell edge; short hit pairs are grazing shell slivers",
+        "requiredMinimumInwardThickeningMm": 4.529114630999893,
+        "reinforcementOnlyDiagnosticEstimate": {
+          "assumption": "full 1.90 x 1.60 mm slot footprint plus 0.60 mm structural margin on every side",
+          "minimumFootprintDimensionsMm": [
+            3.0999999999999996,
+            2.8
+          ],
+          "minimumFootprintAreaMm2": 8.679999999999998,
+          "minimumAddedVolumeMm3": 39.31271499707906,
+          "withinRequested2p5mmSweep": false
+        }
+      },
+      "classification": {
+        "category": "D",
+        "interpretation": "opening/edge-straddling or architecture-level landing"
+      },
+      "loadPathIfMaterialExisted": "CONDITIONAL ONLY: the straight member is structurally direct, but the current endpoint has no continuous reaction land."
+    }
+  },
+  "outputs": {
+    "renders": [
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/01_n2_plus_usection.png",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/02_n2_plus_vsection.png",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/03_n2_minus_vsection.png",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/04_i3_plus_usection.png",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/05_i3_minus_usection.png",
+      "renders/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/06_i4_plus_usection.png"
+    ],
+    "report": "docs/92_six_failed_leg_shell_landing_failure_mode_diagnostic_audit.md",
+    "json": "build123d_workbench/out/six_failed_leg_shell_landing_failure_mode_diagnostic_audit/six_failed_leg_shell_landing_failure_mode_diagnostic_audit.json",
+    "stepSolutionArtifactCount": 0
+  },
+  "preservation": {
+    "protectedFilesUnchanged": true,
+    "protectedFileCount": 206,
+    "hashesBefore": {
+      "build123d_workbench/eight_button_four_edge_batch_propagation_screening.py": "14195D0514B25CC63B8F0DD9CE17B44839F0938F9673356FAC01B2FD2A83CE5C",
+      "build123d_workbench/finger_controls_v2.py": "AB902A423C2932A08864B5AAAE5F3B03D92902BA8D8707FB546E28B6EE5466F3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "DB15C811E1E47CF3533EFD7AF5818DCF03F41BF4A0C9B7CA404231A1B3BADFB9",
+      "build123d_workbench/i2_assembly_sequence_only_audit.py": "4F29B8B3CA601EE98DB2AD8FA8B8F929CD13B3D4D4E8C354C3D86487000877EB",
+      "build123d_workbench/i2_detailed_pushbtn_manufacturing_robust_audit.py": "3D44A58E56FF683B522EBCAC53426D4888711277EF160195EA8A9EDEB41D8646",
+      "build123d_workbench/i2_final_local_clearance_balancing_audit.py": "0DD5B59B8F2ABC6679C2BB3C9904A2442A6521ED4B8EE460D8EF3355390F757F",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "D62577FD138F85EFB9CA096999825C727979F91D9511D40FC16B62055FE96342",
+      "build123d_workbench/i2_local_manufacturing_clearance_hardening_audit.py": "DE0278AE9D824926BF21F4601054172FEB7F3B6D726D1ECDF04B11969CB28D37",
+      "build123d_workbench/i2_manufacturing_harness_rebase_audit.py": "B8CC0F03601136B250DA3F80098F07EF266E05C4C4C8C7DA5B67FD8A36451744",
+      "build123d_workbench/i2_minimum_angle_direct_shell_assembly_audit.py": "B529734126741EF2246DD00A607659F0971088371F66B284DCEF3C63ACF71A65",
+      "build123d_workbench/i2_user_intended_rear_harness_sanity_check.py": "A103CC6DCB981D073B85EF4DE876FCFA9837F9663357AB4D62829FE868C434DB",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "C6BFD2509133D17A1380D576328128DEC6B3ED077D81A14765A2EE1B4F9FBCD8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "F583CCF6B5F488F458D2BDA6DA519BFDB1A0CEFD3270116A8AAA7E3F8A820F2D",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815CEB40DF97F177485474014EDC866925CC9883AE72202DECCB4C3BC383126B",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848C98DD1883F50ABE096EACBF76F023558E0D9E9C44BFA576A8E59F9038",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/direct_shell_four_edge_i2_simplification_audit.json": "8F7BB015F7A6D0B42E8611E43F5D121166070B536CC5960602B860B1208EC740",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5C0ADBBA04089EB2D9F3C0637C1AC1F91D211B5517F428C39A541443BBA4FF47",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_LOCAL_CROP_WITH_BLIND_SLOTS_AUDIT_ONLY.step": "247D9EAFC8BF0324AAA21167626CF34DC437D7F921F1A516A48B0C18D9AF1C65",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_SIMPLIFIED_FULL_ASSEMBLY_AUDIT_ONLY.step": "C4E2805DB4502EA40BAB27BE7D3B8A16C573741538E699ADA6B4B27633A549E1",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_DIRECT_SHELL_SLOT_CROPS_AUDIT_ONLY.step": "9E6C1B585D9EF1B67ECBF4AE69EF64ED8E0CE6E3F400003CF85353E5AB096F37",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_SELECTED_FOUR_EDGE_HARNESSES_AUDIT_ONLY.step": "8242905BE433F1126C815B4B2DD7DA848EAB7FCD4CEB751E1F6FB2E439466BD5",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/eight_button_four_edge_batch_propagation_screening.json": "DF3BB31B8D2EBD4B4BC62B4CF6D7E2E14AB367ADFA16DA230AE000ADCB751EFE",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M3_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CE62E216BEBCB7FEED084EA3AF7A83D84D0DE1F69052ECA12B172A49A66BCAEF",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M4_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "B15F5CBB9A52C6E44CA9A8DE77EB73C245028AFBA369D04720A227653360A346",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/N1_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "7D20863518E0D0D0BF0A87CD042B28635D453E6F7C8654DD74567559D0A8D94B",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7DC5C5F5F2C01445F86B60CC56FE4FE271D7E50793394130DB127EEA48317B2E",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744B39AB532AD767AFB36DDFD89A37EA13126DED9F9484246D54991ACDE1FA",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "C50194CD7AB892FC2C0BBE7991E78EEE9645C1B1DF1BD613364B97A2C3D17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9CBA1CFA8E9B01D36308983FC0CF163326925817534A22CCB554B85D4A93521A",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72C15567C6C2C7F57667F28F4190BD5E584F7572D4DE36886E37E7890ABBC1E0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "BDB77197E59EA22FFBB4AA55E61B7B5382EEE75E8399F9DDAE1339F2EB5CA752",
+      "build123d_workbench/out/i2_assembly_sequence_only_audit/i2_assembly_sequence_only_audit.json": "BFA4B4B924653C2E90CEABB35CA4248F41C24045B3CC774790F300294C1486A7",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/i2_detailed_pushbtn_manufacturing_robust_audit.json": "5870D8B6B040CF5A0D9387C3ED5511FAF83A84E177E219EF5E2790662F0D2570",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CF5C01C4789B9365026EF7E273645217F3F4C60E6A69EDE73C714C73D4987726",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FULL_ASSEMBLY_AUDIT_ONLY.step": "BD25F381E8C433D8E57DF66D5D8189868DF710B3625A9FB590597227B0A723E4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ORIGINAL_PUSHBTN_MEASURED_ACTUATOR_HYBRID_AUDIT_ONLY.step": "CAFE8E1EB8F5DBDFABB06A688031DD47661F61418532CF786DA9A55694CB9EA4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ROBUST_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "77868C8BCCC353F680A9ADFF252B87CA17CC8F3AEEC9E8D5F9F7C39F4E0F7EAB",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/ORIGINAL_ONEGRIP_PUSHBTN_3530_FACET_REFERENCE_AUDIT_ONLY.step": "D5C756A44095DD0EE425713875D1AA2445EF52684EF2761C9EF6F49AD5C124F2",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/I2_FINAL_BALANCED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "CABCE30A0D521289C17C26FFE571DC400FD0A50EA744FB937AACE8B4385F50E8",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/i2_final_local_clearance_balancing_audit.json": "9D096B8D3979398BB4E69F34D6975332C1A11373BE318D06B2DA9D3263D8C4BE",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/I2_LOCAL_HARDENED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "7DAD735A530A9F0FE427C3FF803B2AB90789CAEA966D98145ED11D331846A1B8",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/i2_local_manufacturing_clearance_hardening_audit.json": "58FCC22EE27359A438C52525605060C834753FAA1B3650EBE8DA47B8C44C9766",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "98FF73FAAC30E50205734A4E77700ABC8D3013B283B9A27261C095D9D3A8848B",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "E9EF156E96A0B148F11D908B0D5F18EFC7CA3F5484E3B419AF658B93D4DC1E44",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/i2_manufacturing_harness_rebase_audit.json": "983EEA2F133C7364E23705B4FE72AC3657A3993314CC9880CB2E49C7DE32A6C0",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/i2_minimum_angle_direct_shell_assembly_audit.json": "D9E17A1F875339AD250D71700E669AE5492E3F85AD953F0EB60BEC055FE1037D",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "4D77E4CA9C148AF51C073AD96FEE25DA45189E87EC90650FC7F3E0AA172EB231",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_SLOT_SHELL_CROP_AUDIT_ONLY.step": "CD8DB817B5988F8AF40CB54294A6F7C7336085B96814BDCE639768118792C67E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FULL_SEATED_ASSEMBLY_AUDIT_ONLY.step": "C8D9595D66DABEF276099E58CDB6B21291437B1D84D9128E43F16295E002151E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/minimum_angle_search_cache.json": "D50851B1BCA8CC0D520C2493285A97DC2F36648258C8F1E7DAC70D402DFF9E5A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_MINUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "ED7DEA16202D618590862E660C86F770EE601D6F5B5EDE34B5D43581A11AFB4A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/i2_parallel_w_four_edge_leg_revalidation_audit.json": "478B23FB308C3202276DF038FE061AE91C283504A03DB16E4A1098B8A397FD57",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_PLUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "9EB24AAF59BDC27D767697DA477C4ECC80F7A476471DCF02AC829F7F88F9BA42",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/I2_PARALLEL_W_ROOT_SLIDE_BEST_FAILURE_PROBES_AUDIT_ONLY.step": "134D79340A6CB7AAC2C1B5BFE75446454D1FBA2D98664FC6FE739B5A831DB858",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/i2_parallel_w_root_slide_simplification_audit.json": "96E26A8CB93FD7136BC230F27E3AFDAC634F72BFEAA5888B7BC868204647770F",
+      "build123d_workbench/out/i2_user_intended_rear_harness_sanity_check/i2_user_intended_rear_harness_sanity_check.json": "8D0DE73DBBCD4DEAC3DB07BF109C7AEE8F6F883419757E467BD9F91CEE114870",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "B223757EE25FDD5EDDF710B8666BCD388D4221235D8D876F620EB0005D5B75B6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "D1BF68B105DCE11374AB1F89981EE503A5591D2FF7FA5175777432171855BF7F",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/N3_RESCUED_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5DA34C85A3B4F59A9195FA2297AB44BCA7A14B5044B1ADC5DB0D5F9FE719E358",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/seven_unresolved_leg_root_shell_target_rescue_audit.json": "3DC48CBCF290F10753756617363A3A6E369D33BFD4375C7FE389A1F0CB6314DA",
+      "build123d_workbench/seven_unresolved_leg_root_shell_target_rescue_audit.py": "1B4CD0ABDEF42D39B568A85548E7735C3B25031DDDA6F9DE0B973DE49B23804F",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "A42634C3A617F900F51650D7820CAD177DE623EA568F5F9948DC96BFC8DE54C3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069E535B5F5CAC9C5D8696FE23719959A95B3DAEFB064086DAB899993CDB1A64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "AF0EA969CC11C62D9CE1CDA4EE6C117372F83BAA0207E2742544CFE08D2E2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568A6DFEE254585B8CDFD83D86141C1554CDCE3274ED0148F22DE576FB0",
+      "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md": "97EB813D7F69573B983A0339D83793B9A365CA5A0742B5B1D5BC9FA4898E0897",
+      "docs/84_i2_detailed_pushbtn_manufacturing_robust_audit.md": "2A7BFC9573066072641B59FE22607C86183982A99D6DCCCC8229F60737B0D501",
+      "docs/85_i2_assembly_sequence_only_audit.md": "2F56970AB0A3DA56B2C58B2827FE8617FEDCFE1DE3B3C237DC336E61D5AC5F9D",
+      "docs/86_i2_manufacturing_harness_rebase_audit.md": "CA0D56D081DB76A05A7B93DB2CAD47661FE40C47F842E6E21CE86A90D3D4FFA6",
+      "docs/87_i2_user_intended_rear_harness_assembly_sanity_check.md": "017C910CAAB36017C7148805AC9241A3494276C2CC23B85C21D1E1E470DEDBF4",
+      "docs/88_i2_local_manufacturing_clearance_hardening_audit.md": "FB84748FD52127BF378E35B85E6372A40F64D9853FD3E0BE9C6796AA2CEB7CDB",
+      "docs/89_i2_final_local_clearance_balancing_audit.md": "20428B63BCE5D31FCD9D107EE6E22E65B3D6789A44F114E479622C09DAF3FF9E",
+      "docs/90_eight_button_four_edge_batch_propagation_screening.md": "2878CE20DA38C4F78A90035FEA85BD8E9069B5FBCB3E0F6FD56BD86EE8F623DB",
+      "docs/91_seven_unresolved_leg_root_shell_target_rescue_audit.md": "06D254D43F5545926CC476DF20BD84DD362EFC76EB8D30A558D083FB3DD799AD",
+      "renders/direct_shell_four_edge_i2_simplification_audit/01_current_docs79_i2_full_stack_exploded_named.png": "CAF5CE4982298EC7D5ACDC76C06BA9F39C3A24D4C7F873900D56DE64E5668B35",
+      "renders/direct_shell_four_edge_i2_simplification_audit/02_current_receiver_panel_strut_closeup.png": "BDC894AE77D34C8987EF9F01D5D3C26D8EEE8C35D2ED7A8B6D5F18E5B1CD7C04",
+      "renders/direct_shell_four_edge_i2_simplification_audit/03_simplified_direct_shell_candidate_top.png": "BFA9787EF3995EFF923EF420AFFFCD3F69BF607AB772F1942BC5DCA42D0167DC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/04_simplified_candidate_isometric.png": "D96824137BE24E0940FE5B5C10DE4988AD420FC23A835E1199BBF75500D7E31C",
+      "renders/direct_shell_four_edge_i2_simplification_audit/05_section_plus_u_minus_u_legs.png": "3B0911318CD4C67FA5409B39E890FE58C36B3263B72E5D002CAB20421AF8A46D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/06_section_plus_v_minus_v_legs.png": "033AFC3AB2F97C276DD74E78F00EF54D1824992BC18BB8AE6430E6CB35DE948D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/07_four_shell_blind_slots_only.png": "83E219A77ED59503B165BCCD6DFC166D5518D29E3B742B96C6B23DF4DA195917",
+      "renders/direct_shell_four_edge_i2_simplification_audit/08_its_harness_four_legs_only.png": "3EC2F8A1CFBBDB056E1FABE826CC4A386C636C097DF832698770EFA9FCF8EBBC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/09_full_simplified_assembly.png": "16DEF17EC662267C0D0DB84680FFA42ACF6E770E1F284FC022937F8B91314F33",
+      "renders/direct_shell_four_edge_i2_simplification_audit/10_current_vs_simplified_comparison.png": "EDFD6780829726C0C7DA4FDFE7AFD3ED5803323AAE26DD75CD3B055E1A2E9B1E",
+      "renders/eight_button_four_edge_batch_propagation_screening/01_all8_exterior_context_overview.png": "F6199A4565F7994C4D99EF423E926A2487050A6566F1B818A6ABDE3C169DC9BE",
+      "renders/eight_button_four_edge_batch_propagation_screening/02_all8_shell_interior_harness_overview.png": "673D16DEB5EA78A36A69B1FB3CBAC930F7A97839C6A01C6F4780CB1C935CFD7B",
+      "renders/eight_button_four_edge_batch_propagation_screening/03_all8_top_local_axis_overview.png": "30671A7CCDA7B51DAC5D4E7838FFA9E73E42EE8689F1CEBD1D90161A0169006B",
+      "renders/eight_button_four_edge_batch_propagation_screening/04_all32_legs_angle_visualization.png": "5EBB3E029F1863F715958D0B95FC340905420C4F62E16A8DD0BF5BD3B39EABC6",
+      "renders/eight_button_four_edge_batch_propagation_screening/05_tightest_neighboring_pair_closeup.png": "AD89C59DC099968D35B455AE75319FEF5C2598005FA7455D37998823AA373A83",
+      "renders/eight_button_four_edge_batch_propagation_screening/06_worst_shell_footprint_closeup.png": "2E1766171842DC6D26D441646D092C7A5A071914C4A0684956013F2B659C8026",
+      "renders/eight_button_four_edge_batch_propagation_screening/07_n2_seam_closeup.png": "BE6B6E67FFD92D4EE4DE4A591F528B423C427AFE249E9B05CC103ADAC2681510",
+      "renders/eight_button_four_edge_batch_propagation_screening/08_i2_reference_closeup.png": "2898C00368A651B33BC3402339787733171C9798AAD86378F33A0E8F1901D008",
+      "renders/eight_button_four_edge_batch_propagation_screening/09_worst_local_variant_closeup.png": "8C7385F33DB0681A1829F75B9382A414C9B6606FA4A855BD16CB9B9E251474B3",
+      "renders/eight_button_four_edge_batch_propagation_screening/10_fail_closeup.png": "73BC76E81F4DFAC56AB945EF851F837348EC0EE224FCC5AC2F99AF55A86921F5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9A7ECFF9562A2FEFE255AD5C8705128E929CE0FF81B8E83FF83D49DF7C7371D5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28B9F704BFC64B8FF22F1B9CD3164CCC319EE2AAA5711AF2F3404CC8D0F09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5D7075D2B6BB2524B0EBCF8DC0DD782AFCD8248C3F25319248C0556B2E72D0CE",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2A4F286F6D1A456132E8CD76EB254E8F6CFE0B1A6F2A3590BA7B94CC88CFCD9F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "F2154C55A194FC26B75DDFBDB24C250B285C62D6D6C9ED471BA544864DA28F96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "EF0FF029D1B6DBEA6907C2EA11124F42B5FFE0B9F63F735019EB8B6376ADE54E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "FB46FDBF211571434689DD4E5C2FA6AB407E79FE00B3593664196B54C09ACC25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "B39E30FB31D6A5944E8F3445535E93F4ACE74939879A9FDBA87DBAE74DD552CB",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "C2C5D2B635CE5421B0F4010E2EE6DC26F643135F9F1AEE75024C8CB34A2EDEBF",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "F53B684898C0DE0D786C324BBC8285AFCBAC607318C9397A9A8ACFFC3899BD2F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718D09E0F411F98BB8E8A4A11723115A0C2449C3C4825DC0F27611E9F52531CA",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5A30592C3EBB92EAFE8542A1EADCC6922F03D8950262415FF984B7898099BA95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ED937CF499C3EC5D0C1A15EBAB115672407802901C323DB74078F4F5DFA2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16D6D796D6DC8799635EE16FE806599B1E9E213816B56A18C065CE30217CC5F0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006EFF308701A5DFCB16172A3D0255DE7C872449A76890C04CF28EA36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "C7441BDF1339677768308C9C984A15E4B553B05E401AF9F3CE1320C8242B0FD9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "E4B687BBEEAC298301CEEFA70D018DEF4F5C9E38A6D2E6EB7A3991AA9F94763E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "EB5D37680E460DCEDE1CF9FF886CFC96B60C6718220CD366F97B7410FBAB80BC",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832EB2AED99CC37130A0CD1B7EE4DAF0E5E459A87ECFF2F2EEB0E46B17E1DFEA",
+      "renders/i2_assembly_sequence_only_audit/01_sequence_a_i2_harness_start.png": "82CEC57D71460DFEE57B67747E7F69F04DD1B261E5A217C74A67E007F06F8AAD",
+      "renders/i2_assembly_sequence_only_audit/02_sequence_a_i2_harness_partial.png": "B0410AC9907DD23EE0FB2E974B122B90093A88C8E0962752B9C51B1CC7A5ECB9",
+      "renders/i2_assembly_sequence_only_audit/03_sequence_a_i2_harness_full_seat.png": "136C57DCA9043D73A52C6BF582B957D8DAF3B2164DD2352DF3F1D65CAD0AC74A",
+      "renders/i2_assembly_sequence_only_audit/04_sequence_b_detailed_i2_pushbtn_start.png": "0BB556E422E6933D4809891C0939F5A811DA30634269D1E88F6BEF12C5B6905D",
+      "renders/i2_assembly_sequence_only_audit/05_sequence_b_detailed_i2_pushbtn_full_seat.png": "7C84878977898BEE9AB027432D0AC73AB6C13CE8823CF5F9E7866D2548604D61",
+      "renders/i2_assembly_sequence_only_audit/06_sequence_b_limiting_body_harness_collision.png": "8FCD66AA558CB4713077241AA351DF43D16AFAA3E7B0EF2CDB1CE896462E263B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/01_original_detailed_onegrip_pushbtn_alone.png": "DB723F7D0C0A986F22CA4CEC1920774E224AC1D34843A4B9E236313079D02957",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/02_original_pushbtn_detailed_terminal_view.png": "9B8228BFDCB578096541DE1BA4DFB4D9C7CDDE91ADA8F06516705BA99B368258",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/03_original_pushbtn_corner_feature_closeup.png": "9B730ECE2CC2A27CB592D58165BAF785D4A3188A2681C36CF544EB6B74BE6847",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/04_original_vs_measured_actuator_overlay.png": "3E8A1469F9BCDFB2340744968EBBA5BD61472EE0FC49644C5768A16228184610",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/05_measured_actuator_rebase.png": "689DD8B2B4FEB610A8324E041CE7436AEC3F6778EB8D59E9BF7B4395AF7D664E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/06_detailed_pushbtn_inserted_in_harness.png": "8B8B7D15E678A860F86A0E5D0C33CFD4CB883FFBA730B097DA78BAA297BB331D",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/07_four_edge_harness_top_view.png": "24677D45D5CB1BD15FAF7D891AB666573606FB28F75D982C4F547023B0EC4317",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/08_four_straight_final_legs.png": "3FFFB4704BBA82238E6FD512D0F224C84A491C6504BAD6BFE40E958CC50BAA18",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/09_four_direct_shell_slots.png": "EE7E3A2826D46902F5E58C533A5C0839A99D9F8AE9236C8EBC1FF8BCF9DB2EDF",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/10_worst_detailed_terminal_clearance.png": "38EC04D024F3A30B7B4E35683B9BB758E20AC8568D0669C1073468C29A95EBE4",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/11_worst_original_corner_feature_clearance.png": "CABA51F50C71FF0D677CAE85F049A2D86AD7E19AFF8A0C7EB7A0CFF43B6CAFE9",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/12_detailed_i3_clearance.png": "B71F91DB50B68D53DDEDFC68E1459C3CA7E2F7A2227321708DCDE7D040DD302E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/13_minimum_remaining_shell_section.png": "7D55F85F0E14B0470610643495704A3EB6B8BCFF0FEA281775EB52213DCAD130",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/14_minimum_effective_structural_section.png": "722568C645B391E41D9E45852CAE0CA339D25586F4BD98AA5F97F803DA68E88B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/15_assembly_start.png": "2D43241D35958FBB000EC5ED8AB30D52645CE209D9393A8E8F5E5E5B410316EA",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/16_assembly_partial.png": "69DBF8393AA314B818A23E29926A88C477D69E61C9F2CC3101F5692A7C5A28BC",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/17_assembly_full_seat.png": "E5E9DF079E6C9CBCC3072A6F1EE77D4021FC1E336BBEA76FC0E1C59C04B80415",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/18_swept_envelope_diagnostic.png": "4550187FA0D251EA261F0AE2BC90103AA80595A907CC28F6D6FEEDE484760953",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/19_proposed_fdm_orientation.png": "F2099BE87D19A51C772EF552A063221206ADD3A1DCA382CCC61AD0A9EB9C7462",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/20_docs83_proxy_vs_detailed_robust.png": "F4B2ED8AB60CB9585FB3CBE4214573AF36E5B0E81841DBE4B26FC949C469004D",
+      "renders/i2_final_local_clearance_balancing_audit/01_docs88_d_three_way_closeup.png": "E102C69D0213B8C8596BB1887B6AF162530EB7DA31E395D31C0946D82545D356",
+      "renders/i2_final_local_clearance_balancing_audit/02_final_balanced_three_way_closeup.png": "51351476B755529D093D4D07EB35E2C11FCAAB05C70CC0305BEB814E904CA89F",
+      "renders/i2_final_local_clearance_balancing_audit/03_i2_body_minimum_clearance.png": "437DDAC843C87B1B6266A50DC5E7EC4C73CE896A38067CDBA59D6C242A3AAA6B",
+      "renders/i2_final_local_clearance_balancing_audit/04_i3_minimum_clearance.png": "52EAB6B3905487A6C2B1672F3F447BBA7E23308CC8DA00D8DFFF6516CC3CD981",
+      "renders/i2_final_local_clearance_balancing_audit/05_terminal_minimum_clearance.png": "304D611A1B941E052115D54B20BE4332F1BB7E820E635287516D45BB226BE9E8",
+      "renders/i2_final_local_clearance_balancing_audit/06_rear_harness_full_seat.png": "715A573FDD663F1FABF80E1E58390FD29EC3A63ACDD6D6A157445A532CD12A0E",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/01_baseline_plus_u_t4_i3_closeup.png": "3760B3B9657DA2C92B7722F0944028A83E381D77DC71C8346437F5218077EE4D",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/02_best_candidate_plus_u_closeup.png": "ADC700E64FD40FE362266AD3B78E24D262AF0540D41D7B2B4CB9DCB91A3BBC6F",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/03_t4_minimum_clearance_section.png": "89CCDFE9B60ADDBD4784E01F033DC350BDC92E8743FB4788B50CC27057AC90FE",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/04_i3_minimum_clearance_section.png": "52394DA3A3520F64FF5FC79733E263F5CDADB19CE48C1A48BC11E7BC43E169C1",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/05_hardened_manufacturing_harness_isometric.png": "3731E9EFF2889B4B52B9D8B13936CB88D2FFE223BD9007814B2143ACC77EC8AC",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/06_rear_harness_full_seat.png": "50D4676BE9CFE9EA9ED01EEDDFCAA61B6F684F35F73EEDB8B1CA5DDACA04654A",
+      "renders/i2_manufacturing_harness_rebase_audit/01_current_docs84_harness_isometric.png": "E6F8DE884EB57AE17F9E78197D532795836D90669249C9A5573A3C06B2DA5C1B",
+      "renders/i2_manufacturing_harness_rebase_audit/02_current_harness_with_detailed_pushbtn.png": "9D867A63688ADEB09487AEABAF61016A8FF24A4035C52811E4538480F0A81879",
+      "renders/i2_manufacturing_harness_rebase_audit/03_new_manufacturing_harness_isometric.png": "AAC31C5081D843A5E5219883498D45E63A255BAD8A761EFCB9620056EC29BE12",
+      "renders/i2_manufacturing_harness_rebase_audit/04_new_harness_top_with_detailed_pushbtn.png": "7AEB69D7C6C78D4BC3A6863E018CAB6DF54DF949D9180181F8F514DA18C5A963",
+      "renders/i2_manufacturing_harness_rebase_audit/05_plusU_root_closeup.png": "82D14B3B374C6C927378C3B9716AA14089D766B0EDDAED0EE8A10519852F7159",
+      "renders/i2_manufacturing_harness_rebase_audit/06_minusU_root_closeup.png": "A15B5E09CB3473A5EC45C7B025EE7F01EC58119150F11D3C00A3A6CB75BA9EE4",
+      "renders/i2_manufacturing_harness_rebase_audit/07_plusV_root_closeup.png": "6D5911041566F6E619CB4C76A8DA9AB7CBBF8FB0BF43DF950BA2088B9A8F1E8A",
+      "renders/i2_manufacturing_harness_rebase_audit/08_minusV_root_closeup.png": "1920446AF772785056CDDC0B02CF78B6AB99FFD2BB4063AE3706AD80C1911638",
+      "renders/i2_manufacturing_harness_rebase_audit/09_main_body_bottom_seating_region.png": "5FCEC2A4ECA1813CC7C82BD8B63BC30257220DFD2D5B4C5ADC8E6B00FDBBBE31",
+      "renders/i2_manufacturing_harness_rebase_audit/10_detailed_pushbtn_insertion_corridor.png": "CE1EA9DEBA039555383E338507C6EB9B64C807543A321326F794F6C6B6057BE2",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/01_i2_exterior_its_frozen_orientation.png": "89D44D1115D25D76F749BD066D18AA148767CE90C6AC07748420D61CDA7A7087",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/02_four_roots_top_view.png": "2971373E8E968723239112AB6A5CABDCECBA2D029E7C1BD68EEAB7C0EE3097E6",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/03_plus_U_minimum_angle.png": "CF15034A4F8CB4D045F85EC42430905A45C3B11FDEAC3FC4325E6C6BCE895C3B",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/04_minus_U_minimum_angle.png": "DA4BFBFB19953A759FBDE726EC5827555E2DD2D5B1E7F10F2419C5A5372A7A6C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/05_plus_V_minimum_angle.png": "B41EA5F2656D2D6A776EAFA278FAB66CD88360CDBBFDB03A56A10794CD4BEB3F",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/06_minus_V_minimum_angle.png": "13FA9B7A99C529792AB7A82893C1F3B5F91FC97464039399D28077E9FF1E562E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/07_four_minimum_angle_legs_only.png": "CF0AAE5810B3E8A4781EACE91DE2BB78716A2A2539BD87E03C38130B999135A9",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/08_four_direct_shell_slots_only.png": "95B26F72A072C6571F3283A08C12170CF76B3178B2F434C8675AE0333EC2852E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/09_leg_slot_sectional_view.png": "A4E9F8B883A8DD4788EBCBC479A3ECACA8436C9A5002A4DD6595D9A516223583",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/10_full_seated_assembly.png": "C25602D43186DFAB3D80005888F6C9EA1CC41B2D4B4096D1D433506E28C0EF1C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/11_assembly_start.png": "1406FE9FF1079477D8BE7AA47C5D91F1CD4DBDC5D201F2F6D37E58C8DD1748DD",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/12_assembly_partial_insert.png": "F986C1EDF0F679DEB16378C08E53D9AE3B14C2DE91E6BC51F1DE8E19CD41D09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/13_assembly_full_seat.png": "77DF0CC1E5888AF0F589422E1A33A4B74411687ECB59E9EDB5DE1AA9FC99D7D4",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/14_assembly_swept_collision_diagnostic.png": "8433D5071F9D6DB846B37CE94696B0053E5FC59C64B50C82B25EEB3C29BFD09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/15_harness_fdm_print_orientation.png": "38F62C8F1750A0B1B073ED1BE3831C27792A375DD1E9E3CA819AD8835097DCAA",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/16_docs80_vs_new_minimum_angle.png": "E876FEE7FACC6C2F25EF909CB2AD003ED5BFDE78BB3AFDE2879C349FEE0ABC8E",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/01_current_i2_direction_revalidation.png": "E2191EDB7568EE4EEA017413AB6A05AD3594ACD31A96D25F3C8EDAFAC57512C0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/02_+w_parallel_fixed_root_probes.png": "D8083E7F286E4ABE0E68B5327B3EFD7400B6F16220DC5EF097354C364502DCB9",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/03_-w_parallel_fixed_root_probes.png": "67A3D4A51360B01EEEAC2AC7636CCF72BAC03D8A514C35DDDBB2521040927FD0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/04_+w_footprint_36_ray_coverage.png": "458D888EC6C4CD1732675A7223F0EFF087A002BC5E00DE332C3EDDFD0C761E3C",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/05_-w_footprint_36_ray_coverage.png": "6638E8AC05B66BA7FBFC25902081149921410847CDBAD98AFE9A337E448F815F",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/06_minus_w_plus_v_planar_floor_breakthrough.png": "36B1F70535C3A0E405C9C731286F6D95720C8E886282A6D40AD90DB12894C5DB",
+      "renders/i2_parallel_w_root_slide_simplification_audit/01_docs81_fixed_roots_top.png": "276A1A3859DD274DCD721CE1E35988E579B6F05BEEDC64F0B734D65CDC654194",
+      "renders/i2_parallel_w_root_slide_simplification_audit/02_feasible_root_regions_four_sides.png": "F4F565FE6F2FBFBC842E3028EDAECD7C985C799AAEAA8BB5852025A9BE327E19",
+      "renders/i2_parallel_w_root_slide_simplification_audit/03_best_new_roots_top_failure_diagnostic.png": "CBBDAA9484FABC0E32C30526D114C456E764A2AA6C6A2EAA708317F74321E024",
+      "renders/i2_parallel_w_root_slide_simplification_audit/04_90deg_parallel_legs_only_failure_probes.png": "F07C705C9FC17B37B86D94330BB5592E89F5179D55435729F5FA272AEDE9C5B9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/05_plus_u_minus_u_sections.png": "A5923B035E2EEE3C0371BDD5A6616C9D1461616E53C1CA3822C2C05CF615154D",
+      "renders/i2_parallel_w_root_slide_simplification_audit/06_plus_v_minus_v_sections.png": "90950D842A3F5C3EF4B2FAAACBA4F8C1BB4B961F18C52BCE444243695F56BACF",
+      "renders/i2_parallel_w_root_slide_simplification_audit/07_shell_blind_slot_footprint_ray_proof.png": "7C4343D6677E1A291EA7259C2E1F791C56856CC57FF082519DBC473D00B94EA9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/08_pusher_clearance_closeup.png": "EA803B82A538B3306023FA8C45E9110240D9400428A879232B914546B88FD637",
+      "renders/i2_parallel_w_root_slide_simplification_audit/09_i3_clearance_closeup.png": "64F745055EA47B5C5D433B5B49967275969A3E4EE971F026B3887A56824D05BC",
+      "renders/i2_parallel_w_root_slide_simplification_audit/10_full_simplified_failure_combination.png": "4C08DE42122758F4F4D3BF1C2E53219CF7A17B91617333D9C18DA84472E95307",
+      "renders/i2_parallel_w_root_slide_simplification_audit/11_docs80_angled_vs_parallel_root_slide.png": "651A74717631A253A72627A733038EB087B60E137AE4351E86BA3D48486A417C",
+      "renders/i2_user_intended_rear_harness_sanity_check/01_rear_harness_start.png": "43A7311A8984BC534DB7CAB317380912ADB52192407A61561FBB96065CB22250",
+      "renders/i2_user_intended_rear_harness_sanity_check/02_rear_harness_50_percent.png": "564A91197EC28886A1759652DA0F716D0073A890327FC3FA491731DD22D8AC8C",
+      "renders/i2_user_intended_rear_harness_sanity_check/03_rear_harness_75_percent.png": "A2A2EB0801BAEB384860FC039312EB3C12D4F6B60F08C8857058711C5E3D7536",
+      "renders/i2_user_intended_rear_harness_sanity_check/04_rear_harness_full_seat.png": "BBE04DBC4804B4B7AA39D38DF059436F148F570ED85B8D10F6A30A0D8F45380F",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/01_all7_unresolved_locations_overview.png": "6144CADBA7C00DAB3DCB35D63951A171CF4592ABE05D542E1862AF481CFFF763",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/02_n2_rescue_geometry.png": "317AB6877F4620F1E54EA0974FC54DDC26608917701890AC4F02E89282EF6BDF",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/03_i3_rescue_geometry.png": "3BF83F05594D3268F273412D1D74F6DFC4FB8BC701E34E682D263F00DB615585",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/04_i4_rescue_geometry.png": "CC93942B20D84B90E604C5AEDFCB4D3E8F4968B400A05EEB4284592503436A1F",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/05_n3_rescue_geometry.png": "E47E96A8534D09A7C7A6B32A90B9D602C6874789F9F61D6CD57921F8C731D930",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/06_tightest_rescued_clearance.png": "32560B9A205192AE94114B90AF212A94D2B47BB4FB0480F3CE2A957B79884D96",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/07_worst_shell_landing.png": "B099B206F632A6565C9AE00EC0F0C6520AE23058F699A901AC953DF0930F239A"
+    },
+    "hashesAfter": {
+      "build123d_workbench/eight_button_four_edge_batch_propagation_screening.py": "14195D0514B25CC63B8F0DD9CE17B44839F0938F9673356FAC01B2FD2A83CE5C",
+      "build123d_workbench/finger_controls_v2.py": "AB902A423C2932A08864B5AAAE5F3B03D92902BA8D8707FB546E28B6EE5466F3",
+      "build123d_workbench/four_edge_leg_harness_captive_pusher_audit.py": "DB15C811E1E47CF3533EFD7AF5818DCF03F41BF4A0C9B7CA404231A1B3BADFB9",
+      "build123d_workbench/i2_assembly_sequence_only_audit.py": "4F29B8B3CA601EE98DB2AD8FA8B8F929CD13B3D4D4E8C354C3D86487000877EB",
+      "build123d_workbench/i2_detailed_pushbtn_manufacturing_robust_audit.py": "3D44A58E56FF683B522EBCAC53426D4888711277EF160195EA8A9EDEB41D8646",
+      "build123d_workbench/i2_final_local_clearance_balancing_audit.py": "0DD5B59B8F2ABC6679C2BB3C9904A2442A6521ED4B8EE460D8EF3355390F757F",
+      "build123d_workbench/i2_i3_production_intent_mechanism.py": "D62577FD138F85EFB9CA096999825C727979F91D9511D40FC16B62055FE96342",
+      "build123d_workbench/i2_local_manufacturing_clearance_hardening_audit.py": "DE0278AE9D824926BF21F4601054172FEB7F3B6D726D1ECDF04B11969CB28D37",
+      "build123d_workbench/i2_manufacturing_harness_rebase_audit.py": "B8CC0F03601136B250DA3F80098F07EF266E05C4C4C8C7DA5B67FD8A36451744",
+      "build123d_workbench/i2_minimum_angle_direct_shell_assembly_audit.py": "B529734126741EF2246DD00A607659F0971088371F66B284DCEF3C63ACF71A65",
+      "build123d_workbench/i2_user_intended_rear_harness_sanity_check.py": "A103CC6DCB981D073B85EF4DE876FCFA9837F9663357AB4D62829FE868C434DB",
+      "build123d_workbench/i4_m3_production_intent_mechanisms.py": "C6BFD2509133D17A1380D576328128DEC6B3ED077D81A14765A2EE1B4F9FBCD8",
+      "build123d_workbench/m4_n3_production_intent_mechanism.py": "F583CCF6B5F488F458D2BDA6DA519BFDB1A0CEFD3270116A8AAA7E3F8A820F2D",
+      "build123d_workbench/n1_production_intent_mechanism.py": "815CEB40DF97F177485474014EDC866925CC9883AE72202DECCB4C3BC383126B",
+      "build123d_workbench/n2_production_intent_mechanism.py": "4402848C98DD1883F50ABE096EACBF76F023558E0D9E9C44BFA576A8E59F9038",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/direct_shell_four_edge_i2_simplification_audit.json": "8F7BB015F7A6D0B42E8611E43F5D121166070B536CC5960602B860B1208EC740",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5C0ADBBA04089EB2D9F3C0637C1AC1F91D211B5517F428C39A541443BBA4FF47",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_LOCAL_CROP_WITH_BLIND_SLOTS_AUDIT_ONLY.step": "247D9EAFC8BF0324AAA21167626CF34DC437D7F921F1A516A48B0C18D9AF1C65",
+      "build123d_workbench/out/direct_shell_four_edge_i2_simplification_audit/I2_DIRECT_SHELL_SIMPLIFIED_FULL_ASSEMBLY_AUDIT_ONLY.step": "C4E2805DB4502EA40BAB27BE7D3B8A16C573741538E699ADA6B4B27633A549E1",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_DIRECT_SHELL_SLOT_CROPS_AUDIT_ONLY.step": "9E6C1B585D9EF1B67ECBF4AE69EF64ED8E0CE6E3F400003CF85353E5AB096F37",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/ALL8_SELECTED_FOUR_EDGE_HARNESSES_AUDIT_ONLY.step": "8242905BE433F1126C815B4B2DD7DA848EAB7FCD4CEB751E1F6FB2E439466BD5",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/eight_button_four_edge_batch_propagation_screening.json": "DF3BB31B8D2EBD4B4BC62B4CF6D7E2E14AB367ADFA16DA230AE000ADCB751EFE",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M3_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CE62E216BEBCB7FEED084EA3AF7A83D84D0DE1F69052ECA12B172A49A66BCAEF",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/M4_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "B15F5CBB9A52C6E44CA9A8DE77EB73C245028AFBA369D04720A227653360A346",
+      "build123d_workbench/out/eight_button_four_edge_batch_propagation_screening/N1_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "7D20863518E0D0D0BF0A87CD042B28635D453E6F7C8654DD74567559D0A8D94B",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/ALL8_FOUR_EDGE_LEG_VIRTUAL_AUDIT_ONLY.step": "7DC5C5F5F2C01445F86B60CC56FE4FE271D7E50793394130DB127EEA48317B2E",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/four_edge_leg_harness_and_captive_pusher_audit.json": "29744B39AB532AD767AFB36DDFD89A37EA13126DED9F9484246D54991ACDE1FA",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.step": "C50194CD7AB892FC2C0BBE7991E78EEE9645C1B1DF1BD613364B97A2C3D17830",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/FOUR_EDGE_LEG_RECEIVER_PUSHER_COUPON_V3_AUDIT_ONLY.stl": "9CBA1CFA8E9B01D36308983FC0CF163326925817534A22CCB554B85D4A93521A",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/I2_FOUR_EDGE_LEG_FULL_STACK_AUDIT_ONLY.step": "72C15567C6C2C7F57667F28F4190BD5E584F7572D4DE36886E37E7890ABBC1E0",
+      "build123d_workbench/out/four_edge_leg_harness_captive_pusher_audit/STANDARD_FOUR_EDGE_LEG_HARNESS_AUDIT_ONLY.step": "BDB77197E59EA22FFBB4AA55E61B7B5382EEE75E8399F9DDAE1339F2EB5CA752",
+      "build123d_workbench/out/i2_assembly_sequence_only_audit/i2_assembly_sequence_only_audit.json": "BFA4B4B924653C2E90CEABB35CA4248F41C24045B3CC774790F300294C1486A7",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/i2_detailed_pushbtn_manufacturing_robust_audit.json": "5870D8B6B040CF5A0D9387C3ED5511FAF83A84E177E219EF5E2790662F0D2570",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "CF5C01C4789B9365026EF7E273645217F3F4C60E6A69EDE73C714C73D4987726",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_DETAILED_PUSHBTN_ROBUST_FULL_ASSEMBLY_AUDIT_ONLY.step": "BD25F381E8C433D8E57DF66D5D8189868DF710B3625A9FB590597227B0A723E4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ORIGINAL_PUSHBTN_MEASURED_ACTUATOR_HYBRID_AUDIT_ONLY.step": "CAFE8E1EB8F5DBDFABB06A688031DD47661F61418532CF786DA9A55694CB9EA4",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/I2_ROBUST_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "77868C8BCCC353F680A9ADFF252B87CA17CC8F3AEEC9E8D5F9F7C39F4E0F7EAB",
+      "build123d_workbench/out/i2_detailed_pushbtn_manufacturing_robust_audit/ORIGINAL_ONEGRIP_PUSHBTN_3530_FACET_REFERENCE_AUDIT_ONLY.step": "D5C756A44095DD0EE425713875D1AA2445EF52684EF2761C9EF6F49AD5C124F2",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/I2_FINAL_BALANCED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "CABCE30A0D521289C17C26FFE571DC400FD0A50EA744FB937AACE8B4385F50E8",
+      "build123d_workbench/out/i2_final_local_clearance_balancing_audit/i2_final_local_clearance_balancing_audit.json": "9D096B8D3979398BB4E69F34D6975332C1A11373BE318D06B2DA9D3263D8C4BE",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/I2_LOCAL_HARDENED_MANUFACTURING_HARNESS_AUDIT_ONLY.step": "7DAD735A530A9F0FE427C3FF803B2AB90789CAEA966D98145ED11D331846A1B8",
+      "build123d_workbench/out/i2_local_manufacturing_clearance_hardening_audit/i2_local_manufacturing_clearance_hardening_audit.json": "58FCC22EE27359A438C52525605060C834753FAA1B3650EBE8DA47B8C44C9766",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_DIRECT_SLOT_SHELL_CROP_AUDIT_ONLY.step": "98FF73FAAC30E50205734A4E77700ABC8D3013B283B9A27261C095D9D3A8848B",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/I2_MANUFACTURING_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "E9EF156E96A0B148F11D908B0D5F18EFC7CA3F5484E3B419AF658B93D4DC1E44",
+      "build123d_workbench/out/i2_manufacturing_harness_rebase_audit/i2_manufacturing_harness_rebase_audit.json": "983EEA2F133C7364E23705B4FE72AC3657A3993314CC9880CB2E49C7DE32A6C0",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/i2_minimum_angle_direct_shell_assembly_audit.json": "D9E17A1F875339AD250D71700E669AE5492E3F85AD953F0EB60BEC055FE1037D",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "4D77E4CA9C148AF51C073AD96FEE25DA45189E87EC90650FC7F3E0AA172EB231",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FOUR_SLOT_SHELL_CROP_AUDIT_ONLY.step": "CD8DB817B5988F8AF40CB54294A6F7C7336085B96814BDCE639768118792C67E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/I2_MINIMUM_ANGLE_FULL_SEATED_ASSEMBLY_AUDIT_ONLY.step": "C8D9595D66DABEF276099E58CDB6B21291437B1D84D9128E43F16295E002151E",
+      "build123d_workbench/out/i2_minimum_angle_direct_shell_assembly_audit/minimum_angle_search_cache.json": "D50851B1BCA8CC0D520C2493285A97DC2F36648258C8F1E7DAC70D402DFF9E5A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_MINUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "ED7DEA16202D618590862E660C86F770EE601D6F5B5EDE34B5D43581A11AFB4A",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/i2_parallel_w_four_edge_leg_revalidation_audit.json": "478B23FB308C3202276DF038FE061AE91C283504A03DB16E4A1098B8A397FD57",
+      "build123d_workbench/out/i2_parallel_w_four_edge_leg_revalidation_audit/I2_PLUS_W_PARALLEL_LEG_FEASIBILITY_PROBES_AUDIT_ONLY.step": "9EB24AAF59BDC27D767697DA477C4ECC80F7A476471DCF02AC829F7F88F9BA42",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/I2_PARALLEL_W_ROOT_SLIDE_BEST_FAILURE_PROBES_AUDIT_ONLY.step": "134D79340A6CB7AAC2C1B5BFE75446454D1FBA2D98664FC6FE739B5A831DB858",
+      "build123d_workbench/out/i2_parallel_w_root_slide_simplification_audit/i2_parallel_w_root_slide_simplification_audit.json": "96E26A8CB93FD7136BC230F27E3AFDAC634F72BFEAA5888B7BC868204647770F",
+      "build123d_workbench/out/i2_user_intended_rear_harness_sanity_check/i2_user_intended_rear_harness_sanity_check.json": "8D0DE73DBBCD4DEAC3DB07BF109C7AEE8F6F883419757E467BD9F91CEE114870",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JAD_EXTERIOR_LOWERED_THUMB_V1.step": "B223757EE25FDD5EDDF710B8666BCD388D4221235D8D876F620EB0005D5B75B6",
+      "build123d_workbench/out/integrated_exterior_lowered_thumb_v1/JFD_EXTERIOR_LOWERED_THUMB_V1.step": "D1BF68B105DCE11374AB1F89981EE503A5591D2FF7FA5175777432171855BF7F",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/N3_RESCUED_FOUR_EDGE_HARNESS_AUDIT_ONLY.step": "5DA34C85A3B4F59A9195FA2297AB44BCA7A14B5044B1ADC5DB0D5F9FE719E358",
+      "build123d_workbench/out/seven_unresolved_leg_root_shell_target_rescue_audit/seven_unresolved_leg_root_shell_target_rescue_audit.json": "3DC48CBCF290F10753756617363A3A6E369D33BFD4375C7FE389A1F0CB6314DA",
+      "build123d_workbench/seven_unresolved_leg_root_shell_target_rescue_audit.py": "1B4CD0ABDEF42D39B568A85548E7735C3B25031DDDA6F9DE0B973DE49B23804F",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/79_four_edge_leg_switch_harness_and_captive_pusher_audit.md": "A42634C3A617F900F51650D7820CAD177DE623EA568F5F9948DC96BFC8DE54C3",
+      "docs/80_direct_shell_four_edge_i2_simplification_audit.md": "069E535B5F5CAC9C5D8696FE23719959A95B3DAEFB064086DAB899993CDB1A64",
+      "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md": "AF0EA969CC11C62D9CE1CDA4EE6C117372F83BAA0207E2742544CFE08D2E2749",
+      "docs/82_i2_parallel_w_root_slide_simplification_audit.md": "36324568A6DFEE254585B8CDFD83D86141C1554CDCE3274ED0148F22DE576FB0",
+      "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md": "97EB813D7F69573B983A0339D83793B9A365CA5A0742B5B1D5BC9FA4898E0897",
+      "docs/84_i2_detailed_pushbtn_manufacturing_robust_audit.md": "2A7BFC9573066072641B59FE22607C86183982A99D6DCCCC8229F60737B0D501",
+      "docs/85_i2_assembly_sequence_only_audit.md": "2F56970AB0A3DA56B2C58B2827FE8617FEDCFE1DE3B3C237DC336E61D5AC5F9D",
+      "docs/86_i2_manufacturing_harness_rebase_audit.md": "CA0D56D081DB76A05A7B93DB2CAD47661FE40C47F842E6E21CE86A90D3D4FFA6",
+      "docs/87_i2_user_intended_rear_harness_assembly_sanity_check.md": "017C910CAAB36017C7148805AC9241A3494276C2CC23B85C21D1E1E470DEDBF4",
+      "docs/88_i2_local_manufacturing_clearance_hardening_audit.md": "FB84748FD52127BF378E35B85E6372A40F64D9853FD3E0BE9C6796AA2CEB7CDB",
+      "docs/89_i2_final_local_clearance_balancing_audit.md": "20428B63BCE5D31FCD9D107EE6E22E65B3D6789A44F114E479622C09DAF3FF9E",
+      "docs/90_eight_button_four_edge_batch_propagation_screening.md": "2878CE20DA38C4F78A90035FEA85BD8E9069B5FBCB3E0F6FD56BD86EE8F623DB",
+      "docs/91_seven_unresolved_leg_root_shell_target_rescue_audit.md": "06D254D43F5545926CC476DF20BD84DD362EFC76EB8D30A558D083FB3DD799AD",
+      "renders/direct_shell_four_edge_i2_simplification_audit/01_current_docs79_i2_full_stack_exploded_named.png": "CAF5CE4982298EC7D5ACDC76C06BA9F39C3A24D4C7F873900D56DE64E5668B35",
+      "renders/direct_shell_four_edge_i2_simplification_audit/02_current_receiver_panel_strut_closeup.png": "BDC894AE77D34C8987EF9F01D5D3C26D8EEE8C35D2ED7A8B6D5F18E5B1CD7C04",
+      "renders/direct_shell_four_edge_i2_simplification_audit/03_simplified_direct_shell_candidate_top.png": "BFA9787EF3995EFF923EF420AFFFCD3F69BF607AB772F1942BC5DCA42D0167DC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/04_simplified_candidate_isometric.png": "D96824137BE24E0940FE5B5C10DE4988AD420FC23A835E1199BBF75500D7E31C",
+      "renders/direct_shell_four_edge_i2_simplification_audit/05_section_plus_u_minus_u_legs.png": "3B0911318CD4C67FA5409B39E890FE58C36B3263B72E5D002CAB20421AF8A46D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/06_section_plus_v_minus_v_legs.png": "033AFC3AB2F97C276DD74E78F00EF54D1824992BC18BB8AE6430E6CB35DE948D",
+      "renders/direct_shell_four_edge_i2_simplification_audit/07_four_shell_blind_slots_only.png": "83E219A77ED59503B165BCCD6DFC166D5518D29E3B742B96C6B23DF4DA195917",
+      "renders/direct_shell_four_edge_i2_simplification_audit/08_its_harness_four_legs_only.png": "3EC2F8A1CFBBDB056E1FABE826CC4A386C636C097DF832698770EFA9FCF8EBBC",
+      "renders/direct_shell_four_edge_i2_simplification_audit/09_full_simplified_assembly.png": "16DEF17EC662267C0D0DB84680FFA42ACF6E770E1F284FC022937F8B91314F33",
+      "renders/direct_shell_four_edge_i2_simplification_audit/10_current_vs_simplified_comparison.png": "EDFD6780829726C0C7DA4FDFE7AFD3ED5803323AAE26DD75CD3B055E1A2E9B1E",
+      "renders/eight_button_four_edge_batch_propagation_screening/01_all8_exterior_context_overview.png": "F6199A4565F7994C4D99EF423E926A2487050A6566F1B818A6ABDE3C169DC9BE",
+      "renders/eight_button_four_edge_batch_propagation_screening/02_all8_shell_interior_harness_overview.png": "673D16DEB5EA78A36A69B1FB3CBAC930F7A97839C6A01C6F4780CB1C935CFD7B",
+      "renders/eight_button_four_edge_batch_propagation_screening/03_all8_top_local_axis_overview.png": "30671A7CCDA7B51DAC5D4E7838FFA9E73E42EE8689F1CEBD1D90161A0169006B",
+      "renders/eight_button_four_edge_batch_propagation_screening/04_all32_legs_angle_visualization.png": "5EBB3E029F1863F715958D0B95FC340905420C4F62E16A8DD0BF5BD3B39EABC6",
+      "renders/eight_button_four_edge_batch_propagation_screening/05_tightest_neighboring_pair_closeup.png": "AD89C59DC099968D35B455AE75319FEF5C2598005FA7455D37998823AA373A83",
+      "renders/eight_button_four_edge_batch_propagation_screening/06_worst_shell_footprint_closeup.png": "2E1766171842DC6D26D441646D092C7A5A071914C4A0684956013F2B659C8026",
+      "renders/eight_button_four_edge_batch_propagation_screening/07_n2_seam_closeup.png": "BE6B6E67FFD92D4EE4DE4A591F528B423C427AFE249E9B05CC103ADAC2681510",
+      "renders/eight_button_four_edge_batch_propagation_screening/08_i2_reference_closeup.png": "2898C00368A651B33BC3402339787733171C9798AAD86378F33A0E8F1901D008",
+      "renders/eight_button_four_edge_batch_propagation_screening/09_worst_local_variant_closeup.png": "8C7385F33DB0681A1829F75B9382A414C9B6606FA4A855BD16CB9B9E251474B3",
+      "renders/eight_button_four_edge_batch_propagation_screening/10_fail_closeup.png": "73BC76E81F4DFAC56AB945EF851F837348EC0EE224FCC5AC2F99AF55A86921F5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/01_original_actual_its_detailed.png": "9A7ECFF9562A2FEFE255AD5C8705128E929CE0FF81B8E83FF83D49DF7C7371D5",
+      "renders/four_edge_leg_harness_captive_pusher_audit/02_four_edge_leg_harness_top.png": "28B9F704BFC64B8FF22F1B9CD3164CCC319EE2AAA5711AF2F3404CC8D0F09535",
+      "renders/four_edge_leg_harness_captive_pusher_audit/03_four_edge_leg_harness_isometric.png": "5D7075D2B6BB2524B0EBCF8DC0DD782AFCD8248C3F25319248C0556B2E72D0CE",
+      "renders/four_edge_leg_harness_captive_pusher_audit/04_leg_plus_u_closeup.png": "2A4F286F6D1A456132E8CD76EB254E8F6CFE0B1A6F2A3590BA7B94CC88CFCD9F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/05_leg_plus_v_closeup.png": "F2154C55A194FC26B75DDFBDB24C250B285C62D6D6C9ED471BA544864DA28F96",
+      "renders/four_edge_leg_harness_captive_pusher_audit/06_corner_feature_edge_leg_clearance.png": "EF0FF029D1B6DBEA6907C2EA11124F42B5FFE0B9F63F735019EB8B6376ADE54E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/07_terminal_corridors.png": "FB46FDBF211571434689DD4E5C2FA6AB407E79FE00B3593664196B54C09ACC25",
+      "renders/four_edge_leg_harness_captive_pusher_audit/08_its_inserted_into_harness.png": "B39E30FB31D6A5944E8F3445535E93F4ACE74939879A9FDBA87DBAE74DD552CB",
+      "renders/four_edge_leg_harness_captive_pusher_audit/09_four_inner_housing_receivers.png": "C2C5D2B635CE5421B0F4010E2EE6DC26F643135F9F1AEE75024C8CB34A2EDEBF",
+      "renders/four_edge_leg_harness_captive_pusher_audit/10_four_legs_inserted_into_inner_housing.png": "F53B684898C0DE0D786C324BBC8285AFCBAC607318C9397A9A8ACFFC3899BD2F",
+      "renders/four_edge_leg_harness_captive_pusher_audit/11_conformal_inner_housing_frozen_shell_section.png": "718D09E0F411F98BB8E8A4A11723115A0C2449C3C4825DC0F27611E9F52531CA",
+      "renders/four_edge_leg_harness_captive_pusher_audit/12_full_button_pusher_harness_housing_stack.png": "5A30592C3EBB92EAFE8542A1EADCC6922F03D8950262415FF984B7898099BA95",
+      "renders/four_edge_leg_harness_captive_pusher_audit/13_outer_shell_pusher_guide.png": "1ED937CF499C3EC5D0C1A15EBAB115672407802901C323DB74078F4F5DFA2800",
+      "renders/four_edge_leg_harness_captive_pusher_audit/14_retaining_clip.png": "16D6D796D6DC8799635EE16FE806599B1E9E213816B56A18C065CE30217CC5F0",
+      "renders/four_edge_leg_harness_captive_pusher_audit/15_independent_hard_stop.png": "7586918006EFF308701A5DFCB16172A3D0255DE7C872449A76890C04CF28EA36",
+      "renders/four_edge_leg_harness_captive_pusher_audit/16_n2_seam_closeup.png": "C7441BDF1339677768308C9C984A15E4B553B05E401AF9F3CE1320C8242B0FD9",
+      "renders/four_edge_leg_harness_captive_pusher_audit/17_all8_virtual_placement.png": "E4B687BBEEAC298301CEEFA70D018DEF4F5C9E38A6D2E6EB7A3991AA9F94763E",
+      "renders/four_edge_leg_harness_captive_pusher_audit/18_exploded_assembly.png": "EB5D37680E460DCEDE1CF9FF886CFC96B60C6718220CD366F97B7410FBAB80BC",
+      "renders/four_edge_leg_harness_captive_pusher_audit/19_coupon_v3_preview.png": "832EB2AED99CC37130A0CD1B7EE4DAF0E5E459A87ECFF2F2EEB0E46B17E1DFEA",
+      "renders/i2_assembly_sequence_only_audit/01_sequence_a_i2_harness_start.png": "82CEC57D71460DFEE57B67747E7F69F04DD1B261E5A217C74A67E007F06F8AAD",
+      "renders/i2_assembly_sequence_only_audit/02_sequence_a_i2_harness_partial.png": "B0410AC9907DD23EE0FB2E974B122B90093A88C8E0962752B9C51B1CC7A5ECB9",
+      "renders/i2_assembly_sequence_only_audit/03_sequence_a_i2_harness_full_seat.png": "136C57DCA9043D73A52C6BF582B957D8DAF3B2164DD2352DF3F1D65CAD0AC74A",
+      "renders/i2_assembly_sequence_only_audit/04_sequence_b_detailed_i2_pushbtn_start.png": "0BB556E422E6933D4809891C0939F5A811DA30634269D1E88F6BEF12C5B6905D",
+      "renders/i2_assembly_sequence_only_audit/05_sequence_b_detailed_i2_pushbtn_full_seat.png": "7C84878977898BEE9AB027432D0AC73AB6C13CE8823CF5F9E7866D2548604D61",
+      "renders/i2_assembly_sequence_only_audit/06_sequence_b_limiting_body_harness_collision.png": "8FCD66AA558CB4713077241AA351DF43D16AFAA3E7B0EF2CDB1CE896462E263B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/01_original_detailed_onegrip_pushbtn_alone.png": "DB723F7D0C0A986F22CA4CEC1920774E224AC1D34843A4B9E236313079D02957",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/02_original_pushbtn_detailed_terminal_view.png": "9B8228BFDCB578096541DE1BA4DFB4D9C7CDDE91ADA8F06516705BA99B368258",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/03_original_pushbtn_corner_feature_closeup.png": "9B730ECE2CC2A27CB592D58165BAF785D4A3188A2681C36CF544EB6B74BE6847",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/04_original_vs_measured_actuator_overlay.png": "3E8A1469F9BCDFB2340744968EBBA5BD61472EE0FC49644C5768A16228184610",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/05_measured_actuator_rebase.png": "689DD8B2B4FEB610A8324E041CE7436AEC3F6778EB8D59E9BF7B4395AF7D664E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/06_detailed_pushbtn_inserted_in_harness.png": "8B8B7D15E678A860F86A0E5D0C33CFD4CB883FFBA730B097DA78BAA297BB331D",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/07_four_edge_harness_top_view.png": "24677D45D5CB1BD15FAF7D891AB666573606FB28F75D982C4F547023B0EC4317",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/08_four_straight_final_legs.png": "3FFFB4704BBA82238E6FD512D0F224C84A491C6504BAD6BFE40E958CC50BAA18",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/09_four_direct_shell_slots.png": "EE7E3A2826D46902F5E58C533A5C0839A99D9F8AE9236C8EBC1FF8BCF9DB2EDF",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/10_worst_detailed_terminal_clearance.png": "38EC04D024F3A30B7B4E35683B9BB758E20AC8568D0669C1073468C29A95EBE4",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/11_worst_original_corner_feature_clearance.png": "CABA51F50C71FF0D677CAE85F049A2D86AD7E19AFF8A0C7EB7A0CFF43B6CAFE9",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/12_detailed_i3_clearance.png": "B71F91DB50B68D53DDEDFC68E1459C3CA7E2F7A2227321708DCDE7D040DD302E",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/13_minimum_remaining_shell_section.png": "7D55F85F0E14B0470610643495704A3EB6B8BCFF0FEA281775EB52213DCAD130",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/14_minimum_effective_structural_section.png": "722568C645B391E41D9E45852CAE0CA339D25586F4BD98AA5F97F803DA68E88B",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/15_assembly_start.png": "2D43241D35958FBB000EC5ED8AB30D52645CE209D9393A8E8F5E5E5B410316EA",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/16_assembly_partial.png": "69DBF8393AA314B818A23E29926A88C477D69E61C9F2CC3101F5692A7C5A28BC",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/17_assembly_full_seat.png": "E5E9DF079E6C9CBCC3072A6F1EE77D4021FC1E336BBEA76FC0E1C59C04B80415",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/18_swept_envelope_diagnostic.png": "4550187FA0D251EA261F0AE2BC90103AA80595A907CC28F6D6FEEDE484760953",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/19_proposed_fdm_orientation.png": "F2099BE87D19A51C772EF552A063221206ADD3A1DCA382CCC61AD0A9EB9C7462",
+      "renders/i2_detailed_pushbtn_manufacturing_robust_audit/20_docs83_proxy_vs_detailed_robust.png": "F4B2ED8AB60CB9585FB3CBE4214573AF36E5B0E81841DBE4B26FC949C469004D",
+      "renders/i2_final_local_clearance_balancing_audit/01_docs88_d_three_way_closeup.png": "E102C69D0213B8C8596BB1887B6AF162530EB7DA31E395D31C0946D82545D356",
+      "renders/i2_final_local_clearance_balancing_audit/02_final_balanced_three_way_closeup.png": "51351476B755529D093D4D07EB35E2C11FCAAB05C70CC0305BEB814E904CA89F",
+      "renders/i2_final_local_clearance_balancing_audit/03_i2_body_minimum_clearance.png": "437DDAC843C87B1B6266A50DC5E7EC4C73CE896A38067CDBA59D6C242A3AAA6B",
+      "renders/i2_final_local_clearance_balancing_audit/04_i3_minimum_clearance.png": "52EAB6B3905487A6C2B1672F3F447BBA7E23308CC8DA00D8DFFF6516CC3CD981",
+      "renders/i2_final_local_clearance_balancing_audit/05_terminal_minimum_clearance.png": "304D611A1B941E052115D54B20BE4332F1BB7E820E635287516D45BB226BE9E8",
+      "renders/i2_final_local_clearance_balancing_audit/06_rear_harness_full_seat.png": "715A573FDD663F1FABF80E1E58390FD29EC3A63ACDD6D6A157445A532CD12A0E",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/01_baseline_plus_u_t4_i3_closeup.png": "3760B3B9657DA2C92B7722F0944028A83E381D77DC71C8346437F5218077EE4D",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/02_best_candidate_plus_u_closeup.png": "ADC700E64FD40FE362266AD3B78E24D262AF0540D41D7B2B4CB9DCB91A3BBC6F",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/03_t4_minimum_clearance_section.png": "89CCDFE9B60ADDBD4784E01F033DC350BDC92E8743FB4788B50CC27057AC90FE",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/04_i3_minimum_clearance_section.png": "52394DA3A3520F64FF5FC79733E263F5CDADB19CE48C1A48BC11E7BC43E169C1",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/05_hardened_manufacturing_harness_isometric.png": "3731E9EFF2889B4B52B9D8B13936CB88D2FFE223BD9007814B2143ACC77EC8AC",
+      "renders/i2_local_manufacturing_clearance_hardening_audit/06_rear_harness_full_seat.png": "50D4676BE9CFE9EA9ED01EEDDFCAA61B6F684F35F73EEDB8B1CA5DDACA04654A",
+      "renders/i2_manufacturing_harness_rebase_audit/01_current_docs84_harness_isometric.png": "E6F8DE884EB57AE17F9E78197D532795836D90669249C9A5573A3C06B2DA5C1B",
+      "renders/i2_manufacturing_harness_rebase_audit/02_current_harness_with_detailed_pushbtn.png": "9D867A63688ADEB09487AEABAF61016A8FF24A4035C52811E4538480F0A81879",
+      "renders/i2_manufacturing_harness_rebase_audit/03_new_manufacturing_harness_isometric.png": "AAC31C5081D843A5E5219883498D45E63A255BAD8A761EFCB9620056EC29BE12",
+      "renders/i2_manufacturing_harness_rebase_audit/04_new_harness_top_with_detailed_pushbtn.png": "7AEB69D7C6C78D4BC3A6863E018CAB6DF54DF949D9180181F8F514DA18C5A963",
+      "renders/i2_manufacturing_harness_rebase_audit/05_plusU_root_closeup.png": "82D14B3B374C6C927378C3B9716AA14089D766B0EDDAED0EE8A10519852F7159",
+      "renders/i2_manufacturing_harness_rebase_audit/06_minusU_root_closeup.png": "A15B5E09CB3473A5EC45C7B025EE7F01EC58119150F11D3C00A3A6CB75BA9EE4",
+      "renders/i2_manufacturing_harness_rebase_audit/07_plusV_root_closeup.png": "6D5911041566F6E619CB4C76A8DA9AB7CBBF8FB0BF43DF950BA2088B9A8F1E8A",
+      "renders/i2_manufacturing_harness_rebase_audit/08_minusV_root_closeup.png": "1920446AF772785056CDDC0B02CF78B6AB99FFD2BB4063AE3706AD80C1911638",
+      "renders/i2_manufacturing_harness_rebase_audit/09_main_body_bottom_seating_region.png": "5FCEC2A4ECA1813CC7C82BD8B63BC30257220DFD2D5B4C5ADC8E6B00FDBBBE31",
+      "renders/i2_manufacturing_harness_rebase_audit/10_detailed_pushbtn_insertion_corridor.png": "CE1EA9DEBA039555383E338507C6EB9B64C807543A321326F794F6C6B6057BE2",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/01_i2_exterior_its_frozen_orientation.png": "89D44D1115D25D76F749BD066D18AA148767CE90C6AC07748420D61CDA7A7087",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/02_four_roots_top_view.png": "2971373E8E968723239112AB6A5CABDCECBA2D029E7C1BD68EEAB7C0EE3097E6",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/03_plus_U_minimum_angle.png": "CF15034A4F8CB4D045F85EC42430905A45C3B11FDEAC3FC4325E6C6BCE895C3B",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/04_minus_U_minimum_angle.png": "DA4BFBFB19953A759FBDE726EC5827555E2DD2D5B1E7F10F2419C5A5372A7A6C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/05_plus_V_minimum_angle.png": "B41EA5F2656D2D6A776EAFA278FAB66CD88360CDBBFDB03A56A10794CD4BEB3F",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/06_minus_V_minimum_angle.png": "13FA9B7A99C529792AB7A82893C1F3B5F91FC97464039399D28077E9FF1E562E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/07_four_minimum_angle_legs_only.png": "CF0AAE5810B3E8A4781EACE91DE2BB78716A2A2539BD87E03C38130B999135A9",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/08_four_direct_shell_slots_only.png": "95B26F72A072C6571F3283A08C12170CF76B3178B2F434C8675AE0333EC2852E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/09_leg_slot_sectional_view.png": "A4E9F8B883A8DD4788EBCBC479A3ECACA8436C9A5002A4DD6595D9A516223583",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/10_full_seated_assembly.png": "C25602D43186DFAB3D80005888F6C9EA1CC41B2D4B4096D1D433506E28C0EF1C",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/11_assembly_start.png": "1406FE9FF1079477D8BE7AA47C5D91F1CD4DBDC5D201F2F6D37E58C8DD1748DD",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/12_assembly_partial_insert.png": "F986C1EDF0F679DEB16378C08E53D9AE3B14C2DE91E6BC51F1DE8E19CD41D09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/13_assembly_full_seat.png": "77DF0CC1E5888AF0F589422E1A33A4B74411687ECB59E9EDB5DE1AA9FC99D7D4",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/14_assembly_swept_collision_diagnostic.png": "8433D5071F9D6DB846B37CE94696B0053E5FC59C64B50C82B25EEB3C29BFD09E",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/15_harness_fdm_print_orientation.png": "38F62C8F1750A0B1B073ED1BE3831C27792A375DD1E9E3CA819AD8835097DCAA",
+      "renders/i2_minimum_angle_direct_shell_assembly_audit/16_docs80_vs_new_minimum_angle.png": "E876FEE7FACC6C2F25EF909CB2AD003ED5BFDE78BB3AFDE2879C349FEE0ABC8E",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/01_current_i2_direction_revalidation.png": "E2191EDB7568EE4EEA017413AB6A05AD3594ACD31A96D25F3C8EDAFAC57512C0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/02_+w_parallel_fixed_root_probes.png": "D8083E7F286E4ABE0E68B5327B3EFD7400B6F16220DC5EF097354C364502DCB9",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/03_-w_parallel_fixed_root_probes.png": "67A3D4A51360B01EEEAC2AC7636CCF72BAC03D8A514C35DDDBB2521040927FD0",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/04_+w_footprint_36_ray_coverage.png": "458D888EC6C4CD1732675A7223F0EFF087A002BC5E00DE332C3EDDFD0C761E3C",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/05_-w_footprint_36_ray_coverage.png": "6638E8AC05B66BA7FBFC25902081149921410847CDBAD98AFE9A337E448F815F",
+      "renders/i2_parallel_w_four_edge_leg_revalidation_audit/06_minus_w_plus_v_planar_floor_breakthrough.png": "36B1F70535C3A0E405C9C731286F6D95720C8E886282A6D40AD90DB12894C5DB",
+      "renders/i2_parallel_w_root_slide_simplification_audit/01_docs81_fixed_roots_top.png": "276A1A3859DD274DCD721CE1E35988E579B6F05BEEDC64F0B734D65CDC654194",
+      "renders/i2_parallel_w_root_slide_simplification_audit/02_feasible_root_regions_four_sides.png": "F4F565FE6F2FBFBC842E3028EDAECD7C985C799AAEAA8BB5852025A9BE327E19",
+      "renders/i2_parallel_w_root_slide_simplification_audit/03_best_new_roots_top_failure_diagnostic.png": "CBBDAA9484FABC0E32C30526D114C456E764A2AA6C6A2EAA708317F74321E024",
+      "renders/i2_parallel_w_root_slide_simplification_audit/04_90deg_parallel_legs_only_failure_probes.png": "F07C705C9FC17B37B86D94330BB5592E89F5179D55435729F5FA272AEDE9C5B9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/05_plus_u_minus_u_sections.png": "A5923B035E2EEE3C0371BDD5A6616C9D1461616E53C1CA3822C2C05CF615154D",
+      "renders/i2_parallel_w_root_slide_simplification_audit/06_plus_v_minus_v_sections.png": "90950D842A3F5C3EF4B2FAAACBA4F8C1BB4B961F18C52BCE444243695F56BACF",
+      "renders/i2_parallel_w_root_slide_simplification_audit/07_shell_blind_slot_footprint_ray_proof.png": "7C4343D6677E1A291EA7259C2E1F791C56856CC57FF082519DBC473D00B94EA9",
+      "renders/i2_parallel_w_root_slide_simplification_audit/08_pusher_clearance_closeup.png": "EA803B82A538B3306023FA8C45E9110240D9400428A879232B914546B88FD637",
+      "renders/i2_parallel_w_root_slide_simplification_audit/09_i3_clearance_closeup.png": "64F745055EA47B5C5D433B5B49967275969A3E4EE971F026B3887A56824D05BC",
+      "renders/i2_parallel_w_root_slide_simplification_audit/10_full_simplified_failure_combination.png": "4C08DE42122758F4F4D3BF1C2E53219CF7A17B91617333D9C18DA84472E95307",
+      "renders/i2_parallel_w_root_slide_simplification_audit/11_docs80_angled_vs_parallel_root_slide.png": "651A74717631A253A72627A733038EB087B60E137AE4351E86BA3D48486A417C",
+      "renders/i2_user_intended_rear_harness_sanity_check/01_rear_harness_start.png": "43A7311A8984BC534DB7CAB317380912ADB52192407A61561FBB96065CB22250",
+      "renders/i2_user_intended_rear_harness_sanity_check/02_rear_harness_50_percent.png": "564A91197EC28886A1759652DA0F716D0073A890327FC3FA491731DD22D8AC8C",
+      "renders/i2_user_intended_rear_harness_sanity_check/03_rear_harness_75_percent.png": "A2A2EB0801BAEB384860FC039312EB3C12D4F6B60F08C8857058711C5E3D7536",
+      "renders/i2_user_intended_rear_harness_sanity_check/04_rear_harness_full_seat.png": "BBE04DBC4804B4B7AA39D38DF059436F148F570ED85B8D10F6A30A0D8F45380F",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/01_all7_unresolved_locations_overview.png": "6144CADBA7C00DAB3DCB35D63951A171CF4592ABE05D542E1862AF481CFFF763",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/02_n2_rescue_geometry.png": "317AB6877F4620F1E54EA0974FC54DDC26608917701890AC4F02E89282EF6BDF",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/03_i3_rescue_geometry.png": "3BF83F05594D3268F273412D1D74F6DFC4FB8BC701E34E682D263F00DB615585",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/04_i4_rescue_geometry.png": "CC93942B20D84B90E604C5AEDFCB4D3E8F4968B400A05EEB4284592503436A1F",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/05_n3_rescue_geometry.png": "E47E96A8534D09A7C7A6B32A90B9D602C6874789F9F61D6CD57921F8C731D930",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/06_tightest_rescued_clearance.png": "32560B9A205192AE94114B90AF212A94D2B47BB4FB0480F3CE2A957B79884D96",
+      "renders/seven_unresolved_leg_root_shell_target_rescue_audit/07_worst_shell_landing.png": "B099B206F632A6565C9AE00EC0F0C6520AE23058F699A901AC953DF0930F239A"
+    }
+  }
+}

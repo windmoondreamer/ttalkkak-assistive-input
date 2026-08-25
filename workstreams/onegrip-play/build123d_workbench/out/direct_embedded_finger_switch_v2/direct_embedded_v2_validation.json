@@ -1,0 +1,1495 @@
+{
+  "schema": "onegrip-direct-embedded-switch-v2",
+  "generatedAtUtc": "2026-08-25T08:28:15.948095+00:00",
+  "summary": {
+    "verdict": "C — DIRECT EMBEDDED STILL FAILS AFTER DATUM CORRECTION",
+    "datumInterpretationCorrected": true,
+    "directEmbeddedSockets": 8,
+    "actuatorOnlyExposure": 8,
+    "simultaneousDetailedSwitchPass": 4,
+    "bodyOutsideFailures": 0,
+    "projectionRangeMm": [
+      1.2,
+      1.2
+    ],
+    "buttonRadialCenterChanges": 0,
+    "pressAxisChanges": 0,
+    "axialDepthTranslationUsed": true
+  },
+  "recovery": {
+    "I2": {
+      "valid": true,
+      "button": "I2",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 11.072973699803782,
+      "method": "approved centerline direct local-shell hit",
+      "directCenterHitMm": 11.072973699803782,
+      "sampleCount": 32,
+      "fitRmseMm": 1.366361237351205,
+      "sampleDepthRangeMm": [
+        7.242056617083314,
+        11.243743783013766
+      ],
+      "surfaceBranch": "direct center hit + nearest connected local branch",
+      "coefficients": [
+        11.072973699803782,
+        0.0326558012034612,
+        0.19768106699749036,
+        0.009428829008352242,
+        0.0511254540824032,
+        -0.06868645344465356
+      ]
+    },
+    "I3": {
+      "valid": true,
+      "button": "I3",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 10.530239389752282,
+      "method": "approved centerline direct local-shell hit",
+      "directCenterHitMm": 10.530239389752282,
+      "sampleCount": 24,
+      "fitRmseMm": 0.6429721123568604,
+      "sampleDepthRangeMm": [
+        7.5872730272117614,
+        10.902980250093645
+      ],
+      "surfaceBranch": "direct center hit + nearest connected local branch",
+      "coefficients": [
+        10.530239389752282,
+        0.018234279298811013,
+        -3.9528704561203694,
+        0.021919818234288097,
+        -0.11928914400236859,
+        1.0017904786627474
+      ]
+    },
+    "I4": {
+      "valid": true,
+      "button": "I4",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 2.9985382656267636,
+      "method": "approved-opening quadratic surface fit at U=V=0",
+      "directCenterHitMm": null,
+      "sampleCount": 56,
+      "fitRmseMm": 0.002827660328120437,
+      "sampleDepthRangeMm": [
+        3.000069623917174,
+        3.0235109944442202
+      ],
+      "surfaceBranch": "opening-rim local outer branch",
+      "coefficients": [
+        2.9985382656267636,
+        -0.00012878156005182839,
+        0.00014203445336531402,
+        0.0001276040524613579,
+        -0.00010330474906155645,
+        0.00014321317101815577
+      ]
+    },
+    "M3": {
+      "valid": true,
+      "button": "M3",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 8.755033962642214,
+      "method": "approved centerline direct local-shell hit",
+      "directCenterHitMm": 8.755033962642214,
+      "sampleCount": 81,
+      "fitRmseMm": 0.8139922285826893,
+      "sampleDepthRangeMm": [
+        6.221322395363682,
+        10.865003203778631
+      ],
+      "surfaceBranch": "direct center hit + nearest connected local branch",
+      "coefficients": [
+        8.755033962642214,
+        0.219992126209829,
+        -0.043724608957860595,
+        -0.04611682419728403,
+        0.06416511895614915,
+        0.03215506697396212
+      ]
+    },
+    "M4": {
+      "valid": true,
+      "button": "M4",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 9.045728078068784,
+      "method": "approved centerline direct local-shell hit",
+      "directCenterHitMm": 9.045728078068784,
+      "sampleCount": 79,
+      "fitRmseMm": 0.4268969301933849,
+      "sampleDepthRangeMm": [
+        5.575879868458319,
+        9.505830801325828
+      ],
+      "surfaceBranch": "direct center hit + nearest connected local branch",
+      "coefficients": [
+        9.045728078068784,
+        -0.008986600972077756,
+        -0.011767182324206328,
+        -0.0004634190355928456,
+        0.008213949447920497,
+        0.015085574305932221
+      ]
+    },
+    "N1": {
+      "valid": true,
+      "button": "N1",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 0.06947843615189164,
+      "method": "approved centerline direct local-shell hit",
+      "directCenterHitMm": 0.06947843615189164,
+      "sampleCount": 81,
+      "fitRmseMm": 0.007624239590580894,
+      "sampleDepthRangeMm": [
+        -0.03206063460193187,
+        0.3213627701967825
+      ],
+      "surfaceBranch": "direct center hit + nearest connected local branch",
+      "coefficients": [
+        0.06947843615189164,
+        -0.015126733778336277,
+        -0.007680906845039767,
+        0.013002541214907239,
+        -0.0017985746303469331,
+        -0.005052826892892804
+      ]
+    },
+    "N2": {
+      "valid": true,
+      "button": "N2",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 0.006310086967313389,
+      "method": "approved centerline direct local-shell hit",
+      "directCenterHitMm": 0.006310086967313389,
+      "sampleCount": 81,
+      "fitRmseMm": 0.01843991871541747,
+      "sampleDepthRangeMm": [
+        -0.3662139079270368,
+        0.057355336634848264
+      ],
+      "surfaceBranch": "direct center hit + nearest connected local branch",
+      "coefficients": [
+        0.006310086967313389,
+        0.04321012338457404,
+        -0.0010708405977887777,
+        -0.007991720214969657,
+        8.281787475198815e-05,
+        -0.004301366912803833
+      ]
+    },
+    "N3": {
+      "valid": true,
+      "button": "N3",
+      "cleanOpeningCenterRecovered": true,
+      "approvedAxisRecovered": true,
+      "localShellDatumValid": true,
+      "axialSwitchShiftAllowed": true,
+      "oppositeWallProxyUsed": false,
+      "surfaceDepthMm": 0.0014472392837889814,
+      "method": "approved centerline direct local-shell hit",
+      "directCenterHitMm": 0.0014472392837889814,
+      "sampleCount": 81,
+      "fitRmseMm": 0.012709605198261554,
+      "sampleDepthRangeMm": [
+        -0.25544759135944917,
+        1.3625114460236238
+      ],
+      "surfaceBranch": "direct center hit + nearest connected local branch",
+      "coefficients": [
+        0.0014472392837889814,
+        0.09337723259483155,
+        0.005360370798304193,
+        0.034861525623810445,
+        0.030443998953466937,
+        0.0019876687546541974
+      ]
+    }
+  },
+  "pairDepthResolution": [
+    {
+      "pair": "I2-I3",
+      "resolved": false,
+      "selected": null,
+      "checks": [
+        {
+          "projectionsMm": [
+            1.2,
+            1.2
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.9937289532295406
+        },
+        {
+          "projectionsMm": [
+            0.8,
+            1.6
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.3142900081550786
+        },
+        {
+          "projectionsMm": [
+            1.6,
+            0.8
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 2.1855193749042665
+        },
+        {
+          "projectionsMm": [
+            0.8,
+            1.8
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.0348155698382415
+        },
+        {
+          "projectionsMm": [
+            1.8,
+            0.8
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.7972130426929624
+        },
+        {
+          "projectionsMm": [
+            1.0,
+            1.6
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.2909071927123008
+        },
+        {
+          "projectionsMm": [
+            1.6,
+            1.0
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 2.06240487743107
+        },
+        {
+          "projectionsMm": [
+            1.0,
+            1.8
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.0130937647508278
+        },
+        {
+          "projectionsMm": [
+            1.8,
+            1.0
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.7608717581637556
+        }
+      ]
+    },
+    {
+      "pair": "M3-M4",
+      "resolved": false,
+      "selected": null,
+      "checks": [
+        {
+          "projectionsMm": [
+            1.2,
+            1.2
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 0.009190276931084821
+        },
+        {
+          "projectionsMm": [
+            0.8,
+            1.6
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 0.011832289241710045
+        },
+        {
+          "projectionsMm": [
+            1.6,
+            0.8
+          ],
+          "validBodyContainment": false
+        },
+        {
+          "projectionsMm": [
+            0.8,
+            1.8
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 0.0167202011735196
+        },
+        {
+          "projectionsMm": [
+            1.8,
+            0.8
+          ],
+          "validBodyContainment": false
+        },
+        {
+          "projectionsMm": [
+            1.0,
+            1.6
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 0.009227711641616804
+        },
+        {
+          "projectionsMm": [
+            1.6,
+            1.0
+          ],
+          "validBodyContainment": false
+        },
+        {
+          "projectionsMm": [
+            1.0,
+            1.8
+          ],
+          "validBodyContainment": true,
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 0.014323232383615637
+        },
+        {
+          "projectionsMm": [
+            1.8,
+            1.0
+          ],
+          "validBodyContainment": false
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "buttons": {
+      "I2": {
+        "localExteriorDatumMm": 11.072973699803782,
+        "axialDepthShiftMm": 12.312973699803782,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "I2-I3",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "FAIL",
+        "holeCutVolumeMm3": 27.480946460098494,
+        "cavityCutVolumeMm3": 57.00575014754577,
+        "minimumBodyOuterMarginMm": 1.2400000000000002,
+        "minimumSurroundingRimThicknessMm": 1.1335171101982429,
+        "N2Seam": "NONE"
+      },
+      "I3": {
+        "localExteriorDatumMm": 10.530239389752282,
+        "axialDepthShiftMm": 11.770239389752282,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "I2-I3",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "FAIL",
+        "holeCutVolumeMm3": 26.300621980153664,
+        "cavityCutVolumeMm3": 17.78562960925774,
+        "minimumBodyOuterMarginMm": 1.106072010977737,
+        "minimumSurroundingRimThicknessMm": 0.9643104965907847,
+        "N2Seam": "NONE"
+      },
+      "I4": {
+        "localExteriorDatumMm": 2.9985382656267636,
+        "axialDepthShiftMm": 4.238538265626763,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "NONE",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "PASS",
+        "holeCutVolumeMm3": 0.4582463144470239,
+        "cavityCutVolumeMm3": 78.69705332957528,
+        "minimumBodyOuterMarginMm": 1.238468641709579,
+        "minimumSurroundingRimThicknessMm": 1.3776369039232073,
+        "N2Seam": "NONE"
+      },
+      "M3": {
+        "localExteriorDatumMm": 8.755033962642214,
+        "axialDepthShiftMm": 9.995033962642214,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "M3-M4",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "FAIL",
+        "holeCutVolumeMm3": 14.347339630548959,
+        "cavityCutVolumeMm3": 0.4793253050665953,
+        "minimumBodyOuterMarginMm": 0.26380294349016786,
+        "minimumSurroundingRimThicknessMm": 1.039578058806602,
+        "N2Seam": "NONE"
+      },
+      "M4": {
+        "localExteriorDatumMm": 9.045728078068784,
+        "axialDepthShiftMm": 10.285728078068784,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "M3-M4",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "FAIL",
+        "holeCutVolumeMm3": 5.325097519096744,
+        "cavityCutVolumeMm3": 7.413968081702478,
+        "minimumBodyOuterMarginMm": 1.130648713395198,
+        "minimumSurroundingRimThicknessMm": 0.8387669897598666,
+        "N2Seam": "NONE"
+      },
+      "N1": {
+        "localExteriorDatumMm": 0.06947843615189164,
+        "axialDepthShiftMm": 1.3094784361518916,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "NONE",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "PASS",
+        "holeCutVolumeMm3": 31.436508953484008,
+        "cavityCutVolumeMm3": 49.65428232648992,
+        "minimumBodyOuterMarginMm": 1.0361044303217752,
+        "minimumSurroundingRimThicknessMm": 3.000133651176803,
+        "N2Seam": "NONE"
+      },
+      "N2": {
+        "localExteriorDatumMm": 0.006310086967313389,
+        "axialDepthShiftMm": 1.2463100869673134,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "NONE",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "PASS",
+        "holeCutVolumeMm3": 31.17374030447536,
+        "cavityCutVolumeMm3": 46.53430105280131,
+        "minimumBodyOuterMarginMm": 1.1988323452156695,
+        "minimumSurroundingRimThicknessMm": 3.0002631588809026,
+        "N2Seam": "SIMPLE SPLIT POCKET"
+      },
+      "N3": {
+        "localExteriorDatumMm": 0.0014472392837889814,
+        "axialDepthShiftMm": 1.241447239283789,
+        "socketFit": "PASS",
+        "bodyOutsideShellMm3": 0.0,
+        "actuatorProjectionMm": 1.2,
+        "detailedSwitchCollision": "NONE",
+        "terminalAccess": {
+          "T2": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T1": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T4": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          },
+          "T3": {
+            "accessible": true,
+            "openChannelWidthMm": 1.3,
+            "minimumSideClearanceMm": 0.3
+          }
+        },
+        "allTerminalsAccessible": true,
+        "result": "PASS",
+        "holeCutVolumeMm3": 31.641138934304763,
+        "cavityCutVolumeMm3": 47.84497475623357,
+        "minimumBodyOuterMarginMm": 0.27299110261338,
+        "minimumSurroundingRimThicknessMm": 2.999996716755901,
+        "N2Seam": "NONE"
+      }
+    },
+    "pairs": [
+      {
+        "pair": "I2-I3",
+        "switch": {
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 1.9937289532295406
+        },
+        "socket": {
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 65.14799451020933
+        },
+        "collisionBreakdown": {
+          "bodyBodyMm3": 1.9527116826128237,
+          "leftBodyRightTerminalsMm3": 0.0410172706167168,
+          "rightBodyLeftTerminalsMm3": 0.0,
+          "terminalTerminalMm3": 0.0,
+          "actuatorNeighborMm3": 0.0
+        },
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I2-I4",
+        "switch": {
+          "distanceMm": 6.003022504213165,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 3.7144746809584857,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I2-M3",
+        "switch": {
+          "distanceMm": 11.050841970910511,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 8.424357338095994,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I2-M4",
+        "switch": {
+          "distanceMm": 11.331731149751702,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 8.015060556718288,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I2-N1",
+        "switch": {
+          "distanceMm": 7.783782878662102,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 5.129031781033554,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I2-N2",
+        "switch": {
+          "distanceMm": 8.026149852028261,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 5.307350625631674,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I2-N3",
+        "switch": {
+          "distanceMm": 21.63714486110652,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 17.300565143404054,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I3-I4",
+        "switch": {
+          "distanceMm": 1.676378156278837,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 0.5998416264368642,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I3-M3",
+        "switch": {
+          "distanceMm": 8.745094545478286,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 5.97769863979822,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I3-M4",
+        "switch": {
+          "distanceMm": 8.353064136364518,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 5.547158112624987,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I3-N1",
+        "switch": {
+          "distanceMm": 8.951801956448689,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 7.023246305187029,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I3-N2",
+        "switch": {
+          "distanceMm": 9.050889561674397,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 7.216986918093624,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I3-N3",
+        "switch": {
+          "distanceMm": 17.1107042806323,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 13.562369295278597,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I4-M3",
+        "switch": {
+          "distanceMm": 11.026912990946483,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 7.818983161085831,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I4-M4",
+        "switch": {
+          "distanceMm": 10.811446529757397,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 7.538919022780337,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I4-N1",
+        "switch": {
+          "distanceMm": 11.747423531241248,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 9.787896059095603,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I4-N2",
+        "switch": {
+          "distanceMm": 8.51077275531443,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 6.926218077475369,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "I4-N3",
+        "switch": {
+          "distanceMm": 14.734352564099606,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 11.20768454971918,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "M3-M4",
+        "switch": {
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 0.009190276931084821
+        },
+        "socket": {
+          "distanceMm": 0.0,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 54.1608592037875
+        },
+        "collisionBreakdown": {
+          "bodyBodyMm3": 0.0,
+          "leftBodyRightTerminalsMm3": 0.0,
+          "rightBodyLeftTerminalsMm3": 0.0,
+          "terminalTerminalMm3": 0.009190276931084821,
+          "actuatorNeighborMm3": 0.0
+        },
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "M3-N1",
+        "switch": {
+          "distanceMm": 28.599312379446047,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 25.3869278483282,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "M3-N2",
+        "switch": {
+          "distanceMm": 28.682787898564104,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 25.569783498510965,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "M3-N3",
+        "switch": {
+          "distanceMm": 9.195514748766604,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 5.6141213196168875,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "M4-N1",
+        "switch": {
+          "distanceMm": 28.963024937284704,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 25.297610965448797,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "M4-N2",
+        "switch": {
+          "distanceMm": 28.42713312327167,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 25.18294454108909,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "M4-N3",
+        "switch": {
+          "distanceMm": 2.27905137076557,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 0.1528861276380092,
+          "distanceBasis": "exact BRep",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "N1-N2",
+        "switch": {
+          "distanceMm": 3.2150627265313885,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 2.201510628416731,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "N1-N3",
+        "switch": {
+          "distanceMm": 36.61328498013141,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 32.32874208493045,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      },
+      {
+        "pair": "N2-N3",
+        "switch": {
+          "distanceMm": 33.364144186761095,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "socket": {
+          "distanceMm": 29.799254578304218,
+          "distanceBasis": "conservative AABB lower bound",
+          "penetrationMm3": 0.0
+        },
+        "collisionBreakdown": null,
+        "socketOverlapAllowedAsConnectedRelief": false
+      }
+    ],
+    "i2I3": {
+      "pair": "I2-I3",
+      "switch": {
+        "distanceMm": 0.0,
+        "distanceBasis": "exact BRep",
+        "penetrationMm3": 1.9937289532295406
+      },
+      "socket": {
+        "distanceMm": 0.0,
+        "distanceBasis": "exact BRep",
+        "penetrationMm3": 65.14799451020933
+      },
+      "collisionBreakdown": {
+        "bodyBodyMm3": 1.9527116826128237,
+        "leftBodyRightTerminalsMm3": 0.0410172706167168,
+        "rightBodyLeftTerminalsMm3": 0.0,
+        "terminalTerminalMm3": 0.0,
+        "actuatorNeighborMm3": 0.0
+      },
+      "socketOverlapAllowedAsConnectedRelief": false
+    },
+    "m3M4": {
+      "pair": "M3-M4",
+      "switch": {
+        "distanceMm": 0.0,
+        "distanceBasis": "exact BRep",
+        "penetrationMm3": 0.009190276931084821
+      },
+      "socket": {
+        "distanceMm": 0.0,
+        "distanceBasis": "exact BRep",
+        "penetrationMm3": 54.1608592037875
+      },
+      "collisionBreakdown": {
+        "bodyBodyMm3": 0.0,
+        "leftBodyRightTerminalsMm3": 0.0,
+        "rightBodyLeftTerminalsMm3": 0.0,
+        "terminalTerminalMm3": 0.009190276931084821,
+        "actuatorNeighborMm3": 0.0
+      },
+      "socketOverlapAllowedAsConnectedRelief": false
+    },
+    "m4N3": {
+      "pair": "M4-N3",
+      "switch": {
+        "distanceMm": 2.27905137076557,
+        "distanceBasis": "conservative AABB lower bound",
+        "penetrationMm3": 0.0
+      },
+      "socket": {
+        "distanceMm": 0.1528861276380092,
+        "distanceBasis": "exact BRep",
+        "penetrationMm3": 0.0
+      },
+      "collisionBreakdown": null,
+      "socketOverlapAllowedAsConnectedRelief": false
+    }
+  },
+  "cut": {
+    "holeCutVolumeByButtonAndHalfMm3": {
+      "JaD": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 0.4582463144470239,
+        "M3": 0.0,
+        "M4": 5.325097519096744,
+        "N1": 0.0,
+        "N2": 15.887886078067822,
+        "N3": 31.641138934304763
+      },
+      "JfD": {
+        "I2": 27.480946460098494,
+        "I3": 26.300621980153664,
+        "I4": 0.0,
+        "M3": 14.347339630548959,
+        "M4": 0.0,
+        "N1": 31.436508953484008,
+        "N2": 15.285854226407537,
+        "N3": 0.0
+      }
+    },
+    "cavityCutVolumeByButtonAndHalfMm3": {
+      "JaD": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 78.69705332957528,
+        "M3": 0.0,
+        "M4": 7.413968081702478,
+        "N1": 0.0,
+        "N2": 25.8103004124132,
+        "N3": 47.84497475623357
+      },
+      "JfD": {
+        "I2": 57.00575014754577,
+        "I3": 17.78562960925774,
+        "I4": 0.0,
+        "M3": 0.4793253050665953,
+        "M4": 0.0,
+        "N1": 49.65428232648992,
+        "N2": 20.724000640388113,
+        "N3": 0.0
+      }
+    },
+    "discardedCutSlugsMm3": {
+      "JaD": [],
+      "JfD": [
+        0.024573876837208387
+      ]
+    }
+  },
+  "comparison": {
+    "docs97FailureDatumCause": "YES"
+  },
+  "architecture": {
+    "harness": 0,
+    "legs": 0,
+    "pushers": 0,
+    "holeDiameterMm": 3.65,
+    "bodyClearancePerSideMm": 0.2,
+    "epoxyFixationAccepted": true
+  },
+  "manufacturing": {
+    "native": {
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 1687,
+        "edgeCount": 5011,
+        "vertexCount": 3341,
+        "volumeMm3": 47459.871763207986,
+        "zeroAreaFaceCount": 2,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -1.5008980433263331e-05,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            38.77976975434524,
+            62.42831449597656,
+            78.25678350406848
+          ],
+          "size": [
+            38.77978476332567,
+            123.86025862084131,
+            152.13529205266929
+          ]
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2264,
+        "edgeCount": 6815,
+        "vertexCount": 4545,
+        "volumeMm3": 49889.97323755782,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -38.77976975434524,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            5.5393962316183e-05,
+            62.42831449419312,
+            78.2567835040506
+          ],
+          "size": [
+            38.77982514830755,
+            123.86025861905787,
+            152.13529205265138
+          ]
+        }
+      }
+    },
+    "reimport": {
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 1687,
+        "edgeCount": 5011,
+        "vertexCount": 3341,
+        "volumeMm3": 47459.87307233319,
+        "zeroAreaFaceCount": 2,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -1.5008980487268742e-05,
+            -61.43194412485939,
+            -73.8785085486
+          ],
+          "max": [
+            38.77976975434534,
+            62.428314495976885,
+            78.25678350406861
+          ],
+          "size": [
+            38.77978476332583,
+            123.86025862083628,
+            152.1352920526686
+          ]
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2264,
+        "edgeCount": 6815,
+        "vertexCount": 4545,
+        "volumeMm3": 49889.976334027095,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -38.77976975433841,
+            -61.4319441248594,
+            -73.8785085486
+          ],
+          "max": [
+            1.5772702430913342e-05,
+            62.42831449420142,
+            78.2567835040506
+          ],
+          "size": [
+            38.77978552704084,
+            123.86025861906083,
+            152.13529205265058
+          ]
+        }
+      }
+    },
+    "stl": {
+      "JaD": {
+        "path": "build123d_workbench/out/direct_embedded_finger_switch_v2/DIRECT_EMBEDDED_V2_JaD_AUDIT.stl",
+        "bytes": 1468984,
+        "unit": "millimeter",
+        "triangleCount": 29378,
+        "uniqueVertexCount": 14659,
+        "boundaryEdgeCount": 0,
+        "nonManifoldEdgeCount": 0,
+        "connectedComponentCount": 1,
+        "watertight": true,
+        "boundingBoxMm": {
+          "min": [
+            -8.828827019512556e-14,
+            -61.429954528808594,
+            -73.87850952148438
+          ],
+          "max": [
+            38.77210998535156,
+            62.427490234375,
+            78.2553939819336
+          ],
+          "size": [
+            38.77210998535165,
+            123.8574447631836,
+            152.13390350341797
+          ]
+        }
+      },
+      "JfD": {
+        "path": "build123d_workbench/out/direct_embedded_finger_switch_v2/DIRECT_EMBEDDED_V2_JfD_AUDIT.stl",
+        "bytes": 1622484,
+        "unit": "millimeter",
+        "triangleCount": 32448,
+        "uniqueVertexCount": 16146,
+        "boundaryEdgeCount": 0,
+        "nonManifoldEdgeCount": 0,
+        "connectedComponentCount": 1,
+        "watertight": true,
+        "boundingBoxMm": {
+          "min": [
+            -38.777408599853516,
+            -61.431854248046875,
+            -73.87850952148438
+          ],
+          "max": [
+            2.1425528994208076e-13,
+            62.427490234375,
+            78.25624084472656
+          ],
+          "size": [
+            38.77740859985373,
+            123.85934448242188,
+            152.13475036621094
+          ]
+        }
+      }
+    },
+    "pass": true
+  },
+  "preservation": {
+    "before": {
+      "build123d_workbench/out/direct_embedded_finger_switch_reset/direct_embedded_finger_switch_reset.json": "174BF5BACAD02FE1AB1A57795BDE0EDD070FF4AF7C5486268FE6960122AE1986",
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.step": "C67C82B6C85AAADC85AD05719CEB5BF9C1A0C9DA3190CDD2425CB665CB94A9F5",
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.step": "7204B7EDB59123C8203D81FA27C139C156A1B41D61CC97767D259C0169604450",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/97_direct_embedded_finger_switch_reset.md": "B4E460C3E6304CBD7DA6112ADA262C5CA6CC4F4D2D4670B3A55F6C19BCB62DDA",
+      "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+    },
+    "after": {
+      "build123d_workbench/out/direct_embedded_finger_switch_reset/direct_embedded_finger_switch_reset.json": "174BF5BACAD02FE1AB1A57795BDE0EDD070FF4AF7C5486268FE6960122AE1986",
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.step": "C67C82B6C85AAADC85AD05719CEB5BF9C1A0C9DA3190CDD2425CB665CB94A9F5",
+      "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.step": "7204B7EDB59123C8203D81FA27C139C156A1B41D61CC97767D259C0169604450",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "docs/97_direct_embedded_finger_switch_reset.md": "B4E460C3E6304CBD7DA6112ADA262C5CA6CC4F4D2D4670B3A55F6C19BCB62DDA",
+      "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+    },
+    "unchanged": true
+  },
+  "outputs": {
+    "JaDStep": "build123d_workbench/out/direct_embedded_finger_switch_v2/DIRECT_EMBEDDED_V2_JaD_AUDIT.step",
+    "JfDStep": "build123d_workbench/out/direct_embedded_finger_switch_v2/DIRECT_EMBEDDED_V2_JfD_AUDIT.step",
+    "referenceStep": "build123d_workbench/out/direct_embedded_finger_switch_v2/ALL8_DIRECT_EMBEDDED_V2_SWITCH_REFERENCE.step",
+    "JaDStl": "build123d_workbench/out/direct_embedded_finger_switch_v2/DIRECT_EMBEDDED_V2_JaD_AUDIT.stl",
+    "JfDStl": "build123d_workbench/out/direct_embedded_finger_switch_v2/DIRECT_EMBEDDED_V2_JfD_AUDIT.stl",
+    "json": "build123d_workbench/out/direct_embedded_finger_switch_v2/direct_embedded_v2_validation.json",
+    "report": "docs/98_direct_embedded_finger_switch_v2.md",
+    "renders": [
+      "renders/direct_embedded_finger_switch_v2/01_clean_shell_recovered_axes.png",
+      "renders/direct_embedded_finger_switch_v2/02_all8_corrected_external_actuator_only.png",
+      "renders/direct_embedded_finger_switch_v2/03_all8_corrected_interior_switches.png",
+      "renders/direct_embedded_finger_switch_v2/04_i2_corrected_shell_section.png",
+      "renders/direct_embedded_finger_switch_v2/05_i3_corrected_shell_section.png",
+      "renders/direct_embedded_finger_switch_v2/06_i4_corrected_shell_section.png",
+      "renders/direct_embedded_finger_switch_v2/07_m3_m4_corrected_region.png",
+      "renders/direct_embedded_finger_switch_v2/08_i2_i3_neighbor_closeup.png",
+      "renders/direct_embedded_finger_switch_v2/09_n2_corrected_split_pocket.png",
+      "renders/direct_embedded_finger_switch_v2/10_terminal_access_overview.png"
+    ],
+    "productionOverwriteCount": 0
+  }
+}

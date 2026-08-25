@@ -1,0 +1,119 @@
+{
+  "buttons": {
+    "T1": {
+      "A_originalCap_originalShellMm3": 1.1773191821469213,
+      "B_loweredCap_currentShellMm3": 0.020384940775033316,
+      "C_restoredCap_currentShellMm3": 3.2828073506948225,
+      "C_minus_A_Mm3": 2.105488168547901,
+      "axialShiftOutwardMm": 5.579945647301697
+    },
+    "T2": {
+      "A_originalCap_originalShellMm3": 0.9349262466718974,
+      "B_loweredCap_currentShellMm3": 0.0,
+      "C_restoredCap_currentShellMm3": 0.8934870821947698,
+      "C_minus_A_Mm3": -0.04143916447712759,
+      "axialShiftOutwardMm": 7.220910006019555
+    },
+    "T3": {
+      "A_originalCap_originalShellMm3": 0.6102725842767867,
+      "B_loweredCap_currentShellMm3": 0.07163512676777492,
+      "C_restoredCap_currentShellMm3": 7.305169073211635,
+      "C_minus_A_Mm3": 6.694896488934848,
+      "axialShiftOutwardMm": 5.57308506619289
+    },
+    "T4": {
+      "A_originalCap_originalShellMm3": 0.9351084451119742,
+      "B_loweredCap_currentShellMm3": 0.0,
+      "C_restoredCap_currentShellMm3": 3.212604413634686,
+      "C_minus_A_Mm3": 2.277495968522712,
+      "axialShiftOutwardMm": 6.893782428248353
+    },
+    "T5": {
+      "A_originalCap_originalShellMm3": 1.1962207751162746,
+      "B_loweredCap_currentShellMm3": 0.011801277859282734,
+      "C_restoredCap_currentShellMm3": 0.9227820999702794,
+      "C_minus_A_Mm3": -0.2734386751459952,
+      "axialShiftOutwardMm": 6.0507429572859195
+    },
+    "T6": {
+      "A_originalCap_originalShellMm3": 0.904310176128554,
+      "B_loweredCap_currentShellMm3": 0.0,
+      "C_restoredCap_currentShellMm3": 9.465249466315042,
+      "C_minus_A_Mm3": 8.560939290186488,
+      "axialShiftOutwardMm": 6.882683199876716
+    },
+    "T7": {
+      "A_originalCap_originalShellMm3": 0.5618987649790648,
+      "B_loweredCap_currentShellMm3": 0.0,
+      "C_restoredCap_currentShellMm3": 2.7423676582366587,
+      "C_minus_A_Mm3": 2.180468893257594,
+      "axialShiftOutwardMm": 8.377656691260928
+    },
+    "T8": {
+      "A_originalCap_originalShellMm3": 0.5659989969915528,
+      "B_loweredCap_currentShellMm3": 0.0,
+      "C_restoredCap_currentShellMm3": 6.314419077763554,
+      "C_minus_A_Mm3": 5.748420080772001,
+      "axialShiftOutwardMm": 8.372092602820747
+    }
+  },
+  "totals": {
+    "A": 6.886055171423026,
+    "B": 0.10382134540209098,
+    "C": 34.13888622202145
+  },
+  "maxima": {
+    "A": 1.1962207751162746,
+    "B": 0.07163512676777492,
+    "C": 9.465249466315042
+  },
+  "worstExcessOverReferenceMm3": 8.560939290186488,
+  "verdict": "RESTORED CAP FIT IS MATERIALLY WORSE THAN THE ORIGINAL - CLASS A",
+  "memory": [
+    {
+      "stage": "shells",
+      "rssMb": 397.6,
+      "availMb": 19268.8
+    },
+    {
+      "stage": "control T1",
+      "rssMb": 418.5,
+      "availMb": 19254.0
+    },
+    {
+      "stage": "control T2",
+      "rssMb": 426.6,
+      "availMb": 19249.2
+    },
+    {
+      "stage": "control T3",
+      "rssMb": 431.2,
+      "availMb": 19244.9
+    },
+    {
+      "stage": "control T4",
+      "rssMb": 435.0,
+      "availMb": 19236.2
+    },
+    {
+      "stage": "control T5",
+      "rssMb": 452.8,
+      "availMb": 19224.7
+    },
+    {
+      "stage": "control T6",
+      "rssMb": 420.3,
+      "availMb": 19244.1
+    },
+    {
+      "stage": "control T7",
+      "rssMb": 458.7,
+      "availMb": 19211.8
+    },
+    {
+      "stage": "control T8",
+      "rssMb": 457.2,
+      "availMb": 19211.3
+    }
+  ]
+}

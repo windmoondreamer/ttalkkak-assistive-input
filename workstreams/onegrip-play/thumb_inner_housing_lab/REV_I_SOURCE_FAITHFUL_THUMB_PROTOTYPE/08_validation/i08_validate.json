@@ -1,0 +1,379 @@
+{
+  "gates": [
+    {
+      "gate": "single coherent core",
+      "pass": true,
+      "detail": "1 solid(s), valid=True, vol 7378.0 mm3, 333 faces"
+    },
+    {
+      "gate": "BRep valid",
+      "pass": true,
+      "detail": "True"
+    },
+    {
+      "gate": "no shell interference",
+      "pass": true,
+      "detail": "0.000000 mm3"
+    },
+    {
+      "gate": "minimum thickness",
+      "pass": true,
+      "detail": "interior area below 1.20 mm = 0.00 mm2 (p25/p50/p75 = 3.000/3.000/4.792)"
+    },
+    {
+      "gate": "no narrow necks / islands in plan",
+      "pass": true,
+      "detail": "1 plan components, largest 1768.6 mm2"
+    },
+    {
+      "gate": "load path reaches the shell",
+      "pass": true,
+      "detail": "min gap 0.162 mm, 8.41% of the core surface within 1.0 mm, p05 0.587"
+    },
+    {
+      "gate": "standoffs present",
+      "pass": true,
+      "detail": "3 standoff(s) built"
+    },
+    {
+      "gate": "all eight seats bear",
+      "pass": true,
+      "detail": "min 23.79 mm2 = 65.2% of the 6.04 x 6.04 footprint"
+    },
+    {
+      "gate": "all sixteen terminal slots open",
+      "pass": true,
+      "detail": "16 of 16"
+    },
+    {
+      "gate": "T7 and T8 retained",
+      "pass": true,
+      "detail": "T7 23.79 mm2, T8 23.79 mm2 (REV_H had 0.00 / 0.00)"
+    },
+    {
+      "gate": "terminal escape",
+      "pass": true,
+      "detail": "worst free depth 11.837 mm against 3.654 mm needed"
+    },
+    {
+      "gate": "cap protrusion follows the original law",
+      "pass": true,
+      "detail": "restored to 1.066-1.459 mm by construction (I02c shift 5.573-8.378 mm)"
+    },
+    {
+      "gate": "press travel available",
+      "pass": true,
+      "detail": "cap can sink 1.07 mm before the top reaches the skin, travel 0.25 mm PROVISIONAL"
+    },
+    {
+      "gate": "switch mechanism clear of the shell",
+      "pass": true,
+      "detail": "0.0334 mm3"
+    },
+    {
+      "gate": "switch bodies and actuators clear of the core",
+      "pass": true,
+      "detail": "0.0000 mm3 (terminal ENVELOPE box overlaps 622.3 mm3 by construction)"
+    },
+    {
+      "gate": "no CONFIDENT STATIC collision",
+      "pass": true,
+      "detail": "0.0000 mm3"
+    },
+    {
+      "gate": "no external-subsystem collision",
+      "pass": true,
+      "detail": "0.0000 mm3 vs N1/N2 (REVALIDATE AFTER FINGER FREEZE)"
+    },
+    {
+      "gate": "provisional static collision reported not cut",
+      "pass": true,
+      "detail": "56.2517 mm3"
+    },
+    {
+      "gate": "removable-hardware collision is CLASS C",
+      "pass": true,
+      "detail": "18.3033 mm3 (header / stock knob may be removed, section 12)"
+    },
+    {
+      "gate": "provisional moving envelope reported not cut",
+      "pass": true,
+      "detail": "2562.1052 mm3 - NOT subtracted (section 13)"
+    },
+    {
+      "gate": "joystick external height matches the original law",
+      "pass": true,
+      "detail": "knob top target +7.607 mm, adapter reach 10.239 mm from the provisional shaft"
+    },
+    {
+      "gate": "joystick deck supports the PCB",
+      "pass": true,
+      "detail": "cavity-shaped deck r 13.6-24.8 mm, 3.0 mm thick, 23.993 mm below the skin (original module bottom 19.043)"
+    },
+    {
+      "gate": "knob passes the current JOY opening",
+      "pass": true,
+      "detail": "current bore half-width 6.555 mm, original knob radius 7.007 -> new knob <= 6.355"
+    },
+    {
+      "gate": "switches installable down their own bore",
+      "pass": true,
+      "detail": "worst swept obstruction 0.000 mm3 withdrawing 12 mm outward"
+    },
+    {
+      "gate": "caps installable from outside",
+      "pass": true,
+      "detail": "caps drop into their own frozen bores; cap profile is re-cut to the current bore"
+    },
+    {
+      "gate": "joystick removable",
+      "pass": true,
+      "detail": "deck is open on the cavity side; PCB lifts along +[0.0, 0.598, 0.801]"
+    },
+    {
+      "gate": "wiring accessible",
+      "pass": true,
+      "detail": "16 of 16 terminal slots open into the cavity; deck aperture 12 mm"
+    }
+  ],
+  "pass": 27,
+  "fail": 0,
+  "buttons": {
+    "T1": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.3851914328717245,
+      "terminalFreeDepthMm": 27.83947785823909
+    },
+    "T2": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.0655054484294402,
+      "terminalFreeDepthMm": 35.596956249612774
+    },
+    "T3": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.4589306709174288,
+      "terminalFreeDepthMm": 29.470907230349713
+    },
+    "T4": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.2909270693328163,
+      "terminalFreeDepthMm": 34.38100307573081
+    },
+    "T5": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.1656326843865192,
+      "terminalFreeDepthMm": 36.31503322896204
+    },
+    "T6": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.3376135613689244,
+      "terminalFreeDepthMm": 31.3497022837715
+    },
+    "T7": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.1995165456317478,
+      "terminalFreeDepthMm": 11.841061882971534
+    },
+    "T8": {
+      "bearingMm2": 23.79,
+      "bearingFraction": 0.6521095565983948,
+      "openSlots": 2,
+      "protrusionMm": 1.2107719491881337,
+      "terminalFreeDepthMm": 11.837028387010967
+    }
+  },
+  "keepOutByClass": {
+    "PROVISIONAL STATIC": {
+      "SZH_pcb": 56.25171463435986
+    },
+    "REMOVABLE HARDWARE": {
+      "SZH_cap": 1.445670399397115,
+      "SZH_header": 16.857663756908213
+    },
+    "PROVISIONAL MOVING ENVELOPE": {
+      "SZH_MOVING_ENVELOPE_25deg": 2562.1052419199
+    }
+  },
+  "thicknessPercentiles": {
+    "5": 2.3458624708068623,
+    "25": 2.9999999999990017,
+    "50": 3.0000000000010845,
+    "75": 4.791570758153285,
+    "95": 9.197195824063009
+  },
+  "planAreaMm2": 1768.5600000000004,
+  "interiorThinMm2": 0.0,
+  "coreToShellMinGapMm": 0.1615220029076774,
+  "coreToShellWithin1mmFraction": 0.08414501555880478,
+  "memory": [
+    {
+      "stage": "load",
+      "rssMb": 431.9,
+      "availMb": 18322.1
+    },
+    {
+      "stage": "thickness",
+      "rssMb": 454.9,
+      "availMb": 18317.4
+    },
+    {
+      "stage": "bear T1",
+      "rssMb": 469.1,
+      "availMb": 18287.7
+    },
+    {
+      "stage": "bear T2",
+      "rssMb": 469.2,
+      "availMb": 18291.0
+    },
+    {
+      "stage": "bear T3",
+      "rssMb": 469.2,
+      "availMb": 18295.1
+    },
+    {
+      "stage": "bear T4",
+      "rssMb": 469.2,
+      "availMb": 18297.1
+    },
+    {
+      "stage": "bear T5",
+      "rssMb": 469.2,
+      "availMb": 18298.3
+    },
+    {
+      "stage": "bear T6",
+      "rssMb": 469.2,
+      "availMb": 18299.9
+    },
+    {
+      "stage": "bear T7",
+      "rssMb": 469.2,
+      "availMb": 18297.9
+    },
+    {
+      "stage": "bear T8",
+      "rssMb": 469.2,
+      "availMb": 18298.0
+    },
+    {
+      "stage": "ko SZH_pcb",
+      "rssMb": 513.5,
+      "availMb": 18242.0
+    },
+    {
+      "stage": "ko SZH_gimbal",
+      "rssMb": 513.5,
+      "availMb": 18237.4
+    },
+    {
+      "stage": "ko SZH_x_pot",
+      "rssMb": 513.5,
+      "availMb": 18237.2
+    },
+    {
+      "stage": "ko SZH_y_pot",
+      "rssMb": 513.5,
+      "availMb": 18237.6
+    },
+    {
+      "stage": "ko SZH_push_switch",
+      "rssMb": 513.5,
+      "availMb": 18238.1
+    },
+    {
+      "stage": "ko SZH_shaft",
+      "rssMb": 513.5,
+      "availMb": 18238.4
+    },
+    {
+      "stage": "ko SZH_cap",
+      "rssMb": 513.5,
+      "availMb": 18237.6
+    },
+    {
+      "stage": "ko SZH_header",
+      "rssMb": 513.5,
+      "availMb": 18238.4
+    },
+    {
+      "stage": "ko SZH_MOVING_ENVELOPE_25deg",
+      "rssMb": 513.5,
+      "availMb": 18253.2
+    },
+    {
+      "stage": "ko N1_N2_SHARED_CARRIER",
+      "rssMb": 513.5,
+      "availMb": 18254.1
+    },
+    {
+      "stage": "ko ORIGINAL_SCREW_1",
+      "rssMb": 513.6,
+      "availMb": 18255.6
+    },
+    {
+      "stage": "ko ORIGINAL_SCREW_2",
+      "rssMb": 513.6,
+      "availMb": 18254.7
+    },
+    {
+      "stage": "ko ORIGINAL_SCREW_3",
+      "rssMb": 513.6,
+      "availMb": 18252.5
+    },
+    {
+      "stage": "ins T1",
+      "rssMb": 513.6,
+      "availMb": 18256.6
+    },
+    {
+      "stage": "ins T2",
+      "rssMb": 513.6,
+      "availMb": 18254.8
+    },
+    {
+      "stage": "ins T3",
+      "rssMb": 513.6,
+      "availMb": 18254.1
+    },
+    {
+      "stage": "ins T4",
+      "rssMb": 513.6,
+      "availMb": 18248.2
+    },
+    {
+      "stage": "ins T5",
+      "rssMb": 513.6,
+      "availMb": 18247.7
+    },
+    {
+      "stage": "ins T6",
+      "rssMb": 513.6,
+      "availMb": 18247.5
+    },
+    {
+      "stage": "ins T7",
+      "rssMb": 513.6,
+      "availMb": 18238.5
+    },
+    {
+      "stage": "ins T8",
+      "rssMb": 513.6,
+      "availMb": 18221.6
+    }
+  ]
+}

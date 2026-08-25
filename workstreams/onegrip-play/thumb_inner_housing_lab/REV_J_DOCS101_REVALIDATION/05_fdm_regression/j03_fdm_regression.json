@@ -1,0 +1,195 @@
+{
+  "solids": 1,
+  "valid": true,
+  "volumeMm3": 7378.019744840352,
+  "faces": 333,
+  "interiorThinMm2": 0.0,
+  "planComponents": 1,
+  "thicknessP25": 2.9999999999990017,
+  "thicknessP50": 3.0000000000010845,
+  "joystick": {
+    "SZH_pcb": {
+      "vsDocs101ShellMm3": 175.88128528250073,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_gimbal": {
+      "vsDocs101ShellMm3": 0.0,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_x_pot": {
+      "vsDocs101ShellMm3": 0.0,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_y_pot": {
+      "vsDocs101ShellMm3": 0.0,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_push_switch": {
+      "vsDocs101ShellMm3": 0.0,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_shaft": {
+      "vsDocs101ShellMm3": 0.0,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_cap": {
+      "vsDocs101ShellMm3": 404.04029769848125,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_header": {
+      "vsDocs101ShellMm3": 20.96811417816449,
+      "vsFingerSwitchesMm3": 0.0
+    },
+    "SZH_MOVING_ENVELOPE_25deg": {
+      "vsDocs101ShellMm3": 1235.1699713003811,
+      "vsFingerSwitchesMm3": 0.0
+    }
+  },
+  "memory": [
+    {
+      "stage": "load",
+      "rssMb": 474.6,
+      "availMb": 18450.3
+    },
+    {
+      "stage": "reg T1",
+      "rssMb": 494.4,
+      "availMb": 18469.0
+    },
+    {
+      "stage": "reg T2",
+      "rssMb": 494.4,
+      "availMb": 18466.5
+    },
+    {
+      "stage": "reg T3",
+      "rssMb": 494.5,
+      "availMb": 18474.9
+    },
+    {
+      "stage": "reg T4",
+      "rssMb": 494.5,
+      "availMb": 18257.1
+    },
+    {
+      "stage": "reg T5",
+      "rssMb": 494.5,
+      "availMb": 18488.6
+    },
+    {
+      "stage": "reg T6",
+      "rssMb": 494.5,
+      "availMb": 18502.7
+    },
+    {
+      "stage": "reg T7",
+      "rssMb": 494.5,
+      "availMb": 18484.8
+    },
+    {
+      "stage": "reg T8",
+      "rssMb": 494.5,
+      "availMb": 18444.8
+    },
+    {
+      "stage": "joy SZH_pcb",
+      "rssMb": 527.1,
+      "availMb": 18446.7
+    },
+    {
+      "stage": "joy SZH_gimbal",
+      "rssMb": 517.5,
+      "availMb": 18452.1
+    },
+    {
+      "stage": "joy SZH_x_pot",
+      "rssMb": 519.7,
+      "availMb": 18449.1
+    },
+    {
+      "stage": "joy SZH_y_pot",
+      "rssMb": 638.8,
+      "availMb": 18328.2
+    },
+    {
+      "stage": "joy SZH_push_switch",
+      "rssMb": 516.0,
+      "availMb": 18448.2
+    },
+    {
+      "stage": "joy SZH_shaft",
+      "rssMb": 642.8,
+      "availMb": 18317.9
+    },
+    {
+      "stage": "joy SZH_cap",
+      "rssMb": 671.7,
+      "availMb": 18280.7
+    },
+    {
+      "stage": "joy SZH_header",
+      "rssMb": 672.3,
+      "availMb": 18295.8
+    },
+    {
+      "stage": "joy SZH_MOVING_ENVELOPE_25deg",
+      "rssMb": 686.8,
+      "availMb": 18290.1
+    },
+    {
+      "stage": "asm along -JOY axis (into the cavity)",
+      "rssMb": 683.5,
+      "availMb": 18301.5
+    },
+    {
+      "stage": "asm along +U (JaD side)",
+      "rssMb": 564.3,
+      "availMb": 18404.0
+    },
+    {
+      "stage": "asm along -U (JfD side)",
+      "rssMb": 565.6,
+      "availMb": 18390.0
+    },
+    {
+      "stage": "asmB I2",
+      "rssMb": 565.6,
+      "availMb": 18387.2
+    },
+    {
+      "stage": "asmB I3",
+      "rssMb": 565.6,
+      "availMb": 18385.7
+    },
+    {
+      "stage": "asmB I4",
+      "rssMb": 565.6,
+      "availMb": 18395.1
+    },
+    {
+      "stage": "asmB M3",
+      "rssMb": 565.6,
+      "availMb": 18395.7
+    },
+    {
+      "stage": "asmB M4",
+      "rssMb": 565.6,
+      "availMb": 18405.1
+    },
+    {
+      "stage": "asmB N1",
+      "rssMb": 565.8,
+      "availMb": 18410.3
+    },
+    {
+      "stage": "asmB N2",
+      "rssMb": 566.0,
+      "availMb": 18406.1
+    },
+    {
+      "stage": "asmB N3",
+      "rssMb": 566.0,
+      "availMb": 18404.7
+    }
+  ]
+}

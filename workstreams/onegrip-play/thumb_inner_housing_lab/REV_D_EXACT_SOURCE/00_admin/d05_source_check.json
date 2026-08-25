@@ -83,18 +83,25 @@
   "watchSetRemoved": [],
   "watchSetAdded": [
     "build123d_workbench/direct_shell_four_edge_i2_simplification_audit.py",
+    "build123d_workbench/eight_button_four_edge_batch_propagation_screening.py",
     "build123d_workbench/i2_assembly_sequence_only_audit.py",
     "build123d_workbench/i2_detailed_pushbtn_manufacturing_robust_audit.py",
+    "build123d_workbench/i2_final_local_clearance_balancing_audit.py",
+    "build123d_workbench/i2_local_manufacturing_clearance_hardening_audit.py",
     "build123d_workbench/i2_manufacturing_harness_rebase_audit.py",
     "build123d_workbench/i2_minimum_angle_direct_shell_assembly_audit.py",
     "build123d_workbench/i2_parallel_w_four_edge_leg_revalidation_audit.py",
     "build123d_workbench/i2_parallel_w_root_slide_simplification_audit.py",
+    "build123d_workbench/i2_user_intended_rear_harness_sanity_check.py",
     "docs/80_direct_shell_four_edge_i2_simplification_audit.md",
     "docs/81_i2_parallel_w_four_edge_leg_revalidation_audit.md",
     "docs/82_i2_parallel_w_root_slide_simplification_audit.md",
     "docs/83_i2_minimum_angle_direct_shell_assembly_audit.md",
     "docs/84_i2_detailed_pushbtn_manufacturing_robust_audit.md",
     "docs/85_i2_assembly_sequence_only_audit.md",
-    "docs/86_i2_manufacturing_harness_rebase_audit.md"
+    "docs/86_i2_manufacturing_harness_rebase_audit.md",
+    "docs/87_i2_user_intended_rear_harness_assembly_sanity_check.md",
+    "docs/88_i2_local_manufacturing_clearance_hardening_audit.md",
+    "docs/89_i2_final_local_clearance_balancing_audit.md"
   ]
 }

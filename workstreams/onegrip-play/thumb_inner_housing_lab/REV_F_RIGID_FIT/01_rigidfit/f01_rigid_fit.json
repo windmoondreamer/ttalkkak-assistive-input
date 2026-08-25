@@ -1,0 +1,417 @@
+{
+  "targetGapMm": 1.0,
+  "plateSeatingNormalOriginalFrame": [
+    -0.001190712188875514,
+    -0.6444981052155214,
+    -0.764604979435843
+  ],
+  "poses": {
+    "POSE_A_CONTROL_ALIGNED": {
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "coveredSamples": 16366,
+      "totalSamples": 19999,
+      "gapPercentilesMm": {
+        "5": 2.7275018885496105,
+        "25": 6.797947477994614,
+        "50": 9.153052939835737,
+        "75": 10.815595675672586,
+        "95": 11.694780475725684
+      },
+      "gapMinMm": -28.491542483104798,
+      "gapMaxMm": 14.54906978124408,
+      "rmsFromTargetMm": 8.41537311558074,
+      "fractionInterfering": 0.0212024929732372
+    },
+    "POSE_B_TRANSLATION_ONLY": {
+      "params": [
+        0.0,
+        0.0,
+        0.0,
+        0.008465219467786857,
+        4.5819787167665975,
+        5.435863525676696
+      ],
+      "coveredSamples": 16422,
+      "totalSamples": 19999,
+      "gapPercentilesMm": {
+        "5": -4.536684168470003,
+        "25": -0.4498683624029396,
+        "50": 1.9627245056910905,
+        "75": 3.67936645518379,
+        "95": 4.501697879397728
+      },
+      "gapMinMm": -35.63259589399569,
+      "gapMaxMm": 7.42506692786416,
+      "rmsFromTargetMm": 4.481760197697236,
+      "fractionInterfering": 0.2793813177444891,
+      "translationAlongSeatNormalMm": 7.109375
+    },
+    "POSE_D_NO_INTERFERENCE": {
+      "params": [
+        -0.32769344786380883,
+        0.008199506629471949,
+        0.004049250957023071,
+        0.08093305890222374,
+        0.09675561110484027,
+        0.012856504655869965
+      ],
+      "coveredSamples": 16147,
+      "totalSamples": 19999,
+      "gapPercentilesMm": {
+        "5": 0.04714863020100478,
+        "25": 4.453973347773518,
+        "50": 8.388692544755518,
+        "75": 10.874530340513715,
+        "95": 14.092293902584533
+      },
+      "gapMinMm": -20.696359997714463,
+      "gapMaxMm": 17.925797621209753,
+      "rmsFromTargetMm": 8.123642810384377,
+      "fractionInterfering": 0.04700563572180591,
+      "rotationDeg": [
+        -18.77545153668653,
+        0.4697971239582816,
+        0.23200499002673144
+      ],
+      "translationMm": [
+        0.08093305890222374,
+        0.09675561110484027,
+        0.012856504655869965
+      ]
+    },
+    "POSE_C_FULL_6DOF": {
+      "params": [
+        0.0006927775408311016,
+        -0.0017550778674348011,
+        0.009915886515242688,
+        0.0004902627885538149,
+        -12.75610030825635,
+        22.686066247407997
+      ],
+      "coveredSamples": 12544,
+      "totalSamples": 19999,
+      "gapPercentilesMm": {
+        "5": -0.42543610471353943,
+        "25": 0.11983649310355693,
+        "50": 0.3618958454341028,
+        "75": 0.6339867506149748,
+        "95": 4.535442658705329
+      },
+      "gapMinMm": -5.016496815773959,
+      "gapMaxMm": 6.37888239506597,
+      "rmsFromTargetMm": 1.6535478461978141,
+      "fractionInterfering": 0.18447066326530612,
+      "rotationDeg": [
+        0.039693229231074184,
+        -0.10055855452083509,
+        0.5681384474540913
+      ],
+      "translationMm": [
+        0.0004902627885538149,
+        -12.75610030825635,
+        22.686066247407997
+      ]
+    }
+  },
+  "registration": {
+    "POSE_A_CONTROL_ALIGNED": {
+      "JOY": {
+        "lateralErrorMm": 0.0,
+        "axialShiftMm": 0.0,
+        "seatAxisAngleDeg": 3.3665152390082365,
+        "baselineSeatAxisAngleDeg": 3.3665152390082365,
+        "angleChangeDeg": 0.0
+      },
+      "T1": {
+        "lateralErrorMm": 1.2867335345536409e-15,
+        "axialShiftMm": 1.224647064234893e-15,
+        "seatAxisAngleDeg": 7.099429477230518,
+        "baselineSeatAxisAngleDeg": 7.099429477230518,
+        "angleChangeDeg": 0.0
+      },
+      "T2": {
+        "lateralErrorMm": 0.0,
+        "axialShiftMm": 0.0,
+        "seatAxisAngleDeg": 0.636994219660357,
+        "baselineSeatAxisAngleDeg": 0.636994219660357,
+        "angleChangeDeg": 0.0
+      },
+      "T3": {
+        "lateralErrorMm": 1.2866842656021743e-15,
+        "axialShiftMm": -1.2246988289109453e-15,
+        "seatAxisAngleDeg": 7.217015121204212,
+        "baselineSeatAxisAngleDeg": 7.217015121204212,
+        "angleChangeDeg": 0.0
+      },
+      "T4": {
+        "lateralErrorMm": 6.716493993771881e-16,
+        "axialShiftMm": 5.81160898148933e-16,
+        "seatAxisAngleDeg": 5.614855689096743,
+        "baselineSeatAxisAngleDeg": 5.614855689096743,
+        "angleChangeDeg": 0.0
+      },
+      "T5": {
+        "lateralErrorMm": 0.0,
+        "axialShiftMm": 0.0,
+        "seatAxisAngleDeg": 0.636994219654063,
+        "baselineSeatAxisAngleDeg": 0.636994219654063,
+        "angleChangeDeg": 0.0
+      },
+      "T6": {
+        "lateralErrorMm": 0.0,
+        "axialShiftMm": 0.0,
+        "seatAxisAngleDeg": 5.731857256631476,
+        "baselineSeatAxisAngleDeg": 5.731857256631476,
+        "angleChangeDeg": 0.0
+      },
+      "T7": {
+        "lateralErrorMm": 8.879590416696371e-16,
+        "axialShiftMm": -1.97394411813384e-17,
+        "seatAxisAngleDeg": 2.3597362044484407,
+        "baselineSeatAxisAngleDeg": 2.3597362044484407,
+        "angleChangeDeg": 0.0
+      },
+      "T8": {
+        "lateralErrorMm": 0.0,
+        "axialShiftMm": 0.0,
+        "seatAxisAngleDeg": 2.4245139711388757,
+        "baselineSeatAxisAngleDeg": 2.4245139711388757,
+        "angleChangeDeg": 0.0
+      }
+    },
+    "POSE_B_TRANSLATION_ONLY": {
+      "JOY": {
+        "lateralErrorMm": 0.41748363497238244,
+        "axialShiftMm": 7.097106474131217,
+        "seatAxisAngleDeg": 3.3665152390082365,
+        "baselineSeatAxisAngleDeg": 3.3665152390082365,
+        "angleChangeDeg": 0.0
+      },
+      "T1": {
+        "lateralErrorMm": 0.8786589998856786,
+        "axialShiftMm": 7.054868620502077,
+        "seatAxisAngleDeg": 7.099429477230518,
+        "baselineSeatAxisAngleDeg": 7.099429477230518,
+        "angleChangeDeg": 0.0
+      },
+      "T2": {
+        "lateralErrorMm": 0.07903788949394579,
+        "axialShiftMm": 7.108935637818739,
+        "seatAxisAngleDeg": 0.636994219660357,
+        "baselineSeatAxisAngleDeg": 0.636994219660357,
+        "angleChangeDeg": 0.0
+      },
+      "T3": {
+        "lateralErrorMm": 0.8931355403475545,
+        "axialShiftMm": 7.053050531308637,
+        "seatAxisAngleDeg": 7.217015121204212,
+        "baselineSeatAxisAngleDeg": 7.217015121204212,
+        "angleChangeDeg": 0.0
+      },
+      "T4": {
+        "lateralErrorMm": 0.6955879308258549,
+        "axialShiftMm": 7.075264682053558,
+        "seatAxisAngleDeg": 5.614855689096743,
+        "baselineSeatAxisAngleDeg": 5.614855689096743,
+        "angleChangeDeg": 0.0
+      },
+      "T5": {
+        "lateralErrorMm": 0.07903788949325086,
+        "axialShiftMm": 7.108935637818751,
+        "seatAxisAngleDeg": 0.636994219654063,
+        "baselineSeatAxisAngleDeg": 0.636994219654063,
+        "angleChangeDeg": 0.0
+      },
+      "T6": {
+        "lateralErrorMm": 0.7100346037526121,
+        "axialShiftMm": 7.073829496962652,
+        "seatAxisAngleDeg": 5.731857256631476,
+        "baselineSeatAxisAngleDeg": 5.731857256631476,
+        "angleChangeDeg": 0.0
+      },
+      "T7": {
+        "lateralErrorMm": 0.2927180226430175,
+        "axialShiftMm": 7.103346327601164,
+        "seatAxisAngleDeg": 2.3597362044484407,
+        "baselineSeatAxisAngleDeg": 2.3597362044484407,
+        "angleChangeDeg": 0.0
+      },
+      "T8": {
+        "lateralErrorMm": 0.3007487728684493,
+        "axialShiftMm": 7.103010845144691,
+        "seatAxisAngleDeg": 2.4245139711388757,
+        "baselineSeatAxisAngleDeg": 2.4245139711388757,
+        "angleChangeDeg": 0.0
+      }
+    },
+    "POSE_D_NO_INTERFERENCE": {
+      "JOY": {
+        "lateralErrorMm": 4.751815296183294,
+        "axialShiftMm": 6.03455407582458,
+        "seatAxisAngleDeg": 22.143462744811778,
+        "baselineSeatAxisAngleDeg": 3.3665152390082365,
+        "angleChangeDeg": 18.77694750580354
+      },
+      "T1": {
+        "lateralErrorMm": 1.1602571970365159,
+        "axialShiftMm": -6.6391270610318545,
+        "seatAxisAngleDeg": 16.130986003325766,
+        "baselineSeatAxisAngleDeg": 7.099429477230518,
+        "angleChangeDeg": 9.031556526095248
+      },
+      "T2": {
+        "lateralErrorMm": 1.1432287491205928,
+        "axialShiftMm": -3.3084973368874464,
+        "seatAxisAngleDeg": 18.14354330252247,
+        "baselineSeatAxisAngleDeg": 0.636994219660357,
+        "angleChangeDeg": 17.506549082862115
+      },
+      "T3": {
+        "lateralErrorMm": 1.13629877674667,
+        "axialShiftMm": -6.540683137588034,
+        "seatAxisAngleDeg": 16.214364036544755,
+        "baselineSeatAxisAngleDeg": 7.217015121204212,
+        "angleChangeDeg": 8.997348915340542
+      },
+      "T4": {
+        "lateralErrorMm": 1.276454640351025,
+        "axialShiftMm": -3.3222859402179963,
+        "seatAxisAngleDeg": 18.596802319716666,
+        "baselineSeatAxisAngleDeg": 5.614855689096743,
+        "angleChangeDeg": 12.981946630619923
+      },
+      "T5": {
+        "lateralErrorMm": 0.5654799577617424,
+        "axialShiftMm": -6.848304354382216,
+        "seatAxisAngleDeg": 18.143543302528087,
+        "baselineSeatAxisAngleDeg": 0.636994219654063,
+        "angleChangeDeg": 17.506549082874024
+      },
+      "T6": {
+        "lateralErrorMm": 1.1018039927442855,
+        "axialShiftMm": -3.239102678158767,
+        "seatAxisAngleDeg": 18.69403125262879,
+        "baselineSeatAxisAngleDeg": 5.731857256631476,
+        "angleChangeDeg": 12.962173995997315
+      },
+      "T7": {
+        "lateralErrorMm": 1.852897452711112,
+        "axialShiftMm": 0.5256017382946941,
+        "seatAxisAngleDeg": 20.836612228596906,
+        "baselineSeatAxisAngleDeg": 2.3597362044484407,
+        "angleChangeDeg": 18.476876024148464
+      },
+      "T8": {
+        "lateralErrorMm": 1.7244813295734343,
+        "axialShiftMm": 0.5916436989527203,
+        "seatAxisAngleDeg": 20.852070015218874,
+        "baselineSeatAxisAngleDeg": 2.4245139711388757,
+        "angleChangeDeg": 18.42755604408
+      }
+    },
+    "POSE_C_FULL_6DOF": {
+      "JOY": {
+        "lateralErrorMm": 23.804225439865736,
+        "axialShiftMm": 10.526116839600597,
+        "seatAxisAngleDeg": 3.347031307571579,
+        "baselineSeatAxisAngleDeg": 3.3665152390082365,
+        "angleChangeDeg": -0.019483931436657276
+      },
+      "T1": {
+        "lateralErrorMm": 24.883881434649048,
+        "axialShiftMm": 7.540311522662036,
+        "seatAxisAngleDeg": 7.4997318826302735,
+        "baselineSeatAxisAngleDeg": 7.099429477230518,
+        "angleChangeDeg": 0.4003024053997555
+      },
+      "T2": {
+        "lateralErrorMm": 24.477961770884537,
+        "axialShiftMm": 8.860777979513404,
+        "seatAxisAngleDeg": 0.7751765819788728,
+        "baselineSeatAxisAngleDeg": 0.636994219660357,
+        "angleChangeDeg": 0.13818236231851588
+      },
+      "T3": {
+        "lateralErrorMm": 24.99496108704981,
+        "axialShiftMm": 7.40785686894458,
+        "seatAxisAngleDeg": 6.865387327839618,
+        "baselineSeatAxisAngleDeg": 7.217015121204212,
+        "angleChangeDeg": -0.35162779336459415
+      },
+      "T4": {
+        "lateralErrorMm": 24.480553004803976,
+        "axialShiftMm": 8.747027022176521,
+        "seatAxisAngleDeg": 6.058177108515735,
+        "baselineSeatAxisAngleDeg": 5.614855689096743,
+        "angleChangeDeg": 0.44332141941899206
+      },
+      "T5": {
+        "lateralErrorMm": 24.478599501661932,
+        "axialShiftMm": 8.868179409757891,
+        "seatAxisAngleDeg": 0.7751765819732307,
+        "baselineSeatAxisAngleDeg": 0.636994219654063,
+        "angleChangeDeg": 0.1381823623191677
+      },
+      "T6": {
+        "lateralErrorMm": 24.605544561339023,
+        "axialShiftMm": 8.611032999426968,
+        "seatAxisAngleDeg": 5.303057212446778,
+        "baselineSeatAxisAngleDeg": 5.731857256631476,
+        "angleChangeDeg": -0.4288000441846975
+      },
+      "T7": {
+        "lateralErrorMm": 23.986278791325375,
+        "axialShiftMm": 10.03820686347075,
+        "seatAxisAngleDeg": 2.581970547195787,
+        "baselineSeatAxisAngleDeg": 2.3597362044484407,
+        "angleChangeDeg": 0.22223434274734633
+      },
+      "T8": {
+        "lateralErrorMm": 24.094659022677877,
+        "axialShiftMm": 9.918369357190016,
+        "seatAxisAngleDeg": 2.1763032906192827,
+        "baselineSeatAxisAngleDeg": 2.4245139711388757,
+        "angleChangeDeg": -0.24821068051959294
+      }
+    }
+  },
+  "memory": [
+    {
+      "stage": "approved shell",
+      "rssMb": 426.7,
+      "availMb": 18605.7
+    },
+    {
+      "stage": "loaded",
+      "rssMb": 432.3,
+      "availMb": 18603.4
+    },
+    {
+      "stage": "height field",
+      "rssMb": 450.7,
+      "availMb": 18622.4
+    },
+    {
+      "stage": "pose B",
+      "rssMb": 451.7,
+      "availMb": 18618.8
+    },
+    {
+      "stage": "pose D",
+      "rssMb": 451.7,
+      "availMb": 18577.6
+    },
+    {
+      "stage": "pose C",
+      "rssMb": 452.4,
+      "availMb": 18564.8
+    }
+  ]
+}

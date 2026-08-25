@@ -1,0 +1,142 @@
+{
+  "travelMm": 30.0,
+  "insertionMm": 12.0,
+  "owner": {
+    "I2": "JfD",
+    "I3": "JfD",
+    "I4": "JaD",
+    "M3": "JfD",
+    "M4": "JaD",
+    "N1": "JfD",
+    "N2": "BOTH",
+    "N3": "JaD"
+  },
+  "corePlacement": {
+    "+U": {
+      "testedHalf": "JfD",
+      "shellMm3": 0.0,
+      "switchesMm3": 0.0
+    },
+    "-U": {
+      "testedHalf": "JaD",
+      "shellMm3": 0.0,
+      "switchesMm3": 0.0
+    }
+  },
+  "clearPaths": [
+    [
+      "+U",
+      "JfD"
+    ],
+    [
+      "-U",
+      "JaD"
+    ]
+  ],
+  "fingerInsertion": {
+    "I2": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JfD"
+    },
+    "I3": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JfD"
+    },
+    "I4": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JaD"
+    },
+    "M3": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JfD"
+    },
+    "M4": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JaD"
+    },
+    "N1": {
+      "corridorObstructionMm3": 425.00151902745984,
+      "firstBlockAtMm": 1.0,
+      "owner": "JfD"
+    },
+    "N2": {
+      "corridorObstructionMm3": 44.45540603501349,
+      "firstBlockAtMm": 5.0,
+      "owner": "BOTH"
+    },
+    "N3": {
+      "corridorObstructionMm3": 0.0,
+      "firstBlockAtMm": null,
+      "owner": "JaD"
+    }
+  },
+  "blockedButtons": [
+    "N1",
+    "N2"
+  ],
+  "sequenceAValid": true,
+  "sequenceBValid": false,
+  "assembly": "PASS",
+  "memory": [
+    {
+      "stage": "load",
+      "rssMb": 448.7,
+      "availMb": 18160.5
+    },
+    {
+      "stage": "place +U",
+      "rssMb": 669.1,
+      "availMb": 22981.4
+    },
+    {
+      "stage": "place -U",
+      "rssMb": 667.9,
+      "availMb": 23672.0
+    },
+    {
+      "stage": "ins I2",
+      "rssMb": 530.8,
+      "availMb": 23779.0
+    },
+    {
+      "stage": "ins I3",
+      "rssMb": 837.8,
+      "availMb": 23486.6
+    },
+    {
+      "stage": "ins I4",
+      "rssMb": 531.1,
+      "availMb": 23426.9
+    },
+    {
+      "stage": "ins M3",
+      "rssMb": 857.3,
+      "availMb": 22931.8
+    },
+    {
+      "stage": "ins M4",
+      "rssMb": 539.3,
+      "availMb": 23259.2
+    },
+    {
+      "stage": "ins N1",
+      "rssMb": 554.6,
+      "availMb": 23171.9
+    },
+    {
+      "stage": "ins N2",
+      "rssMb": 930.1,
+      "availMb": 22402.2
+    },
+    {
+      "stage": "ins N3",
+      "rssMb": 551.2,
+      "availMb": 22795.8
+    }
+  ]
+}

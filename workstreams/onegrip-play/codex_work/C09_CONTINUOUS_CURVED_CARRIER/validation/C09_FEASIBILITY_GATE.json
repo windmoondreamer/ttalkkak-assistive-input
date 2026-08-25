@@ -1,0 +1,660 @@
+{
+  "verdict": "PASS",
+  "failures": [],
+  "cases": {
+    "T2": {
+      "role": "EASY",
+      "criteria": {
+        "singleValidSolid": true,
+        "frozenAxisAndSeat": true,
+        "bearing": true,
+        "terminalSlots": true,
+        "terminalEscape": true,
+        "switchMechanismClear": true,
+        "shellClear": true,
+        "fingerClear": true,
+        "staticSzhClear": true,
+        "onePieceAssemblyPlausible": true,
+        "fdmPlausible": true,
+        "capProtrusionPreserved": true
+      },
+      "function": {
+        "bearingMm2": 23.400000000000002,
+        "slots": [
+          {
+            "widthMm": 1.3000000000000012,
+            "lengthMm": 6.400000000000006
+          },
+          {
+            "widthMm": 1.3000000000000012,
+            "lengthMm": 6.400000000000006
+          }
+        ],
+        "seatNormalErrorDeg": 0.0,
+        "seatTiltToPrintUpDeg": 3.9999999999950258
+      },
+      "terminalFreeMm": 35.58881257791958,
+      "capProtrusionMm": 1.0655054484294402,
+      "shellInterferenceMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "mechanismInterferenceMm3": {
+        "body": 0.0,
+        "actuator": 0.0,
+        "terminals": 81.45946632314207
+      },
+      "fingerInterferenceMm3": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 0.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "N1": 0.0,
+        "N2": 0.0,
+        "N3": 0.0
+      },
+      "szhStaticMm3": {
+        "SZH_pcb": 0.0,
+        "SZH_gimbal": 0.0,
+        "SZH_x_pot": 0.0,
+        "SZH_y_pot": 0.0,
+        "SZH_push_switch": 0.0,
+        "SZH_shaft": 0.0,
+        "SZH_cap": 0.0,
+        "SZH_header": 0.0
+      },
+      "szhProvisionalMovingMm3": {
+        "SZH_MOVING_ENVELOPE_25deg": 0.0
+      },
+      "assembly": {
+        "+U_vs_JfD": {
+          "travelMm": 25,
+          "sumInterferenceMm3": 0.0,
+          "maxInterferenceMm3": 0.0,
+          "firstBlockedAtMm": null,
+          "pass": true
+        },
+        "-U_vs_JaD": {
+          "travelMm": 25,
+          "sumInterferenceMm3": 0.0,
+          "maxInterferenceMm3": 0.0,
+          "firstBlockedAtMm": null,
+          "pass": true
+        }
+      },
+      "fdm": {
+        "label": "JOY_AXIS_UP",
+        "upWorld": [
+          0.0001818537687494954,
+          0.5984933689760226,
+          0.8011277390160307
+        ],
+        "heightMm": 7.4622857309996355,
+        "bedContactAreaMm2": 0.0,
+        "bedTriangleComponents": 0,
+        "bedTriangleComponentAreasMm2": [],
+        "bedSpanMm": [
+          0.0,
+          0.0
+        ],
+        "comTippingMarginMm": 0.0,
+        "supportAreaMm2": 116.94918202127823,
+        "supportFraction": 0.18419835246677702,
+        "supportRegionCount": 10,
+        "trappedSupportRegions": 0,
+        "largestSupportRegions": [
+          {
+            "triangleIds": [
+              132,
+              133,
+              134,
+              135,
+              138,
+              136,
+              137,
+              139
+            ],
+            "areaMm2": 43.04034699402702,
+            "spanXmm": 10.105375155578539,
+            "spanYmm": 10.127397135120251,
+            "maxSpanMm": 10.127397135120251,
+            "meanHeightMm": 4.519939644167472,
+            "centroidLocalMm": [
+              12.7810203514503,
+              0.47031377027622767,
+              4.548261878162709
+            ],
+            "accessClearBearingsOf16": 10,
+            "accessClearDownwardRaysOf48": 13,
+            "openDownwardToBed": false,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              0,
+              1,
+              3,
+              4,
+              5,
+              2,
+              6,
+              8,
+              7,
+              9,
+              29,
+              30
+            ],
+            "areaMm2": 32.93407315014518,
+            "spanXmm": 8.135542673052957,
+            "spanYmm": 4.570202771711704,
+            "maxSpanMm": 8.135542673052957,
+            "meanHeightMm": 0.7644758313200661,
+            "centroidLocalMm": [
+              10.602669459801346,
+              0.35469200162445613,
+              0.8272383677778024
+            ],
+            "accessClearBearingsOf16": 16,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              182,
+              183
+            ],
+            "areaMm2": 12.725247034498679,
+            "spanXmm": 4.7467180679822505,
+            "spanYmm": 3.02046256392871,
+            "maxSpanMm": 4.7467180679822505,
+            "meanHeightMm": 1.3108869920547583,
+            "centroidLocalMm": [
+              12.134751428267938,
+              5.0742620298878425,
+              1.310886992054762
+            ],
+            "accessClearBearingsOf16": 14,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              152,
+              153
+            ],
+            "areaMm2": 12.574737324085337,
+            "spanXmm": 4.744896841338727,
+            "spanYmm": 2.9877937873687963,
+            "maxSpanMm": 4.744896841338727,
+            "meanHeightMm": 1.3108869920548187,
+            "centroidLocalMm": [
+              12.650932965029817,
+              -4.161325519546654,
+              1.3108869920548187
+            ],
+            "accessClearBearingsOf16": 14,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              99,
+              100,
+              101,
+              102,
+              104,
+              103
+            ],
+            "areaMm2": 8.38326098909498,
+            "spanXmm": 2.111325628204872,
+            "spanYmm": 4.493981788438171,
+            "maxSpanMm": 4.493981788438171,
+            "meanHeightMm": 2.0248888231576743,
+            "centroidLocalMm": [
+              16.831433260866586,
+              0.7119425537485229,
+              2.092990548424776
+            ],
+            "accessClearBearingsOf16": 10,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              93,
+              94,
+              95,
+              96
+            ],
+            "areaMm2": 4.689781563149422,
+            "spanXmm": 1.4151524581429076,
+            "spanYmm": 3.9619754905768554,
+            "maxSpanMm": 3.9619754905768554,
+            "meanHeightMm": 1.7532169089695913,
+            "centroidLocalMm": [
+              15.287577534482134,
+              0.6126218899326563,
+              1.758476592982511
+            ],
+            "accessClearBearingsOf16": 9,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              62,
+              64,
+              65,
+              63
+            ],
+            "areaMm2": 1.0133174849893747,
+            "spanXmm": 1.2714105791500554,
+            "spanYmm": 1.351594848513192,
+            "maxSpanMm": 1.351594848513192,
+            "meanHeightMm": 1.7608869920548464,
+            "centroidLocalMm": [
+              9.47283992282833,
+              -2.630077663490621,
+              1.7608869920548749
+            ],
+            "accessClearBearingsOf16": 6,
+            "accessClearDownwardRaysOf48": 44,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              116,
+              117,
+              118,
+              119
+            ],
+            "areaMm2": 0.9884215616596195,
+            "spanXmm": 1.2121859222524218,
+            "spanYmm": 1.348444364761241,
+            "maxSpanMm": 1.348444364761241,
+            "meanHeightMm": 1.760886992054747,
+            "centroidLocalMm": [
+              9.149475426812362,
+              3.200630842927874,
+              1.7608869920547114
+            ],
+            "accessClearBearingsOf16": 6,
+            "accessClearDownwardRaysOf48": 44,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              158,
+              159
+            ],
+            "areaMm2": 0.303557523814561,
+            "spanXmm": 1.2121859222523685,
+            "spanYmm": 0.31997936278076544,
+            "maxSpanMm": 1.2121859222523685,
+            "meanHeightMm": 1.7608869920545942,
+            "centroidLocalMm": [
+              15.477058226849586,
+              -2.7585403256601664,
+              1.7608869920545942
+            ],
+            "accessClearBearingsOf16": 9,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              188,
+              189
+            ],
+            "areaMm2": 0.2964383958140451,
+            "spanXmm": 1.2118557026406016,
+            "spanYmm": 0.3140559535534284,
+            "maxSpanMm": 1.2118557026406016,
+            "meanHeightMm": 1.760886992054676,
+            "centroidLocalMm": [
+              15.100360387038915,
+              3.980941544141172,
+              1.7608869920546795
+            ],
+            "accessClearBearingsOf16": 9,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          }
+        ]
+      }
+    },
+    "T8": {
+      "role": "HARD",
+      "criteria": {
+        "singleValidSolid": true,
+        "frozenAxisAndSeat": true,
+        "bearing": true,
+        "terminalSlots": true,
+        "terminalEscape": true,
+        "switchMechanismClear": true,
+        "shellClear": true,
+        "fingerClear": true,
+        "staticSzhClear": true,
+        "onePieceAssemblyPlausible": true,
+        "fdmPlausible": true,
+        "capProtrusionPreserved": true
+      },
+      "function": {
+        "bearingMm2": 23.400000000000002,
+        "slots": [
+          {
+            "widthMm": 1.3000000000000012,
+            "lengthMm": 6.400000000000006
+          },
+          {
+            "widthMm": 1.3000000000000012,
+            "lengthMm": 6.400000000000006
+          }
+        ],
+        "seatNormalErrorDeg": 0.0,
+        "seatTiltToPrintUpDeg": 1.839274709244011
+      },
+      "terminalFreeMm": 11.839228449850124,
+      "capProtrusionMm": 1.2107719491881337,
+      "shellInterferenceMm3": {
+        "JaD": 0.0,
+        "JfD": 0.0
+      },
+      "mechanismInterferenceMm3": {
+        "body": 0.0,
+        "actuator": 0.0,
+        "terminals": 81.80842692991939
+      },
+      "fingerInterferenceMm3": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 0.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "N1": 0.0,
+        "N2": 0.0,
+        "N3": 0.0
+      },
+      "szhStaticMm3": {
+        "SZH_pcb": 0.0,
+        "SZH_gimbal": 0.0,
+        "SZH_x_pot": 0.0,
+        "SZH_y_pot": 0.0,
+        "SZH_push_switch": 0.0,
+        "SZH_shaft": 0.0,
+        "SZH_cap": 0.0,
+        "SZH_header": 0.0
+      },
+      "szhProvisionalMovingMm3": {
+        "SZH_MOVING_ENVELOPE_25deg": 352.52063403819614
+      },
+      "assembly": {
+        "+U_vs_JfD": {
+          "travelMm": 25,
+          "sumInterferenceMm3": 0.0,
+          "maxInterferenceMm3": 0.0,
+          "firstBlockedAtMm": null,
+          "pass": true
+        },
+        "-U_vs_JaD": {
+          "travelMm": 25,
+          "sumInterferenceMm3": 0.0,
+          "maxInterferenceMm3": 0.0,
+          "firstBlockedAtMm": null,
+          "pass": true
+        }
+      },
+      "fdm": {
+        "label": "JOY_AXIS_UP",
+        "upWorld": [
+          0.0001818537687494954,
+          0.5984933689760226,
+          0.8011277390160307
+        ],
+        "heightMm": 6.359390980773561,
+        "bedContactAreaMm2": 0.0,
+        "bedTriangleComponents": 0,
+        "bedTriangleComponentAreasMm2": [],
+        "bedSpanMm": [
+          0.0,
+          0.0
+        ],
+        "comTippingMarginMm": 0.0,
+        "supportAreaMm2": 103.04221699103424,
+        "supportFraction": 0.17564314980646967,
+        "supportRegionCount": 9,
+        "trappedSupportRegions": 0,
+        "largestSupportRegions": [
+          {
+            "triangleIds": [
+              128,
+              129,
+              130,
+              131,
+              133,
+              134,
+              135,
+              132
+            ],
+            "areaMm2": 43.13474190851428,
+            "spanXmm": 11.78717967471184,
+            "spanYmm": 11.78130738369465,
+            "maxSpanMm": 11.78717967471184,
+            "meanHeightMm": 3.536691244364455,
+            "centroidLocalMm": [
+              26.037935351701414,
+              -1.4941632604235346,
+              3.545984983587534
+            ],
+            "accessClearBearingsOf16": 10,
+            "accessClearDownwardRaysOf48": 31,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              0,
+              1,
+              2,
+              4,
+              6,
+              7,
+              3,
+              5,
+              9,
+              8,
+              27,
+              28
+            ],
+            "areaMm2": 24.4137515680404,
+            "spanXmm": 6.954083195488451,
+            "spanYmm": 5.775367433384901,
+            "maxSpanMm": 6.954083195488451,
+            "meanHeightMm": 0.2268658144402309,
+            "centroidLocalMm": [
+              25.133929953835416,
+              -1.7604373117240866,
+              0.3464556076391716
+            ],
+            "accessClearBearingsOf16": 16,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              148,
+              149
+            ],
+            "areaMm2": 13.419917218526047,
+            "spanXmm": 5.202450679258035,
+            "spanYmm": 4.0234199380285975,
+            "maxSpanMm": 5.202450679258035,
+            "meanHeightMm": 0.4991247220121835,
+            "centroidLocalMm": [
+              27.14660263944157,
+              -6.071244280445229,
+              0.4991247220121835
+            ],
+            "accessClearBearingsOf16": 14,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              186,
+              187
+            ],
+            "areaMm2": 11.872768976541863,
+            "spanXmm": 5.114388435114165,
+            "spanYmm": 3.6988165917779128,
+            "maxSpanMm": 5.114388435114165,
+            "meanHeightMm": 0.4991247220119064,
+            "centroidLocalMm": [
+              24.722577781598236,
+              2.8563134478752565,
+              0.4991247220119064
+            ],
+            "accessClearBearingsOf16": 15,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              86,
+              97,
+              99,
+              100,
+              101,
+              87,
+              88,
+              89,
+              93,
+              95,
+              96,
+              98,
+              94,
+              90,
+              91,
+              92
+            ],
+            "areaMm2": 7.747497203400023,
+            "spanXmm": 2.9386827371951476,
+            "spanYmm": 4.468167129194176,
+            "maxSpanMm": 4.468167129194176,
+            "meanHeightMm": 0.7997788735927216,
+            "centroidLocalMm": [
+              29.08550068587759,
+              -0.7506602487853646,
+              0.7952256285657313
+            ],
+            "accessClearBearingsOf16": 10,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              56,
+              57,
+              58,
+              59
+            ],
+            "areaMm2": 0.8108473406895289,
+            "spanXmm": 1.4870820173151564,
+            "spanYmm": 1.323135102096992,
+            "maxSpanMm": 1.4870820173151564,
+            "meanHeightMm": 0.9491247220122929,
+            "centroidLocalMm": [
+              23.76348814797698,
+              -5.374175985426955,
+              0.9491247220122823
+            ],
+            "accessClearBearingsOf16": 8,
+            "accessClearDownwardRaysOf48": 46,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              112,
+              113,
+              114,
+              115
+            ],
+            "areaMm2": 0.6694282821829619,
+            "spanXmm": 1.194312526502955,
+            "spanYmm": 1.6109798988125756,
+            "maxSpanMm": 1.6109798988125756,
+            "meanHeightMm": 0.949124722012165,
+            "centroidLocalMm": [
+              22.096573183530886,
+              0.340860060415978,
+              0.9491247220120975
+            ],
+            "accessClearBearingsOf16": 8,
+            "accessClearDownwardRaysOf48": 47,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              154,
+              155,
+              156,
+              157
+            ],
+            "areaMm2": 0.5974327238409648,
+            "spanXmm": 1.2543118216905924,
+            "spanYmm": 1.5267046906688293,
+            "maxSpanMm": 1.5267046906688293,
+            "meanHeightMm": 0.9491247220144388,
+            "centroidLocalMm": [
+              29.69847540801738,
+              -3.8943078452966535,
+              0.9491247220141759
+            ],
+            "accessClearBearingsOf16": 9,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          },
+          {
+            "triangleIds": [
+              178,
+              179,
+              180,
+              181
+            ],
+            "areaMm2": 0.37583176929817297,
+            "spanXmm": 1.5099451949095268,
+            "spanYmm": 1.3439815338452108,
+            "maxSpanMm": 1.5099451949095268,
+            "meanHeightMm": 0.9491247220154406,
+            "centroidLocalMm": [
+              28.23416264828853,
+              2.1274411259772936,
+              0.9491247220156644
+            ],
+            "accessClearBearingsOf16": 10,
+            "accessClearDownwardRaysOf48": 48,
+            "openDownwardToBed": true,
+            "trapped": false
+          }
+        ]
+      }
+    }
+  }
+}

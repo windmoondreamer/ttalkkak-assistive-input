@@ -1,0 +1,699 @@
+{
+  "schema": "onegrip-print-ready-frozen-exterior-recovery-v1",
+  "generatedAtUtc": "2026-08-25T06:24:46.926669+00:00",
+  "result": {
+    "approvedLower15SourceFound": true,
+    "thumbOpeningsComplete": true,
+    "fingerOpeningsComplete": true,
+    "JaDPrintReady": true,
+    "JfDPrintReady": true,
+    "exteriorModificationCount": 0,
+    "internalUnresolvedStructuresIncluded": false
+  },
+  "sources": {
+    "thumb": {
+      "version": "THUMB_LOWER15_HOUSING_V1",
+      "versionId": "50dfe4e752e447375b95493a",
+      "files": {
+        "JaD": {
+          "path": "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step",
+          "sha256": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86"
+        },
+        "JfD": {
+          "path": "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step",
+          "sha256": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340"
+        }
+      }
+    },
+    "finger": {
+      "files": {
+        "JaD": {
+          "path": "build123d_workbench/out/integrated_exterior_clean_v1/JAD_EXTERIOR_CLEAN_V1.step",
+          "sha256": "18B1DA9BAF76C46FD0B5F1F0CE6279A8BDB5299A4B964C5E0931ED2E5B83E62D"
+        },
+        "JfD": {
+          "path": "build123d_workbench/out/integrated_exterior_clean_v1/JFD_EXTERIOR_CLEAN_V1.step",
+          "sha256": "C3F7A3F1CC9D5B6782FE67F755A588C9AEDA1F367E55749D9540874E5A965898"
+        }
+      },
+      "manifest": "build123d_workbench/out/finger_controls_v2/finger_controls_v2_source_manifest.json"
+    }
+  },
+  "patch": {
+    "boundsLocalUVWmm": {
+      "U": [
+        -23.5,
+        23.5
+      ],
+      "V": [
+        -34.0,
+        28.0
+      ],
+      "N": [
+        -8.0,
+        40.0
+      ]
+    },
+    "centerWorldMm": [
+      -0.23581763,
+      -4.4170954,
+      24.99272364
+    ],
+    "uWorld": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vWorld": [
+      0.0,
+      0.79796663,
+      -0.60270163
+    ],
+    "nWorld": [
+      0.00017646999995354342,
+      0.602701619841336,
+      0.7979666197899314
+    ],
+    "source": "existing docs/53 approved visual-graft mask"
+  },
+  "transfer": {
+    "JaD": {
+      "method": "exact LOWER15 whole-shell base minus existing frozen Finger V2 opening cutters",
+      "fingerCutVolumeByOpeningMm3": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 229.50265167692567,
+        "M3": 0.0,
+        "M4": 223.99376568608957,
+        "N1": 0.0,
+        "N2": 107.501082595544,
+        "N3": 220.82920039690896
+      },
+      "fingerCutterVsThumbPatchMaterialMm3": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 0.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "N1": 0.0,
+        "N2": 0.0,
+        "N3": 0.0
+      },
+      "totalFingerCutVolumeMm3": 781.8267003554682,
+      "additionVolumeMm3": 0.0,
+      "discardedCutSlugCount": 3,
+      "discardedCutSlugVolumesMm3": [
+        8.398713208614549,
+        6.304254243892352,
+        9.398799596986975e-07
+      ],
+      "finalVsExactInsideThumbPatchSymmetricDifferenceMm3": 0.0,
+      "unexpectedChangeOutsideApprovedFingerCuttersMm3": 0.0,
+      "manualOpeningRecreationCount": 0,
+      "surfaceRemodelingCount": 0
+    },
+    "JfD": {
+      "method": "exact LOWER15 whole-shell base minus existing frozen Finger V2 opening cutters",
+      "fingerCutVolumeByOpeningMm3": {
+        "I2": 267.57701363256973,
+        "I3": 257.40776623086566,
+        "I4": 0.0,
+        "M3": 277.43667658472685,
+        "M4": 0.0,
+        "N1": 192.49767257022773,
+        "N2": 104.5449822883469,
+        "N3": 0.0
+      },
+      "fingerCutterVsThumbPatchMaterialMm3": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 0.0,
+        "M3": 0.0,
+        "M4": 0.0,
+        "N1": 0.0,
+        "N2": 0.0,
+        "N3": 0.0
+      },
+      "totalFingerCutVolumeMm3": 1099.4641113067369,
+      "additionVolumeMm3": 0.0,
+      "discardedCutSlugCount": 1,
+      "discardedCutSlugVolumesMm3": [
+        7.079492145646852
+      ],
+      "finalVsExactInsideThumbPatchSymmetricDifferenceMm3": 0.0,
+      "unexpectedChangeOutsideApprovedFingerCuttersMm3": 0.0,
+      "manualOpeningRecreationCount": 0,
+      "surfaceRemodelingCount": 0
+    }
+  },
+  "thumbOpenings": {
+    "JOY": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 173.25,
+      "sampledCentroidLocalXYmm": [
+        0.2170194805195069,
+        1.014980519480548
+      ],
+      "sampledCentroidOffsetMm": 1.0379224006880088,
+      "boundaryPointCount": 394,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JaD/JfD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T1": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 48.15,
+      "sampledCentroidLocalXYmm": [
+        -0.04025700934576862,
+        -0.23981308411212401
+      ],
+      "sampledCentroidOffsetMm": 0.24316854671777346,
+      "boundaryPointCount": 206,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JaD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T2": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 63.2025,
+      "sampledCentroidLocalXYmm": [
+        0.2500000000000267,
+        0.1000000000000263
+      ],
+      "sampledCentroidOffsetMm": 0.26925824035675977,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JaD/JfD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T3": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 48.105,
+      "sampledCentroidLocalXYmm": [
+        0.5501403180542837,
+        -0.22897567820390338
+      ],
+      "sampledCentroidOffsetMm": 0.5958894450800466,
+      "boundaryPointCount": 206,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JfD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T4": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 62.144999999999996,
+      "sampledCentroidLocalXYmm": [
+        -0.20141202027513713,
+        0.10016292541639124
+      ],
+      "sampledCentroidOffsetMm": 0.2249431340123139,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JaD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T5": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 63.2025,
+      "sampledCentroidLocalXYmm": [
+        0.2500000000000267,
+        0.1000000000000263
+      ],
+      "sampledCentroidOffsetMm": 0.26925824035675977,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JaD/JfD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T6": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 62.122499999999995,
+      "sampledCentroidLocalXYmm": [
+        0.6660992394060398,
+        0.09674031148137362
+      ],
+      "sampledCentroidOffsetMm": 0.6730875757305418,
+      "boundaryPointCount": 208,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JfD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T7": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 68.4225,
+      "sampledCentroidLocalXYmm": [
+        0.12629069385073324,
+        0.2205031239724041
+      ],
+      "sampledCentroidOffsetMm": 0.2541081797874461,
+      "boundaryPointCount": 222,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JaD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    },
+    "T8": {
+      "throughOpeningExists": true,
+      "axisColumnOpen": true,
+      "sampledOpenAreaMm2": 67.005,
+      "sampledCentroidLocalXYmm": [
+        0.31331430490264617,
+        0.24073203492279355
+      ],
+      "sampledCentroidOffsetMm": 0.39511740824050945,
+      "boundaryPointCount": 220,
+      "rayPitchMm": 0.15,
+      "wallBandAlongAxisMm": [
+        -8.0,
+        26.0
+      ],
+      "owner": "JfD",
+      "sourceAuthority": "exact Onshape THUMB_LOWER15_HOUSING_V1"
+    }
+  },
+  "fingerOpenings": {
+    "I2": {
+      "owner": "JfD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        -15.97116502911469,
+        -26.20981698837403,
+        8.99880711855274
+      ],
+      "axis": [
+        -0.43398514194613513,
+        -0.7569241977430389,
+        -0.48859252495412786
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    },
+    "I3": {
+      "owner": "JfD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        -5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "axis": [
+        -0.08169076783987367,
+        -0.9520228437085347,
+        -0.2949222329815895
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    },
+    "I4": {
+      "owner": "JaD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        5.49601708618068,
+        -29.3254261456274,
+        8.999869734286762
+      ],
+      "axis": [
+        0.03830075338322864,
+        -0.9556187972066135,
+        -0.2921057457765297
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    },
+    "M3": {
+      "owner": "JfD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        -6.890920103853075,
+        -13.71668568786225,
+        -11.11806979342742
+      ],
+      "axis": [
+        -0.22425959856820332,
+        -0.7717941811500879,
+        -0.5950137598349249
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    },
+    "M4": {
+      "owner": "JaD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        7.379332315763718,
+        -13.575227245499876,
+        -11.115547003937289
+      ],
+      "axis": [
+        0.2878365212266233,
+        -0.7441712373021486,
+        -0.6027929218399507
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    },
+    "N1": {
+      "owner": "JfD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        -10.990443464183823,
+        -35.80002827761031,
+        25.0
+      ],
+      "axis": [
+        -0.07646638594200623,
+        -0.8724593951000031,
+        -0.48266706509011453
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    },
+    "N2": {
+      "owner": "JfD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        5.3077624785043596e-15,
+        -35.76511909258096,
+        25.0
+      ],
+      "axis": [
+        -0.043167877641508666,
+        -0.8593994790251817,
+        -0.5094792142876627
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    },
+    "N3": {
+      "owner": "JaD",
+      "exists": true,
+      "throughOpen": true,
+      "centerUnchanged": true,
+      "axisUnchanged": true,
+      "residualCutterIntersectionMm3": 0.0,
+      "centerMm": [
+        17.48689737236422,
+        -6.664472046607768,
+        -11.125
+      ],
+      "axis": [
+        0.6921593412330116,
+        -0.560207029374328,
+        -0.4550643147770151
+      ],
+      "sourceAuthority": "FINAL EXTERIOR CLEAN V1 / Finger V2 frozen manifest"
+    }
+  },
+  "stepValidation": {
+    "JaD": {
+      "valid": true,
+      "solidCount": 1,
+      "shellCount": 1,
+      "faceCount": 149,
+      "edgeCount": 428,
+      "vertexCount": 287,
+      "volumeMm3": 46879.10334214054,
+      "zeroAreaFaceCount": 0,
+      "zeroLengthEdgeCount": 0,
+      "boundingBoxMm": {
+        "min": [
+          -2.480390063879016e-05,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          38.77976975434524,
+          62.42831449597656,
+          78.25678350406848
+        ],
+        "size": [
+          38.779794558245875,
+          123.86025862084131,
+          152.13529205266929
+        ]
+      }
+    },
+    "JfD": {
+      "valid": true,
+      "solidCount": 1,
+      "shellCount": 1,
+      "faceCount": 499,
+      "edgeCount": 1576,
+      "vertexCount": 1052,
+      "volumeMm3": 49042.727531596785,
+      "zeroAreaFaceCount": 0,
+      "zeroLengthEdgeCount": 0,
+      "boundingBoxMm": {
+        "min": [
+          -38.77976975434524,
+          -61.431944124864756,
+          -73.87850854860079
+        ],
+        "max": [
+          5.5979444621737e-05,
+          62.42831449419312,
+          78.2567835040506
+        ],
+        "size": [
+          38.77982573378986,
+          123.86025861905787,
+          152.13529205265138
+        ]
+      }
+    }
+  },
+  "stepReimport": {
+    "JaD": {
+      "valid": true,
+      "solidCount": 1,
+      "shellCount": 1,
+      "faceCount": 149,
+      "edgeCount": 427,
+      "vertexCount": 286,
+      "volumeMm3": 46879.10599027743,
+      "zeroAreaFaceCount": 0,
+      "zeroLengthEdgeCount": 0,
+      "boundingBoxMm": {
+        "min": [
+          -2.4803900552980328e-05,
+          -61.43194412485939,
+          -73.8785085486
+        ],
+        "max": [
+          38.77976975434534,
+          62.42831449597687,
+          78.25678350406861
+        ],
+        "size": [
+          38.77979455824589,
+          123.86025862083626,
+          152.1352920526686
+        ]
+      }
+    },
+    "JfD": {
+      "valid": true,
+      "solidCount": 1,
+      "shellCount": 1,
+      "faceCount": 499,
+      "edgeCount": 1575,
+      "vertexCount": 1051,
+      "volumeMm3": 49042.72477256113,
+      "zeroAreaFaceCount": 0,
+      "zeroLengthEdgeCount": 0,
+      "boundingBoxMm": {
+        "min": [
+          -38.77976975433841,
+          -61.4319441248594,
+          -73.8785085486
+        ],
+        "max": [
+          1.2845309303840991e-05,
+          62.42831449420142,
+          78.2567835040506
+        ],
+        "size": [
+          38.77978259964772,
+          123.86025861906083,
+          152.13529205265058
+        ]
+      }
+    }
+  },
+  "stlValidation": {
+    "JaD": {
+      "path": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.stl",
+      "bytes": 1038784,
+      "unit": "millimeter",
+      "triangleCount": 20774,
+      "uniqueVertexCount": 10361,
+      "boundaryEdgeCount": 0,
+      "nonManifoldEdgeCount": 0,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "boundingBoxMm": {
+        "min": [
+          -8.828827019512556e-14,
+          -61.429954528808594,
+          -73.87850952148438
+        ],
+        "max": [
+          38.77210998535156,
+          62.427490234375,
+          78.2553939819336
+        ],
+        "size": [
+          38.77210998535165,
+          123.8574447631836,
+          152.13390350341797
+        ]
+      },
+      "degenerateTrianglesRemoved": 2
+    },
+    "JfD": {
+      "path": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.stl",
+      "bytes": 1127684,
+      "unit": "millimeter",
+      "triangleCount": 22552,
+      "uniqueVertexCount": 11190,
+      "boundaryEdgeCount": 0,
+      "nonManifoldEdgeCount": 0,
+      "connectedComponentCount": 1,
+      "watertight": true,
+      "boundingBoxMm": {
+        "min": [
+          -38.777408599853516,
+          -61.431854248046875,
+          -73.87850952148438
+        ],
+        "max": [
+          2.1425528994208076e-13,
+          62.427490234375,
+          78.25624084472656
+        ],
+        "size": [
+          38.77740859985373,
+          123.85934448242188,
+          152.13475036621094
+        ]
+      },
+      "degenerateTrianglesRemoved": 2
+    }
+  },
+  "split": {
+    "type": "vertical frozen JaD/JfD",
+    "intersectionMm3": 0.0,
+    "JaDXRangeMm": [
+      -2.480390063879016e-05,
+      38.77976975434524
+    ],
+    "JfDXRangeMm": [
+      -38.77976975434524,
+      5.5979444621737e-05
+    ]
+  },
+  "preservation": {
+    "protectedFileCount": 8,
+    "before": {
+      "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340",
+      "build123d_workbench/out/integrated_exterior_clean_v1/JAD_EXTERIOR_CLEAN_V1.step": "18B1DA9BAF76C46FD0B5F1F0CE6279A8BDB5299A4B964C5E0931ED2E5B83E62D",
+      "build123d_workbench/out/integrated_exterior_clean_v1/JFD_EXTERIOR_CLEAN_V1.step": "C3F7A3F1CC9D5B6782FE67F755A588C9AEDA1F367E55749D9540874E5A965898",
+      "thumb_exact_onshape_source/EXPORT_MANIFEST.md": "0A8D3D8C0760390220C690C9303920FFA97CF4BEF623942EAD02AD18C6C187DB",
+      "thumb_exact_onshape_source/EXPORT_VALIDATION.json": "90A0E07022F403C54CA846F2CC8D191DB1D824C8DF1FC4EC1223C8D32B312440",
+      "build123d_workbench/out/integrated_exterior_clean_v1/exterior_clean_v1_validation.json": "9F9E57EB465587F324EBC0D5DA217A986D1A850D9DBAA6D5CA4F5A4495EDD424",
+      "build123d_workbench/out/finger_controls_v2/finger_controls_v2_source_manifest.json": "2DE88051C9C981A04F284B5DDE48E4A15861606E5BAE3F1376E2A7EF6539C5B2"
+    },
+    "after": {
+      "thumb_exact_onshape_source/JaD_THUMB_LOWER15_APPROVED.step": "622ADB3B1B1D6095435AAC624BB11042080FC8B7399B0C920BECDE708FA54E86",
+      "thumb_exact_onshape_source/JfD_THUMB_LOWER15_APPROVED.step": "D75F62E04DF15B1150EA10EEB8DA1AAA0AAE7CA7C31862CEA42823A0929EA340",
+      "build123d_workbench/out/integrated_exterior_clean_v1/JAD_EXTERIOR_CLEAN_V1.step": "18B1DA9BAF76C46FD0B5F1F0CE6279A8BDB5299A4B964C5E0931ED2E5B83E62D",
+      "build123d_workbench/out/integrated_exterior_clean_v1/JFD_EXTERIOR_CLEAN_V1.step": "C3F7A3F1CC9D5B6782FE67F755A588C9AEDA1F367E55749D9540874E5A965898",
+      "thumb_exact_onshape_source/EXPORT_MANIFEST.md": "0A8D3D8C0760390220C690C9303920FFA97CF4BEF623942EAD02AD18C6C187DB",
+      "thumb_exact_onshape_source/EXPORT_VALIDATION.json": "90A0E07022F403C54CA846F2CC8D191DB1D824C8DF1FC4EC1223C8D32B312440",
+      "build123d_workbench/out/integrated_exterior_clean_v1/exterior_clean_v1_validation.json": "9F9E57EB465587F324EBC0D5DA217A986D1A850D9DBAA6D5CA4F5A4495EDD424",
+      "build123d_workbench/out/finger_controls_v2/finger_controls_v2_source_manifest.json": "2DE88051C9C981A04F284B5DDE48E4A15861606E5BAE3F1376E2A7EF6539C5B2"
+    },
+    "unchanged": true
+  },
+  "outputs": {
+    "JaDStep": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.step",
+    "JfDStep": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.step",
+    "JaDStl": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JaD.stl",
+    "JfDStl": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_JfD.stl",
+    "combinedStep": "build123d_workbench/out/print_ready_frozen_exterior/ONEGRIP_PRINT_EXTERIOR_COMBINED_REFERENCE.step",
+    "json": "build123d_workbench/out/print_ready_frozen_exterior/print_ready_frozen_exterior_validation.json",
+    "report": "docs/96_print_ready_frozen_exterior_recovery_export.md",
+    "renders": [
+      "renders/print_ready_frozen_exterior/01_jad_exterior_overall.png",
+      "renders/print_ready_frozen_exterior/02_jfd_exterior_overall.png",
+      "renders/print_ready_frozen_exterior/03_assembled_exterior_overall.png",
+      "renders/print_ready_frozen_exterior/04_thumb_joy_t1_t8_openings.png",
+      "renders/print_ready_frozen_exterior/05_thumb_opposite_angle_through_openings.png",
+      "renders/print_ready_frozen_exterior/06_finger_8_opening_overview.png",
+      "renders/print_ready_frozen_exterior/07_jad_jfd_vertical_seam.png",
+      "renders/print_ready_frozen_exterior/08_interior_openings_are_holes.png"
+    ],
+    "productionOverwriteCount": 0
+  }
+}

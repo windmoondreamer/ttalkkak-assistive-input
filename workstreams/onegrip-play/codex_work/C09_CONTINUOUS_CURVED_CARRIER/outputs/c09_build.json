@@ -1,0 +1,310 @@
+{
+  "candidate": "C09_CONTINUOUS_CURVED_CARRIER_THUMB_CORE",
+  "architecture": "continuous curved ladder under-carrier + 8 upward supports + frozen flat seats",
+  "gateCases": {
+    "T2": {
+      "volumeMm3": 391.7166918710337,
+      "faces": 47,
+      "valid": true,
+      "solids": 1,
+      "role": "EASY"
+    },
+    "T8": {
+      "volumeMm3": 355.41551293991535,
+      "faces": 44,
+      "valid": true,
+      "solids": 1,
+      "role": "HARD"
+    }
+  },
+  "carrier": {
+    "longitudinalRails": 3,
+    "broadCrossTies": 3,
+    "railWidthMm": 4.4,
+    "railThicknessMm": 2.2,
+    "crossTieWidthMm": 4.6,
+    "crossTieThicknessMm": 2.2,
+    "curveX": [
+      -43.0,
+      -40.0,
+      -36.0,
+      -31.0,
+      -26.0,
+      -21.0,
+      -16.0
+    ],
+    "curveZ": [
+      -13.15,
+      -12.82,
+      -12.05,
+      -10.85,
+      -9.95,
+      -9.15,
+      -8.55
+    ]
+  },
+  "seats": {
+    "T1": {
+      "plateTopWorld": [
+        9.838595974837128,
+        10.543379606238103,
+        17.773187957119767
+      ],
+      "axisWorld": [
+        0.10610574067594872,
+        0.6894150077685794,
+        0.7165532212327693
+      ],
+      "joyFrameXYZ": [
+        -40.59245311646871,
+        10.060726489450765,
+        -8.846002211750289
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -12.885169842811559
+    },
+    "T2": {
+      "plateTopWorld": [
+        -0.2379766428436476,
+        4.055990373605669,
+        26.146320533230806
+      ],
+      "axisWorld": [
+        0.00011005948943425255,
+        0.6529192947572883,
+        0.7574274766738754
+      ],
+      "joyFrameXYZ": [
+        -30.38396115525191,
+        -0.016359751131120016,
+        -6.022545342972539
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -10.739113007945344
+    },
+    "T3": {
+      "plateTopWorld": [
+        -10.33752079162284,
+        10.523746147511082,
+        17.790355615427526
+      ],
+      "axisWorld": [
+        -0.10610916144120486,
+        0.689444148690552,
+        0.7165246762635635
+      ],
+      "joyFrameXYZ": [
+        -40.56644947798165,
+        -10.115390307640837,
+        -8.847668322196892
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -12.882309442577982
+    },
+    "T4": {
+      "plateTopWorld": [
+        10.591614599747889,
+        3.605126223680812,
+        25.619788040846693
+      ],
+      "axisWorld": [
+        0.0975379415068025,
+        0.6543290010864593,
+        0.7498932646075788
+      ],
+      "joyFrameXYZ": [
+        -30.337887582699686,
+        10.813357093184782,
+        -6.712234930172257
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -10.730819764885943
+    },
+    "T5": {
+      "plateTopWorld": [
+        -0.2514130767777188,
+        11.626208035612006,
+        18.075703959077156
+      ],
+      "axisWorld": [
+        0.00011005948943406525,
+        0.6529192947572139,
+        0.7574274766739397
+      ],
+      "joyFrameXYZ": [
+        -41.27888319800507,
+        -0.029444321483646913,
+        -7.957417522539747
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -12.960677151780558
+    },
+    "T6": {
+      "plateTopWorld": [
+        -11.080894535921413,
+        3.5861545741401004,
+        25.622514069018806
+      ],
+      "axisWorld": [
+        -0.09733084977925645,
+        0.6538982607470087,
+        0.7502957885216235
+      ],
+      "joyFrameXYZ": [
+        -30.321057357934787,
+        -10.859150016429215,
+        -6.725346667299472
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -10.72779032442826
+    },
+    "T7": {
+      "plateTopWorld": [
+        7.9150606026389,
+        -4.6637731286527675,
+        34.85569471959739
+      ],
+      "axisWorld": [
+        0.02222463498719436,
+        0.616872395269655,
+        0.7867493333673469
+      ],
+      "joyFrameXYZ": [
+        -18.185813835760555,
+        8.136357551382867,
+        -4.262462067395067
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -8.812297660291268
+    },
+    "T8": {
+      "plateTopWorld": [
+        -8.37763703431566,
+        -4.675049745532799,
+        34.86040517292659
+      ],
+      "axisWorld": [
+        -0.021908794082782287,
+        0.616841033796886,
+        0.7867827805476092
+      ],
+      "joyFrameXYZ": [
+        -18.17396064989731,
+        -8.156339275094929,
+        -4.26840026146526
+      ],
+      "capUndersideToSeatMm": 4.759,
+      "seatThicknessMm": 2.6,
+      "supportXYMm": 7.0,
+      "carrierCentreZMm": -8.810875277987678
+    }
+  },
+  "joystick": {
+    "axisWorld": [
+      0.0001818537687494954,
+      0.5984933689760226,
+      0.8011277390160307
+    ],
+    "originWorld": [
+      -0.2205216694149583,
+      -16.6809924599881,
+      49.15574585887973
+    ],
+    "deckTopZ": -18.669481160789424,
+    "deckBottomZ": -21.669481160789424,
+    "deckThicknessMm": 3.0,
+    "apertureDiameterMm": 12.0,
+    "deckRadiusMm": [
+      13.513351723528537,
+      24.704530482934093
+    ],
+    "deckTopBelowSkinMm": 23.993
+  },
+  "keepoutRemovedMm3": {
+    "N1_N2_SHARED_CARRIER": 0.0,
+    "ORIGINAL_SCREW_1": 0.0,
+    "ORIGINAL_SCREW_2": 12.431778612656672,
+    "ORIGINAL_SCREW_3": 0.0
+  },
+  "shellRemovedMm3": 66.71716471602394,
+  "droppedFragmentsMm3": [
+    16.862541078498797,
+    0.11933952272777859,
+    0.07551119520692338
+  ],
+  "volumeMm3": 6047.07478179015,
+  "faces": 372,
+  "solids": 1,
+  "valid": true,
+  "memory": [
+    {
+      "stage": "shell authority",
+      "rssMb": 472.2,
+      "availMb": 20767.8
+    },
+    {
+      "stage": "gate build T2",
+      "rssMb": 485.2,
+      "availMb": 20779.8
+    },
+    {
+      "stage": "gate build T8",
+      "rssMb": 485.3,
+      "availMb": 20977.1
+    },
+    {
+      "stage": "full seat T1",
+      "rssMb": 489.5,
+      "availMb": 20786.2
+    },
+    {
+      "stage": "full seat T2",
+      "rssMb": 485.9,
+      "availMb": 20787.7
+    },
+    {
+      "stage": "full seat T3",
+      "rssMb": 484.6,
+      "availMb": 20771.4
+    },
+    {
+      "stage": "full seat T4",
+      "rssMb": 511.2,
+      "availMb": 20753.5
+    },
+    {
+      "stage": "full seat T5",
+      "rssMb": 511.5,
+      "availMb": 20745.8
+    },
+    {
+      "stage": "full seat T6",
+      "rssMb": 513.3,
+      "availMb": 20738.3
+    },
+    {
+      "stage": "full seat T7",
+      "rssMb": 513.4,
+      "availMb": 20729.9
+    },
+    {
+      "stage": "full seat T8",
+      "rssMb": 513.4,
+      "availMb": 20737.3
+    }
+  ]
+}

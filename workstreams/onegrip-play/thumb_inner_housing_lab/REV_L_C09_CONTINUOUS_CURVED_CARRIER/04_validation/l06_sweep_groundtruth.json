@@ -1,0 +1,52 @@
+{
+  "method": "full docs/101 shells, no crop, 1.0 mm steps",
+  "sweeps": {
+    "+U vs JaD": {
+      "peakMm3": 836.4656095966033,
+      "totalMm3": 14564.01304131162,
+      "obstructedSteps": 25,
+      "freeFromMm": null
+    },
+    "+U vs JfD": {
+      "peakMm3": 98.90522023798378,
+      "totalMm3": 781.2153591082864,
+      "obstructedSteps": 17,
+      "freeFromMm": 18.0
+    },
+    "-U vs JaD": {
+      "peakMm3": 93.95278442456926,
+      "totalMm3": 620.0009934437494,
+      "obstructedSteps": 17,
+      "freeFromMm": 18.0
+    },
+    "-U vs JfD": {
+      "peakMm3": 840.679629873041,
+      "totalMm3": 14040.542692853205,
+      "obstructedSteps": 25,
+      "freeFromMm": null
+    }
+  },
+  "viablePaths": [],
+  "memory": [
+    {
+      "stage": "+U JaD",
+      "rssMb": 558.1,
+      "availMb": 22929.1
+    },
+    {
+      "stage": "+U JfD",
+      "rssMb": 726.1,
+      "availMb": 22823.2
+    },
+    {
+      "stage": "-U JaD",
+      "rssMb": 723.9,
+      "availMb": 22856.3
+    },
+    {
+      "stage": "-U JfD",
+      "rssMb": 841.3,
+      "availMb": 22545.8
+    }
+  ]
+}

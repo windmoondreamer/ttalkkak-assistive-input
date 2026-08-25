@@ -1,0 +1,1471 @@
+{
+  "schema": "onegrip-direct-embedded-final-candidate-v1",
+  "generatedAtUtc": "2026-08-25T11:51:20.161392+00:00",
+  "summary": {
+    "verdict": "B — 8/8 CREATED, MINOR PRINT/FIT EXCEPTIONS",
+    "trueBareLower15BaseUsed": true,
+    "actuatorHoles": 8,
+    "directSwitchPockets": 8,
+    "actuatorOnlyExposure": 8,
+    "buttonCentersChanged": 0,
+    "pressAxesChanged": 0,
+    "bodyOutsideFailures": 0,
+    "actualSwitchCollisions": 0,
+    "projectionRangeMm": [
+      0.6729910814955737,
+      1.2
+    ],
+    "tightestSwitchClearanceMm": 0.6556515058795416,
+    "tightestPocketRoofMm": 0.8,
+    "preferredRoofPassCount": 0,
+    "n2SeamResult": "SIMPLE JaD/JfD SPLIT POCKET",
+    "harness": 0,
+    "legs": 0,
+    "pushers": 0,
+    "externalCaps": 0,
+    "epoxyFixationAssumed": true
+  },
+  "authority": {
+    "base": {
+      "JaD": {
+        "path": "build123d_workbench/out/lower15_true_bare_finger_base/LOWER15_TRUE_BARE_FINGER_JaD.step",
+        "sha256": "900747604044AC3510BF5E9962AC0C66799ECBBF0FF10492117B7EBF891FB8DA"
+      },
+      "JfD": {
+        "path": "build123d_workbench/out/lower15_true_bare_finger_base/LOWER15_TRUE_BARE_FINGER_JfD.step",
+        "sha256": "CD70562A68DE3C9C37D67405F58BE308DFAAF2F60EF3D0F759C7F5AC6F070F64"
+      }
+    },
+    "datumManifest": {
+      "path": "build123d_workbench/out/lower15_true_bare_finger_base/finger_button_frozen_datums.json",
+      "sha256": "4B50B6BFBE73A5914054314626399B0BB907536827DD6EE66D0076A487253E8C"
+    },
+    "detailedPushBtn": {
+      "path": "cad_dump/mesh_PushBtn.json",
+      "sha256": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7",
+      "facetCount": 3530
+    },
+    "docs79To99GeometryTransferred": false
+  },
+  "architecture": {
+    "actuatorDiameterMm": 3.35,
+    "actuatorProjectionFromBodyMm": 2.44,
+    "holeDiameterMm": 3.65,
+    "diametralClearanceMm": 0.2999999999999998,
+    "radialClearanceMm": 0.1499999999999999,
+    "bodyPocketClearancePerSideMm": 0.2,
+    "epoxyFixation": true,
+    "preSolderRecommended": true
+  },
+  "depthSolutions": {
+    "I2": {
+      "surfaceDepthMm": 0.0,
+      "centerHitsWmm": [
+        0.0,
+        3.0035197524701402
+      ],
+      "frontDepthMm": 1.4542043230309745,
+      "actuatorProjectionMm": 0.9857956769690255,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 0.8,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.019218497189944728,
+        0.6542043230309744
+      ],
+      "minimumOriginalHoleRimThicknessMm": 3.0008127216951905,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    },
+    "I3": {
+      "surfaceDepthMm": 5.329070518200751e-15,
+      "centerHitsWmm": [
+        5.329070518200751e-15,
+        3.003330723220806
+      ],
+      "frontDepthMm": 1.4480783424772803,
+      "actuatorProjectionMm": 0.991921657522725,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 0.8,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.1098845355855218,
+        0.6480783424772802
+      ],
+      "minimumOriginalHoleRimThicknessMm": 3.0012039093611236,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    },
+    "I4": {
+      "surfaceDepthMm": 1.7763568394002505e-15,
+      "centerHitsWmm": [
+        1.7763568394002505e-15,
+        3.000002284808609
+      ],
+      "frontDepthMm": 1.5639511038675906,
+      "actuatorProjectionMm": 0.8760488961324111,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 0.8,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.00436936684645417,
+        0.7639511038675906
+      ],
+      "minimumOriginalHoleRimThicknessMm": 3.0004493328167143,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    },
+    "M3": {
+      "surfaceDepthMm": 0.0,
+      "centerHitsWmm": [
+        0.0,
+        2.999864104699615
+      ],
+      "frontDepthMm": 1.24,
+      "actuatorProjectionMm": 1.2,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 1.020389438356769,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.057506614416963586,
+        0.2196105616432309
+      ],
+      "minimumOriginalHoleRimThicknessMm": 3.000405626111089,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    },
+    "M4": {
+      "surfaceDepthMm": 0.0,
+      "centerHitsWmm": [
+        0.0,
+        3.005629398490967
+      ],
+      "frontDepthMm": 1.2445710242461179,
+      "actuatorProjectionMm": 1.195428975753882,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 0.8,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.14520261467542994,
+        0.44457102424611783
+      ],
+      "minimumOriginalHoleRimThicknessMm": 2.9999952738600975,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    },
+    "N1": {
+      "surfaceDepthMm": 0.06947843615188454,
+      "centerHitsWmm": [
+        0.06947843615188454,
+        3.0694350694757553
+      ],
+      "frontDepthMm": 1.3094784361518845,
+      "actuatorProjectionMm": 1.2,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 1.0343177191603112,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.006855149013260231,
+        0.2751607169915733
+      ],
+      "minimumOriginalHoleRimThicknessMm": 3.0001215385481395,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    },
+    "N2": {
+      "surfaceDepthMm": 0.0063100869673178295,
+      "centerHitsWmm": [
+        0.0063100869673178295,
+        3.0067819498364727
+      ],
+      "frontDepthMm": 1.2463100869673178,
+      "actuatorProjectionMm": 1.2,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 1.197251288804395,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.3133560549789056,
+        0.04905879816292291
+      ],
+      "minimumOriginalHoleRimThicknessMm": 2.9651527030859466,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    },
+    "N3": {
+      "surfaceDepthMm": 0.0014472392837880932,
+      "centerHitsWmm": [
+        0.0014472392837880932,
+        3.016360120223176
+      ],
+      "frontDepthMm": 1.7684561577882143,
+      "actuatorProjectionMm": 0.6729910814955737,
+      "targetProjectionMm": 1.2,
+      "minimumPocketRoofMm": 0.8,
+      "preferredRoofPass": false,
+      "practicalRoofPass": true,
+      "footprintSampleCount": 49,
+      "footprintOuterDepthRangeMm": [
+        -0.13641480820210639,
+        0.9684561577882143
+      ],
+      "minimumOriginalHoleRimThicknessMm": 3.000044064218562,
+      "rimSampleCount": 32,
+      "bodyOutsideAnalytical": false
+    }
+  },
+  "cut": {
+    "holeCutVolumeBySideButtonMm3": {
+      "JaD": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 32.57672655774513,
+        "M3": 0.0,
+        "M4": 31.45360700308811,
+        "N1": 0.0,
+        "N2": 15.763221157540102,
+        "N3": 31.64329413714586
+      },
+      "JfD": {
+        "I2": 33.51222148195666,
+        "I3": 31.483928916924924,
+        "I4": 0.0,
+        "M3": 31.519956172807724,
+        "M4": 0.0,
+        "N1": 31.39328291585116,
+        "N2": 11.585821541098994,
+        "N3": 0.0
+      }
+    },
+    "pocketCutVolumeBySideButtonMm3": {
+      "JaD": {
+        "I2": 0.0,
+        "I3": 0.0,
+        "I4": 38.134268853245885,
+        "M3": 0.0,
+        "M4": 37.26022454741906,
+        "N1": 0.0,
+        "N2": 21.745522502053063,
+        "N3": 23.32853700868145
+      },
+      "JfD": {
+        "I2": 38.71076491146232,
+        "I3": 36.943379837903194,
+        "I4": 0.0,
+        "M3": 36.11008523023338,
+        "M4": 0.0,
+        "N1": 45.38564170891186,
+        "N2": 17.74928811542486,
+        "N3": 0.0
+      }
+    },
+    "discardedDetachedFragmentsMm3": {
+      "JaD": [],
+      "JfD": []
+    }
+  },
+  "validation": {
+    "buttons": {
+      "I2": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 0.9857956769690255,
+        "minimumPocketRoofMm": 0.8,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 8.844445954116111,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 33.51222148195666,
+        "pocketCutVolumeMm3": 38.71076491146232,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "NOT APPLICABLE",
+        "result": "PASS"
+      },
+      "I3": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 0.991921657522725,
+        "minimumPocketRoofMm": 0.8,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 0.6484822985614195,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 31.483928916924924,
+        "pocketCutVolumeMm3": 36.943379837903194,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "NOT APPLICABLE",
+        "result": "PASS"
+      },
+      "I4": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 0.8760488961324111,
+        "minimumPocketRoofMm": 0.8,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 0.9290234266385756,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 32.57672655774513,
+        "pocketCutVolumeMm3": 38.134268853245885,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "NOT APPLICABLE",
+        "result": "PASS"
+      },
+      "M3": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 1.2,
+        "minimumPocketRoofMm": 1.020389438356769,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 1.2049625723256119,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 31.519956172807724,
+        "pocketCutVolumeMm3": 36.11008523023338,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "NOT APPLICABLE",
+        "result": "PASS"
+      },
+      "M4": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 1.195428975753882,
+        "minimumPocketRoofMm": 0.8,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 1.3370056667988117,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 31.45360700308811,
+        "pocketCutVolumeMm3": 37.26022454741906,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "NOT APPLICABLE",
+        "result": "PASS"
+      },
+      "N1": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 1.2,
+        "minimumPocketRoofMm": 1.0343177191603112,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 6.187440248238666,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 31.39328291585116,
+        "pocketCutVolumeMm3": 45.38564170891186,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "NOT APPLICABLE",
+        "result": "PASS"
+      },
+      "N2": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 1.2,
+        "minimumPocketRoofMm": 1.197251288804395,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 0.2,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 27.349042698639096,
+        "pocketCutVolumeMm3": 39.494810617477924,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "SIMPLE JaD/JfD SPLIT POCKET",
+        "result": "PASS"
+      },
+      "N3": {
+        "centerDeltaMm": 0.0,
+        "axisVectorDelta": 0.0,
+        "centerUnchanged": true,
+        "axisUnchanged": true,
+        "actuatorHoleDiameterMm": 3.65,
+        "actuatorProjectionMm": 0.6729910814955737,
+        "minimumPocketRoofMm": 0.8,
+        "preferredRoofPass": false,
+        "practicalRoofPass": true,
+        "bodyOutside": false,
+        "bodyShellPenetrationMm3": 0.0,
+        "actuatorShellPenetrationMm3": 0.0,
+        "completeSwitchToNonTargetShellDistanceMm": 8.544642036416116,
+        "shellClearanceProof": "source-faithful clearance cutter containment + opposite-half audit",
+        "holeCutVolumeMm3": 31.64329413714586,
+        "pocketCutVolumeMm3": 23.32853700868145,
+        "terminalAccess": {
+          "T2": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T1": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T4": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          },
+          "T3": {
+            "shellPenetrationMm3": 0.0,
+            "accessible": true,
+            "accessMode": "rear-open channel; pre-solder preferred"
+          }
+        },
+        "allTerminalsAccessible": true,
+        "switchCollisions": [],
+        "N2SeamResult": "NOT APPLICABLE",
+        "result": "PASS"
+      }
+    },
+    "pairs": [
+      {
+        "pair": "I2-I3",
+        "switch": {
+          "distanceMm": 0.6556515058795416,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 0.6556515058795416,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 0.0,
+          "possibleConnectedRelief": true
+        },
+        "pocketOverlapAllowed": true
+      },
+      {
+        "pair": "I2-I4",
+        "switch": {
+          "distanceMm": 10.818005776836745,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 10.818005776836745,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 8.408589092595983,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I2-M3",
+        "switch": {
+          "distanceMm": 11.09991829329168,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 11.09991829329168,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 8.209206657452832,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I2-M4",
+        "switch": {
+          "distanceMm": 15.678552215337213,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 15.678552215337213,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 11.135694090446682,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I2-N1",
+        "switch": {
+          "distanceMm": 7.285484113913837,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 7.285484113913837,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 5.009968551968946,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I2-N2",
+        "switch": {
+          "distanceMm": 9.328673221905891,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 9.328673221905891,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 6.206759430737973,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I2-N3",
+        "switch": {
+          "distanceMm": 23.148497586550814,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 23.148497586550814,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 17.4097806383925,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I3-I4",
+        "switch": {
+          "distanceMm": 2.6220421212820524,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 2.6220421212820524,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 1.4937648869442826,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I3-M3",
+        "switch": {
+          "distanceMm": 11.743814750129253,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 11.743814750129253,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 8.391319782689322,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I3-M4",
+        "switch": {
+          "distanceMm": 12.019720153280877,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 12.019720153280877,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 8.230306723856001,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I3-N1",
+        "switch": {
+          "distanceMm": 9.29945495522453,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 9.29945495522453,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 7.522380599635342,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I3-N2",
+        "switch": {
+          "distanceMm": 9.26262288194636,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 9.26262288194636,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 7.611342251166446,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I3-N3",
+        "switch": {
+          "distanceMm": 18.870592913704815,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 18.870592913704815,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 13.890529076992095,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I4-M3",
+        "switch": {
+          "distanceMm": 12.217322150415143,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 12.217322150415143,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 8.567745963627127,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I4-M4",
+        "switch": {
+          "distanceMm": 11.683957700014895,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 11.683957700014895,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 8.24668042531904,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I4-N1",
+        "switch": {
+          "distanceMm": 12.394744194290334,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 12.394744194290334,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 10.341049725456386,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I4-N2",
+        "switch": {
+          "distanceMm": 9.292035032844431,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 9.292035032844431,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 7.649059144030442,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "I4-N3",
+        "switch": {
+          "distanceMm": 15.891187639371257,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 15.891187639371257,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 11.996788695594807,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "M3-M4",
+        "switch": {
+          "distanceMm": 3.586504635206481,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 3.586504635206481,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 0.7470579670379303,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "M3-N1",
+        "switch": {
+          "distanceMm": 29.495471167210564,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 29.495471167210564,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 26.2759689699701,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "M3-N2",
+        "switch": {
+          "distanceMm": 29.530410896777145,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 29.530410896777145,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 26.42400097255033,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "M3-N3",
+        "switch": {
+          "distanceMm": 10.794141004823786,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 10.794141004823786,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 7.005886408337456,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "M4-N1",
+        "switch": {
+          "distanceMm": 30.604950067789947,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 30.604950067789947,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 26.84292668255209,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "M4-N2",
+        "switch": {
+          "distanceMm": 29.416899276099986,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 29.416899276099986,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 26.22303219111367,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "M4-N3",
+        "switch": {
+          "distanceMm": 0.8691884569927955,
+          "distanceBasis": "exact BRep",
+          "aabbLowerBoundMm": 0.0,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 0.0,
+          "possibleConnectedRelief": true
+        },
+        "pocketOverlapAllowed": true
+      },
+      {
+        "pair": "N1-N2",
+        "switch": {
+          "distanceMm": 3.215062726531393,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 3.215062726531393,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 2.1860992901853358,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "N1-N3",
+        "switch": {
+          "distanceMm": 36.4251509313413,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 36.4251509313413,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 31.910535371198787,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      },
+      {
+        "pair": "N2-N3",
+        "switch": {
+          "distanceMm": 33.277690446744685,
+          "distanceBasis": "conservative AABB lower bound",
+          "aabbLowerBoundMm": 33.277690446744685,
+          "penetrationMm3": 0.0,
+          "collision": false
+        },
+        "pocket": {
+          "aabbLowerBoundMm": 29.542480430210407,
+          "possibleConnectedRelief": false
+        },
+        "pocketOverlapAllowed": false
+      }
+    ],
+    "tightestSwitchPair": {
+      "pair": "I2-I3",
+      "switch": {
+        "distanceMm": 0.6556515058795416,
+        "distanceBasis": "conservative AABB lower bound",
+        "aabbLowerBoundMm": 0.6556515058795416,
+        "penetrationMm3": 0.0,
+        "collision": false
+      },
+      "pocket": {
+        "aabbLowerBoundMm": 0.0,
+        "possibleConnectedRelief": true
+      },
+      "pocketOverlapAllowed": true
+    },
+    "i2I3": {
+      "pair": "I2-I3",
+      "switch": {
+        "distanceMm": 0.6556515058795416,
+        "distanceBasis": "conservative AABB lower bound",
+        "aabbLowerBoundMm": 0.6556515058795416,
+        "penetrationMm3": 0.0,
+        "collision": false
+      },
+      "pocket": {
+        "aabbLowerBoundMm": 0.0,
+        "possibleConnectedRelief": true
+      },
+      "pocketOverlapAllowed": true
+    },
+    "m4N3": {
+      "pair": "M4-N3",
+      "switch": {
+        "distanceMm": 0.8691884569927955,
+        "distanceBasis": "exact BRep",
+        "aabbLowerBoundMm": 0.0,
+        "penetrationMm3": 0.0,
+        "collision": false
+      },
+      "pocket": {
+        "aabbLowerBoundMm": 0.0,
+        "possibleConnectedRelief": true
+      },
+      "pocketOverlapAllowed": true
+    },
+    "splitIntersectionMm3": 0.0
+  },
+  "thumbAfterCut": {
+    "passCount": 9,
+    "controls": {
+      "JOY": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 173.2275,
+        "sampledCentroidLocalXYmm": [
+          0.21769710351996427,
+          1.0156643719963916
+        ],
+        "sampledCentroidOffsetMm": 1.0387329519293236,
+        "boundaryPointCount": 394,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T1": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 48.1275,
+        "sampledCentroidLocalXYmm": [
+          -0.04053295932676241,
+          -0.24144460028047948
+        ],
+        "sampledCentroidOffsetMm": 0.24482323377568863,
+        "boundaryPointCount": 206,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T2": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 63.2025,
+        "sampledCentroidLocalXYmm": [
+          0.2500000000000267,
+          0.1000000000000263
+        ],
+        "sampledCentroidOffsetMm": 0.26925824035675977,
+        "boundaryPointCount": 208,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T3": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 48.105,
+        "sampledCentroidLocalXYmm": [
+          0.5501403180542837,
+          -0.22897567820390338
+        ],
+        "sampledCentroidOffsetMm": 0.5958894450800466,
+        "boundaryPointCount": 206,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T4": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 62.144999999999996,
+        "sampledCentroidLocalXYmm": [
+          -0.20141202027513713,
+          0.10016292541639124
+        ],
+        "sampledCentroidOffsetMm": 0.2249431340123139,
+        "boundaryPointCount": 208,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T5": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 63.2025,
+        "sampledCentroidLocalXYmm": [
+          0.2500000000000267,
+          0.1000000000000263
+        ],
+        "sampledCentroidOffsetMm": 0.26925824035675977,
+        "boundaryPointCount": 208,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T6": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 62.144999999999996,
+        "sampledCentroidLocalXYmm": [
+          0.6646994931209546,
+          0.09592686459090245
+        ],
+        "sampledCentroidOffsetMm": 0.6715857201470973,
+        "boundaryPointCount": 208,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T7": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 68.4225,
+        "sampledCentroidLocalXYmm": [
+          0.12629069385073324,
+          0.2205031239724041
+        ],
+        "sampledCentroidOffsetMm": 0.2541081797874461,
+        "boundaryPointCount": 222,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      },
+      "T8": {
+        "throughOpeningExists": true,
+        "axisColumnOpen": true,
+        "sampledOpenAreaMm2": 67.005,
+        "sampledCentroidLocalXYmm": [
+          0.31331430490264617,
+          0.24073203492279355
+        ],
+        "sampledCentroidOffsetMm": 0.39511740824050945,
+        "boundaryPointCount": 220,
+        "rayPitchMm": 0.15,
+        "wallBandAlongAxisMm": [
+          -8.0,
+          26.0
+        ]
+      }
+    }
+  },
+  "manufacturing": {
+    "native": {
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2324,
+        "edgeCount": 6890,
+        "vertexCount": 4594,
+        "volumeMm3": 46343.03198370235,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -0.5222681980410288,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            38.77976975434524,
+            62.428314495976565,
+            78.25678350406848
+          ],
+          "size": [
+            39.302037952386264,
+            123.86025862084132,
+            152.13529205266929
+          ]
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2965,
+        "edgeCount": 8795,
+        "vertexCount": 5864,
+        "volumeMm3": 47534.12901552759,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -38.77976975434524,
+            -61.431944124864756,
+            -73.87850854860079
+          ],
+          "max": [
+            0.5222681980410288,
+            62.42831449419311,
+            78.2567835040506
+          ],
+          "size": [
+            39.302037952386264,
+            123.86025861905787,
+            152.13529205265138
+          ]
+        }
+      }
+    },
+    "reimport": {
+      "JaD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2324,
+        "edgeCount": 6890,
+        "vertexCount": 4594,
+        "volumeMm3": 46342.9465529743,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -0.5221772473065924,
+            -61.43194412485939,
+            -73.8785085486
+          ],
+          "max": [
+            38.77976975434534,
+            62.428314495976885,
+            78.25678350406862
+          ],
+          "size": [
+            39.30194700165193,
+            123.86025862083628,
+            152.1352920526686
+          ]
+        }
+      },
+      "JfD": {
+        "valid": true,
+        "solidCount": 1,
+        "shellCount": 1,
+        "faceCount": 2965,
+        "edgeCount": 8795,
+        "vertexCount": 5864,
+        "volumeMm3": 47533.3256540543,
+        "zeroAreaFaceCount": 0,
+        "zeroLengthEdgeCount": 0,
+        "boundingBoxMm": {
+          "min": [
+            -38.77976975433841,
+            -61.4319441248594,
+            -73.8785085486
+          ],
+          "max": [
+            0.5221772473065924,
+            62.42831449420142,
+            78.2567835040506
+          ],
+          "size": [
+            39.301947001645004,
+            123.86025861906083,
+            152.13529205265058
+          ]
+        }
+      }
+    },
+    "stl": {
+      "JaD": {
+        "path": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JaD.stl",
+        "bytes": 1537984,
+        "unit": "millimeter",
+        "triangleCount": 30758,
+        "uniqueVertexCount": 15363,
+        "boundaryEdgeCount": 0,
+        "nonManifoldEdgeCount": 0,
+        "connectedComponentCount": 1,
+        "watertight": true,
+        "boundingBoxMm": {
+          "min": [
+            -1.5493994433811442e-13,
+            -61.429954528808594,
+            -73.87850952148438
+          ],
+          "max": [
+            38.77210998535156,
+            62.427490234375,
+            78.2553939819336
+          ],
+          "size": [
+            38.77210998535172,
+            123.8574447631836,
+            152.13390350341797
+          ]
+        }
+      },
+      "JfD": {
+        "path": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JfD.stl",
+        "bytes": 1623884,
+        "unit": "millimeter",
+        "triangleCount": 32476,
+        "uniqueVertexCount": 16224,
+        "boundaryEdgeCount": 0,
+        "nonManifoldEdgeCount": 0,
+        "connectedComponentCount": 1,
+        "watertight": true,
+        "boundingBoxMm": {
+          "min": [
+            -38.77738952636719,
+            -61.431854248046875,
+            -73.87850952148438
+          ],
+          "max": [
+            1.5493994433811442e-13,
+            62.427490234375,
+            78.25624084472656
+          ],
+          "size": [
+            38.777389526367344,
+            123.85934448242188,
+            152.13475036621094
+          ]
+        }
+      }
+    },
+    "pass": true,
+    "exportedFloatingBodies": {
+      "JaD": 0,
+      "JfD": 0
+    }
+  },
+  "preservation": {
+    "before": {
+      "build123d_workbench/out/lower15_true_bare_finger_base/LOWER15_TRUE_BARE_FINGER_JaD.step": "900747604044AC3510BF5E9962AC0C66799ECBBF0FF10492117B7EBF891FB8DA",
+      "build123d_workbench/out/lower15_true_bare_finger_base/LOWER15_TRUE_BARE_FINGER_JfD.step": "CD70562A68DE3C9C37D67405F58BE308DFAAF2F60EF3D0F759C7F5AC6F070F64",
+      "build123d_workbench/out/lower15_true_bare_finger_base/finger_button_frozen_datums.json": "4B50B6BFBE73A5914054314626399B0BB907536827DD6EE66D0076A487253E8C",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7"
+    },
+    "after": {
+      "build123d_workbench/out/lower15_true_bare_finger_base/LOWER15_TRUE_BARE_FINGER_JaD.step": "900747604044AC3510BF5E9962AC0C66799ECBBF0FF10492117B7EBF891FB8DA",
+      "build123d_workbench/out/lower15_true_bare_finger_base/LOWER15_TRUE_BARE_FINGER_JfD.step": "CD70562A68DE3C9C37D67405F58BE308DFAAF2F60EF3D0F759C7F5AC6F070F64",
+      "build123d_workbench/out/lower15_true_bare_finger_base/finger_button_frozen_datums.json": "4B50B6BFBE73A5914054314626399B0BB907536827DD6EE66D0076A487253E8C",
+      "cad_dump/mesh_PushBtn.json": "D9C7ED740332B636014C56E4BC8874D879704BC73F266F72FAC62667226BE9E7"
+    },
+    "unchanged": true
+  },
+  "outputs": {
+    "JaDStep": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JaD.step",
+    "JfDStep": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JfD.step",
+    "combinedStep": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_COMBINED_REFERENCE.step",
+    "all8SwitchPlacementStep": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ALL8_DETAILED_SWITCH_PLACEMENT.step",
+    "JaDStl": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JaD.stl",
+    "JfDStl": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/ONEGRIP_DIRECT_EMBEDDED_JfD.stl",
+    "json": "build123d_workbench/out/direct_embedded_finger_switch_final_candidate/direct_embedded_finger_switch_final_candidate_validation.json",
+    "report": "docs/101_direct_embedded_finger_switch_final_candidate.md",
+    "renders": [
+      "renders/direct_embedded_finger_switch_final_candidate/01_assembled_exterior_all8_actuator_holes.png",
+      "renders/direct_embedded_finger_switch_final_candidate/02_finger_side_exterior_closeup.png",
+      "renders/direct_embedded_finger_switch_final_candidate/03_opposite_finger_side_exterior_closeup.png",
+      "renders/direct_embedded_finger_switch_final_candidate/04_interior_all8_detailed_switches.png",
+      "renders/direct_embedded_finger_switch_final_candidate/05_representative_socket_without_switch.png",
+      "renders/direct_embedded_finger_switch_final_candidate/06_representative_socket_with_detailed_switch.png",
+      "renders/direct_embedded_finger_switch_final_candidate/07_four_corner_feature_fit_closeup.png",
+      "renders/direct_embedded_finger_switch_final_candidate/08_i2_i3_actual_switch_clearance.png",
+      "renders/direct_embedded_finger_switch_final_candidate/09_n2_simple_seam_split_pocket.png",
+      "renders/direct_embedded_finger_switch_final_candidate/10_section_actuator_only_exterior_exposure.png"
+    ]
+  }
+}
